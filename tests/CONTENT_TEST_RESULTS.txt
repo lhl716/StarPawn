@@ -1,0 +1,30 @@
+PASS all content definitions instantiate with unique physical IDs
+PASS two consecutive misses lock customer and item across reopen and save
+PASS new discovery restores patience but repeated evidence does not
+PASS asset and customer encounter identities cannot be rebound
+PASS normalized art hotspots match inspected plated bracelet and miss empty space
+PASS experience is per physical asset and evidence across buyback
+PASS mastery auto-discovers only current observable view
+PASS crossing mastery discovers current remaining defects atomically
+PASS economic cause deduplication and selection recompute quotes
+PASS gold weight and craft are separate with real recycling floor
+PASS unknown plated truth stays hidden and confirmed fake has no gold floor
+PASS quote stamps invalidate on asset, selected evidence, day and market
+PASS repair preserves identity, deduplicates cost and invalidates valuation
+PASS repair payment failure leaves complete state unchanged
+PASS workshop repair updates art without awarding undiscovered evidence
+PASS silver jewellery and bullion share real material economics
+PASS seeded jade survives save and alternative views with fixed child lineage
+PASS jade processing failures are atomic
+PASS escrow prevents change and sale quotes
+PASS publication work, edition and physical copy stay distinct
+PASS certificates bind scope and asset and invalidate stale quote
+PASS corrupt state, wrong evidence and duplicate native binding fail closed
+PASS overflow cannot partially award evidence or reset patience
+PASS automatic discovery overflow leaves unopened encounter unchanged
+PASS corrupt asset ancestry cycles fail validation
+PASS completed encounter cannot be reused and cannot quote
+PASS content packs reject missing art, duplicate IDs, absent text keys and bad geometry
+PASS rules configure level thresholds and protect the mandated two-miss limit
+PASS localization uses stable keys and one-pass inline substitution without gameplay changes
+CONTENT TESTS PASSED: 29

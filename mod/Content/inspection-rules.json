@@ -1,0 +1,18 @@
+{
+  "SchemaVersion": 1,
+  "LevelThresholds": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "ExperiencePerDiscovery": 10,
+  "ConsecutiveMissLimit": 2,
+  "HitToleranceUv": 0,
+  "MarkerScale": 1,
+  "MaximumHotspotsPerDefinition": 32,
+  "ResalePriceBasisPoints": 8500,
+  "CertificateFee": 25
+}

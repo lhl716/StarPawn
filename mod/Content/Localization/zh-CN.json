@@ -1,0 +1,3746 @@
+{
+  "SchemaVersion": 1,
+  "Language": "zh-CN",
+  "Entries": [
+    {
+      "Key": "ui.fc78ff0b",
+      "Source": "师傅完成了整件检修，可修的损伤已处理。重新看看现在的品相吧。",
+      "Text": "师傅完成了整件检修，可修的损伤已处理。重新看看现在的品相吧。"
+    },
+    {
+      "Key": "ui.11fe56f4",
+      "Source": "师傅磨开一角，灯下露出石料内部的颜色和纹理。",
+      "Text": "师傅磨开一角，灯下露出石料内部的颜色和纹理。"
+    },
+    {
+      "Key": "ui.05cbb1d1",
+      "Source": "师傅收好余料，将 ",
+      "Text": "师傅收好余料，将 "
+    },
+    {
+      "Key": "ui.718e23b2",
+      "Source": " 件打磨好的成品放在了柜台上。",
+      "Text": " 件打磨好的成品放在了柜台上。"
+    },
+    {
+      "Key": "content.gold_bracelet.name",
+      "Source": "星环足金手镯",
+      "Text": "星环足金手镯"
+    },
+    {
+      "Key": "content.gold_bracelet.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.gold_bracelet_worn.name",
+      "Source": "星环足金手镯",
+      "Text": "星环足金手镯"
+    },
+    {
+      "Key": "content.gold_bracelet_worn.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.gold_bracelet_worn.surface_wear",
+      "Source": "表面磨损",
+      "Text": "表面磨损"
+    },
+    {
+      "Key": "evidence.gold_bracelet_worn.surface_seam",
+      "Source": "接缝刮痕",
+      "Text": "接缝刮痕"
+    },
+    {
+      "Key": "evidence.gold_bracelet_worn.clasp_break",
+      "Source": "搭扣断裂",
+      "Text": "搭扣断裂"
+    },
+    {
+      "Key": "content.gold_bracelet_plated.name",
+      "Source": "星环足金手镯",
+      "Text": "星环足金手镯"
+    },
+    {
+      "Key": "content.gold_bracelet_plated.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.gold_bracelet_plated.plating_edge",
+      "Source": "镀层露底",
+      "Text": "镀层露底"
+    },
+    {
+      "Key": "evidence.gold_bracelet_plated.plating_seam",
+      "Source": "接缝露底",
+      "Text": "接缝露底"
+    },
+    {
+      "Key": "evidence.gold_bracelet_plated.clasp_break",
+      "Source": "搭扣断裂",
+      "Text": "搭扣断裂"
+    },
+    {
+      "Key": "content.gold_bar.name",
+      "Source": "星港认证金条 · 50 克",
+      "Text": "星港认证金条 · 50 克"
+    },
+    {
+      "Key": "content.gold_bar.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.gold_bar_suspect.name",
+      "Source": "星港认证金条 · 50 克",
+      "Text": "星港认证金条 · 50 克"
+    },
+    {
+      "Key": "content.gold_bar_suspect.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.gold_bar_suspect.bar_seam",
+      "Source": "封边露出异色内芯",
+      "Text": "封边露出异色内芯"
+    },
+    {
+      "Key": "evidence.gold_bar_suspect.bar_stamp",
+      "Source": "压印边缘异常",
+      "Text": "压印边缘异常"
+    },
+    {
+      "Key": "content.silver_cup.name",
+      "Source": "月港银杯",
+      "Text": "月港银杯"
+    },
+    {
+      "Key": "content.silver_cup.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.silver_cup_worn.name",
+      "Source": "月港银杯",
+      "Text": "月港银杯"
+    },
+    {
+      "Key": "content.silver_cup_worn.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.silver_cup_worn.cup_dent",
+      "Source": "杯壁凹陷",
+      "Text": "杯壁凹陷"
+    },
+    {
+      "Key": "content.silver_bracelet.name",
+      "Source": "月轨银手镯",
+      "Text": "月轨银手镯"
+    },
+    {
+      "Key": "content.silver_bracelet.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.silver_bracelet_worn.name",
+      "Source": "月轨银手镯",
+      "Text": "月轨银手镯"
+    },
+    {
+      "Key": "content.silver_bracelet_worn.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.silver_bracelet_worn.silver_clasp",
+      "Source": "银镯搭扣裂损",
+      "Text": "银镯搭扣裂损"
+    },
+    {
+      "Key": "content.silver_bar.name",
+      "Source": "月港认证银条 · 100 克",
+      "Text": "月港认证银条 · 100 克"
+    },
+    {
+      "Key": "content.silver_bar.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.silver_bar_suspect.name",
+      "Source": "月港认证银条 · 100 克",
+      "Text": "月港认证银条 · 100 克"
+    },
+    {
+      "Key": "content.silver_bar_suspect.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.silver_bar_suspect.silver_bar_seam",
+      "Source": "镀银封边露出铜色内芯",
+      "Text": "镀银封边露出铜色内芯"
+    },
+    {
+      "Key": "content.jade_rough.name",
+      "Source": "青岚原石",
+      "Text": "青岚原石"
+    },
+    {
+      "Key": "content.jade_rough.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.jade_rough_cracked.name",
+      "Source": "青岚原石",
+      "Text": "青岚原石"
+    },
+    {
+      "Key": "content.jade_rough_cracked.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.jade_rough_cracked.rough_crack",
+      "Source": "皮壳裂隙",
+      "Text": "皮壳裂隙"
+    },
+    {
+      "Key": "evidence.jade_rough_cracked.window_crack",
+      "Source": "开窗处延伸裂纹",
+      "Text": "开窗处延伸裂纹"
+    },
+    {
+      "Key": "content.jade_pendant.name",
+      "Source": "青岚玉佩",
+      "Text": "青岚玉佩"
+    },
+    {
+      "Key": "content.jade_pendant.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.jade_pendant_dyed.name",
+      "Source": "青岚玉佩",
+      "Text": "青岚玉佩"
+    },
+    {
+      "Key": "content.jade_pendant_dyed.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.jade_pendant_dyed.dye_pool",
+      "Source": "裂隙染色聚集",
+      "Text": "裂隙染色聚集"
+    },
+    {
+      "Key": "content.antique_vase.name",
+      "Source": "远航纪年陶瓶",
+      "Text": "远航纪年陶瓶"
+    },
+    {
+      "Key": "content.antique_vase.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.antique_vase_repaired.name",
+      "Source": "远航纪年陶瓶",
+      "Text": "远航纪年陶瓶"
+    },
+    {
+      "Key": "content.antique_vase_repaired.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.antique_vase_repaired.vase_restore",
+      "Source": "釉面修补边界",
+      "Text": "釉面修补边界"
+    },
+    {
+      "Key": "content.painting.name",
+      "Source": "《港灯》原作",
+      "Text": "《港灯》原作"
+    },
+    {
+      "Key": "content.painting.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.painting_forged.name",
+      "Source": "《港灯》原作",
+      "Text": "《港灯》原作"
+    },
+    {
+      "Key": "content.painting_forged.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.painting_forged.seal_mismatch",
+      "Source": "印章笔画错位",
+      "Text": "印章笔画错位"
+    },
+    {
+      "Key": "evidence.painting_forged.print_dots",
+      "Source": "笔触中的规则印点",
+      "Text": "笔触中的规则印点"
+    },
+    {
+      "Key": "content.console.name",
+      "Source": "轨道一号游戏机",
+      "Text": "轨道一号游戏机"
+    },
+    {
+      "Key": "content.console.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.console_damaged.name",
+      "Source": "轨道一号游戏机",
+      "Text": "轨道一号游戏机"
+    },
+    {
+      "Key": "content.console_damaged.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.console_damaged.console_port",
+      "Source": "接口触片弯折",
+      "Text": "接口触片弯折"
+    },
+    {
+      "Key": "evidence.console_damaged.console_screw",
+      "Source": "螺丝拆修痕迹",
+      "Text": "螺丝拆修痕迹"
+    },
+    {
+      "Key": "content.handheld.name",
+      "Source": "口袋航线掌机",
+      "Text": "口袋航线掌机"
+    },
+    {
+      "Key": "content.handheld.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.handheld_damaged.name",
+      "Source": "口袋航线掌机",
+      "Text": "口袋航线掌机"
+    },
+    {
+      "Key": "content.handheld_damaged.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.handheld_damaged.handheld_port",
+      "Source": "掌机接口触片弯折",
+      "Text": "掌机接口触片弯折"
+    },
+    {
+      "Key": "content.cartridge.name",
+      "Source": "《环轨快递》卡带",
+      "Text": "《环轨快递》卡带"
+    },
+    {
+      "Key": "content.cartridge.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.cartridge_bootleg.name",
+      "Source": "《环轨快递》卡带",
+      "Text": "《环轨快递》卡带"
+    },
+    {
+      "Key": "content.cartridge_bootleg.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.cartridge_bootleg.label_print",
+      "Source": "标签印刷套色偏移",
+      "Text": "标签印刷套色偏移"
+    },
+    {
+      "Key": "content.disc.name",
+      "Source": "《远星回声》光盘",
+      "Text": "《远星回声》光盘"
+    },
+    {
+      "Key": "content.disc.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.disc_scratched.name",
+      "Source": "《远星回声》光盘",
+      "Text": "《远星回声》光盘"
+    },
+    {
+      "Key": "content.disc_scratched.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "evidence.disc_scratched.disc_scratch",
+      "Source": "读取面径向划伤",
+      "Text": "读取面径向划伤"
+    },
+    {
+      "Key": "content.book.name",
+      "Source": "《星港手记》签名初版",
+      "Text": "《星港手记》签名初版"
+    },
+    {
+      "Key": "content.book.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.book.reading",
+      "Source": "港口亮灯时，归航的人把故事留在当铺。书中的航线、旧招牌和手写批注，记录了星港的第一个冬天。",
+      "Text": "港口亮灯时，归航的人把故事留在当铺。书中的航线、旧招牌和手写批注，记录了星港的第一个冬天。"
+    },
+    {
+      "Key": "content.book_reprint.name",
+      "Source": "《星港手记》签名初版",
+      "Text": "《星港手记》签名初版"
+    },
+    {
+      "Key": "content.book_reprint.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.book_reprint.reading",
+      "Source": "港口亮灯时，归航的人把故事留在当铺。书中的航线、旧招牌和手写批注，记录了星港的第一个冬天。",
+      "Text": "港口亮灯时，归航的人把故事留在当铺。书中的航线、旧招牌和手写批注，记录了星港的第一个冬天。"
+    },
+    {
+      "Key": "evidence.book_reprint.reprint_mark",
+      "Source": "版权页重印标记",
+      "Text": "版权页重印标记"
+    },
+    {
+      "Key": "content.inspection_guide.name",
+      "Source": "《星港验货手册》",
+      "Text": "《星港验货手册》"
+    },
+    {
+      "Key": "content.inspection_guide.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    },
+    {
+      "Key": "content.inspection_guide.reading",
+      "Source": "先看轮廓、接口与印记，再找真正可见的异常。同一材质问题的多个线索只计价一次。顾客耐心有限，连续两次空点会结束本次检查。足金首饰的工艺可以受损，黄金材料仍有回收价值。",
+      "Text": "先看轮廓、接口与印记，再找真正可见的异常。同一材质问题的多个线索只计价一次。顾客耐心有限，连续两次空点会结束本次检查。足金首饰的工艺可以受损，黄金材料仍有回收价值。"
+    },
+    {
+      "Key": "ui.5f204ced",
+      "Source": "星港检验所",
+      "Text": "星港检验所"
+    },
+    {
+      "Key": "ui.906e8c2b",
+      "Source": "已核实成色 ",
+      "Text": "已核实成色 "
+    },
+    {
+      "Key": "ui.427b91c4",
+      "Source": "标称成色 ",
+      "Text": "标称成色 "
+    },
+    {
+      "Key": "ui.8741cbdc",
+      "Source": " 克",
+      "Text": " 克"
+    },
+    {
+      "Key": "ui.40abf492",
+      "Source": "开窗可见：",
+      "Text": "开窗可见："
+    },
+    {
+      "Key": "ui.abd3c2ce",
+      "Source": "细碎棉絮",
+      "Text": "细碎棉絮"
+    },
+    {
+      "Key": "ui.7ce985d4",
+      "Source": "青色水线",
+      "Text": "青色水线"
+    },
+    {
+      "Key": "ui.16a7c340",
+      "Source": "通透翠色",
+      "Text": "通透翠色"
+    },
+    {
+      "Key": "ui.4384b36b",
+      "Source": "；完整产量需切割后确认。",
+      "Text": "；完整产量需切割后确认。"
+    },
+    {
+      "Key": "ui.ce39e7f9",
+      "Source": "皮壳包裹，内部尚未可见。",
+      "Text": "皮壳包裹，内部尚未可见。"
+    },
+    {
+      "Key": "ui.f15da9c9",
+      "Source": "这次修复已经完成。",
+      "Text": "这次修复已经完成。"
+    },
+    {
+      "Key": "ui.5f9b2519",
+      "Source": "没有已确认且可修复的问题。",
+      "Text": "没有已确认且可修复的问题。"
+    },
+    {
+      "Key": "ui.c0cbb67c",
+      "Source": "现金不足以支付修复费。",
+      "Text": "现金不足以支付修复费。"
+    },
+    {
+      "Key": "ui.277c65b2",
+      "Source": "修复完成；原资产编号和鉴定历史已保留，旧报价需要更新。",
+      "Text": "修复完成；原资产编号和鉴定历史已保留，旧报价需要更新。"
+    },
+    {
+      "Key": "ui.201724c0",
+      "Source": "这块原石已经开过窗。",
+      "Text": "这块原石已经开过窗。"
+    },
+    {
+      "Key": "ui.6e1a6f44",
+      "Source": "现金不足以支付开窗费。",
+      "Text": "现金不足以支付开窗费。"
+    },
+    {
+      "Key": "ui.9c950de9",
+      "Source": "窗口露出原石原有的内部状态；重开或读档不会重抽结果。",
+      "Text": "窗口露出原石原有的内部状态；重开或读档不会重抽结果。"
+    },
+    {
+      "Key": "ui.da7c10b8",
+      "Source": "现金不足以支付切割费。",
+      "Text": "现金不足以支付切割费。"
+    },
+    {
+      "Key": "ui.7ca81019",
+      "Source": "原石已消耗，产出 ",
+      "Text": "原石已消耗，产出 "
+    },
+    {
+      "Key": "ui.673c59c2",
+      "Source": " 件成品。产物保留父资产编号。",
+      "Text": " 件成品。产物保留父资产编号。"
+    },
+    {
+      "Key": "ui.ffe9610d",
+      "Source": "已有适用于当前状态的同范围证书。",
+      "Text": "已有适用于当前状态的同范围证书。"
+    },
+    {
+      "Key": "ui.a16fbf25",
+      "Source": "现金不足以支付检验费。",
+      "Text": "现金不足以支付检验费。"
+    },
+    {
+      "Key": "ui.41f7b68f",
+      "Source": "贵金属成色 ",
+      "Text": "贵金属成色 "
+    },
+    {
+      "Key": "ui.74f62800",
+      "Source": "登记范围内真品",
+      "Text": "登记范围内真品"
+    },
+    {
+      "Key": "ui.ca5b0f60",
+      "Source": "登记范围内仿品",
+      "Text": "登记范围内仿品"
+    },
+    {
+      "Key": "ui.b77b4dd5",
+      "Source": "星港检验所：",
+      "Text": "星港检验所："
+    },
+    {
+      "Key": "ui.5d0ce873",
+      "Source": "。证书只对所列范围负责。",
+      "Text": "。证书只对所列范围负责。"
+    },
+    {
+      "Key": "ui.280c18e6",
+      "Source": "黄金",
+      "Text": "黄金"
+    },
+    {
+      "Key": "ui.9b5885fa",
+      "Source": "白银",
+      "Text": "白银"
+    },
+    {
+      "Key": "ui.edb89c56",
+      "Source": "翡翠原石",
+      "Text": "翡翠原石"
+    },
+    {
+      "Key": "ui.1a55fc27",
+      "Source": "翡翠成品",
+      "Text": "翡翠成品"
+    },
+    {
+      "Key": "ui.cf10ddb0",
+      "Source": "古董",
+      "Text": "古董"
+    },
+    {
+      "Key": "ui.fc093b17",
+      "Source": "字画",
+      "Text": "字画"
+    },
+    {
+      "Key": "ui.14136da0",
+      "Source": "主机",
+      "Text": "主机"
+    },
+    {
+      "Key": "ui.6c8ba11a",
+      "Source": "星港版第一型",
+      "Text": "星港版第一型"
+    },
+    {
+      "Key": "ui.7e70fa03",
+      "Source": "掌机",
+      "Text": "掌机"
+    },
+    {
+      "Key": "ui.cc32d956",
+      "Source": "星港便携版",
+      "Text": "星港便携版"
+    },
+    {
+      "Key": "ui.823765be",
+      "Source": "卡带",
+      "Text": "卡带"
+    },
+    {
+      "Key": "ui.2b9df5e6",
+      "Source": "星港首发版",
+      "Text": "星港首发版"
+    },
+    {
+      "Key": "ui.6fc50369",
+      "Source": "非授权重制版",
+      "Text": "非授权重制版"
+    },
+    {
+      "Key": "ui.681ce9f4",
+      "Source": "光盘",
+      "Text": "光盘"
+    },
+    {
+      "Key": "ui.b8521a54",
+      "Source": "2247 完整版",
+      "Text": "2247 完整版"
+    },
+    {
+      "Key": "ui.c63a1cbc",
+      "Source": "书籍",
+      "Text": "书籍"
+    },
+    {
+      "Key": "ui.63e988bf",
+      "Source": "2241 初版",
+      "Text": "2241 初版"
+    },
+    {
+      "Key": "ui.669f77d8",
+      "Source": "2246 重印版",
+      "Text": "2246 重印版"
+    },
+    {
+      "Key": "ui.50d34ac5",
+      "Source": "专业书籍",
+      "Text": "专业书籍"
+    },
+    {
+      "Key": "ui.5e3cd384",
+      "Source": "2247 修订版",
+      "Text": "2247 修订版"
+    },
+    {
+      "Key": "ui.a4a120b4",
+      "Source": "顾客把物品收了回去：这次就看到这里吧。",
+      "Text": "顾客把物品收了回去：这次就看到这里吧。"
+    },
+    {
+      "Key": "ui.3eba3a6d",
+      "Source": "这处已经看过了。顾客的耐心没有恢复。",
+      "Text": "这处已经看过了。顾客的耐心没有恢复。"
+    },
+    {
+      "Key": "ui.9940f1b0",
+      "Source": "你指出了",
+      "Text": "你指出了"
+    },
+    {
+      "Key": "ui.2b554100",
+      "Source": "。顾客点头，把物品重新放稳。",
+      "Text": "。顾客点头，把物品重新放稳。"
+    },
+    {
+      "Key": "ui.a8cf9591",
+      "Source": "顾客皱起眉，把物品收了回去：“没问题的地方就别反复挑了，这次不看了。”",
+      "Text": "顾客皱起眉，把物品收了回去：“没问题的地方就别反复挑了，这次不看了。”"
+    },
+    {
+      "Key": "ui.dc16f000",
+      "Source": "顾客敲了敲柜台：“那里没有问题吧？你再仔细看看。”",
+      "Text": "顾客敲了敲柜台：“那里没有问题吧？你再仔细看看。”"
+    },
+    {
+      "Key": "ui.d07d6224",
+      "Source": "熟练的目光已经圈出当前视图中的全部可见问题。",
+      "Text": "熟练的目光已经圈出当前视图中的全部可见问题。"
+    },
+    {
+      "Key": "ui.afaa350f",
+      "Source": "银行凭证 · 已失效",
+      "Text": "银行凭证 · 已失效"
+    },
+    {
+      "Key": "ui.a9c411a0",
+      "Source": "旧卡、其他存档的卡或已关闭账户的卡片不能作为当前账户凭证。",
+      "Text": "旧卡、其他存档的卡或已关闭账户的卡片不能作为当前账户凭证。"
+    },
+    {
+      "Key": "ui.224fa2a7",
+      "Source": "这张卡片不再对应当前有效账户与卡片版本。\n账户余额与债务保存在账户中，丢卡或销毁卡片不会清除它们。\n补卡会使旧版本失效；卡片本身没有可以复制的余额。",
+      "Text": "这张卡片不再对应当前有效账户与卡片版本。\n账户余额与债务保存在账户中，丢卡或销毁卡片不会清除它们。\n补卡会使旧版本失效；卡片本身没有可以复制的余额。"
+    },
+    {
+      "Key": "ui.1d91334b",
+      "Source": "查看我的有效凭证",
+      "Text": "查看我的有效凭证"
+    },
+    {
+      "Key": "ui.71c5726e",
+      "Source": "已验证",
+      "Text": "已验证"
+    },
+    {
+      "Key": "ui.3ac77fd8",
+      "Source": "储蓄卡",
+      "Text": "储蓄卡"
+    },
+    {
+      "Key": "ui.408fe957",
+      "Source": "信用卡",
+      "Text": "信用卡"
+    },
+    {
+      "Key": "ui.aeb9855d",
+      "Source": "，版本 ",
+      "Text": "，版本 "
+    },
+    {
+      "Key": "ui.e99d701f",
+      "Source": " 卡片尚未入库：",
+      "Text": " 卡片尚未入库："
+    },
+    {
+      "Key": "ui.2d2da2f9",
+      "Source": "；账户已生效，可稍后在凭证页领取。",
+      "Text": "；账户已生效，可稍后在凭证页领取。"
+    },
+    {
+      "Key": "ui.330f0236",
+      "Source": " 有效卡片已在原版库存。",
+      "Text": " 有效卡片已在原版库存。"
+    },
+    {
+      "Key": "ui.8706f36c",
+      "Source": " 账户已生效；卡片发放需稍后重试。",
+      "Text": " 账户已生效；卡片发放需稍后重试。"
+    },
+    {
+      "Key": "ui.d73941fd",
+      "Source": "当前账户尚未就绪。",
+      "Text": "当前账户尚未就绪。"
+    },
+    {
+      "Key": "ui.fd0ab148",
+      "Source": "请先主动开立对应账户。",
+      "Text": "请先主动开立对应账户。"
+    },
+    {
+      "Key": "ui.15ca2f1e",
+      "Source": "当前有效卡片已在原版库存；余额与欠款没有改变。",
+      "Text": "当前有效卡片已在原版库存；余额与欠款没有改变。"
+    },
+    {
+      "Key": "ui.67ee25ff",
+      "Source": "暂未发卡：",
+      "Text": "暂未发卡："
+    },
+    {
+      "Key": "ui.ca4a8423",
+      "Source": "银行凭证 · 实体卡片",
+      "Text": "银行凭证 · 实体卡片"
+    },
+    {
+      "Key": "ui.56456ca6",
+      "Source": "卡片只引用账户；复制、遗失或补办卡片都不会复制余额或消除欠款。",
+      "Text": "卡片只引用账户；复制、遗失或补办卡片都不会复制余额或消除欠款。"
+    },
+    {
+      "Key": "ui.d197d59a",
+      "Source": "储蓄账户 ",
+      "Text": "储蓄账户 "
+    },
+    {
+      "Key": "ui.8ebf7db4",
+      "Source": " · 有效卡版本 ",
+      "Text": " · 有效卡版本 "
+    },
+    {
+      "Key": "ui.76ccd9dd",
+      "Source": "\n权威余额 ",
+      "Text": "\n权威余额 "
+    },
+    {
+      "Key": "ui.ae80ae3e",
+      "Source": "尚无开放的储蓄账户。\n查看或领取凭证不会自动开户。",
+      "Text": "尚无开放的储蓄账户。\n查看或领取凭证不会自动开户。"
+    },
+    {
+      "Key": "ui.ec0eadb8",
+      "Source": "领取当前储蓄卡",
+      "Text": "领取当前储蓄卡"
+    },
+    {
+      "Key": "ui.e9c90345",
+      "Source": "补办储蓄卡 · 旧卡失效",
+      "Text": "补办储蓄卡 · 旧卡失效"
+    },
+    {
+      "Key": "ui.3f662030",
+      "Source": "前往银行了解开户",
+      "Text": "前往银行了解开户"
+    },
+    {
+      "Key": "ui.b4288471",
+      "Source": "信用账户 ",
+      "Text": "信用账户 "
+    },
+    {
+      "Key": "ui.15280636",
+      "Source": "\n额度 ",
+      "Text": "\n额度 "
+    },
+    {
+      "Key": "ui.e0ce544b",
+      "Source": " Cr · 已借本金 ",
+      "Text": " Cr · 已借本金 "
+    },
+    {
+      "Key": "ui.82a190f1",
+      "Source": "尚未签署信用协议。\n信用卡不代表额外现金；借款仍需主动办理。",
+      "Text": "尚未签署信用协议。\n信用卡不代表额外现金；借款仍需主动办理。"
+    },
+    {
+      "Key": "ui.14df75f7",
+      "Source": "领取当前信用卡",
+      "Text": "领取当前信用卡"
+    },
+    {
+      "Key": "ui.a19c79ec",
+      "Source": "补办信用卡 · 旧卡失效",
+      "Text": "补办信用卡 · 旧卡失效"
+    },
+    {
+      "Key": "ui.fdbe765b",
+      "Source": "了解信用产品",
+      "Text": "了解信用产品"
+    },
+    {
+      "Key": "ui.05140b42",
+      "Source": "卡片为银行凭证，不能出售、拆解或典当。旧卡可保留为失效凭证。",
+      "Text": "卡片为银行凭证，不能出售、拆解或典当。旧卡可保留为失效凭证。"
+    },
+    {
+      "Key": "ui.99965424",
+      "Source": "实物补偿未完全完成。",
+      "Text": "实物补偿未完全完成。"
+    },
+    {
+      "Key": "ui.b8e7ceeb",
+      "Source": "当前存档尚未就绪。",
+      "Text": "当前存档尚未就绪。"
+    },
+    {
+      "Key": "ui.fcb279d3",
+      "Source": "上一笔业务需要核对，已暂停新业务并保留原记录。",
+      "Text": "上一笔业务需要核对，已暂停新业务并保留原记录。"
+    },
+    {
+      "Key": "ui.e41bd9cc",
+      "Source": "事务准备记录读回失败。",
+      "Text": "事务准备记录读回失败。"
+    },
+    {
+      "Key": "ui.d7405150",
+      "Source": "事务完成记录未能清除。",
+      "Text": "事务完成记录未能清除。"
+    },
+    {
+      "Key": "ui.ae8cf929",
+      "Source": "现金不足或金额超出原版范围。",
+      "Text": "现金不足或金额超出原版范围。"
+    },
+    {
+      "Key": "ui.5100b7b5",
+      "Source": "实物提交仍有未完成转移。",
+      "Text": "实物提交仍有未完成转移。"
+    },
+    {
+      "Key": "ui.40e5d5a9",
+      "Source": "原生库存仍有待恢复实物。",
+      "Text": "原生库存仍有待恢复实物。"
+    },
+    {
+      "Key": "ui.c1fabcef",
+      "Source": "业务未完成，实物需要人工核对；请保留当前存档。",
+      "Text": "业务未完成，实物需要人工核对；请保留当前存档。"
+    },
+    {
+      "Key": "ui.66ca8c4e",
+      "Source": "资产已转移、托管或消耗。",
+      "Text": "资产已转移、托管或消耗。"
+    },
+    {
+      "Key": "ui.6983a1cd",
+      "Source": "登记资产与当前实物不一致，未执行操作。",
+      "Text": "登记资产与当前实物不一致，未执行操作。"
+    },
+    {
+      "Key": "ui.cc55d08b",
+      "Source": "该资产已有实物，拒绝重复生成。",
+      "Text": "该资产已有实物，拒绝重复生成。"
+    },
+    {
+      "Key": "ui.ad281839",
+      "Source": "新生成物品无法撤销。",
+      "Text": "新生成物品无法撤销。"
+    },
+    {
+      "Key": "ui.98483c18",
+      "Source": "待入库实物无法撤销。",
+      "Text": "待入库实物无法撤销。"
+    },
+    {
+      "Key": "ui.3a60257e",
+      "Source": "交付后的实物未能完成移除，需要核对。",
+      "Text": "交付后的实物未能完成移除，需要核对。"
+    },
+    {
+      "Key": "ui.515f6cfa",
+      "Source": "缺少报价。",
+      "Text": "缺少报价。"
+    },
+    {
+      "Key": "ui.e22f0222",
+      "Source": "物品、证据、交易方向或行情已变化，请重新报价。",
+      "Text": "物品、证据、交易方向或行情已变化，请重新报价。"
+    },
+    {
+      "Key": "ui.e5d63927",
+      "Source": "报价金额与当前估价不一致，请重新确认。",
+      "Text": "报价金额与当前估价不一致，请重新确认。"
+    },
+    {
+      "Key": "ui.be822fc5",
+      "Source": "此物品没有有效的交易金额。",
+      "Text": "此物品没有有效的交易金额。"
+    },
+    {
+      "Key": "ui.d5415f4d",
+      "Source": "该来客商品已不在本次可售清单。",
+      "Text": "该来客商品已不在本次可售清单。"
+    },
+    {
+      "Key": "ui.e70ac595",
+      "Source": "这是原生柜台实物，请使用原生交易确认流程。",
+      "Text": "这是原生柜台实物，请使用原生交易确认流程。"
+    },
+    {
+      "Key": "ui.a64ff1c5",
+      "Source": "购入 ",
+      "Text": "购入 "
+    },
+    {
+      "Key": "ui.aedae257",
+      "Source": "商品已进入原版库存，支付 ",
+      "Text": "商品已进入原版库存，支付 "
+    },
+    {
+      "Key": "ui.91e32863",
+      "Source": "该物品正在原生柜台议价，请与柜台客户成交或先收回库存。",
+      "Text": "该物品正在原生柜台议价，请与柜台客户成交或先收回库存。"
+    },
+    {
+      "Key": "ui.e1654ce3",
+      "Source": "售出 ",
+      "Text": "售出 "
+    },
+    {
+      "Key": "ui.b9686a44",
+      "Source": "实物已交付，收到 ",
+      "Text": "实物已交付，收到 "
+    },
+    {
+      "Key": "ui.8caa8ef8",
+      "Source": "加工前请先从原生议价台收回这件物品。",
+      "Text": "加工前请先从原生议价台收回这件物品。"
+    },
+    {
+      "Key": "ui.4f6b517d",
+      "Source": "未知加工服务。",
+      "Text": "未知加工服务。"
+    },
+    {
+      "Key": "ui.55ee658d",
+      "Source": "资产服务 · ",
+      "Text": "资产服务 · "
+    },
+    {
+      "Key": "ui.fbfe874f",
+      "Source": "该资产已托管或已消耗。",
+      "Text": "该资产已托管或已消耗。"
+    },
+    {
+      "Key": "ui.81044747",
+      "Source": "店主放款只接受当前来客主动提供的资产。",
+      "Text": "店主放款只接受当前来客主动提供的资产。"
+    },
+    {
+      "Key": "ui.74e1ed1b",
+      "Source": "托管前请先将这件物品从原生议价台收回库存。",
+      "Text": "托管前请先将这件物品从原生议价台收回库存。"
+    },
+    {
+      "Key": "ui.e6401bc6",
+      "Source": "该业务已经执行，未再次扣款。",
+      "Text": "该业务已经执行，未再次扣款。"
+    },
+    {
+      "Key": "ui.95b47fe5",
+      "Source": "金融业务 · ",
+      "Text": "金融业务 · "
+    },
+    {
+      "Key": "ui.3adedde6",
+      "Source": "业务完成：",
+      "Text": "业务完成："
+    },
+    {
+      "Key": "ui.2ef1e2e7",
+      "Source": "；现金 ",
+      "Text": "；现金 "
+    },
+    {
+      "Key": "ui.72f22187",
+      "Source": "托管转换缺少匹配合同。",
+      "Text": "托管转换缺少匹配合同。"
+    },
+    {
+      "Key": "ui.5e8393ef",
+      "Source": "抵押物已不处于可托管状态。",
+      "Text": "抵押物已不处于可托管状态。"
+    },
+    {
+      "Key": "ui.4b5f03de",
+      "Source": "顾客抵押物归属不匹配。",
+      "Text": "顾客抵押物归属不匹配。"
+    },
+    {
+      "Key": "ui.e078af65",
+      "Source": "顾客资产已有原生实物，需要独立柜台托管确认。",
+      "Text": "顾客资产已有原生实物，需要独立柜台托管确认。"
+    },
+    {
+      "Key": "ui.25c265c1",
+      "Source": "合同托管状态与资产不一致。",
+      "Text": "合同托管状态与资产不一致。"
+    },
+    {
+      "Key": "ui.e7f8f16e",
+      "Source": "合同抵押实物缺失或归属异常。",
+      "Text": "合同抵押实物缺失或归属异常。"
+    },
+    {
+      "Key": "ui.5545dd69",
+      "Source": "赎当方向不匹配。",
+      "Text": "赎当方向不匹配。"
+    },
+    {
+      "Key": "ui.2ccb1eb2",
+      "Source": "绝当方向不匹配。",
+      "Text": "绝当方向不匹配。"
+    },
+    {
+      "Key": "ui.93cc4845",
+      "Source": "顾客赎当方向不匹配。",
+      "Text": "顾客赎当方向不匹配。"
+    },
+    {
+      "Key": "ui.54390200",
+      "Source": "抵押物交付方向不匹配。",
+      "Text": "抵押物交付方向不匹配。"
+    },
+    {
+      "Key": "ui.f785aa1d",
+      "Source": "未知托管转换。",
+      "Text": "未知托管转换。"
+    },
+    {
+      "Key": "ui.2e696833",
+      "Source": "夜间结算上下文不可用。",
+      "Text": "夜间结算上下文不可用。"
+    },
+    {
+      "Key": "ui.c69315e1",
+      "Source": "夜间利息与抵押物结算",
+      "Text": "夜间利息与抵押物结算"
+    },
+    {
+      "Key": "ui.378b2d11",
+      "Source": "日结实物提交仍有未完成转移。",
+      "Text": "日结实物提交仍有未完成转移。"
+    },
+    {
+      "Key": "ui.744adfe7",
+      "Source": "日结实物仍待恢复。",
+      "Text": "日结实物仍待恢复。"
+    },
+    {
+      "Key": "ui.1cf4f04f",
+      "Source": "此物品当前没有可放款价值。",
+      "Text": "此物品当前没有可放款价值。"
+    },
+    {
+      "Key": "ui.d8af1e35",
+      "Source": "典当 · 店主放款",
+      "Text": "典当 · 店主放款"
+    },
+    {
+      "Key": "ui.f7209669",
+      "Source": "典当 · 玩家借款",
+      "Text": "典当 · 玩家借款"
+    },
+    {
+      "Key": "ui.2a1e668d",
+      "Source": "原物托管并占用库存空间；期满未赎即按合同转移所有权。",
+      "Text": "原物托管并占用库存空间；期满未赎即按合同转移所有权。"
+    },
+    {
+      "Key": "ui.0d0bf077",
+      "Source": "抵押物：",
+      "Text": "抵押物："
+    },
+    {
+      "Key": "ui.d3eac969",
+      "Source": "\n核定估值 ",
+      "Text": "\n核定估值 "
+    },
+    {
+      "Key": "ui.9b9b3c13",
+      "Source": " Cr，最高本金 ",
+      "Text": " Cr，最高本金 "
+    },
+    {
+      "Key": "ui.0754afed",
+      "Source": " Cr\n期限 ",
+      "Text": " Cr\n期限 "
+    },
+    {
+      "Key": "ui.8852d7c4",
+      "Source": " 天，日费用 ",
+      "Text": " 天，日费用 "
+    },
+    {
+      "Key": "ui.880f7b66",
+      "Source": "先办理典当许可 · ",
+      "Text": "先办理典当许可 · "
+    },
+    {
+      "Key": "ui.bce4434a",
+      "Source": "支付放款 ",
+      "Text": "支付放款 "
+    },
+    {
+      "Key": "ui.4d2cc3d8",
+      "Source": "领取借款 ",
+      "Text": "领取借款 "
+    },
+    {
+      "Key": "ui.12e9e9d2",
+      "Source": "星港内容配置需要检查，现有存档保持原样。",
+      "Text": "星港内容配置需要检查，现有存档保持原样。"
+    },
+    {
+      "Key": "ui.d1916f54",
+      "Source": "银行 · 储蓄与卡片",
+      "Text": "银行 · 储蓄与卡片"
+    },
+    {
+      "Key": "ui.14583842",
+      "Source": "仅主动签约后生效。当前原版现金 ",
+      "Text": "仅主动签约后生效。当前原版现金 "
+    },
+    {
+      "Key": "ui.a6e5a10b",
+      "Source": "原账户已关闭，可主动重新开户。",
+      "Text": "原账户已关闭，可主动重新开户。"
+    },
+    {
+      "Key": "ui.74a10527",
+      "Source": "尚未开户：不会产生存款、利息、债务或自动费用。",
+      "Text": "尚未开户：不会产生存款、利息、债务或自动费用。"
+    },
+    {
+      "Key": "ui.3b2f8da3",
+      "Source": "储蓄日息 ",
+      "Text": "储蓄日息 "
+    },
+    {
+      "Key": "ui.cb6d04e3",
+      "Source": "，开户次日起计息。\n后续存取款按游戏日收盘余额计算，销户须先处理余额与借贷。",
+      "Text": "，开户次日起计息。\n后续存取款按游戏日收盘余额计算，销户须先处理余额与借贷。"
+    },
+    {
+      "Key": "ui.1b295487",
+      "Source": "开立储蓄账户",
+      "Text": "开立储蓄账户"
+    },
+    {
+      "Key": "ui.159aa654",
+      "Source": "账户余额 ",
+      "Text": "账户余额 "
+    },
+    {
+      "Key": "ui.bf42696a",
+      "Source": " Cr    日息 ",
+      "Text": " Cr    日息 "
+    },
+    {
+      "Key": "ui.8a09b5be",
+      "Source": "账户 ",
+      "Text": "账户 "
+    },
+    {
+      "Key": "ui.2ac889e9",
+      "Source": " · 储蓄卡版本 ",
+      "Text": " · 储蓄卡版本 "
+    },
+    {
+      "Key": "ui.9fe8d092",
+      "Source": "\n卡片仅引用此账户，补卡不会产生第二份余额。",
+      "Text": "\n卡片仅引用此账户，补卡不会产生第二份余额。"
+    },
+    {
+      "Key": "ui.272f8e81",
+      "Source": "存入 100",
+      "Text": "存入 100"
+    },
+    {
+      "Key": "ui.63b8430d",
+      "Source": "存入 500",
+      "Text": "存入 500"
+    },
+    {
+      "Key": "ui.a893b93e",
+      "Source": "取出 100",
+      "Text": "取出 100"
+    },
+    {
+      "Key": "ui.3403df93",
+      "Source": "取出全部 ",
+      "Text": "取出全部 "
+    },
+    {
+      "Key": "ui.dfa96d2a",
+      "Source": "补发储蓄卡",
+      "Text": "补发储蓄卡"
+    },
+    {
+      "Key": "ui.a93c0764",
+      "Source": "关闭零余额账户",
+      "Text": "关闭零余额账户"
+    },
+    {
+      "Key": "ui.bd00328e",
+      "Source": "首次计息：第 ",
+      "Text": "首次计息：第 "
+    },
+    {
+      "Key": "ui.7f0eac5a",
+      "Source": " 日；已结算至第 ",
+      "Text": " 日；已结算至第 "
+    },
+    {
+      "Key": "ui.0966ca04",
+      "Source": " 日。",
+      "Text": " 日。"
+    },
+    {
+      "Key": "ui.325709c7",
+      "Source": "信用与普通贷款",
+      "Text": "信用与普通贷款"
+    },
+    {
+      "Key": "ui.ecfe2ce5",
+      "Source": "证券与本地行情",
+      "Text": "证券与本地行情"
+    },
+    {
+      "Key": "ui.29aa2c75",
+      "Source": "返回经营台",
+      "Text": "返回经营台"
+    },
+    {
+      "Key": "ui.1c689787",
+      "Source": "信用与贷款",
+      "Text": "信用与贷款"
+    },
+    {
+      "Key": "ui.638bb6b5",
+      "Source": "额度不是现金。借款增加现金与负债；还款真实扣除原版现金。",
+      "Text": "额度不是现金。借款增加现金与负债；还款真实扣除原版现金。"
+    },
+    {
+      "Key": "ui.743d6bf7",
+      "Source": "信用产品：额度 ",
+      "Text": "信用产品：额度 "
+    },
+    {
+      "Key": "ui.5ea48d32",
+      "Source": " Cr，日息 ",
+      "Text": " Cr，日息 "
+    },
+    {
+      "Key": "ui.d130cf36",
+      "Source": "。\n仅对已借本金计息，首笔借款次日开始，不因查看自动签约。",
+      "Text": "。\n仅对已借本金计息，首笔借款次日开始，不因查看自动签约。"
+    },
+    {
+      "Key": "ui.04cb7b4d",
+      "Source": "签约信用额度 ",
+      "Text": "签约信用额度 "
+    },
+    {
+      "Key": "ui.2bb99d66",
+      "Source": "授信 ",
+      "Text": "授信 "
+    },
+    {
+      "Key": "ui.1851ac8c",
+      "Source": " · 已借本金 ",
+      "Text": " · 已借本金 "
+    },
+    {
+      "Key": "ui.5cee3bad",
+      "Source": " · 应还合计 ",
+      "Text": " · 应还合计 "
+    },
+    {
+      "Key": "ui.dd023538",
+      "Source": " Cr\n日息 ",
+      "Text": " Cr\n日息 "
+    },
+    {
+      "Key": "ui.dd1401d5",
+      "Source": "；还款先偿利息，再减少本金。",
+      "Text": "；还款先偿利息，再减少本金。"
+    },
+    {
+      "Key": "ui.2683f5d7",
+      "Source": "借出 100",
+      "Text": "借出 100"
+    },
+    {
+      "Key": "ui.eae8c3eb",
+      "Source": "借出 500",
+      "Text": "借出 500"
+    },
+    {
+      "Key": "ui.c61a8321",
+      "Source": "还款 ",
+      "Text": "还款 "
+    },
+    {
+      "Key": "ui.2894ddd2",
+      "Source": "还清 ",
+      "Text": "还清 "
+    },
+    {
+      "Key": "ui.6144ac87",
+      "Source": "普通贷款：期限 ",
+      "Text": "普通贷款：期限 "
+    },
+    {
+      "Key": "ui.50e3c051",
+      "Source": " 个游戏日，日息 ",
+      "Text": " 个游戏日，日息 "
+    },
+    {
+      "Key": "ui.ab8d9258",
+      "Source": "。\n签约次日起计息；到期未还仍保留债务，不因关闭界面消失。",
+      "Text": "。\n签约次日起计息；到期未还仍保留债务，不因关闭界面消失。"
+    },
+    {
+      "Key": "ui.7cabc677",
+      "Source": "借款 500",
+      "Text": "借款 500"
+    },
+    {
+      "Key": "ui.295756e1",
+      "Source": "借款 1000",
+      "Text": "借款 1000"
+    },
+    {
+      "Key": "ui.779d9818",
+      "Source": "查看贷款合同",
+      "Text": "查看贷款合同"
+    },
+    {
+      "Key": "ui.ffe67e90",
+      "Source": "返回储蓄账户",
+      "Text": "返回储蓄账户"
+    },
+    {
+      "Key": "ui.c04773f5",
+      "Source": "结束零欠款信用协议",
+      "Text": "结束零欠款信用协议"
+    },
+    {
+      "Key": "ui.175f8734",
+      "Source": "贷款合同",
+      "Text": "贷款合同"
+    },
+    {
+      "Key": "ui.e4aa518e",
+      "Source": "现金 ",
+      "Text": "现金 "
+    },
+    {
+      "Key": "ui.f783bded",
+      "Source": " Cr · 第 ",
+      "Text": " Cr · 第 "
+    },
+    {
+      "Key": "ui.8c967278",
+      "Source": " 个游戏日 · 合同 ",
+      "Text": " 个游戏日 · 合同 "
+    },
+    {
+      "Key": "ui.d5149fa6",
+      "Source": " 份",
+      "Text": " 份"
+    },
+    {
+      "Key": "ui.21e1636b",
+      "Source": "暂无贷款。信用卡欠款在信用页单独显示。",
+      "Text": "暂无贷款。信用卡欠款在信用页单独显示。"
+    },
+    {
+      "Key": "ui.44c133dd",
+      "Source": "已清偿",
+      "Text": "已清偿"
+    },
+    {
+      "Key": "ui.ccf6106a",
+      "Source": "已逾期",
+      "Text": "已逾期"
+    },
+    {
+      "Key": "ui.693ec0cd",
+      "Source": "履约中",
+      "Text": "履约中"
+    },
+    {
+      "Key": "ui.27d03321",
+      "Source": " · 到期第 ",
+      "Text": " · 到期第 "
+    },
+    {
+      "Key": "ui.e3595e59",
+      "Source": " 日\n本金 ",
+      "Text": " 日\n本金 "
+    },
+    {
+      "Key": "ui.443aa7b4",
+      "Source": " / 应还 ",
+      "Text": " / 应还 "
+    },
+    {
+      "Key": "ui.b48da85b",
+      "Source": " Cr / 日息 ",
+      "Text": " Cr / 日息 "
+    },
+    {
+      "Key": "ui.283280a3",
+      "Source": "偿清 ",
+      "Text": "偿清 "
+    },
+    {
+      "Key": "ui.5249fed6",
+      "Source": "上一页",
+      "Text": "上一页"
+    },
+    {
+      "Key": "ui.ff7f2051",
+      "Source": "下一页",
+      "Text": "下一页"
+    },
+    {
+      "Key": "ui.71822c63",
+      "Source": "经营台",
+      "Text": "经营台"
+    },
+    {
+      "Key": "ui.43a5c495",
+      "Source": "证券与共享行情",
+      "Text": "证券与共享行情"
+    },
+    {
+      "Key": "ui.2d7a361f",
+      "Source": "本地虚拟市场 · 不连接真实交易所 · 报价单位为 Cr",
+      "Text": "本地虚拟市场 · 不连接真实交易所 · 报价单位为 Cr"
+    },
+    {
+      "Key": "ui.161c8317",
+      "Source": "黄金每克：买入 ",
+      "Text": "黄金每克：买入 "
+    },
+    {
+      "Key": "ui.e6698b9c",
+      "Source": " / 回收 ",
+      "Text": " / 回收 "
+    },
+    {
+      "Key": "ui.64ff43ce",
+      "Source": "；白银：买入 ",
+      "Text": "；白银：买入 "
+    },
+    {
+      "Key": "ui.29d00bba",
+      "Source": "证券账户尚未开通，没有持仓与证券业务。\n开户只开启股票及游戏内虚拟币交易，不自动参加黄金协议或市场剧情。",
+      "Text": "证券账户尚未开通，没有持仓与证券业务。\n开户只开启股票及游戏内虚拟币交易，不自动参加黄金协议或市场剧情。"
+    },
+    {
+      "Key": "ui.1d75b21e",
+      "Source": "主动开通证券账户",
+      "Text": "主动开通证券账户"
+    },
+    {
+      "Key": "ui.7cebaa6d",
+      "Source": " 游戏币",
+      "Text": " 游戏币"
+    },
+    {
+      "Key": "ui.9c825556",
+      "Source": " 股票",
+      "Text": " 股票"
+    },
+    {
+      "Key": "ui.d19576b2",
+      "Source": " · 持有 ",
+      "Text": " · 持有 "
+    },
+    {
+      "Key": "ui.62015b69",
+      "Source": "\n每单位买入 ",
+      "Text": "\n每单位买入 "
+    },
+    {
+      "Key": "ui.2e866a08",
+      "Source": " / 卖出 ",
+      "Text": " / 卖出 "
+    },
+    {
+      "Key": "ui.7ff1bc02",
+      "Source": "买 1 单位",
+      "Text": "买 1 单位"
+    },
+    {
+      "Key": "ui.4660a940",
+      "Source": "卖 1 单位",
+      "Text": "卖 1 单位"
+    },
+    {
+      "Key": "ui.2c2e9ca1",
+      "Source": "关闭空仓账户",
+      "Text": "关闭空仓账户"
+    },
+    {
+      "Key": "ui.b64302e2",
+      "Source": "黄金协议与市场事件",
+      "Text": "黄金协议与市场事件"
+    },
+    {
+      "Key": "ui.ba211ab3",
+      "Source": "库存与投资金条",
+      "Text": "库存与投资金条"
+    },
+    {
+      "Key": "ui.18733724",
+      "Source": "本地市场协议",
+      "Text": "本地市场协议"
+    },
+    {
+      "Key": "ui.a5fca39e",
+      "Source": "影响只作用于 StarPawn 商品与报价，不重写原版全部物价。",
+      "Text": "影响只作用于 StarPawn 商品与报价，不重写原版全部物价。"
+    },
+    {
+      "Key": "ui.8a5b701b",
+      "Source": "黄金协议已生效：共享金价按游戏日变化，金饰、金条使用同一行情。",
+      "Text": "黄金协议已生效：共享金价按游戏日变化，金饰、金条使用同一行情。"
+    },
+    {
+      "Key": "ui.fc3dc5ba",
+      "Source": "黄金协议未签署：普通银行开户和购买金饰不会自动开启黄金行情。",
+      "Text": "黄金协议未签署：普通银行开户和购买金饰不会自动开启黄金行情。"
+    },
+    {
+      "Key": "ui.b4d5f617",
+      "Source": "签署黄金市场协议",
+      "Text": "签署黄金市场协议"
+    },
+    {
+      "Key": "ui.7156cb19",
+      "Source": "已同意本地市场事件。下列剧情每局一次，次日起影响对应商品与证券。",
+      "Text": "已同意本地市场事件。下列剧情每局一次，次日起影响对应商品与证券。"
+    },
+    {
+      "Key": "ui.899b86cc",
+      "Source": "市场事件尚未参与：不会自动插入金融事件。先明确参与，再选择剧情。",
+      "Text": "市场事件尚未参与：不会自动插入金融事件。先明确参与，再选择剧情。"
+    },
+    {
+      "Key": "ui.40cd4e6f",
+      "Source": "参与 StarPawn 市场剧情",
+      "Text": "参与 StarPawn 市场剧情"
+    },
+    {
+      "Key": "ui.8769a65f",
+      "Source": "黄金矿产增供",
+      "Text": "黄金矿产增供"
+    },
+    {
+      "Key": "ui.29432a41",
+      "Source": "行星发现翡翠矿",
+      "Text": "行星发现翡翠矿"
+    },
+    {
+      "Key": "ui.a88ff93e",
+      "Source": "娱乐电子供给短缺",
+      "Text": "娱乐电子供给短缺"
+    },
+    {
+      "Key": "ui.a5195532",
+      "Source": "事件持续 ",
+      "Text": "事件持续 "
+    },
+    {
+      "Key": "ui.2858a216",
+      "Source": " 个游戏日。黄金增供需要先签署黄金协议。",
+      "Text": " 个游戏日。黄金增供需要先签署黄金协议。"
+    },
+    {
+      "Key": "ui.773ca3dc",
+      "Source": "返回行情",
+      "Text": "返回行情"
+    },
+    {
+      "Key": "ui.1ffd9441",
+      "Source": "\n已发生",
+      "Text": "\n已发生"
+    },
+    {
+      "Key": "ui.f6e7f4d2",
+      "Source": "典当合同台账",
+      "Text": "典当合同台账"
+    },
+    {
+      "Key": "ui.fba8378b",
+      "Source": "原物托管沿用同一资产 ID。期限当天营业期间可赎当，收盘后才绝当。",
+      "Text": "原物托管沿用同一资产 ID。期限当天营业期间可赎当，收盘后才绝当。"
+    },
+    {
+      "Key": "ui.c368966e",
+      "Source": "典当经营尚未取得许可。\n许可费用 ",
+      "Text": "典当经营尚未取得许可。\n许可费用 "
+    },
+    {
+      "Key": "ui.29e27508",
+      "Source": " Cr；默认期限 ",
+      "Text": " Cr；默认期限 "
+    },
+    {
+      "Key": "ui.bf2be511",
+      "Source": " 个游戏日。\n最高放款为估值的 ",
+      "Text": " 个游戏日。\n最高放款为估值的 "
+    },
+    {
+      "Key": "ui.86057ce9",
+      "Source": "，日费用 ",
+      "Text": "，日费用 "
+    },
+    {
+      "Key": "ui.f44ef6fa",
+      "Source": "支付许可费用并开业",
+      "Text": "支付许可费用并开业"
+    },
+    {
+      "Key": "ui.81e972e5",
+      "Source": "暂无合同。请从资产或顾客流程发起典当。\n托管物保留原实例并被锁定，仍占用原库存空间。",
+      "Text": "暂无合同。请从资产或顾客流程发起典当。\n托管物保留原实例并被锁定，仍占用原库存空间。"
+    },
+    {
+      "Key": "ui.82a44dcd",
+      "Source": "已赎回",
+      "Text": "已赎回"
+    },
+    {
+      "Key": "ui.012c5351",
+      "Source": "已绝当",
+      "Text": "已绝当"
+    },
+    {
+      "Key": "ui.2483620d",
+      "Source": "托管中",
+      "Text": "托管中"
+    },
+    {
+      "Key": "ui.39c3ed30",
+      "Source": "待收盘结算",
+      "Text": "待收盘结算"
+    },
+    {
+      "Key": "ui.9cde09af",
+      "Source": "店主放款",
+      "Text": "店主放款"
+    },
+    {
+      "Key": "ui.b197d8ef",
+      "Source": "玩家借款",
+      "Text": "玩家借款"
+    },
+    {
+      "Key": "ui.a470cd7c",
+      "Source": "\n资产 ",
+      "Text": "\n资产 "
+    },
+    {
+      "Key": "ui.75170fa2",
+      "Source": "\n本金 ",
+      "Text": "\n本金 "
+    },
+    {
+      "Key": "ui.b6a3b011",
+      "Source": " / 赎当 ",
+      "Text": " / 赎当 "
+    },
+    {
+      "Key": "ui.d6c854a8",
+      "Source": " / 截止第 ",
+      "Text": " / 截止第 "
+    },
+    {
+      "Key": "ui.ed55506e",
+      "Source": " 日",
+      "Text": " 日"
+    },
+    {
+      "Key": "ui.b3b79232",
+      "Source": "顾客赎当",
+      "Text": "顾客赎当"
+    },
+    {
+      "Key": "ui.74714de5",
+      "Source": "支付赎当",
+      "Text": "支付赎当"
+    },
+    {
+      "Key": "ui.22b6e531",
+      "Source": "续当",
+      "Text": "续当"
+    },
+    {
+      "Key": "ui.3198e938",
+      "Source": "续当需付已计费用 + ",
+      "Text": "续当需付已计费用 + "
+    },
+    {
+      "Key": "ui.91e97999",
+      "Source": "我的资产",
+      "Text": "我的资产"
+    },
+    {
+      "Key": "ui.74208aa4",
+      "Source": "翡翠",
+      "Text": "翡翠"
+    },
+    {
+      "Key": "ui.82d70771",
+      "Source": "未找到这件实物。",
+      "Text": "未找到这件实物。"
+    },
+    {
+      "Key": "ui.ebbd1bd3",
+      "Source": "这件原料已经加工消耗。",
+      "Text": "这件原料已经加工消耗。"
+    },
+    {
+      "Key": "ui.7fd28831",
+      "Source": "实物正在托管，先查看对应合同。",
+      "Text": "实物正在托管，先查看对应合同。"
+    },
+    {
+      "Key": "ui.bbeb56bb",
+      "Source": "验货台 · ",
+      "Text": "验货台 · "
+    },
+    {
+      "Key": "ui.8c683199",
+      "Source": "鉴定等级 ",
+      "Text": "鉴定等级 "
+    },
+    {
+      "Key": "ui.f03f000c",
+      "Source": " / 5    经验 ",
+      "Text": " / 5    经验 "
+    },
+    {
+      "Key": "ui.2fd8582b",
+      "Source": "老练的目光：可见异常自动记录",
+      "Text": "老练的目光：可见异常自动记录"
+    },
+    {
+      "Key": "ui.463ec2e7",
+      "Source": "观察实物，点击可见异常",
+      "Text": "观察实物，点击可见异常"
+    },
+    {
+      "Key": "ui.7b884c08",
+      "Source": "顾客把物品收回身边。\n“今天不再检查了，谈谈价格吧。”",
+      "Text": "顾客把物品收回身边。\n“今天不再检查了，谈谈价格吧。”"
+    },
+    {
+      "Key": "ui.279ab57a",
+      "Source": "卖出 / 回收 每克",
+      "Text": "卖出 / 回收 每克"
+    },
+    {
+      "Key": "ui.5c553b4c",
+      "Source": "核实材料回收",
+      "Text": "核实材料回收"
+    },
+    {
+      "Key": "ui.c9a60cef",
+      "Source": "标称回收估算",
+      "Text": "标称回收估算"
+    },
+    {
+      "Key": "ui.9b43cc77",
+      "Source": "当前报价 ",
+      "Text": "当前报价 "
+    },
+    {
+      "Key": "ui.d69514bd",
+      "Source": "引用原因 ",
+      "Text": "引用原因 "
+    },
+    {
+      "Key": "ui.58083e72",
+      "Source": " 项",
+      "Text": " 项"
+    },
+    {
+      "Key": "ui.fe1baa18",
+      "Source": "尚未记录异常。\n没有异常的物品可以直接议价。",
+      "Text": "尚未记录异常。\n没有异常的物品可以直接议价。"
+    },
+    {
+      "Key": "ui.ca3d0eef",
+      "Source": "引用全部证据",
+      "Text": "引用全部证据"
+    },
+    {
+      "Key": "ui.a0fb2f63",
+      "Source": "查看窗口",
+      "Text": "查看窗口"
+    },
+    {
+      "Key": "ui.b1e907da",
+      "Source": "查看皮壳",
+      "Text": "查看皮壳"
+    },
+    {
+      "Key": "ui.11943fe1",
+      "Source": "加工 / 检验",
+      "Text": "加工 / 检验"
+    },
+    {
+      "Key": "ui.e49f4219",
+      "Source": "议价与交易",
+      "Text": "议价与交易"
+    },
+    {
+      "Key": "ui.df1b71ff",
+      "Source": "资产档案",
+      "Text": "资产档案"
+    },
+    {
+      "Key": "ui.22d3b929",
+      "Source": "议价 · ",
+      "Text": "议价 · "
+    },
+    {
+      "Key": "ui.7fe68fcd",
+      "Source": "本次金额只对当前实物、顾客、证据和当日行情有效。",
+      "Text": "本次金额只对当前实物、顾客、证据和当日行情有效。"
+    },
+    {
+      "Key": "ui.f5dfd3e5",
+      "Source": "购入这件商品",
+      "Text": "购入这件商品"
+    },
+    {
+      "Key": "ui.e17a0fa4",
+      "Source": "卖给星港回收商",
+      "Text": "卖给星港回收商"
+    },
+    {
+      "Key": "ui.2469fabb",
+      "Source": " Cr\n材料：",
+      "Text": " Cr\n材料："
+    },
+    {
+      "Key": "ui.b3b0dad0",
+      "Source": "\n引用 ",
+      "Text": "\n引用 "
+    },
+    {
+      "Key": "ui.b6959391",
+      "Source": " 个独立原因",
+      "Text": " 个独立原因"
+    },
+    {
+      "Key": "ui.f7b88fde",
+      "Source": "标称基准 ",
+      "Text": "标称基准 "
+    },
+    {
+      "Key": "ui.7be6a065",
+      "Source": " · 已计证据差额 ",
+      "Text": " · 已计证据差额 "
+    },
+    {
+      "Key": "ui.ba963980",
+      "Source": "已核实材料回收值 ",
+      "Text": "已核实材料回收值 "
+    },
+    {
+      "Key": "ui.b1ab4c58",
+      "Source": "按标称估算回收值，未获材料检验确认 ",
+      "Text": "按标称估算回收值，未获材料检验确认 "
+    },
+    {
+      "Key": "ui.4ad2ef8f",
+      "Source": "确认",
+      "Text": "确认"
+    },
+    {
+      "Key": "ui.7b066021",
+      "Source": "付款 ",
+      "Text": "付款 "
+    },
+    {
+      "Key": "ui.164e5edb",
+      "Source": "出售 ",
+      "Text": "出售 "
+    },
+    {
+      "Key": "ui.9780bf56",
+      "Source": "继续查看证据",
+      "Text": "继续查看证据"
+    },
+    {
+      "Key": "ui.638535ba",
+      "Source": "与柜台当前客户成交",
+      "Text": "与柜台当前客户成交"
+    },
+    {
+      "Key": "ui.758ff5d1",
+      "Source": "按此估值办理顾客典当",
+      "Text": "按此估值办理顾客典当"
+    },
+    {
+      "Key": "ui.5e47ffd2",
+      "Source": "以此物抵押周转",
+      "Text": "以此物抵押周转"
+    },
+    {
+      "Key": "ui.858b34a7",
+      "Source": "顾客典当 · 放款",
+      "Text": "顾客典当 · 放款"
+    },
+    {
+      "Key": "ui.6c7cbc32",
+      "Source": "抵押周转 · 借款",
+      "Text": "抵押周转 · 借款"
+    },
+    {
+      "Key": "ui.5077c947",
+      "Source": "典当使用这件实物的资产编号，托管期间占用库存位置。",
+      "Text": "典当使用这件实物的资产编号，托管期间占用库存位置。"
+    },
+    {
+      "Key": "ui.07bf36eb",
+      "Source": "估值 ",
+      "Text": "估值 "
+    },
+    {
+      "Key": "ui.bb911845",
+      "Source": " · 本金 ",
+      "Text": " · 本金 "
+    },
+    {
+      "Key": "ui.90646971",
+      "Source": " 个游戏日 · 日费率 ",
+      "Text": " 个游戏日 · 日费率 "
+    },
+    {
+      "Key": "ui.606e38a9",
+      "Source": "%\n到期日仍可赎回，营业结束后未赎则转归贷款方。\n托管物不能出售、加工或重复抵押。",
+      "Text": "%\n到期日仍可赎回，营业结束后未赎则转归贷款方。\n托管物不能出售、加工或重复抵押。"
+    },
+    {
+      "Key": "ui.e5284f7d",
+      "Source": "申请典当经营许可 ",
+      "Text": "申请典当经营许可 "
+    },
+    {
+      "Key": "ui.6394b705",
+      "Source": "确认放款 ",
+      "Text": "确认放款 "
+    },
+    {
+      "Key": "ui.29609c9e",
+      "Source": "确认借款 ",
+      "Text": "确认借款 "
+    },
+    {
+      "Key": "ui.30c4aa1e",
+      "Source": "报价已变化，请重新议价。",
+      "Text": "报价已变化，请重新议价。"
+    },
+    {
+      "Key": "ui.502d4654",
+      "Source": "返回议价",
+      "Text": "返回议价"
+    },
+    {
+      "Key": "ui.ee0d287b",
+      "Source": "工坊与检验所 · ",
+      "Text": "工坊与检验所 · "
+    },
+    {
+      "Key": "ui.907dd56c",
+      "Source": "实物身份与历史保留；加工后需要重新报价。",
+      "Text": "实物身份与历史保留；加工后需要重新报价。"
+    },
+    {
+      "Key": "ui.9102331c",
+      "Source": "已确认问题可申请修复；检验证书只证明列明的范围。",
+      "Text": "已确认问题可申请修复；检验证书只证明列明的范围。"
+    },
+    {
+      "Key": "ui.b50b85b2",
+      "Source": "修复已确认问题 ",
+      "Text": "修复已确认问题 "
+    },
+    {
+      "Key": "ui.b719a54a",
+      "Source": "材质检验 25",
+      "Text": "材质检验 25"
+    },
+    {
+      "Key": "ui.8d4a9761",
+      "Source": "真伪检验 25",
+      "Text": "真伪检验 25"
+    },
+    {
+      "Key": "ui.9deca3d6",
+      "Source": "版本核验 25",
+      "Text": "版本核验 25"
+    },
+    {
+      "Key": "ui.37cf1e3e",
+      "Source": "翻开阅读",
+      "Text": "翻开阅读"
+    },
+    {
+      "Key": "ui.11019028",
+      "Source": "开窗 ",
+      "Text": "开窗 "
+    },
+    {
+      "Key": "ui.aa248f06",
+      "Source": "切成挂件 ",
+      "Text": "切成挂件 "
+    },
+    {
+      "Key": "ui.509f7d52",
+      "Source": "集中取大料 ",
+      "Text": "集中取大料 "
+    },
+    {
+      "Key": "ui.a285f3b7",
+      "Source": "回到鉴定台",
+      "Text": "回到鉴定台"
+    },
+    {
+      "Key": "ui.f0bf93f3",
+      "Source": "书页 · ",
+      "Text": "书页 · "
+    },
+    {
+      "Key": "ui.b1a6a832",
+      "Source": "合上书页",
+      "Text": "合上书页"
+    },
+    {
+      "Key": "ui.adb034aa",
+      "Source": "资产档案 · ",
+      "Text": "资产档案 · "
+    },
+    {
+      "Key": "ui.ffdda4f7",
+      "Source": "独立实物编号与作品 / 版本分开记录。",
+      "Text": "独立实物编号与作品 / 版本分开记录。"
+    },
+    {
+      "Key": "ui.1ddb9dae",
+      "Source": "编号 ",
+      "Text": "编号 "
+    },
+    {
+      "Key": "ui.2c0a1250",
+      "Source": "\n状态 ",
+      "Text": "\n状态 "
+    },
+    {
+      "Key": "ui.1bc90b37",
+      "Source": " · 修复 ",
+      "Text": " · 修复 "
+    },
+    {
+      "Key": "ui.4ea7b4f8",
+      "Source": " 次 · 已发现 ",
+      "Text": " 次 · 已发现 "
+    },
+    {
+      "Key": "ui.fe6ddee6",
+      "Source": " 处\n作品 ",
+      "Text": " 处\n作品 "
+    },
+    {
+      "Key": "ui.18518775",
+      "Source": " · 日 ",
+      "Text": " · 日 "
+    },
+    {
+      "Key": "ui.ca7c8c7e",
+      "Source": "来源原石 ",
+      "Text": "来源原石 "
+    },
+    {
+      "Key": "ui.6660d0dd",
+      "Source": "欢迎来到星港。验货、做买卖，或到银行办理业务。",
+      "Text": "欢迎来到星港。验货、做买卖，或到银行办理业务。"
+    },
+    {
+      "Key": "ui.0d24188f",
+      "Source": "已继承早期鉴定经验。旧测试记录保留，真实商品从星港来客进入。",
+      "Text": "已继承早期鉴定经验。旧测试记录保留，真实商品从星港来客进入。"
+    },
+    {
+      "Key": "ui.58bb3ab4",
+      "Source": "上次实物业务需要核对，原记录已保留。",
+      "Text": "上次实物业务需要核对，原记录已保留。"
+    },
+    {
+      "Key": "ui.eb8285e9",
+      "Source": "星港记录需要核对，原数据已保留。",
+      "Text": "星港记录需要核对，原数据已保留。"
+    },
+    {
+      "Key": "ui.49dae0dd",
+      "Source": "金额超过原版钱包范围。",
+      "Text": "金额超过原版钱包范围。"
+    },
+    {
+      "Key": "ui.862601b1",
+      "Source": "演示存档已保存。",
+      "Text": "演示存档已保存。"
+    },
+    {
+      "Key": "ui.fa9ae39b",
+      "Source": "星港大厅",
+      "Text": "星港大厅"
+    },
+    {
+      "Key": "ui.79fa181c",
+      "Source": "我的货物",
+      "Text": "我的货物"
+    },
+    {
+      "Key": "ui.3eb7f1f1",
+      "Source": "第 ",
+      "Text": "第 "
+    },
+    {
+      "Key": "ui.a705631b",
+      "Source": " 天   现金 ",
+      "Text": " 天   现金 "
+    },
+    {
+      "Key": "ui.3bab00da",
+      "Source": "收起",
+      "Text": "收起"
+    },
+    {
+      "Key": "ui.d51c5191",
+      "Source": "星港 · 生意与见识",
+      "Text": "星港 · 生意与见识"
+    },
+    {
+      "Key": "ui.7522786a",
+      "Source": "一件实物，一份经历。报价、合同与账本跟随当前存档。",
+      "Text": "一件实物，一份经历。报价、合同与账本跟随当前存档。"
+    },
+    {
+      "Key": "ui.5d5475cc",
+      "Source": " / 5\n经验 ",
+      "Text": " / 5\n经验 "
+    },
+    {
+      "Key": "ui.bafa3331",
+      "Source": "    已登记资产 ",
+      "Text": "    已登记资产 "
+    },
+    {
+      "Key": "ui.9411299b",
+      "Source": "今日金价 / 纯金克\n金商卖出 ",
+      "Text": "今日金价 / 纯金克\n金商卖出 "
+    },
+    {
+      "Key": "ui.d11fd05f",
+      "Source": "    回收 ",
+      "Text": "    回收 "
+    },
+    {
+      "Key": "ui.76ebe3b6",
+      "Source": "\n白银卖出 ",
+      "Text": "\n白银卖出 "
+    },
+    {
+      "Key": "ui.01fbf31f",
+      "Source": "银行：",
+      "Text": "银行："
+    },
+    {
+      "Key": "ui.d9c4003f",
+      "Source": "已开户 · 余额 ",
+      "Text": "已开户 · 余额 "
+    },
+    {
+      "Key": "ui.0fa179d8",
+      "Source": "尚未开户",
+      "Text": "尚未开户"
+    },
+    {
+      "Key": "ui.d2fc7fba",
+      "Source": "\n典当：",
+      "Text": "\n典当："
+    },
+    {
+      "Key": "ui.92134d37",
+      "Source": "持证经营",
+      "Text": "持证经营"
+    },
+    {
+      "Key": "ui.ed85d9ed",
+      "Source": "可申请经营许可",
+      "Text": "可申请经营许可"
+    },
+    {
+      "Key": "ui.0c0204eb",
+      "Source": "星港来客 · 验货交易",
+      "Text": "星港来客 · 验货交易"
+    },
+    {
+      "Key": "ui.b5f3893f",
+      "Source": "我的实物 · 鉴定与加工",
+      "Text": "我的实物 · 鉴定与加工"
+    },
+    {
+      "Key": "ui.194f5096",
+      "Source": "银行 · 储蓄与借贷",
+      "Text": "银行 · 储蓄与借贷"
+    },
+    {
+      "Key": "ui.0f196a9d",
+      "Source": "证券与星港新闻",
+      "Text": "证券与星港新闻"
+    },
+    {
+      "Key": "ui.3d78a9f0",
+      "Source": "典当合同",
+      "Text": "典当合同"
+    },
+    {
+      "Key": "ui.11a764bf",
+      "Source": "共享账本",
+      "Text": "共享账本"
+    },
+    {
+      "Key": "ui.598172f0",
+      "Source": "星港 · 共享账本",
+      "Text": "星港 · 共享账本"
+    },
+    {
+      "Key": "ui.563791c5",
+      "Source": "最近业务记录；更早记录已汇总 ",
+      "Text": "最近业务记录；更早记录已汇总 "
+    },
+    {
+      "Key": "ui.2becd109",
+      "Source": " 笔。",
+      "Text": " 笔。"
+    },
+    {
+      "Key": "ui.5360d2c0",
+      "Source": "日 ",
+      "Text": "日 "
+    },
+    {
+      "Key": "ui.6cef9366",
+      "Source": "  现金 ",
+      "Text": "  现金 "
+    },
+    {
+      "Key": "ui.9840fcdd",
+      "Source": "星港业务  F7",
+      "Text": "星港业务  F7"
+    },
+    {
+      "Key": "ui.80a7c96e",
+      "Source": "StarPawn 资产 · 可使用放大镜鉴定",
+      "Text": "StarPawn 资产 · 可使用放大镜鉴定"
+    },
+    {
+      "Key": "ui.02c6b106",
+      "Source": "请先加载存档。",
+      "Text": "请先加载存档。"
+    },
+    {
+      "Key": "ui.92d5de79",
+      "Source": "资产或物品定义无效。",
+      "Text": "资产或物品定义无效。"
+    },
+    {
+      "Key": "ui.c074a249",
+      "Source": "资产已存在但归属或类型不匹配。",
+      "Text": "资产已存在但归属或类型不匹配。"
+    },
+    {
+      "Key": "ui.b339e032",
+      "Source": "待放置资产类型不匹配。",
+      "Text": "待放置资产类型不匹配。"
+    },
+    {
+      "Key": "ui.2c94635d",
+      "Source": "物品或目标库存不可用。",
+      "Text": "物品或目标库存不可用。"
+    },
+    {
+      "Key": "ui.9e14792c",
+      "Source": "只允许移动单件且未托管的资产。",
+      "Text": "只允许移动单件且未托管的资产。"
+    },
+    {
+      "Key": "ui.3ba4403c",
+      "Source": "目标库存空间不足或不允许放入。",
+      "Text": "目标库存空间不足或不允许放入。"
+    },
+    {
+      "Key": "ui.cc150b21",
+      "Source": "原生库存未确认完整转移。",
+      "Text": "原生库存未确认完整转移。"
+    },
+    {
+      "Key": "ui.144757ed",
+      "Source": "库存转移异常：",
+      "Text": "库存转移异常："
+    },
+    {
+      "Key": "ui.e1b34e47",
+      "Source": "未找到实物资产。",
+      "Text": "未找到实物资产。"
+    },
+    {
+      "Key": "ui.e22b09a3",
+      "Source": "存档尚未就绪。",
+      "Text": "存档尚未就绪。"
+    },
+    {
+      "Key": "ui.ea93d0f0",
+      "Source": "资产移除状态需要核对。",
+      "Text": "资产移除状态需要核对。"
+    },
+    {
+      "Key": "ui.86e1b1e5",
+      "Source": "物品不存在、不归玩家所有或当前不能移除。",
+      "Text": "物品不存在、不归玩家所有或当前不能移除。"
+    },
+    {
+      "Key": "ui.7666868b",
+      "Source": "原生库存没有确认移除。",
+      "Text": "原生库存没有确认移除。"
+    },
+    {
+      "Key": "ui.4b6cb250",
+      "Source": "移除物品失败：",
+      "Text": "移除物品失败："
+    },
+    {
+      "Key": "ui.85368b8d",
+      "Source": "待恢复物品不可用。",
+      "Text": "待恢复物品不可用。"
+    },
+    {
+      "Key": "ui.d174b79d",
+      "Source": "此实例没有当前存档的移除记录。",
+      "Text": "此实例没有当前存档的移除记录。"
+    },
+    {
+      "Key": "ui.cf6fab0d",
+      "Source": "恢复后的物品归属不匹配。",
+      "Text": "恢复后的物品归属不匹配。"
+    },
+    {
+      "Key": "ui.4a6dce77",
+      "Source": "抵押物不存在或不归玩家所有。",
+      "Text": "抵押物不存在或不归玩家所有。"
+    },
+    {
+      "Key": "ui.ff46853f",
+      "Source": "物品已被其他合同托管。",
+      "Text": "物品已被其他合同托管。"
+    },
+    {
+      "Key": "ui.507cc6f4",
+      "Source": "托管合同与实物不匹配。",
+      "Text": "托管合同与实物不匹配。"
+    },
+    {
+      "Key": "ui.e97820ef",
+      "Source": "钱包尚未就绪或正在执行操作。",
+      "Text": "钱包尚未就绪或正在执行操作。"
+    },
+    {
+      "Key": "ui.7e59dba8",
+      "Source": "缺少有效资金操作标识。",
+      "Text": "缺少有效资金操作标识。"
+    },
+    {
+      "Key": "ui.a98f16eb",
+      "Source": "金额超出支持范围。",
+      "Text": "金额超出支持范围。"
+    },
+    {
+      "Key": "ui.ef126a2d",
+      "Source": "余额不足或金额溢出。",
+      "Text": "余额不足或金额溢出。"
+    },
+    {
+      "Key": "ui.2b9060e9",
+      "Source": "操作标识已用于另一笔金额。",
+      "Text": "操作标识已用于另一笔金额。"
+    },
+    {
+      "Key": "ui.63c23a34",
+      "Source": "此资金操作状态不确定，已暂停重复执行。",
+      "Text": "此资金操作状态不确定，已暂停重复执行。"
+    },
+    {
+      "Key": "ui.32dde109",
+      "Source": "资金操作序号与标识不匹配。",
+      "Text": "资金操作序号与标识不匹配。"
+    },
+    {
+      "Key": "ui.f3a7278f",
+      "Source": "资金操作属于另一局序号空间。",
+      "Text": "资金操作属于另一局序号空间。"
+    },
+    {
+      "Key": "ui.b3c4893e",
+      "Source": "旧序号已越过高水位，拒绝重放；请使用核心已提交记录核对。",
+      "Text": "旧序号已越过高水位，拒绝重放；请使用核心已提交记录核对。"
+    },
+    {
+      "Key": "ui.2d8cf752",
+      "Source": "存在待核对资金操作，钱包已暂停新业务。",
+      "Text": "存在待核对资金操作，钱包已暂停新业务。"
+    },
+    {
+      "Key": "ui.5eca27dc",
+      "Source": "资金操作记录达到上限，需要受控归档。",
+      "Text": "资金操作记录达到上限，需要受控归档。"
+    },
+    {
+      "Key": "ui.7946925f",
+      "Source": "原版现金已变化，请重新确认金额。",
+      "Text": "原版现金已变化，请重新确认金额。"
+    },
+    {
+      "Key": "ui.679c3edc",
+      "Source": "资金边界异常，已保留记录并暂停：",
+      "Text": "资金边界异常，已保留记录并暂停："
+    },
+    {
+      "Key": "ui.7f2a0331",
+      "Source": "资金记录不可用，原数据未清空：",
+      "Text": "资金记录不可用，原数据未清空："
+    },
+    {
+      "Key": "ui.175f5e39",
+      "Source": "交易桥尚未就绪或需要核对上一笔交易。",
+      "Text": "交易桥尚未就绪或需要核对上一笔交易。"
+    },
+    {
+      "Key": "ui.564a6f30",
+      "Source": "只支持未托管的单件 StarPawn 资产。",
+      "Text": "只支持未托管的单件 StarPawn 资产。"
+    },
+    {
+      "Key": "ui.b45568fb",
+      "Source": "请先将该物品放到当前客户的交易台上。",
+      "Text": "请先将该物品放到当前客户的交易台上。"
+    },
+    {
+      "Key": "ui.a975edd4",
+      "Source": "估价服务没有返回有效的最终交易金额。",
+      "Text": "估价服务没有返回有效的最终交易金额。"
+    },
+    {
+      "Key": "ui.7440e8bf",
+      "Source": "报价计算失败：",
+      "Text": "报价计算失败："
+    },
+    {
+      "Key": "ui.0896e9dd",
+      "Source": "报价不存在或已失效，请重新报价。",
+      "Text": "报价不存在或已失效，请重新报价。"
+    },
+    {
+      "Key": "ui.f3cfa40a",
+      "Source": "请先确认当前报价。",
+      "Text": "请先确认当前报价。"
+    },
+    {
+      "Key": "ui.6761b148",
+      "Source": "原生交易补丁未通过调用点验证，已停止成交。",
+      "Text": "原生交易补丁未通过调用点验证，已停止成交。"
+    },
+    {
+      "Key": "ui.b3eba6d8",
+      "Source": "原版客户规则未完成成交；物品检查或确认对话可能仍待处理。",
+      "Text": "原版客户规则未完成成交；物品检查或确认对话可能仍待处理。"
+    },
+    {
+      "Key": "ui.eb071740",
+      "Source": "报价未确认、已结束或交易桥暂停。",
+      "Text": "报价未确认、已结束或交易桥暂停。"
+    },
+    {
+      "Key": "ui.e56b7127",
+      "Source": "交易对象、客户或物品位置已变化，请重新报价。",
+      "Text": "交易对象、客户或物品位置已变化，请重新报价。"
+    },
+    {
+      "Key": "ui.5a633647",
+      "Source": "物品归属与交易方向不一致。",
+      "Text": "物品归属与交易方向不一致。"
+    },
+    {
+      "Key": "ui.fe873d9a",
+      "Source": "当前客户不支持此交易方向。",
+      "Text": "当前客户不支持此交易方向。"
+    },
+    {
+      "Key": "ui.5e954100",
+      "Source": "物品状态或市场版本已变化，请重新确认新的报价。",
+      "Text": "物品状态或市场版本已变化，请重新确认新的报价。"
+    },
+    {
+      "Key": "ui.d4777a01",
+      "Source": "无法验证报价版本：",
+      "Text": "无法验证报价版本："
+    },
+    {
+      "Key": "ui.1f67aa95",
+      "Source": "现金不足，请重新确认交易。",
+      "Text": "现金不足，请重新确认交易。"
+    },
+    {
+      "Key": "ui.b7eb4f37",
+      "Source": "现金金额超出原版支持范围。",
+      "Text": "现金金额超出原版支持范围。"
+    },
+    {
+      "Key": "ui.218d8a71",
+      "Source": "客户预算低于已确认金额，请重新报价；不会静默降低到账金额。",
+      "Text": "客户预算低于已确认金额，请重新报价；不会静默降低到账金额。"
+    },
+    {
+      "Key": "ui.fe013663",
+      "Source": "正在提交上一笔交易，请勿重复点击。",
+      "Text": "正在提交上一笔交易，请勿重复点击。"
+    },
+    {
+      "Key": "ui.3a447480",
+      "Source": "StarPawn 物品需要先确认当前报价。",
+      "Text": "StarPawn 物品需要先确认当前报价。"
+    },
+    {
+      "Key": "ui.9286c163",
+      "Source": "原生价格调用点未验证。",
+      "Text": "原生价格调用点未验证。"
+    },
+    {
+      "Key": "ui.f7085db9",
+      "Source": "原生成交结果未完全匹配已确认金额和归属，请核对；不会自动重试或反向改款。",
+      "Text": "原生成交结果未完全匹配已确认金额和归属，请核对；不会自动重试或反向改款。"
+    },
+    {
+      "Key": "ui.687531a9",
+      "Source": "原生成交已执行，但核心状态通知失败：",
+      "Text": "原生成交已执行，但核心状态通知失败："
+    },
+    {
+      "Key": "ui.b3fd47bf",
+      "Source": "交易台含 StarPawn 资产，请逐件确认报价后成交。",
+      "Text": "交易台含 StarPawn 资产，请逐件确认报价后成交。"
+    },
+    {
+      "Key": "ui.f5c12cbb",
+      "Source": "请先明确开启 StarPawn 货源业务。",
+      "Text": "请先明确开启 StarPawn 货源业务。"
+    },
+    {
+      "Key": "ui.cbfa665a",
+      "Source": "当前没有可提供商品的卖家。",
+      "Text": "当前没有可提供商品的卖家。"
+    },
+    {
+      "Key": "ui.7533d0ee",
+      "Source": "货品标识无效。",
+      "Text": "货品标识无效。"
+    },
+    {
+      "Key": "ui.e0c9c543",
+      "Source": "该资产实物已存在，不能重复提供。",
+      "Text": "该资产实物已存在，不能重复提供。"
+    },
+    {
+      "Key": "ui.52c80ccb",
+      "Source": "该物品定义尚未注册。",
+      "Text": "该物品定义尚未注册。"
+    },
+    {
+      "Key": "ui.46d76dff",
+      "Source": "待放置货品类型不匹配。",
+      "Text": "待放置货品类型不匹配。"
+    },
+    {
+      "Key": "ui.b68747e3",
+      "Source": "上一笔原生交易需要核对，回执已保留。",
+      "Text": "上一笔原生交易需要核对，回执已保留。"
+    },
+    {
+      "Key": "ui.69d7ad6d",
+      "Source": "原生交易待办记录与当前存档不一致，原数据已保留。",
+      "Text": "原生交易待办记录与当前存档不一致，原数据已保留。"
+    },
+    {
+      "Key": "ui.ed5389e3",
+      "Source": "上一笔原生交易已进入提交阶段，需要核对现金、实物与账本；不会重复扣款。",
+      "Text": "上一笔原生交易已进入提交阶段，需要核对现金、实物与账本；不会重复扣款。"
+    },
+    {
+      "Key": "ui.3c4d0b85",
+      "Source": "实物缺少星港资产编号。",
+      "Text": "实物缺少星港资产编号。"
+    },
+    {
+      "Key": "ui.eb516333",
+      "Source": "当前没有可绑定的交易客户。",
+      "Text": "当前没有可绑定的交易客户。"
+    },
+    {
+      "Key": "ui.2e7b069d",
+      "Source": "当前客户缺少稳定身份，暂不能建立报价。",
+      "Text": "当前客户缺少稳定身份，暂不能建立报价。"
+    },
+    {
+      "Key": "ui.09a2e5ec",
+      "Source": "上一笔原生交易需要核对。",
+      "Text": "上一笔原生交易需要核对。"
+    },
+    {
+      "Key": "ui.7f43171f",
+      "Source": "没有找到这件实物。",
+      "Text": "没有找到这件实物。"
+    },
+    {
+      "Key": "ui.1758a5a8",
+      "Source": "请将这件商品放在当前客户的交易台上。",
+      "Text": "请将这件商品放在当前客户的交易台上。"
+    },
+    {
+      "Key": "ui.bc7de1b8",
+      "Source": "实物身份或产权与星港记录不一致，请先核对。",
+      "Text": "实物身份或产权与星港记录不一致，请先核对。"
+    },
+    {
+      "Key": "ui.ad775ae3",
+      "Source": "柜台购入",
+      "Text": "柜台购入"
+    },
+    {
+      "Key": "ui.d1a800ad",
+      "Source": "柜台出售",
+      "Text": "柜台出售"
+    },
+    {
+      "Key": "ui.97679658",
+      "Source": "柜台成交 · ",
+      "Text": "柜台成交 · "
+    },
+    {
+      "Key": "ui.50b191cb",
+      "Source": "当前客户、这件实物与本次证据共同确定成交价。",
+      "Text": "当前客户、这件实物与本次证据共同确定成交价。"
+    },
+    {
+      "Key": "ui.1fef24ad",
+      "Source": "向当前客户购入",
+      "Text": "向当前客户购入"
+    },
+    {
+      "Key": "ui.20f55cbf",
+      "Source": "向当前客户出售",
+      "Text": "向当前客户出售"
+    },
+    {
+      "Key": "ui.e5995d67",
+      "Source": "\n确认金额 ",
+      "Text": "\n确认金额 "
+    },
+    {
+      "Key": "ui.d8a1b927",
+      "Source": " Cr\n引用 ",
+      "Text": " Cr\n引用 "
+    },
+    {
+      "Key": "ui.86af5386",
+      "Source": "成交后现金 ",
+      "Text": "成交后现金 "
+    },
+    {
+      "Key": "ui.29d2b3f9",
+      "Source": "\n价格或客户变化时，需要重新报价。",
+      "Text": "\n价格或客户变化时，需要重新报价。"
+    },
+    {
+      "Key": "ui.b129f2f1",
+      "Source": "确认成交 ",
+      "Text": "确认成交 "
+    },
+    {
+      "Key": "ui.2fc53e0a",
+      "Source": "取消并继续验货",
+      "Text": "取消并继续验货"
+    },
+    {
+      "Key": "ui.d7fff4af",
+      "Source": "报价或业务记录已变化，请重新确认。",
+      "Text": "报价或业务记录已变化，请重新确认。"
+    },
+    {
+      "Key": "ui.14a68f5a",
+      "Source": "已与当前客户成交 ",
+      "Text": "已与当前客户成交 "
+    },
+    {
+      "Key": "ui.789e72a4",
+      "Source": " Cr，现金与实物产权已记账。",
+      "Text": " Cr，现金与实物产权已记账。"
+    },
+    {
+      "Key": "ui.d0e34199",
+      "Source": "原生成交回执缺少匹配的星港待办，已暂停业务。",
+      "Text": "原生成交回执缺少匹配的星港待办，已暂停业务。"
+    },
+    {
+      "Key": "ui.2b037cca",
+      "Source": "成交回执与待办快照不一致。",
+      "Text": "成交回执与待办快照不一致。"
+    },
+    {
+      "Key": "ui.d65ebcbe",
+      "Source": "柜台成交完成，已记录现金与实物产权。",
+      "Text": "柜台成交完成，已记录现金与实物产权。"
+    },
+    {
+      "Key": "ui.447d2d5b",
+      "Source": "无法在变化后的存档中记录交易待办。",
+      "Text": "无法在变化后的存档中记录交易待办。"
+    },
+    {
+      "Key": "ui.37342ad6",
+      "Source": "交易待办写入核对失败。",
+      "Text": "交易待办写入核对失败。"
+    },
+    {
+      "Key": "ui.c865cc2d",
+      "Source": "交易待办清理核对失败。",
+      "Text": "交易待办清理核对失败。"
+    },
+    {
+      "Key": "ui.de9ee4c3",
+      "Source": "已提交的原生交易需要核对，不能直接取消。",
+      "Text": "已提交的原生交易需要核对，不能直接取消。"
+    },
+    {
+      "Key": "ui.ad0bf202",
+      "Source": "原生交易结果需要核对，已保留待办与回执并暂停业务。",
+      "Text": "原生交易结果需要核对，已保留待办与回执并暂停业务。"
+    },
+    {
+      "Key": "ui.eae8d514",
+      "Source": "来客带来的实物；先看货，再决定是否付款或放款。",
+      "Text": "来客带来的实物；先看货，再决定是否付款或放款。"
+    },
+    {
+      "Key": "ui.21db7eb2",
+      "Source": "来客 ",
+      "Text": "来客 "
+    },
+    {
+      "Key": "ui.7c16ec3c",
+      "Source": "查看实物",
+      "Text": "查看实物"
+    },
+    {
+      "Key": "ui.5c0844be",
+      "Source": " 页",
+      "Text": " 页"
+    },
+    {
+      "Key": "ui.65b97150",
+      "Source": "已购商品位于原版库存。也可使用原版放大镜打开鉴定。",
+      "Text": "已购商品位于原版库存。也可使用原版放大镜打开鉴定。"
+    },
+    {
+      "Key": "ui.21e07542",
+      "Source": "还没有星港商品。到来客市场看看，或接收当前客户带来的物品。",
+      "Text": "还没有星港商品。到来客市场看看，或接收当前客户带来的物品。"
+    },
+    {
+      "Key": "ui.831cce1c",
+      "Source": "自有",
+      "Text": "自有"
+    },
+    {
+      "Key": "ui.9d710515",
+      "Source": " · 证书 ",
+      "Text": " · 证书 "
+    },
+    {
+      "Key": "ui.a6458d85",
+      "Source": " · 已发现 ",
+      "Text": " · 已发现 "
+    },
+    {
+      "Key": "ui.026251c4",
+      "Source": "查看典当合同",
+      "Text": "查看典当合同"
+    },
+    {
+      "Key": "ui.31de882c",
+      "Source": "鉴定与议价",
+      "Text": "鉴定与议价"
+    },
+    {
+      "Key": "ui.7d40c8e2",
+      "Source": "来客市场",
+      "Text": "来客市场"
+    },
+    {
+      "Key": "business.8f113d44ec73",
+      "Source": "OpenBank",
+      "Text": "开立储蓄账户"
+    },
+    {
+      "Key": "business.8575e998958e",
+      "Source": "CloseBank",
+      "Text": "关闭储蓄账户"
+    },
+    {
+      "Key": "business.0da00b600a2d",
+      "Source": "Deposit",
+      "Text": "存入现金"
+    },
+    {
+      "Key": "business.164546a9c548",
+      "Source": "Withdraw",
+      "Text": "提取存款"
+    },
+    {
+      "Key": "business.04779039be1e",
+      "Source": "ReissueBankCard",
+      "Text": "补发储蓄卡"
+    },
+    {
+      "Key": "business.d9a1ae709e59",
+      "Source": "OpenCredit",
+      "Text": "签订信用协议"
+    },
+    {
+      "Key": "business.dddfb0a4b4a7",
+      "Source": "BorrowCredit",
+      "Text": "使用信用额度"
+    },
+    {
+      "Key": "business.3aa95f554511",
+      "Source": "RepayCredit",
+      "Text": "偿还信用欠款"
+    },
+    {
+      "Key": "business.93538d0b209e",
+      "Source": "TakeLoan",
+      "Text": "申请贷款"
+    },
+    {
+      "Key": "business.c2a84f74c802",
+      "Source": "RepayLoan",
+      "Text": "偿还贷款"
+    },
+    {
+      "Key": "business.91feba513f52",
+      "Source": "OpenSecurities",
+      "Text": "开立证券账户"
+    },
+    {
+      "Key": "business.382beefcc67d",
+      "Source": "BuySecurity",
+      "Text": "买入证券"
+    },
+    {
+      "Key": "business.767cdc53b90f",
+      "Source": "SellSecurity",
+      "Text": "卖出证券"
+    },
+    {
+      "Key": "business.6c979251e153",
+      "Source": "AcquirePawnLicense",
+      "Text": "申请典当许可"
+    },
+    {
+      "Key": "business.48356dc751c0",
+      "Source": "CreatePawn",
+      "Text": "签订典当合同"
+    },
+    {
+      "Key": "business.a09525f1ed6a",
+      "Source": "RedeemPawn",
+      "Text": "赎回抵押物"
+    },
+    {
+      "Key": "business.8e9d990cd845",
+      "Source": "RenewPawn",
+      "Text": "续当"
+    },
+    {
+      "Key": "business.4b2803e014f8",
+      "Source": "OptIntoMarketEvents",
+      "Text": "订阅商会简报"
+    },
+    {
+      "Key": "business.e3d24d3c2382",
+      "Source": "ActivateMarketEvent",
+      "Text": "参与商会事件"
+    },
+    {
+      "Key": "business.abded854e4d6",
+      "Source": "ActivateGoldAgreement",
+      "Text": "签订黄金市场协议"
+    },
+    {
+      "Key": "business.fa0c2188cea1",
+      "Source": "CloseCredit",
+      "Text": "结束信用协议"
+    },
+    {
+      "Key": "business.658a7a1e0cca",
+      "Source": "CloseSecurities",
+      "Text": "关闭证券账户"
+    },
+    {
+      "Key": "business.70e65c1507b4",
+      "Source": "ReissueCreditCard",
+      "Text": "补发信用卡"
+    },
+    {
+      "Key": "business.6f3a72436822",
+      "Source": "Insufficient cash or wallet overflow.",
+      "Text": "随身现金不足，或收款后超过现金上限。"
+    },
+    {
+      "Key": "business.43b4deed8b55",
+      "Source": "No open savings account.",
+      "Text": "尚未开立储蓄账户。"
+    },
+    {
+      "Key": "business.cd33a8c8d376",
+      "Source": "Bank account is already open.",
+      "Text": "储蓄账户已经开立。"
+    },
+    {
+      "Key": "business.a127381c20b3",
+      "Source": "Withdraw the bank balance before closing.",
+      "Text": "请先取出全部存款，再关闭账户。"
+    },
+    {
+      "Key": "business.d94416da6566",
+      "Source": "Settle outstanding credit and loans first.",
+      "Text": "请先结清信用欠款及贷款。"
+    },
+    {
+      "Key": "business.47ed9099411b",
+      "Source": "Insufficient bank balance.",
+      "Text": "账户余额不足。"
+    },
+    {
+      "Key": "business.f27ed958d3f6",
+      "Source": "Credit agreement already exists.",
+      "Text": "已经签订信用协议。"
+    },
+    {
+      "Key": "business.f974f4e7902f",
+      "Source": "Credit limit exceeds the product maximum.",
+      "Text": "申请额度超过本项业务上限。"
+    },
+    {
+      "Key": "business.671423ff18df",
+      "Source": "No credit agreement.",
+      "Text": "尚未签订信用协议。"
+    },
+    {
+      "Key": "business.e5ba2aa7b972",
+      "Source": "Repay all credit obligations before ending the agreement.",
+      "Text": "请先结清全部信用欠款，再结束协议。"
+    },
+    {
+      "Key": "business.f710ffb60587",
+      "Source": "Sign a credit agreement first.",
+      "Text": "请先签订信用协议。"
+    },
+    {
+      "Key": "business.1ec65ff4c8d3",
+      "Source": "Credit limit exceeded.",
+      "Text": "剩余信用额度不足。"
+    },
+    {
+      "Key": "business.5261490b2788",
+      "Source": "Repayment exceeds the debt.",
+      "Text": "还款金额超过剩余欠款。"
+    },
+    {
+      "Key": "business.f79b9b768abf",
+      "Source": "Loan principal exceeds the product maximum.",
+      "Text": "贷款金额超过本项业务上限。"
+    },
+    {
+      "Key": "business.247dbd74f2a4",
+      "Source": "Too many open loans.",
+      "Text": "未结清贷款已达上限。"
+    },
+    {
+      "Key": "business.bca01481340e",
+      "Source": "Loan is already settled.",
+      "Text": "这笔贷款已经结清。"
+    },
+    {
+      "Key": "business.e87f9c3d8308",
+      "Source": "Securities account is already open.",
+      "Text": "证券账户已经开立。"
+    },
+    {
+      "Key": "business.d9c04f48dbfd",
+      "Source": "No securities account.",
+      "Text": "尚未开立证券账户。"
+    },
+    {
+      "Key": "business.9c26e874804a",
+      "Source": "Sell all positions before closing the securities account.",
+      "Text": "请先卖出全部持仓，再关闭证券账户。"
+    },
+    {
+      "Key": "business.c3c582bb7185",
+      "Source": "Open a securities account first.",
+      "Text": "请先开立证券账户。"
+    },
+    {
+      "Key": "business.dd8a7433b08c",
+      "Source": "Order quantity exceeds the maximum.",
+      "Text": "委托数量超过上限。"
+    },
+    {
+      "Key": "business.43a83e43d689",
+      "Source": "Unknown security symbol.",
+      "Text": "未找到此证券。"
+    },
+    {
+      "Key": "business.caeedc353b0a",
+      "Source": "Position limit exceeded.",
+      "Text": "持仓数量超过上限。"
+    },
+    {
+      "Key": "business.d4377dc1dc7b",
+      "Source": "Insufficient position; short selling is unavailable.",
+      "Text": "可卖持仓不足，本市场不支持做空。"
+    },
+    {
+      "Key": "business.df8671ac64a1",
+      "Source": "Pawn business is already licensed.",
+      "Text": "已经获得典当经营许可。"
+    },
+    {
+      "Key": "business.73966e7d958b",
+      "Source": "Acquire the pawn business license first.",
+      "Text": "请先申请典当经营许可。"
+    },
+    {
+      "Key": "business.2cdd7f7f33db",
+      "Source": "This asset is already pledged.",
+      "Text": "这件实物已经抵押，不能重复典当。"
+    },
+    {
+      "Key": "business.d9081c31c08c",
+      "Source": "Too many active pawn contracts.",
+      "Text": "未结清典当合同已达上限。"
+    },
+    {
+      "Key": "business.96b168424338",
+      "Source": "Principal exceeds collateral lending value.",
+      "Text": "本金超过抵押物可放款金额。"
+    },
+    {
+      "Key": "business.6a13092c5b1a",
+      "Source": "Collateral is not redeemable.",
+      "Text": "这份合同已结束或已过赎回期限。"
+    },
+    {
+      "Key": "business.b50f371563dc",
+      "Source": "Collateral cannot be renewed.",
+      "Text": "这份合同已结束或已过续当期限。"
+    },
+    {
+      "Key": "business.b96d59b8e9d1",
+      "Source": "This contract has already been renewed today.",
+      "Text": "这份合同今天已经续当。"
+    },
+    {
+      "Key": "business.0c32f7c033ea",
+      "Source": "Local market events are already enabled by agreement.",
+      "Text": "已经订阅商会简报。"
+    },
+    {
+      "Key": "business.86b0c4f0a647",
+      "Source": "Gold agreement is already active.",
+      "Text": "黄金市场协议已经生效。"
+    },
+    {
+      "Key": "business.8b49edf7c083",
+      "Source": "Opt into local market events first.",
+      "Text": "请先订阅商会简报。"
+    },
+    {
+      "Key": "business.4a7dc9a29024",
+      "Source": "This story event has already occurred.",
+      "Text": "这项商会事件已经发生。"
+    },
+    {
+      "Key": "business.32d0425f43d7",
+      "Source": "Gold market agreement is required.",
+      "Text": "请先签订黄金市场协议。"
+    },
+    {
+      "Key": "business.830369adfb73",
+      "Source": "Open a savings account first.",
+      "Text": "请先开立储蓄账户。"
+    },
+    {
+      "Key": "business.d8326daa579f",
+      "Source": "Amount must be positive.",
+      "Text": "请输入大于零的金额。"
+    },
+    {
+      "Key": "business.f55d4861fb81",
+      "Source": "Unknown loan contract.",
+      "Text": "未找到贷款合同。"
+    },
+    {
+      "Key": "business.9495ee5eac43",
+      "Source": "Unknown pawn contract.",
+      "Text": "未找到典当合同。"
+    },
+    {
+      "Key": "business.bcea4f488f5a",
+      "Source": "This business day has already closed.",
+      "Text": "当天营业已结束，明天再来办理吧。"
+    },
+    {
+      "Key": "business.048b45229d9e",
+      "Source": "资产服务 · repair",
+      "Text": "资产服务 · 维修"
+    },
+    {
+      "Key": "business.ff098a797e07",
+      "Source": "资产服务 · window",
+      "Text": "资产服务 · 翡翠开窗"
+    },
+    {
+      "Key": "business.8a65f22b5e6c",
+      "Source": "资产服务 · cut_pendants",
+      "Text": "资产服务 · 切割挂件"
+    },
+    {
+      "Key": "business.5b62ea9d1dba",
+      "Source": "资产服务 · cut_cabochon",
+      "Text": "资产服务 · 取大料"
+    },
+    {
+      "Key": "business.f81e4c764ee8",
+      "Source": "资产服务 · material",
+      "Text": "资产服务 · 材质检验"
+    },
+    {
+      "Key": "business.49ba9019315b",
+      "Source": "资产服务 · authenticity",
+      "Text": "资产服务 · 真伪检验"
+    },
+    {
+      "Key": "business.50d9abac2b3b",
+      "Source": "资产服务 · edition",
+      "Text": "资产服务 · 版本核验"
+    },
+    {
+      "Key": "business.27a218aed8f2",
+      "Source": "资产服务 · read",
+      "Text": "资产服务 · 阅读"
+    },
+    {
+      "Key": "ui.finish.604ac37d4e37",
+      "Source": "旧信用账户请先补发凭证；已有债务不受影响。",
+      "Text": "旧信用账户请先补发凭证；已有债务不受影响。"
+    },
+    {
+      "Key": "ui.finish.b1001b4199a9",
+      "Source": "旧账户请先补发卡片 →",
+      "Text": "旧账户请先补发卡片 →"
+    },
+    {
+      "Key": "ui.finish.2e576316f715",
+      "Source": "；实物外观刷新失败：",
+      "Text": "；实物外观刷新失败："
+    },
+    {
+      "Key": "ui.finish.cb0522a9049f",
+      "Source": "顾客抵押物归属或状态不匹配。",
+      "Text": "顾客抵押物归属或状态不匹配。"
+    },
+    {
+      "Key": "ui.finish.9f33de0f299d",
+      "Source": "这件抵押物已不在来客清单中。",
+      "Text": "这件抵押物已不在来客清单中。"
+    },
+    {
+      "Key": "ui.finish.0eefdda73a52",
+      "Source": "抵押物必须由当前卖家在柜台展示，且与登记原件一致。",
+      "Text": "抵押物必须由当前卖家在柜台展示，且与登记原件一致。"
+    },
+    {
+      "Key": "ui.finish.a0514f8f724b",
+      "Source": "星港银行 · 储蓄与卡片",
+      "Text": "星港银行 · 储蓄与卡片"
+    },
+    {
+      "Key": "ui.finish.5a50e336a0ca",
+      "Source": "仅主动签约后生效。随身现金 ",
+      "Text": "仅主动签约后生效。随身现金 "
+    },
+    {
+      "Key": "ui.finish.05022a6ac342",
+      "Source": "实体银行卡 · 领取与补办",
+      "Text": "实体银行卡 · 领取与补办"
+    },
+    {
+      "Key": "ui.finish.7b1ea2869725",
+      "Source": "额度不是现金。借款增加现金与负债；还款从随身现金中扣除。",
+      "Text": "额度不是现金。借款增加现金与负债；还款从随身现金中扣除。"
+    },
+    {
+      "Key": "ui.finish.312f37daa4c2",
+      "Source": "星港交易所 · 今日行情",
+      "Text": "星港交易所 · 今日行情"
+    },
+    {
+      "Key": "ui.finish.d0591d3fe296",
+      "Source": " 日 · 报价单位 Cr · 价格可能涨跌，买卖存在价差。",
+      "Text": " 日 · 报价单位 Cr · 价格可能涨跌，买卖存在价差。"
+    },
+    {
+      "Key": "ui.finish.8b94d68709d4",
+      "Source": "前线消息：目前没有生效或待生效的商会简报。",
+      "Text": "前线消息：目前没有生效或待生效的商会简报。"
+    },
+    {
+      "Key": "ui.finish.f1b7e602f6c5",
+      "Source": "预告 · ",
+      "Text": "预告 · "
+    },
+    {
+      "Key": "ui.finish.8c52f0930df7",
+      "Source": "生效 · ",
+      "Text": "生效 · "
+    },
+    {
+      "Key": "ui.finish.0b7e74e74f7f",
+      "Source": "  第 ",
+      "Text": "  第 "
+    },
+    {
+      "Key": "ui.finish.7e97ab1dd6cf",
+      "Source": "证券账户尚未开通，没有持仓与证券业务。\n开户可交易股票及星云币，商会黄金协议与简报订阅须另行参加。",
+      "Text": "证券账户尚未开通，没有持仓与证券业务。\n开户可交易股票及星云币，商会黄金协议与简报订阅须另行参加。"
+    },
+    {
+      "Key": "ui.finish.5f94c613e5d2",
+      "Source": "刷新今日行情",
+      "Text": "刷新今日行情"
+    },
+    {
+      "Key": "ui.finish.cb78e386223d",
+      "Source": "商会协议与前线简报",
+      "Text": "商会协议与前线简报"
+    },
+    {
+      "Key": "ui.finish.4da8cebcfba8",
+      "Source": "星港商会 · 协议与前线简报",
+      "Text": "星港商会 · 协议与前线简报"
+    },
+    {
+      "Key": "ui.finish.84cc1db57355",
+      "Source": "简报影响本商会收录商品与相关证券的报价，其他商家仍按各自规则营业。",
+      "Text": "简报影响本商会收录商品与相关证券的报价，其他商家仍按各自规则营业。"
+    },
+    {
+      "Key": "ui.finish.2d7b154d36fc",
+      "Source": "黄金协议已签署：次日起金价每日涨跌，金饰与投资金条共享行情。\n协议不会代你买卖，盈亏取决于成交价格。",
+      "Text": "黄金协议已签署：次日起金价每日涨跌，金饰与投资金条共享行情。\n协议不会代你买卖，盈亏取决于成交价格。"
+    },
+    {
+      "Key": "ui.finish.12c30d75f904",
+      "Source": "黄金协议尚未签署：银行开户或购买金饰均不会自动参加。\n主动签署后，次日起接受商会每日金价，金饰与金条共享行情。",
+      "Text": "黄金协议尚未签署：银行开户或购买金饰均不会自动参加。\n主动签署后，次日起接受商会每日金价，金饰与金条共享行情。"
+    },
+    {
+      "Key": "ui.finish.ac75ad6e129e",
+      "Source": "签署商会黄金协议",
+      "Text": "签署商会黄金协议"
+    },
+    {
+      "Key": "ui.finish.bad4222396bf",
+      "Source": "前线简报已订阅：接收一次报告，便推进对应的商会剧情。\n每份报告每局仅一次，相关行情次日起生效。",
+      "Text": "前线简报已订阅：接收一次报告，便推进对应的商会剧情。\n每份报告每局仅一次，相关行情次日起生效。"
+    },
+    {
+      "Key": "ui.finish.8436fa6f81d7",
+      "Source": "前线简报尚未订阅，相关商会剧情不会推进。\n主动订阅后，再接收报告参与；相关行情次日起生效。",
+      "Text": "前线简报尚未订阅，相关商会剧情不会推进。\n主动订阅后，再接收报告参与；相关行情次日起生效。"
+    },
+    {
+      "Key": "ui.finish.22e46915a9bd",
+      "Source": "订阅简报并参与商会剧情",
+      "Text": "订阅简报并参与商会剧情"
+    },
+    {
+      "Key": "ui.finish.af0725327996",
+      "Source": "接收矿业简报",
+      "Text": "接收矿业简报"
+    },
+    {
+      "Key": "ui.finish.06b1a2e43f26",
+      "Source": "接收青岚勘探报告",
+      "Text": "接收青岚勘探报告"
+    },
+    {
+      "Key": "ui.finish.b58d7b1d1f0d",
+      "Source": "接收航运通告",
+      "Text": "接收航运通告"
+    },
+    {
+      "Key": "ui.finish.5a7fce0629c6",
+      "Source": "报告影响持续 ",
+      "Text": "报告影响持续 "
+    },
+    {
+      "Key": "ui.finish.6281388b7b5d",
+      "Source": " 个游戏日；矿业简报须先签署黄金协议。\n消息可能改变商品与证券价格；收益不保证，成交仍有买卖价差。",
+      "Text": " 个游戏日；矿业简报须先签署黄金协议。\n消息可能改变商品与证券价格；收益不保证，成交仍有买卖价差。"
+    },
+    {
+      "Key": "ui.finish.5947df7763a1",
+      "Source": " · 已收阅",
+      "Text": " · 已收阅"
+    },
+    {
+      "Key": "ui.finish.85ae6c814141",
+      "Source": "\n影响：第 ",
+      "Text": "\n影响：第 "
+    },
+    {
+      "Key": "ui.finish.91e0d439f300",
+      "Source": "抵押原件交由保管。期限当天营业期间可赎当，收盘后才绝当。",
+      "Text": "抵押原件交由保管。期限当天营业期间可赎当，收盘后才绝当。"
+    },
+    {
+      "Key": "ui.finish.c1f23ac94c75",
+      "Source": "星环矿业",
+      "Text": "星环矿业"
+    },
+    {
+      "Key": "ui.finish.450f85aacbad",
+      "Source": "青岚开发",
+      "Text": "青岚开发"
+    },
+    {
+      "Key": "ui.finish.f6af13876481",
+      "Source": "轨道电子",
+      "Text": "轨道电子"
+    },
+    {
+      "Key": "ui.finish.d5b1b2124964",
+      "Source": "星云币",
+      "Text": "星云币"
+    },
+    {
+      "Key": "ui.finish.9252ef95ebcc",
+      "Source": "星环金矿增供",
+      "Text": "星环金矿增供"
+    },
+    {
+      "Key": "ui.finish.c100205b2a26",
+      "Source": "青岚发现翡翠矿",
+      "Text": "青岚发现翡翠矿"
+    },
+    {
+      "Key": "ui.finish.34c7fa091120",
+      "Source": "航运受阻、电子供给短缺",
+      "Text": "航运受阻、电子供给短缺"
+    },
+    {
+      "Key": "ui.finish.3da01119396e",
+      "Source": "商会简报",
+      "Text": "商会简报"
+    },
+    {
+      "Key": "ui.finish.2f6b94e4fb1c",
+      "Source": "    经验 ",
+      "Text": "    经验 "
+    },
+    {
+      "Key": "ui.finish.3e11d29e6116",
+      "Source": "反复检查让眼睛有些疲劳。\n先交给检验所看看吧。",
+      "Text": "反复检查让眼睛有些疲劳。\n先交给检验所看看吧。"
+    },
+    {
+      "Key": "ui.finish.47941abb19ac",
+      "Source": "已修复 · ",
+      "Text": "已修复 · "
+    },
+    {
+      "Key": "ui.finish.bb7e957b580a",
+      "Source": "返回来客",
+      "Text": "返回来客"
+    },
+    {
+      "Key": "ui.finish.8ef65e6dc13c",
+      "Source": "新的观察已记入这件实物的档案。",
+      "Text": "新的观察已记入这件实物的档案。"
+    },
+    {
+      "Key": "ui.finish.0b3294403f7d",
+      "Source": "这处已经记录，重新看它没有新发现。",
+      "Text": "这处已经记录，重新看它没有新发现。"
+    },
+    {
+      "Key": "ui.finish.9244017c85d0",
+      "Source": "眼睛有些疲劳，先交给检验所看看吧。",
+      "Text": "眼睛有些疲劳，先交给检验所看看吧。"
+    },
+    {
+      "Key": "ui.finish.55502eb73c32",
+      "Source": "这里没有发现异常，再看看其他细节。",
+      "Text": "这里没有发现异常，再看看其他细节。"
+    },
+    {
+      "Key": "ui.finish.234b3ffcc69e",
+      "Source": "查看证书 · ",
+      "Text": "查看证书 · "
+    },
+    {
+      "Key": "ui.finish.77a37969026f",
+      "Source": "估值基准 ",
+      "Text": "估值基准 "
+    },
+    {
+      "Key": "ui.finish.1cf504e12972",
+      "Source": "放到交易台并报价",
+      "Text": "放到交易台并报价"
+    },
+    {
+      "Key": "ui.finish.ceb419016de4",
+      "Source": "请柜台卖家展示此物",
+      "Text": "请柜台卖家展示此物"
+    },
+    {
+      "Key": "ui.finish.e4fd2f8c2b7b",
+      "Source": "已完成修复",
+      "Text": "已完成修复"
+    },
+    {
+      "Key": "ui.finish.b58b1b70481b",
+      "Source": "暂无需修复的问题",
+      "Text": "暂无需修复的问题"
+    },
+    {
+      "Key": "ui.finish.b8cdc667f6e5",
+      "Source": "材质检验",
+      "Text": "材质检验"
+    },
+    {
+      "Key": "ui.finish.07ab008f2659",
+      "Source": "真伪检验",
+      "Text": "真伪检验"
+    },
+    {
+      "Key": "ui.finish.c7682f5094f7",
+      "Source": "版本核验",
+      "Text": "版本核验"
+    },
+    {
+      "Key": "ui.finish.88c5447d0e80",
+      "Source": "查看开窗",
+      "Text": "查看开窗"
+    },
+    {
+      "Key": "ui.finish.c81087d732a4",
+      "Source": "已加工消耗",
+      "Text": "已加工消耗"
+    },
+    {
+      "Key": "ui.finish.794bc72f1fa6",
+      "Source": "在册",
+      "Text": "在册"
+    },
+    {
+      "Key": "ui.finish.fae56d06f86a",
+      "Source": "\n作品 ",
+      "Text": "\n作品 "
+    },
+    {
+      "Key": "ui.finish.a9617ccbc181",
+      "Source": "实物编号 ",
+      "Text": "实物编号 "
+    },
+    {
+      "Key": "ui.finish.af9560f19762",
+      "Source": " 处",
+      "Text": " 处"
+    },
+    {
+      "Key": "ui.finish.567404228fdc",
+      "Source": " · 第 ",
+      "Text": " · 第 "
+    },
+    {
+      "Key": "ui.finish.63494c5d82d7",
+      "Source": " 日 · ",
+      "Text": " 日 · "
+    },
+    {
+      "Key": "ui.finish.62a7e68a29bc",
+      "Source": "\n经验 ",
+      "Text": "\n经验 "
+    },
+    {
+      "Key": "ui.finish.95182016d589",
+      "Source": "星港银行储蓄卡",
+      "Text": "星港银行储蓄卡"
+    },
+    {
+      "Key": "ui.finish.63e7a3337455",
+      "Source": "星港银行信用卡",
+      "Text": "星港银行信用卡"
+    },
+    {
+      "Key": "ui.finish.c3d9e8477b38",
+      "Source": "实名账户凭证 · 用放大镜查看账户 · 不可出售或加工",
+      "Text": "实名账户凭证 · 用放大镜查看账户 · 不可出售或加工"
+    },
+    {
+      "Key": "ui.finish.b8282f2bb514",
+      "Source": "同一卡号存在重复实体卡，请先核对；不会再补发。",
+      "Text": "同一卡号存在重复实体卡，请先核对；不会再补发。"
+    },
+    {
+      "Key": "ui.finish.07f452ae785c",
+      "Source": "存档尚未就绪，实体卡稍后领取。",
+      "Text": "存档尚未就绪，实体卡稍后领取。"
+    },
+    {
+      "Key": "ui.finish.9009819aa8fe",
+      "Source": "账户或卡号引用无效。",
+      "Text": "账户或卡号引用无效。"
+    },
+    {
+      "Key": "ui.finish.b30c8cab4f44",
+      "Source": "银行卡物品尚未注册。",
+      "Text": "银行卡物品尚未注册。"
+    },
+    {
+      "Key": "ui.finish.46b5d25b9b6f",
+      "Source": "待发银行卡身份不一致，已保留原物供核对。",
+      "Text": "待发银行卡身份不一致，已保留原物供核对。"
+    },
+    {
+      "Key": "ui.finish.e76775c244a7",
+      "Source": "银行卡已经连接到其他库存，请先核对位置；不会再次生成。",
+      "Text": "银行卡已经连接到其他库存，请先核对位置；不会再次生成。"
+    },
+    {
+      "Key": "ui.finish.8c39706023aa",
+      "Source": "库存需要空出连续两格。账户已有效，实体卡可稍后领取。",
+      "Text": "库存需要空出连续两格。账户已有效，实体卡可稍后领取。"
+    },
+    {
+      "Key": "ui.finish.45c4acf961c3",
+      "Source": "原生库存没有确认完整接收；账户有效，实体卡暂待领取。",
+      "Text": "原生库存没有确认完整接收；账户有效，实体卡暂待领取。"
+    },
+    {
+      "Key": "ui.finish.57bdb5807735",
+      "Source": "实体卡发行暂未完成：",
+      "Text": "实体卡发行暂未完成："
+    },
+    {
+      "Key": "ui.finish.3077dc8d3d89",
+      "Source": "；未放置的卡片已保留供核对：",
+      "Text": "；未放置的卡片已保留供核对："
+    },
+    {
+      "Key": "ui.finish.064c2568b693",
+      "Source": "先开始营业，等一位卖家来到柜台，再请他展示这件货品。",
+      "Text": "先开始营业，等一位卖家来到柜台，再请他展示这件货品。"
+    },
+    {
+      "Key": "ui.finish.8f70e9c9f8e4",
+      "Source": "这件来客货品已经交付或不再可供展示。",
+      "Text": "这件来客货品已经交付或不再可供展示。"
+    },
+    {
+      "Key": "ui.finish.3f7714d4cd77",
+      "Source": "柜台展示 ",
+      "Text": "柜台展示 "
+    },
+    {
+      "Key": "ui.finish.e893478659a5",
+      "Source": "卖家已把货品放到前台。用放大镜验货，再选择放到交易台并报价，或办理典当。",
+      "Text": "卖家已把货品放到前台。用放大镜验货，再选择放到交易台并报价，或办理典当。"
+    },
+    {
+      "Key": "ui.finish.cfcb82de7d8b",
+      "Source": "资产与存档实物不一致：",
+      "Text": "资产与存档实物不一致："
+    },
+    {
+      "Key": "ui.finish.38facfe00b72",
+      "Source": "托管合同与存档实物不一致：",
+      "Text": "托管合同与存档实物不一致："
+    },
+    {
+      "Key": "ui.finish.d845ad4ba65d",
+      "Source": "请等待对应的买家或卖家来到柜台。",
+      "Text": "请等待对应的买家或卖家来到柜台。"
+    },
+    {
+      "Key": "ui.finish.8a9446e64b21",
+      "Source": "实物身份、产权或托管状态不允许交易。",
+      "Text": "实物身份、产权或托管状态不允许交易。"
+    },
+    {
+      "Key": "ui.finish.4599d3b9b7e3",
+      "Source": "请先移走交易台上的其他物品，再单独议价。",
+      "Text": "请先移走交易台上的其他物品，再单独议价。"
+    }
+  ]
+}

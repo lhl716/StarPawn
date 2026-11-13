@@ -1,0 +1,44 @@
+{
+  "Mode": "Read-only installed-game IL metadata. No game execution or runtime Harmony patch verification.",
+  "GameAssemblySha256": "725CB999D019DFF1FF31BED353C7F9BB8D81A7605A15DE1F80F5A3A6CF7B1D05",
+  "PriceCallSites": [
+    {
+      "Method": "System.Void PlayerStore::BuyItem(GameItem)",
+      "Count": 1
+    },
+    {
+      "Method": "System.Void PlayerStore::SellItem(GameItem)",
+      "Count": 1
+    },
+    {
+      "Method": "System.Boolean PlayerStore::CanBuyItemFromTable()",
+      "Count": 1
+    }
+  ],
+  "DirectNativeBuySellCallers": [
+    {
+      "Caller": "System.Void PlayerStore::BuyItemFromTable()",
+      "Callee": "System.Void PlayerStore::BuyItem(GameItem)",
+      "DirectWalletCallCount": 0,
+      "DirectCashFieldWriteCount": 0
+    },
+    {
+      "Caller": "System.Void PlayerStore::SellItemFromTable()",
+      "Callee": "System.Void PlayerStore::SellItem(GameItem)",
+      "DirectWalletCallCount": 0,
+      "DirectCashFieldWriteCount": 0
+    },
+    {
+      "Caller": "System.Void NegociationUIManager::BuyMultipleItem(System.Collections.Generic.List`1<GameItem>)",
+      "Callee": "System.Void PlayerStore::BuyItem(GameItem)",
+      "DirectWalletCallCount": 0,
+      "DirectCashFieldWriteCount": 0
+    },
+    {
+      "Caller": "System.Void NegociationUIManager::SellMultiple(System.Collections.Generic.List`1<GameItem>,System.Boolean)",
+      "Callee": "System.Void PlayerStore::SellItem(GameItem)",
+      "DirectWalletCallCount": 0,
+      "DirectCashFieldWriteCount": 0
+    }
+  ]
+}

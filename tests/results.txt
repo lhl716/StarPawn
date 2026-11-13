@@ -1,0 +1,10 @@
+PASS Repeat clicks and reopen do not award experience twice
+PASS Three discoveries retain two independent economic causes
+PASS Clean items and invisible or unknown anomalies award nothing
+PASS Mastery marks all visible evidence once without extra clicks
+PASS Serialization reload preserves identity discoveries and rewards
+PASS Separate saves and separate instances cannot share discoveries
+PASS Future schema corruption and duplicate identities fail without wiping
+PASS Overflow does not partially mark a discovery
+PASS All discovery orders produce the same final quote
+PASS: 9 invariant tests. Game integration not tested by this executable.

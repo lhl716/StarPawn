@@ -1,0 +1,28 @@
+PASS purchase and sale conserve inventory and spread
+PASS capacity failure cancels unplaced spawn
+PASS wallet pre-mutation failure compensates spawned item
+PASS wallet post-mutation uncertainty preserves proposal and item
+PASS state persistence failure blocks without refund
+PASS failed compensation retains blocking recovery
+PASS stale asset version cannot charge
+PASS forged quote amount cannot charge
+PASS wrong direction cannot purchase
+PASS bank-only participation does not spawn or remove items
+PASS borrower pawn redemption releases same physical item
+PASS borrower default removes real collateral
+PASS lender customer redemption returns collateral outside inventory
+PASS lender default transfers same collateral to player
+PASS archived contract transition uses original role safely
+PASS partial jade output capacity rollback keeps original
+PASS successful jade cutting exchanges original for stable children
+PASS current native negotiation item cannot be sold through starport
+PASS explicit seller presentation has no cash and no duplicate offer
+PASS seller presentation requires present seller
+PASS seller tray failure restores domain and removes uncharged item
+PASS physical audit rejects missing replacement and custody mismatch
+PASS physical audit accepts both custody roles and consumed ancestry
+PASS native seller pawn takes same displayed instance into saved custody
+PASS native collateral capacity failure restores seller ownership
+PASS native collateral wallet failure restores exact tray item
+PASS native collateral rejects absent seller and substituted instance
+COMMERCE_HARNESS_PASSED=27; actual CommerceActions/NativeSourcing/Core source + fake native boundary; NOT an in-game test

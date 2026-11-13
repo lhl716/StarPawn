@@ -1,0 +1,56 @@
+StarPawn 内容包、规则与本地化（格式版本 1）
+
+运行时入口
+  Game/ContentBootstrap.cs 在 Mod 初始化阶段通过 ModHelper.ModFileExists / ReadModFileText 读取本Mod目录内文件；不申请任意文件权限。
+  这个入口只读取静态内容，不读写玩家存档，不创建银行、借贷、证券或典当义务。
+  缺文件、未知字段、不支持的版本、坏坐标、重复ID、缺贴图/文本键都会记录 SP_CONFIG_BLOCKED 并阻止业务启用；原配置和原存档不会被静默覆盖。
+
+文件
+  Content/settings.json：Language 默认 zh-CN，ExtensionFiles 默认空列表。
+  Content/items.json：基础 ContentPack，30 个定义；SchemaVersion=1，PackId 唯一，Items 为定义列表。
+  Content/Extensions/*.json：可选扩展包，只读取 settings.ExtensionFiles 显式列出的文件名，按文件名排序加载。文件名只允许字母、数字、下划线、短横和.json后缀；不允许路径。扩展包只追加新定义，不能覆盖已有ID。
+  Content/inspection-rules.json：等级阈值、每次首次发现经验、命中容差、标记比例、每个定义最多热点、转售比例、证书费用。
+  Content/finance-rules.json：统一金融参数，包括利率、贷款成数、额度、金银双向克价、行情范围与证券表。
+  Content/Localization/zh-CN.json：中文基础文本表。各项 Key 是稳定文本键，Source 是用于旧界面文本映射的原句，Text 为显示文本。
+  Content/Localization/en.json：部分英文覆盖示例；未覆盖的键保留中文。不是完整英文发行版。
+
+扩展一个物品
+  1. 复制 docs/example-extension.json 到 Content/Extensions/engraved-bracelet.json。
+     并在 Content/settings.json 将 ExtensionFiles 设为 ["engraved-bracelet.json"]。
+  2. 将 docs/example-extension-localization.json 的 Entries 追加到 Content/Localization/zh-CN.json 的 Entries。
+  3. 示例复用既有银镯纹理，增加独立纪念版定义，不复制实体AssetId。新实物仍由 Catalog.CreateAsset 分配稳定唯一ID。
+  4. 如果另画新图，TextureKey 格式仅允许 starpawn:小写字母数字下划线，并同时提供 Textures/Paper/文件名.png 和 Textures/Items/文件名.png。
+  5. 重新启动Mod使静态注册重建。不要在一局中途替换同ID的物理真值或异常ID；已有存档含这些定义和证据的引用。
+
+热点
+  U/V 是原图中的中心，Width/Height 是完整宽高，全部0..1。左上为0,0，右下为1,1。
+  坐标必须依据最终贴图测量。只在物体内部画实际损伤，不靠悬浮色块表达损伤。
+  ViewId=front；原石开窗内部专用 ViewId=window。不开窗时内部证据不可见、不可点击、不可自动发现。
+  同一 EconomicCause 对应 CauseId 可以有多个热点；估价按 CauseId 去重。
+  Repairable 表示工坊能修复的机械/表面原因。确认至少一处可修问题后，整件可修原因一次检修；不对未亲眼发现的问题奖励经验。
+  RepairedTextureKey 要表现实际修复结果。镀金品修扣后仍保留露底，主机修接口后仍保留既有拆修痕迹。
+
+成色与版本
+  DeclaredPurityBasisPoints 和 ActualPurityBasisPoints 分别是标称和真值，10000=100%。质量以 WeightMilligrams 保存。
+  DeclaredEditionId 与 EditionId 分别是标称和实际版次；WorkId 表示作品，AssetId 才是每一实体副本。
+  UI 使用 Catalog.PublicFacts 投影，不能直接显示隐藏的真实成色、版本、原石品质或产量。
+  金银材料使用同一金融市场的卖出/回收克价；报价分 MaterialValue 和 CraftPremium。假货已确认后不能继续获得纯金/纯银保底。
+
+规则约束
+  LevelThresholds 必须从0严格递增，最后一项是满级门槛；达到满级自动发现当前视图可见的预设问题。
+  ConsecutiveMissLimit 必须是2，这是本次用户明确指定的玩法，不允许配置绕过。
+  HitToleranceUv 范围0..0.02，默认0；MarkerScale范围0.5..1.5，默认1。修改容差不改变真实缺陷的贴图范围。
+  静态规则在启动加载。降低门槛可能让既有存档达到满级；证据与XP历史仍保留。
+
+本地化
+  物品 NameKey/DescriptionKey/ReadingKey 及热点 LabelKey 在加载时验证，并解析为当前显示语言。
+  主要界面通过 TextResolver.LocalizeInline 使用稳定 ui.* 键映射，最长来源优先且单次替换，动态数字不参与翻译。
+  另一个语言文件只需要列出要覆盖的同名Key和Text，Language与settings一致；未知覆盖键会被拒绝。
+  Source相同的句子若被配置成互相矛盾的翻译会被拒绝，避免部分界面或相同名商品随机取词。
+  Category 保持稳定业务分类原值；显示通过本地化映射，语言切换不改变行情分类或产生金融副作用。
+
+验证与开发
+  tests/Run-ContentTests.ps1：纯业务、存档往返、配置和本地化不变量。
+  tests/Run-ContentBootstrapTests.ps1：真实 Newtonsoft.Json 解析与独立原生API替身下的加载失败/成功测试。
+  开发者仅在重新生成发行默认文件时传参：Run-ContentTests.ps1 <content-contract.txt绝对路径> export。
+  常规测试不覆盖配置；游戏运行时不会导出或覆盖这些文件。

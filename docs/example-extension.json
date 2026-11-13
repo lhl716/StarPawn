@@ -1,0 +1,36 @@
+{
+  "SchemaVersion": 1,
+  "PackId": "starpawn.example.engraved",
+  "Items": [
+    {
+      "Id": "silver_bracelet_engraved_example",
+      "Name": "月轨银镯 · 纪念刻字版",
+      "NameKey": "content.silver_bracelet_engraved_example.name",
+      "Category": "白银",
+      "Material": "silver",
+      "TextureKey": "starpawn:silver_bracelet_clean",
+      "WindowTextureKey": "",
+      "RepairedTextureKey": "",
+      "WorkId": "",
+      "EditionId": "",
+      "DeclaredEditionId": "",
+      "Description": "星港流通商品；以实物、证据和本日行情为准。",
+      "DescriptionKey": "content.silver_bracelet_engraved_example.description",
+      "ReadingText": "",
+      "ReadingKey": "",
+      "WeightMilligrams": 22000,
+      "DeclaredPurityBasisPoints": 9250,
+      "ActualPurityBasisPoints": 9250,
+      "CraftValue": 155,
+      "BaseValue": 0,
+      "ActualBaseValue": 30,
+      "RepairCost": 60,
+      "WindowCost": 0,
+      "CutCost": 0,
+      "IsJadeRough": false,
+      "IsBook": false,
+      "IsGenuine": true,
+      "Hotspots": []
+    }
+  ]
+}

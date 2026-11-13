@@ -1,0 +1,60 @@
+{
+  "RulesVersion": 1,
+  "BankInterestBps": 10,
+  "CreditInterestBps": 35,
+  "LoanInterestBps": 25,
+  "PawnInterestBps": 40,
+  "PawnRenewalFeeBps": 100,
+  "PawnLoanToValueBps": 6000,
+  "MaximumCreditLimit": 5000,
+  "MaximumLoanPrincipal": 10000,
+  "MaximumPawnPrincipal": 100000,
+  "PawnLicenseCost": 250,
+  "DefaultLoanDays": 14,
+  "DefaultPawnDays": 7,
+  "MaximumTermDays": 365,
+  "MaximumCatchupDays": 3660,
+  "MaximumActiveContracts": 128,
+  "MaximumPositions": 32,
+  "RecentOperationLimit": 256,
+  "ClosedContractLimit": 128,
+  "MaximumLedgerBalance": 1000000000000,
+  "MaximumCashBalance": 2147483647,
+  "MaximumSecurityQuantity": 1000000,
+  "GoldSellPerGram": 80,
+  "GoldBuyPerGram": 65,
+  "SilverSellPerGram": 8,
+  "SilverBuyPerGram": 6,
+  "GoldDailyVariationBps": 400,
+  "SecuritySpreadBps": 300,
+  "MarketEventDays": 3,
+  "GoldSupplyEventBps": 8500,
+  "JadeDiscoveryEventBps": 8000,
+  "ElectronicsShortageEventBps": 12000,
+  "Securities": [
+    {
+      "Symbol": "ORBIT",
+      "Kind": "Stock",
+      "BasePrice": 100,
+      "DailyVariationBps": 700
+    },
+    {
+      "Symbol": "JADE",
+      "Kind": "Stock",
+      "BasePrice": 80,
+      "DailyVariationBps": 900
+    },
+    {
+      "Symbol": "BYTE",
+      "Kind": "Stock",
+      "BasePrice": 120,
+      "DailyVariationBps": 800
+    },
+    {
+      "Symbol": "NEBULA",
+      "Kind": "Crypto",
+      "BasePrice": 30,
+      "DailyVariationBps": 1800
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+[
+  {
+    "id": "gold_bracelet",
+    "name": "星环足金手镯",
+    "category": "黄金",
+    "texture": "starpawn:gold_bracelet_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "gold_bracelet_worn",
+    "name": "星环足金手镯",
+    "category": "黄金",
+    "texture": "starpawn:gold_bracelet_worn",
+    "windowTexture": "",
+    "repairedTexture": "starpawn:gold_bracelet_clean",
+    "hotspots": [
+      {
+        "Id": "surface_wear",
+        "CauseId": "surface_damage",
+        "Label": "表面磨损",
+        "LabelKey": "evidence.gold_bracelet_worn.surface_wear",
+        "ViewId": "front",
+        "U": 0.277,
+        "V": 0.275,
+        "Width": 0.075,
+        "Height": 0.07,
+        "ValueDeduction": 90,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": true
+      },
+      {
+        "Id": "surface_seam",
+        "CauseId": "surface_damage",
+        "Label": "接缝刮痕",
+        "LabelKey": "evidence.gold_bracelet_worn.surface_seam",
+        "ViewId": "front",
+        "U": 0.736,
+        "V": 0.293,
+        "Width": 0.075,
+        "Height": 0.07,
+        "ValueDeduction": 90,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": true
+      },
+      {
+        "Id": "clasp_break",
+        "CauseId": "clasp_damage",
+        "Label": "搭扣断裂",
+        "LabelKey": "evidence.gold_bracelet_worn.clasp_break",
+        "ViewId": "front",
+        "U": 0.499,
+        "V": 0.184,
+        "Width": 0.12,
+        "Height": 0.07,
+        "ValueDeduction": 180,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": true
+      }
+    ]
+  },
+  {
+    "id": "gold_bracelet_plated",
+    "name": "星环足金手镯",
+    "category": "黄金",
+    "texture": "starpawn:gold_bracelet_plated",
+    "windowTexture": "",
+    "repairedTexture": "starpawn:gold_bracelet_plated_repaired",
+    "hotspots": [
+      {
+        "Id": "plating_edge",
+        "CauseId": "base_material_mismatch",
+        "Label": "镀层露底",
+        "LabelKey": "evidence.gold_bracelet_plated.plating_edge",
+        "ViewId": "front",
+        "U": 0.277,
+        "V": 0.275,
+        "Width": 0.075,
+        "Height": 0.07,
+        "ValueDeduction": 0,
+        "RevealsMaterial": true,
+        "RevealsAuthenticity": false,
+        "Repairable": false
+      },
+      {
+        "Id": "plating_seam",
+        "CauseId": "base_material_mismatch",
+        "Label": "接缝露底",
+        "LabelKey": "evidence.gold_bracelet_plated.plating_seam",
+        "ViewId": "front",
+        "U": 0.736,
+        "V": 0.293,
+        "Width": 0.075,
+        "Height": 0.07,
+        "ValueDeduction": 0,
+        "RevealsMaterial": true,
+        "RevealsAuthenticity": false,
+        "Repairable": false
+      },
+      {
+        "Id": "clasp_break",
+        "CauseId": "clasp_damage",
+        "Label": "搭扣断裂",
+        "LabelKey": "evidence.gold_bracelet_plated.clasp_break",
+        "ViewId": "front",
+        "U": 0.499,
+        "V": 0.184,
+        "Width": 0.12,
+        "Height": 0.07,
+        "ValueDeduction": 180,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": true
+      }
+    ]
+  },
+  {
+    "id": "gold_bar",
+    "name": "星港认证金条 · 50 克",
+    "category": "黄金",
+    "texture": "starpawn:gold_bar_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "gold_bar_suspect",
+    "name": "星港认证金条 · 50 克",
+    "category": "黄金",
+    "texture": "starpawn:gold_bar_suspect",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": [
+      {
+        "Id": "bar_seam",
+        "CauseId": "bar_filler",
+        "Label": "封边露出异色内芯",
+        "LabelKey": "evidence.gold_bar_suspect.bar_seam",
+        "ViewId": "front",
+        "U": 0.66,
+        "V": 0.574,
+        "Width": 0.13,
+        "Height": 0.09,
+        "ValueDeduction": 0,
+        "RevealsMaterial": true,
+        "RevealsAuthenticity": false,
+        "Repairable": false
+      },
+      {
+        "Id": "bar_stamp",
+        "CauseId": "bar_filler",
+        "Label": "压印边缘异常",
+        "LabelKey": "evidence.gold_bar_suspect.bar_stamp",
+        "ViewId": "front",
+        "U": 0.49,
+        "V": 0.434,
+        "Width": 0.045,
+        "Height": 0.045,
+        "ValueDeduction": 0,
+        "RevealsMaterial": true,
+        "RevealsAuthenticity": false,
+        "Repairable": false
+      }
+    ]
+  },
+  {
+    "id": "silver_cup",
+    "name": "月港银杯",
+    "category": "白银",
+    "texture": "starpawn:silver_cup_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "silver_cup_worn",
+    "name": "月港银杯",
+    "category": "白银",
+    "texture": "starpawn:silver_cup_worn",
+    "windowTexture": "",
+    "repairedTexture": "starpawn:silver_cup_clean",
+    "hotspots": [
+      {
+        "Id": "cup_dent",
+        "CauseId": "cup_damage",
+        "Label": "杯壁凹陷",
+        "LabelKey": "evidence.silver_cup_worn.cup_dent",
+        "ViewId": "front",
+        "U": 0.56,
+        "V": 0.54,
+        "Width": 0.13,
+        "Height": 0.14,
+        "ValueDeduction": 100,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": true
+      }
+    ]
+  },
+  {
+    "id": "silver_bracelet",
+    "name": "月轨银手镯",
+    "category": "白银",
+    "texture": "starpawn:silver_bracelet_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "silver_bracelet_worn",
+    "name": "月轨银手镯",
+    "category": "白银",
+    "texture": "starpawn:silver_bracelet_worn",
+    "windowTexture": "",
+    "repairedTexture": "starpawn:silver_bracelet_clean",
+    "hotspots": [
+      {
+        "Id": "silver_clasp",
+        "CauseId": "silver_clasp_damage",
+        "Label": "银镯搭扣裂损",
+        "LabelKey": "evidence.silver_bracelet_worn.silver_clasp",
+        "ViewId": "front",
+        "U": 0.5,
+        "V": 0.222,
+        "Width": 0.115,
+        "Height": 0.045,
+        "ValueDeduction": 95,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": true
+      }
+    ]
+  },
+  {
+    "id": "silver_bar",
+    "name": "月港认证银条 · 100 克",
+    "category": "白银",
+    "texture": "starpawn:silver_bar_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "silver_bar_suspect",
+    "name": "月港认证银条 · 100 克",
+    "category": "白银",
+    "texture": "starpawn:silver_bar_suspect",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": [
+      {
+        "Id": "silver_bar_seam",
+        "CauseId": "silver_filler",
+        "Label": "镀银封边露出铜色内芯",
+        "LabelKey": "evidence.silver_bar_suspect.silver_bar_seam",
+        "ViewId": "front",
+        "U": 0.685,
+        "V": 0.54,
+        "Width": 0.17,
+        "Height": 0.13,
+        "ValueDeduction": 0,
+        "RevealsMaterial": true,
+        "RevealsAuthenticity": false,
+        "Repairable": false
+      }
+    ]
+  },
+  {
+    "id": "jade_rough",
+    "name": "青岚原石",
+    "category": "翡翠原石",
+    "texture": "starpawn:jade_rough_clean",
+    "windowTexture": "starpawn:jade_window_clean",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "jade_rough_cracked",
+    "name": "青岚原石",
+    "category": "翡翠原石",
+    "texture": "starpawn:jade_rough_cracked",
+    "windowTexture": "starpawn:jade_window_cracked",
+    "repairedTexture": "",
+    "hotspots": [
+      {
+        "Id": "rough_crack",
+        "CauseId": "jade_fissure",
+        "Label": "皮壳裂隙",
+        "LabelKey": "evidence.jade_rough_cracked.rough_crack",
+        "ViewId": "front",
+        "U": 0.592,
+        "V": 0.49,
+        "Width": 0.17,
+        "Height": 0.2,
+        "ValueDeduction": 65,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": false
+      },
+      {
+        "Id": "window_crack",
+        "CauseId": "jade_fissure",
+        "Label": "开窗处延伸裂纹",
+        "LabelKey": "evidence.jade_rough_cracked.window_crack",
+        "ViewId": "window",
+        "U": 0.511,
+        "V": 0.557,
+        "Width": 0.24,
+        "Height": 0.22,
+        "ValueDeduction": 65,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": false
+      }
+    ]
+  },
+  {
+    "id": "jade_pendant",
+    "name": "青岚玉佩",
+    "category": "翡翠成品",
+    "texture": "starpawn:jade_pendant_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "jade_pendant_dyed",
+    "name": "青岚玉佩",
+    "category": "翡翠成品",
+    "texture": "starpawn:jade_pendant_dyed",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": [
+      {
+        "Id": "dye_pool",
+        "CauseId": "jade_treatment",
+        "Label": "裂隙染色聚集",
+        "LabelKey": "evidence.jade_pendant_dyed.dye_pool",
+        "ViewId": "front",
+        "U": 0.565,
+        "V": 0.527,
+        "Width": 0.09,
+        "Height": 0.13,
+        "ValueDeduction": 0,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": true,
+        "Repairable": false
+      }
+    ]
+  },
+  {
+    "id": "antique_vase",
+    "name": "远航纪年陶瓶",
+    "category": "古董",
+    "texture": "starpawn:antique_vase_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "antique_vase_repaired",
+    "name": "远航纪年陶瓶",
+    "category": "古董",
+    "texture": "starpawn:antique_vase_repaired",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": [
+      {
+        "Id": "vase_restore",
+        "CauseId": "restoration_history",
+        "Label": "釉面修补边界",
+        "LabelKey": "evidence.antique_vase_repaired.vase_restore",
+        "ViewId": "front",
+        "U": 0.583,
+        "V": 0.594,
+        "Width": 0.112,
+        "Height": 0.19,
+        "ValueDeduction": 280,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": false
+      }
+    ]
+  },
+  {
+    "id": "painting",
+    "name": "《港灯》原作",
+    "category": "字画",
+    "texture": "starpawn:painting_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "painting_forged",
+    "name": "《港灯》原作",
+    "category": "字画",
+    "texture": "starpawn:painting_forged",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": [
+      {
+        "Id": "seal_mismatch",
+        "CauseId": "painting_authenticity",
+        "Label": "印章笔画错位",
+        "LabelKey": "evidence.painting_forged.seal_mismatch",
+        "ViewId": "front",
+        "U": 0.848,
+        "V": 0.725,
+        "Width": 0.085,
+        "Height": 0.11,
+        "ValueDeduction": 0,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": true,
+        "Repairable": false
+      },
+      {
+        "Id": "print_dots",
+        "CauseId": "painting_authenticity",
+        "Label": "笔触中的规则印点",
+        "LabelKey": "evidence.painting_forged.print_dots",
+        "ViewId": "front",
+        "U": 0.374,
+        "V": 0.507,
+        "Width": 0.1,
+        "Height": 0.12,
+        "ValueDeduction": 0,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": true,
+        "Repairable": false
+      }
+    ]
+  },
+  {
+    "id": "console",
+    "name": "轨道一号游戏机",
+    "category": "主机",
+    "texture": "starpawn:console_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "console_damaged",
+    "name": "轨道一号游戏机",
+    "category": "主机",
+    "texture": "starpawn:console_damaged",
+    "windowTexture": "",
+    "repairedTexture": "starpawn:console_repaired",
+    "hotspots": [
+      {
+        "Id": "console_port",
+        "CauseId": "console_port_damage",
+        "Label": "接口触片弯折",
+        "LabelKey": "evidence.console_damaged.console_port",
+        "ViewId": "front",
+        "U": 0.708,
+        "V": 0.689,
+        "Width": 0.08,
+        "Height": 0.11,
+        "ValueDeduction": 190,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": true
+      },
+      {
+        "Id": "console_screw",
+        "CauseId": "console_service_history",
+        "Label": "螺丝拆修痕迹",
+        "LabelKey": "evidence.console_damaged.console_screw",
+        "ViewId": "front",
+        "U": 0.171,
+        "V": 0.487,
+        "Width": 0.08,
+        "Height": 0.11,
+        "ValueDeduction": 55,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": false
+      }
+    ]
+  },
+  {
+    "id": "handheld",
+    "name": "口袋航线掌机",
+    "category": "掌机",
+    "texture": "starpawn:handheld_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "handheld_damaged",
+    "name": "口袋航线掌机",
+    "category": "掌机",
+    "texture": "starpawn:handheld_damaged",
+    "windowTexture": "",
+    "repairedTexture": "starpawn:handheld_clean",
+    "hotspots": [
+      {
+        "Id": "handheld_port",
+        "CauseId": "handheld_port_damage",
+        "Label": "掌机接口触片弯折",
+        "LabelKey": "evidence.handheld_damaged.handheld_port",
+        "ViewId": "front",
+        "U": 0.894,
+        "V": 0.504,
+        "Width": 0.05,
+        "Height": 0.1,
+        "ValueDeduction": 140,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": true
+      }
+    ]
+  },
+  {
+    "id": "cartridge",
+    "name": "《环轨快递》卡带",
+    "category": "卡带",
+    "texture": "starpawn:cartridge_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "cartridge_bootleg",
+    "name": "《环轨快递》卡带",
+    "category": "卡带",
+    "texture": "starpawn:cartridge_bootleg",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": [
+      {
+        "Id": "label_print",
+        "CauseId": "cartridge_edition",
+        "Label": "标签印刷套色偏移",
+        "LabelKey": "evidence.cartridge_bootleg.label_print",
+        "ViewId": "front",
+        "U": 0.455,
+        "V": 0.455,
+        "Width": 0.25,
+        "Height": 0.2,
+        "ValueDeduction": 0,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": true,
+        "Repairable": false
+      }
+    ]
+  },
+  {
+    "id": "disc",
+    "name": "《远星回声》光盘",
+    "category": "光盘",
+    "texture": "starpawn:disc_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "disc_scratched",
+    "name": "《远星回声》光盘",
+    "category": "光盘",
+    "texture": "starpawn:disc_scratched",
+    "windowTexture": "",
+    "repairedTexture": "starpawn:disc_clean",
+    "hotspots": [
+      {
+        "Id": "disc_scratch",
+        "CauseId": "disc_surface",
+        "Label": "读取面径向划伤",
+        "LabelKey": "evidence.disc_scratched.disc_scratch",
+        "ViewId": "front",
+        "U": 0.671,
+        "V": 0.338,
+        "Width": 0.13,
+        "Height": 0.15,
+        "ValueDeduction": 70,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": false,
+        "Repairable": true
+      }
+    ]
+  },
+  {
+    "id": "book",
+    "name": "《星港手记》签名初版",
+    "category": "书籍",
+    "texture": "starpawn:book_clean",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  },
+  {
+    "id": "book_reprint",
+    "name": "《星港手记》签名初版",
+    "category": "书籍",
+    "texture": "starpawn:book_reprint",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": [
+      {
+        "Id": "reprint_mark",
+        "CauseId": "book_edition",
+        "Label": "版权页重印标记",
+        "LabelKey": "evidence.book_reprint.reprint_mark",
+        "ViewId": "front",
+        "U": 0.694,
+        "V": 0.682,
+        "Width": 0.15,
+        "Height": 0.08,
+        "ValueDeduction": 0,
+        "RevealsMaterial": false,
+        "RevealsAuthenticity": true,
+        "Repairable": false
+      }
+    ]
+  },
+  {
+    "id": "inspection_guide",
+    "name": "《星港验货手册》",
+    "category": "专业书籍",
+    "texture": "starpawn:guide_book",
+    "windowTexture": "",
+    "repairedTexture": "",
+    "hotspots": []
+  }
+]

@@ -1,0 +1,48 @@
+StarPawn inspection core / prototype v1
+
+Inspection.cs is original C# 8 code with no Unity/game dependencies. It compiled
+against the installed netstandard2.1 reference assemblies with warnings as errors.
+
+Integration
+- Namespace: StarPawn.Core. InspectionService is static.
+- New run: InspectionService.CreateNewState().
+- Existing run: deserialize InspectionState, then Validate(state). On validation
+  failure retain the raw payload and disable changes. Do not overwrite it with new data.
+- GetAsset(state, id) reads; GetAsset(state, id, variant) explicitly creates or reuses.
+- Discover(state, assetId, anomalyId, "front") returns true only for a new valid
+  discovery. The UI owns hit testing; it must call only for a visible matching hotspot.
+- AutoDiscoverVisible(state, assetId, "front") returns the new discovery count.
+  Invoke on opening and switching visible views. It does nothing below mastery.
+- IsMastered(state) means Experience >= 100; GetLevel returns 0..5.
+- A development-only mastery button may set state.Experience = MasteryExperience.
+- After every mutation, serialize the same state to the game's per-run Mod data.
+  Mod data persistence still depends on the game's save boundary.
+- DTOs use public fields and simple Lists for Newtonsoft.Json compatibility.
+
+Seed assets
+bracelet-worn-001 / variant worn
+bracelet-clean-001 / variant clean
+
+Front anomalies on worn only
+plating_edge:  base_material_mismatch, -300
+plating_seam:  base_material_mismatch, -300 (same cause; never an additional -300)
+broken_clasp:  clasp_damage, -100
+
+Every first valid anomaly discovery awards 10 XP. Discovery identity is scoped to
+the asset; reopening the same asset never regenerates its findings. All findings
+are confirmed and selected in this minimal prototype. There is no separate evidence
+selection UI yet. GetAnomalies contains underlying definitions; do not display
+unfound labels in the normal knowledge summary.
+
+PreviewQuote recomputes from a declared intact value of 1000 every time. One
+material clue gives 700, both material clues still give 700, all three give 600.
+These are prototype units/values. The service does not use the game's current value
+or wallet, and the quote is not a purchase authorization. Game trading is not integrated.
+
+Offline validation
+2026-11-13: 9 invariant tests passed using work/core-tests/Run-Tests.ps1:
+repeated clicks/reopen; economic cause deduplication; normal/invisible/invalid hits;
+mastery auto-discovery; serialization roundtrip; save/asset isolation; future and
+corrupt schema rejection; overflow; all six discovery orders.
+The roundtrip uses System.Text.Json in the independent test runner. Newtonsoft.Json
+and game save/reload integration are separate tests to run in the game adapter.

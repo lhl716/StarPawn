@@ -1,0 +1,26 @@
+PASS Unparticipating state and pure market queries have no side effects
+PASS Late bank opening never backfills interest and daily settlement is idempotent
+PASS Later deposit accrues only under the stated closing-balance rule
+PASS Card reissue references one balance and reopening gets a fresh account cursor
+PASS Insufficient cash rejects every staged balance/cursor change
+PASS Duplicate buttons and archived stale tokens cannot duplicate cash
+PASS Credit limit is not cash and borrowing creates matching debt
+PASS Credit cards reference one debt and same-day reopening invalidates old identity
+PASS Legacy credit agreement gains card identity only on explicit reissue without altering debt
+PASS Invalid credit card identity and serial overflow cannot partially change state
+PASS Loan terms snapshot rate and repayment pays interest before principal
+PASS Stocks and crypto require opt-in; trades conserve units and use deterministic quotes
+PASS Stale displayed market rejects both buys and sells without cash position or settlement changes
+PASS Same-day market revision also invalidates a displayed trade quote
+PASS Pawn custody rejects double pledges and returns the same borrower asset on due day
+PASS Pawn lender pays once, renewal retains identity, and customer redemption pays once
+PASS Due-day closing forfeits once and blocks later redemption
+PASS Multi-entity daily failure cannot partially credit earlier accounts
+PASS Local events require separate consent, start tomorrow, expire, and cannot be retriggered
+PASS Bank closure cannot erase loans and normal products do not enable macro story
+PASS Serialized state preserves idempotency and future schemas are rejected intact
+PASS Product closure cannot erase debt or positions; settled products can exit
+PASS Terminal contract histories are bounded while active obligations survive
+PASS Archived pawn effects retain immutable asset identity while previous state resolves contracts
+PASS Negative amounts wallet overflow and closed-day actions fail without mutation
+PASS: 25 economy invariant tests. Native cash/assets/save integration is not covered here.

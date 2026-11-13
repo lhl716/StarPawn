@@ -1,0 +1,16 @@
+{
+  "SchemaVersion": 1,
+  "Language": "zh-CN",
+  "Entries": [
+    {
+      "Key": "content.silver_bracelet_engraved_example.name",
+      "Source": "月轨银镯 · 纪念刻字版",
+      "Text": "月轨银镯 · 纪念刻字版"
+    },
+    {
+      "Key": "content.silver_bracelet_engraved_example.description",
+      "Source": "星港流通商品；以实物、证据和本日行情为准。",
+      "Text": "星港流通商品；以实物、证据和本日行情为准。"
+    }
+  ]
+}

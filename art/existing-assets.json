@@ -1,0 +1,462 @@
+[
+  {
+    "file": "mod/Textures/Paper/antique_vase_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "antique_vase"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "7ef25aa49d9228026b53132e8ee2886fc022272e8c6f676efe1c1ea5ed8aa105"
+  },
+  {
+    "file": "mod/Textures/Paper/antique_vase_repaired.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "antique_vase_repaired"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "517536ce60f7b0dc5c8b97a33cc2b5dca89769cbe0d2919afd2c3bce519be9a7"
+  },
+  {
+    "file": "mod/Textures/Paper/bank_card.png",
+    "width": 1586,
+    "height": 992,
+    "mode": "RGB",
+    "definitionIds": [],
+    "role": "existing-placeholder-art",
+    "sha256": "e6696e6bffee527fcc68e8abbd69341ac266d10ea863b26e2298f5f512d8a9ac"
+  },
+  {
+    "file": "mod/Textures/Paper/book_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "book"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "503abf96b7b54df58d7b99a51a204c14d643e98a283027434b19cb2e28afeedb"
+  },
+  {
+    "file": "mod/Textures/Paper/book_reprint.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "book_reprint"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "0540be7143fd0badfa61d5eb0779230d23c54fbfc02fcf3679d7d0f4086cc6ec"
+  },
+  {
+    "file": "mod/Textures/Paper/bracelet_clean.png",
+    "width": 600,
+    "height": 400,
+    "mode": "RGBA",
+    "definitionIds": [],
+    "role": "existing-placeholder-art",
+    "sha256": "980decf10a93ed8c2d74545149cca0d4d0359a0ab910c0e272a546b59affd234"
+  },
+  {
+    "file": "mod/Textures/Paper/bracelet_worn.png",
+    "width": 600,
+    "height": 400,
+    "mode": "RGBA",
+    "definitionIds": [],
+    "role": "existing-placeholder-art",
+    "sha256": "f3d79a25fd1d74b4b96834d8064b5de68153b4aab75cbe7d8b5061399ae9935e"
+  },
+  {
+    "file": "mod/Textures/Paper/button.png",
+    "width": 64,
+    "height": 32,
+    "mode": "RGBA",
+    "definitionIds": [],
+    "role": "existing-placeholder-art",
+    "sha256": "5cf2893484793835544a48b43a002a739a8607822f27c05dedb49d0387222e4c"
+  },
+  {
+    "file": "mod/Textures/Paper/button_hover.png",
+    "width": 64,
+    "height": 32,
+    "mode": "RGBA",
+    "definitionIds": [],
+    "role": "existing-placeholder-art",
+    "sha256": "a78059588f8644cab5e4790f1e66a88d3a14e11483a41294441a3a2150d8bfad"
+  },
+  {
+    "file": "mod/Textures/Paper/cartridge_bootleg.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "cartridge_bootleg"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "5cdf6f9a42765670df958516c7dcd3f95138a65ebb3c91aaaaebc0eaeae36117"
+  },
+  {
+    "file": "mod/Textures/Paper/cartridge_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "cartridge"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "756238d4ad2631d5e564b934f60737d6bdb8a7aab22e83a9db90e984d6d3a98b"
+  },
+  {
+    "file": "mod/Textures/Paper/console_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "console"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "991cc20a6027679b572e1e3576b2fb6dc53cda13ab713f81b7dcc3e10f3824d1"
+  },
+  {
+    "file": "mod/Textures/Paper/console_damaged.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "console_damaged"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "5a9176baca80d7b6a22533602e3dd8175207a988991d8be9cd0de442df878b27"
+  },
+  {
+    "file": "mod/Textures/Paper/console_repaired.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "console_damaged"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "f4205b3e9e2b390fb7a1282ef513581cadaa4f52a53dd4e1bb6a54a682e6c85c"
+  },
+  {
+    "file": "mod/Textures/Paper/credit_card.png",
+    "width": 1585,
+    "height": 992,
+    "mode": "RGB",
+    "definitionIds": [],
+    "role": "existing-placeholder-art",
+    "sha256": "fa061ae1f5eee06171fde8ae974d741d829d54e9e324967443acf290cc246b52"
+  },
+  {
+    "file": "mod/Textures/Paper/disc_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "disc",
+      "disc_scratched"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "75641563e7c598d60db3cfee070ddebbc35ff0f33ce35b098b86ece9cd9755f5"
+  },
+  {
+    "file": "mod/Textures/Paper/disc_scratched.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "disc_scratched"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "b467a14987d711e6598c68037656c7836c0808dc81dab478cfaf5638bb197c26"
+  },
+  {
+    "file": "mod/Textures/Paper/gold_bar_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "gold_bar"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "c3ea5a81a14f34f6dd35d65aa634d0b1d9bf57bb4fce630dd90e66a0086baeed"
+  },
+  {
+    "file": "mod/Textures/Paper/gold_bar_suspect.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "gold_bar_suspect"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "8c47ab9d17a99ea0d9d63f15683d51f146b92cf153a6523b1635b8281d5d5eac"
+  },
+  {
+    "file": "mod/Textures/Paper/gold_bracelet_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "gold_bracelet",
+      "gold_bracelet_worn"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "6076b4c3bac069eb40f89df64ef35eada20f73ccb84956ff277eec6a60853446"
+  },
+  {
+    "file": "mod/Textures/Paper/gold_bracelet_plated.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "gold_bracelet_plated"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "4bde2c00a9adffaf6afce47c00d8e8688caf1a0c13df8a809e4b6b79502b606e"
+  },
+  {
+    "file": "mod/Textures/Paper/gold_bracelet_plated_repaired.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "gold_bracelet_plated"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "2021a2f8e89eac1c90e4d22ab5a24a6d37c7a69da66e5b46940bc026a6bcf130"
+  },
+  {
+    "file": "mod/Textures/Paper/gold_bracelet_worn.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "gold_bracelet_worn"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "86955b8b255d85d39eb8552b120f946b13164c7f9c179cb4ee24c4e7781797a3"
+  },
+  {
+    "file": "mod/Textures/Paper/guide_book.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "inspection_guide"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "f10c13c18c19cfb0ef071dce91fb42e8b42c97eb4d44240f0b3428bcf7e48e06"
+  },
+  {
+    "file": "mod/Textures/Paper/handheld_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "handheld",
+      "handheld_damaged"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "23e3e37668ed90a5d4f476564a06a1369832825e25d2a9df9257f918ebf8a616"
+  },
+  {
+    "file": "mod/Textures/Paper/handheld_damaged.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "handheld_damaged"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "f7f6ce5fffaa43c8cb1b85aff1637c6823923e2893167ec9576e4918a17d3fcd"
+  },
+  {
+    "file": "mod/Textures/Paper/jade_pendant_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "jade_pendant"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "650a6bcde55623fe1b266594321754d20d23287abf315231d043e2857250d5c9"
+  },
+  {
+    "file": "mod/Textures/Paper/jade_pendant_dyed.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "jade_pendant_dyed"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "2b9c05165c0cd6ff6f097c07ca18e28d13e1694b6361d4325114b5c4d199a01c"
+  },
+  {
+    "file": "mod/Textures/Paper/jade_rough_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "jade_rough"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "eb29d1e0edd6bf609ffb6009657a63f114f0b82b8d7eb54047c8410d94185d24"
+  },
+  {
+    "file": "mod/Textures/Paper/jade_rough_cracked.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "jade_rough_cracked"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "e9d85091772bf127a4888e97d90545bfde443a666ad3c6313a6f16b5197f2bc5"
+  },
+  {
+    "file": "mod/Textures/Paper/jade_window_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "jade_rough"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "ad3b24783b638bba61762a01c073a73b8354e8a200e906b8834f14a8c4e43d2d"
+  },
+  {
+    "file": "mod/Textures/Paper/jade_window_cracked.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "jade_rough_cracked"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "572ce24072b85489f53a4bb8a810f1a544021d528ba7063d0388d7411b779300"
+  },
+  {
+    "file": "mod/Textures/Paper/marker.png",
+    "width": 128,
+    "height": 128,
+    "mode": "RGBA",
+    "definitionIds": [],
+    "role": "existing-placeholder-art",
+    "sha256": "8bcd0b7fb6a83e9c8ab02f59f9ad9162ea2e47be3da4fb646711c9982eaa2bdc"
+  },
+  {
+    "file": "mod/Textures/Paper/painting_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "painting"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "2609e61dc07b9319c2b00f3927d9c9c11054a9858d58db98cc3a142ebb0ed2d5"
+  },
+  {
+    "file": "mod/Textures/Paper/painting_forged.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "painting_forged"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "2a7ec985e45520ff4737844e1a7c335d19cb2ab29579eb50352760bb6a3c574c"
+  },
+  {
+    "file": "mod/Textures/Paper/panel.png",
+    "width": 64,
+    "height": 64,
+    "mode": "RGBA",
+    "definitionIds": [],
+    "role": "existing-placeholder-art",
+    "sha256": "9f0e572009754f65c4ba31b2f1986ea2734d19ec7cbb4c7370e50f608ee5052d"
+  },
+  {
+    "file": "mod/Textures/Paper/silver_bar_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "silver_bar"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "e1fb06cf3f012288c05fe553193d15cc9276a105b84010bc99f367fb8d919d84"
+  },
+  {
+    "file": "mod/Textures/Paper/silver_bar_suspect.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "silver_bar_suspect"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "2b7e600bac1d7956488aa7dab5f816bd3e371bf2d8156368ef505129684af415"
+  },
+  {
+    "file": "mod/Textures/Paper/silver_bracelet_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "silver_bracelet",
+      "silver_bracelet_worn"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "d614ac12d3d421862a5021fbea93a71bb5dd22a4966fa380986acad878cae7b0"
+  },
+  {
+    "file": "mod/Textures/Paper/silver_bracelet_worn.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "silver_bracelet_worn"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "54eeb6d557c0e42ff38669e1acc5781eca4c306408f52a0f4c5da081b192564a"
+  },
+  {
+    "file": "mod/Textures/Paper/silver_cup_clean.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "silver_cup",
+      "silver_cup_worn"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "a60746854c43552f22cdaa8318c322fe9b66495cd76fa400c407646866e4866f"
+  },
+  {
+    "file": "mod/Textures/Paper/silver_cup_worn.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "definitionIds": [
+      "silver_cup_worn"
+    ],
+    "role": "existing-placeholder-art",
+    "sha256": "e870f0360ca5fe78df5d2b155e976174f433970503973b12a8b91bf37024cdba"
+  },
+  {
+    "file": "mod/Textures/Paper/transparent.png",
+    "width": 16,
+    "height": 16,
+    "mode": "RGBA",
+    "definitionIds": [],
+    "role": "existing-placeholder-art",
+    "sha256": "50b068e07b4bf235705c19b77da49fdbbc7e98ddc0a46f1c6659cca98c963904"
+  }
+]

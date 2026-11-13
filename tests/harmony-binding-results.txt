@@ -1,0 +1,3 @@
+HARMONY_METADATA_PARAMETERS_PASSED=33
+Checked compiled patch parameter names, positional indices, types, target overload uniqueness against local Assembly-CSharp.dll.
+This is metadata validation, not execution of Harmony patch generation or Unity gameplay.

@@ -1,0 +1,21 @@
+{
+  "SchemaVersion": 1,
+  "Language": "en",
+  "Entries": [
+    {
+      "Key": "ui.fa9ae39b",
+      "Source": "星港大厅",
+      "Text": "Starport desk"
+    },
+    {
+      "Key": "ui.79fa181c",
+      "Source": "我的货物",
+      "Text": "My items"
+    },
+    {
+      "Key": "ui.3bab00da",
+      "Source": "收起",
+      "Text": "Close"
+    }
+  ]
+}
