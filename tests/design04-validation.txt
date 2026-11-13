@@ -1,0 +1,2 @@
+PASS design only: 135 fixed item-art rows; 241 runtime mappings; 250 templates in 50 category/subtype sets; 15 events; 15 physical recipes; 5 jewelry settings; 5 jewelry services; 71 UI rows; 50 handbook chapters in 9 books; native reference images; complete links and English prose. Gameplay not executed.
+PASS deterministic export: all four design manifests are byte-identical after regeneration.

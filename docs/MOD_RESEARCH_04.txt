@@ -1,0 +1,74 @@
+StarPawn 0.4 Design Research: Events, Markets, Recovery, and Jewelry
+Reviewed 2026-11-13. Research and independent design input; not an implementation or compatibility report.
+
+Evidence and scope
+This review uses authors' public release descriptions, not downloaded mod binaries or copied code/assets. Steam descriptions were read through the web reader; Station Events required a direct read of its public HTML because the web reader could not retrieve it. The Alchemy Expansion author description was available through the search index, while direct Nexus requests returned HTTP 403. These access limitations do not establish that a mod is unavailable or incompatible.
+Author statements about features and supported builds describe their own projects. No listed third-party mod was installed, run, or compatibility-tested in this review. Proposed StarPawn applications below are design decisions, not claims about features already shipped in 0.3.
+
+1. Station Events Expansion / Station Events
+Author: AlToCLeF. Author description reviewed: v1.2.0, with release 1.0.0.13 / Steam build 26525552 named as its baseline.
+Source: https://steamcommunity.com/sharedfiles/filedetails/?id=3833966506
+Observed: Short supply/demand events connect news, price effects, visitors, forecasts, and follow-up reports. The scheduler is separate from vanilla event slots. It retains schedules, cooldowns, seen-event history, and visitor records; eligible unseen events receive preference over repeats. The author limits extra visitors and preserves native faction and transaction rules. Frequency is configurable, and changing settings does not rewrite active events or confirmed forecasts.
+StarPawn application: A persisted event instance should drive both mechanical effects and the exact news explanation. Use a bounded independent queue with eligibility, cooldown, duration, and visitor limits. Preserve native story events and their visitor slots. StarPawn owns its own timing and balance; do not copy the reference's scheduling numbers as mandatory settings.
+
+2. Deep Space Financial Exchange
+Author: Rinka. Original title: Deep Space Financial Exchange / Exchange: Stocks and Commodities.
+Source: https://steamcommunity.com/sharedfiles/filedetails/?id=3829559307
+Observed: Newspaper, faction, and story events affect related financial assets. Information can reveal future event dates; settlement and transaction feedback are organized by trading day. The project includes advanced securities features beyond StarPawn's 0.3 delivery. Its public description explicitly allows different market outcomes after reloading and sleeping again.
+StarPawn application: Carry one event identity through prices, related securities, buyer demand, and nightly receipts. Display active effects and known future information separately. Retain StarPawn's saved outcomes and deterministic replay; do not adopt reload-driven rerolls. Leverage, options, and securities collateral remain separately scoped systems, not prerequisites for event-linked physical gold and jade prices.
+
+3. Shutter Events
+Author: Shi Pu Pu Tong Tong Xue Sheng (Steam display name).
+Source: https://steamcommunity.com/sharedfiles/filedetails/?id=3829019153
+Observed: A pre-opening board lists each active event, its price effect, and remaining duration, consistent with the game's calendar. The author's update also switches the board to investigation information after closing.
+StarPawn application: An event card must read the same active-instance data as valuation: affected markets, exact percentage, start/end day, and remaining duration. Use icons and text as well as color. News graphics must leave prices, dates, and percentages as runtime text. A player should be able to explain a changed gold quote, jade quote, or refining fee from this card.
+
+4. Deep Foundry
+Author: YkKkK. Author page included update 1.1.12 at review time.
+Source: https://steamcommunity.com/sharedfiles/filedetails/?id=3829293726
+Observed: Ore processing, metal refining, alloy smelting, recipe discovery, machine manufacture, and configured input/output routing form overnight production chains. The described power network supplies machines once each night, shares limited energy, and avoids multiplying the allowance merely by adding power banks.
+StarPawn application: Use persistent jobs with reserved inputs, a defined operation order, energy and capacity budgets, and exactly-once settlement. Power disruptions should pause or constrain processing through the job system. Track recovered metal, residue, and consumed feedstock rather than creating saleable output while leaving inputs reusable. Routing and machine adjacency are separate future integration tasks; this research does not certify native machine compatibility.
+
+5. Alchemy Expansion -- EXCLUDED BY USER DECISION (04.2)
+Author: BBQ886. Indexed author release: v0.27.0, updated 2026-10-17.
+Source: https://www.nexusmods.com/probablystolen/mods/834
+Observed: This is fictional transmutation: alchemy powder and a Philosopher's Stone convert metal ingots into gold while retaining input purity, with a dedicated purchaser. It targets the Demo / IL2CPP / MelonLoader 0.7.3 environment. The author calls the content and balancing unfinished and identifies advanced items without normal acquisition routes. It is not evidence of full-release compatibility. The permission panel restricts redistribution and requires permission for modifications or asset reuse.
+StarPawn decision: EXCLUDED. The user explicitly rejected fictional alchemy. No associated items, conversion recipes, special purchaser, event channels, permits or UI are part of the active 0.4 contract. This paragraph is a historical research record only; it grants no production scope. Physical recovery and refining continue independently.
+
+6. Integrated Chemistry Lab
+Author: Hu Luo Bo (Steam display name). Author page included version 1.5.4.
+Source: https://steamcommunity.com/sharedfiles/filedetails/?id=3830505419
+Observed: The author emphasizes a shared calculation for forecasts and actual resource deductions, preserving input requirements, explaining output-quality failures, and checking output capacity against real item shapes. Batch progress and pause feedback are visible. The described crafting is not automatically overnight.
+StarPawn application: A refining preview and its committed transaction must use one recipe result, including inputs, costs, capacity, and output quality. Explain blocked or partial jobs without secretly consuming extra items. Adopt the transaction and feedback principles, not chemical recipes or real extraction procedures. StarPawn's choice of overnight processing is its own design.
+
+7. CorpPresence
+Author: Aamobe. Author page title included 0.9.9.
+Source: https://steamcommunity.com/sharedfiles/filedetails/?id=3828913695
+Observed: Company representatives unlock through faction standing and story progress. They support repeat trade, next-day orders, cooperation tiers, and production equipment linked to character stories.
+StarPawn application: Event visitors can introduce supply contracts, equipment access, and repeat demand. A procurement event should connect an actual customer budget, item requirements, deadline, and reward to the same economy ledger. Narrative unlocks should not silently grant limitless money or materials. Native faction conditions and transactions remain authoritative.
+
+8. Electronics can contain recoverable precious metals
+Primary sources:
+https://www.epa.gov/electronics-batteries-management/electronics-basic-information-research-and-initiatives
+https://www.epa.gov/recycle/electronics-donation-and-recycling
+Observed: EPA describes gold and copper among materials used in electronics and recoverable through recycling; its cellphone recycling example also lists silver and palladium. Reuse and refurbishment are distinct alternatives to material recycling.
+StarPawn application: Give supported electronic components a finite saved Au/Ag/Cu material inventory and a separate functional resale value. The player chooses repair/resale, component recovery, or material recovery. Exact game composition and yields are fictional balance values, not measurements of real devices. A gold-price event changes the value of recoverable gold, not the quantity already inside an existing circuit board. No real chemical extraction instructions are part of this design.
+
+9. Gem identification and treatment limits
+Primary sources reviewed 2026-11-13:
+https://www.gia.edu/gia-news-research/manmade-diamonds-questions-answers
+https://www.gia.edu/gem-treatment?lang=en
+Observed: GIA distinguishes laboratory-grown diamonds from look-alike materials; appearance alone does not establish origin. Treatment is a separate fact that should be described accurately.
+StarPawn application: Separate identity, claim, treatment and observation. A basic screener can refer a stone for laboratory work; it cannot reveal every origin/treatment. Use independent game-quality bands and fictional pricing rather than claiming laboratory-grade simulation. The new jewelry business is an original design, not a claimed port of Hot Jewelry or Jeweler.
+
+Research leads not used as confirmed implementation evidence
+The original handoff also lists Hot Jewelry (Steam 3836930074) and Jeweler (Steam 3837208482). Their full author descriptions were not retrieved in this correction pass. No detailed mechanics, copied assets or compatibility claims are inferred from their names. The user clarified that the requested jewelry business means our product and shop-service scope.
+Scavenging Expansion (Steam 3832768562) and More Events were located through secondary listings or other authors' acknowledgments, but their own complete primary descriptions were not successfully verified in this review. Do not present their detailed mechanics or compatibility as established. They can be researched later if their specific content is needed.
+
+Cross-system design conclusions
+A. News and event visuals describe persisted mechanical facts; they do not generate independent random prices.
+B. Daily market snapshots feed direct trade, material buyback, jade processing forecasts, refining output valuation, collateral estimates, securities exposure, and demand budgets.
+C. All accepted processing conserves each element. Fictional transmutation is excluded; no created-gold exception exists. Gemstone component identity and custody are also conserved through jewelry services.
+D. Input ownership, native inventory space, reservation, debt terms, and item truth survive events and reloads. Event-driven prices must not alter the material composition or defects of an already-created item.
+E. Optional adapters identify external events and deduplicate their effects. Presence of a reference mod must not automatically enable an untested adapter or apply the same shock twice.
+F. Author-specific assets, story text, economic constants, and code are not included. Design contracts remain separate from runtime implementation and from coexistence testing.

@@ -1,5 +1,7 @@
 StarPawn Art and UI Handoff
 
+Production update (2026-11-13): the ring sample's direction is accepted. For the authorized 0.4 batch, BATCH_ART_SPEC_04.txt, ITEM_LAYOUT_04.csv, UI_ASSETS_04.csv, and CLAUDE_BATCH_PROMPT_04.txt supersede the first-round-only approval stages and provisional sizes below. This file remains historical style/background guidance; do not stop the batch for the former Stage 1 gate.
+
 Goal
 Make every object feel at home in the original game's worn science-fiction pawnshop. The current high-resolution, photorealistic product images clash with the pixel-art environment. Use a gold-ring sample to establish pixel scale, silhouette, metallic highlights, and defect readability before expanding the set. The user must approve the style before full production.
 

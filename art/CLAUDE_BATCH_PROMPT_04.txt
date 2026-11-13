@@ -1,0 +1,31 @@
+Continue StarPawn's complete art batch in the approved gold-ring pixel-art style.
+
+Repository: https://github.com/lhl716/StarPawn
+Use the latest origin/main contract, revision 04.2. It supersedes revision 04.1: fictional alchemy/transmutation is REMOVED; the full jewelry business and vanilla-style appraisal documents are REQUIRED.
+Preserve art/style-sample. Create art/batch04 from it if needed, or continue the existing art/batch04. Merge origin/main INTO art/batch04 to obtain the updated specification; preserve compatible work. Do not merge art/batch04 into main or push main.
+
+Read before drawing:
+1. art/BATCH_ART_SPEC_04.txt
+2. art/ITEM_LAYOUT_04.csv, art/UI_ASSETS_04.csv and art/RUNTIME_COVERAGE_04.csv
+3. art/VANILLA_HANDBOOK_SPEC_04.txt and the two actual game screenshots in art/references/vanilla_handbook/
+4. docs/DEFECT_RULES_04.txt, docs/DEFECT_CATALOG_04.csv and docs/HANDBOOK_INDEX_04.csv
+5. docs/JEWELRY_BUSINESS_04.txt, docs/JEWELRY_SETTINGS_04.csv and docs/JEWELRY_OPERATIONS_04.csv
+6. docs/SYSTEMS_DESIGN_04.txt, docs/EVENT_EFFECTS_04.csv, docs/EVENT_STORIES_04.csv and docs/RECIPES_04.csv
+7. docs/MOD_RESEARCH_04.txt, observing its explicit excluded-scope notes.
+
+Produce every current manifest row: 135 physical art models and 71 UI assets. Five gold categories have two designs each; silver follows the matching scope. Jade has six rough families, five finished forms with two designs each, and exactly three game tiers: dou, nuo, bing. A sealed rough exterior must not reveal its hidden tier.
+Include ten loose-gem models across diamond, ruby, sapphire, emerald and pearl; five mounted forms with separate gold/silver settings and the supported stone variants; corresponding empty settings; the jeweler bench, tools, storage, certificates, job tickets and complete buying/appraisal/setting/custom-order UI. Follow the settings table for actual socket counts and compatible stone shapes. Never add decorative gemstones unrepresented by a real stone component. Include all other listed cards, handbooks, collectibles, electronic scrap, ore, recovered metals and refining equipment. Do not produce fantasy powders, stones, cores, transmutation machines or created-gold visuals.
+
+Frozen sizes: inventory is 64 pixels per occupied cell, with exact dimensions from ITEM_LAYOUT_04.csv; all physical inspection images are 384x256. Draw inspection art at 192x128 and export at 2x nearest-neighbor; author inventory art separately. Check the actual 298x199 inspection frame. Do not change footprints, trim canvases, or reuse old 96x64 placeholders. Business screens are 600x400; the handbook reader/page is deliberately 440x616 PORTRAIT. A book's physical inspection canvas is not its open-page size.
+
+Appraisal manuals must look like the actual vanilla illustrated reference sheet: warm gray-cream paper, restrained worn edges, blue issuer and section headings, compact dark descriptions, adjacent reference/problem examples, and labeled green/red captions. Use the provided native screenshot as the layout reference. Produce original artwork and text; do not extract the game's stamp or illustrations. No modern dashboard or generic landscape guide. Each category needs its own fixed-defect examples taken from the same final object layers, with page/index metadata. Keep game text dynamic and support Chinese localization. Use English documentation and annotations.
+
+Use each category/subtype's OWN five fixed templates (250 total across 50 sets). Deliver intact bases, masks, single-defect layers, compatible combinations, appropriate instrument examples and supported repaired states. A newly generated component can be intact or have 1-3 compatible causes; an assembly retains its children's existing evidence. Do not apply a universal defect pool. Hidden instrument/lab-only conditions reuse intact ordinary art without invented visible clues. Chips may use declared state-specific silhouettes; all states keep their registration. Preserve origin, treatment and unrepaired evidence after mechanical repair.
+
+Correct the ring sample's hotspot exporter: U/V are normalized rectangle CENTERS, not top-left coordinates. Use U=(x0+x1)/(2*width), V=(y0+y1)/(2*height), and full normalized Width/Height. Preserve existing IDs for cosmetic changes. Finish a full ring defect/repair set as an internal pipeline check, then continue through the complete manifest without another style-only approval pause.
+
+All 0.4 gameplay documents are planned contracts. Events drive shared metal, jade and gem quotes, demand, supply and new processing conditions. Electronics contain finite saved metal; recovery conserves it. Jewelry jobs retain actual stone and setting identities. Show customer property, held deposits and agreed order terms clearly. Do not bake prices, purity, carats, balances, dates, report IDs or account data into textures; do not imply free resources, hidden-truth disclosure or duplicate rewards.
+
+Deliver under art/proposals/batch04 in each row's exact output folder. Include editable layers or deterministic generators, manifests, center-based hotspots.json, combinations.json, stone-to-socket bindings, handbook-pages.json, comparison sheets, a complete progress index and validation-results.txt. Validate dimensions, transparency, clue containment, layer registration, compatible combinations, hidden-state separation, socket counts and small-size readability. Provide 1080p and 4K UI mockups plus a native-handbook comparison at the supplied 2560x1440 reference size. Mark screens awaiting runtime integration.
+
+Edit proposal assets and their generators only. Do not change gameplay code, runtime mod files, installed game, saves, fixed sizes or economic rules. Commit and push art/batch04. Complete the authorized batch autonomously; report a genuine specification conflict by exact row and proposed resolution instead of silently changing the contract. Report completed, incomplete and integration-only work honestly.

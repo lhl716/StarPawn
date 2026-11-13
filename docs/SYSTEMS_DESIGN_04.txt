@@ -1,0 +1,247 @@
+StarPawn 0.4 Systems Design: Events, Markets, Appraisal, and Recovery
+Design revision: 04.2 / 2026-11-13
+Status: IMPLEMENTATION CONTRACT / NOT IMPLEMENTED BY THIS DOCUMENT
+
+Purpose and authority
+This revision defines one connected economy rather than independent event, jewelry, jade and recycling minigames. An event changes a saved daily economic snapshot. Every applicable quote, supplier, customer, process, and financial screen consumes that snapshot. Item identity, material composition, jade quality, and authored defect combinations remain persistent facts; an explicit material-changing process consumes its input and creates a separately recorded output.
+All documentation is English. The game's existing Chinese localization remains unchanged. art/ITEM_LAYOUT_04.csv is authoritative for asset keys, footprints, canvas dimensions, and batch art scope. Planned runtime family IDs use sp4_ plus the asset_key. This document does not override that manifest.
+Event balance examples below are initial fictional game values, not real commodity forecasts or measured electronic-waste yields. Author-page research is recorded in MOD_RESEARCH_04.txt. No third-party files or compatibility claims are included.
+
+1. Existing 0.3 implementation versus planned work
+IMPLEMENTED in 0.3: persistent AssetId/DefinitionId and observed evidence; five gold/silver forms; six rough-jade families; three saved numerical rough grades and saved yield; four finished-jade forms; physical tools and manuals; bank/credit cards; daily financial quotas; immutable rates on signed loans; guarded cash transactions; daily gold/silver and securities quotes; three limited opt-in story effects (gold_supply, jade_discovery, electronics_shortage); one-time overnight settlement.
+PLANNED for 0.4: per-category expanded defect sets; a fifth finished-jade form; the three named jade presentation tiers below; saved multi-metal composition; dismantling/recovery/refining/alloy jobs; gemstone and mounted-jewelry trade, custom orders and setting services; renewable scheduled and choice-based event chains; wider effect channels; unified high-precision pricing; event-aware production quotes; explicit input/output provenance; updated art footprints and a safe migration.
+The current EconomyState validator permits only the original three event kinds/history records. Adding an event CSV alone cannot enable this design. New schema, validation, adapters, gameplay code, migration, and tests are required. Native base-game items are affected only after a deliberate adapter registers them; a news message alone must not imply that every vanilla price changed.
+
+2. Product, jewelry and jade model
+Gold: ring, bracelet, necklace, earrings, and bar, one or two authored designs each. Silver follows the corresponding approved art scope. Categories have their own defect templates; there is no universal defect pool applied to unrelated products.
+Loose gemstones and mounted products follow JEWELRY_BUSINESS_04.txt: five gem families with two shapes each and five mounted forms, including separate component and order records.
+Rough jade: retain six existing skin families. Finished jade: pendant, cabochon, bangle, bead strand, and small carving. The skin family is independent of internal quality, finished shape, defects, and price.
+Use exactly three simple game tiers: 1 = Dou (bean), 2 = Nuo (glutinous), 3 = Bing (ice). Canonical IDs are dou, nuo, and bing; English glosses are display descriptions only. These are a simplified game progression, not laboratory grading. No fourth glass tier or separate ice-glutinous tier is required.
+Rough quality and usable material are fixed at creation. Cutting selects a compatible output geometry; it cannot upgrade the internal tier. Children inherit tier and source identity. A bangle requires a continuous usable volume; a collection of small fragments cannot be converted into a whole bangle. Carving adds workmanship, not hidden mass or a higher intrinsic tier.
+Each category defines allowed combinations of its own authored defects. A generated item can be intact or have a compatible subset. Template positions and illustrations are fixed. Events can change which NEW stock profiles are offered, but never add, erase, or reroll defects on already-created objects. An external crack and the same crack revealed by a window share one economic cause, so the price is not reduced twice.
+
+3. Proposed persisted records (new schema; not current DTO names)
+WorldEconomyV2:
+  SchemaVersion, RunId, RulesVersion, WorldSeed, LastClosedDay, LastOpenedDay,
+  NextEventSequence, NextJobSequence, DailySnapshots[], EventInstances[],
+  PendingChoices[], RecoveryJobs[], JewelryOrders[], EnergyReservations[],
+  GemRecords[], SettingRecords[], JewelryAssemblies[], CustodyRecords[],
+  HeldCustomerDeposits[],
+  StationEnergyBalance, StationEnergyCapacity, Receipts[], MigrationVersion.
+EventInstance:
+  EventId, DefinitionId, DefinitionVersion, TriggerSource, ParentEventId,
+  StartDayInclusive, EndDayExclusive, ChosenOptionId, ChoiceCommittedDay,
+  ResolvedEffectRows[], DrawSeed, Status, OriginMod, ImportKey.
+DailyEconomySnapshot:
+  Day, SnapshotId, RulesVersion, SeedDigest, EffectDigest, ActiveEventIds[],
+  CommodityBidAsk[], JadeTierFactors[], GemBidAsk[], CategoryDemandFactors[],
+  SupplierAvailability[], ProcessingFactors[], NewAgreementTerms,
+  SecurityQuotes[], PublicNewsEntries[].
+MaterialComposition:
+  CompositionVersion, AssetId, TotalMassUg, ComponentMassUg{Au,Ag,Cu,inert},
+  CompositionSeed, SourceDefinitionVersion, AssayKnowledge, ProvenanceId.
+  Additional material IDs require registration; unknown masses are not silently
+  counted as gold. Ground truth is private; UI uses only AssayKnowledge.
+RecoveryJob:
+  JobId, TransactionId, ProcessKind, RecipeId, RecipeVersion, MachineAssetId,
+  InputAssetIds[], InputCompositionHash, StartedDay, ReadyDay,
+  StartSnapshotId, LockedFees, LockedEfficiencyBpsByMetal,
+  LockedOutputPlan[], LockedResiduePlan[], OutputAssetIds[], Status.
+ProcessQuote:
+  QuoteId, AssetVersions[], RecipeVersion, MachineVersion, SnapshotId,
+  KnownInputSummary, PublicEstimateRange, Fee, DurationDays, ExpiryDay.
+ProvenanceEdge:
+  ParentAssetId, ChildAssetId, JobId, AllocatedMassUgByMaterial.
+  A recovered lot may have several parents, so existing ParentAssetId alone is
+  insufficient. Preserve that legacy field while adding a multi-parent ledger.
+All amounts and IDs are bounded. Arithmetic uses checked integers and an overflow-safe MulDiv implementation. No floats are persisted for money, mass, or interest.
+
+4. One event pipeline and one daily boundary
+At the close of day D:
+  A. Finish the existing day's accepted transactions and persist their receipts.
+  B. Settle day D interest/fees exactly once using each contract's signed terms.
+     Today's new savings remain subject to the existing next-day interest rule.
+  C. Advance processing jobs whose ReadyDay <= D+1, using their LOCKED plans.
+     Outputs become ready for collection; no native inventory spawn is required
+     to complete the accounting stage.
+  D. Resolve committed event choices into future effect rows. Expire events at
+     their EndDayExclusive. Draw eligible new events from a stable seed and
+     persist the draw before opening any news UI.
+  E. Compose and save the D+1 snapshot, including all active effect rows, rates
+     offered on new agreements, prices, service fees, and supplier quantities.
+  F. Generate new customer/supplier offers once from that snapshot. Publish the
+     next-day newspaper and one settlement receipt from the same saved records.
+Transactions during D+1 use that saved snapshot; reopening the newspaper cannot roll prices. Choices made during a day normally begin the next day. Immediate choices may debit a disclosed fee or create a quest record, but must not rewrite the market underneath an already accepted trade.
+Catch-up processes each missing day in order and respects a maximum bounded interval. A crash between phases resumes by phase/receipt ID. It must not settle a day, spawn an event, charge a process fee, or claim an output twice.
+The inherited event participation setting remains meaningful on migrated saves. The 0.4 tutorial can present and enable the expanded event system for new games; importing a saved opt-out does not silently trigger its optional financial agreements.
+
+5. Event channels and composition rules
+EVENT_EFFECTS_04.csv contains planned initial event definitions, with one row per effect. EVENT_STORIES_04.csv supplies the matching eligibility, conflict group, priority, visitor, original narrative, and choice contract. Join them by event_id; neither table alone is a complete event. Repeated event metadata must agree. An instance saves its exact rows and version so later tuning does not rewrite its historical effect.
+CSV columns: event_id, title, trigger, duration_days, cooldown_days, channel,
+target, delta_bps, application, public_reason.
+delta_bps is normally a signed delta from a neutral multiplier of 10000; -1500 means -15%, +2000 means +20%. For interest/loan-to-value channels, it is an additive rate-point change: +15 means an additional 0.15 percentage points. For recovery_efficiency, it is an additive recipe-efficiency change: +300 means three percentage points, still capped at 100% of the existing metal budget. The application column states the interpretation explicitly.
+
+Allowed channel                         Combined clamp / interpretation
+commodity_price                         factor 5000..18000; Au, Ag, Cu separately
+jade_tier_value                         factor 6000..16000; Dou, Nuo, Bing separately
+category_demand                         factor 7000..14000; craftsmanship/service demand
+supplier_availability                   factor 5000..15000; NEW offer quantities only
+processing_energy_cost                  factor 7500..15000; quoted before job start
+processing_service_cost                 factor 7500..15000; quoted before job start
+processing_duration                     factor 7500..15000; integer days rounded up
+recovery_efficiency                     delta to recipe recovery bps; final 0..10000
+new_savings_rate                         additive bps; final daily rate 0..30
+new_credit_rate                         additive bps; final daily rate 30..120
+new_loan_rate                           additive bps; final daily rate 20..100
+new_pawn_rate                           additive bps; final daily rate 30..120
+new_pawn_ltv                            additive bps; final LTV 3000..6500
+risk_appetite                           factor 7000..13000; security risk component only
+assay_service_cost                      factor 7500..15000; new outsourced assay quotes
+gem_price                              factor 6000..16000; registered gem family bands
+
+For each target/channel, start from the neutral baseline, sum each active event's signed delta exactly once, then clamp. Matching target groups resolve to a unique set of effect-row IDs for each item/service; an item belonging to two matching groups must not receive the SAME row twice. Distinct applicable rows can stack within the channel clamp. Do not multiply sequential event factors or feed yesterday's event-adjusted price into today's baseline. This avoids order dependence and permanent compounding. Apply the final factor to the separately seeded baseline for that day. The same EventId/effect row imported through multiple integrations is applied once, identified by ImportKey.
+Target registry (explicit tags, not substring matching):
+  Au/Ag/Cu = registered composition components; no conversion between elements.
+  diamond/ruby/sapphire/emerald/pearl = registered gem_price families.
+  loose_gems = registered unmounted gem goods; mounted_jewelry = the five
+  gem-set forms. Gem prices apply to stone components once, never their wrapper.
+  dou/nuo/bing = the three canonical jade tier IDs.
+  gold_goods = plain gold jewelry and gold bullion; excludes mounted_jewelry,
+  raw ore and electronics. Mounted metal values still use commodity_price Au.
+  precious_metal_goods includes gold_goods, plain silver goods and the metalwork
+  craftsmanship of mounted_jewelry; deduplicate matched demand rows as below.
+  jade_rough = the six rough-jade skin families; jade_workmanship = finished jade
+  workmanship only, never the raw tier/material factor.
+  electronics = whole consoles/handhelds and functional electronic component goods;
+  electronic_components = scrap_board/scrap_processor/scrap_connectors offers;
+  damaged_electronics = newly generated damaged whole-device profiles.
+  collectibles = antiques/paintings/media/books sold as merchandise.
+  certified_goods = items with a current relevant certificate, affecting only
+  the eligible craftsmanship/collectible premium, not contained material.
+  all_trade_goods = registered saleable merchandise, feedstock and supplies;
+  excludes account credentials, quest rights, active jobs, and escrowed objects.
+  all = compatible process routes only; recovery/repair/jewelry_repair restrict to those
+  ProcessKind tags; all includes jewelry jobs. repair includes jewelry_repair.
+  outsourced_assay and gem_lab are distinct paid service routes, not tool ownership.
+  new_agreements = new terms only; market = the security risk signal.
+  ore_gold, mixed_e_scrap, energy_cell, and process_cartridge =
+  exact manifest asset keys, expanded only to their registered family definitions.
+For example, a certified gold ring matching precious_metal_goods and certified_goods sums both category_demand deltas into ONE craftsmanship factor and clamps ONCE. It does not multiply two factors, apply either to fine gold, or count the same row again through all_trade_goods. Supplier availability and commodity price are different channels with different consumers.
+Mutually exclusive economic-story groups in EVENT_STORIES_04.csv cannot run together. Use the literal exclusive_group field, not an invented group inferred from event names. start_priority is a lower-number-first conflict tiebreaker among already eligible candidates, not another random draw. Limit concurrent world events to 3, one new draw per day, and the durations/cooldowns in the registry. Choice branches share their parent event's group and cannot both activate. These limits are balance starting points, not implemented guarantees.
+Price uncertainty is communicated by future-event news, not by rewriting already-held item facts. Existing loans retain their rate, principal, due date, collateral rules, and fee schedule. Existing savings accounts retain their agreed rate as well; a new deposit is not a new-rate agreement. Market changes affect valuations and NEW offers. No retroactive debt repricing, automatic margin call, or seizure is introduced.
+Event-chain proposal: forecast -> optional visitor offer/choice -> next-day active event -> expiry -> follow-up report. Persist each stage, revealed date, and selected option. Settings changes do not rewrite a date already promised to the player. Reserve at most two extra visitor arrivals per day outside native faction/story slots; a blocked slot defers the visit without duplicating its reward or restarting its market effect. Procurement visitors specify a finite cash budget, requested goods/quality, delivery deadline, and one completion receipt. Story/faction gates use the game's actual registered state rather than inferred ownership or repeated dialogue.
+Initial EventChoiceFeeQuote values: new_jade_seam costs 40 Cr; recovery_grant enrollment costs 0 Cr and grants no cash or free inputs. Lock the fee to the pending choice and current snapshot/rules version. Future tuning may change new offers, never an already shown committed choice. Acceptance requires available cash without silently opening debt, debits once, saves one choice receipt, and schedules effects for the following day. Decline or end-of-day timeout commits no fee/effects. The 0.4 story table permits at most one extra visit for a given event instance, subject to the shared two-per-day limit.
+
+6. Shared prices and economically connected decisions
+Use price microcredits per gram internally (1 Cr = 1,000,000 microcredits). Materials use integer micrograms (1 g = 1,000,000 ug). Sum exact intermediate values with safe integer division, then round only at the transaction boundary: player purchases round up, player proceeds round down. Keep display estimates separate from executable quotes.
+For each commodity/day, derive one ask and one bid from the shared baseline and spread. Enforce 0 <= bid <= ask. All jewelry, bullion, contained metal, recovered lots, refining previews, and pawn valuations reference those same bid/ask entries.
+Confirmed recoverable material floor = sum(actual eligible component mass * commodity bid) minus the disclosed unavoidable recovery charges for that sale route, bounded at zero. A direct clean-bullion buyback uses its fine-metal mass and bid without an invented processing charge. A claimed untested item receives an estimate, not a confirmed pure-gold guarantee. No offer can use claimed 99.9% purity after contrary assay evidence is confirmed.
+Plain metal jewelry quote = route-appropriate material value + condition-adjusted craftsmanship * category demand factor. Mounted jewelry additionally sums actual stone child quotes once; JEWELRY_BUSINESS_04.txt defines gem bands, setting operations, orders and custody. A fashion event affects craftsmanship/customer demand; it does not multiply the metal portion a second time. Each economic defect cause is charged once. Repairs can restore workmanship but cannot turn plated metal into solid gold.
+Jade quote = form baseline * saved tier factor * daily tier-market factor * known condition factor + applicable workmanship. Raw and finished jade use the same tier-market vector but different form/workmanship bases. Hidden rough uses a documented family estimate until observation; the public UI must not leak the stored tier or yield through a supposedly exact quote.
+Electronics quote includes functional utility, condition, repair potential, and a known recovery estimate. The same physical metals are not added once as board value and again as a bonus asset. Selling, repairing, dismantling, and recovering are alternative paths for one object.
+New pawn offers use the conservative current liquidation quote and the snapshot's new-agreement LTV, with metal recovery uncertainty disclosed. Existing contracts keep their signed terms; overview can show an indicative current collateral value without changing contractual principal.
+Suppliers adjust future availability and quoted costs; customers adjust demand and their eligible item mix. Neither path restocks purchased offers during a day. A new family/profile is allocated once and saved before the offer is displayed.
+
+7. Securities without double-counting events
+Calculate each security's daily base noise once. Add one bounded exposure signal derived from the final snapshot channels, never directly from raw events a second time. Initial exposure proposals:
+  ORBIT: 50% of Au price delta + 20% of metal-supply delta.
+  JADE: 50% of the equally weighted jade-tier price delta + 30% of jade-supply delta.
+  BYTE: 60% of electronics-demand delta - 20% of energy-cost delta.
+  NEBULA: 70% of risk-appetite delta.
+These coefficients are game balance parameters, not financial models. Clamp the event-derived security signal to +/-2500 bps before applying it to that day's independent base. A commodity event reaching ORBIT through this exposure mapping must not also run an old hard-coded ORBIT event bonus. Buy/sell spread and quote-version checks remain mandatory.
+
+8. Electronic materials and recovery gameplay
+Physical composition is established once from an authored category-specific profile. Some electronic boards, processors, and connector lots can contain finite Au, Ag, and Cu quantities; other variants can contain none of one metal. Quantities are explicitly fictional balance data. Do not infer gold mass from a gold-colored texture, component count, current gold price, customer story, or a new random roll at processing time.
+Use whole-device -> dismantled components -> sorted feedstock -> closed-machine recovery -> measured metal lots -> optional refined bars as the gameplay chain. Allow direct melting of suitable jewelry/bullion through a separate compatible recipe. No real chemical recipes, handling instructions, or extraction apparatus are required; stations are abstract industrial game machines with energy, service cost, duration, wear, and sealed process states.
+Exact material art keys: ore_gold, ore_silver, ore_copper, scrap_board, scrap_processor, scrap_connectors, mixed_e_scrap, sorted_gold_scrap, sorted_silver_scrap, sorted_copper_scrap, assay_sample, recovery_batch, inert_residue, recovered_gold_lot, recovered_silver_lot, recovered_copper_lot, refined_gold_bar, refined_silver_bar, refined_copper_ingot, alloy_gold18k, and alloy_silver925. Equipment/support keys: process_cartridge, energy_cell, crucible, ingot_mold, recovery_station, refining_furnace, materials_bin, and manual_recovery. The production manifest fixes their outer dimensions and visual states. Alloying consumes compatible measured lots or ingots; 18k gold and 925 silver outputs contain respectively 7500 and 9250 purity basis points, with the remaining registered component supplied by actual ingredients. An alloy recipe cannot create its precious fraction from filler or reduce the tracked mass without recording residue/loss.
+Recovery, ore refining, and alloy separation first produce measured recovered_gold_lot/recovered_silver_lot/recovered_copper_lot granule lots. These use the fixed 1x1 sealed-lot artwork with dynamic measured mass, so 0.005 g of recovered gold is never shown as a full ingot. They have functional measured states rather than a random defect pool. A separate casting job combines enough compatible measured lots into a bar; the output composition is the weighted actual input composition, not an automatic purity upgrade.
+Fictional game presentation limits for NEW bar objects: gold and silver bars, including alloy_gold18k/alloy_silver925, must have total mass from 1,000,000 to 100,000,000 ug inclusive (1..100 g). Copper ingots require 10,000,000..250,000,000 ug (10..250 g). Casting preflights actual available mass and the requested total mass within these ranges, consumes only the recorded allocation, and returns every excess component in measured remainder lots. Smaller quantities remain granule lots; oversized batches require separately budgeted bars. No rounded-up minimum mass, duplicated remainder, or unpriced filler is allowed.
+An assay measures information; it does not multiply recoverable metal. A consumed sample, if used, subtracts its mass from the parent and receives its own provenance entry. A nondestructive instrument reading creates no physical sample asset.
+For each metal m, a job uses:
+  recoverable_m = min(input_m, floor(input_m * locked_efficiency_m / 10000))
+  loss_m = an explicitly recorded amount bounded by 0..(input_m - recoverable_m)
+  residue_m = input_m - recoverable_m - loss_m
+  output_m + residue_m + explicitly recorded loss_m = input_m
+If loss is not physically recoverable, it is still recorded in the mass ledger and cannot become another sellable lot. Bulk carriers/fillers belong to inert or a registered component. A 99.9% bar's total mass and fine-gold mass must agree; its label cannot claim output mass unsupported by its ingredients. No RECOVERY, REFINING, or ALLOY recipe turns Cu into Au. No route converts one element into another. Gem components must be demounted and retained before metal recycling.
+Residual precious metals may be eligible for a different recipe once if designed explicitly. Re-running an exhausted residue at zero remaining eligible mass produces no metal and cannot generate a rounding gain. Refining a purified bar repeatedly cannot improve mass or issue duplicate certificates/XP.
+Recipe efficiency, fees, and completion day are locked from the accepted start quote. Events can make a NEW job more expensive, slower, cheaper, or more efficient within its material budget. An event occurring after a job starts cannot retroactively alter its output plan. A future event-driven machine interruption requires a separately disclosed mechanic; it is not implicit in this version.
+UI must compare Sell as-is / Repair / Dismantle / Recover when available, showing known value, fee, duration, and uncertainty. Exact hidden component masses remain hidden until the relevant assay or output measurement. Event tags explain which part of the estimate changed.
+
+8A. Jewelry business and scope exclusions
+JEWELRY_BUSINESS_04.txt and its SETTINGS/OPERATIONS tables define loose gemstones, mounted pieces, sourcing, inspection, quotes, finite retail/wholesale demand, matching sets, repair, demounting, setting fabrication, remounting and customer orders. Component identities, custody and report versions are part of the same ledger. The accepted scope explicitly excludes fictional alchemy and elemental transmutation; there are no conversion permits, special powders, fantasy machines or created-gold exceptions.
+The jewelry contract adds saved GemRecord, SettingRecord, JewelryAssembly and JewelryOrder records, held customer deposits, actual embedded stone custody and immutable order terms. Each is versioned; none is enabled by artwork alone. Existing gold/silver trade, jade and electronics feed the same daily market and production system.
+
+9. Atomic processing and inventory lifecycle
+Preflight ownership, active status, no pawn/consignment escrow, equipment ownership, recipe compatibility, quote freshness, cash, and reserved process capacity. Each machine has at most one active or ready-to-collect job; an uncollected result holds that slot. The root state caps total pending jobs at 32. A handbook organizer must be empty before being processed; instruments/cards/manuals are excluded unless a specific recipe explicitly supports them.
+At job start, one atomic root-state transaction charges the locked fee, records the operation receipt, and moves all inputs into job escrow. Inputs cannot simultaneously remain tradable, repairable, pawnable, or selectable for another job. The new processing/escrow status requires schema support; it is not valid merely because an art asset exists.
+At completion, the pure ledger marks inputs consumed and creates one persistent output plan with provenance. At collection, preflight native inventory capacity for the whole output set. Spawn all outputs and commit their unique IDs atomically; if native inventory fails or is full, retain a ready-to-collect job and perform no partial debit, loss, or duplicate spawn. Claiming twice returns the original receipt. Save/reload after each boundary must resume the same status.
+Machine breakage is represented as machine state and repair cost, not as silently deleting paid batches. Tools and production jobs have separate ownership and state from the ingredients.
+
+10. Information and art obligations
+News/event panel: name, active dates, remaining days, affected channels, direction/magnitude, committed choice, and affected services. Generate all figures from the same EventInstance/DailySnapshot shown in quotes.
+Price board: gold/silver/copper bid and ask; three jade-tier indices; registered gem-family bid/ask bands; current snapshot date; event explanation tags. Add no real-currency prices or real-world market feed.
+Processing screen: input cards, equipment status, measured/estimated composition, route choices, fee breakdown, event adjustment, time, conserved output preview, progress, ready/full-inventory/error states. Jewelry pages show stone/setting identities, report limits, supplied parts, custody, reserved order deposits, agreed terms, output space and price components.
+Financial pages: current balances and debt, daily quotas, signed old rate versus new offered rate, conservative collateral estimate, and once-per-day receipt. A market event never hides the repayment action.
+Handbook style: actual vanilla portrait appraisal sheets are mandatory; follow art/VANILLA_HANDBOOK_SPEC_04.txt and its in-game reference captures. The old F7 landscape manual is not the style target.
+Illustrations: each item's own category defect set, matching manual example, instrument view if needed, and fixed hotspots. A shared visual style is required; shared defects across unrelated categories are not. Internal damage stays hidden until the corresponding view is unlocked. Chips can use a state-specific silhouette; simple scratches and plating share the intact mask. All states keep the same canvas/camera placement.
+The ring proposal's hotspot export must be corrected: U/V are rectangle CENTERS normalized to the full inspection canvas; Width/Height are full sizes. Top-left origin describes axes, not the hotspot anchor. Use U=(x0+x1)/(2*canvasWidth), V=(y0+y1)/(2*canvasHeight). Align artwork, manual figures, overlays, masks, and hotspots together. Do not change existing finding IDs merely to move artwork.
+
+11. Migration and release gates
+Back up and migrate a cloned root state. Preserve old IDs, evidence, experience, account balances, debt, signed rates, native-item identities, and settlement dates. Existing legacy definitions keep their physical condition semantics. New defect combinations get new definition IDs; do not attach new hidden defects to saved 0.3 objects.
+Map old rough numerical grades 1/2/3 to Dou/Nuo/Bing presentation without re-rolling seeds or yield. Existing finished-item QualityBasisPoints and realized value remain legacy-valued until a deliberate versioned conversion is specified; a label change must not silently reprice old inventory.
+Derive legacy pure-metal budgets deterministically from the stored definition's weight and actual purity. Previously zero-gold plated profiles remain zero for migration. Trace coating content is permitted only in NEW explicitly authored composition profiles. Legacy electronics lacking a composition profile must not receive a fresh random gold bonus on every load: either a versioned deterministic migration assigns a fixed budget once, or their recovery action remains unavailable. Preserve the migration receipt.
+Import the original three saved events with their old effective dates and participation flags, converting inclusive EndDay to exclusive EndDay+1. Do not trigger them again, rewrite ended snapshots, or replace the previous day's contract terms. Keep old securities quantities/cost bases.
+Inventory footprint changes must be handled by the separate grid migration contract: validate placement and capacity, keep overflow recoverable, and never overwrite a user's original save merely to make art fit.
+Implement with a feature/schema version gate and an independent test save. The production art branch must not edit the live game installation, user saves, gameplay DLLs, or runtime truth definitions while producing assets.
+
+12. Required acceptance checks before calling this implemented
+Determinism: repeated UI opens, load/reload, instrument use, repair, and reading news cannot alter event draws, material budgets, rough tier, yield, or fixed profile.
+Daily boundary: settle/advance/open twice and recover from each interrupted phase without duplicated interest, events, offers, fees, or outputs; multi-day catch-up matches sequential play.
+Events: active-date edges, mutually exclusive groups, cooldown, stacking clamps, expired events, imported duplicates, and choice exclusivity. A news modifier exactly matches the quote/snapshot calculation.
+Pricing: bid<=ask; one-time effect application; commodity parity across bullion/jewelry/e-scrap/output lots; craftsmanship demand does not multiply material twice; no guaranteed buy-melt-sell gain at identical prices after fees/spread; explicit intended recovery opportunities remain possible through acquired damage/scrap and event timing.
+Jade: three tiers only; hidden raw quotes do not reveal stored tier/yield; processing conserves usable source, preserves tier, and enforces whole-bangle geometry; one cause seen externally and internally is deducted once.
+Recovery/alloys: Au/Ag/Cu/inert conservation across all outputs/residue; maximum efficiency; zero inputs; mixed-parent batches; target alloy purity and supplied filler; repeated residue attempts; sample subtraction; overflow-safe sums; rounding boundaries; no repeated XP or claim.
+Jewelry: component identities and stone/metal conservation; no occupied-setting melting; finite suppliers and buyers; correct gemstone observations; signed-order deposits/refunds/delivery exactly once; no custody or report duplication; event pricing and matching-set premium counted once.
+Transactions: input ownership/escrow checks; stale quote; insufficient funds; full inventory; native spawn failure; crash before/after debit; duplicate command and duplicate collection. No partial irreversible result.
+Finance/securities: old rates unchanged, new rates reflect the snapshot once, quotas never reset from events, repayments remain possible, collateral terms preserved, and exposure reactions are not duplicated by old event hooks.
+Migration/art: upgrade old slot5 with existing items, grades, events and debts; validate footprint overflow behavior; preserve original slots; verify normalized center hotspots against the actual rendered image and all category/manual variants.
+Only after code, invariants, and in-game checks pass should release documentation replace PLANNED with IMPLEMENTED.
+
+13. Shared energy, concrete recipe scope, and acquisition
+RECIPES_04.csv gives the initial nonchemical game recipes. Inputs/outputs reference asset keys in art/ITEM_LAYOUT_04.csv. Pipe-separated input keys normally enumerate allowed alternatives for a batch. Each alloy recipe requires BOTH the named precious-metal component and Cu, each supplied by one or more compatible measured lots or ingots; listing four possible keys does not require one of every icon. Output keys are possible outputs according to actual composition, not a free bundle of every listed object. Declared recipe capacities are whole input quantities per job, not inventory slots or hidden resizing rules. A material lot has its own persisted contents; its icon does not create additional units. New jobs require their complete ingredient set and a compatible free machine slot.
+Use one station-owned energy account shared by every furnace, recovery station, and jeweler workbench. Initial proposal: energy capacity 20 units; one purchased charged energy_cell contains 10 units; transferring energy subtracts that exact amount from the existing cell and adds it to station storage. The same cell becomes partly_used or empty according to its remaining units. Excess cannot disappear or generate a second cell: reject a requested transfer if storage lacks room. A station upgrade can raise storage capacity once; adding another machine adds no energy. No free nightly recharge is implied.
+Each quote reserves the full job energy across its planned nights from this shared account. Reservation subtracts from available energy immediately, but records future per-night use. At most 12 reserved units can be scheduled for any night across ALL machines; the capacity check includes existing reservations. Night close consumes each (JobId, Night) reservation once. Long jobs distribute their total fixed units by an authored schedule. Refilling, adding a second machine, or loading the save cannot duplicate the budget.
+Accepted work is protected because required energy and costs have already been reserved. A power event changes the fee, duration, or availability for NEW quotes and later refills; it does not steal reserved units or secretly break a guaranteed output. If a separately detected machine outage prevents advancement, pause the job with its inputs/reservations intact; resume from the same progress with no additional material draw. A repair is a separately quoted action. Such a pause preserves output mass and quoted efficiency. The batch cannot be collected while paused.
+Initial service/energy fee symbols for RECIPES_04.csv:
+  S = unadjusted base service_cr from the recipe; no event factor is included yet.
+  E = recipe energy units; paid energy-cell cost is already part of inventory acquisition.
+  GridFee = ceil(E * 0.2 Cr * processing_energy_cost / 10000).
+  JobFee = ceil(S * service_factor / 10000 + GridFee).
+The 0.2 Cr unit tariff is a fictional game starting value. Purchasing a charged cell pays for stored energy availability; GridFee pays station service/grid operation, so both are shown separately. A recipe cannot charge the energy-cell price again at collection. JEWELRY_OPERATIONS_04.csv uses the same JobFee for physical bench jobs; an external gem-lab service uses its declared assay_service_cost route without reserving station energy.
+
+Illustrative finite composition profiles for NEW electronic materials (game values, not empirical yields):
+  scrap_board: total 10,000,000 ug; Au 10,000; Ag 20,000; Cu 1,500,000; inert 8,470,000.
+  scrap_processor: total 5,000,000 ug; Au 20,000; Ag 10,000; Cu 200,000; inert 4,770,000.
+  scrap_connectors: total 20,000,000 ug; Au 5,000; Ag 5,000; Cu 8,000,000; inert 11,990,000.
+Each sum equals total mass. Category-specific authored profiles may instead contain zero Au or different fixed budgets, but they must remain bounded and saved. These profiles are not added to existing 0.3 electronics by art replacement. A dismantled whole device's parts and residue must partition the parent's already-saved composition; spawning one of each example profile without matching parent masses is invalid.
+The UI can show sub-credit estimates and a batch total; cash transactions round at the final boundary. Do not award a minimum one-credit payout for each trace fragment, because fragmenting a board would then create money. Broken electronics can be acquired cheaply enough to make recovery useful, while working devices can be worth more repaired or sold intact. Events change those choices through the same price and service snapshot.
+
+Acquisition and progression proposal (fictional economy, not implemented):
+  Recovery onboarding: a one-time station recycler visitor unlocks recovery_station,
+  refining_furnace, manual_recovery, and supplier orders for process_cartridge,
+  crucible, ingot_mold, and energy_cell. The visitor grants information/unlock, not
+  an unlimited free machine or daily resource refill. Purchases use normal receipts.
+  Ore/scrap: saved supplier/customer offers and accepted dismantling jobs create
+  ore_gold/ore_silver/ore_copper, component scrap, or mixed_e_scrap. Quantity and
+  composition exist before inspection. Events change NEW offer availability.
+  Jewelry onboarding: after appraisal onboarding, a jeweler visitor unlocks the
+  workbench, toolkit, gem probe, jewelry manual and finite setting/gem suppliers.
+  Equipment requires ordinary paid purchases; the visitor does not grant free
+  stones or customer property. See JEWELRY_BUSINESS_04.txt for complete services.
+  energy_cell: buy charged; consumed power changes the existing cell through
+  partly_used to empty.
+  A paid one-day recharge service restores its fixed 10-unit capacity, subject
+  to supplier availability. Neither buying another machine nor waiting overnight
+  automatically refills it. Cell and consumable orders are affected prospectively
+  by event availability/cost; fulfilled owned resources remain unchanged.
+Event effects and news must list whether a limit refers to supplier stock, station nightly throughput, workbench capacity, or accepted-order slots. They are distinct counters, each with one authoritative persisted owner.
