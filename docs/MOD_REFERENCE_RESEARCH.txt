@@ -1,15 +1,15 @@
-StarPawn 玩法参考调研
-核对日期：2026-11-13
+StarPawn Gameplay Reference Research
+Reviewed: 2026-11-13
 
-主要参考：深空金融交易所 Exchange：股票·大宗，作者Rinka
-作者发布页：https://steamcommunity.com/sharedfiles/filedetails/?id=3829559307
-此次只研究作者公开玩法说明，未下载或合并二进制/源码。
+Primary reference: Deep Space Financial Exchange (original title: "深空金融交易所 Exchange：股票·大宗"), by Rinka
+Author's release page: https://steamcommunity.com/sharedfiles/filedetails/?id=3829559307
+This review used only the author's public gameplay description. No binaries or source code were downloaded or merged.
 
-可借鉴：实体终端入口、日行情与持仓分区、夜间结算摘要、价格提醒、事件信息对照，以及资金占用的解释。作者页面还描述限价单、衍生交易和证券抵押贷款；不把这些都塞入StarPawn第一批改版。
-StarPawn适配：资产及资金仍用自己的统一账本；珠宝/金条引用同一日价格；先增加清楚的账户额度和结算信息，再逐项评价复杂证券功能。
-区别：StarPawn保留既定的存档确定性和持久化缺陷，不能直接照搬其他作品的重抽行情规则。
+Useful ideas: a physical terminal as an entry point; separate areas for daily quotes and holdings; overnight settlement summaries; price alerts; links between events and market information; and explanations of committed funds. The author's page also describes limit orders, derivative trading, and securities-backed loans. These are not all included in StarPawn's first revision.
+StarPawn adaptation: assets and money continue to use StarPawn's own unified ledger, and jewelry and gold bars reference the same daily prices. Clear account limits and settlement information come first; complex securities features can then be evaluated individually.
+Difference: StarPawn preserves its established save determinism and persistent defects. It must not directly adopt another project's market-reroll rules.
 
-本机已安装Mod清单中没有该金融Mod。可考虑共存测试，但当前没有把未安装项目写成已完成兼容验证。
-其他候选：Faction Stocks（3828925366）、Moneylending（3830603988）。本次未取得作者页完整内容，暂不据此给出实现结论。
+The financial mod is not among the mods installed on this machine. Coexistence testing may be considered later; an uninstalled project has not been presented as compatibility-tested.
+Other candidates: Faction Stocks (3828925366) and Moneylending (3830603988). Their full author pages were not obtained in this review, so no implementation conclusions are based on them.
 
-来源使用边界：研究玩法的独立实现；当前未确认作者源码/美术的复制许可，不把第三方文件放进本项目仓库。
+Source-use boundary: study gameplay ideas and implement them independently. Permission to copy the author's source code or art has not been confirmed; third-party files are not included in this repository.

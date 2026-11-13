@@ -1,5 +1,11 @@
 StarPawn inspection core / prototype v1
 
+HISTORICAL PROTOTYPE NOTE
+This document describes the original isolated v1 inspection prototype, not the
+current 0.3 gameplay integration. Its API, sample values, and unimplemented-feature
+statements are preserved as historical context. For current behavior, see
+docs/REVISION_03.txt and the implementations in source/Core and source/Game.
+
 Inspection.cs is original C# 8 code with no Unity/game dependencies. It compiled
 against the installed netstandard2.1 reference assemblies with warnings as errors.
 

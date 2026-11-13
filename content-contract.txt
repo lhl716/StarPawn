@@ -1,4 +1,5 @@
 StarPawn content / inspection contract (pure netstandard2.1; all class members are public serializable fields)
+Historical API and 30-item baseline snapshot. The current 0.3 catalog contains 239 definitions; see art/runtime-art-map.json for the current item, texture, and evidence mapping. Human-readable item/evidence labels below are English documentation translations, not changes to the Chinese in-game locale.
 UI must display Catalog.PublicFacts(asset), never hidden truth fields on ItemDefinition / AssetRecord. Quote.MaterialValue and CraftPremium split material and workmanship. RecoveryValueConfirmed=false means a claimed estimate, never a verified guarantee.
 All coordinates are normalized in the actual visible image rectangle, x left-to-right, y top-to-bottom. Letterbox margins must not be mapped into the artwork.
 Only actual deal termination calls EndEncounter; closing the inspector preserves customer+asset encounter, misses, lock and selected evidence. Auto-discovery is restricted to observable current view.
@@ -42,56 +43,56 @@ Boolean IsCurrent(CatalogState state, AssetQuote quote, Int32 gameDay, Int64 mar
 Int64 MetalValue(Int64 weightMilligrams, Int32 purityBasisPoints, Int64 perPureGram)
 
 CONTENT AND ART KEYS
-gold_bracelet | 星环足金手镯 | starpawn:gold_bracelet_clean
-gold_bracelet_worn | 星环足金手镯 | starpawn:gold_bracelet_worn | repaired=starpawn:gold_bracelet_clean
-  surface_wear | 表面磨损 | front | u=0.277,v=0.275,w=0.075,h=0.07 | cause=surface_damage
-  surface_seam | 接缝刮痕 | front | u=0.736,v=0.293,w=0.075,h=0.07 | cause=surface_damage
-  clasp_break | 搭扣断裂 | front | u=0.499,v=0.184,w=0.12,h=0.07 | cause=clasp_damage
-gold_bracelet_plated | 星环足金手镯 | starpawn:gold_bracelet_plated | repaired=starpawn:gold_bracelet_plated_repaired
-  plating_edge | 镀层露底 | front | u=0.277,v=0.275,w=0.075,h=0.07 | cause=base_material_mismatch
-  plating_seam | 接缝露底 | front | u=0.736,v=0.293,w=0.075,h=0.07 | cause=base_material_mismatch
-  clasp_break | 搭扣断裂 | front | u=0.499,v=0.184,w=0.12,h=0.07 | cause=clasp_damage
-gold_bar | 星港认证金条 · 50 克 | starpawn:gold_bar_clean
-gold_bar_suspect | 星港认证金条 · 50 克 | starpawn:gold_bar_suspect
-  bar_seam | 封边露出异色内芯 | front | u=0.66,v=0.574,w=0.13,h=0.09 | cause=bar_filler
-  bar_stamp | 压印边缘异常 | front | u=0.49,v=0.434,w=0.045,h=0.045 | cause=bar_filler
-silver_cup | 月港银杯 | starpawn:silver_cup_clean
-silver_cup_worn | 月港银杯 | starpawn:silver_cup_worn | repaired=starpawn:silver_cup_clean
-  cup_dent | 杯壁凹陷 | front | u=0.56,v=0.54,w=0.13,h=0.14 | cause=cup_damage
-silver_bracelet | 月轨银手镯 | starpawn:silver_bracelet_clean
-silver_bracelet_worn | 月轨银手镯 | starpawn:silver_bracelet_worn | repaired=starpawn:silver_bracelet_clean
-  silver_clasp | 银镯搭扣裂损 | front | u=0.5,v=0.222,w=0.115,h=0.045 | cause=silver_clasp_damage
-silver_bar | 月港认证银条 · 100 克 | starpawn:silver_bar_clean
-silver_bar_suspect | 月港认证银条 · 100 克 | starpawn:silver_bar_suspect
-  silver_bar_seam | 镀银封边露出铜色内芯 | front | u=0.685,v=0.54,w=0.17,h=0.13 | cause=silver_filler
-jade_rough | 青岚原石 | starpawn:jade_rough_clean | starpawn:jade_window_clean
-jade_rough_cracked | 青岚原石 | starpawn:jade_rough_cracked | starpawn:jade_window_cracked
-  rough_crack | 皮壳裂隙 | front | u=0.592,v=0.49,w=0.17,h=0.2 | cause=jade_fissure
-  window_crack | 开窗处延伸裂纹 | window | u=0.511,v=0.557,w=0.24,h=0.22 | cause=jade_fissure
-jade_pendant | 青岚玉佩 | starpawn:jade_pendant_clean
-jade_pendant_dyed | 青岚玉佩 | starpawn:jade_pendant_dyed
-  dye_pool | 裂隙染色聚集 | front | u=0.565,v=0.527,w=0.09,h=0.13 | cause=jade_treatment
-antique_vase | 远航纪年陶瓶 | starpawn:antique_vase_clean
-antique_vase_repaired | 远航纪年陶瓶 | starpawn:antique_vase_repaired
-  vase_restore | 釉面修补边界 | front | u=0.583,v=0.594,w=0.112,h=0.19 | cause=restoration_history
-painting | 《港灯》原作 | starpawn:painting_clean
-painting_forged | 《港灯》原作 | starpawn:painting_forged
-  seal_mismatch | 印章笔画错位 | front | u=0.848,v=0.725,w=0.085,h=0.11 | cause=painting_authenticity
-  print_dots | 笔触中的规则印点 | front | u=0.374,v=0.507,w=0.1,h=0.12 | cause=painting_authenticity
-console | 轨道一号游戏机 | starpawn:console_clean
-console_damaged | 轨道一号游戏机 | starpawn:console_damaged | repaired=starpawn:console_repaired
-  console_port | 接口触片弯折 | front | u=0.708,v=0.689,w=0.08,h=0.11 | cause=console_port_damage
-  console_screw | 螺丝拆修痕迹 | front | u=0.171,v=0.487,w=0.08,h=0.11 | cause=console_service_history
-handheld | 口袋航线掌机 | starpawn:handheld_clean
-handheld_damaged | 口袋航线掌机 | starpawn:handheld_damaged | repaired=starpawn:handheld_clean
-  handheld_port | 掌机接口触片弯折 | front | u=0.894,v=0.504,w=0.05,h=0.1 | cause=handheld_port_damage
-cartridge | 《环轨快递》卡带 | starpawn:cartridge_clean
-cartridge_bootleg | 《环轨快递》卡带 | starpawn:cartridge_bootleg
-  label_print | 标签印刷套色偏移 | front | u=0.455,v=0.455,w=0.25,h=0.2 | cause=cartridge_edition
-disc | 《远星回声》光盘 | starpawn:disc_clean
-disc_scratched | 《远星回声》光盘 | starpawn:disc_scratched | repaired=starpawn:disc_clean
-  disc_scratch | 读取面径向划伤 | front | u=0.671,v=0.338,w=0.13,h=0.15 | cause=disc_surface
-book | 《星港手记》签名初版 | starpawn:book_clean
-book_reprint | 《星港手记》签名初版 | starpawn:book_reprint
-  reprint_mark | 版权页重印标记 | front | u=0.694,v=0.682,w=0.15,h=0.08 | cause=book_edition
-inspection_guide | 《星港验货手册》 | starpawn:guide_book
+gold_bracelet | Star Ring Pure-Gold Bracelet | starpawn:gold_bracelet_clean
+gold_bracelet_worn | Star Ring Pure-Gold Bracelet | starpawn:gold_bracelet_worn | repaired=starpawn:gold_bracelet_clean
+  surface_wear | Surface wear | front | u=0.277,v=0.275,w=0.075,h=0.07 | cause=surface_damage
+  surface_seam | Seam scratches | front | u=0.736,v=0.293,w=0.075,h=0.07 | cause=surface_damage
+  clasp_break | Broken clasp | front | u=0.499,v=0.184,w=0.12,h=0.07 | cause=clasp_damage
+gold_bracelet_plated | Star Ring Pure-Gold Bracelet | starpawn:gold_bracelet_plated | repaired=starpawn:gold_bracelet_plated_repaired
+  plating_edge | Exposed base metal | front | u=0.277,v=0.275,w=0.075,h=0.07 | cause=base_material_mismatch
+  plating_seam | Exposed base metal at the seam | front | u=0.736,v=0.293,w=0.075,h=0.07 | cause=base_material_mismatch
+  clasp_break | Broken clasp | front | u=0.499,v=0.184,w=0.12,h=0.07 | cause=clasp_damage
+gold_bar | Starport Certified Gold Bar - 50 g | starpawn:gold_bar_clean
+gold_bar_suspect | Starport Certified Gold Bar - 50 g | starpawn:gold_bar_suspect
+  bar_seam | Different-colored core exposed at the sealed edge | front | u=0.66,v=0.574,w=0.13,h=0.09 | cause=bar_filler
+  bar_stamp | Irregular stamped edges | front | u=0.49,v=0.434,w=0.045,h=0.045 | cause=bar_filler
+silver_cup | Moonport Silver Cup | starpawn:silver_cup_clean
+silver_cup_worn | Moonport Silver Cup | starpawn:silver_cup_worn | repaired=starpawn:silver_cup_clean
+  cup_dent | Dent in the cup wall | front | u=0.56,v=0.54,w=0.13,h=0.14 | cause=cup_damage
+silver_bracelet | Lunar Orbit Silver Bracelet | starpawn:silver_bracelet_clean
+silver_bracelet_worn | Lunar Orbit Silver Bracelet | starpawn:silver_bracelet_worn | repaired=starpawn:silver_bracelet_clean
+  silver_clasp | Cracked silver-bracelet clasp | front | u=0.5,v=0.222,w=0.115,h=0.045 | cause=silver_clasp_damage
+silver_bar | Moonport Certified Silver Bar - 100 g | starpawn:silver_bar_clean
+silver_bar_suspect | Moonport Certified Silver Bar - 100 g | starpawn:silver_bar_suspect
+  silver_bar_seam | Copper-colored core exposed at the silver-plated edge | front | u=0.685,v=0.54,w=0.17,h=0.13 | cause=silver_filler
+jade_rough | Azure Mist Jade Rough | starpawn:jade_rough_clean | starpawn:jade_window_clean
+jade_rough_cracked | Azure Mist Jade Rough | starpawn:jade_rough_cracked | starpawn:jade_window_cracked
+  rough_crack | Exterior fissure | front | u=0.592,v=0.49,w=0.17,h=0.2 | cause=jade_fissure
+  window_crack | Crack extending through the window | window | u=0.511,v=0.557,w=0.24,h=0.22 | cause=jade_fissure
+jade_pendant | Azure Mist Jade Pendant | starpawn:jade_pendant_clean
+jade_pendant_dyed | Azure Mist Jade Pendant | starpawn:jade_pendant_dyed
+  dye_pool | Dye pooling in fissures | front | u=0.565,v=0.527,w=0.09,h=0.13 | cause=jade_treatment
+antique_vase | Voyage Commemorative Ceramic Vase | starpawn:antique_vase_clean
+antique_vase_repaired | Voyage Commemorative Ceramic Vase | starpawn:antique_vase_repaired
+  vase_restore | Glaze restoration boundary | front | u=0.583,v=0.594,w=0.112,h=0.19 | cause=restoration_history
+painting | Harbor Lights - Original Artwork | starpawn:painting_clean
+painting_forged | Harbor Lights - Original Artwork | starpawn:painting_forged
+  seal_mismatch | Misaligned seal strokes | front | u=0.848,v=0.725,w=0.085,h=0.11 | cause=painting_authenticity
+  print_dots | Regular print dots within brushstrokes | front | u=0.374,v=0.507,w=0.1,h=0.12 | cause=painting_authenticity
+console | Orbit One Game Console | starpawn:console_clean
+console_damaged | Orbit One Game Console | starpawn:console_damaged | repaired=starpawn:console_repaired
+  console_port | Bent port contacts | front | u=0.708,v=0.689,w=0.08,h=0.11 | cause=console_port_damage
+  console_screw | Screw service marks | front | u=0.171,v=0.487,w=0.08,h=0.11 | cause=console_service_history
+handheld | Pocket Route Handheld Console | starpawn:handheld_clean
+handheld_damaged | Pocket Route Handheld Console | starpawn:handheld_damaged | repaired=starpawn:handheld_clean
+  handheld_port | Bent handheld port contacts | front | u=0.894,v=0.504,w=0.05,h=0.1 | cause=handheld_port_damage
+cartridge | Orbital Courier Cartridge | starpawn:cartridge_clean
+cartridge_bootleg | Orbital Courier Cartridge | starpawn:cartridge_bootleg
+  label_print | Misregistered label colors | front | u=0.455,v=0.455,w=0.25,h=0.2 | cause=cartridge_edition
+disc | Distant Star Echoes Disc | starpawn:disc_clean
+disc_scratched | Distant Star Echoes Disc | starpawn:disc_scratched | repaired=starpawn:disc_clean
+  disc_scratch | Radial scratches on the read surface | front | u=0.671,v=0.338,w=0.13,h=0.15 | cause=disc_surface
+book | Starport Journal - Signed First Edition | starpawn:book_clean
+book_reprint | Starport Journal - Signed First Edition | starpawn:book_reprint
+  reprint_mark | Reprint mark on the copyright page | front | u=0.694,v=0.682,w=0.15,h=0.08 | cause=book_edition
+inspection_guide | Starport Inspection Handbook | starpawn:guide_book

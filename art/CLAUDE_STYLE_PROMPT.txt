@@ -1,5 +1,5 @@
-为《Probably Stolen》的StarPawn Mod做一张物品美术风格小样：一枚黄金戒指，正常、镀层露底、戒圈裂纹三个状态横排，保持同一轮廓、角度和光照。采用贴合原版旧科幻当铺的精致像素风，有限色板、清晰材质和克制高光，透明背景；缺陷完全位于物体内部，在缩小预览中仍可辨认。附库存小图预览，不画人物、不生成整套资产、不改代码。先让我确认画风。
+Create one item-art style sample for StarPawn, a Probably Stolen mod: a gold ring shown side by side in three states—intact, worn plating exposing the base metal, and a cracked band. Keep the silhouette, viewing angle, and lighting identical. Use refined pixel art that fits the original game's worn science-fiction pawnshop, with a limited palette, clear materials, restrained highlights, and a transparent background. Keep every defect inside the object silhouette and readable at small sizes. Include an inventory-size preview. Do not draw characters, produce the full asset set, or change code. Wait for my approval of the style before proceeding.
 
-仓库：https://github.com/lhl716/StarPawn
-从 gameplay/0.3 拉取，先读 art/ART_DIRECTION.txt 和 art/runtime-art-map.json。创建 art/style-sample 分支，提交到 art/proposals/。
-这是物品立绘，不是角色立绘。小样三状态供比较，游戏导出为独立文件。
+Repository: https://github.com/lhl716/StarPawn
+Start from the current 0.3 code on main. Read art/ART_DIRECTION.txt and art/runtime-art-map.json first. Create an art/style-sample branch and submit the sample under art/proposals/.
+This is an item illustration, not a character portrait. The side-by-side presentation is for comparison; export the three runtime states as separate files. Documentation is in English; preserve the game's existing Chinese localization.

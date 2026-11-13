@@ -1,33 +1,33 @@
-StarPawn 0.3.0 玩法交付与美术交接
-2026-11-13；Windows；游戏100-Rev13，Steam BuildID 26525552。
+StarPawn 0.3.0 Gameplay Delivery and Art Handoff
+2026-11-13; Windows; game version 100-Rev13; Steam BuildID 26525552.
 
-本轮已接入
-1. 金银各五类（戒指、手镯、项链、耳环、条块），每类环轨/星芒两款，共20款。每款8种固定状态组合（正常、磨损、裂纹、镀层及组合）=160个定义；旧30个定义保留。
-2. 翡翠6类原石：黄沙皮、黑乌砂、水石、白盐砂、铁锈皮、山料；每类4种外皮/开窗缺陷组合，共24定义。不同种水权重和基价，种水/产量在实物生成时保存。新增吊坠、戒面、手镯、珠串4类成品×3状态=12定义。开窗/切割不重抽，手镯受料量约束，旧原石仍走旧产物。
-3. 5件可购仪器：电子秤120、成色仪650、十倍镜90、强光灯180、紫外灯260 Cr。验货台和原版右键“使用”入口；必须持有真实设备。已测读数保存，重复测量不重复加经验，不恢复已锁定的检查机会。强光观察保留不确定性。
-4. 7册实体手册：贵金属、翡翠、古董、字画、电子、载体、书籍，各65 Cr；固定模板介绍、示例图、位置圈线、工具和可修性。不会替玩家揭示当前物品的隐藏状态。
-5. 实体八格手册收纳160 Cr：真实书本放入、取出、翻阅，原生容器窗口，保存/重载保留子物品唯一ID。装有书本时不可搬走或出售；先取空，防止连同未定价内容一并交易。
-6. 储蓄卡/信用卡沿用0.2实体账户凭证，补卡使旧序列失效。新增日额度：存入5000、取现2000、信用借入1000、普通贷款借入3000 Cr；总信用5000，普通贷款未还本金总额10000。还款不占借款额度，补卡/读档/还款/重开账户不刷新当日用量。
-7. 新签约日息：储蓄0.20%、信用0.60%、普通贷款0.45%、典当0.60%；旧合同保留签约值。新增存款次日起息，余数留存；按已结算日防重复结息。
-8. 大厅资金总览、每日剩余额度、过夜结算回执。净资金包含现金、存款、证券卖出值并扣除负债；典当贷出应收单列，库存不计入。金银称重、成色和材料价仍引用共享每日行情，回收底价约束保留。
-9. 商品目录分类分页，每个商品家族每日只选一个固定状态，按存档/日期稳定选择。重载、仪器、满级不重抽。旧存档同日升级补入新家族，不补回已买走的旧商品。
+Implemented in this revision
+1. Five categories in both gold and silver: rings, bracelets, necklaces, earrings, and bars. Each has Orbit and Starburst designs, for 20 models. Each model has 8 fixed condition combinations (intact, wear, cracks, plating, and combinations), totaling 160 definitions. The original 30 definitions remain available.
+2. Six jade rough families: Yellow Sand Skin, Black Sand Skin, Water-Worn, White Salt Skin, Rust Skin, and Mountain Rough. Each has 4 exterior/window defect combinations, totaling 24 definitions. Families have different quality weights and base prices; quality and yield are saved when the physical item is created. Four new finished categories (pendants, cabochons, bangles, and bead strands) each have 3 conditions, totaling 12 definitions. Opening a window or cutting never rerolls the outcome. Bangles require sufficient yield. Legacy rough retains its original outputs.
+3. Five purchasable physical instruments: digital scale (120 Cr), purity analyzer (650 Cr), 10x loupe (90 Cr), jade inspection light (180 Cr), and UV lamp (260 Cr). They work from the inspection desk and the vanilla right-click Use action; the player must own the actual instrument. Recorded readings persist. Repeated measurements neither award duplicate XP nor restore a locked inspection opportunity. Light inspection retains uncertainty.
+4. Seven physical manuals: Precious Metals, Jade, Antiques, Art, Electronics, Media, and Books, each priced at 65 Cr. They contain fixed template descriptions, example illustrations, location markers, tools, and repairability information. They do not reveal the current item's hidden condition for the player.
+5. A physical eight-slot manual organizer, priced at 160 Cr. Actual books can be inserted, removed, and read through the native container window. Child item IDs survive save/reload. An organizer containing books cannot be moved or sold; it must be emptied first to prevent unpriced contents from being traded with it.
+6. Debit and credit cards retain the physical account-credential system introduced in 0.2. Reissuing a card invalidates the old serial. New daily limits are 5,000 Cr deposited, 2,000 Cr withdrawn, 1,000 Cr borrowed on credit, and 3,000 Cr borrowed through ordinary loans. Total credit is capped at 5,000 Cr; total outstanding ordinary-loan principal is capped at 10,000 Cr. Repayments do not consume borrowing limits. Reissuing cards, reloading, repaying, and reopening accounts do not reset the day's usage.
+7. Daily rates for new agreements: savings 0.20%, credit 0.60%, ordinary loans 0.45%, and pawn contracts 0.60%. Existing contracts retain their agreed rates. New deposits become interest-eligible the following day, fractional remainders are retained, and the last settled day prevents duplicate interest posting.
+8. The lobby now includes a financial overview, remaining daily limits, and an overnight settlement receipt. Net funds include cash, deposits, and the sell value of securities, less debt. Pawn lending receivables are listed separately; inventory is excluded. Metal weight, purity, and material valuation still use the shared daily market. The buyback floor remains enforced.
+9. The catalog uses category filters and pagination. Each item family offers one fixed condition per day, chosen deterministically from the save and date. Reloading, instruments, and mastery do not reroll it. Upgrading an old save during a day adds new families without restocking previously purchased legacy offers.
 
-数量口径
-239个目录定义=30旧定义+160金银状态+24原石状态+12翡翠成品状态+5仪器+7分册+1收纳。两张银行卡独立注册，不计入239。状态组合数不等于独立造型数。
+Counting definitions
+239 catalog definitions = 30 legacy definitions + 160 metal conditions + 24 rough conditions + 12 finished-jade conditions + 5 instruments + 7 manuals + 1 organizer. The two bank cards are registered separately and are not part of the 239. A condition combination is not a separate visual model.
 
-验证
-156项自动业务/边界测试：金融32、内容29、内容加载11、交易事务27、原生交易边界22、银行卡10、鉴定/仪器/手册25。
-另33项Harmony签名/绑定元数据检查；不是执行Unity补丁的等价证明。
-196个新商品状态的轮廓、284个固定证据中心通过几何检查，金银破损变化不超出遮罩。该检查不代表艺术质量获批。
-本机游戏程序集编译通过；保留CS1701（游戏Newtonsoft netstandard2.0与mod netstandard2.1统一引用）警告。
-slot5实机覆盖：0.2旧档升级、购买两本手册和收纳、存取/翻阅/重载、购买并检测6克镀金戒指、6类原石目录、强光观察、开窗、切成珠串交付、存款额度、资金总览、正常睡眠第3→4天、单次夜结、重载后的余额与物品保留、原版右键仪器检测50克金条。
-原有slot0–3哈希不变。独立演示存档和完整截图留在本地，不上传个人存档。
+Validation
+156 automated business-rule and boundary tests: economy 32, content 29, content bootstrap 11, commerce transactions 27, native trade boundaries 22, bank cards 10, and appraisal/instruments/manuals 25.
+An additional 33 Harmony signature/binding metadata checks passed. These checks are not equivalent to executing the patches inside Unity.
+Geometry checks passed for 196 new item-condition silhouettes and 284 fixed evidence centers. Metal damage changes remain inside the object masks. This does not constitute approval of the artistic quality.
+Compilation against the local game assemblies passed. The existing CS1701 warning remains for unifying the game's Newtonsoft netstandard2.0 reference with the mod's netstandard2.1 target.
+In-game slot5 coverage: upgrading a 0.2 save; buying two manuals and an organizer; inserting, removing, reading, and reloading them; buying and testing a 6 g gold-plated ring; browsing six rough families; light inspection; opening a window; cutting and delivering a bead strand; deposit limits; the financial overview; normal sleep from day 3 to day 4; one-time overnight settlement; balances and items surviving reload; and using the native right-click instrument action on a 50 g gold bar.
+Hashes of the original slot0-3 saves are unchanged. The independent demo save and full screenshots remain local; personal saves are not uploaded.
 
-金融参考
-已核对Rinka的“深空金融交易所 Exchange：股票·大宗”公开说明，来源见MOD_REFERENCE_RESEARCH.txt。参考资金概览、持仓/行情组织和夜间结算反馈，采用本项目独立账本实现。
-未复制第三方代码或素材；未安装该Mod，未宣称共存兼容。限价单、衍生品、证券抵押贷款和独立金融实体终端本轮未实现。
+Financial reference
+Rinka's public description of Deep Space Financial Exchange (original title: "深空金融交易所 Exchange：股票·大宗") was reviewed. See MOD_REFERENCE_RESEARCH.txt for the source. The account overview, organization of holdings/quotes, and overnight settlement feedback informed StarPawn's independent ledger implementation.
+No third-party code or assets were copied. The reference mod was not installed, and coexistence compatibility has not been claimed. Limit orders, derivatives, securities-backed loans, and a separate physical financial terminal were not implemented in this revision.
 
-交付边界
-玩法代码和开发素材已接入。新物图仍是几何验证用开发稿，原有画风仍待重做；不称为最终美术完成。
-Claude先从gameplay/0.3建立art/style-sample，只做黄金戒指三状态小样。用户确认画风后再制作整套物品及UI；完整设计交接见art/ART_DIRECTION.txt、UI_SPEC.txt、runtime-art-map.json、asset-plan.csv。
-测试针对上述基线；长期经济体验仍需玩家反馈，且不是所有第三方Mod组合、所有分辨率和全部原生异常分支都已逐项实机验证。
+Delivery boundaries
+Gameplay code and development assets are integrated. New item images are geometry-validation drafts, and the previous art style still needs replacement. This delivery does not claim final art completion.
+Claude should create art/style-sample from the current main branch and make only a three-condition gold-ring sample first. The gameplay/0.3 branch also contains the 0.3 baseline. The full item set and UI follow user approval of that style. The complete design handoff is in art/ART_DIRECTION.txt, UI_SPEC.txt, runtime-art-map.json, and asset-plan.csv.
+Testing applies to the baseline above. Long-term economic feel still needs player feedback. Not every combination of third-party mods, display resolution, or native exceptional path has been individually tested in game.

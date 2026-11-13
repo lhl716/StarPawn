@@ -1,49 +1,50 @@
-StarPawn 美术与UI改版交接
+StarPawn Art and UI Handoff
 
-目标
-让物品像属于原版旧科幻当铺。当前高分辨率写实商品照与原版像素场景不协调；先用黄金戒指小样确定像素尺度、轮廓、金属高光与缺陷可读性。画风由用户确认后再批量展开。
+Goal
+Make every object feel at home in the original game's worn science-fiction pawnshop. The current high-resolution, photorealistic product images clash with the pixel-art environment. Use a gold-ring sample to establish pixel scale, silhouette, metallic highlights, and defect readability before expanding the set. The user must approve the style before full production.
 
-第一轮只交付
-一枚原创黄金戒指：正常、镀层露底、戒圈裂纹。相同构图、轮廓、角度与照明，附64×64库存预览和384×256鉴定预览。三状态并排展示，但各自保留透明PNG。只在 art/proposals/ 提案，不替换现有运行图，不改变业务代码。
+First-round deliverable only
+Create one original gold ring in three states: intact, worn plating exposing the base metal, and a cracked band. Keep composition, silhouette, viewing angle, and lighting identical. Include a 64 x 64 inventory preview and a 384 x 256 inspection preview. Present the three states side by side for comparison and retain a separate transparent PNG for each. Submit proposals under art/proposals/; do not replace runtime images or change gameplay code in this round.
 
-风格候选
-受原版的低饱和旧工业空间启发：暖纸、墨蓝、灰绿、氧化铜，金色强调价值，朱红仅作异常反馈。清晰像素簇、有限色阶、适量抖动，避免照片质感、过曝光晕、塑料金属和大块空背景。旧并不等于所有东西都损坏；完好件必须清楚地完好。
-不复刻其他作者图像、真实珠宝品牌或卡组织商标。储蓄卡与信用卡使用虚构银行，卡面不放真实账号信息。
+Style direction
+Take inspiration from the base game's muted, aged industrial setting: warm paper, ink blue, gray-green, and oxidized copper. Use gold to emphasize value and vermilion for exceptional or error feedback. Build clear pixel clusters with a limited tonal range and restrained dithering. Avoid photographic surfaces, blown-out glows, plastic-looking metal, and excessive empty canvas. An aged setting does not mean every object is damaged: intact items must read clearly as intact.
+Do not reproduce other artists' images, real jewelry brands, or payment-network trademarks. Use a fictional bank for debit and credit cards, with no real account details.
 
-画面与导出契约
-1. 现有鉴定画布宽高比约3:2，逻辑画框298×199。建议在384×256像素母版工作；如需导出1536×1024，用4倍最近邻放大。最终尺度在首轮确认。
-2. Paper插图背景透明，物体完整留边；Items为单独可读的小图，不能把大图不加处理直接缩小。普通1×1格64×64，卡片2×1格128×64；其他占格随最终item元数据确认。
-3. 同一件物品的正常、缺陷、仪器观察、修复状态必须像素对齐。保持轮廓、相机、光照和画布不变。
-4. 缺陷是定义明确的固定模板，可从允许槽位组合；不要临时随机生成噪点或自由漂移裂纹。手册示例、实际图、热点和原因ID必须对应。
-5. 交付 base（物体）、mask（物体范围）、defect overlay（透明缺陷层）、可选仪器视图、可选repaired图和hotspots.json。缺陷层必须落在物体mask内；原石内部层只在对应观察状态显示。
-6. 热点U/V、Width/Height归一化0..1，左上原点。实际配置字段是ViewId（front/window）与InstrumentKind（scale/assay/loupe/jade_light/uv或空），不要自行引入visibleMode替代字段；CauseId合并同一问题，Id区分观察证据。TemplateId对应固定缺陷说明。
-7. 文字由游戏渲染。UI底板不烘焙金额、日限额、纯度和长段中文；书页正文可变，只提供排版模板与插图。
-8. 文件名小写snake_case，前缀稳定。图层/可编辑源文件放art/source；游戏PNG放mod/Textures/Items及Paper。对应关系写入asset-plan.csv和新增映射，不覆盖其他人的玩法更改。
+Image and export contract
+1. The current inspection image has an approximately 3:2 aspect ratio and a logical frame of 298 x 199. A 384 x 256 pixel master is recommended. If a 1536 x 1024 export is needed, upscale by 4 using nearest-neighbor sampling. Confirm the final scale during the first review.
+2. Paper illustrations require transparency and enough margin to preserve the entire object. Items images need a separately readable small-size treatment, rather than an unreviewed downscale of the large image. Standard 1 x 1 inventory cells use 64 x 64 images; 2 x 1 cards use 128 x 64. Confirm other footprints against the final item metadata.
+3. Normal, defective, instrument-observation, and repaired states of the same item must align pixel for pixel. Preserve the silhouette, camera, lighting, and canvas.
+4. Defects are defined, fixed templates combined through allowed slots. Do not generate arbitrary random noise or freely drifting cracks. Handbook examples, runtime images, hotspots, and cause IDs must agree.
+5. Deliver a base object layer, an object mask, transparent defect overlays, optional instrument views, optional repaired images, and hotspots.json. Defect layers must stay inside the object mask. Interior layers of rough jade appear only in the corresponding observation state.
+6. Hotspot U/V and Width/Height are normalized to 0..1 with a top-left origin. The actual configuration fields are ViewId (front/window) and InstrumentKind (scale/assay/loupe/jade_light/uv or empty). Do not substitute an invented visibleMode field. CauseId groups evidence for the same underlying issue; Id distinguishes individual observations. TemplateId links to a fixed defect explanation.
+7. Text is rendered by the game. Do not bake amounts, daily limits, purity values, or long Chinese text into UI backgrounds. Handbook text is variable: provide page templates and illustrations. English documentation does not change the game's Chinese localization.
+8. Use lowercase snake_case filenames and stable prefixes. Place editable source files and layers in art/source; runtime PNGs belong in mod/Textures/Items and mod/Textures/Paper. Record relationships in asset-plan.csv and the updated mapping. Preserve other contributors' gameplay changes.
 
-整套美术范围
-首饰：黄金/银的戒指、手镯、项链、耳环；金条和银条；日常、精工、镶嵌款式。正常、磨损、断裂、镀层、印记不符等可组合模板。
-翡翠：至少六类皮壳/来源/档次，完整原石、开窗、透光、切面；吊坠、戒面、手镯、珠串。不能用六个名字配同一张石头图。
-仪器：电子秤、成色检测仪、珠宝放大镜、翡翠强光灯、紫外观察灯；待机/工作/完成/无效状态。仪器视觉表达观察条件，不把未知内部结果直接全部揭示。
-银行：储蓄卡、信用卡、卡套、实体终端；正反面、有效/作废状态。额度在界面显示，卡片只是账户引用。
-手册：总目录、贵金属、翡翠、古董、字画、电子、载体、书籍各分册与打开页模板；新增“鉴定手册收纳”实物，空/部分装入/展开三状态，分页标签清楚。
-其余：花瓶、字画、主机、掌机、卡带、光盘、书籍及证书的同套风格重制。
+Full art scope after approval
+Jewelry: gold and silver rings, bracelets, necklaces, and earrings; gold and silver bars; everyday, crafted, and set-stone designs. Fixed templates may cover intact condition, wear, fractures, plating, and inconsistent hallmarks, with valid combinations.
+Jade: at least six distinct rough-stone skins, origins, or quality groups; whole stones, opened windows, transmitted-light views, and cut surfaces; pendants, cabochons, bangles, and bead strands. Six different names must not reuse the same stone image.
+Instruments: electronic scale, purity analyzer, jeweler's loupe, jade inspection light, and UV observation lamp; idle, active, complete, and invalid states. Visuals should communicate observation conditions without revealing every unknown internal result.
+Banking: debit card, credit card, card holder, and physical terminal; front/back and valid/void states. Limits are displayed in the UI; each card only references an account.
+Handbooks: master index plus volumes for precious metals, jade, antiques, paintings, electronics, media, and books; covers and open-page templates. Include the physical appraisal-manual organizer with empty, partially filled, and open states, with readable tabs.
+Other items: restyle vases, paintings, consoles, handhelds, cartridges, discs, books, and certificates as a coherent set.
 
-UI清单
-业务大厅；来客目录；自有资产；鉴定台；仪器读数；证据/原因摘要；报价确认；资产档案/证书；维修与翡翠加工；银行/实体卡；信用/贷款；证券/行情/持仓；新闻/夜间结算；典当台账；手册目录/分册；手册收纳；提示与错误/锁定状态。
-首先做鉴定台和银行页的静态布局，小样获批后再提交全套UI tokens、九宫格底板、按钮状态、图标、字体层级与间距规范。以1080p最低基准验证，4K整数缩放预览。
+UI scope
+Business hub; visitor catalog; owned inventory; inspection desk; instrument readings; evidence/cause summary; quote confirmation; asset records/certificates; repair and jade processing; banking/physical cards; credit/loans; securities/market/holdings; news/nightly settlement; pawn ledger; handbook index/volumes; manual storage; feedback, error, and locked states.
+After the item sample is approved, first create static layouts for the inspection desk and banking page. Then deliver UI tokens, nine-slice backgrounds, button states, icons, typography hierarchy, and spacing specifications. Validate at a minimum baseline of 1080p and provide 4K previews with integer scaling where applicable.
 
-需要保留的交互
-两次连续未命中会失去当前检查机会；顾客对话和动作表达状态。已发现证据可多选，原因去重；满级自动记录当前可见证据。自有物品、顾客物品、托管物都要有明确状态。
-金融页面显示余额、欠款、今日已用/日限额、利息、下一结算日。数字和按钮反馈有稳定位置；不要把所有业务堆进同一页。
+Interactions to preserve
+Two consecutive misses end the current inspection opportunity. Customer dialogue and actions communicate this state. Discovered evidence supports multiple selections, with duplicate causes merged. At maximum appraisal level, currently visible evidence is recorded automatically. Clearly distinguish owned, customer-owned, and consigned items.
+Financial pages show balances, debt, today's usage and limits, interest, and the next settlement date. Numbers and action feedback need stable positions; distribute workflows across appropriate pages.
 
-审批与集成
-阶段1：物品风格小样，用户确认。
-阶段2：代表性原石、卡片、手册收纳和两张UI版式，确认同一视觉体系。
-阶段3：按asset-plan.csv逐类完成；玩法分支负责状态绑定、热点、存档和实机验证。
-当前玩法与文件映射
-0.3已经接入239个商品/状态定义、5种仪器、7本分类手册和八格收纳；真实进度见docs/REVISION_03.txt。
-art/runtime-art-map.json是当前精确ID、贴图、占格、固定证据和遮罩的权威映射，包含额外两张实体卡。existing-assets.json / existing-items.json只保留0.2基线快照。
-asset-plan.csv是设计范围，包含尚未接线的视觉提案（卡套、实体终端、器具动画等）。不要把这些提案文件名当成游戏现有ID。UI屏幕清单与交互状态见art/UI_SPEC.txt。
-新开发素材在mod/Textures下以sp3_开头；可替换，但须维持同族状态对齐。development/masks和geometry-contract.json为开发几何约束，画风本身尚未批准。
-读取新代码请checkout gameplay/0.3，再从该分支创建art/style-sample。不要从0.2历史提交开始画全套。
-source/Content/Generate-Catalog.py默认生成数据/本地化；--development-art会覆盖开发图。source/Art/Generate-Art.py是旧生成器。美术集成后不要运行覆盖式生成；可用Export-ArtMap.py只更新映射。
+Review and integration stages
+Stage 1: item style sample, approved by the user.
+Stage 2: representative rough jade, cards, manual organizer, and two UI layouts to confirm a consistent visual system.
+Stage 3: complete each category in asset-plan.csv. The gameplay branch handles state binding, hotspots, save compatibility, and in-game verification.
+
+Current gameplay and file mapping
+Version 0.3 has integrated 239 catalog/state definitions, five instruments, seven category handbooks, and an eight-slot organizer. See docs/REVISION_03.txt for the actual delivery scope.
+art/runtime-art-map.json is authoritative for current IDs, textures, inventory footprints, fixed evidence, and masks. It also includes two physical cards. existing-assets.json and existing-items.json are historical 0.2 snapshots only; localized names in generated snapshots identify actual game content.
+asset-plan.csv describes design scope and includes visual proposals that are not implemented, such as a card holder, physical terminal, and instrument animation states. Its proposed filenames are not current runtime IDs. See art/UI_SPEC.txt for screen and interaction-state requirements.
+New development images use the sp3_ prefix under mod/Textures. They may be replaced, but states within each family must remain aligned. development/masks and geometry-contract.json describe development geometry constraints, not an approved art style.
+Start from the current 0.3 code on main, then create art/style-sample. Do not begin the complete art set from the historical 0.2 commit.
+source/Content/Generate-Catalog.py generates data/localization by default; --development-art overwrites development images. source/Art/Generate-Art.py is the old generator. After art integration, avoid generators that overwrite approved assets. Export-ArtMap.py can update the mapping independently.

@@ -1,105 +1,105 @@
-﻿asset_id,category,name_zh,status,target_or_proposal,required_states,notes
-antique_vase_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/antique_vase_clean.png,existing states preserved,保持旧ID与状态映射
-antique_vase_repaired,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/antique_vase_repaired.png,existing states preserved,保持旧ID与状态映射
-bank_card,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/bank_card.png,existing states preserved,保持旧ID与状态映射
-book_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/book_clean.png,existing states preserved,保持旧ID与状态映射
-book_reprint,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/book_reprint.png,existing states preserved,保持旧ID与状态映射
-bracelet_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/bracelet_clean.png,existing states preserved,保持旧ID与状态映射
-bracelet_worn,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/bracelet_worn.png,existing states preserved,保持旧ID与状态映射
-button,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/button.png,existing states preserved,保持旧ID与状态映射
-button_hover,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/button_hover.png,existing states preserved,保持旧ID与状态映射
-cartridge_bootleg,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/cartridge_bootleg.png,existing states preserved,保持旧ID与状态映射
-cartridge_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/cartridge_clean.png,existing states preserved,保持旧ID与状态映射
-console_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/console_clean.png,existing states preserved,保持旧ID与状态映射
-console_damaged,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/console_damaged.png,existing states preserved,保持旧ID与状态映射
-console_repaired,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/console_repaired.png,existing states preserved,保持旧ID与状态映射
-credit_card,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/credit_card.png,existing states preserved,保持旧ID与状态映射
-disc_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/disc_clean.png,existing states preserved,保持旧ID与状态映射
-disc_scratched,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/disc_scratched.png,existing states preserved,保持旧ID与状态映射
-gold_bar_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/gold_bar_clean.png,existing states preserved,保持旧ID与状态映射
-gold_bar_suspect,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/gold_bar_suspect.png,existing states preserved,保持旧ID与状态映射
-gold_bracelet_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/gold_bracelet_clean.png,existing states preserved,保持旧ID与状态映射
-gold_bracelet_plated,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/gold_bracelet_plated.png,existing states preserved,保持旧ID与状态映射
-gold_bracelet_plated_repaired,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/gold_bracelet_plated_repaired.png,existing states preserved,保持旧ID与状态映射
-gold_bracelet_worn,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/gold_bracelet_worn.png,existing states preserved,保持旧ID与状态映射
-guide_book,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/guide_book.png,existing states preserved,保持旧ID与状态映射
-handheld_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/handheld_clean.png,existing states preserved,保持旧ID与状态映射
-handheld_damaged,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/handheld_damaged.png,existing states preserved,保持旧ID与状态映射
-jade_pendant_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/jade_pendant_clean.png,existing states preserved,保持旧ID与状态映射
-jade_pendant_dyed,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/jade_pendant_dyed.png,existing states preserved,保持旧ID与状态映射
-jade_rough_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/jade_rough_clean.png,existing states preserved,保持旧ID与状态映射
-jade_rough_cracked,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/jade_rough_cracked.png,existing states preserved,保持旧ID与状态映射
-jade_window_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/jade_window_clean.png,existing states preserved,保持旧ID与状态映射
-jade_window_cracked,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/jade_window_cracked.png,existing states preserved,保持旧ID与状态映射
-marker,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/marker.png,existing states preserved,保持旧ID与状态映射
-painting_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/painting_clean.png,existing states preserved,保持旧ID与状态映射
-painting_forged,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/painting_forged.png,existing states preserved,保持旧ID与状态映射
-panel,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/panel.png,existing states preserved,保持旧ID与状态映射
-silver_bar_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/silver_bar_clean.png,existing states preserved,保持旧ID与状态映射
-silver_bar_suspect,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/silver_bar_suspect.png,existing states preserved,保持旧ID与状态映射
-silver_bracelet_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/silver_bracelet_clean.png,existing states preserved,保持旧ID与状态映射
-silver_bracelet_worn,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/silver_bracelet_worn.png,existing states preserved,保持旧ID与状态映射
-silver_cup_clean,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/silver_cup_clean.png,existing states preserved,保持旧ID与状态映射
-silver_cup_worn,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/silver_cup_worn.png,existing states preserved,保持旧ID与状态映射
-transparent,existing,既有物品或UI图,rework-after-style-approval,mod/Textures/Paper/transparent.png,existing states preserved,保持旧ID与状态映射
-gold_ring_plain,jewelry,黄金戒指素面,planned,mod/Textures/Paper/gold_ring_plain.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-gold_ring_crafted,jewelry,黄金戒指精工,planned,mod/Textures/Paper/gold_ring_crafted.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-gold_bracelet_plain,jewelry,黄金手镯素面,planned,mod/Textures/Paper/gold_bracelet_plain.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-gold_bracelet_crafted,jewelry,黄金手镯精工,planned,mod/Textures/Paper/gold_bracelet_crafted.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-gold_necklace_plain,jewelry,黄金项链素面,planned,mod/Textures/Paper/gold_necklace_plain.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-gold_necklace_crafted,jewelry,黄金项链精工,planned,mod/Textures/Paper/gold_necklace_crafted.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-gold_earrings_plain,jewelry,黄金耳环素面,planned,mod/Textures/Paper/gold_earrings_plain.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-gold_earrings_crafted,jewelry,黄金耳环精工,planned,mod/Textures/Paper/gold_earrings_crafted.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-gold_bar_plain,jewelry,黄金金属条素面,planned,mod/Textures/Paper/gold_bar_plain.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-gold_bar_crafted,jewelry,黄金金属条精工,planned,mod/Textures/Paper/gold_bar_crafted.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-silver_ring_plain,jewelry,白银戒指素面,planned,mod/Textures/Paper/silver_ring_plain.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-silver_ring_crafted,jewelry,白银戒指精工,planned,mod/Textures/Paper/silver_ring_crafted.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-silver_bracelet_plain,jewelry,白银手镯素面,planned,mod/Textures/Paper/silver_bracelet_plain.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-silver_bracelet_crafted,jewelry,白银手镯精工,planned,mod/Textures/Paper/silver_bracelet_crafted.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-silver_necklace_plain,jewelry,白银项链素面,planned,mod/Textures/Paper/silver_necklace_plain.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-silver_necklace_crafted,jewelry,白银项链精工,planned,mod/Textures/Paper/silver_necklace_crafted.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-silver_earrings_plain,jewelry,白银耳环素面,planned,mod/Textures/Paper/silver_earrings_plain.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-silver_earrings_crafted,jewelry,白银耳环精工,planned,mod/Textures/Paper/silver_earrings_crafted.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-silver_bar_plain,jewelry,白银金属条素面,planned,mod/Textures/Paper/silver_bar_plain.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-silver_bar_crafted,jewelry,白银金属条精工,planned,mod/Textures/Paper/silver_bar_crafted.png,clean; wear; fracture; plating; assay view; repaired,固定缺陷槽位，互斥材质状态；Items单独预览
-jade_rough_sand,jade,黄沙皮原石,planned,mod/Textures/Paper/jade_rough_sand.png,whole; torch; uv; window; cut,不同轮廓/皮壳，不用换名代替图像差异
-jade_rough_black,jade,黑乌砂原石,planned,mod/Textures/Paper/jade_rough_black.png,whole; torch; uv; window; cut,不同轮廓/皮壳，不用换名代替图像差异
-jade_rough_water,jade,水石原石,planned,mod/Textures/Paper/jade_rough_water.png,whole; torch; uv; window; cut,不同轮廓/皮壳，不用换名代替图像差异
-jade_rough_white,jade,白盐砂原石,planned,mod/Textures/Paper/jade_rough_white.png,whole; torch; uv; window; cut,不同轮廓/皮壳，不用换名代替图像差异
-jade_rough_rust,jade,铁锈皮原石,planned,mod/Textures/Paper/jade_rough_rust.png,whole; torch; uv; window; cut,不同轮廓/皮壳，不用换名代替图像差异
-jade_rough_boulder,jade,山料原石,planned,mod/Textures/Paper/jade_rough_boulder.png,whole; torch; uv; window; cut,不同轮廓/皮壳，不用换名代替图像差异
-jade_bangle,jade,翡翠手镯,planned,mod/Textures/Paper/jade_bangle.png,clean; fissure; dye; resin; uv,颜色/种水遵循保存的原石输出
-jade_beads,jade,翡翠珠串,planned,mod/Textures/Paper/jade_beads.png,clean; fissure; dye; resin; uv,颜色/种水遵循保存的原石输出
-jade_cabochon,jade,翡翠戒面,planned,mod/Textures/Paper/jade_cabochon.png,clean; fissure; dye; resin; uv,颜色/种水遵循保存的原石输出
-jade_pendant,jade,翡翠吊坠,planned,mod/Textures/Paper/jade_pendant.png,clean; fissure; dye; resin; uv,颜色/种水遵循保存的原石输出
-scale,instrument,电子秤,planned,mod/Textures/Paper/scale.png,idle; active; complete; invalid,动态读数由UI渲染；实体设备有库存图
-assay_scanner,instrument,成色检测仪,planned,mod/Textures/Paper/assay_scanner.png,idle; active; complete; invalid,动态读数由UI渲染；实体设备有库存图
-jeweler_loupe,instrument,珠宝放大镜,planned,mod/Textures/Paper/jeweler_loupe.png,idle; active; complete; invalid,动态读数由UI渲染；实体设备有库存图
-jade_torch,instrument,翡翠强光灯,planned,mod/Textures/Paper/jade_torch.png,idle; active; complete; invalid,动态读数由UI渲染；实体设备有库存图
-uv_lamp,instrument,紫外观察灯,planned,mod/Textures/Paper/uv_lamp.png,idle; active; complete; invalid,动态读数由UI渲染；实体设备有库存图
-manual_index,manual,总目录鉴定分册,planned,mod/Textures/Paper/manual_index.png,cover; spread; tab; defect diagrams,正文不烘焙；示意图对应固定模板
-manual_metals,manual,贵金属鉴定分册,planned,mod/Textures/Paper/manual_metals.png,cover; spread; tab; defect diagrams,正文不烘焙；示意图对应固定模板
-manual_jade,manual,翡翠鉴定分册,planned,mod/Textures/Paper/manual_jade.png,cover; spread; tab; defect diagrams,正文不烘焙；示意图对应固定模板
-manual_antiques,manual,古董字画鉴定分册,planned,mod/Textures/Paper/manual_antiques.png,cover; spread; tab; defect diagrams,正文不烘焙；示意图对应固定模板
-manual_electronics,manual,电子设备鉴定分册,planned,mod/Textures/Paper/manual_electronics.png,cover; spread; tab; defect diagrams,正文不烘焙；示意图对应固定模板
-manual_media,manual,游戏载体鉴定分册,planned,mod/Textures/Paper/manual_media.png,cover; spread; tab; defect diagrams,正文不烘焙；示意图对应固定模板
-manual_books,manual,书籍版本鉴定分册,planned,mod/Textures/Paper/manual_books.png,cover; spread; tab; defect diagrams,正文不烘焙；示意图对应固定模板
-manual_organizer,storage,鉴定手册收纳,planned,mod/Textures/Paper/manual_organizer.png,empty; occupied; opened,实体分册保管，不复制或吞书
-ui_home,ui,业务大厅,planned,art/proposals/ui_home.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_offers,ui,来客目录,planned,art/proposals/ui_offers.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_inventory,ui,自有资产,planned,art/proposals/ui_inventory.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_inspection,ui,鉴定台,planned,art/proposals/ui_inspection.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_instrument,ui,仪器读数,planned,art/proposals/ui_instrument.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_evidence,ui,证据摘要,planned,art/proposals/ui_evidence.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_quote,ui,报价确认,planned,art/proposals/ui_quote.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_record,ui,资产档案,planned,art/proposals/ui_record.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_certificate,ui,鉴定证书,planned,art/proposals/ui_certificate.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_workshop,ui,维修加工,planned,art/proposals/ui_workshop.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_bank,ui,银行和实体卡,planned,art/proposals/ui_bank.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_credit,ui,信用贷款,planned,art/proposals/ui_credit.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_securities,ui,证券持仓行情,planned,art/proposals/ui_securities.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_news,ui,新闻夜结,planned,art/proposals/ui_news.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_pawn,ui,典当合同,planned,art/proposals/ui_pawn.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_manual,ui,手册目录和分册,planned,art/proposals/ui_manual.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_organizer,ui,手册收纳,planned,art/proposals/ui_organizer.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
-ui_feedback,ui,顾客反馈和错误,planned,art/proposals/ui_feedback.png,default; hover; active; disabled; blocked; empty,先做布局规范，再交互态与九宫格皮肤；1080p/4K
+asset_id,category,name_en,status,target_or_proposal,required_states,notes
+antique_vase_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/antique_vase_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+antique_vase_repaired,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/antique_vase_repaired.png,existing states preserved,Preserve existing IDs and state mappings.
+bank_card,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/bank_card.png,existing states preserved,Preserve existing IDs and state mappings.
+book_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/book_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+book_reprint,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/book_reprint.png,existing states preserved,Preserve existing IDs and state mappings.
+bracelet_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/bracelet_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+bracelet_worn,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/bracelet_worn.png,existing states preserved,Preserve existing IDs and state mappings.
+button,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/button.png,existing states preserved,Preserve existing IDs and state mappings.
+button_hover,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/button_hover.png,existing states preserved,Preserve existing IDs and state mappings.
+cartridge_bootleg,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/cartridge_bootleg.png,existing states preserved,Preserve existing IDs and state mappings.
+cartridge_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/cartridge_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+console_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/console_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+console_damaged,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/console_damaged.png,existing states preserved,Preserve existing IDs and state mappings.
+console_repaired,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/console_repaired.png,existing states preserved,Preserve existing IDs and state mappings.
+credit_card,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/credit_card.png,existing states preserved,Preserve existing IDs and state mappings.
+disc_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/disc_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+disc_scratched,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/disc_scratched.png,existing states preserved,Preserve existing IDs and state mappings.
+gold_bar_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/gold_bar_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+gold_bar_suspect,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/gold_bar_suspect.png,existing states preserved,Preserve existing IDs and state mappings.
+gold_bracelet_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/gold_bracelet_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+gold_bracelet_plated,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/gold_bracelet_plated.png,existing states preserved,Preserve existing IDs and state mappings.
+gold_bracelet_plated_repaired,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/gold_bracelet_plated_repaired.png,existing states preserved,Preserve existing IDs and state mappings.
+gold_bracelet_worn,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/gold_bracelet_worn.png,existing states preserved,Preserve existing IDs and state mappings.
+guide_book,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/guide_book.png,existing states preserved,Preserve existing IDs and state mappings.
+handheld_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/handheld_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+handheld_damaged,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/handheld_damaged.png,existing states preserved,Preserve existing IDs and state mappings.
+jade_pendant_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/jade_pendant_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+jade_pendant_dyed,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/jade_pendant_dyed.png,existing states preserved,Preserve existing IDs and state mappings.
+jade_rough_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/jade_rough_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+jade_rough_cracked,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/jade_rough_cracked.png,existing states preserved,Preserve existing IDs and state mappings.
+jade_window_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/jade_window_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+jade_window_cracked,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/jade_window_cracked.png,existing states preserved,Preserve existing IDs and state mappings.
+marker,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/marker.png,existing states preserved,Preserve existing IDs and state mappings.
+painting_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/painting_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+painting_forged,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/painting_forged.png,existing states preserved,Preserve existing IDs and state mappings.
+panel,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/panel.png,existing states preserved,Preserve existing IDs and state mappings.
+silver_bar_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/silver_bar_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+silver_bar_suspect,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/silver_bar_suspect.png,existing states preserved,Preserve existing IDs and state mappings.
+silver_bracelet_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/silver_bracelet_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+silver_bracelet_worn,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/silver_bracelet_worn.png,existing states preserved,Preserve existing IDs and state mappings.
+silver_cup_clean,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/silver_cup_clean.png,existing states preserved,Preserve existing IDs and state mappings.
+silver_cup_worn,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/silver_cup_worn.png,existing states preserved,Preserve existing IDs and state mappings.
+transparent,existing,Existing item or UI artwork,rework-after-style-approval,mod/Textures/Paper/transparent.png,existing states preserved,Preserve existing IDs and state mappings.
+gold_ring_plain,jewelry,Plain gold ring,planned,mod/Textures/Paper/gold_ring_plain.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+gold_ring_crafted,jewelry,Crafted gold ring,planned,mod/Textures/Paper/gold_ring_crafted.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+gold_bracelet_plain,jewelry,Plain gold bracelet,planned,mod/Textures/Paper/gold_bracelet_plain.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+gold_bracelet_crafted,jewelry,Crafted gold bracelet,planned,mod/Textures/Paper/gold_bracelet_crafted.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+gold_necklace_plain,jewelry,Plain gold necklace,planned,mod/Textures/Paper/gold_necklace_plain.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+gold_necklace_crafted,jewelry,Crafted gold necklace,planned,mod/Textures/Paper/gold_necklace_crafted.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+gold_earrings_plain,jewelry,Plain gold earrings,planned,mod/Textures/Paper/gold_earrings_plain.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+gold_earrings_crafted,jewelry,Crafted gold earrings,planned,mod/Textures/Paper/gold_earrings_crafted.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+gold_bar_plain,jewelry,Plain gold bar,planned,mod/Textures/Paper/gold_bar_plain.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+gold_bar_crafted,jewelry,Crafted gold bar,planned,mod/Textures/Paper/gold_bar_crafted.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+silver_ring_plain,jewelry,Plain silver ring,planned,mod/Textures/Paper/silver_ring_plain.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+silver_ring_crafted,jewelry,Crafted silver ring,planned,mod/Textures/Paper/silver_ring_crafted.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+silver_bracelet_plain,jewelry,Plain silver bracelet,planned,mod/Textures/Paper/silver_bracelet_plain.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+silver_bracelet_crafted,jewelry,Crafted silver bracelet,planned,mod/Textures/Paper/silver_bracelet_crafted.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+silver_necklace_plain,jewelry,Plain silver necklace,planned,mod/Textures/Paper/silver_necklace_plain.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+silver_necklace_crafted,jewelry,Crafted silver necklace,planned,mod/Textures/Paper/silver_necklace_crafted.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+silver_earrings_plain,jewelry,Plain silver earrings,planned,mod/Textures/Paper/silver_earrings_plain.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+silver_earrings_crafted,jewelry,Crafted silver earrings,planned,mod/Textures/Paper/silver_earrings_crafted.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+silver_bar_plain,jewelry,Plain silver bar,planned,mod/Textures/Paper/silver_bar_plain.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+silver_bar_crafted,jewelry,Crafted silver bar,planned,mod/Textures/Paper/silver_bar_crafted.png,clean; wear; fracture; plating; assay view; repaired,Fixed defect slots and mutually exclusive material states; provide separate Items previews.
+jade_rough_sand,jade,Yellow-sand-skin rough jade,planned,mod/Textures/Paper/jade_rough_sand.png,whole; torch; uv; window; cut,Distinct silhouettes and outer skins; names alone are not a visual distinction.
+jade_rough_black,jade,Black-sand-skin rough jade,planned,mod/Textures/Paper/jade_rough_black.png,whole; torch; uv; window; cut,Distinct silhouettes and outer skins; names alone are not a visual distinction.
+jade_rough_water,jade,Water-worn rough jade,planned,mod/Textures/Paper/jade_rough_water.png,whole; torch; uv; window; cut,Distinct silhouettes and outer skins; names alone are not a visual distinction.
+jade_rough_white,jade,White-salt-skin rough jade,planned,mod/Textures/Paper/jade_rough_white.png,whole; torch; uv; window; cut,Distinct silhouettes and outer skins; names alone are not a visual distinction.
+jade_rough_rust,jade,Rust-skin rough jade,planned,mod/Textures/Paper/jade_rough_rust.png,whole; torch; uv; window; cut,Distinct silhouettes and outer skins; names alone are not a visual distinction.
+jade_rough_boulder,jade,Mountain rough jade,planned,mod/Textures/Paper/jade_rough_boulder.png,whole; torch; uv; window; cut,Distinct silhouettes and outer skins; names alone are not a visual distinction.
+jade_bangle,jade,Jade bangle,planned,mod/Textures/Paper/jade_bangle.png,clean; fissure; dye; resin; uv,Color and translucency follow the saved rough-stone output.
+jade_beads,jade,Jade bead strand,planned,mod/Textures/Paper/jade_beads.png,clean; fissure; dye; resin; uv,Color and translucency follow the saved rough-stone output.
+jade_cabochon,jade,Jade cabochon,planned,mod/Textures/Paper/jade_cabochon.png,clean; fissure; dye; resin; uv,Color and translucency follow the saved rough-stone output.
+jade_pendant,jade,Jade pendant,planned,mod/Textures/Paper/jade_pendant.png,clean; fissure; dye; resin; uv,Color and translucency follow the saved rough-stone output.
+scale,instrument,Electronic scale,planned,mod/Textures/Paper/scale.png,idle; active; complete; invalid,Dynamic readings are rendered by the UI; physical equipment needs inventory artwork.
+assay_scanner,instrument,Purity analyzer,planned,mod/Textures/Paper/assay_scanner.png,idle; active; complete; invalid,Dynamic readings are rendered by the UI; physical equipment needs inventory artwork.
+jeweler_loupe,instrument,Jeweler's loupe,planned,mod/Textures/Paper/jeweler_loupe.png,idle; active; complete; invalid,Dynamic readings are rendered by the UI; physical equipment needs inventory artwork.
+jade_torch,instrument,Jade inspection light,planned,mod/Textures/Paper/jade_torch.png,idle; active; complete; invalid,Dynamic readings are rendered by the UI; physical equipment needs inventory artwork.
+uv_lamp,instrument,UV observation lamp,planned,mod/Textures/Paper/uv_lamp.png,idle; active; complete; invalid,Dynamic readings are rendered by the UI; physical equipment needs inventory artwork.
+manual_index,manual,Appraisal handbook master index,planned,mod/Textures/Paper/manual_index.png,cover; spread; tab; defect diagrams,Do not bake body text into images; diagrams correspond to fixed templates.
+manual_metals,manual,Precious-metals appraisal handbook,planned,mod/Textures/Paper/manual_metals.png,cover; spread; tab; defect diagrams,Do not bake body text into images; diagrams correspond to fixed templates.
+manual_jade,manual,Jade appraisal handbook,planned,mod/Textures/Paper/manual_jade.png,cover; spread; tab; defect diagrams,Do not bake body text into images; diagrams correspond to fixed templates.
+manual_antiques,manual,Antiques and paintings appraisal handbook,planned,mod/Textures/Paper/manual_antiques.png,cover; spread; tab; defect diagrams,Do not bake body text into images; diagrams correspond to fixed templates.
+manual_electronics,manual,Electronics appraisal handbook,planned,mod/Textures/Paper/manual_electronics.png,cover; spread; tab; defect diagrams,Do not bake body text into images; diagrams correspond to fixed templates.
+manual_media,manual,Game-media appraisal handbook,planned,mod/Textures/Paper/manual_media.png,cover; spread; tab; defect diagrams,Do not bake body text into images; diagrams correspond to fixed templates.
+manual_books,manual,Book-editions appraisal handbook,planned,mod/Textures/Paper/manual_books.png,cover; spread; tab; defect diagrams,Do not bake body text into images; diagrams correspond to fixed templates.
+manual_organizer,storage,Appraisal-manual organizer,planned,mod/Textures/Paper/manual_organizer.png,empty; occupied; opened,Store the physical volumes without duplicating or losing books.
+ui_home,ui,Business hub,planned,art/proposals/ui_home.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_offers,ui,Visitor catalog,planned,art/proposals/ui_offers.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_inventory,ui,Owned inventory,planned,art/proposals/ui_inventory.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_inspection,ui,Inspection desk,planned,art/proposals/ui_inspection.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_instrument,ui,Instrument readings,planned,art/proposals/ui_instrument.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_evidence,ui,Evidence summary,planned,art/proposals/ui_evidence.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_quote,ui,Quote confirmation,planned,art/proposals/ui_quote.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_record,ui,Asset record,planned,art/proposals/ui_record.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_certificate,ui,Appraisal certificate,planned,art/proposals/ui_certificate.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_workshop,ui,Repair and processing,planned,art/proposals/ui_workshop.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_bank,ui,Banking and physical cards,planned,art/proposals/ui_bank.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_credit,ui,Credit and loans,planned,art/proposals/ui_credit.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_securities,ui,"Securities, holdings, and market",planned,art/proposals/ui_securities.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_news,ui,News and nightly settlement,planned,art/proposals/ui_news.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_pawn,ui,Pawn contracts,planned,art/proposals/ui_pawn.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_manual,ui,Handbook index and volumes,planned,art/proposals/ui_manual.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_organizer,ui,Manual storage,planned,art/proposals/ui_organizer.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
+ui_feedback,ui,Customer feedback and errors,planned,art/proposals/ui_feedback.png,default; hover; active; disabled; blocked; empty,"Specify layout first, then interaction states and nine-slice skins; validate at 1080p and 4K."
