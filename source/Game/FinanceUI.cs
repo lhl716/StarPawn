@@ -9,6 +9,28 @@ namespace StarPawn.Game
         private int financeLoanPage;
         private int financePawnPage;
 
+        private void OpenFinancialOverview()
+        {
+            if(state==null)return;
+            var economy=state.Economy;var market=Market();
+            var securities=economy.Positions.Sum(p=>checked(p.Quantity*market.Securities.Single(q=>q.Symbol==p.Symbol).SellPrice));
+            var credit=EconomyService.GetCreditPayoff(economy,Day(),rules);
+            var loans=economy.Loans.Where(l=>l.Status=="Active").Sum(l=>EconomyService.GetLoanPayoff(economy,l.Id,Day(),rules));
+            var pawnDebt=economy.PawnContracts.Where(p=>p.Status=="Active"&&!p.PlayerIsLender).Sum(p=>checked(p.Principal+p.AccruedFees));
+            var pawnReceivables=economy.PawnContracts.Where(p=>p.Status=="Active"&&p.PlayerIsLender).Sum(p=>checked(p.Principal+p.AccruedFees));
+            var financialNet=checked(Cash()+economy.Bank.Balance+securities-credit-loans-pawnDebt);
+            var ui=BeginPage("资金总览 · 星港金融所","证券按本日卖出价估算；库存实物和未收回的典当款另列。");
+            Text(ui,24,75,268,103,"现金 "+Cash()+" Cr\n储蓄 "+economy.Bank.Balance+" Cr\n证券可售估值 "+securities+" Cr\n金融净额 "+financialNet+" Cr",14);
+            Text(ui,312,75,262,103,"信用应还 "+credit+" Cr\n贷款应还 "+loans+" Cr\n抵押周转应还 "+pawnDebt+" Cr\n顾客典当应收 "+pawnReceivables+" Cr",13);
+            Text(ui,24,188,550,42,"今日剩余额度：存入 "+EconomyService.GetDailyRemaining(economy,EconomyAction.Deposit,Day(),rules)+" / 取现 "+EconomyService.GetDailyRemaining(economy,EconomyAction.Withdraw,Day(),rules)+"\n信用借款 "+EconomyService.GetDailyRemaining(economy,EconomyAction.BorrowCredit,Day(),rules)+" / 贷款 "+EconomyService.GetDailyRemaining(economy,EconomyAction.TakeLoan,Day(),rules),11);
+            var statement=state.Ledger.LastOrDefault(r=>r.Description.StartsWith("日结 · ",StringComparison.Ordinal));
+            Text(ui,24,239,550,48,statement?.Description??"尚无新版日结单；营业结束后记录入账利息与到期抵押物。",11);
+            Button(ui,24,302,170,24,"银行与卡片",OpenBank);
+            Button(ui,204,302,170,24,"证券与行情",OpenMarkets);
+            Button(ui,384,302,190,24,"查看共享账本",()=>OpenLedger(0));
+            Footer(ui);Show(ui);
+        }
+
         private void OpenBank()
         {
             if (state == null) return;

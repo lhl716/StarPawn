@@ -1,0 +1,26 @@
+PASS gold and silver each cover five forms with two distinct products
+PASS all eight fixed metal template combinations are authored per product
+PASS profile selection is independent of enumeration and repeat viewing
+PASS all appraisal categories have owned physical manuals and illustrated entries
+PASS handbook is a generic fixed reference and does not consume patience or XP
+PASS assay establishes actual material and invalidates old price without certificate
+PASS genuine assay persists its reading and never grants XP for simple measurement
+PASS repeating measured evidence never rewards again or restores patience
+PASS two misses forbid every instrument and survive serialized reload
+PASS foreign, escrowed and non-instrument assets cannot authorize measurements
+PASS instrument compatibility does not reveal unrelated hidden facts
+PASS loupe discovers only its authored microscopic clues
+PASS loupe readings only report discovered clues and deduplicate labels
+PASS instrument overflow fails before adding a reading, evidence or XP
+PASS visible repair preserves plating, identity and fixed measurement record
+PASS all expanded metal profiles respect actual material recovery floor
+PASS six rough families have distinct grade distributions and fixed outcomes
+PASS jade light does not change seed or reveal exact grade or yield
+PASS jade instruments cannot see closed-window evidence
+PASS four cutting plans create distinct outputs with conserved parent lineage
+PASS insufficient bangle material fails atomically and alternatives still work
+PASS cut replay from same saved state produces exactly identical children
+PASS legacy stones retain old output and missing measurement fields migrate empty
+PASS malformed fixed templates and missing output references fail closed
+PASS corrupt unknown or duplicate measurement IDs cannot load
+APPRAISAL TESTS PASSED: 25; real packaged content + core, not Unity inventory validation

@@ -130,6 +130,7 @@ namespace StarPawn.Game
             item.ModifyTag(DefinitionTag, tag => tag.SetString(definition.DefinitionId));
             item.ModifyTag(VariantTag, tag => tag.SetString(definition.VariantId));
             InspectableHelper.InitInspectableItem(item);
+            NativeEquipment.Initialize(item, definition.VariantId);
             ModHelper.SetSource(item, ModId, "StarPawn");
             return item;
         }

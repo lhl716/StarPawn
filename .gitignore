@@ -12,6 +12,7 @@ obj/
 tests/bin/
 tests/content-bin/
 tests/economy-bin/
+tests/appraisal-bin/
 work/
 evidence/
 demo/

@@ -72,7 +72,7 @@ namespace StarPawn.Core
                     if (!itemIds.Add(item.Id) || item.Hotspots.Count > rules.MaximumHotspotsPerDefinition) throw new InvalidOperationException("Duplicate definition or hotspot limit exceeded.");
                     RequireKey(keys, item.NameKey); RequireKey(keys, item.DescriptionKey);
                     if (item.IsBook) RequireKey(keys, item.ReadingKey);
-                    foreach (var hotspot in item.Hotspots) RequireKey(keys, hotspot.LabelKey);
+                    foreach (var hotspot in item.Hotspots) { RequireKey(keys, hotspot.LabelKey); if (!string.IsNullOrEmpty(hotspot.TemplateId)) RequireKey(keys, hotspot.GuidanceKey); }
                     foreach (var texture in new[] { item.TextureKey, item.WindowTextureKey, item.RepairedTextureKey }.Where(k => !string.IsNullOrEmpty(k)))
                     {
                         if (!Regex.IsMatch(texture, "^starpawn:[a-z0-9_]+$", RegexOptions.CultureInvariant) || (textureExists != null && !textureExists(texture))) throw new InvalidOperationException("Missing or invalid local texture: " + texture);
@@ -81,6 +81,7 @@ namespace StarPawn.Core
                 }
             }
             if (result.Count == 0 || result.Count > 1024 || !itemIds.Contains("jade_pendant")) throw new InvalidOperationException("Content catalog is empty, oversized, or missing jade processing output.");
+            Appraisal.ValidateTemplates(result);
             return result;
         }
 

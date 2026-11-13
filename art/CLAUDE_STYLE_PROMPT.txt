@@ -1,5 +1,5 @@
 为《Probably Stolen》的StarPawn Mod做一张物品美术风格小样：一枚黄金戒指，正常、镀层露底、戒圈裂纹三个状态横排，保持同一轮廓、角度和光照。采用贴合原版旧科幻当铺的精致像素风，有限色板、清晰材质和克制高光，透明背景；缺陷完全位于物体内部，在缩小预览中仍可辨认。附库存小图预览，不画人物、不生成整套资产、不改代码。先让我确认画风。
 
 仓库：https://github.com/lhl716/StarPawn
-先读 art/ART_DIRECTION.txt。提交到 art/style-sample 分支的 art/proposals/。
+从 gameplay/0.3 拉取，先读 art/ART_DIRECTION.txt 和 art/runtime-art-map.json。创建 art/style-sample 分支，提交到 art/proposals/。
 这是物品立绘，不是角色立绘。小样三状态供比较，游戏导出为独立文件。

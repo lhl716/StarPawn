@@ -58,6 +58,7 @@ namespace StarPawn.Game
             ModHook.OnGameLoadedInit += BeginLoad; ModHook.OnGameLoadedLate += FinishLoad; ModHook.OnNewGameStarted += NewGame;
             ModHelper.AddDebugFunction(ModId, ModHelper.DEBUG_CATEGORY_SPECIAL, "StarPawn Desk", OpenHome);
             ModHelper.AddDebugFunction(ModId, ModHelper.DEBUG_CATEGORY_SPECIAL, "StarPawn Save Demo", SaveDemo);
+            ModHelper.AddDebugFunction(ModId, ModHelper.DEBUG_CATEGORY_SPECIAL, "StarPawn Instrument Audit", AuditInstruments);
             hotkeyObject = new GameObject("StarPawn Desk"); UnityEngine.Object.DontDestroyOnLoad(hotkeyObject);
             var hotkey = hotkeyObject.AddComponent<StarPawnEntryPoint>(); hotkey.Pressed = Toggle;
             hotkey.Available = () => runReady && enabled && ContentReady && InPlayableStore();
@@ -69,13 +70,22 @@ namespace StarPawn.Game
             NativeBridge.RegisterDefinitions(Catalog.Definitions.Select(d => new NativeItemDefinition {
                 DefinitionId = "starpawn." + d.Id, DisplayName = d.Name, VariantId = d.Id,
                 SpriteKey = d.TextureKey.Substring(d.TextureKey.IndexOf(':') + 1),
+                WidthCells = d.WidthCells, HeightCells = d.HeightCells,
                 BaseValue = d.Material == "gold" ? ValuationV2.MetalValue(d.WeightMilligrams,d.DeclaredPurityBasisPoints,rules.GoldSellPerGram)+d.CraftValue :
                     d.Material == "silver" ? ValuationV2.MetalValue(d.WeightMilligrams,d.DeclaredPurityBasisPoints,rules.SilverSellPerGram)+d.CraftValue : d.BaseValue
             }));
+            NativeEquipment.MeasureRequested = (tool, target) => {
+                if (EnsureRun()) RunAction(generation, () => {
+                    OpenNativeAsset(target);
+                    UseInstrument(tool);
+                    log?.Log("SP_NATIVE_MEASURE: tool=" + tool + ", target=" + target);
+                });
+            };
         }
         public void OnDisable()
         {
             if (!enabled) return; enabled = false;
+            NativeEquipment.MeasureRequested = null;
             ModHook.OnModItemDirectoryInit -= ConfigureNativeItems;
             NativeBridge.NightlySettlementRequested -= SettleNight; StopBankCards(); StopNativeTrade(); NativeBridge.Disable();
             ModHook.OnGameLoadedInit -= BeginLoad; ModHook.OnGameLoadedLate -= FinishLoad; ModHook.OnNewGameStarted -= NewGame;
@@ -185,6 +195,11 @@ namespace StarPawn.Game
             {
                 var next = Clone(); var result = EconomyService.SettleDay(next.Economy,endedDay,rules);
                 if (!result.Success) throw new InvalidOperationException(result.Error);
+                if(result.Duplicate || next.Economy.LastClosedDay==state.Economy.LastClosedDay) return;
+                var bankInterest=next.Economy.Bank.Balance-state.Economy.Bank.Balance;
+                var creditInterest=next.Economy.Credit.AccruedInterest-state.Economy.Credit.AccruedInterest;
+                var loanInterest=next.Economy.Loans.Sum(l=>l.AccruedInterest)-state.Economy.Loans.Sum(l=>l.AccruedInterest);
+                Record(next,OperationId(next),"日结 · 第 "+endedDay+" 日：存息 +"+bankInterest+"；信用利息 +"+creditInterest+"；贷款利息 +"+loanInterest+"；到期抵押物 "+result.AssetTransitions.Count+" 件",0);
                 CompleteNightSettlement(next,result.AssetTransitions);
                 log?.Log("SP_DAY_CLOSE: day=" + endedDay + ", bank=" + state.Economy.Bank.Balance + ", collateral=" + result.AssetTransitions.Count);
             }
@@ -232,9 +247,10 @@ namespace StarPawn.Game
             Text(ui,25,80,340,62,"鉴定等级 "+InspectionV2.GetLevel(state!.Catalog)+" / "+InspectionV2.MaximumLevel+"\n经验 "+state.Catalog.Experience+"    已登记资产 "+state.Catalog.Assets.Count,14);
             var market=Market(); Text(ui,25,154,340,90,"今日金价 / 纯金克\n金商卖出 "+market.GoldSellPerGram+"    回收 "+market.GoldBuyPerGram+"\n白银卖出 "+market.SilverSellPerGram+"    回收 "+market.SilverBuyPerGram,13);
             Text(ui,25,260,340,60,"银行："+(state.Economy.Bank.Status=="Open"?"已开户 · 余额 "+state.Economy.Bank.Balance:"尚未开户")+"\n典当："+(state.Economy.PawnLicensed?"持证经营":"可申请经营许可"),12);
+            Button(ui,25,306,340,22,"鉴定用品商店 · 仪器、手册与收纳",()=>OpenEquipmentShop(0));
             Button(ui,390,80,182,34,"星港来客 · 验货交易",OpenOffers); Button(ui,390,125,182,34,"我的实物 · 鉴定与加工",OpenOwned);
             Button(ui,390,170,182,34,"银行 · 储蓄与借贷",OpenBank); Button(ui,390,215,182,34,"证券与星港新闻",OpenMarkets);
-            Button(ui,390,260,182,28,"典当合同",OpenPawnLedger); Button(ui,390,298,182,28,"共享账本",()=>OpenLedger(0)); Footer(ui); Show(ui);
+            Button(ui,390,260,182,28,"典当合同",OpenPawnLedger); Button(ui,390,298,182,28,"资金总览与日结",OpenFinancialOverview); Footer(ui); Show(ui);
         }
         private void OpenLedger(int page)
         {

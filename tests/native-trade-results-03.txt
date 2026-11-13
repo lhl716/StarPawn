@@ -21,4 +21,3 @@ PASS native_precondition_decline_has_no_root_commit
 PASS inspection_lock_survives_new_id_and_serialized_reload
 PASS ordinary_item_keeps_native_behavior
 RESULT 22/22 passed; boundary doubles, not an in-game test.
-Temporary test binaries: C:\Users\Administrator\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{3713523d-2003-40f9-9125-287c24dfde5a}\Temp\starpawn-native-trade-tests-beca5848a63643dab682238b4f8884ac

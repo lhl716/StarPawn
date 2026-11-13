@@ -213,6 +213,8 @@ namespace StarPawn.Game
                 case "window": result = Catalog.OpenJadeWindow(next.Catalog, assetId, Cash()); break;
                 case "cut_pendants": result = Catalog.CutJade(next.Catalog, assetId, "pendants", Cash()); break;
                 case "cut_cabochon": result = Catalog.CutJade(next.Catalog, assetId, "cabochon", Cash()); break;
+                case "cut_bangle": result = Catalog.CutJade(next.Catalog, assetId, "bangle", Cash()); break;
+                case "cut_beads": result = Catalog.CutJade(next.Catalog, assetId, "beads", Cash()); break;
                 case "material": case "authenticity": case "edition": result = Catalog.IssueCertificate(next.Catalog, assetId, action, Day(), Cash()); break;
                 case "read": result = Catalog.ReadBook(next.Catalog, assetId); break;
                 default: throw new InvalidOperationException("未知加工服务。");

@@ -3741,6 +3741,2931 @@
       "Key": "ui.finish.4599d3b9b7e3",
       "Source": "请先移走交易台上的其他物品，再单独议价。",
       "Text": "请先移走交易台上的其他物品，再单独议价。"
+    },
+    {
+      "Key": "template.legacy_surface_wear.guide",
+      "Source": "浅色平行划痕位于手镯弧面。与接缝刮痕属于同一表面损伤原因，可修复，只计一次价差。",
+      "Text": "浅色平行划痕位于手镯弧面。与接缝刮痕属于同一表面损伤原因，可修复，只计一次价差。"
+    },
+    {
+      "Key": "template.legacy_surface_seam.guide",
+      "Source": "接缝附近的细划痕属于表面损伤；同件物品上重复发现不会重复扣价。",
+      "Text": "接缝附近的细划痕属于表面损伤；同件物品上重复发现不会重复扣价。"
+    },
+    {
+      "Key": "template.legacy_clasp_break.guide",
+      "Source": "搭扣处的深色断口与错开的亮边表示结构损伤。工坊可修复，不能当作材质证据。",
+      "Text": "搭扣处的深色断口与错开的亮边表示结构损伤。工坊可修复，不能当作材质证据。"
+    },
+    {
+      "Key": "template.legacy_plating_edge.guide",
+      "Source": "边缘露出与金色不同的底材；这是镀层失效的常见特征，用成色分析仪可核实贵金属含量。",
+      "Text": "边缘露出与金色不同的底材；这是镀层失效的常见特征，用成色分析仪可核实贵金属含量。"
+    },
+    {
+      "Key": "template.legacy_plating_seam.guide",
+      "Source": "接缝露出铜色底材。与边缘露底属于同一材质原因，两处不能重复压价。",
+      "Text": "接缝露出铜色底材。与边缘露底属于同一材质原因，两处不能重复压价。"
+    },
+    {
+      "Key": "template.legacy_bar_seam.guide",
+      "Source": "封边露出异色内芯，是夹心条的材料线索。不能仅根据正面印记推断整块含金量。",
+      "Text": "封边露出异色内芯，是夹心条的材料线索。不能仅根据正面印记推断整块含金量。"
+    },
+    {
+      "Key": "template.legacy_bar_stamp.guide",
+      "Source": "压印局部边缘不规则。与封边线索一起提示内芯异常，需要材料核验。",
+      "Text": "压印局部边缘不规则。与封边线索一起提示内芯异常，需要材料核验。"
+    },
+    {
+      "Key": "template.legacy_cup_dent.guide",
+      "Source": "杯壁反光带在局部凹陷处折断；此类外形损伤可修复，不改变银的回收底价。",
+      "Text": "杯壁反光带在局部凹陷处折断；此类外形损伤可修复，不改变银的回收底价。"
+    },
+    {
+      "Key": "template.legacy_silver_clasp.guide",
+      "Source": "银镯搭扣裂损形成固定深色断线，工坊可焊补。",
+      "Text": "银镯搭扣裂损形成固定深色断线，工坊可焊补。"
+    },
+    {
+      "Key": "template.legacy_silver_bar_seam.guide",
+      "Source": "银条封边露出铜色内芯；银色外观和含银量是不同事实。",
+      "Text": "银条封边露出铜色内芯；银色外观和含银量是不同事实。"
+    },
+    {
+      "Key": "template.legacy_rough_crack.guide",
+      "Source": "皮壳上的分叉裂隙可延伸进入开窗。同一裂隙在两个视图出现时，只计一个原因。",
+      "Text": "皮壳上的分叉裂隙可延伸进入开窗。同一裂隙在两个视图出现时，只计一个原因。"
+    },
+    {
+      "Key": "template.legacy_window_crack.guide",
+      "Source": "窗口中的裂纹与皮壳裂隙相连；它是同一物理损伤的另一条证据。",
+      "Text": "窗口中的裂纹与皮壳裂隙相连；它是同一物理损伤的另一条证据。"
+    },
+    {
+      "Key": "template.legacy_dye_pool.guide",
+      "Source": "裂隙中的颜色比周围浓集，构成染色处理线索；结合紫外观察和检验报告判断。",
+      "Text": "裂隙中的颜色比周围浓集，构成染色处理线索；结合紫外观察和检验报告判断。"
+    },
+    {
+      "Key": "template.legacy_vase_restore.guide",
+      "Source": "釉面修补边界在光照下呈规则接缝，是永久修复历史，不等同于当前可修损伤。",
+      "Text": "釉面修补边界在光照下呈规则接缝，是永久修复历史，不等同于当前可修损伤。"
+    },
+    {
+      "Key": "template.legacy_seal_mismatch.guide",
+      "Source": "印章笔画错位与标准印样不符；结合笔触印点判断同一真伪原因。",
+      "Text": "印章笔画错位与标准印样不符；结合笔触印点判断同一真伪原因。"
+    },
+    {
+      "Key": "template.legacy_print_dots.guide",
+      "Source": "规则排列的印点代替自然笔触，十倍镜可记录；多个真伪线索只改变一次真伪估值。",
+      "Text": "规则排列的印点代替自然笔触，十倍镜可记录；多个真伪线索只改变一次真伪估值。"
+    },
+    {
+      "Key": "template.legacy_console_port.guide",
+      "Source": "接口触片弯折而非整体阴影变化，可由工坊修复。",
+      "Text": "接口触片弯折而非整体阴影变化，可由工坊修复。"
+    },
+    {
+      "Key": "template.legacy_console_screw.guide",
+      "Source": "螺丝槽口拆修痕迹是既往拆机证据，修好接口也不会抹去这段历史。",
+      "Text": "螺丝槽口拆修痕迹是既往拆机证据，修好接口也不会抹去这段历史。"
+    },
+    {
+      "Key": "template.legacy_handheld_port.guide",
+      "Source": "掌机侧面接口触片弯折，影响连接功能；修复后仍保留原资产身份。",
+      "Text": "掌机侧面接口触片弯折，影响连接功能；修复后仍保留原资产身份。"
+    },
+    {
+      "Key": "template.legacy_label_print.guide",
+      "Source": "标签套色偏移符合非授权重制版特征；同一作品有不同版本，不能把作品名当真品证明。",
+      "Text": "标签套色偏移符合非授权重制版特征；同一作品有不同版本，不能把作品名当真品证明。"
+    },
+    {
+      "Key": "template.legacy_disc_scratch.guide",
+      "Source": "读取面径向划伤切断反光纹理，工坊抛光可改善；同一划伤不重复计价。",
+      "Text": "读取面径向划伤切断反光纹理，工坊抛光可改善；同一划伤不重复计价。"
+    },
+    {
+      "Key": "template.legacy_reprint_mark.guide",
+      "Source": "版权页明确的重印标记区分初版和重印版。书的内容相同，版本价值仍可能不同。",
+      "Text": "版权页明确的重印标记区分初版和重印版。书的内容相同，版本价值仍可能不同。"
+    },
+    {
+      "Key": "template.metal_wear.label",
+      "Source": "表面划伤",
+      "Text": "表面划伤"
+    },
+    {
+      "Key": "template.metal_wear.guide",
+      "Source": "典型特征：浅色平行划痕，边缘无镀层色差。十倍镜可观察纹路；影响工艺价，可抛光修复。",
+      "Text": "典型特征：浅色平行划痕，边缘无镀层色差。十倍镜可观察纹路；影响工艺价，可抛光修复。"
+    },
+    {
+      "Key": "template.metal_split.label",
+      "Source": "结构裂纹",
+      "Text": "结构裂纹"
+    },
+    {
+      "Key": "template.metal_split.guide",
+      "Source": "典型特征：结构部位的深色断线，伴随错开的亮边。它与表面磨损是两个原因，可分别议价；工坊可焊补。",
+      "Text": "典型特征：结构部位的深色断线，伴随错开的亮边。它与表面磨损是两个原因，可分别议价；工坊可焊补。"
+    },
+    {
+      "Key": "template.metal_plating.label",
+      "Source": "镀层露底",
+      "Text": "镀层露底"
+    },
+    {
+      "Key": "template.metal_plating.guide",
+      "Source": "典型特征：边缘局部露出红铜或暗灰底材。外层颜色不代表整体成色；使用成色分析仪核实。同一材质问题的多处证据只扣一次。",
+      "Text": "典型特征：边缘局部露出红铜或暗灰底材。外层颜色不代表整体成色；使用成色分析仪核实。同一材质问题的多处证据只扣一次。"
+    },
+    {
+      "Key": "template.jade_dye.label",
+      "Source": "裂隙染色聚集",
+      "Text": "裂隙染色聚集"
+    },
+    {
+      "Key": "template.jade_dye.guide",
+      "Source": "典型特征：裂隙内颜色异常浓集，紫外检测可记录相应异常。无荧光也不等于天然真品；结合纹理与证书判断。",
+      "Text": "典型特征：裂隙内颜色异常浓集，紫外检测可记录相应异常。无荧光也不等于天然真品；结合纹理与证书判断。"
+    },
+    {
+      "Key": "template.jade_crack.label",
+      "Source": "贯穿裂隙",
+      "Text": "贯穿裂隙"
+    },
+    {
+      "Key": "template.jade_crack.guide",
+      "Source": "典型特征：呈分叉的深色裂隙，开窗后可见同一裂隙延伸。两处线索属于同一原因，不能重复压价。",
+      "Text": "典型特征：呈分叉的深色裂隙，开窗后可见同一裂隙延伸。两处线索属于同一原因，不能重复压价。"
+    },
+    {
+      "Key": "template.jade_inclusion.label",
+      "Source": "团状棉絮",
+      "Text": "团状棉絮"
+    },
+    {
+      "Key": "template.jade_inclusion.guide",
+      "Source": "典型特征：石料中成团的浅色棉絮；不能把每个亮点都当成裂纹。透玉灯只辅助观察，完整产量须切割后确认。",
+      "Text": "典型特征：石料中成团的浅色棉絮；不能把每个亮点都当成裂纹。透玉灯只辅助观察，完整产量须切割后确认。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p0.name",
+      "Source": "环轨足金戒指",
+      "Text": "环轨足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p1.name",
+      "Source": "环轨足金戒指",
+      "Text": "环轨足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p2.name",
+      "Source": "环轨足金戒指",
+      "Text": "环轨足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p3.name",
+      "Source": "环轨足金戒指",
+      "Text": "环轨足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p4.name",
+      "Source": "环轨足金戒指",
+      "Text": "环轨足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p5.name",
+      "Source": "环轨足金戒指",
+      "Text": "环轨足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p6.name",
+      "Source": "环轨足金戒指",
+      "Text": "环轨足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p7.name",
+      "Source": "环轨足金戒指",
+      "Text": "环轨足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_0_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p0.name",
+      "Source": "星芒足金戒指",
+      "Text": "星芒足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p1.name",
+      "Source": "星芒足金戒指",
+      "Text": "星芒足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p2.name",
+      "Source": "星芒足金戒指",
+      "Text": "星芒足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p3.name",
+      "Source": "星芒足金戒指",
+      "Text": "星芒足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p4.name",
+      "Source": "星芒足金戒指",
+      "Text": "星芒足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p5.name",
+      "Source": "星芒足金戒指",
+      "Text": "星芒足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p6.name",
+      "Source": "星芒足金戒指",
+      "Text": "星芒足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p7.name",
+      "Source": "星芒足金戒指",
+      "Text": "星芒足金戒指"
+    },
+    {
+      "Key": "content.sp3_gold_ring_1_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p0.name",
+      "Source": "环轨足金手镯",
+      "Text": "环轨足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p1.name",
+      "Source": "环轨足金手镯",
+      "Text": "环轨足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p2.name",
+      "Source": "环轨足金手镯",
+      "Text": "环轨足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p3.name",
+      "Source": "环轨足金手镯",
+      "Text": "环轨足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p4.name",
+      "Source": "环轨足金手镯",
+      "Text": "环轨足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p5.name",
+      "Source": "环轨足金手镯",
+      "Text": "环轨足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p6.name",
+      "Source": "环轨足金手镯",
+      "Text": "环轨足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p7.name",
+      "Source": "环轨足金手镯",
+      "Text": "环轨足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_0_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p0.name",
+      "Source": "星芒足金手镯",
+      "Text": "星芒足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p1.name",
+      "Source": "星芒足金手镯",
+      "Text": "星芒足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p2.name",
+      "Source": "星芒足金手镯",
+      "Text": "星芒足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p3.name",
+      "Source": "星芒足金手镯",
+      "Text": "星芒足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p4.name",
+      "Source": "星芒足金手镯",
+      "Text": "星芒足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p5.name",
+      "Source": "星芒足金手镯",
+      "Text": "星芒足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p6.name",
+      "Source": "星芒足金手镯",
+      "Text": "星芒足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p7.name",
+      "Source": "星芒足金手镯",
+      "Text": "星芒足金手镯"
+    },
+    {
+      "Key": "content.sp3_gold_bracelet_1_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p0.name",
+      "Source": "环轨足金项链",
+      "Text": "环轨足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p1.name",
+      "Source": "环轨足金项链",
+      "Text": "环轨足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p2.name",
+      "Source": "环轨足金项链",
+      "Text": "环轨足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p3.name",
+      "Source": "环轨足金项链",
+      "Text": "环轨足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p4.name",
+      "Source": "环轨足金项链",
+      "Text": "环轨足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p5.name",
+      "Source": "环轨足金项链",
+      "Text": "环轨足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p6.name",
+      "Source": "环轨足金项链",
+      "Text": "环轨足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p7.name",
+      "Source": "环轨足金项链",
+      "Text": "环轨足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_0_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p0.name",
+      "Source": "星芒足金项链",
+      "Text": "星芒足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p1.name",
+      "Source": "星芒足金项链",
+      "Text": "星芒足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p2.name",
+      "Source": "星芒足金项链",
+      "Text": "星芒足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p3.name",
+      "Source": "星芒足金项链",
+      "Text": "星芒足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p4.name",
+      "Source": "星芒足金项链",
+      "Text": "星芒足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p5.name",
+      "Source": "星芒足金项链",
+      "Text": "星芒足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p6.name",
+      "Source": "星芒足金项链",
+      "Text": "星芒足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p7.name",
+      "Source": "星芒足金项链",
+      "Text": "星芒足金项链"
+    },
+    {
+      "Key": "content.sp3_gold_necklace_1_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p0.name",
+      "Source": "环轨足金耳环",
+      "Text": "环轨足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p1.name",
+      "Source": "环轨足金耳环",
+      "Text": "环轨足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p2.name",
+      "Source": "环轨足金耳环",
+      "Text": "环轨足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p3.name",
+      "Source": "环轨足金耳环",
+      "Text": "环轨足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p4.name",
+      "Source": "环轨足金耳环",
+      "Text": "环轨足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p5.name",
+      "Source": "环轨足金耳环",
+      "Text": "环轨足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p6.name",
+      "Source": "环轨足金耳环",
+      "Text": "环轨足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p7.name",
+      "Source": "环轨足金耳环",
+      "Text": "环轨足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_0_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p0.name",
+      "Source": "星芒足金耳环",
+      "Text": "星芒足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p1.name",
+      "Source": "星芒足金耳环",
+      "Text": "星芒足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p2.name",
+      "Source": "星芒足金耳环",
+      "Text": "星芒足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p3.name",
+      "Source": "星芒足金耳环",
+      "Text": "星芒足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p4.name",
+      "Source": "星芒足金耳环",
+      "Text": "星芒足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p5.name",
+      "Source": "星芒足金耳环",
+      "Text": "星芒足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p6.name",
+      "Source": "星芒足金耳环",
+      "Text": "星芒足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p7.name",
+      "Source": "星芒足金耳环",
+      "Text": "星芒足金耳环"
+    },
+    {
+      "Key": "content.sp3_gold_earrings_1_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p0.name",
+      "Source": "环轨足金金条",
+      "Text": "环轨足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p1.name",
+      "Source": "环轨足金金条",
+      "Text": "环轨足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p2.name",
+      "Source": "环轨足金金条",
+      "Text": "环轨足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p3.name",
+      "Source": "环轨足金金条",
+      "Text": "环轨足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p4.name",
+      "Source": "环轨足金金条",
+      "Text": "环轨足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p5.name",
+      "Source": "环轨足金金条",
+      "Text": "环轨足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p6.name",
+      "Source": "环轨足金金条",
+      "Text": "环轨足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p7.name",
+      "Source": "环轨足金金条",
+      "Text": "环轨足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_0_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p0.name",
+      "Source": "星芒足金金条",
+      "Text": "星芒足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p1.name",
+      "Source": "星芒足金金条",
+      "Text": "星芒足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p2.name",
+      "Source": "星芒足金金条",
+      "Text": "星芒足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p3.name",
+      "Source": "星芒足金金条",
+      "Text": "星芒足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p4.name",
+      "Source": "星芒足金金条",
+      "Text": "星芒足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p5.name",
+      "Source": "星芒足金金条",
+      "Text": "星芒足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p6.name",
+      "Source": "星芒足金金条",
+      "Text": "星芒足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p7.name",
+      "Source": "星芒足金金条",
+      "Text": "星芒足金金条"
+    },
+    {
+      "Key": "content.sp3_gold_bar_1_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p0.name",
+      "Source": "环轨纯银戒指",
+      "Text": "环轨纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p1.name",
+      "Source": "环轨纯银戒指",
+      "Text": "环轨纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p2.name",
+      "Source": "环轨纯银戒指",
+      "Text": "环轨纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p3.name",
+      "Source": "环轨纯银戒指",
+      "Text": "环轨纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p4.name",
+      "Source": "环轨纯银戒指",
+      "Text": "环轨纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p5.name",
+      "Source": "环轨纯银戒指",
+      "Text": "环轨纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p6.name",
+      "Source": "环轨纯银戒指",
+      "Text": "环轨纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p7.name",
+      "Source": "环轨纯银戒指",
+      "Text": "环轨纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_0_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p0.name",
+      "Source": "星芒纯银戒指",
+      "Text": "星芒纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p1.name",
+      "Source": "星芒纯银戒指",
+      "Text": "星芒纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p2.name",
+      "Source": "星芒纯银戒指",
+      "Text": "星芒纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p3.name",
+      "Source": "星芒纯银戒指",
+      "Text": "星芒纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p4.name",
+      "Source": "星芒纯银戒指",
+      "Text": "星芒纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p5.name",
+      "Source": "星芒纯银戒指",
+      "Text": "星芒纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p6.name",
+      "Source": "星芒纯银戒指",
+      "Text": "星芒纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p7.name",
+      "Source": "星芒纯银戒指",
+      "Text": "星芒纯银戒指"
+    },
+    {
+      "Key": "content.sp3_silver_ring_1_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p0.name",
+      "Source": "环轨纯银手镯",
+      "Text": "环轨纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p1.name",
+      "Source": "环轨纯银手镯",
+      "Text": "环轨纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p2.name",
+      "Source": "环轨纯银手镯",
+      "Text": "环轨纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p3.name",
+      "Source": "环轨纯银手镯",
+      "Text": "环轨纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p4.name",
+      "Source": "环轨纯银手镯",
+      "Text": "环轨纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p5.name",
+      "Source": "环轨纯银手镯",
+      "Text": "环轨纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p6.name",
+      "Source": "环轨纯银手镯",
+      "Text": "环轨纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p7.name",
+      "Source": "环轨纯银手镯",
+      "Text": "环轨纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_0_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p0.name",
+      "Source": "星芒纯银手镯",
+      "Text": "星芒纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p1.name",
+      "Source": "星芒纯银手镯",
+      "Text": "星芒纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p2.name",
+      "Source": "星芒纯银手镯",
+      "Text": "星芒纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p3.name",
+      "Source": "星芒纯银手镯",
+      "Text": "星芒纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p4.name",
+      "Source": "星芒纯银手镯",
+      "Text": "星芒纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p5.name",
+      "Source": "星芒纯银手镯",
+      "Text": "星芒纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p6.name",
+      "Source": "星芒纯银手镯",
+      "Text": "星芒纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p7.name",
+      "Source": "星芒纯银手镯",
+      "Text": "星芒纯银手镯"
+    },
+    {
+      "Key": "content.sp3_silver_bracelet_1_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p0.name",
+      "Source": "环轨纯银项链",
+      "Text": "环轨纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p1.name",
+      "Source": "环轨纯银项链",
+      "Text": "环轨纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p2.name",
+      "Source": "环轨纯银项链",
+      "Text": "环轨纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p3.name",
+      "Source": "环轨纯银项链",
+      "Text": "环轨纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p4.name",
+      "Source": "环轨纯银项链",
+      "Text": "环轨纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p5.name",
+      "Source": "环轨纯银项链",
+      "Text": "环轨纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p6.name",
+      "Source": "环轨纯银项链",
+      "Text": "环轨纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p7.name",
+      "Source": "环轨纯银项链",
+      "Text": "环轨纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_0_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p0.name",
+      "Source": "星芒纯银项链",
+      "Text": "星芒纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p1.name",
+      "Source": "星芒纯银项链",
+      "Text": "星芒纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p2.name",
+      "Source": "星芒纯银项链",
+      "Text": "星芒纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p3.name",
+      "Source": "星芒纯银项链",
+      "Text": "星芒纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p4.name",
+      "Source": "星芒纯银项链",
+      "Text": "星芒纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p5.name",
+      "Source": "星芒纯银项链",
+      "Text": "星芒纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p6.name",
+      "Source": "星芒纯银项链",
+      "Text": "星芒纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p7.name",
+      "Source": "星芒纯银项链",
+      "Text": "星芒纯银项链"
+    },
+    {
+      "Key": "content.sp3_silver_necklace_1_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p0.name",
+      "Source": "环轨纯银耳环",
+      "Text": "环轨纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p1.name",
+      "Source": "环轨纯银耳环",
+      "Text": "环轨纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p2.name",
+      "Source": "环轨纯银耳环",
+      "Text": "环轨纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p3.name",
+      "Source": "环轨纯银耳环",
+      "Text": "环轨纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p4.name",
+      "Source": "环轨纯银耳环",
+      "Text": "环轨纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p5.name",
+      "Source": "环轨纯银耳环",
+      "Text": "环轨纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p6.name",
+      "Source": "环轨纯银耳环",
+      "Text": "环轨纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p7.name",
+      "Source": "环轨纯银耳环",
+      "Text": "环轨纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_0_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p0.name",
+      "Source": "星芒纯银耳环",
+      "Text": "星芒纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p1.name",
+      "Source": "星芒纯银耳环",
+      "Text": "星芒纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p2.name",
+      "Source": "星芒纯银耳环",
+      "Text": "星芒纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p3.name",
+      "Source": "星芒纯银耳环",
+      "Text": "星芒纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p4.name",
+      "Source": "星芒纯银耳环",
+      "Text": "星芒纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p5.name",
+      "Source": "星芒纯银耳环",
+      "Text": "星芒纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p6.name",
+      "Source": "星芒纯银耳环",
+      "Text": "星芒纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p7.name",
+      "Source": "星芒纯银耳环",
+      "Text": "星芒纯银耳环"
+    },
+    {
+      "Key": "content.sp3_silver_earrings_1_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p0.name",
+      "Source": "环轨纯银银条",
+      "Text": "环轨纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p1.name",
+      "Source": "环轨纯银银条",
+      "Text": "环轨纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p2.name",
+      "Source": "环轨纯银银条",
+      "Text": "环轨纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p3.name",
+      "Source": "环轨纯银银条",
+      "Text": "环轨纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p4.name",
+      "Source": "环轨纯银银条",
+      "Text": "环轨纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p5.name",
+      "Source": "环轨纯银银条",
+      "Text": "环轨纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p6.name",
+      "Source": "环轨纯银银条",
+      "Text": "环轨纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p7.name",
+      "Source": "环轨纯银银条",
+      "Text": "环轨纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_0_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p0.name",
+      "Source": "星芒纯银银条",
+      "Text": "星芒纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p1.name",
+      "Source": "星芒纯银银条",
+      "Text": "星芒纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p2.name",
+      "Source": "星芒纯银银条",
+      "Text": "星芒纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p3.name",
+      "Source": "星芒纯银银条",
+      "Text": "星芒纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p4.name",
+      "Source": "星芒纯银银条",
+      "Text": "星芒纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p4.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p5.name",
+      "Source": "星芒纯银银条",
+      "Text": "星芒纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p5.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p6.name",
+      "Source": "星芒纯银银条",
+      "Text": "星芒纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p6.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p7.name",
+      "Source": "星芒纯银银条",
+      "Text": "星芒纯银银条"
+    },
+    {
+      "Key": "content.sp3_silver_bar_1_p7.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_pendant_p0.name",
+      "Source": "青岚翡翠挂件",
+      "Text": "青岚翡翠挂件"
+    },
+    {
+      "Key": "content.sp3_jade_pendant_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_pendant_p1.name",
+      "Source": "青岚翡翠挂件",
+      "Text": "青岚翡翠挂件"
+    },
+    {
+      "Key": "content.sp3_jade_pendant_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_pendant_p2.name",
+      "Source": "青岚翡翠挂件",
+      "Text": "青岚翡翠挂件"
+    },
+    {
+      "Key": "content.sp3_jade_pendant_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_cabochon_p0.name",
+      "Source": "青岚翡翠蛋面",
+      "Text": "青岚翡翠蛋面"
+    },
+    {
+      "Key": "content.sp3_jade_cabochon_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_cabochon_p1.name",
+      "Source": "青岚翡翠蛋面",
+      "Text": "青岚翡翠蛋面"
+    },
+    {
+      "Key": "content.sp3_jade_cabochon_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_cabochon_p2.name",
+      "Source": "青岚翡翠蛋面",
+      "Text": "青岚翡翠蛋面"
+    },
+    {
+      "Key": "content.sp3_jade_cabochon_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_bangle_p0.name",
+      "Source": "青岚翡翠玉镯",
+      "Text": "青岚翡翠玉镯"
+    },
+    {
+      "Key": "content.sp3_jade_bangle_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_bangle_p1.name",
+      "Source": "青岚翡翠玉镯",
+      "Text": "青岚翡翠玉镯"
+    },
+    {
+      "Key": "content.sp3_jade_bangle_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_bangle_p2.name",
+      "Source": "青岚翡翠玉镯",
+      "Text": "青岚翡翠玉镯"
+    },
+    {
+      "Key": "content.sp3_jade_bangle_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_beads_p0.name",
+      "Source": "青岚翡翠珠串",
+      "Text": "青岚翡翠珠串"
+    },
+    {
+      "Key": "content.sp3_jade_beads_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_beads_p1.name",
+      "Source": "青岚翡翠珠串",
+      "Text": "青岚翡翠珠串"
+    },
+    {
+      "Key": "content.sp3_jade_beads_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_jade_beads_p2.name",
+      "Source": "青岚翡翠珠串",
+      "Text": "青岚翡翠珠串"
+    },
+    {
+      "Key": "content.sp3_jade_beads_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_yellow_p0.name",
+      "Source": "黄沙皮翡翠原石",
+      "Text": "黄沙皮翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_yellow_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_yellow_p1.name",
+      "Source": "黄沙皮翡翠原石",
+      "Text": "黄沙皮翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_yellow_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_yellow_p2.name",
+      "Source": "黄沙皮翡翠原石",
+      "Text": "黄沙皮翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_yellow_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_yellow_p3.name",
+      "Source": "黄沙皮翡翠原石",
+      "Text": "黄沙皮翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_yellow_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_black_p0.name",
+      "Source": "黑乌砂翡翠原石",
+      "Text": "黑乌砂翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_black_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_black_p1.name",
+      "Source": "黑乌砂翡翠原石",
+      "Text": "黑乌砂翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_black_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_black_p2.name",
+      "Source": "黑乌砂翡翠原石",
+      "Text": "黑乌砂翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_black_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_black_p3.name",
+      "Source": "黑乌砂翡翠原石",
+      "Text": "黑乌砂翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_black_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_water_p0.name",
+      "Source": "水石翡翠原石",
+      "Text": "水石翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_water_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_water_p1.name",
+      "Source": "水石翡翠原石",
+      "Text": "水石翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_water_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_water_p2.name",
+      "Source": "水石翡翠原石",
+      "Text": "水石翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_water_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_water_p3.name",
+      "Source": "水石翡翠原石",
+      "Text": "水石翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_water_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_white_p0.name",
+      "Source": "白盐砂翡翠原石",
+      "Text": "白盐砂翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_white_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_white_p1.name",
+      "Source": "白盐砂翡翠原石",
+      "Text": "白盐砂翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_white_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_white_p2.name",
+      "Source": "白盐砂翡翠原石",
+      "Text": "白盐砂翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_white_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_white_p3.name",
+      "Source": "白盐砂翡翠原石",
+      "Text": "白盐砂翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_white_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_rust_p0.name",
+      "Source": "铁锈皮翡翠原石",
+      "Text": "铁锈皮翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_rust_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_rust_p1.name",
+      "Source": "铁锈皮翡翠原石",
+      "Text": "铁锈皮翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_rust_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_rust_p2.name",
+      "Source": "铁锈皮翡翠原石",
+      "Text": "铁锈皮翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_rust_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_rust_p3.name",
+      "Source": "铁锈皮翡翠原石",
+      "Text": "铁锈皮翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_rust_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_mountain_p0.name",
+      "Source": "山料翡翠原石",
+      "Text": "山料翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_mountain_p0.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_mountain_p1.name",
+      "Source": "山料翡翠原石",
+      "Text": "山料翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_mountain_p1.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_mountain_p2.name",
+      "Source": "山料翡翠原石",
+      "Text": "山料翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_mountain_p2.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_rough_mountain_p3.name",
+      "Source": "山料翡翠原石",
+      "Text": "山料翡翠原石"
+    },
+    {
+      "Key": "content.sp3_rough_mountain_p3.description",
+      "Source": "星港流通商品；先看实物，再决定交易。",
+      "Text": "星港流通商品；先看实物，再决定交易。"
+    },
+    {
+      "Key": "content.sp3_tool_scale.name",
+      "Source": "精密电子秤",
+      "Text": "精密电子秤"
+    },
+    {
+      "Key": "content.sp3_tool_scale.description",
+      "Source": "称量贵金属和石料净重；重量不代表成色。",
+      "Text": "称量贵金属和石料净重；重量不代表成色。"
+    },
+    {
+      "Key": "content.sp3_tool_assay.name",
+      "Source": "贵金属成色分析仪",
+      "Text": "贵金属成色分析仪"
+    },
+    {
+      "Key": "content.sp3_tool_assay.description",
+      "Source": "读取金银含量，并将实测成色用于当天材料估价。",
+      "Text": "读取金银含量，并将实测成色用于当天材料估价。"
+    },
+    {
+      "Key": "content.sp3_tool_loupe.name",
+      "Source": "十倍珠宝镜",
+      "Text": "十倍珠宝镜"
+    },
+    {
+      "Key": "content.sp3_tool_loupe.description",
+      "Source": "观察划痕、印点、接口和微小标记；记录匹配的固定线索。",
+      "Text": "观察划痕、印点、接口和微小标记；记录匹配的固定线索。"
+    },
+    {
+      "Key": "content.sp3_tool_jade_light.name",
+      "Source": "强光透玉灯",
+      "Text": "强光透玉灯"
+    },
+    {
+      "Key": "content.sp3_tool_jade_light.description",
+      "Source": "观察皮壳透光与开窗棉絮；不能直接读出产量。",
+      "Text": "观察皮壳透光与开窗棉絮；不能直接读出产量。"
+    },
+    {
+      "Key": "content.sp3_tool_uv.name",
+      "Source": "紫外检测灯",
+      "Text": "紫外检测灯"
+    },
+    {
+      "Key": "content.sp3_tool_uv.description",
+      "Source": "辅助识别染色、修补与异常荧光；无荧光不保证真品。",
+      "Text": "辅助识别染色、修补与异常荧光；无荧光不保证真品。"
+    },
+    {
+      "Key": "content.sp3_manual_metals.name",
+      "Source": "《贵金属首饰鉴定手册》",
+      "Text": "《贵金属首饰鉴定手册》"
+    },
+    {
+      "Key": "content.sp3_manual_metals.description",
+      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
+      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+    },
+    {
+      "Key": "content.sp3_manual_metals.reading",
+      "Source": "先对照款式和克重，再查表面损伤与材质线索。划伤、结构裂纹、镀层露底是不同瑕疵，可能同时出现。金银报价共用每天的卖出价和回收价；真实材料回收值是底线。成色分析仪提供含量，十倍镜提供微观证据。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。",
+      "Text": "先对照款式和克重，再查表面损伤与材质线索。划伤、结构裂纹、镀层露底是不同瑕疵，可能同时出现。金银报价共用每天的卖出价和回收价；真实材料回收值是底线。成色分析仪提供含量，十倍镜提供微观证据。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。"
+    },
+    {
+      "Key": "content.sp3_manual_jade.name",
+      "Source": "《翡翠与赌石鉴定手册》",
+      "Text": "《翡翠与赌石鉴定手册》"
+    },
+    {
+      "Key": "content.sp3_manual_jade.description",
+      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
+      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+    },
+    {
+      "Key": "content.sp3_manual_jade.reading",
+      "Source": "黄沙皮、黑乌砂、水石、白盐砂、铁锈皮和山料有不同的货价与出料分布，皮壳名称不保证内质。先照灯，再决定是否付费开窗或切割。裂隙、棉絮与染色使用典型图样。同一裂隙贯穿皮壳和窗口时只计一次；手镯需要足够大的料。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。",
+      "Text": "黄沙皮、黑乌砂、水石、白盐砂、铁锈皮和山料有不同的货价与出料分布，皮壳名称不保证内质。先照灯，再决定是否付费开窗或切割。裂隙、棉絮与染色使用典型图样。同一裂隙贯穿皮壳和窗口时只计一次；手镯需要足够大的料。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。"
+    },
+    {
+      "Key": "content.sp3_manual_antiques.name",
+      "Source": "《古董陶器鉴定手册》",
+      "Text": "《古董陶器鉴定手册》"
+    },
+    {
+      "Key": "content.sp3_manual_antiques.description",
+      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
+      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+    },
+    {
+      "Key": "content.sp3_manual_antiques.reading",
+      "Source": "观察器形、釉面与修补边界。修复历史不会因为再次修补而消失。用紫外灯辅助定位补釉区域，再对照图鉴；证书只对列明范围负责。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。",
+      "Text": "观察器形、釉面与修补边界。修复历史不会因为再次修补而消失。用紫外灯辅助定位补釉区域，再对照图鉴；证书只对列明范围负责。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。"
+    },
+    {
+      "Key": "content.sp3_manual_art.name",
+      "Source": "《字画印鉴鉴定手册》",
+      "Text": "《字画印鉴鉴定手册》"
+    },
+    {
+      "Key": "content.sp3_manual_art.description",
+      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
+      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+    },
+    {
+      "Key": "content.sp3_manual_art.reading",
+      "Source": "先比较印章标准笔画，再检查画面笔触。规则印点和错位印章都属于真伪证据，同一原因不重复压价；十倍镜有助于辨认细小印点。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。",
+      "Text": "先比较印章标准笔画，再检查画面笔触。规则印点和错位印章都属于真伪证据，同一原因不重复压价；十倍镜有助于辨认细小印点。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。"
+    },
+    {
+      "Key": "content.sp3_manual_electronics.name",
+      "Source": "《主机与掌机鉴定手册》",
+      "Text": "《主机与掌机鉴定手册》"
+    },
+    {
+      "Key": "content.sp3_manual_electronics.description",
+      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
+      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+    },
+    {
+      "Key": "content.sp3_manual_electronics.reading",
+      "Source": "先看接口触片，再看螺丝槽口。功能部件损伤可修复，拆修历史会留下记录。同一型号可以组合不同的常见瑕疵，不能把所有反光都当作异常。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。",
+      "Text": "先看接口触片，再看螺丝槽口。功能部件损伤可修复，拆修历史会留下记录。同一型号可以组合不同的常见瑕疵，不能把所有反光都当作异常。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。"
+    },
+    {
+      "Key": "content.sp3_manual_media.name",
+      "Source": "《卡带与光盘鉴定手册》",
+      "Text": "《卡带与光盘鉴定手册》"
+    },
+    {
+      "Key": "content.sp3_manual_media.description",
+      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
+      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+    },
+    {
+      "Key": "content.sp3_manual_media.reading",
+      "Source": "核对作品、版本和标签，观察光盘读取面。套色偏移是版本线索，径向划伤是可修复品相问题。作品相同并不意味着发行版本相同。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。",
+      "Text": "核对作品、版本和标签，观察光盘读取面。套色偏移是版本线索，径向划伤是可修复品相问题。作品相同并不意味着发行版本相同。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。"
+    },
+    {
+      "Key": "content.sp3_manual_books.name",
+      "Source": "《书籍版本鉴定手册》",
+      "Text": "《书籍版本鉴定手册》"
+    },
+    {
+      "Key": "content.sp3_manual_books.description",
+      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
+      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+    },
+    {
+      "Key": "content.sp3_manual_books.reading",
+      "Source": "核对版权页、印次和版本标记。内容相同的书仍可能有不同收藏价值。每件实物都有独立身份，证书与修复历史跟随该件物品。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。",
+      "Text": "核对版权页、印次和版本标记。内容相同的书仍可能有不同收藏价值。每件实物都有独立身份，证书与修复历史跟随该件物品。\n\n翻页查看样本中圈出的异常，结合仪器读数与实物细节判断。"
+    },
+    {
+      "Key": "content.sp3_manual_organizer.name",
+      "Source": "鉴定手册收纳",
+      "Text": "鉴定手册收纳"
+    },
+    {
+      "Key": "content.sp3_manual_organizer.description",
+      "Source": "八格书匣，集中收纳常用鉴定手册。",
+      "Text": "八格书匣，集中收纳常用鉴定手册。"
+    },
+    {
+      "Key": "ui03.12013361c629f10c",
+      "Source": "尚未检测。",
+      "Text": "尚未检测。"
+    },
+    {
+      "Key": "ui03.0605941a2bea62b3",
+      "Source": "净重 ",
+      "Text": "净重 "
+    },
+    {
+      "Key": "ui03.e78d6a3e8b9fa4ff",
+      "Source": " 克；成色需另行检测。",
+      "Text": " 克；成色需另行检测。"
+    },
+    {
+      "Key": "ui03.4abb0785ab014d47",
+      "Source": "实测贵金属含量 ",
+      "Text": "实测贵金属含量 "
+    },
+    {
+      "Key": "ui03.6fe9462aeb85101b",
+      "Source": " 克。此读数已纳入材料估价。",
+      "Text": " 克。此读数已纳入材料估价。"
+    },
+    {
+      "Key": "ui03.2424719c285a4282",
+      "Source": "透光观察已记录；留意裂隙、颜色聚集和棉絮，对照翡翠手册判断。",
+      "Text": "透光观察已记录；留意裂隙、颜色聚集和棉絮，对照翡翠手册判断。"
+    },
+    {
+      "Key": "ui03.d9420b0a449b1162",
+      "Source": "局部透光弱，皮壳厚度也可能遮挡内部。",
+      "Text": "局部透光弱，皮壳厚度也可能遮挡内部。"
+    },
+    {
+      "Key": "ui03.5c4f91af2efdc214",
+      "Source": "边缘有青色光晕，内部连续性仍不确定。",
+      "Text": "边缘有青色光晕，内部连续性仍不确定。"
+    },
+    {
+      "Key": "ui03.370c79a3284119fa",
+      "Source": "细窄色带透光，需开窗进一步观察。",
+      "Text": "细窄色带透光，需开窗进一步观察。"
+    },
+    {
+      "Key": "ui03.a24458916d3c11e1",
+      "Source": "产量须切割后确认。",
+      "Text": "产量须切割后确认。"
+    },
+    {
+      "Key": "ui03.a050e081ea992114",
+      "Source": "未见本手册列出的异常荧光；不能据此证明真品。",
+      "Text": "未见本手册列出的异常荧光；不能据此证明真品。"
+    },
+    {
+      "Key": "ui03.854da5bc298f956f",
+      "Source": "镜下未见本手册列出的细部异常；仍可检查其他部位。",
+      "Text": "镜下未见本手册列出的细部异常；仍可检查其他部位。"
+    },
+    {
+      "Key": "ui03.4b831e6b2acfc166",
+      "Source": "记录：",
+      "Text": "记录："
+    },
+    {
+      "Key": "ui03.ce61fc7feda6d49b",
+      "Source": "。请结合手册和其他证据判断。",
+      "Text": "。请结合手册和其他证据判断。"
+    },
+    {
+      "Key": "ui03.c27317e8f50b67d8",
+      "Source": "顾客已收回物品，本次不能继续检测。",
+      "Text": "顾客已收回物品，本次不能继续检测。"
+    },
+    {
+      "Key": "ui03.7895e87ce5c20400",
+      "Source": "需要持有未托管的对应检测仪器。",
+      "Text": "需要持有未托管的对应检测仪器。"
+    },
+    {
+      "Key": "ui03.e451faddcac2e5b0",
+      "Source": "此仪器不适用于这件物品。",
+      "Text": "此仪器不适用于这件物品。"
+    },
+    {
+      "Key": "ui03.0dcc6b698fe63702",
+      "Source": "这类原石不支持此切割方案。",
+      "Text": "这类原石不支持此切割方案。"
+    },
+    {
+      "Key": "ui03.1fe67f6e91ff8671",
+      "Source": "开料师傅：这块料尺寸不足，取不出整只手镯，换个方案吧。",
+      "Text": "开料师傅：这块料尺寸不足，取不出整只手镯，换个方案吧。"
+    },
+    {
+      "Key": "ui03.b470ec535d3c1683",
+      "Source": "普通贷款的未还本金已达总额度。",
+      "Text": "普通贷款的未还本金已达总额度。"
+    },
+    {
+      "Key": "ui03.197f3a5b0236bbf7",
+      "Source": "行情已更新，请刷新行情后确认新报价再交易。",
+      "Text": "行情已更新，请刷新行情后确认新报价再交易。"
+    },
+    {
+      "Key": "ui03.b9213a36eb521be5",
+      "Source": "今日业务额度不足，剩余 ",
+      "Text": "今日业务额度不足，剩余 "
+    },
+    {
+      "Key": "ui03.d35c356bdbec7456",
+      "Source": " Cr；下一营业日恢复额度。",
+      "Text": " Cr；下一营业日恢复额度。"
+    },
+    {
+      "Key": "ui03.11163c8d82d15c04",
+      "Source": "镀层破损",
+      "Text": "镀层破损"
+    },
+    {
+      "Key": "ui03.853ce43d9f182c8b",
+      "Source": "星港鉴定用品",
+      "Text": "星港鉴定用品"
+    },
+    {
+      "Key": "ui03.2bad730c12f42d5a",
+      "Source": "仪器、分类图鉴与八格手册收纳；购买后进入原版库存。",
+      "Text": "仪器、分类图鉴与八格手册收纳；购买后进入原版库存。"
+    },
+    {
+      "Key": "ui03.cc6f86bd41a680f6",
+      "Source": "购买",
+      "Text": "购买"
+    },
+    {
+      "Key": "ui03.a435de4b38912232",
+      "Source": "此商品不在用品商店销售。",
+      "Text": "此商品不在用品商店销售。"
+    },
+    {
+      "Key": "ui03.840603552fe929ae",
+      "Source": "购入用品 · ",
+      "Text": "购入用品 · "
+    },
+    {
+      "Key": "ui03.75f8bed0f9fc48f5",
+      "Source": "已放入库存。",
+      "Text": "已放入库存。"
+    },
+    {
+      "Key": "ui03.f34363802455f195",
+      "Source": "检测仪器 · 持有时可在验货台使用，也可拖到目标实物上。",
+      "Text": "检测仪器 · 持有时可在验货台使用，也可拖到目标实物上。"
+    },
+    {
+      "Key": "ui03.d16dcb1b42940146",
+      "Source": "\n\n进入待检物品的验货台，选择“检测仪器”。重复测量不重复获得经验，也不刷新顾客耐心。",
+      "Text": "\n\n进入待检物品的验货台，选择“检测仪器”。重复测量不重复获得经验，也不刷新顾客耐心。"
+    },
+    {
+      "Key": "ui03.5e951d1e77c57a36",
+      "Source": "查看我的货物",
+      "Text": "查看我的货物"
+    },
+    {
+      "Key": "ui03.0c607d66cc8bfc00",
+      "Source": "来客验货",
+      "Text": "来客验货"
+    },
+    {
+      "Key": "ui03.8ab7af69502f8270",
+      "Source": "检测台 · ",
+      "Text": "检测台 · "
+    },
+    {
+      "Key": "ui03.bf2169b4e99cc3ec",
+      "Source": "读数保留在实物档案；仪器不能恢复已耗尽的顾客耐心。",
+      "Text": "读数保留在实物档案；仪器不能恢复已耗尽的顾客耐心。"
+    },
+    {
+      "Key": "ui03.4d2966c438002afc",
+      "Source": "尚未检测",
+      "Text": "尚未检测"
+    },
+    {
+      "Key": "ui03.fb75a29ac18d7a9c",
+      "Source": "不适用于这件物品",
+      "Text": "不适用于这件物品"
+    },
+    {
+      "Key": "ui03.071089398bfdb584",
+      "Source": "检测",
+      "Text": "检测"
+    },
+    {
+      "Key": "ui03.8d3f95898755ecc2",
+      "Source": "购买仪器",
+      "Text": "购买仪器"
+    },
+    {
+      "Key": "ui03.823f93c69a9d87b6",
+      "Source": "回到验货台",
+      "Text": "回到验货台"
+    },
+    {
+      "Key": "ui03.9bef3ea9ebc03f2e",
+      "Source": "分类鉴定图鉴",
+      "Text": "分类鉴定图鉴"
+    },
+    {
+      "Key": "ui03.2daef99f77d6509a",
+      "Source": "手册是可购买和收纳的实体书。",
+      "Text": "手册是可购买和收纳的实体书。"
+    },
+    {
+      "Key": "ui03.4cdec21be41580b7",
+      "Source": "书架上还没有这一类鉴定手册。\n星港用品店提供对应图鉴，记录固定缺陷的外观、检测方法和议价依据。",
+      "Text": "书架上还没有这一类鉴定手册。\n星港用品店提供对应图鉴，记录固定缺陷的外观、检测方法和议价依据。"
+    },
+    {
+      "Key": "ui03.6bb1ad44e48ef457",
+      "Source": "前往鉴定用品商店",
+      "Text": "前往鉴定用品商店"
+    },
+    {
+      "Key": "ui03.173caad4a65d7d3d",
+      "Source": "图鉴第 ",
+      "Text": "图鉴第 "
+    },
+    {
+      "Key": "ui03.fe45abc6576ba3b6",
+      "Source": " 页 · 通用样本，与当前待检物品无关",
+      "Text": " 页 · 通用样本，与当前待检物品无关"
+    },
+    {
+      "Key": "ui03.ee9778def3769e4f",
+      "Source": "对照圈出的固定细节观察；同一原因的不同线索只计价一次。",
+      "Text": "对照圈出的固定细节观察；同一原因的不同线索只计价一次。"
+    },
+    {
+      "Key": "ui03.e5ddb2d21a97733a",
+      "Source": "工坊可修复此类损伤。",
+      "Text": "工坊可修复此类损伤。"
+    },
+    {
+      "Key": "ui03.6bcb728b79608649",
+      "Source": "属于材质、真伪或永久品相问题。",
+      "Text": "属于材质、真伪或永久品相问题。"
+    },
+    {
+      "Key": "ui03.1411636ff6b2fe79",
+      "Source": "\n辅助工具：",
+      "Text": "\n辅助工具："
+    },
+    {
+      "Key": "ui03.62b2ebceb045709e",
+      "Source": "回到当前验货台",
+      "Text": "回到当前验货台"
+    },
+    {
+      "Key": "ui03.323eb09c49ef8d1b",
+      "Source": "鉴定手册收纳 · ",
+      "Text": "鉴定手册收纳 · "
+    },
+    {
+      "Key": "ui03.3bed9689b08cbb92",
+      "Source": "真实书本保留原物品编号；装满时不能再放入。搬动或出售前先取空。",
+      "Text": "真实书本保留原物品编号；装满时不能再放入。搬动或出售前先取空。"
+    },
+    {
+      "Key": "ui03.2856f9a227b7822d",
+      "Source": "还没有可收纳的鉴定手册。先去用品店购买分类图鉴。",
+      "Text": "还没有可收纳的鉴定手册。先去用品店购买分类图鉴。"
+    },
+    {
+      "Key": "ui03.ec8e62f12814e3c4",
+      "Source": "已在此收纳中",
+      "Text": "已在此收纳中"
+    },
+    {
+      "Key": "ui03.245cafd0a7886559",
+      "Source": "在其他库存位置",
+      "Text": "在其他库存位置"
+    },
+    {
+      "Key": "ui03.5c574ff39bce5637",
+      "Source": "翻阅",
+      "Text": "翻阅"
+    },
+    {
+      "Key": "ui03.abb3912646e305c2",
+      "Source": "取出",
+      "Text": "取出"
+    },
+    {
+      "Key": "ui03.6b72b4a29f080cc7",
+      "Source": "放入",
+      "Text": "放入"
+    },
+    {
+      "Key": "ui03.924a65660b08ae0f",
+      "Source": "先从交易台收回这本手册。",
+      "Text": "先从交易台收回这本手册。"
+    },
+    {
+      "Key": "ui03.a55a73837e83e8b0",
+      "Source": "原手册已取回库存。",
+      "Text": "原手册已取回库存。"
+    },
+    {
+      "Key": "ui03.f029a3ac2e74ca93",
+      "Source": "原手册已放入收纳。",
+      "Text": "原手册已放入收纳。"
+    },
+    {
+      "Key": "ui03.c39bd74eb62f0921",
+      "Source": "打开原版容器",
+      "Text": "打开原版容器"
+    },
+    {
+      "Key": "ui03.ec6a0690be181aeb",
+      "Source": "；新存款次日起息。\n每日存入上限 ",
+      "Text": "；新存款次日起息。\n每日存入上限 "
+    },
+    {
+      "Key": "ui03.9f495864de7005f6",
+      "Source": "，取现上限 ",
+      "Text": "，取现上限 "
+    },
+    {
+      "Key": "ui03.fb0ebb28fd82914e",
+      "Source": "\n今日存入 ",
+      "Text": "\n今日存入 "
+    },
+    {
+      "Key": "ui03.0956310c20752c25",
+      "Source": " · 取现 ",
+      "Text": " · 取现 "
+    },
+    {
+      "Key": "ui03.d009d17dc6d8fc02",
+      "Source": "取出可用 ",
+      "Text": "取出可用 "
+    },
+    {
+      "Key": "ui03.0dd715b14fc0ba93",
+      "Source": "暂无可取余额",
+      "Text": "暂无可取余额"
+    },
+    {
+      "Key": "ui03.bfa302a37304e416",
+      "Source": "今日取现额度已用完",
+      "Text": "今日取现额度已用完"
+    },
+    {
+      "Key": "ui03.0c7bdc5fb2dc82f5",
+      "Source": "当前可计息本金 ",
+      "Text": "当前可计息本金 "
+    },
+    {
+      "Key": "ui03.04fa35fc130d3a9c",
+      "Source": " Cr；新存款次日起息。\n已结算至第 ",
+      "Text": " Cr；新存款次日起息。\n已结算至第 "
+    },
+    {
+      "Key": "ui03.88977b5fba16e815",
+      "Source": " 日；补卡或重新开户不刷新今日额度。",
+      "Text": " 日；补卡或重新开户不刷新今日额度。"
+    },
+    {
+      "Key": "ui03.65d5b0c962f2805c",
+      "Source": "今日信用借款 ",
+      "Text": "今日信用借款 "
+    },
+    {
+      "Key": "ui03.80747d7b9da5823b",
+      "Source": " Cr；还款不限额。",
+      "Text": " Cr；还款不限额。"
+    },
+    {
+      "Key": "ui03.21dc631c2b28c19a",
+      "Source": "。\n签约次日起计息；旧合同保持签约利率。",
+      "Text": "。\n签约次日起计息；旧合同保持签约利率。"
+    },
+    {
+      "Key": "ui03.5b08093be5280a63",
+      "Source": "今日贷款 ",
+      "Text": "今日贷款 "
+    },
+    {
+      "Key": "ui03.8d5e52de4c0b500d",
+      "Source": "；未还本金 ",
+      "Text": "；未还本金 "
+    },
+    {
+      "Key": "ui03.8645fba3b8a23e62",
+      "Source": "检测仪器",
+      "Text": "检测仪器"
+    },
+    {
+      "Key": "ui03.b1246dee36adcff6",
+      "Source": "查阅分类手册",
+      "Text": "查阅分类手册"
+    },
+    {
+      "Key": "ui03.f92fdf59b4661de5",
+      "Source": "磨制蛋面 ",
+      "Text": "磨制蛋面 "
+    },
+    {
+      "Key": "ui03.27f0e7912410ffea",
+      "Source": "取手镯 ",
+      "Text": "取手镯 "
+    },
+    {
+      "Key": "ui03.2c6481833e30fb32",
+      "Source": "磨珠串 ",
+      "Text": "磨珠串 "
+    },
+    {
+      "Key": "ui03.6236b83b5dba1c38",
+      "Source": "鉴定用品商店 · 仪器、手册与收纳",
+      "Text": "鉴定用品商店 · 仪器、手册与收纳"
+    },
+    {
+      "Key": "ui03.fa5052f9694fef69",
+      "Source": "鉴定说明手册 · 使用放大镜翻阅固定缺陷图鉴",
+      "Text": "鉴定说明手册 · 使用放大镜翻阅固定缺陷图鉴"
+    },
+    {
+      "Key": "ui03.421e6cd42ed8b9d2",
+      "Source": "鉴定手册收纳 · 八格",
+      "Text": "鉴定手册收纳 · 八格"
+    },
+    {
+      "Key": "ui03.dc2848d9af9d2168",
+      "Source": "无法连接手册收纳内部空间。",
+      "Text": "无法连接手册收纳内部空间。"
+    },
+    {
+      "Key": "ui03.695286d68a1d641b",
+      "Source": "八格鉴定手册收纳 · 收纳真实书本；搬动或出售前先取空",
+      "Text": "八格鉴定手册收纳 · 收纳真实书本；搬动或出售前先取空"
+    },
+    {
+      "Key": "ui03.99f3da9bf008ff1e",
+      "Source": "手册收纳内部空间不可用。",
+      "Text": "手册收纳内部空间不可用。"
+    },
+    {
+      "Key": "ui03.ab5f8a9dc79409f8",
+      "Source": "使用 / 翻阅",
+      "Text": "使用 / 翻阅"
+    },
+    {
+      "Key": "ui03.688ee4c431579dfa",
+      "Source": "资金总览 · 星港金融所",
+      "Text": "资金总览 · 星港金融所"
+    },
+    {
+      "Key": "ui03.23cb4a8930b16c54",
+      "Source": "证券按本日卖出价估算；库存实物和未收回的典当款另列。",
+      "Text": "证券按本日卖出价估算；库存实物和未收回的典当款另列。"
+    },
+    {
+      "Key": "ui03.7c0b90e91099dcf0",
+      "Source": " Cr\n储蓄 ",
+      "Text": " Cr\n储蓄 "
+    },
+    {
+      "Key": "ui03.9c3b5461f80376bd",
+      "Source": " Cr\n证券可售估值 ",
+      "Text": " Cr\n证券可售估值 "
+    },
+    {
+      "Key": "ui03.a35cc668da79aecf",
+      "Source": " Cr\n金融净额 ",
+      "Text": " Cr\n金融净额 "
+    },
+    {
+      "Key": "ui03.fcf8d5576cf9adac",
+      "Source": "信用应还 ",
+      "Text": "信用应还 "
+    },
+    {
+      "Key": "ui03.f3104071cc48ef6e",
+      "Source": " Cr\n贷款应还 ",
+      "Text": " Cr\n贷款应还 "
+    },
+    {
+      "Key": "ui03.6a77cb4e5fc7b05b",
+      "Source": " Cr\n抵押周转应还 ",
+      "Text": " Cr\n抵押周转应还 "
+    },
+    {
+      "Key": "ui03.907a2189d7defe40",
+      "Source": " Cr\n顾客典当应收 ",
+      "Text": " Cr\n顾客典当应收 "
+    },
+    {
+      "Key": "ui03.a7dc92d23c9abf7d",
+      "Source": "今日剩余额度：存入 ",
+      "Text": "今日剩余额度：存入 "
+    },
+    {
+      "Key": "ui03.7a9f53aae050fdbe",
+      "Source": " / 取现 ",
+      "Text": " / 取现 "
+    },
+    {
+      "Key": "ui03.77b9c4e896f6b003",
+      "Source": "\n信用借款 ",
+      "Text": "\n信用借款 "
+    },
+    {
+      "Key": "ui03.87a83673094d76b7",
+      "Source": " / 贷款 ",
+      "Text": " / 贷款 "
+    },
+    {
+      "Key": "ui03.020a41e33690c248",
+      "Source": "日结 · ",
+      "Text": "日结 · "
+    },
+    {
+      "Key": "ui03.e0cb9048e4b15cf8",
+      "Source": "尚无新版日结单；营业结束后记录入账利息与到期抵押物。",
+      "Text": "尚无新版日结单；营业结束后记录入账利息与到期抵押物。"
+    },
+    {
+      "Key": "ui03.7e2d04bf14547e4a",
+      "Source": "银行与卡片",
+      "Text": "银行与卡片"
+    },
+    {
+      "Key": "ui03.daf8c82c54afe0f5",
+      "Source": "证券与行情",
+      "Text": "证券与行情"
+    },
+    {
+      "Key": "ui03.7285f10f7a5f142b",
+      "Source": "查看共享账本",
+      "Text": "查看共享账本"
+    },
+    {
+      "Key": "ui03.29d0487907e51801",
+      "Source": "日结 · 第 ",
+      "Text": "日结 · 第 "
+    },
+    {
+      "Key": "ui03.0ebd4dbedd376315",
+      "Source": " 日：存息 +",
+      "Text": " 日：存息 +"
+    },
+    {
+      "Key": "ui03.92ed7d8ddfd61520",
+      "Source": "；信用利息 +",
+      "Text": "；信用利息 +"
+    },
+    {
+      "Key": "ui03.d4fa6df5a09f36f6",
+      "Source": "；贷款利息 +",
+      "Text": "；贷款利息 +"
+    },
+    {
+      "Key": "ui03.7378f7989593e565",
+      "Source": "；到期抵押物 ",
+      "Text": "；到期抵押物 "
+    },
+    {
+      "Key": "ui03.421f465daee806a8",
+      "Source": " 件",
+      "Text": " 件"
+    },
+    {
+      "Key": "ui03.ca52e116329e1038",
+      "Source": "资金总览与日结",
+      "Text": "资金总览与日结"
+    },
+    {
+      "Key": "ui03.968be51ce92cd714",
+      "Source": "仪器、分类图鉴与八格手册收纳；购买后交付到店。",
+      "Text": "仪器、分类图鉴与八格手册收纳；购买后交付到店。"
+    },
+    {
+      "Key": "ui03.d11862134d3ac2a9",
+      "Source": "检测仪器 · 可在验货台使用，也可拖到目标实物上。",
+      "Text": "检测仪器 · 可在验货台使用，也可拖到目标实物上。"
+    },
+    {
+      "Key": "ui03.d5bc7c552958e6f4",
+      "Source": " 页 · 圈线标示观察重点",
+      "Text": " 页 · 圈线标示观察重点"
+    },
+    {
+      "Key": "ui03.137161b1323563b9",
+      "Source": "八格书匣，收好常用图鉴。搬动或出售前先取出书册。",
+      "Text": "八格书匣，收好常用图鉴。搬动或出售前先取出书册。"
+    },
+    {
+      "Key": "ui03.7a3ea1c174024051",
+      "Source": "打开书匣",
+      "Text": "打开书匣"
+    },
+    {
+      "Key": "ui03.5c55a67935af8f45",
+      "Source": "全部",
+      "Text": "全部"
+    },
+    {
+      "Key": "ui03.0ab771f28872614f",
+      "Source": "金银首饰",
+      "Text": "金银首饰"
+    },
+    {
+      "Key": "ui03.b72e1d5ed2e3da91",
+      "Source": "翡翠赌石",
+      "Text": "翡翠赌石"
+    },
+    {
+      "Key": "ui03.2fcd86e25f62e5b7",
+      "Source": "收藏与用品",
+      "Text": "收藏与用品"
+    },
+    {
+      "Key": "ui03.c5f65c5a85452d79",
+      "Source": "其他收藏",
+      "Text": "其他收藏"
     }
   ]
 }

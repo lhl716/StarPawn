@@ -12,6 +12,7 @@ $coreArgs += (Join-Path $deliveryDir 'source\Core\Content.cs')
 $coreArgs += (Join-Path $deliveryDir 'source\Core\InspectionV2.cs')
 $coreArgs += (Join-Path $deliveryDir 'source\Core\ContentPacks.cs')
 $coreArgs += (Join-Path $deliveryDir 'source\Core\Economy.cs')
+$coreArgs += (Join-Path $deliveryDir 'source\Core\Appraisal.cs')
 & $dotnetExe $compiler @coreArgs
 if ($LASTEXITCODE -ne 0) { throw 'Content netstandard2.1 compile failed' }
 $runtime = Get-ChildItem -LiteralPath (Join-Path $dotnetRoot 'packs\Microsoft.NETCore.App.Ref') -Directory | Where-Object Name -Like '8.*' | Sort-Object { [Version]$_.Name } -Descending | Select-Object -First 1

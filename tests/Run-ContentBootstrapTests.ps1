@@ -1,7 +1,7 @@
 param([string]$GameDir='D:\Program Files (x86)\steam\steamapps\common\Probably Stolen')
 $ErrorActionPreference='Stop'
 $deliveryDir=Split-Path -Parent $PSScriptRoot
-$workspaceDir=Split-Path -Parent (Split-Path -Parent $deliveryDir)
+$workspaceDir=$deliveryDir
 $dotnetExe=(Get-Command dotnet).Source
 $dotnetRoot=Split-Path -Parent $dotnetExe
 $compiler=Join-Path $dotnetRoot 'sdk\8.0.424\Roslyn\bincore\csc.dll'

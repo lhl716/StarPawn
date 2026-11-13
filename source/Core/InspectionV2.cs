@@ -253,7 +253,7 @@ namespace StarPawn.Core
             if (asset.Status != "active") throw new InvalidOperationException("Consumed or escrowed assets cannot be quoted for sale.");
             var definition = Catalog.GetDefinition(asset.DefinitionId);
             var selected = definition.Hotspots.Where(h => encounter.SelectedEvidenceIds.Contains(h.Id) && !asset.ResolvedCauseIds.Contains(h.CauseId)).ToList();
-            var materialKnown = asset.Certificates.Any(c => c.Scope == "material") || selected.Any(h => h.RevealsMaterial);
+            var materialKnown = asset.Measurements.Contains("assay") || asset.Certificates.Any(c => c.Scope == "material") || selected.Any(h => h.RevealsMaterial);
             var authenticityKnown = asset.Certificates.Any(c => c.Scope == "authenticity" || c.Scope == "edition") || selected.Any(h => h.RevealsAuthenticity);
             var precious = definition.Material == "gold" || definition.Material == "silver";
             var buy = definition.Material == "gold" ? goldBuy : silverBuy;

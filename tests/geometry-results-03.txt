@@ -1,0 +1,2 @@
+PASS 196 authored profile silhouettes and 284 fixed hotspot centers; no damage extends outside object mask.
+Development geometry only; Claude style approval and final asset QA remain separate.

@@ -12,8 +12,13 @@ namespace StarPawn.Game
         {
             if (item == null || !item.useSpriteFromMod || item.spriteAtlasPath != "starpawn" || UISettings.current == null) return;
             var card = item.identifier == "starpawn.savings_card" || item.identifier == "starpawn.credit_card";
-            var width = UISettings.current.gridSize * (card ? 2f : 1f);
-            var height = (float)UISettings.current.gridSize;
+            var widthCells = card ? 2 : 1; var heightCells = 1;
+            if(!card && item.identifier.StartsWith("starpawn.",System.StringComparison.Ordinal))
+            {
+                if(StarPawn.Core.Catalog.TryGetDefinition(item.identifier.Substring(9),out var d)){widthCells=d.WidthCells;heightCells=d.HeightCells;}
+            }
+            var width = UISettings.current.gridSize * (float)widthCells;
+            var height = UISettings.current.gridSize * (float)heightCells;
             FitLayer(item.background, width, height);
             FitLayer(item.fakeBackground, width, height);
         }

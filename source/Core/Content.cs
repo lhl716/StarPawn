@@ -34,6 +34,8 @@ namespace StarPawn.Core
         public bool WindowOpened;
         public int QualityBasisPoints = 10000;
         public bool BookRead;
+        // Measurements are established observations, persisted with this exact asset.
+        public List<string> Measurements = new List<string>();
     }
 
     public sealed class AssetCertificate
@@ -62,6 +64,10 @@ namespace StarPawn.Core
         public bool RevealsMaterial;
         public bool RevealsAuthenticity;
         public bool Repairable;
+        public string TemplateId = "";
+        public string Guidance = "";
+        public string GuidanceKey = "";
+        public string InstrumentKind = "";
     }
 
     public sealed class ItemDefinition
@@ -93,6 +99,23 @@ namespace StarPawn.Core
         public bool IsJadeRough;
         public bool IsBook;
         public bool IsGenuine = true;
+        public string FamilyId = "";
+        public string Form = "";
+        public string ManualCategory = "";
+        public string ManualFor = "";
+        public string InstrumentKind = "";
+        public bool ShopOnly;
+        public bool IsOrganizer;
+        public int WidthCells = 1;
+        public int HeightCells = 1;
+        // Relative grade weights are rolled only once, at creation. Legacy defaults are unchanged.
+        public int JadeLowWeight = 1;
+        public int JadeMediumWeight = 1;
+        public int JadeHighWeight = 1;
+        public string JadePendantOutput = "jade_pendant";
+        public string JadeCabochonOutput = "jade_pendant";
+        public string JadeBangleOutput = "";
+        public string JadeBeadsOutput = "";
         public List<HotspotDefinition> Hotspots = new List<HotspotDefinition>();
     }
 
@@ -137,6 +160,7 @@ namespace StarPawn.Core
             if (id == null || !definitions.TryGetValue(id, out var definition)) throw new InvalidOperationException("Unknown content definition: " + id);
             return definition;
         }
+        public static bool TryGetDefinition(string id, out ItemDefinition definition) => definitions.TryGetValue(id, out definition!);
 
         // Content packs may deserialize these DTOs at startup. Never reconfigure mid-run.
         public static void Configure(IEnumerable<ItemDefinition> items)
@@ -163,12 +187,13 @@ namespace StarPawn.Core
             var generatedSeed = seed == 0 ? StableHash(state.RunId + ":" + sequence) : seed;
             var random = unchecked((uint)generatedSeed);
             random = NextRandom(random);
+            var gradeRoll = random % (definition.JadeLowWeight + definition.JadeMediumWeight + definition.JadeHighWeight);
             var result = new AssetRecord {
                 AssetId = "sp-" + state.RunId + "-" + sequence,
                 DefinitionId = definitionId,
                 OwnerId = ownerId,
                 JadeSeed = definition.IsJadeRough ? generatedSeed : 0,
-                JadeGrade = definition.IsJadeRough ? 1 + (int)(random % 3) : 0,
+                JadeGrade = definition.IsJadeRough ? (gradeRoll < definition.JadeLowWeight ? 1 : gradeRoll < definition.JadeLowWeight + definition.JadeMediumWeight ? 2 : 3) : 0,
                 JadeYieldCount = definition.IsJadeRough ? 1 + (int)(NextRandom(random) % 3) : 0
             };
             if (state.Assets.Any(a => a.AssetId == result.AssetId)) throw new InvalidOperationException("Asset sequence collides with an existing identity.");
@@ -207,7 +232,7 @@ namespace StarPawn.Core
         {
             var definition = GetDefinition(asset.DefinitionId);
             var discovered = definition.Hotspots.Where(h => asset.DiscoveredEvidenceIds.Contains(h.Id)).ToList();
-            var materialKnown = asset.Certificates.Any(c => c.Scope == "material") || discovered.Any(h => h.RevealsMaterial);
+            var materialKnown = asset.Measurements.Contains("assay") || asset.Certificates.Any(c => c.Scope == "material") || discovered.Any(h => h.RevealsMaterial);
             var editionKnown = asset.Certificates.Any(c => c.Scope == "edition" || c.Scope == "authenticity") || discovered.Any(h => h.RevealsAuthenticity);
             var purity = materialKnown ? definition.ActualPurityBasisPoints : definition.DeclaredPurityBasisPoints;
             var precious = definition.Material == "gold" || definition.Material == "silver";
@@ -270,18 +295,21 @@ namespace StarPawn.Core
             var asset = RequireOwnedActive(state, assetId);
             var definition = GetDefinition(asset.DefinitionId);
             if (!definition.IsJadeRough) throw new InvalidOperationException("Only rough jade can be cut.");
-            if (cutMode != "pendants" && cutMode != "cabochon") throw new ArgumentException("Choose pendants or cabochon.");
+            if (cutMode != "pendants" && cutMode != "cabochon" && cutMode != "bangle" && cutMode != "beads") throw new ArgumentException("Unknown jade cutting plan.");
             if (availableCash < definition.CutCost) throw new InvalidOperationException("现金不足以支付切割费。");
-            var count = cutMode == "cabochon" ? 1 : asset.JadeYieldCount;
+            var count = cutMode == "pendants" ? asset.JadeYieldCount : 1;
             if (state.Assets.Count + count > MaxAssets) throw new InvalidOperationException("Asset capacity reached.");
             checked { _ = state.NextAssetSequence + count; _ = asset.StateVersion + 1; }
-            var outputDefinition = GetDefinition("jade_pendant");
+            var outputId = cutMode == "pendants" ? definition.JadePendantOutput : cutMode == "cabochon" ? definition.JadeCabochonOutput : cutMode == "bangle" ? definition.JadeBangleOutput : definition.JadeBeadsOutput;
+            if (string.IsNullOrEmpty(outputId)) throw new InvalidOperationException("这类原石不支持此切割方案。");
+            if (cutMode == "bangle" && asset.JadeYieldCount < 2) throw new InvalidOperationException("开料师傅：这块料尺寸不足，取不出整只手镯，换个方案吧。");
+            var outputDefinition = GetDefinition(outputId);
             var children = new List<AssetRecord>();
             for (var i = 0; i < count; i++)
             {
                 var identity = "sp-" + state.RunId + "-" + (state.NextAssetSequence + i);
                 if (state.Assets.Any(a => a.AssetId == identity)) throw new InvalidOperationException("Asset sequence collision.");
-                children.Add(new AssetRecord { AssetId = identity, DefinitionId = outputDefinition.Id, ParentAssetId = asset.AssetId, OwnerId = "player", QualityBasisPoints = asset.JadeGrade * 3500 + (cutMode == "cabochon" ? 4000 : 0) });
+                children.Add(new AssetRecord { AssetId = identity, DefinitionId = outputDefinition.Id, ParentAssetId = asset.AssetId, OwnerId = "player", QualityBasisPoints = asset.JadeGrade * 3500 + (cutMode == "cabochon" ? 4000 : cutMode == "bangle" ? 2000 : 0) });
             }
             asset.Status = "consumed";
             asset.StateVersion++;
@@ -335,8 +363,9 @@ namespace StarPawn.Core
                 if (asset.Status != "active" && asset.Status != "escrow" && asset.Status != "consumed") throw new InvalidOperationException("Invalid asset status.");
                 if (asset.NativeItemUniqueId >= 0 && asset.Status != "consumed" && !nativeIds.Add(asset.NativeItemUniqueId)) throw new InvalidOperationException("Multiple assets refer to one native item.");
                 var definition = GetDefinition(asset.DefinitionId);
-                if (asset.DiscoveredEvidenceIds == null || asset.RewardedEvidenceIds == null || asset.ResolvedCauseIds == null || asset.RepairHistory == null || asset.Certificates == null || asset.RepairHistory.Count > 64 || asset.Certificates.Count > 32)
+                if (asset.DiscoveredEvidenceIds == null || asset.RewardedEvidenceIds == null || asset.ResolvedCauseIds == null || asset.RepairHistory == null || asset.Certificates == null || asset.Measurements == null || asset.RepairHistory.Count > 64 || asset.Certificates.Count > 32)
                     throw new InvalidOperationException("Missing asset records.");
+                ValidateUnique(asset.Measurements, Appraisal.InstrumentKinds);
                 ValidateUnique(asset.DiscoveredEvidenceIds, definition.Hotspots.Select(h => h.Id));
                 ValidateUnique(asset.RewardedEvidenceIds, definition.Hotspots.Select(h => h.Id));
                 if (asset.RewardedEvidenceIds.Any(id => !asset.DiscoveredEvidenceIds.Contains(id))) throw new InvalidOperationException("Rewarded evidence must remain recorded.");
@@ -391,6 +420,8 @@ namespace StarPawn.Core
 
         internal static void ValidateDefinition(ItemDefinition item)
         {
+            if (item != null && (item.WidthCells < 1 || item.WidthCells > 4 || item.HeightCells < 1 || item.HeightCells > 4 || item.JadeLowWeight < 1 || item.JadeMediumWeight < 1 || item.JadeHighWeight < 1 || item.JadeLowWeight > 100 || item.JadeMediumWeight > 100 || item.JadeHighWeight > 100 || (!string.IsNullOrEmpty(item.InstrumentKind) && !Appraisal.InstrumentKinds.Contains(item.InstrumentKind))))
+                throw new InvalidOperationException("Invalid equipment, inventory shape or jade grade weights.");
             if (item == null || string.IsNullOrWhiteSpace(item.Id) || string.IsNullOrWhiteSpace(item.Name) || string.IsNullOrWhiteSpace(item.TextureKey) || item.Hotspots == null || item.WeightMilligrams < 0 || item.WeightMilligrams > 100000000 || item.BaseValue < 0 || item.ActualBaseValue < 0 || item.CraftValue < 0 || item.RepairCost < 0 || item.WindowCost < 0 || item.CutCost < 0 || item.ActualPurityBasisPoints < 0 || item.ActualPurityBasisPoints > 10000 || item.DeclaredPurityBasisPoints < 0 || item.DeclaredPurityBasisPoints > 10000)
                 throw new InvalidOperationException("Invalid content definition.");
             var ids = new HashSet<string>();

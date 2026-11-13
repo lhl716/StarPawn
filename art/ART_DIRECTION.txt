@@ -11,12 +11,12 @@ StarPawn 美术与UI改版交接
 不复刻其他作者图像、真实珠宝品牌或卡组织商标。储蓄卡与信用卡使用虚构银行，卡面不放真实账号信息。
 
 画面与导出契约
-1. 现有鉴定画布宽高比3:2，逻辑画框352×235。建议在384×256像素母版工作；如需导出1536×1024，用4倍最近邻放大。最终尺度在首轮确认。
+1. 现有鉴定画布宽高比约3:2，逻辑画框298×199。建议在384×256像素母版工作；如需导出1536×1024，用4倍最近邻放大。最终尺度在首轮确认。
 2. Paper插图背景透明，物体完整留边；Items为单独可读的小图，不能把大图不加处理直接缩小。普通1×1格64×64，卡片2×1格128×64；其他占格随最终item元数据确认。
 3. 同一件物品的正常、缺陷、仪器观察、修复状态必须像素对齐。保持轮廓、相机、光照和画布不变。
 4. 缺陷是定义明确的固定模板，可从允许槽位组合；不要临时随机生成噪点或自由漂移裂纹。手册示例、实际图、热点和原因ID必须对应。
 5. 交付 base（物体）、mask（物体范围）、defect overlay（透明缺陷层）、可选仪器视图、可选repaired图和hotspots.json。缺陷层必须落在物体mask内；原石内部层只在对应观察状态显示。
-6. 热点U/V、Width/Height归一化0..1，左上原点。visibleMode区分肉眼、成色仪、透光灯、紫外、开窗；CauseId合并同一问题，Id区分观察证据。
+6. 热点U/V、Width/Height归一化0..1，左上原点。实际配置字段是ViewId（front/window）与InstrumentKind（scale/assay/loupe/jade_light/uv或空），不要自行引入visibleMode替代字段；CauseId合并同一问题，Id区分观察证据。TemplateId对应固定缺陷说明。
 7. 文字由游戏渲染。UI底板不烘焙金额、日限额、纯度和长段中文；书页正文可变，只提供排版模板与插图。
 8. 文件名小写snake_case，前缀稳定。图层/可编辑源文件放art/source；游戏PNG放mod/Textures/Items及Paper。对应关系写入asset-plan.csv和新增映射，不覆盖其他人的玩法更改。
 
@@ -40,4 +40,10 @@ UI清单
 阶段1：物品风格小样，用户确认。
 阶段2：代表性原石、卡片、手册收纳和两张UI版式，确认同一视觉体系。
 阶段3：按asset-plan.csv逐类完成；玩法分支负责状态绑定、热点、存档和实机验证。
-说明：本文件是美术交接，不表示所有新玩法已实现；真实进度见docs/REVISION_03.txt。
+当前玩法与文件映射
+0.3已经接入239个商品/状态定义、5种仪器、7本分类手册和八格收纳；真实进度见docs/REVISION_03.txt。
+art/runtime-art-map.json是当前精确ID、贴图、占格、固定证据和遮罩的权威映射，包含额外两张实体卡。existing-assets.json / existing-items.json只保留0.2基线快照。
+asset-plan.csv是设计范围，包含尚未接线的视觉提案（卡套、实体终端、器具动画等）。不要把这些提案文件名当成游戏现有ID。UI屏幕清单与交互状态见art/UI_SPEC.txt。
+新开发素材在mod/Textures下以sp3_开头；可替换，但须维持同族状态对齐。development/masks和geometry-contract.json为开发几何约束，画风本身尚未批准。
+读取新代码请checkout gameplay/0.3，再从该分支创建art/style-sample。不要从0.2历史提交开始画全套。
+source/Content/Generate-Catalog.py默认生成数据/本地化；--development-art会覆盖开发图。source/Art/Generate-Art.py是旧生成器。美术集成后不要运行覆盖式生成；可用Export-ArtMap.py只更新映射。

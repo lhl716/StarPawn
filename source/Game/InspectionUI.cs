@@ -43,6 +43,8 @@ namespace StarPawn.Game
             var a=Catalog.GetAsset(state.Catalog,assetId);
             if(a.Status=="consumed") {notice="这件原料已经加工消耗。";OpenOwned();return;}
             if(a.Status=="escrow") {notice="实物正在托管，先查看对应合同。";OpenPawnLedger();return;}
+            var definition=Catalog.GetDefinition(a.DefinitionId);
+            if(a.OwnerId=="player" && definition.ShopOnly) { OpenEquipment(assetId);return; }
             if(selectedAsset!=assetId)notice="";
             selectedAsset=assetId;selectedView=view;
             var existing=state.Catalog.Encounters.FirstOrDefault(x=>!x.Completed&&x.AssetId==assetId&&x.CounterpartyId==counterpartyId);
@@ -59,7 +61,7 @@ namespace StarPawn.Game
             var facts=Catalog.PublicFacts(a);
             var q=QuoteByMarket(state.Catalog,e.EncounterId,a.OwnerId=="player"?"sell":"buy");
             var ui=BeginPage("验货台 · "+facts.Name,"鉴定等级 "+InspectionV2.GetLevel(state.Catalog)+" / "+InspectionV2.MaximumLevel+"    经验 "+state.Catalog.Experience+"    "+(InspectionV2.IsMastered(state.Catalog)?"老练的目光：可见异常自动记录":"观察实物，点击可见异常"));
-            const float ix=22,iy=74,iw=352,ih=235;
+            const float ix=49,iy=99,iw=298,ih=199;
             if(e.Locked)
             {
                 Text(ui,45,135,305,90,a.OwnerId=="player"?"反复检查让眼睛有些疲劳。\n先交给检验所看看吧。":"顾客把物品收回身边。\n“今天不再检查了，谈谈价格吧。”",16);
@@ -80,6 +82,8 @@ namespace StarPawn.Game
                     }
                 }
             }
+            Button(ui,22,74,174,22,"检测仪器",OpenInstruments);
+            Button(ui,206,74,168,22,"查阅分类手册",()=>OpenHandbook(Appraisal.Category(d),0));
             var s=new StringBuilder();
             s.AppendLine(q.MaterialDescription);
             if(d.Material=="gold"||d.Material=="silver")
@@ -174,7 +178,9 @@ namespace StarPawn.Game
             {
                 Button(ui,24,222,174,27,a.WindowOpened?"查看开窗":"开窗 "+d.WindowCost,()=>{if(!a.WindowOpened)ProcessAsset(assetId,"window");OpenInspection(assetId,"workshop","window");});
                 Button(ui,210,222,174,27,"切成挂件 "+d.CutCost,()=>{ProcessAsset(assetId,"cut_pendants");OpenOwned();});
-                Button(ui,396,222,178,27,"集中取大料 "+d.CutCost,()=>{ProcessAsset(assetId,"cut_cabochon");OpenOwned();});
+                Button(ui,396,222,178,27,"磨制蛋面 "+d.CutCost,()=>{ProcessAsset(assetId,"cut_cabochon");OpenOwned();});
+                if(!string.IsNullOrEmpty(d.JadeBangleOutput)) Button(ui,24,257,174,23,"取手镯 "+d.CutCost,()=>{ProcessAsset(assetId,"cut_bangle");OpenOwned();});
+                if(!string.IsNullOrEmpty(d.JadeBeadsOutput)) Button(ui,210,257,174,23,"磨珠串 "+d.CutCost,()=>{ProcessAsset(assetId,"cut_beads");OpenOwned();});
             }
             Button(ui,24,287,174,27,"回到鉴定台",()=>OpenInspection(assetId,"workshop"));
             Button(ui,210,287,174,27,"资产档案",()=>OpenAssetRecord(assetId));Footer(ui);Show(ui);

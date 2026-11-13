@@ -57,7 +57,7 @@ namespace StarPawn.Game
                     definition.Name = TextResolver.Get(definition.NameKey, definition.Name);
                     definition.Description = TextResolver.Get(definition.DescriptionKey, definition.Description);
                     if (definition.IsBook) definition.ReadingText = TextResolver.Get(definition.ReadingKey, definition.ReadingText);
-                    foreach (var hotspot in definition.Hotspots) hotspot.Label = TextResolver.Get(hotspot.LabelKey, hotspot.Label);
+                    foreach (var hotspot in definition.Hotspots) { hotspot.Label = TextResolver.Get(hotspot.LabelKey, hotspot.Label); hotspot.Guidance = TextResolver.Get(hotspot.GuidanceKey,hotspot.Guidance); }
                 }
                 Catalog.Configure(definitions);
                 InspectionV2.ConfigureRules(inspection);
