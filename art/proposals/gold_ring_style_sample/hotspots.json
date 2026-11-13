@@ -1,0 +1,33 @@
+{
+  "frame": [
+    384,
+    256
+  ],
+  "origin": "top-left",
+  "hotspots": [
+    {
+      "State": "worn_plating",
+      "Id": "metal_plating",
+      "CauseId": "metal_plating",
+      "TemplateId": "metal_plating",
+      "ViewId": "front",
+      "InstrumentKind": "assay",
+      "U": 0.3229,
+      "V": 0.5703,
+      "Width": 0.2604,
+      "Height": 0.2422
+    },
+    {
+      "State": "cracked_band",
+      "Id": "metal_split",
+      "CauseId": "metal_split",
+      "TemplateId": "metal_split",
+      "ViewId": "front",
+      "InstrumentKind": "",
+      "U": 0.5469,
+      "V": 0.5781,
+      "Width": 0.0729,
+      "Height": 0.2266
+    }
+  ]
+}
