@@ -1,0 +1,2479 @@
+{
+ "asset_key": "jewelry_ring_solitaire",
+ "name_en": "Solitaire Gem-Set Ring",
+ "category": "jewelry_ring",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_jewelry_ring_solitaire",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "au18k_diamond_round_intact": {
+   "paper": "paper/au18k_diamond_round_intact.png",
+   "items": "items/au18k_diamond_round_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_loose_prong": {
+   "paper": "paper/au18k_diamond_round_loose_prong.png",
+   "items": "items/au18k_diamond_round_loose_prong.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_shank_dent": {
+   "paper": "paper/au18k_diamond_round_shank_dent.png",
+   "items": "items/au18k_diamond_round_shank_dent.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_missing_center": {
+   "paper": "paper/au18k_diamond_round_missing_center.png",
+   "items": "items/au18k_diamond_round_missing_center.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_tool_scars": {
+   "paper": "paper/au18k_diamond_round_tool_scars.png",
+   "items": "items/au18k_diamond_round_tool_scars.png",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_old_resize": {
+   "paper": "paper/au18k_diamond_round_old_resize.png",
+   "items": "items/au18k_diamond_round_old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_combo__loose_prong__old_resize": {
+   "paper": "paper/au18k_diamond_round_combo__loose_prong__old_resize.png",
+   "items": "items/au18k_diamond_round_combo__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_repaired__loose_prong__old_resize": {
+   "paper": "paper/au18k_diamond_round_repaired__loose_prong__old_resize.png",
+   "items": "items/au18k_diamond_round_repaired__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_round_combo__loose_prong__old_resize"
+  },
+  "au18k_diamond_round_combo__shank_dent__old_resize": {
+   "paper": "paper/au18k_diamond_round_combo__shank_dent__old_resize.png",
+   "items": "items/au18k_diamond_round_combo__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_repaired__shank_dent__old_resize": {
+   "paper": "paper/au18k_diamond_round_repaired__shank_dent__old_resize.png",
+   "items": "items/au18k_diamond_round_repaired__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_round_combo__shank_dent__old_resize"
+  },
+  "au18k_diamond_round_combo__missing_center__old_resize": {
+   "paper": "paper/au18k_diamond_round_combo__missing_center__old_resize.png",
+   "items": "items/au18k_diamond_round_combo__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_repaired__missing_center__old_resize": {
+   "paper": "paper/au18k_diamond_round_repaired__missing_center__old_resize.png",
+   "items": "items/au18k_diamond_round_repaired__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_round_combo__missing_center__old_resize"
+  },
+  "au18k_diamond_round_combo__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/au18k_diamond_round_combo__loose_prong__shank_dent__old_resize.png",
+   "items": "items/au18k_diamond_round_combo__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_repaired__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/au18k_diamond_round_repaired__loose_prong__shank_dent__old_resize.png",
+   "items": "items/au18k_diamond_round_repaired__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_round_combo__loose_prong__shank_dent__old_resize"
+  },
+  "au18k_diamond_round_inherited__table_abrasion": {
+   "paper": "paper/au18k_diamond_round_inherited__table_abrasion.png",
+   "items": "items/au18k_diamond_round_inherited__table_abrasion.png",
+   "templates": [],
+   "view": "ordinary",
+   "inherited_child_template": "sp4_gem_diamond_table_abrasion",
+   "inherited_socket": "crown_center"
+  },
+  "au18k_diamond_princess_intact": {
+   "paper": "paper/au18k_diamond_princess_intact.png",
+   "items": "items/au18k_diamond_princess_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_diamond_princess_loose_prong": {
+   "paper": "paper/au18k_diamond_princess_loose_prong.png",
+   "items": "items/au18k_diamond_princess_loose_prong.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_princess_shank_dent": {
+   "paper": "paper/au18k_diamond_princess_shank_dent.png",
+   "items": "items/au18k_diamond_princess_shank_dent.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_princess_missing_center": {
+   "paper": "paper/au18k_diamond_princess_missing_center.png",
+   "items": "items/au18k_diamond_princess_missing_center.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_princess_tool_scars": {
+   "paper": "paper/au18k_diamond_princess_tool_scars.png",
+   "items": "items/au18k_diamond_princess_tool_scars.png",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_princess_old_resize": {
+   "paper": "paper/au18k_diamond_princess_old_resize.png",
+   "items": "items/au18k_diamond_princess_old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_princess_combo__loose_prong__old_resize": {
+   "paper": "paper/au18k_diamond_princess_combo__loose_prong__old_resize.png",
+   "items": "items/au18k_diamond_princess_combo__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_princess_repaired__loose_prong__old_resize": {
+   "paper": "paper/au18k_diamond_princess_repaired__loose_prong__old_resize.png",
+   "items": "items/au18k_diamond_princess_repaired__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_princess_combo__loose_prong__old_resize"
+  },
+  "au18k_diamond_princess_combo__shank_dent__old_resize": {
+   "paper": "paper/au18k_diamond_princess_combo__shank_dent__old_resize.png",
+   "items": "items/au18k_diamond_princess_combo__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_princess_repaired__shank_dent__old_resize": {
+   "paper": "paper/au18k_diamond_princess_repaired__shank_dent__old_resize.png",
+   "items": "items/au18k_diamond_princess_repaired__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_princess_combo__shank_dent__old_resize"
+  },
+  "au18k_diamond_princess_combo__missing_center__old_resize": {
+   "paper": "paper/au18k_diamond_princess_combo__missing_center__old_resize.png",
+   "items": "items/au18k_diamond_princess_combo__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_princess_repaired__missing_center__old_resize": {
+   "paper": "paper/au18k_diamond_princess_repaired__missing_center__old_resize.png",
+   "items": "items/au18k_diamond_princess_repaired__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_princess_combo__missing_center__old_resize"
+  },
+  "au18k_diamond_princess_combo__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/au18k_diamond_princess_combo__loose_prong__shank_dent__old_resize.png",
+   "items": "items/au18k_diamond_princess_combo__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_princess_repaired__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/au18k_diamond_princess_repaired__loose_prong__shank_dent__old_resize.png",
+   "items": "items/au18k_diamond_princess_repaired__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_princess_combo__loose_prong__shank_dent__old_resize"
+  },
+  "au18k_ruby_oval_intact": {
+   "paper": "paper/au18k_ruby_oval_intact.png",
+   "items": "items/au18k_ruby_oval_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_loose_prong": {
+   "paper": "paper/au18k_ruby_oval_loose_prong.png",
+   "items": "items/au18k_ruby_oval_loose_prong.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_shank_dent": {
+   "paper": "paper/au18k_ruby_oval_shank_dent.png",
+   "items": "items/au18k_ruby_oval_shank_dent.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_missing_center": {
+   "paper": "paper/au18k_ruby_oval_missing_center.png",
+   "items": "items/au18k_ruby_oval_missing_center.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_tool_scars": {
+   "paper": "paper/au18k_ruby_oval_tool_scars.png",
+   "items": "items/au18k_ruby_oval_tool_scars.png",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_old_resize": {
+   "paper": "paper/au18k_ruby_oval_old_resize.png",
+   "items": "items/au18k_ruby_oval_old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_combo__loose_prong__old_resize": {
+   "paper": "paper/au18k_ruby_oval_combo__loose_prong__old_resize.png",
+   "items": "items/au18k_ruby_oval_combo__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_repaired__loose_prong__old_resize": {
+   "paper": "paper/au18k_ruby_oval_repaired__loose_prong__old_resize.png",
+   "items": "items/au18k_ruby_oval_repaired__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_ruby_oval_combo__loose_prong__old_resize"
+  },
+  "au18k_ruby_oval_combo__shank_dent__old_resize": {
+   "paper": "paper/au18k_ruby_oval_combo__shank_dent__old_resize.png",
+   "items": "items/au18k_ruby_oval_combo__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_repaired__shank_dent__old_resize": {
+   "paper": "paper/au18k_ruby_oval_repaired__shank_dent__old_resize.png",
+   "items": "items/au18k_ruby_oval_repaired__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_ruby_oval_combo__shank_dent__old_resize"
+  },
+  "au18k_ruby_oval_combo__missing_center__old_resize": {
+   "paper": "paper/au18k_ruby_oval_combo__missing_center__old_resize.png",
+   "items": "items/au18k_ruby_oval_combo__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_repaired__missing_center__old_resize": {
+   "paper": "paper/au18k_ruby_oval_repaired__missing_center__old_resize.png",
+   "items": "items/au18k_ruby_oval_repaired__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_ruby_oval_combo__missing_center__old_resize"
+  },
+  "au18k_ruby_oval_combo__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/au18k_ruby_oval_combo__loose_prong__shank_dent__old_resize.png",
+   "items": "items/au18k_ruby_oval_combo__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_repaired__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/au18k_ruby_oval_repaired__loose_prong__shank_dent__old_resize.png",
+   "items": "items/au18k_ruby_oval_repaired__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_ruby_oval_combo__loose_prong__shank_dent__old_resize"
+  },
+  "au18k_sapphire_oval_intact": {
+   "paper": "paper/au18k_sapphire_oval_intact.png",
+   "items": "items/au18k_sapphire_oval_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_oval_loose_prong": {
+   "paper": "paper/au18k_sapphire_oval_loose_prong.png",
+   "items": "items/au18k_sapphire_oval_loose_prong.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_oval_shank_dent": {
+   "paper": "paper/au18k_sapphire_oval_shank_dent.png",
+   "items": "items/au18k_sapphire_oval_shank_dent.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_oval_missing_center": {
+   "paper": "paper/au18k_sapphire_oval_missing_center.png",
+   "items": "items/au18k_sapphire_oval_missing_center.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_oval_tool_scars": {
+   "paper": "paper/au18k_sapphire_oval_tool_scars.png",
+   "items": "items/au18k_sapphire_oval_tool_scars.png",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_oval_old_resize": {
+   "paper": "paper/au18k_sapphire_oval_old_resize.png",
+   "items": "items/au18k_sapphire_oval_old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_oval_combo__loose_prong__old_resize": {
+   "paper": "paper/au18k_sapphire_oval_combo__loose_prong__old_resize.png",
+   "items": "items/au18k_sapphire_oval_combo__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_oval_repaired__loose_prong__old_resize": {
+   "paper": "paper/au18k_sapphire_oval_repaired__loose_prong__old_resize.png",
+   "items": "items/au18k_sapphire_oval_repaired__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_sapphire_oval_combo__loose_prong__old_resize"
+  },
+  "au18k_sapphire_oval_combo__shank_dent__old_resize": {
+   "paper": "paper/au18k_sapphire_oval_combo__shank_dent__old_resize.png",
+   "items": "items/au18k_sapphire_oval_combo__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_oval_repaired__shank_dent__old_resize": {
+   "paper": "paper/au18k_sapphire_oval_repaired__shank_dent__old_resize.png",
+   "items": "items/au18k_sapphire_oval_repaired__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_sapphire_oval_combo__shank_dent__old_resize"
+  },
+  "au18k_sapphire_oval_combo__missing_center__old_resize": {
+   "paper": "paper/au18k_sapphire_oval_combo__missing_center__old_resize.png",
+   "items": "items/au18k_sapphire_oval_combo__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_oval_repaired__missing_center__old_resize": {
+   "paper": "paper/au18k_sapphire_oval_repaired__missing_center__old_resize.png",
+   "items": "items/au18k_sapphire_oval_repaired__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_sapphire_oval_combo__missing_center__old_resize"
+  },
+  "au18k_sapphire_oval_combo__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/au18k_sapphire_oval_combo__loose_prong__shank_dent__old_resize.png",
+   "items": "items/au18k_sapphire_oval_combo__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_oval_repaired__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/au18k_sapphire_oval_repaired__loose_prong__shank_dent__old_resize.png",
+   "items": "items/au18k_sapphire_oval_repaired__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_sapphire_oval_combo__loose_prong__shank_dent__old_resize"
+  },
+  "au18k_emerald_step_intact": {
+   "paper": "paper/au18k_emerald_step_intact.png",
+   "items": "items/au18k_emerald_step_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_emerald_step_loose_prong": {
+   "paper": "paper/au18k_emerald_step_loose_prong.png",
+   "items": "items/au18k_emerald_step_loose_prong.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_step_shank_dent": {
+   "paper": "paper/au18k_emerald_step_shank_dent.png",
+   "items": "items/au18k_emerald_step_shank_dent.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_step_missing_center": {
+   "paper": "paper/au18k_emerald_step_missing_center.png",
+   "items": "items/au18k_emerald_step_missing_center.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_step_tool_scars": {
+   "paper": "paper/au18k_emerald_step_tool_scars.png",
+   "items": "items/au18k_emerald_step_tool_scars.png",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_step_old_resize": {
+   "paper": "paper/au18k_emerald_step_old_resize.png",
+   "items": "items/au18k_emerald_step_old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_step_combo__loose_prong__old_resize": {
+   "paper": "paper/au18k_emerald_step_combo__loose_prong__old_resize.png",
+   "items": "items/au18k_emerald_step_combo__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_step_repaired__loose_prong__old_resize": {
+   "paper": "paper/au18k_emerald_step_repaired__loose_prong__old_resize.png",
+   "items": "items/au18k_emerald_step_repaired__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_emerald_step_combo__loose_prong__old_resize"
+  },
+  "au18k_emerald_step_combo__shank_dent__old_resize": {
+   "paper": "paper/au18k_emerald_step_combo__shank_dent__old_resize.png",
+   "items": "items/au18k_emerald_step_combo__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_step_repaired__shank_dent__old_resize": {
+   "paper": "paper/au18k_emerald_step_repaired__shank_dent__old_resize.png",
+   "items": "items/au18k_emerald_step_repaired__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_emerald_step_combo__shank_dent__old_resize"
+  },
+  "au18k_emerald_step_combo__missing_center__old_resize": {
+   "paper": "paper/au18k_emerald_step_combo__missing_center__old_resize.png",
+   "items": "items/au18k_emerald_step_combo__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_step_repaired__missing_center__old_resize": {
+   "paper": "paper/au18k_emerald_step_repaired__missing_center__old_resize.png",
+   "items": "items/au18k_emerald_step_repaired__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_emerald_step_combo__missing_center__old_resize"
+  },
+  "au18k_emerald_step_combo__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/au18k_emerald_step_combo__loose_prong__shank_dent__old_resize.png",
+   "items": "items/au18k_emerald_step_combo__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_step_repaired__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/au18k_emerald_step_repaired__loose_prong__shank_dent__old_resize.png",
+   "items": "items/au18k_emerald_step_repaired__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_emerald_step_combo__loose_prong__shank_dent__old_resize"
+  },
+  "ag925_diamond_round_intact": {
+   "paper": "paper/ag925_diamond_round_intact.png",
+   "items": "items/ag925_diamond_round_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_loose_prong": {
+   "paper": "paper/ag925_diamond_round_loose_prong.png",
+   "items": "items/ag925_diamond_round_loose_prong.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_shank_dent": {
+   "paper": "paper/ag925_diamond_round_shank_dent.png",
+   "items": "items/ag925_diamond_round_shank_dent.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_missing_center": {
+   "paper": "paper/ag925_diamond_round_missing_center.png",
+   "items": "items/ag925_diamond_round_missing_center.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_tool_scars": {
+   "paper": "paper/ag925_diamond_round_tool_scars.png",
+   "items": "items/ag925_diamond_round_tool_scars.png",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_old_resize": {
+   "paper": "paper/ag925_diamond_round_old_resize.png",
+   "items": "items/ag925_diamond_round_old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_combo__loose_prong__old_resize": {
+   "paper": "paper/ag925_diamond_round_combo__loose_prong__old_resize.png",
+   "items": "items/ag925_diamond_round_combo__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_repaired__loose_prong__old_resize": {
+   "paper": "paper/ag925_diamond_round_repaired__loose_prong__old_resize.png",
+   "items": "items/ag925_diamond_round_repaired__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_round_combo__loose_prong__old_resize"
+  },
+  "ag925_diamond_round_combo__shank_dent__old_resize": {
+   "paper": "paper/ag925_diamond_round_combo__shank_dent__old_resize.png",
+   "items": "items/ag925_diamond_round_combo__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_repaired__shank_dent__old_resize": {
+   "paper": "paper/ag925_diamond_round_repaired__shank_dent__old_resize.png",
+   "items": "items/ag925_diamond_round_repaired__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_round_combo__shank_dent__old_resize"
+  },
+  "ag925_diamond_round_combo__missing_center__old_resize": {
+   "paper": "paper/ag925_diamond_round_combo__missing_center__old_resize.png",
+   "items": "items/ag925_diamond_round_combo__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_repaired__missing_center__old_resize": {
+   "paper": "paper/ag925_diamond_round_repaired__missing_center__old_resize.png",
+   "items": "items/ag925_diamond_round_repaired__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_round_combo__missing_center__old_resize"
+  },
+  "ag925_diamond_round_combo__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/ag925_diamond_round_combo__loose_prong__shank_dent__old_resize.png",
+   "items": "items/ag925_diamond_round_combo__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_repaired__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/ag925_diamond_round_repaired__loose_prong__shank_dent__old_resize.png",
+   "items": "items/ag925_diamond_round_repaired__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_round_combo__loose_prong__shank_dent__old_resize"
+  },
+  "ag925_diamond_princess_intact": {
+   "paper": "paper/ag925_diamond_princess_intact.png",
+   "items": "items/ag925_diamond_princess_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_diamond_princess_loose_prong": {
+   "paper": "paper/ag925_diamond_princess_loose_prong.png",
+   "items": "items/ag925_diamond_princess_loose_prong.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_princess_shank_dent": {
+   "paper": "paper/ag925_diamond_princess_shank_dent.png",
+   "items": "items/ag925_diamond_princess_shank_dent.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_princess_missing_center": {
+   "paper": "paper/ag925_diamond_princess_missing_center.png",
+   "items": "items/ag925_diamond_princess_missing_center.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_princess_tool_scars": {
+   "paper": "paper/ag925_diamond_princess_tool_scars.png",
+   "items": "items/ag925_diamond_princess_tool_scars.png",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_princess_old_resize": {
+   "paper": "paper/ag925_diamond_princess_old_resize.png",
+   "items": "items/ag925_diamond_princess_old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_princess_combo__loose_prong__old_resize": {
+   "paper": "paper/ag925_diamond_princess_combo__loose_prong__old_resize.png",
+   "items": "items/ag925_diamond_princess_combo__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_princess_repaired__loose_prong__old_resize": {
+   "paper": "paper/ag925_diamond_princess_repaired__loose_prong__old_resize.png",
+   "items": "items/ag925_diamond_princess_repaired__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_princess_combo__loose_prong__old_resize"
+  },
+  "ag925_diamond_princess_combo__shank_dent__old_resize": {
+   "paper": "paper/ag925_diamond_princess_combo__shank_dent__old_resize.png",
+   "items": "items/ag925_diamond_princess_combo__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_princess_repaired__shank_dent__old_resize": {
+   "paper": "paper/ag925_diamond_princess_repaired__shank_dent__old_resize.png",
+   "items": "items/ag925_diamond_princess_repaired__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_princess_combo__shank_dent__old_resize"
+  },
+  "ag925_diamond_princess_combo__missing_center__old_resize": {
+   "paper": "paper/ag925_diamond_princess_combo__missing_center__old_resize.png",
+   "items": "items/ag925_diamond_princess_combo__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_princess_repaired__missing_center__old_resize": {
+   "paper": "paper/ag925_diamond_princess_repaired__missing_center__old_resize.png",
+   "items": "items/ag925_diamond_princess_repaired__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_princess_combo__missing_center__old_resize"
+  },
+  "ag925_diamond_princess_combo__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/ag925_diamond_princess_combo__loose_prong__shank_dent__old_resize.png",
+   "items": "items/ag925_diamond_princess_combo__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_princess_repaired__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/ag925_diamond_princess_repaired__loose_prong__shank_dent__old_resize.png",
+   "items": "items/ag925_diamond_princess_repaired__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_princess_combo__loose_prong__shank_dent__old_resize"
+  },
+  "ag925_ruby_oval_intact": {
+   "paper": "paper/ag925_ruby_oval_intact.png",
+   "items": "items/ag925_ruby_oval_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_loose_prong": {
+   "paper": "paper/ag925_ruby_oval_loose_prong.png",
+   "items": "items/ag925_ruby_oval_loose_prong.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_shank_dent": {
+   "paper": "paper/ag925_ruby_oval_shank_dent.png",
+   "items": "items/ag925_ruby_oval_shank_dent.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_missing_center": {
+   "paper": "paper/ag925_ruby_oval_missing_center.png",
+   "items": "items/ag925_ruby_oval_missing_center.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_tool_scars": {
+   "paper": "paper/ag925_ruby_oval_tool_scars.png",
+   "items": "items/ag925_ruby_oval_tool_scars.png",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_old_resize": {
+   "paper": "paper/ag925_ruby_oval_old_resize.png",
+   "items": "items/ag925_ruby_oval_old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_combo__loose_prong__old_resize": {
+   "paper": "paper/ag925_ruby_oval_combo__loose_prong__old_resize.png",
+   "items": "items/ag925_ruby_oval_combo__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_repaired__loose_prong__old_resize": {
+   "paper": "paper/ag925_ruby_oval_repaired__loose_prong__old_resize.png",
+   "items": "items/ag925_ruby_oval_repaired__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_ruby_oval_combo__loose_prong__old_resize"
+  },
+  "ag925_ruby_oval_combo__shank_dent__old_resize": {
+   "paper": "paper/ag925_ruby_oval_combo__shank_dent__old_resize.png",
+   "items": "items/ag925_ruby_oval_combo__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_repaired__shank_dent__old_resize": {
+   "paper": "paper/ag925_ruby_oval_repaired__shank_dent__old_resize.png",
+   "items": "items/ag925_ruby_oval_repaired__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_ruby_oval_combo__shank_dent__old_resize"
+  },
+  "ag925_ruby_oval_combo__missing_center__old_resize": {
+   "paper": "paper/ag925_ruby_oval_combo__missing_center__old_resize.png",
+   "items": "items/ag925_ruby_oval_combo__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_repaired__missing_center__old_resize": {
+   "paper": "paper/ag925_ruby_oval_repaired__missing_center__old_resize.png",
+   "items": "items/ag925_ruby_oval_repaired__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_ruby_oval_combo__missing_center__old_resize"
+  },
+  "ag925_ruby_oval_combo__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/ag925_ruby_oval_combo__loose_prong__shank_dent__old_resize.png",
+   "items": "items/ag925_ruby_oval_combo__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_repaired__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/ag925_ruby_oval_repaired__loose_prong__shank_dent__old_resize.png",
+   "items": "items/ag925_ruby_oval_repaired__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_ruby_oval_combo__loose_prong__shank_dent__old_resize"
+  },
+  "ag925_sapphire_oval_intact": {
+   "paper": "paper/ag925_sapphire_oval_intact.png",
+   "items": "items/ag925_sapphire_oval_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_oval_loose_prong": {
+   "paper": "paper/ag925_sapphire_oval_loose_prong.png",
+   "items": "items/ag925_sapphire_oval_loose_prong.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_oval_shank_dent": {
+   "paper": "paper/ag925_sapphire_oval_shank_dent.png",
+   "items": "items/ag925_sapphire_oval_shank_dent.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_oval_missing_center": {
+   "paper": "paper/ag925_sapphire_oval_missing_center.png",
+   "items": "items/ag925_sapphire_oval_missing_center.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_oval_tool_scars": {
+   "paper": "paper/ag925_sapphire_oval_tool_scars.png",
+   "items": "items/ag925_sapphire_oval_tool_scars.png",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_oval_old_resize": {
+   "paper": "paper/ag925_sapphire_oval_old_resize.png",
+   "items": "items/ag925_sapphire_oval_old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_oval_combo__loose_prong__old_resize": {
+   "paper": "paper/ag925_sapphire_oval_combo__loose_prong__old_resize.png",
+   "items": "items/ag925_sapphire_oval_combo__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_oval_repaired__loose_prong__old_resize": {
+   "paper": "paper/ag925_sapphire_oval_repaired__loose_prong__old_resize.png",
+   "items": "items/ag925_sapphire_oval_repaired__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_sapphire_oval_combo__loose_prong__old_resize"
+  },
+  "ag925_sapphire_oval_combo__shank_dent__old_resize": {
+   "paper": "paper/ag925_sapphire_oval_combo__shank_dent__old_resize.png",
+   "items": "items/ag925_sapphire_oval_combo__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_oval_repaired__shank_dent__old_resize": {
+   "paper": "paper/ag925_sapphire_oval_repaired__shank_dent__old_resize.png",
+   "items": "items/ag925_sapphire_oval_repaired__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_sapphire_oval_combo__shank_dent__old_resize"
+  },
+  "ag925_sapphire_oval_combo__missing_center__old_resize": {
+   "paper": "paper/ag925_sapphire_oval_combo__missing_center__old_resize.png",
+   "items": "items/ag925_sapphire_oval_combo__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_oval_repaired__missing_center__old_resize": {
+   "paper": "paper/ag925_sapphire_oval_repaired__missing_center__old_resize.png",
+   "items": "items/ag925_sapphire_oval_repaired__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_sapphire_oval_combo__missing_center__old_resize"
+  },
+  "ag925_sapphire_oval_combo__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/ag925_sapphire_oval_combo__loose_prong__shank_dent__old_resize.png",
+   "items": "items/ag925_sapphire_oval_combo__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_oval_repaired__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/ag925_sapphire_oval_repaired__loose_prong__shank_dent__old_resize.png",
+   "items": "items/ag925_sapphire_oval_repaired__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_sapphire_oval_combo__loose_prong__shank_dent__old_resize"
+  },
+  "ag925_emerald_step_intact": {
+   "paper": "paper/ag925_emerald_step_intact.png",
+   "items": "items/ag925_emerald_step_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_emerald_step_loose_prong": {
+   "paper": "paper/ag925_emerald_step_loose_prong.png",
+   "items": "items/ag925_emerald_step_loose_prong.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_step_shank_dent": {
+   "paper": "paper/ag925_emerald_step_shank_dent.png",
+   "items": "items/ag925_emerald_step_shank_dent.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_step_missing_center": {
+   "paper": "paper/ag925_emerald_step_missing_center.png",
+   "items": "items/ag925_emerald_step_missing_center.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_step_tool_scars": {
+   "paper": "paper/ag925_emerald_step_tool_scars.png",
+   "items": "items/ag925_emerald_step_tool_scars.png",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_step_old_resize": {
+   "paper": "paper/ag925_emerald_step_old_resize.png",
+   "items": "items/ag925_emerald_step_old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_step_combo__loose_prong__old_resize": {
+   "paper": "paper/ag925_emerald_step_combo__loose_prong__old_resize.png",
+   "items": "items/ag925_emerald_step_combo__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_step_repaired__loose_prong__old_resize": {
+   "paper": "paper/ag925_emerald_step_repaired__loose_prong__old_resize.png",
+   "items": "items/ag925_emerald_step_repaired__loose_prong__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_emerald_step_combo__loose_prong__old_resize"
+  },
+  "ag925_emerald_step_combo__shank_dent__old_resize": {
+   "paper": "paper/ag925_emerald_step_combo__shank_dent__old_resize.png",
+   "items": "items/ag925_emerald_step_combo__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_step_repaired__shank_dent__old_resize": {
+   "paper": "paper/ag925_emerald_step_repaired__shank_dent__old_resize.png",
+   "items": "items/ag925_emerald_step_repaired__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_emerald_step_combo__shank_dent__old_resize"
+  },
+  "ag925_emerald_step_combo__missing_center__old_resize": {
+   "paper": "paper/ag925_emerald_step_combo__missing_center__old_resize.png",
+   "items": "items/ag925_emerald_step_combo__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_step_repaired__missing_center__old_resize": {
+   "paper": "paper/ag925_emerald_step_repaired__missing_center__old_resize.png",
+   "items": "items/ag925_emerald_step_repaired__missing_center__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_emerald_step_combo__missing_center__old_resize"
+  },
+  "ag925_emerald_step_combo__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/ag925_emerald_step_combo__loose_prong__shank_dent__old_resize.png",
+   "items": "items/ag925_emerald_step_combo__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_step_repaired__loose_prong__shank_dent__old_resize": {
+   "paper": "paper/ag925_emerald_step_repaired__loose_prong__shank_dent__old_resize.png",
+   "items": "items/ag925_emerald_step_repaired__loose_prong__shank_dent__old_resize.png",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_emerald_step_combo__loose_prong__shank_dent__old_resize"
+  }
+ },
+ "template_checks": {
+  "au18k_diamond_round_sp4_jewelry_ring_loose_prong": {
+   "paper": {
+    "changed_px": 248,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     198,
+     66,
+     222,
+     86
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 13,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     17,
+     39,
+     22
+    ]
+   }
+  },
+  "au18k_diamond_round_sp4_jewelry_ring_shank_dent": {
+   "paper": {
+    "changed_px": 332,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     188,
+     224,
+     216,
+     240
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     32,
+     56,
+     39,
+     60
+    ]
+   }
+  },
+  "au18k_diamond_round_sp4_jewelry_ring_missing_center": {
+   "paper": {
+    "changed_px": 3348,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     158,
+     24,
+     226,
+     94
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 223,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     23,
+     6,
+     41,
+     24
+    ]
+   }
+  },
+  "au18k_diamond_round_sp4_jewelry_ring_tool_scars": {
+   "paper": {
+    "changed_px": 100,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     124,
+     146,
+     136
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     30,
+     20,
+     36
+    ]
+   }
+  },
+  "au18k_diamond_round_sp4_jewelry_ring_old_resize": {
+   "paper": {
+    "changed_px": 68,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     200,
+     148,
+     214
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     51,
+     22,
+     54
+    ]
+   }
+  },
+  "au18k_diamond_princess_sp4_jewelry_ring_loose_prong": {
+   "paper": {
+    "changed_px": 256,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     198,
+     66,
+     222,
+     86
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 13,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     17,
+     39,
+     22
+    ]
+   }
+  },
+  "au18k_diamond_princess_sp4_jewelry_ring_shank_dent": {
+   "paper": {
+    "changed_px": 332,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     188,
+     224,
+     216,
+     240
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     32,
+     56,
+     39,
+     60
+    ]
+   }
+  },
+  "au18k_diamond_princess_sp4_jewelry_ring_missing_center": {
+   "paper": {
+    "changed_px": 3128,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     162,
+     28,
+     222,
+     88
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 209,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     24,
+     7,
+     40,
+     22
+    ]
+   }
+  },
+  "au18k_diamond_princess_sp4_jewelry_ring_tool_scars": {
+   "paper": {
+    "changed_px": 100,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     124,
+     146,
+     136
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     30,
+     20,
+     36
+    ]
+   }
+  },
+  "au18k_diamond_princess_sp4_jewelry_ring_old_resize": {
+   "paper": {
+    "changed_px": 68,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     200,
+     148,
+     214
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     51,
+     22,
+     54
+    ]
+   }
+  },
+  "au18k_ruby_oval_sp4_jewelry_ring_loose_prong": {
+   "paper": {
+    "changed_px": 196,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     198,
+     66,
+     220,
+     82
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 10,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     17,
+     38,
+     21
+    ]
+   }
+  },
+  "au18k_ruby_oval_sp4_jewelry_ring_shank_dent": {
+   "paper": {
+    "changed_px": 332,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     188,
+     224,
+     216,
+     240
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     32,
+     56,
+     39,
+     60
+    ]
+   }
+  },
+  "au18k_ruby_oval_sp4_jewelry_ring_missing_center": {
+   "paper": {
+    "changed_px": 2592,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     158,
+     32,
+     226,
+     84
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 173,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     23,
+     8,
+     41,
+     21
+    ]
+   }
+  },
+  "au18k_ruby_oval_sp4_jewelry_ring_tool_scars": {
+   "paper": {
+    "changed_px": 100,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     124,
+     146,
+     136
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     30,
+     20,
+     36
+    ]
+   }
+  },
+  "au18k_ruby_oval_sp4_jewelry_ring_old_resize": {
+   "paper": {
+    "changed_px": 68,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     200,
+     148,
+     214
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     51,
+     22,
+     54
+    ]
+   }
+  },
+  "au18k_sapphire_oval_sp4_jewelry_ring_loose_prong": {
+   "paper": {
+    "changed_px": 196,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     198,
+     66,
+     220,
+     82
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 10,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     17,
+     38,
+     21
+    ]
+   }
+  },
+  "au18k_sapphire_oval_sp4_jewelry_ring_shank_dent": {
+   "paper": {
+    "changed_px": 332,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     188,
+     224,
+     216,
+     240
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     32,
+     56,
+     39,
+     60
+    ]
+   }
+  },
+  "au18k_sapphire_oval_sp4_jewelry_ring_missing_center": {
+   "paper": {
+    "changed_px": 2592,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     158,
+     32,
+     226,
+     84
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 173,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     23,
+     8,
+     41,
+     21
+    ]
+   }
+  },
+  "au18k_sapphire_oval_sp4_jewelry_ring_tool_scars": {
+   "paper": {
+    "changed_px": 100,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     124,
+     146,
+     136
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     30,
+     20,
+     36
+    ]
+   }
+  },
+  "au18k_sapphire_oval_sp4_jewelry_ring_old_resize": {
+   "paper": {
+    "changed_px": 68,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     200,
+     148,
+     214
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     51,
+     22,
+     54
+    ]
+   }
+  },
+  "au18k_emerald_step_sp4_jewelry_ring_loose_prong": {
+   "paper": {
+    "changed_px": 232,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     198,
+     66,
+     218,
+     86
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 13,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     17,
+     39,
+     22
+    ]
+   }
+  },
+  "au18k_emerald_step_sp4_jewelry_ring_shank_dent": {
+   "paper": {
+    "changed_px": 332,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     188,
+     224,
+     216,
+     240
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     32,
+     56,
+     39,
+     60
+    ]
+   }
+  },
+  "au18k_emerald_step_sp4_jewelry_ring_missing_center": {
+   "paper": {
+    "changed_px": 2996,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     166,
+     26,
+     218,
+     92
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 201,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     25,
+     6,
+     39,
+     23
+    ]
+   }
+  },
+  "au18k_emerald_step_sp4_jewelry_ring_tool_scars": {
+   "paper": {
+    "changed_px": 100,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     124,
+     146,
+     136
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     30,
+     20,
+     36
+    ]
+   }
+  },
+  "au18k_emerald_step_sp4_jewelry_ring_old_resize": {
+   "paper": {
+    "changed_px": 68,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     200,
+     148,
+     214
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     51,
+     22,
+     54
+    ]
+   }
+  },
+  "ag925_diamond_round_sp4_jewelry_ring_loose_prong": {
+   "paper": {
+    "changed_px": 248,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     198,
+     66,
+     222,
+     86
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 13,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     17,
+     39,
+     22
+    ]
+   }
+  },
+  "ag925_diamond_round_sp4_jewelry_ring_shank_dent": {
+   "paper": {
+    "changed_px": 332,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     188,
+     224,
+     216,
+     240
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     32,
+     56,
+     39,
+     60
+    ]
+   }
+  },
+  "ag925_diamond_round_sp4_jewelry_ring_missing_center": {
+   "paper": {
+    "changed_px": 3348,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     158,
+     24,
+     226,
+     94
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 223,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     23,
+     6,
+     41,
+     24
+    ]
+   }
+  },
+  "ag925_diamond_round_sp4_jewelry_ring_tool_scars": {
+   "paper": {
+    "changed_px": 100,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     124,
+     146,
+     136
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     30,
+     20,
+     36
+    ]
+   }
+  },
+  "ag925_diamond_round_sp4_jewelry_ring_old_resize": {
+   "paper": {
+    "changed_px": 68,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     200,
+     148,
+     214
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     51,
+     22,
+     54
+    ]
+   }
+  },
+  "ag925_diamond_princess_sp4_jewelry_ring_loose_prong": {
+   "paper": {
+    "changed_px": 256,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     198,
+     66,
+     222,
+     86
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 13,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     17,
+     39,
+     22
+    ]
+   }
+  },
+  "ag925_diamond_princess_sp4_jewelry_ring_shank_dent": {
+   "paper": {
+    "changed_px": 332,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     188,
+     224,
+     216,
+     240
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     32,
+     56,
+     39,
+     60
+    ]
+   }
+  },
+  "ag925_diamond_princess_sp4_jewelry_ring_missing_center": {
+   "paper": {
+    "changed_px": 3128,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     162,
+     28,
+     222,
+     88
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 209,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     24,
+     7,
+     40,
+     22
+    ]
+   }
+  },
+  "ag925_diamond_princess_sp4_jewelry_ring_tool_scars": {
+   "paper": {
+    "changed_px": 100,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     124,
+     146,
+     136
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     30,
+     20,
+     36
+    ]
+   }
+  },
+  "ag925_diamond_princess_sp4_jewelry_ring_old_resize": {
+   "paper": {
+    "changed_px": 68,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     200,
+     148,
+     214
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     51,
+     22,
+     54
+    ]
+   }
+  },
+  "ag925_ruby_oval_sp4_jewelry_ring_loose_prong": {
+   "paper": {
+    "changed_px": 196,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     198,
+     66,
+     220,
+     82
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 10,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     17,
+     38,
+     21
+    ]
+   }
+  },
+  "ag925_ruby_oval_sp4_jewelry_ring_shank_dent": {
+   "paper": {
+    "changed_px": 332,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     188,
+     224,
+     216,
+     240
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     32,
+     56,
+     39,
+     60
+    ]
+   }
+  },
+  "ag925_ruby_oval_sp4_jewelry_ring_missing_center": {
+   "paper": {
+    "changed_px": 2592,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     158,
+     32,
+     226,
+     84
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 173,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     23,
+     8,
+     41,
+     21
+    ]
+   }
+  },
+  "ag925_ruby_oval_sp4_jewelry_ring_tool_scars": {
+   "paper": {
+    "changed_px": 100,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     124,
+     146,
+     136
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     30,
+     20,
+     36
+    ]
+   }
+  },
+  "ag925_ruby_oval_sp4_jewelry_ring_old_resize": {
+   "paper": {
+    "changed_px": 68,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     200,
+     148,
+     214
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     51,
+     22,
+     54
+    ]
+   }
+  },
+  "ag925_sapphire_oval_sp4_jewelry_ring_loose_prong": {
+   "paper": {
+    "changed_px": 196,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     198,
+     66,
+     220,
+     82
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 10,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     17,
+     38,
+     21
+    ]
+   }
+  },
+  "ag925_sapphire_oval_sp4_jewelry_ring_shank_dent": {
+   "paper": {
+    "changed_px": 332,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     188,
+     224,
+     216,
+     240
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     32,
+     56,
+     39,
+     60
+    ]
+   }
+  },
+  "ag925_sapphire_oval_sp4_jewelry_ring_missing_center": {
+   "paper": {
+    "changed_px": 2592,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     158,
+     32,
+     226,
+     84
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 173,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     23,
+     8,
+     41,
+     21
+    ]
+   }
+  },
+  "ag925_sapphire_oval_sp4_jewelry_ring_tool_scars": {
+   "paper": {
+    "changed_px": 100,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     124,
+     146,
+     136
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     30,
+     20,
+     36
+    ]
+   }
+  },
+  "ag925_sapphire_oval_sp4_jewelry_ring_old_resize": {
+   "paper": {
+    "changed_px": 68,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     200,
+     148,
+     214
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     51,
+     22,
+     54
+    ]
+   }
+  },
+  "ag925_emerald_step_sp4_jewelry_ring_loose_prong": {
+   "paper": {
+    "changed_px": 232,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     198,
+     66,
+     218,
+     86
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 13,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     17,
+     39,
+     22
+    ]
+   }
+  },
+  "ag925_emerald_step_sp4_jewelry_ring_shank_dent": {
+   "paper": {
+    "changed_px": 332,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     188,
+     224,
+     216,
+     240
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     32,
+     56,
+     39,
+     60
+    ]
+   }
+  },
+  "ag925_emerald_step_sp4_jewelry_ring_missing_center": {
+   "paper": {
+    "changed_px": 2996,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     166,
+     26,
+     218,
+     92
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 201,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     25,
+     6,
+     39,
+     23
+    ]
+   }
+  },
+  "ag925_emerald_step_sp4_jewelry_ring_tool_scars": {
+   "paper": {
+    "changed_px": 100,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     124,
+     146,
+     136
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     30,
+     20,
+     36
+    ]
+   }
+  },
+  "ag925_emerald_step_sp4_jewelry_ring_old_resize": {
+   "paper": {
+    "changed_px": 68,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     200,
+     148,
+     214
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     51,
+     22,
+     54
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

@@ -1,0 +1,2652 @@
+{
+ "manual": "manual_metals",
+ "page_size": [
+  440,
+  616
+ ],
+ "page_count": 34,
+ "style_spec": "art/VANILLA_HANDBOOK_SPEC_04.txt",
+ "pages": [
+  {
+   "manual": "manual_metals",
+   "page": 0,
+   "kind": "index",
+   "template": "ui/handbook_page/index.png",
+   "previous": null,
+   "next": 1,
+   "entries": [
+    {
+     "category": "gold_ring",
+     "subtype": "all_models",
+     "first_page": 1,
+     "loc_key": "sp4.handbook.manual_metals.index.gold_ring.all_models"
+    },
+    {
+     "category": "gold_bracelet",
+     "subtype": "all_models",
+     "first_page": 4,
+     "loc_key": "sp4.handbook.manual_metals.index.gold_bracelet.all_models"
+    },
+    {
+     "category": "gold_necklace",
+     "subtype": "all_models",
+     "first_page": 7,
+     "loc_key": "sp4.handbook.manual_metals.index.gold_necklace.all_models"
+    },
+    {
+     "category": "gold_earrings",
+     "subtype": "all_models",
+     "first_page": 10,
+     "loc_key": "sp4.handbook.manual_metals.index.gold_earrings.all_models"
+    },
+    {
+     "category": "gold_bar",
+     "subtype": "all_models",
+     "first_page": 13,
+     "loc_key": "sp4.handbook.manual_metals.index.gold_bar.all_models"
+    },
+    {
+     "category": "silver_ring",
+     "subtype": "all_models",
+     "first_page": 16,
+     "loc_key": "sp4.handbook.manual_metals.index.silver_ring.all_models"
+    },
+    {
+     "category": "silver_bracelet",
+     "subtype": "all_models",
+     "first_page": 19,
+     "loc_key": "sp4.handbook.manual_metals.index.silver_bracelet.all_models"
+    },
+    {
+     "category": "silver_necklace",
+     "subtype": "all_models",
+     "first_page": 22,
+     "loc_key": "sp4.handbook.manual_metals.index.silver_necklace.all_models"
+    },
+    {
+     "category": "silver_earrings",
+     "subtype": "all_models",
+     "first_page": 25,
+     "loc_key": "sp4.handbook.manual_metals.index.silver_earrings.all_models"
+    },
+    {
+     "category": "silver_bar",
+     "subtype": "all_models",
+     "first_page": 28,
+     "loc_key": "sp4.handbook.manual_metals.index.silver_bar.all_models"
+    },
+    {
+     "category": "silver_cup",
+     "subtype": "all_models",
+     "first_page": 31,
+     "loc_key": "sp4.handbook.manual_metals.index.silver_cup.all_models"
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_00.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 1,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_ring",
+   "subtype": "all_models",
+   "previous": 0,
+   "next": 2,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_ring_outer_scrape",
+     "label_en": "Outer-band gouge",
+     "category": "gold_ring",
+     "subtype": "all_models",
+     "example_asset_key": "gold_ring_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "polish",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/gold_ring_orbit/paper/intact.png",
+      "crop_px": [
+       101,
+       148,
+       181,
+       200
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_ring_orbit/paper/outer_scrape.png",
+      "crop_px": [
+       101,
+       148,
+       181,
+       200
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_ring_outer_scrape.heading",
+      "body": "sp4.handbook.sp4_gold_ring_outer_scrape.body",
+      "limits": "sp4.handbook.sp4_gold_ring_outer_scrape.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_ring_outer_scrape.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_ring_outer_scrape.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gold_ring_band_dent",
+     "label_en": "Compressed band",
+     "category": "gold_ring",
+     "subtype": "all_models",
+     "example_asset_key": "gold_ring_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/gold_ring_orbit/paper/intact.png",
+      "crop_px": [
+       166,
+       166,
+       246,
+       218
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gold_ring_orbit/paper/band_dent.png",
+      "crop_px": [
+       166,
+       166,
+       246,
+       218
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_ring_band_dent.heading",
+      "body": "sp4.handbook.sp4_gold_ring_band_dent.body",
+      "limits": "sp4.handbook.sp4_gold_ring_band_dent.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_ring_band_dent.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_ring_band_dent.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_01.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 2,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_ring",
+   "subtype": "all_models",
+   "previous": 1,
+   "next": 3,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_ring_band_fissure",
+     "label_en": "Band fissure",
+     "category": "gold_ring",
+     "subtype": "all_models",
+     "example_asset_key": "gold_ring_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "weld",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/gold_ring_orbit/paper/intact.png",
+      "crop_px": [
+       185,
+       157,
+       265,
+       209
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_ring_orbit/paper/band_fissure.png",
+      "crop_px": [
+       185,
+       157,
+       265,
+       209
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_ring_band_fissure.heading",
+      "body": "sp4.handbook.sp4_gold_ring_band_fissure.body",
+      "limits": "sp4.handbook.sp4_gold_ring_band_fissure.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_ring_band_fissure.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_ring_band_fissure.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gold_ring_exposed_core",
+     "label_en": "Ring plating breach",
+     "category": "gold_ring",
+     "subtype": "all_models",
+     "example_asset_key": "gold_ring_orbit",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/gold_ring_orbit/paper/intact.png",
+      "crop_px": [
+       133,
+       162,
+       213,
+       214
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gold_ring_orbit/paper/exposed_core.png",
+      "crop_px": [
+       133,
+       162,
+       213,
+       214
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_ring_exposed_core.heading",
+      "body": "sp4.handbook.sp4_gold_ring_exposed_core.body",
+      "limits": "sp4.handbook.sp4_gold_ring_exposed_core.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_ring_exposed_core.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_ring_exposed_core.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_02.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 3,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_ring",
+   "subtype": "all_models",
+   "previous": 2,
+   "next": 4,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_ring_solder_join",
+     "label_en": "Previous band enlargement",
+     "category": "gold_ring",
+     "subtype": "all_models",
+     "example_asset_key": "gold_ring_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/gold_ring_orbit/paper/intact.png",
+      "crop_px": [
+       204,
+       58,
+       244,
+       84
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_ring_orbit/paper/solder_join.png",
+      "crop_px": [
+       204,
+       58,
+       244,
+       84
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_ring_solder_join.heading",
+      "body": "sp4.handbook.sp4_gold_ring_solder_join.body",
+      "limits": "sp4.handbook.sp4_gold_ring_solder_join.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_ring_solder_join.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_ring_solder_join.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_03.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 4,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_bracelet",
+   "subtype": "all_models",
+   "previous": 3,
+   "next": 5,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_bracelet_arc_gouge",
+     "label_en": "Bracelet arc gouge",
+     "category": "gold_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "gold_bracelet_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "polish",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/gold_bracelet_orbit/paper/intact.png",
+      "crop_px": [
+       101,
+       152,
+       181,
+       204
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_bracelet_orbit/paper/arc_gouge.png",
+      "crop_px": [
+       101,
+       152,
+       181,
+       204
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_bracelet_arc_gouge.heading",
+      "body": "sp4.handbook.sp4_gold_bracelet_arc_gouge.body",
+      "limits": "sp4.handbook.sp4_gold_bracelet_arc_gouge.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_bracelet_arc_gouge.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_bracelet_arc_gouge.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gold_bracelet_flattened_arc",
+     "label_en": "Flattened bracelet arc",
+     "category": "gold_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "gold_bracelet_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/gold_bracelet_orbit/paper/intact.png",
+      "crop_px": [
+       304,
+       103,
+       384,
+       155
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gold_bracelet_orbit/paper/flattened_arc.png",
+      "crop_px": [
+       304,
+       103,
+       384,
+       155
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_bracelet_flattened_arc.heading",
+      "body": "sp4.handbook.sp4_gold_bracelet_flattened_arc.body",
+      "limits": "sp4.handbook.sp4_gold_bracelet_flattened_arc.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_bracelet_flattened_arc.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_bracelet_flattened_arc.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_04.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 5,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_bracelet",
+   "subtype": "all_models",
+   "previous": 4,
+   "next": 6,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_bracelet_rim_fissure",
+     "label_en": "Bracelet rim fissure",
+     "category": "gold_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "gold_bracelet_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "weld",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/gold_bracelet_orbit/paper/intact.png",
+      "crop_px": [
+       60,
+       142,
+       140,
+       194
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_bracelet_orbit/paper/rim_fissure.png",
+      "crop_px": [
+       60,
+       142,
+       140,
+       194
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_bracelet_rim_fissure.heading",
+      "body": "sp4.handbook.sp4_gold_bracelet_rim_fissure.body",
+      "limits": "sp4.handbook.sp4_gold_bracelet_rim_fissure.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_bracelet_rim_fissure.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_bracelet_rim_fissure.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gold_bracelet_inner_plating",
+     "label_en": "Inner-arc plating breach",
+     "category": "gold_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "gold_bracelet_orbit",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/gold_bracelet_orbit/paper/intact.png",
+      "crop_px": [
+       122,
+       2,
+       282,
+       106
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gold_bracelet_orbit/paper/inner_plating.png",
+      "crop_px": [
+       122,
+       2,
+       282,
+       106
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_bracelet_inner_plating.heading",
+      "body": "sp4.handbook.sp4_gold_bracelet_inner_plating.body",
+      "limits": "sp4.handbook.sp4_gold_bracelet_inner_plating.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_bracelet_inner_plating.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_bracelet_inner_plating.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_05.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 6,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_bracelet",
+   "subtype": "all_models",
+   "previous": 5,
+   "next": 7,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_bracelet_joined_arc",
+     "label_en": "Resoldered bracelet joint",
+     "category": "gold_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "gold_bracelet_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/gold_bracelet_orbit/paper/intact.png",
+      "crop_px": [
+       238,
+       143,
+       318,
+       195
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_bracelet_orbit/paper/joined_arc.png",
+      "crop_px": [
+       238,
+       143,
+       318,
+       195
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_bracelet_joined_arc.heading",
+      "body": "sp4.handbook.sp4_gold_bracelet_joined_arc.body",
+      "limits": "sp4.handbook.sp4_gold_bracelet_joined_arc.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_bracelet_joined_arc.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_bracelet_joined_arc.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_06.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 7,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_necklace",
+   "subtype": "all_models",
+   "previous": 6,
+   "next": 8,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_necklace_tangled_run",
+     "label_en": "Tangled chain run",
+     "category": "gold_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "gold_necklace_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "untangle",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/gold_necklace_orbit/paper/intact.png",
+      "crop_px": [
+       100,
+       132,
+       180,
+       184
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_necklace_orbit/paper/tangled_run.png",
+      "crop_px": [
+       100,
+       132,
+       180,
+       184
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_necklace_tangled_run.heading",
+      "body": "sp4.handbook.sp4_gold_necklace_tangled_run.body",
+      "limits": "sp4.handbook.sp4_gold_necklace_tangled_run.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_necklace_tangled_run.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_necklace_tangled_run.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gold_necklace_open_link",
+     "label_en": "Open chain link",
+     "category": "gold_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "gold_necklace_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "weld",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/gold_necklace_orbit/paper/intact.png",
+      "crop_px": [
+       171,
+       180,
+       211,
+       206
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gold_necklace_orbit/paper/open_link.png",
+      "crop_px": [
+       171,
+       180,
+       211,
+       206
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_necklace_open_link.heading",
+      "body": "sp4.handbook.sp4_gold_necklace_open_link.body",
+      "limits": "sp4.handbook.sp4_gold_necklace_open_link.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_necklace_open_link.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_necklace_open_link.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_07.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 8,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_necklace",
+   "subtype": "all_models",
+   "previous": 7,
+   "next": 9,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_necklace_clasp_jam",
+     "label_en": "Jammed clasp",
+     "category": "gold_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "gold_necklace_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "replace_clasp",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/gold_necklace_orbit/paper/intact.png",
+      "crop_px": [
+       205,
+       48,
+       245,
+       74
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_necklace_orbit/paper/clasp_jam.png",
+      "crop_px": [
+       205,
+       48,
+       245,
+       74
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_necklace_clasp_jam.heading",
+      "body": "sp4.handbook.sp4_gold_necklace_clasp_jam.body",
+      "limits": "sp4.handbook.sp4_gold_necklace_clasp_jam.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_necklace_clasp_jam.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_necklace_clasp_jam.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gold_necklace_link_plating",
+     "label_en": "Link plating breach",
+     "category": "gold_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "gold_necklace_orbit",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/gold_necklace_orbit/paper/intact.png",
+      "crop_px": [
+       229,
+       147,
+       269,
+       173
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gold_necklace_orbit/paper/link_plating.png",
+      "crop_px": [
+       229,
+       147,
+       269,
+       173
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_necklace_link_plating.heading",
+      "body": "sp4.handbook.sp4_gold_necklace_link_plating.body",
+      "limits": "sp4.handbook.sp4_gold_necklace_link_plating.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_necklace_link_plating.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_necklace_link_plating.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_08.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 9,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_necklace",
+   "subtype": "all_models",
+   "previous": 8,
+   "next": 10,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_necklace_soldered_link",
+     "label_en": "Previously soldered link",
+     "category": "gold_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "gold_necklace_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/gold_necklace_orbit/paper/intact.png",
+      "crop_px": [
+       126,
+       55,
+       166,
+       81
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_necklace_orbit/paper/soldered_link.png",
+      "crop_px": [
+       126,
+       55,
+       166,
+       81
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_necklace_soldered_link.heading",
+      "body": "sp4.handbook.sp4_gold_necklace_soldered_link.body",
+      "limits": "sp4.handbook.sp4_gold_necklace_soldered_link.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_necklace_soldered_link.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_necklace_soldered_link.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_09.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 10,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_earrings",
+   "subtype": "all_models",
+   "previous": 9,
+   "next": 11,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_earrings_bent_post",
+     "label_en": "Bent earring post",
+     "category": "gold_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "gold_earrings_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/gold_earrings_orbit/paper/intact.png",
+      "crop_px": [
+       250,
+       28,
+       330,
+       80
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_earrings_orbit/paper/bent_post.png",
+      "crop_px": [
+       250,
+       28,
+       330,
+       80
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_earrings_bent_post.heading",
+      "body": "sp4.handbook.sp4_gold_earrings_bent_post.body",
+      "limits": "sp4.handbook.sp4_gold_earrings_bent_post.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_earrings_bent_post.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_earrings_bent_post.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gold_earrings_split_loop",
+     "label_en": "Split hanging loop",
+     "category": "gold_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "gold_earrings_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "weld",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/gold_earrings_orbit/paper/intact.png",
+      "crop_px": [
+       91,
+       112,
+       131,
+       138
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gold_earrings_orbit/paper/split_loop.png",
+      "crop_px": [
+       91,
+       112,
+       131,
+       138
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_earrings_split_loop.heading",
+      "body": "sp4.handbook.sp4_gold_earrings_split_loop.body",
+      "limits": "sp4.handbook.sp4_gold_earrings_split_loop.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_earrings_split_loop.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_earrings_split_loop.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_10.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 11,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_earrings",
+   "subtype": "all_models",
+   "previous": 10,
+   "next": 12,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_earrings_loose_back",
+     "label_en": "Loose earring back",
+     "category": "gold_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "gold_earrings_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "replace_fastener",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/gold_earrings_orbit/paper/intact.png",
+      "crop_px": [
+       257,
+       174,
+       297,
+       200
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_earrings_orbit/paper/loose_back.png",
+      "crop_px": [
+       257,
+       174,
+       297,
+       200
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_earrings_loose_back.heading",
+      "body": "sp4.handbook.sp4_gold_earrings_loose_back.body",
+      "limits": "sp4.handbook.sp4_gold_earrings_loose_back.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_earrings_loose_back.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_earrings_loose_back.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gold_earrings_post_plating",
+     "label_en": "Earring plating breach",
+     "category": "gold_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "gold_earrings_orbit",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/gold_earrings_orbit/paper/intact.png",
+      "crop_px": [
+       86,
+       172,
+       166,
+       224
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gold_earrings_orbit/paper/post_plating.png",
+      "crop_px": [
+       86,
+       172,
+       166,
+       224
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_earrings_post_plating.heading",
+      "body": "sp4.handbook.sp4_gold_earrings_post_plating.body",
+      "limits": "sp4.handbook.sp4_gold_earrings_post_plating.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_earrings_post_plating.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_earrings_post_plating.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_11.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 12,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_earrings",
+   "subtype": "all_models",
+   "previous": 11,
+   "next": 13,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_earrings_repaired_mount",
+     "label_en": "Repaired post mount",
+     "category": "gold_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "gold_earrings_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/gold_earrings_orbit/paper/intact.png",
+      "crop_px": [
+       183,
+       45,
+       263,
+       97
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_earrings_orbit/paper/repaired_mount.png",
+      "crop_px": [
+       183,
+       45,
+       263,
+       97
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_earrings_repaired_mount.heading",
+      "body": "sp4.handbook.sp4_gold_earrings_repaired_mount.body",
+      "limits": "sp4.handbook.sp4_gold_earrings_repaired_mount.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_earrings_repaired_mount.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_earrings_repaired_mount.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_12.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 13,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_bar",
+   "subtype": "all_models",
+   "previous": 12,
+   "next": 14,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_bar_face_score",
+     "label_en": "Scored gold-bar face",
+     "category": "gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "gold_bar_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "polish",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/gold_bar_orbit/paper/intact.png",
+      "crop_px": [
+       52,
+       66,
+       132,
+       118
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_bar_orbit/paper/face_score.png",
+      "crop_px": [
+       52,
+       66,
+       132,
+       118
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_bar_face_score.heading",
+      "body": "sp4.handbook.sp4_gold_bar_face_score.body",
+      "limits": "sp4.handbook.sp4_gold_bar_face_score.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_bar_face_score.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_bar_face_score.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gold_bar_corner_impact",
+     "label_en": "Impacted gold-bar corner",
+     "category": "gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "gold_bar_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/gold_bar_orbit/paper/intact.png",
+      "crop_px": [
+       303,
+       164,
+       343,
+       190
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gold_bar_orbit/paper/corner_impact.png",
+      "crop_px": [
+       303,
+       164,
+       343,
+       190
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_bar_corner_impact.heading",
+      "body": "sp4.handbook.sp4_gold_bar_corner_impact.body",
+      "limits": "sp4.handbook.sp4_gold_bar_corner_impact.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_bar_corner_impact.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_bar_corner_impact.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_13.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 14,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_bar",
+   "subtype": "all_models",
+   "previous": 13,
+   "next": 15,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_bar_seam_core",
+     "label_en": "Filled gold-bar seam",
+     "category": "gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "gold_bar_orbit",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/gold_bar_orbit/paper/intact.png",
+      "crop_px": [
+       93,
+       127,
+       253,
+       231
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_bar_orbit/paper/seam_core.png",
+      "crop_px": [
+       93,
+       127,
+       253,
+       231
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_bar_seam_core.heading",
+      "body": "sp4.handbook.sp4_gold_bar_seam_core.body",
+      "limits": "sp4.handbook.sp4_gold_bar_seam_core.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_bar_seam_core.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_bar_seam_core.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gold_bar_short_measure",
+     "label_en": "Short-weight gold bar",
+     "category": "gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "gold_bar_orbit",
+     "view": "instrument_reading",
+     "instrument": "scale",
+     "repair_class": "none",
+     "economic_channel": "mass_disclosure",
+     "reference": {
+      "layer": "items/gold_bar_orbit/paper/intact.png",
+      "crop_px": null,
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gold_bar_orbit/layers/paper/reading_example_short_measure.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_bar_short_measure.heading",
+      "body": "sp4.handbook.sp4_gold_bar_short_measure.body",
+      "limits": "sp4.handbook.sp4_gold_bar_short_measure.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_bar_short_measure.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_bar_short_measure.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_14.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 15,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gold_bar",
+   "subtype": "all_models",
+   "previous": 14,
+   "next": 16,
+   "sections": [
+    {
+     "TemplateId": "sp4_gold_bar_altered_stamp",
+     "label_en": "Altered gold-bar stamp",
+     "category": "gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "gold_bar_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "identity_disclosure",
+     "reference": {
+      "layer": "items/gold_bar_orbit/paper/intact.png",
+      "crop_px": [
+       154,
+       77,
+       234,
+       129
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gold_bar_orbit/paper/altered_stamp.png",
+      "crop_px": [
+       154,
+       77,
+       234,
+       129
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gold_bar_altered_stamp.heading",
+      "body": "sp4.handbook.sp4_gold_bar_altered_stamp.body",
+      "limits": "sp4.handbook.sp4_gold_bar_altered_stamp.limits",
+      "reference_caption": "sp4.handbook.sp4_gold_bar_altered_stamp.ref",
+      "problem_caption": "sp4.handbook.sp4_gold_bar_altered_stamp.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_15.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 16,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_ring",
+   "subtype": "all_models",
+   "previous": 15,
+   "next": 17,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_ring_groove_abrasion",
+     "label_en": "Worn silver-ring groove",
+     "category": "silver_ring",
+     "subtype": "all_models",
+     "example_asset_key": "silver_ring_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "polish",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/silver_ring_orbit/paper/intact.png",
+      "crop_px": [
+       143,
+       157,
+       223,
+       209
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_ring_orbit/paper/groove_abrasion.png",
+      "crop_px": [
+       143,
+       157,
+       223,
+       209
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_ring_groove_abrasion.heading",
+      "body": "sp4.handbook.sp4_silver_ring_groove_abrasion.body",
+      "limits": "sp4.handbook.sp4_silver_ring_groove_abrasion.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_ring_groove_abrasion.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_ring_groove_abrasion.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_ring_ovalized_band",
+     "label_en": "Ovalized silver ring",
+     "category": "silver_ring",
+     "subtype": "all_models",
+     "example_asset_key": "silver_ring_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/silver_ring_orbit/paper/intact.png",
+      "crop_px": [
+       208,
+       82,
+       368,
+       186
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/silver_ring_orbit/paper/ovalized_band.png",
+      "crop_px": [
+       208,
+       82,
+       368,
+       186
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_ring_ovalized_band.heading",
+      "body": "sp4.handbook.sp4_silver_ring_ovalized_band.body",
+      "limits": "sp4.handbook.sp4_silver_ring_ovalized_band.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_ring_ovalized_band.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_ring_ovalized_band.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_16.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 17,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_ring",
+   "subtype": "all_models",
+   "previous": 16,
+   "next": 18,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_ring_shank_split",
+     "label_en": "Split silver shank",
+     "category": "silver_ring",
+     "subtype": "all_models",
+     "example_asset_key": "silver_ring_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "weld",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/silver_ring_orbit/paper/intact.png",
+      "crop_px": [
+       96,
+       144,
+       176,
+       196
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_ring_orbit/paper/shank_split.png",
+      "crop_px": [
+       96,
+       144,
+       176,
+       196
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_ring_shank_split.heading",
+      "body": "sp4.handbook.sp4_silver_ring_shank_split.body",
+      "limits": "sp4.handbook.sp4_silver_ring_shank_split.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_ring_shank_split.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_ring_shank_split.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_ring_copper_breakthrough",
+     "label_en": "Silver-ring plating breach",
+     "category": "silver_ring",
+     "subtype": "all_models",
+     "example_asset_key": "silver_ring_orbit",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/silver_ring_orbit/paper/intact.png",
+      "crop_px": [
+       202,
+       156,
+       282,
+       208
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/silver_ring_orbit/paper/copper_breakthrough.png",
+      "crop_px": [
+       202,
+       156,
+       282,
+       208
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_ring_copper_breakthrough.heading",
+      "body": "sp4.handbook.sp4_silver_ring_copper_breakthrough.body",
+      "limits": "sp4.handbook.sp4_silver_ring_copper_breakthrough.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_ring_copper_breakthrough.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_ring_copper_breakthrough.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_17.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 18,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_ring",
+   "subtype": "all_models",
+   "previous": 17,
+   "next": 19,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_ring_sizing_insert",
+     "label_en": "Silver sizing insert",
+     "category": "silver_ring",
+     "subtype": "all_models",
+     "example_asset_key": "silver_ring_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/silver_ring_orbit/paper/intact.png",
+      "crop_px": [
+       192,
+       48,
+       272,
+       100
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_ring_orbit/paper/sizing_insert.png",
+      "crop_px": [
+       192,
+       48,
+       272,
+       100
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_ring_sizing_insert.heading",
+      "body": "sp4.handbook.sp4_silver_ring_sizing_insert.body",
+      "limits": "sp4.handbook.sp4_silver_ring_sizing_insert.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_ring_sizing_insert.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_ring_sizing_insert.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_18.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 19,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_bracelet",
+   "subtype": "all_models",
+   "previous": 18,
+   "next": 20,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_bracelet_engraving_loss",
+     "label_en": "Bracelet engraving loss",
+     "category": "silver_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "silver_bracelet_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "polish",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/silver_bracelet_orbit/paper/intact.png",
+      "crop_px": [
+       139,
+       147,
+       219,
+       199
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_bracelet_orbit/paper/engraving_loss.png",
+      "crop_px": [
+       139,
+       147,
+       219,
+       199
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_bracelet_engraving_loss.heading",
+      "body": "sp4.handbook.sp4_silver_bracelet_engraving_loss.body",
+      "limits": "sp4.handbook.sp4_silver_bracelet_engraving_loss.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_bracelet_engraving_loss.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_bracelet_engraving_loss.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_bracelet_rim_buckle",
+     "label_en": "Buckled silver rim",
+     "category": "silver_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "silver_bracelet_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/silver_bracelet_orbit/paper/intact.png",
+      "crop_px": [
+       304,
+       105,
+       384,
+       157
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/silver_bracelet_orbit/paper/rim_buckle.png",
+      "crop_px": [
+       304,
+       105,
+       384,
+       157
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_bracelet_rim_buckle.heading",
+      "body": "sp4.handbook.sp4_silver_bracelet_rim_buckle.body",
+      "limits": "sp4.handbook.sp4_silver_bracelet_rim_buckle.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_bracelet_rim_buckle.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_bracelet_rim_buckle.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_19.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 20,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_bracelet",
+   "subtype": "all_models",
+   "previous": 19,
+   "next": 21,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_bracelet_arc_split",
+     "label_en": "Split silver bracelet arc",
+     "category": "silver_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "silver_bracelet_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "weld",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/silver_bracelet_orbit/paper/intact.png",
+      "crop_px": [
+       166,
+       154,
+       246,
+       206
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_bracelet_orbit/paper/arc_split.png",
+      "crop_px": [
+       166,
+       154,
+       246,
+       206
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_bracelet_arc_split.heading",
+      "body": "sp4.handbook.sp4_silver_bracelet_arc_split.body",
+      "limits": "sp4.handbook.sp4_silver_bracelet_arc_split.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_bracelet_arc_split.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_bracelet_arc_split.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_bracelet_seam_breakthrough",
+     "label_en": "Silver-bracelet plating breach",
+     "category": "silver_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "silver_bracelet_orbit",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/silver_bracelet_orbit/paper/intact.png",
+      "crop_px": [
+       215,
+       35,
+       255,
+       61
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/silver_bracelet_orbit/paper/seam_breakthrough.png",
+      "crop_px": [
+       215,
+       35,
+       255,
+       61
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_bracelet_seam_breakthrough.heading",
+      "body": "sp4.handbook.sp4_silver_bracelet_seam_breakthrough.body",
+      "limits": "sp4.handbook.sp4_silver_bracelet_seam_breakthrough.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_bracelet_seam_breakthrough.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_bracelet_seam_breakthrough.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_20.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 21,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_bracelet",
+   "subtype": "all_models",
+   "previous": 20,
+   "next": 22,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_bracelet_braze_patch",
+     "label_en": "Old bracelet braze patch",
+     "category": "silver_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "silver_bracelet_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/silver_bracelet_orbit/paper/intact.png",
+      "crop_px": [
+       88,
+       162,
+       128,
+       188
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_bracelet_orbit/paper/braze_patch.png",
+      "crop_px": [
+       88,
+       162,
+       128,
+       188
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_bracelet_braze_patch.heading",
+      "body": "sp4.handbook.sp4_silver_bracelet_braze_patch.body",
+      "limits": "sp4.handbook.sp4_silver_bracelet_braze_patch.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_bracelet_braze_patch.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_bracelet_braze_patch.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_21.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 22,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_necklace",
+   "subtype": "all_models",
+   "previous": 21,
+   "next": 23,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_necklace_flattened_links",
+     "label_en": "Flattened chain links",
+     "category": "silver_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "silver_necklace_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "reshape",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/silver_necklace_orbit/paper/intact.png",
+      "crop_px": [
+       104,
+       123,
+       144,
+       149
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_necklace_orbit/paper/flattened_links.png",
+      "crop_px": [
+       104,
+       123,
+       144,
+       149
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_necklace_flattened_links.heading",
+      "body": "sp4.handbook.sp4_silver_necklace_flattened_links.body",
+      "limits": "sp4.handbook.sp4_silver_necklace_flattened_links.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_necklace_flattened_links.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_necklace_flattened_links.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_necklace_jump_ring_gap",
+     "label_en": "Open silver jump ring",
+     "category": "silver_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "silver_necklace_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "weld",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/silver_necklace_orbit/paper/intact.png",
+      "crop_px": [
+       180,
+       172,
+       220,
+       198
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/silver_necklace_orbit/paper/jump_ring_gap.png",
+      "crop_px": [
+       180,
+       172,
+       220,
+       198
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_necklace_jump_ring_gap.heading",
+      "body": "sp4.handbook.sp4_silver_necklace_jump_ring_gap.body",
+      "limits": "sp4.handbook.sp4_silver_necklace_jump_ring_gap.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_necklace_jump_ring_gap.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_necklace_jump_ring_gap.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_22.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 23,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_necklace",
+   "subtype": "all_models",
+   "previous": 22,
+   "next": 24,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_necklace_spring_failure",
+     "label_en": "Failed silver clasp spring",
+     "category": "silver_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "silver_necklace_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "replace_clasp",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/silver_necklace_orbit/paper/intact.png",
+      "crop_px": [
+       205,
+       48,
+       245,
+       74
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_necklace_orbit/paper/spring_failure.png",
+      "crop_px": [
+       205,
+       48,
+       245,
+       74
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_necklace_spring_failure.heading",
+      "body": "sp4.handbook.sp4_silver_necklace_spring_failure.body",
+      "limits": "sp4.handbook.sp4_silver_necklace_spring_failure.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_necklace_spring_failure.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_necklace_spring_failure.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_necklace_link_core",
+     "label_en": "Silver-link core exposure",
+     "category": "silver_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "silver_necklace_orbit",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/silver_necklace_orbit/paper/intact.png",
+      "crop_px": [
+       229,
+       147,
+       269,
+       173
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/silver_necklace_orbit/paper/link_core.png",
+      "crop_px": [
+       229,
+       147,
+       269,
+       173
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_necklace_link_core.heading",
+      "body": "sp4.handbook.sp4_silver_necklace_link_core.body",
+      "limits": "sp4.handbook.sp4_silver_necklace_link_core.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_necklace_link_core.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_necklace_link_core.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_23.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 24,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_necklace",
+   "subtype": "all_models",
+   "previous": 23,
+   "next": 25,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_necklace_repair_link",
+     "label_en": "Replacement chain link",
+     "category": "silver_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "silver_necklace_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/silver_necklace_orbit/paper/intact.png",
+      "crop_px": [
+       126,
+       55,
+       166,
+       81
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_necklace_orbit/paper/repair_link.png",
+      "crop_px": [
+       126,
+       55,
+       166,
+       81
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_necklace_repair_link.heading",
+      "body": "sp4.handbook.sp4_silver_necklace_repair_link.body",
+      "limits": "sp4.handbook.sp4_silver_necklace_repair_link.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_necklace_repair_link.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_necklace_repair_link.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_24.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 25,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_earrings",
+   "subtype": "all_models",
+   "previous": 24,
+   "next": 26,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_earrings_twisted_hook",
+     "label_en": "Twisted silver hook",
+     "category": "silver_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "silver_earrings_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/silver_earrings_orbit/paper/intact.png",
+      "crop_px": [
+       214,
+       23,
+       374,
+       127
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_earrings_orbit/paper/twisted_hook.png",
+      "crop_px": [
+       214,
+       23,
+       374,
+       127
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_earrings_twisted_hook.heading",
+      "body": "sp4.handbook.sp4_silver_earrings_twisted_hook.body",
+      "limits": "sp4.handbook.sp4_silver_earrings_twisted_hook.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_earrings_twisted_hook.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_earrings_twisted_hook.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_earrings_pendant_loop_split",
+     "label_en": "Split earring connector",
+     "category": "silver_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "silver_earrings_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "weld",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/silver_earrings_orbit/paper/intact.png",
+      "crop_px": [
+       91,
+       112,
+       131,
+       138
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/silver_earrings_orbit/paper/pendant_loop_split.png",
+      "crop_px": [
+       91,
+       112,
+       131,
+       138
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_earrings_pendant_loop_split.heading",
+      "body": "sp4.handbook.sp4_silver_earrings_pendant_loop_split.body",
+      "limits": "sp4.handbook.sp4_silver_earrings_pendant_loop_split.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_earrings_pendant_loop_split.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_earrings_pendant_loop_split.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_25.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 26,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_earrings",
+   "subtype": "all_models",
+   "previous": 25,
+   "next": 27,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_earrings_fastener_wear",
+     "label_en": "Worn silver fastener",
+     "category": "silver_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "silver_earrings_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "replace_fastener",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/silver_earrings_orbit/paper/intact.png",
+      "crop_px": [
+       257,
+       174,
+       297,
+       200
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_earrings_orbit/paper/fastener_wear.png",
+      "crop_px": [
+       257,
+       174,
+       297,
+       200
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_earrings_fastener_wear.heading",
+      "body": "sp4.handbook.sp4_silver_earrings_fastener_wear.body",
+      "limits": "sp4.handbook.sp4_silver_earrings_fastener_wear.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_earrings_fastener_wear.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_earrings_fastener_wear.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_earrings_body_core",
+     "label_en": "Silver-earring plating breach",
+     "category": "silver_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "silver_earrings_orbit",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/silver_earrings_orbit/paper/intact.png",
+      "crop_px": [
+       168,
+       53,
+       248,
+       105
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/silver_earrings_orbit/paper/body_core.png",
+      "crop_px": [
+       168,
+       53,
+       248,
+       105
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_earrings_body_core.heading",
+      "body": "sp4.handbook.sp4_silver_earrings_body_core.body",
+      "limits": "sp4.handbook.sp4_silver_earrings_body_core.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_earrings_body_core.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_earrings_body_core.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_26.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 27,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_earrings",
+   "subtype": "all_models",
+   "previous": 26,
+   "next": 28,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_earrings_mount_rework",
+     "label_en": "Reworked silver mount",
+     "category": "silver_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "silver_earrings_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/silver_earrings_orbit/paper/intact.png",
+      "crop_px": [
+       182,
+       45,
+       262,
+       97
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_earrings_orbit/paper/mount_rework.png",
+      "crop_px": [
+       182,
+       45,
+       262,
+       97
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_earrings_mount_rework.heading",
+      "body": "sp4.handbook.sp4_silver_earrings_mount_rework.body",
+      "limits": "sp4.handbook.sp4_silver_earrings_mount_rework.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_earrings_mount_rework.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_earrings_mount_rework.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_27.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 28,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_bar",
+   "subtype": "all_models",
+   "previous": 27,
+   "next": 29,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_bar_face_abrasion",
+     "label_en": "Abraded silver-bar face",
+     "category": "silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "silver_bar_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "polish",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/silver_bar_orbit/paper/intact.png",
+      "crop_px": [
+       225,
+       85,
+       305,
+       137
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_bar_orbit/paper/face_abrasion.png",
+      "crop_px": [
+       225,
+       85,
+       305,
+       137
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_bar_face_abrasion.heading",
+      "body": "sp4.handbook.sp4_silver_bar_face_abrasion.body",
+      "limits": "sp4.handbook.sp4_silver_bar_face_abrasion.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_bar_face_abrasion.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_bar_face_abrasion.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_bar_edge_roll",
+     "label_en": "Rolled silver-bar edge",
+     "category": "silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "silver_bar_orbit",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/silver_bar_orbit/paper/intact.png",
+      "crop_px": [
+       123,
+       169,
+       163,
+       195
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/silver_bar_orbit/paper/edge_roll.png",
+      "crop_px": [
+       123,
+       169,
+       163,
+       195
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_bar_edge_roll.heading",
+      "body": "sp4.handbook.sp4_silver_bar_edge_roll.body",
+      "limits": "sp4.handbook.sp4_silver_bar_edge_roll.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_bar_edge_roll.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_bar_edge_roll.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_28.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 29,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_bar",
+   "subtype": "all_models",
+   "previous": 28,
+   "next": 30,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_bar_copper_seam",
+     "label_en": "Silver-bar core exposure",
+     "category": "silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "silver_bar_orbit",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/silver_bar_orbit/paper/intact.png",
+      "crop_px": [
+       304,
+       107,
+       384,
+       159
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_bar_orbit/paper/copper_seam.png",
+      "crop_px": [
+       304,
+       107,
+       384,
+       159
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_bar_copper_seam.heading",
+      "body": "sp4.handbook.sp4_silver_bar_copper_seam.body",
+      "limits": "sp4.handbook.sp4_silver_bar_copper_seam.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_bar_copper_seam.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_bar_copper_seam.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_bar_underweight",
+     "label_en": "Short-weight silver bar",
+     "category": "silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "silver_bar_orbit",
+     "view": "instrument_reading",
+     "instrument": "scale",
+     "repair_class": "none",
+     "economic_channel": "mass_disclosure",
+     "reference": {
+      "layer": "items/silver_bar_orbit/paper/intact.png",
+      "crop_px": null,
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/silver_bar_orbit/layers/paper/reading_example_underweight.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_bar_underweight.heading",
+      "body": "sp4.handbook.sp4_silver_bar_underweight.body",
+      "limits": "sp4.handbook.sp4_silver_bar_underweight.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_bar_underweight.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_bar_underweight.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_29.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 30,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_bar",
+   "subtype": "all_models",
+   "previous": 29,
+   "next": 31,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_bar_stamp_recut",
+     "label_en": "Recut silver-bar hallmark",
+     "category": "silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "silver_bar_orbit",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "identity_disclosure",
+     "reference": {
+      "layer": "items/silver_bar_orbit/paper/intact.png",
+      "crop_px": [
+       154,
+       77,
+       234,
+       129
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/silver_bar_orbit/paper/stamp_recut.png",
+      "crop_px": [
+       154,
+       77,
+       234,
+       129
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_bar_stamp_recut.heading",
+      "body": "sp4.handbook.sp4_silver_bar_stamp_recut.body",
+      "limits": "sp4.handbook.sp4_silver_bar_stamp_recut.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_bar_stamp_recut.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_bar_stamp_recut.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_30.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 31,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_cup",
+   "subtype": "all_models",
+   "previous": 30,
+   "next": 32,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_cup_wall_dent",
+     "label_en": "Dented silver-cup wall",
+     "category": "silver_cup",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_silver_cup",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/collectible_silver_cup/paper/intact.png",
+      "crop_px": [
+       144,
+       38,
+       224,
+       90
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_silver_cup/paper/wall_dent.png",
+      "crop_px": [
+       144,
+       38,
+       224,
+       90
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_cup_wall_dent.heading",
+      "body": "sp4.handbook.sp4_silver_cup_wall_dent.body",
+      "limits": "sp4.handbook.sp4_silver_cup_wall_dent.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_cup_wall_dent.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_cup_wall_dent.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_cup_rim_split",
+     "label_en": "Split silver-cup rim",
+     "category": "silver_cup",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_silver_cup",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "weld",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/collectible_silver_cup/paper/intact.png",
+      "crop_px": [
+       199,
+       33,
+       239,
+       59
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_silver_cup/paper/rim_split.png",
+      "crop_px": [
+       199,
+       33,
+       239,
+       59
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_cup_rim_split.heading",
+      "body": "sp4.handbook.sp4_silver_cup_rim_split.body",
+      "limits": "sp4.handbook.sp4_silver_cup_rim_split.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_cup_rim_split.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_cup_rim_split.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_31.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 32,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_cup",
+   "subtype": "all_models",
+   "previous": 31,
+   "next": 33,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_cup_base_wobble",
+     "label_en": "Distorted silver-cup foot",
+     "category": "silver_cup",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_silver_cup",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/collectible_silver_cup/paper/intact.png",
+      "crop_px": [
+       195,
+       213,
+       235,
+       239
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_silver_cup/paper/base_wobble.png",
+      "crop_px": [
+       195,
+       213,
+       235,
+       239
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_cup_base_wobble.heading",
+      "body": "sp4.handbook.sp4_silver_cup_base_wobble.body",
+      "limits": "sp4.handbook.sp4_silver_cup_base_wobble.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_cup_base_wobble.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_cup_base_wobble.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_silver_cup_inside_breakthrough",
+     "label_en": "Silver-cup plating breach",
+     "category": "silver_cup",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_silver_cup",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/collectible_silver_cup/paper/intact.png",
+      "crop_px": [
+       164,
+       18,
+       204,
+       44
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_silver_cup/paper/inside_breakthrough.png",
+      "crop_px": [
+       164,
+       18,
+       204,
+       44
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_cup_inside_breakthrough.heading",
+      "body": "sp4.handbook.sp4_silver_cup_inside_breakthrough.body",
+      "limits": "sp4.handbook.sp4_silver_cup_inside_breakthrough.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_cup_inside_breakthrough.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_cup_inside_breakthrough.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_32.png"
+  },
+  {
+   "manual": "manual_metals",
+   "page": 33,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "silver_cup",
+   "subtype": "all_models",
+   "previous": 32,
+   "next": null,
+   "sections": [
+    {
+     "TemplateId": "sp4_silver_cup_handle_rejoin",
+     "label_en": "Rejoined cup handle",
+     "category": "silver_cup",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_silver_cup",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/collectible_silver_cup/paper/intact.png",
+      "crop_px": [
+       207,
+       43,
+       247,
+       69
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_silver_cup/paper/handle_rejoin.png",
+      "crop_px": [
+       207,
+       43,
+       247,
+       69
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_silver_cup_handle_rejoin.heading",
+      "body": "sp4.handbook.sp4_silver_cup_handle_rejoin.body",
+      "limits": "sp4.handbook.sp4_silver_cup_handle_rejoin.limits",
+      "reference_caption": "sp4.handbook.sp4_silver_cup_handle_rejoin.ref",
+      "problem_caption": "sp4.handbook.sp4_silver_cup_handle_rejoin.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_metals/pages/page_33.png"
+  }
+ ]
+}

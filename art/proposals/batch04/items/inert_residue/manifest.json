@@ -1,0 +1,36 @@
+{
+ "asset_key": "inert_residue",
+ "name_en": "Recovery Residue",
+ "category": "inert_residue",
+ "subtype": "",
+ "role": "material_lot",
+ "target_family_id": "sp4_inert_residue",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "sealed": {
+   "paper": "paper/sealed.png",
+   "items": "items/sealed.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

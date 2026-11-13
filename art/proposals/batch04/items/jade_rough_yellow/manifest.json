@@ -1,0 +1,845 @@
+{
+ "asset_key": "jade_rough_yellow",
+ "name_en": "Yellow Sand Skin Jade Rough",
+ "category": "jade_rough",
+ "subtype": "yellow",
+ "role": "appraisable",
+ "target_family_id": "sp4_jade_rough_yellow",
+ "grid": [
+  2,
+  2
+ ],
+ "items_px": [
+  128,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "hidden_dou_nuo_bing",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "sealed": {
+   "paper": "paper/sealed.png",
+   "items": "items/sealed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "shell_fissure": {
+   "paper": "paper/shell_fissure.png",
+   "items": "items/shell_fissure.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "dyed_sand": {
+   "paper": "paper/dyed_sand.png",
+   "items": "items/dyed_sand.png",
+   "templates": [
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "ordinary"
+  },
+  "dyed_sand__uv": {
+   "paper": "paper/dyed_sand__uv.png",
+   "items": "items/dyed_sand__uv.png",
+   "templates": [
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "combo__shell_fissure__dyed_sand": {
+   "paper": "paper/combo__shell_fissure__dyed_sand.png",
+   "items": "items/combo__shell_fissure__dyed_sand.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "ordinary"
+  },
+  "uv_observation": {
+   "paper": "paper/uv_observation.png",
+   "items": "items/uv_observation.png",
+   "templates": [],
+   "view": "uv",
+   "planned_view": true
+  },
+  "window_open_dou": {
+   "paper": "paper/window_open_dou.png",
+   "items": "items/window_open_dou.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "cut_surface_dou": {
+   "paper": "paper/cut_surface_dou.png",
+   "items": "items/cut_surface_dou.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "light_observation_dou": {
+   "paper": "paper/light_observation_dou.png",
+   "items": "items/light_observation_dou.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_dou_shell_fissure": {
+   "paper": "paper/window_dou_shell_fissure.png",
+   "items": "items/window_dou_shell_fissure.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_chalk_cloud": {
+   "paper": "paper/window_dou_chalk_cloud.png",
+   "items": "items/window_dou_chalk_cloud.png",
+   "templates": [
+    "sp4_rough_yellow_chalk_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_chalk_cloud__light": {
+   "paper": "paper/window_dou_chalk_cloud__light.png",
+   "items": "items/window_dou_chalk_cloud__light.png",
+   "templates": [
+    "sp4_rough_yellow_chalk_cloud"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_dou_black_grain_pocket": {
+   "paper": "paper/window_dou_black_grain_pocket.png",
+   "items": "items/window_dou_black_grain_pocket.png",
+   "templates": [
+    "sp4_rough_yellow_black_grain_pocket"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_dyed_sand": {
+   "paper": "paper/window_dou_dyed_sand.png",
+   "items": "items/window_dou_dyed_sand.png",
+   "templates": [
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_dyed_sand__uv": {
+   "paper": "paper/window_dou_dyed_sand__uv.png",
+   "items": "items/window_dou_dyed_sand__uv.png",
+   "templates": [
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "window_dou_window_inlay": {
+   "paper": "paper/window_dou_window_inlay.png",
+   "items": "items/window_dou_window_inlay.png",
+   "templates": [
+    "sp4_rough_yellow_window_inlay"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_combo__shell_fissure__chalk_cloud": {
+   "paper": "paper/window_dou_combo__shell_fissure__chalk_cloud.png",
+   "items": "items/window_dou_combo__shell_fissure__chalk_cloud.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_chalk_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_combo__shell_fissure__black_grain_pocket": {
+   "paper": "paper/window_dou_combo__shell_fissure__black_grain_pocket.png",
+   "items": "items/window_dou_combo__shell_fissure__black_grain_pocket.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_black_grain_pocket"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_combo__shell_fissure__dyed_sand": {
+   "paper": "paper/window_dou_combo__shell_fissure__dyed_sand.png",
+   "items": "items/window_dou_combo__shell_fissure__dyed_sand.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_combo__shell_fissure__chalk_cloud__dyed_sand": {
+   "paper": "paper/window_dou_combo__shell_fissure__chalk_cloud__dyed_sand.png",
+   "items": "items/window_dou_combo__shell_fissure__chalk_cloud__dyed_sand.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_chalk_cloud",
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "ordinary"
+  },
+  "window_open_nuo": {
+   "paper": "paper/window_open_nuo.png",
+   "items": "items/window_open_nuo.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "cut_surface_nuo": {
+   "paper": "paper/cut_surface_nuo.png",
+   "items": "items/cut_surface_nuo.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "light_observation_nuo": {
+   "paper": "paper/light_observation_nuo.png",
+   "items": "items/light_observation_nuo.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_nuo_shell_fissure": {
+   "paper": "paper/window_nuo_shell_fissure.png",
+   "items": "items/window_nuo_shell_fissure.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_chalk_cloud": {
+   "paper": "paper/window_nuo_chalk_cloud.png",
+   "items": "items/window_nuo_chalk_cloud.png",
+   "templates": [
+    "sp4_rough_yellow_chalk_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_chalk_cloud__light": {
+   "paper": "paper/window_nuo_chalk_cloud__light.png",
+   "items": "items/window_nuo_chalk_cloud__light.png",
+   "templates": [
+    "sp4_rough_yellow_chalk_cloud"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_nuo_black_grain_pocket": {
+   "paper": "paper/window_nuo_black_grain_pocket.png",
+   "items": "items/window_nuo_black_grain_pocket.png",
+   "templates": [
+    "sp4_rough_yellow_black_grain_pocket"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_dyed_sand": {
+   "paper": "paper/window_nuo_dyed_sand.png",
+   "items": "items/window_nuo_dyed_sand.png",
+   "templates": [
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_dyed_sand__uv": {
+   "paper": "paper/window_nuo_dyed_sand__uv.png",
+   "items": "items/window_nuo_dyed_sand__uv.png",
+   "templates": [
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "window_nuo_window_inlay": {
+   "paper": "paper/window_nuo_window_inlay.png",
+   "items": "items/window_nuo_window_inlay.png",
+   "templates": [
+    "sp4_rough_yellow_window_inlay"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_combo__shell_fissure__chalk_cloud": {
+   "paper": "paper/window_nuo_combo__shell_fissure__chalk_cloud.png",
+   "items": "items/window_nuo_combo__shell_fissure__chalk_cloud.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_chalk_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_combo__shell_fissure__black_grain_pocket": {
+   "paper": "paper/window_nuo_combo__shell_fissure__black_grain_pocket.png",
+   "items": "items/window_nuo_combo__shell_fissure__black_grain_pocket.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_black_grain_pocket"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_combo__shell_fissure__dyed_sand": {
+   "paper": "paper/window_nuo_combo__shell_fissure__dyed_sand.png",
+   "items": "items/window_nuo_combo__shell_fissure__dyed_sand.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand": {
+   "paper": "paper/window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand.png",
+   "items": "items/window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_chalk_cloud",
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "ordinary"
+  },
+  "window_open_bing": {
+   "paper": "paper/window_open_bing.png",
+   "items": "items/window_open_bing.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "cut_surface_bing": {
+   "paper": "paper/cut_surface_bing.png",
+   "items": "items/cut_surface_bing.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "light_observation_bing": {
+   "paper": "paper/light_observation_bing.png",
+   "items": "items/light_observation_bing.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_bing_shell_fissure": {
+   "paper": "paper/window_bing_shell_fissure.png",
+   "items": "items/window_bing_shell_fissure.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_chalk_cloud": {
+   "paper": "paper/window_bing_chalk_cloud.png",
+   "items": "items/window_bing_chalk_cloud.png",
+   "templates": [
+    "sp4_rough_yellow_chalk_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_chalk_cloud__light": {
+   "paper": "paper/window_bing_chalk_cloud__light.png",
+   "items": "items/window_bing_chalk_cloud__light.png",
+   "templates": [
+    "sp4_rough_yellow_chalk_cloud"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_bing_black_grain_pocket": {
+   "paper": "paper/window_bing_black_grain_pocket.png",
+   "items": "items/window_bing_black_grain_pocket.png",
+   "templates": [
+    "sp4_rough_yellow_black_grain_pocket"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_dyed_sand": {
+   "paper": "paper/window_bing_dyed_sand.png",
+   "items": "items/window_bing_dyed_sand.png",
+   "templates": [
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_dyed_sand__uv": {
+   "paper": "paper/window_bing_dyed_sand__uv.png",
+   "items": "items/window_bing_dyed_sand__uv.png",
+   "templates": [
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "window_bing_window_inlay": {
+   "paper": "paper/window_bing_window_inlay.png",
+   "items": "items/window_bing_window_inlay.png",
+   "templates": [
+    "sp4_rough_yellow_window_inlay"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_combo__shell_fissure__chalk_cloud": {
+   "paper": "paper/window_bing_combo__shell_fissure__chalk_cloud.png",
+   "items": "items/window_bing_combo__shell_fissure__chalk_cloud.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_chalk_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_combo__shell_fissure__black_grain_pocket": {
+   "paper": "paper/window_bing_combo__shell_fissure__black_grain_pocket.png",
+   "items": "items/window_bing_combo__shell_fissure__black_grain_pocket.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_black_grain_pocket"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_combo__shell_fissure__dyed_sand": {
+   "paper": "paper/window_bing_combo__shell_fissure__dyed_sand.png",
+   "items": "items/window_bing_combo__shell_fissure__dyed_sand.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_combo__shell_fissure__chalk_cloud__dyed_sand": {
+   "paper": "paper/window_bing_combo__shell_fissure__chalk_cloud__dyed_sand.png",
+   "items": "items/window_bing_combo__shell_fissure__chalk_cloud__dyed_sand.png",
+   "templates": [
+    "sp4_rough_yellow_shell_fissure",
+    "sp4_rough_yellow_chalk_cloud",
+    "sp4_rough_yellow_dyed_sand"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {
+  "sp4_rough_yellow_shell_fissure": {
+   "paper": {
+    "changed_px": 232,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     242,
+     106,
+     266,
+     148
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 58,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     89,
+     53,
+     101,
+     74
+    ]
+   }
+  },
+  "sp4_rough_yellow_dyed_sand": {
+   "paper": {
+    "changed_px": 336,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     128,
+     70,
+     166,
+     96
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 85,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     35,
+     50,
+     48
+    ]
+   }
+  },
+  "window_dou_sp4_rough_yellow_shell_fissure": {
+   "paper": {
+    "changed_px": 232,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     242,
+     106,
+     266,
+     148
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 58,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     89,
+     53,
+     101,
+     74
+    ]
+   }
+  },
+  "window_dou_sp4_rough_yellow_chalk_cloud": {
+   "paper": {
+    "changed_px": 392,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     126,
+     154,
+     156
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 96,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     34,
+     63,
+     45,
+     78
+    ]
+   }
+  },
+  "window_dou_sp4_rough_yellow_black_grain_pocket": {
+   "paper": {
+    "changed_px": 28,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     152,
+     150,
+     166,
+     162
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     44,
+     75,
+     51,
+     81
+    ]
+   }
+  },
+  "window_dou_sp4_rough_yellow_dyed_sand": {
+   "paper": {
+    "changed_px": 336,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     128,
+     70,
+     166,
+     96
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 85,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     35,
+     50,
+     48
+    ]
+   }
+  },
+  "window_dou_sp4_rough_yellow_window_inlay": {
+   "paper": {
+    "changed_px": 312,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     172,
+     122,
+     186,
+     158
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 77,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     61,
+     61,
+     79
+    ]
+   }
+  },
+  "window_nuo_sp4_rough_yellow_shell_fissure": {
+   "paper": {
+    "changed_px": 232,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     242,
+     106,
+     266,
+     148
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 58,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     89,
+     53,
+     101,
+     74
+    ]
+   }
+  },
+  "window_nuo_sp4_rough_yellow_chalk_cloud": {
+   "paper": {
+    "changed_px": 392,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     126,
+     154,
+     156
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 96,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     34,
+     63,
+     45,
+     78
+    ]
+   }
+  },
+  "window_nuo_sp4_rough_yellow_black_grain_pocket": {
+   "paper": {
+    "changed_px": 28,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     152,
+     150,
+     166,
+     162
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     44,
+     75,
+     51,
+     81
+    ]
+   }
+  },
+  "window_nuo_sp4_rough_yellow_dyed_sand": {
+   "paper": {
+    "changed_px": 336,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     128,
+     70,
+     166,
+     96
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 85,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     35,
+     50,
+     48
+    ]
+   }
+  },
+  "window_nuo_sp4_rough_yellow_window_inlay": {
+   "paper": {
+    "changed_px": 308,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     172,
+     122,
+     186,
+     158
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 79,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     61,
+     61,
+     79
+    ]
+   }
+  },
+  "window_bing_sp4_rough_yellow_shell_fissure": {
+   "paper": {
+    "changed_px": 232,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     242,
+     106,
+     266,
+     148
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 58,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     89,
+     53,
+     101,
+     74
+    ]
+   }
+  },
+  "window_bing_sp4_rough_yellow_chalk_cloud": {
+   "paper": {
+    "changed_px": 392,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     126,
+     154,
+     156
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 96,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     34,
+     63,
+     45,
+     78
+    ]
+   }
+  },
+  "window_bing_sp4_rough_yellow_black_grain_pocket": {
+   "paper": {
+    "changed_px": 28,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     152,
+     150,
+     166,
+     162
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     44,
+     75,
+     51,
+     81
+    ]
+   }
+  },
+  "window_bing_sp4_rough_yellow_dyed_sand": {
+   "paper": {
+    "changed_px": 336,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     128,
+     70,
+     166,
+     96
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 85,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     35,
+     50,
+     48
+    ]
+   }
+  },
+  "window_bing_sp4_rough_yellow_window_inlay": {
+   "paper": {
+    "changed_px": 312,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     172,
+     122,
+     186,
+     158
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 79,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     61,
+     61,
+     79
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

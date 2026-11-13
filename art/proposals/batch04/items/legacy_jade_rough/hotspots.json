@@ -1,0 +1,131 @@
+{
+ "asset_key": "legacy_jade_rough",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "legacy_jade_rough",
+   "state": "jade_rough_cracked",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_rough_crack",
+   "Id": "rough_crack",
+   "CauseId": "jade_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.592,
+    0.49
+   ],
+   "U": 0.6822916666666666,
+   "V": 0.5,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    248,
+    104,
+    276,
+    152
+   ]
+  },
+  {
+   "asset_key": "legacy_jade_rough",
+   "state": "jade_rough_cracked",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "legacy_rough_crack",
+   "Id": "rough_crack",
+   "CauseId": "jade_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.592,
+    0.49
+   ],
+   "U": 0.7421875,
+   "V": 0.4921875,
+   "Width": 0.109375,
+   "Height": 0.171875,
+   "bounds_px": [
+    44,
+    26,
+    51,
+    37
+   ]
+  },
+  {
+   "asset_key": "legacy_jade_rough",
+   "state": "jade_rough_cracked__window",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_window_crack",
+   "Id": "window_crack",
+   "CauseId": "jade_fissure",
+   "ViewId": "window",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.511,
+    0.557
+   ],
+   "U": 0.4192708333333333,
+   "V": 0.57421875,
+   "Width": 0.046875,
+   "Height": 0.1484375,
+   "bounds_px": [
+    152,
+    128,
+    170,
+    166
+   ]
+  },
+  {
+   "asset_key": "legacy_jade_rough",
+   "state": "jade_rough_cracked__window",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "legacy_window_crack",
+   "Id": "window_crack",
+   "CauseId": "jade_fissure",
+   "ViewId": "window",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.511,
+    0.557
+   ],
+   "U": 0.390625,
+   "V": 0.5625,
+   "Width": 0.09375,
+   "Height": 0.125,
+   "bounds_px": [
+    22,
+    32,
+    28,
+    40
+   ]
+  }
+ ]
+}

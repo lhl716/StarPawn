@@ -1,0 +1,231 @@
+{
+ "asset_key": "ore_silver",
+ "name_en": "Silver-Bearing Ore",
+ "category": "ore_silver",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_ore_silver",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "low_silver_grade": {
+   "paper": "paper/low_silver_grade.png",
+   "items": "items/low_silver_grade.png",
+   "templates": [
+    "sp4_ore_silver_low_silver_grade"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "coarse_gangue": {
+   "paper": "paper/coarse_gangue.png",
+   "items": "items/coarse_gangue.png",
+   "templates": [
+    "sp4_ore_silver_coarse_gangue"
+   ],
+   "view": "ordinary"
+  },
+  "painted_sheen": {
+   "paper": "paper/painted_sheen.png",
+   "items": "items/painted_sheen.png",
+   "templates": [
+    "sp4_ore_silver_painted_sheen"
+   ],
+   "view": "ordinary"
+  },
+  "moisture_mass": {
+   "paper": "paper/moisture_mass.png",
+   "items": "items/moisture_mass.png",
+   "templates": [
+    "sp4_ore_silver_moisture_mass"
+   ],
+   "view": "ordinary"
+  },
+  "mixed_source": {
+   "paper": "paper/mixed_source.png",
+   "items": "items/mixed_source.png",
+   "templates": [
+    "sp4_ore_silver_mixed_source"
+   ],
+   "view": "ordinary"
+  },
+  "combo__coarse_gangue__painted_sheen": {
+   "paper": "paper/combo__coarse_gangue__painted_sheen.png",
+   "items": "items/combo__coarse_gangue__painted_sheen.png",
+   "templates": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_painted_sheen"
+   ],
+   "view": "ordinary"
+  },
+  "combo__coarse_gangue__moisture_mass": {
+   "paper": "paper/combo__coarse_gangue__moisture_mass.png",
+   "items": "items/combo__coarse_gangue__moisture_mass.png",
+   "templates": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_moisture_mass"
+   ],
+   "view": "ordinary"
+  },
+  "combo__coarse_gangue__mixed_source": {
+   "paper": "paper/combo__coarse_gangue__mixed_source.png",
+   "items": "items/combo__coarse_gangue__mixed_source.png",
+   "templates": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_mixed_source"
+   ],
+   "view": "ordinary"
+  },
+  "combo__coarse_gangue__painted_sheen__moisture_mass": {
+   "paper": "paper/combo__coarse_gangue__painted_sheen__moisture_mass.png",
+   "items": "items/combo__coarse_gangue__painted_sheen__moisture_mass.png",
+   "templates": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_painted_sheen",
+    "sp4_ore_silver_moisture_mass"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {
+  "sp4_ore_silver_low_silver_grade": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_ore_silver_coarse_gangue": {
+   "paper": {
+    "changed_px": 2076,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     64,
+     92,
+     130,
+     142
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 203,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     22,
+     20,
+     43,
+     37
+    ]
+   }
+  },
+  "sp4_ore_silver_painted_sheen": {
+   "paper": {
+    "changed_px": 932,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     168,
+     54,
+     236,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 85,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     58,
+     8,
+     78,
+     15
+    ]
+   }
+  },
+  "sp4_ore_silver_moisture_mass": {
+   "paper": {
+    "changed_px": 1300,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     158,
+     178,
+     288,
+     188
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 123,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     48,
+     95,
+     51
+    ]
+   }
+  },
+  "sp4_ore_silver_mixed_source": {
+   "paper": {
+    "changed_px": 2696,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     268,
+     78,
+     338,
+     156
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 261,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     90,
+     16,
+     111,
+     41
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

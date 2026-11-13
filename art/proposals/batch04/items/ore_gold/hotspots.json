@@ -1,0 +1,709 @@
+{
+ "asset_key": "ore_gold",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "ore_gold",
+   "state": "low_gold_grade",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_low_gold_grade",
+   "Id": "low_gold_grade",
+   "CauseId": "sp4_ore_gold_low_gold_grade",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_assay",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "low_gold_grade",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_low_gold_grade",
+   "Id": "low_gold_grade",
+   "CauseId": "sp4_ore_gold_low_gold_grade",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_assay",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "waste_rock_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_waste_rock_band",
+   "Id": "waste_rock_band",
+   "CauseId": "sp4_ore_gold_waste_rock_band",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.41796875,
+   "Width": 0.24479166666666666,
+   "Height": 0.2890625,
+   "bounds_px": [
+    166,
+    70,
+    260,
+    144
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "waste_rock_band",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_waste_rock_band",
+   "Id": "waste_rock_band",
+   "CauseId": "sp4_ore_gold_waste_rock_band",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.55078125,
+   "V": 0.390625,
+   "Width": 0.2421875,
+   "Height": 0.34375,
+   "bounds_px": [
+    55,
+    14,
+    86,
+    36
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "surface_gilding",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_surface_gilding",
+   "Id": "surface_gilding",
+   "CauseId": "sp4_ore_gold_surface_gilding",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.25390625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0703125,
+   "bounds_px": [
+    174,
+    56,
+    230,
+    74
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "surface_gilding",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_surface_gilding",
+   "Id": "surface_gilding",
+   "CauseId": "sp4_ore_gold_surface_gilding",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.52734375,
+   "V": 0.171875,
+   "Width": 0.1484375,
+   "Height": 0.09375,
+   "bounds_px": [
+    58,
+    8,
+    77,
+    14
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "added_weight",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_added_weight",
+   "Id": "added_weight",
+   "CauseId": "sp4_ore_gold_added_weight",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.421875,
+   "V": 0.47265625,
+   "Width": 0.03125,
+   "Height": 0.1484375,
+   "bounds_px": [
+    156,
+    102,
+    168,
+    140
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "added_weight",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_added_weight",
+   "Id": "added_weight",
+   "CauseId": "sp4_ore_gold_added_weight",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.421875,
+   "V": 0.453125,
+   "Width": 0.03125,
+   "Height": 0.15625,
+   "bounds_px": [
+    52,
+    24,
+    56,
+    34
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "mislabelled_origin",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_mislabelled_origin",
+   "Id": "mislabelled_origin",
+   "CauseId": "sp4_ore_gold_mislabelled_origin",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15364583333333334,
+   "V": 0.71484375,
+   "Width": 0.057291666666666664,
+   "Height": 0.0859375,
+   "bounds_px": [
+    48,
+    172,
+    70,
+    194
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "mislabelled_origin",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_mislabelled_origin",
+   "Id": "mislabelled_origin",
+   "CauseId": "sp4_ore_gold_mislabelled_origin",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.16015625,
+   "V": 0.7890625,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    17,
+    47,
+    24,
+    54
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__surface_gilding",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_waste_rock_band",
+   "Id": "waste_rock_band",
+   "CauseId": "sp4_ore_gold_waste_rock_band",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.41796875,
+   "Width": 0.24479166666666666,
+   "Height": 0.2890625,
+   "bounds_px": [
+    166,
+    70,
+    260,
+    144
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__surface_gilding",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_waste_rock_band",
+   "Id": "waste_rock_band",
+   "CauseId": "sp4_ore_gold_waste_rock_band",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.55078125,
+   "V": 0.390625,
+   "Width": 0.2421875,
+   "Height": 0.34375,
+   "bounds_px": [
+    55,
+    14,
+    86,
+    36
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__surface_gilding",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_surface_gilding",
+   "Id": "surface_gilding",
+   "CauseId": "sp4_ore_gold_surface_gilding",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.25390625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0703125,
+   "bounds_px": [
+    174,
+    56,
+    230,
+    74
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__surface_gilding",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_surface_gilding",
+   "Id": "surface_gilding",
+   "CauseId": "sp4_ore_gold_surface_gilding",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.52734375,
+   "V": 0.171875,
+   "Width": 0.1484375,
+   "Height": 0.09375,
+   "bounds_px": [
+    58,
+    8,
+    77,
+    14
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__mislabelled_origin",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_waste_rock_band",
+   "Id": "waste_rock_band",
+   "CauseId": "sp4_ore_gold_waste_rock_band",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.41796875,
+   "Width": 0.24479166666666666,
+   "Height": 0.2890625,
+   "bounds_px": [
+    166,
+    70,
+    260,
+    144
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__mislabelled_origin",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_waste_rock_band",
+   "Id": "waste_rock_band",
+   "CauseId": "sp4_ore_gold_waste_rock_band",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.55078125,
+   "V": 0.390625,
+   "Width": 0.2421875,
+   "Height": 0.34375,
+   "bounds_px": [
+    55,
+    14,
+    86,
+    36
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__mislabelled_origin",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_mislabelled_origin",
+   "Id": "mislabelled_origin",
+   "CauseId": "sp4_ore_gold_mislabelled_origin",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15364583333333334,
+   "V": 0.71484375,
+   "Width": 0.057291666666666664,
+   "Height": 0.0859375,
+   "bounds_px": [
+    48,
+    172,
+    70,
+    194
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__mislabelled_origin",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_mislabelled_origin",
+   "Id": "mislabelled_origin",
+   "CauseId": "sp4_ore_gold_mislabelled_origin",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.16015625,
+   "V": 0.7890625,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    17,
+    47,
+    24,
+    54
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__surface_gilding__added_weight",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_surface_gilding",
+   "Id": "surface_gilding",
+   "CauseId": "sp4_ore_gold_surface_gilding",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.25390625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0703125,
+   "bounds_px": [
+    174,
+    56,
+    230,
+    74
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__surface_gilding__added_weight",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_surface_gilding",
+   "Id": "surface_gilding",
+   "CauseId": "sp4_ore_gold_surface_gilding",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.52734375,
+   "V": 0.171875,
+   "Width": 0.1484375,
+   "Height": 0.09375,
+   "bounds_px": [
+    58,
+    8,
+    77,
+    14
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__surface_gilding__added_weight",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_added_weight",
+   "Id": "added_weight",
+   "CauseId": "sp4_ore_gold_added_weight",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.421875,
+   "V": 0.47265625,
+   "Width": 0.03125,
+   "Height": 0.1484375,
+   "bounds_px": [
+    156,
+    102,
+    168,
+    140
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__surface_gilding__added_weight",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_added_weight",
+   "Id": "added_weight",
+   "CauseId": "sp4_ore_gold_added_weight",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.421875,
+   "V": 0.453125,
+   "Width": 0.03125,
+   "Height": 0.15625,
+   "bounds_px": [
+    52,
+    24,
+    56,
+    34
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__surface_gilding__mislabelled_origin",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_waste_rock_band",
+   "Id": "waste_rock_band",
+   "CauseId": "sp4_ore_gold_waste_rock_band",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.41796875,
+   "Width": 0.24479166666666666,
+   "Height": 0.2890625,
+   "bounds_px": [
+    166,
+    70,
+    260,
+    144
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__surface_gilding__mislabelled_origin",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_waste_rock_band",
+   "Id": "waste_rock_band",
+   "CauseId": "sp4_ore_gold_waste_rock_band",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.55078125,
+   "V": 0.390625,
+   "Width": 0.2421875,
+   "Height": 0.34375,
+   "bounds_px": [
+    55,
+    14,
+    86,
+    36
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__surface_gilding__mislabelled_origin",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_surface_gilding",
+   "Id": "surface_gilding",
+   "CauseId": "sp4_ore_gold_surface_gilding",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.25390625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0703125,
+   "bounds_px": [
+    174,
+    56,
+    230,
+    74
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__surface_gilding__mislabelled_origin",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_surface_gilding",
+   "Id": "surface_gilding",
+   "CauseId": "sp4_ore_gold_surface_gilding",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.52734375,
+   "V": 0.171875,
+   "Width": 0.1484375,
+   "Height": 0.09375,
+   "bounds_px": [
+    58,
+    8,
+    77,
+    14
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__surface_gilding__mislabelled_origin",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_gold_mislabelled_origin",
+   "Id": "mislabelled_origin",
+   "CauseId": "sp4_ore_gold_mislabelled_origin",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15364583333333334,
+   "V": 0.71484375,
+   "Width": 0.057291666666666664,
+   "Height": 0.0859375,
+   "bounds_px": [
+    48,
+    172,
+    70,
+    194
+   ]
+  },
+  {
+   "asset_key": "ore_gold",
+   "state": "combo__waste_rock_band__surface_gilding__mislabelled_origin",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_ore_gold_mislabelled_origin",
+   "Id": "mislabelled_origin",
+   "CauseId": "sp4_ore_gold_mislabelled_origin",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.16015625,
+   "V": 0.7890625,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    17,
+    47,
+    24,
+    54
+   ]
+  }
+ ]
+}

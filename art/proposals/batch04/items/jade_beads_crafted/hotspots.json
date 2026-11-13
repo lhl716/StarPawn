@@ -1,0 +1,2115 @@
+{
+ "asset_key": "jade_beads_crafted",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_drill_exit_crack",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_drill_exit_crack",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_bead_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    144,
+    180,
+    158,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_bead_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3359375,
+   "V": 0.734375,
+   "Width": 0.078125,
+   "Height": 0.078125,
+   "bounds_px": [
+    38,
+    89,
+    48,
+    99
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    222,
+    178,
+    234,
+    190
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.7265625,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    80,
+    90,
+    86,
+    96
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_dyed_drill_pool",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5572916666666666,
+   "V": 0.7421875,
+   "Width": 0.03125,
+   "Height": 0.0625,
+   "bounds_px": [
+    208,
+    182,
+    220,
+    198
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_dyed_drill_pool",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.58203125,
+   "V": 0.7578125,
+   "Width": 0.0390625,
+   "Height": 0.0625,
+   "bounds_px": [
+    72,
+    93,
+    77,
+    101
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_filled_bead_split",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_filled_bead_split",
+   "Id": "filled_bead_split",
+   "CauseId": "sp4_jade_beads_filled_bead_split",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4088541666666667,
+   "V": 0.70703125,
+   "Width": 0.036458333333333336,
+   "Height": 0.0859375,
+   "bounds_px": [
+    150,
+    170,
+    164,
+    192
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_filled_bead_split",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_filled_bead_split",
+   "Id": "filled_bead_split",
+   "CauseId": "sp4_jade_beads_filled_bead_split",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.35546875,
+   "V": 0.71484375,
+   "Width": 0.0546875,
+   "Height": 0.0859375,
+   "bounds_px": [
+    42,
+    86,
+    49,
+    97
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__bead_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__bead_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__bead_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    144,
+    180,
+    158,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__bead_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3359375,
+   "V": 0.734375,
+   "Width": 0.078125,
+   "Height": 0.078125,
+   "bounds_px": [
+    38,
+    89,
+    48,
+    99
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    222,
+    178,
+    234,
+    190
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.7265625,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    80,
+    90,
+    86,
+    96
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5572916666666666,
+   "V": 0.7421875,
+   "Width": 0.03125,
+   "Height": 0.0625,
+   "bounds_px": [
+    208,
+    182,
+    220,
+    198
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.58203125,
+   "V": 0.7578125,
+   "Width": 0.0390625,
+   "Height": 0.0625,
+   "bounds_px": [
+    72,
+    93,
+    77,
+    101
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    144,
+    180,
+    158,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3359375,
+   "V": 0.734375,
+   "Width": 0.078125,
+   "Height": 0.078125,
+   "bounds_px": [
+    38,
+    89,
+    48,
+    99
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    222,
+    178,
+    234,
+    190
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "dou_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.7265625,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    80,
+    90,
+    86,
+    96
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_drill_exit_crack",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_drill_exit_crack",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_bead_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    144,
+    180,
+    158,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_bead_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3359375,
+   "V": 0.734375,
+   "Width": 0.078125,
+   "Height": 0.078125,
+   "bounds_px": [
+    38,
+    89,
+    48,
+    99
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    222,
+    178,
+    234,
+    190
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.7265625,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    80,
+    90,
+    86,
+    96
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_dyed_drill_pool",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5572916666666666,
+   "V": 0.7421875,
+   "Width": 0.03125,
+   "Height": 0.0625,
+   "bounds_px": [
+    208,
+    182,
+    220,
+    198
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_dyed_drill_pool",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.58203125,
+   "V": 0.7578125,
+   "Width": 0.0390625,
+   "Height": 0.0625,
+   "bounds_px": [
+    72,
+    93,
+    77,
+    101
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_filled_bead_split",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_filled_bead_split",
+   "Id": "filled_bead_split",
+   "CauseId": "sp4_jade_beads_filled_bead_split",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4088541666666667,
+   "V": 0.7109375,
+   "Width": 0.036458333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    150,
+    172,
+    164,
+    192
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_filled_bead_split",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_filled_bead_split",
+   "Id": "filled_bead_split",
+   "CauseId": "sp4_jade_beads_filled_bead_split",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.35546875,
+   "V": 0.71875,
+   "Width": 0.0546875,
+   "Height": 0.078125,
+   "bounds_px": [
+    42,
+    87,
+    49,
+    97
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__bead_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__bead_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__bead_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    144,
+    180,
+    158,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__bead_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3359375,
+   "V": 0.734375,
+   "Width": 0.078125,
+   "Height": 0.078125,
+   "bounds_px": [
+    38,
+    89,
+    48,
+    99
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    222,
+    178,
+    234,
+    190
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.7265625,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    80,
+    90,
+    86,
+    96
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5572916666666666,
+   "V": 0.7421875,
+   "Width": 0.03125,
+   "Height": 0.0625,
+   "bounds_px": [
+    208,
+    182,
+    220,
+    198
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.58203125,
+   "V": 0.7578125,
+   "Width": 0.0390625,
+   "Height": 0.0625,
+   "bounds_px": [
+    72,
+    93,
+    77,
+    101
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    144,
+    180,
+    158,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3359375,
+   "V": 0.734375,
+   "Width": 0.078125,
+   "Height": 0.078125,
+   "bounds_px": [
+    38,
+    89,
+    48,
+    99
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    222,
+    178,
+    234,
+    190
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "nuo_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.7265625,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    80,
+    90,
+    86,
+    96
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_drill_exit_crack",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_drill_exit_crack",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_bead_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    144,
+    180,
+    158,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_bead_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3359375,
+   "V": 0.734375,
+   "Width": 0.078125,
+   "Height": 0.078125,
+   "bounds_px": [
+    38,
+    89,
+    48,
+    99
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    222,
+    178,
+    234,
+    190
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.7265625,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    80,
+    90,
+    86,
+    96
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_dyed_drill_pool",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5572916666666666,
+   "V": 0.7421875,
+   "Width": 0.03125,
+   "Height": 0.0625,
+   "bounds_px": [
+    208,
+    182,
+    220,
+    198
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_dyed_drill_pool",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.58203125,
+   "V": 0.7578125,
+   "Width": 0.0390625,
+   "Height": 0.0625,
+   "bounds_px": [
+    72,
+    93,
+    77,
+    101
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_filled_bead_split",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_filled_bead_split",
+   "Id": "filled_bead_split",
+   "CauseId": "sp4_jade_beads_filled_bead_split",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4088541666666667,
+   "V": 0.7109375,
+   "Width": 0.036458333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    150,
+    172,
+    164,
+    192
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_filled_bead_split",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_filled_bead_split",
+   "Id": "filled_bead_split",
+   "CauseId": "sp4_jade_beads_filled_bead_split",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.35546875,
+   "V": 0.71875,
+   "Width": 0.0546875,
+   "Height": 0.078125,
+   "bounds_px": [
+    42,
+    87,
+    49,
+    97
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__bead_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__bead_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__bead_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    144,
+    180,
+    158,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__bead_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3359375,
+   "V": 0.734375,
+   "Width": 0.078125,
+   "Height": 0.078125,
+   "bounds_px": [
+    38,
+    89,
+    48,
+    99
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    222,
+    178,
+    234,
+    190
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.7265625,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    80,
+    90,
+    86,
+    96
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5572916666666666,
+   "V": 0.7421875,
+   "Width": 0.03125,
+   "Height": 0.0625,
+   "bounds_px": [
+    208,
+    182,
+    220,
+    198
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__dyed_drill_pool",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+   "Id": "dyed_drill_pool",
+   "CauseId": "sp4_jade_beads_dyed_drill_pool",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.58203125,
+   "V": 0.7578125,
+   "Width": 0.0390625,
+   "Height": 0.0625,
+   "bounds_px": [
+    72,
+    93,
+    77,
+    101
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.77734375,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    182,
+    192,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_drill_exit_crack",
+   "Id": "drill_exit_crack",
+   "CauseId": "sp4_jade_beads_drill_exit_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.79296875,
+   "Width": 0.09375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    59,
+    98,
+    71,
+    105
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    144,
+    180,
+    158,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_bead_chip",
+   "Id": "bead_chip",
+   "CauseId": "sp4_jade_beads_bead_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3359375,
+   "V": 0.734375,
+   "Width": 0.078125,
+   "Height": 0.078125,
+   "bounds_px": [
+    38,
+    89,
+    48,
+    99
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    222,
+    178,
+    234,
+    190
+   ]
+  },
+  {
+   "asset_key": "jade_beads_crafted",
+   "state": "bing_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_beads_mismatched_bead",
+   "Id": "mismatched_bead",
+   "CauseId": "sp4_jade_beads_mismatched_bead",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.7265625,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    80,
+    90,
+    86,
+    96
+   ]
+  }
+ ]
+}

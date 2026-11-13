@@ -1,0 +1,715 @@
+{
+ "asset_key": "silver_necklace_orbit",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "flattened_links",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_flattened_links",
+   "Id": "flattened_links",
+   "CauseId": "sp4_silver_necklace_flattened_links",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3229166666666667,
+   "V": 0.53125,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    114,
+    126,
+    134,
+    146
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "flattened_links",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_flattened_links",
+   "Id": "flattened_links",
+   "CauseId": "sp4_silver_necklace_flattened_links",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.22265625,
+   "V": 0.53515625,
+   "Width": 0.0859375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    23,
+    63,
+    34,
+    74
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "jump_ring_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_jump_ring_gap",
+   "Id": "jump_ring_gap",
+   "CauseId": "sp4_silver_necklace_jump_ring_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5208333333333334,
+   "V": 0.72265625,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    196,
+    180,
+    204,
+    190
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "jump_ring_gap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_jump_ring_gap",
+   "Id": "jump_ring_gap",
+   "CauseId": "sp4_silver_necklace_jump_ring_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.53515625,
+   "V": 0.73828125,
+   "Width": 0.0390625,
+   "Height": 0.0390625,
+   "bounds_px": [
+    66,
+    92,
+    71,
+    97
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "spring_failure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_spring_failure",
+   "Id": "spring_failure",
+   "CauseId": "sp4_silver_necklace_spring_failure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5859375,
+   "V": 0.23828125,
+   "Width": 0.036458333333333336,
+   "Height": 0.0390625,
+   "bounds_px": [
+    218,
+    56,
+    232,
+    66
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "spring_failure",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_spring_failure",
+   "Id": "spring_failure",
+   "CauseId": "sp4_silver_necklace_spring_failure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.63671875,
+   "V": 0.22265625,
+   "Width": 0.0546875,
+   "Height": 0.0390625,
+   "bounds_px": [
+    78,
+    26,
+    85,
+    31
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "link_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_link_core",
+   "Id": "link_core",
+   "CauseId": "sp4_silver_necklace_link_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.625,
+   "Width": 0.046875,
+   "Height": 0.0625,
+   "bounds_px": [
+    240,
+    152,
+    258,
+    168
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "link_core",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_link_core",
+   "Id": "link_core",
+   "CauseId": "sp4_silver_necklace_link_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.73046875,
+   "V": 0.62109375,
+   "Width": 0.0703125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    76,
+    98,
+    83
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_silver_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "repair_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_silver_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.2578125,
+   "Width": 0.0390625,
+   "Height": 0.046875,
+   "bounds_px": [
+    36,
+    30,
+    41,
+    36
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__link_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_flattened_links",
+   "Id": "flattened_links",
+   "CauseId": "sp4_silver_necklace_flattened_links",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3229166666666667,
+   "V": 0.53125,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    114,
+    126,
+    134,
+    146
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__link_core",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_flattened_links",
+   "Id": "flattened_links",
+   "CauseId": "sp4_silver_necklace_flattened_links",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.22265625,
+   "V": 0.53515625,
+   "Width": 0.0859375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    23,
+    63,
+    34,
+    74
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__link_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_link_core",
+   "Id": "link_core",
+   "CauseId": "sp4_silver_necklace_link_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.625,
+   "Width": 0.046875,
+   "Height": 0.0625,
+   "bounds_px": [
+    240,
+    152,
+    258,
+    168
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__link_core",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_link_core",
+   "Id": "link_core",
+   "CauseId": "sp4_silver_necklace_link_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.73046875,
+   "V": 0.62109375,
+   "Width": 0.0703125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    76,
+    98,
+    83
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_flattened_links",
+   "Id": "flattened_links",
+   "CauseId": "sp4_silver_necklace_flattened_links",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3229166666666667,
+   "V": 0.53125,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    114,
+    126,
+    134,
+    146
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__repair_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_flattened_links",
+   "Id": "flattened_links",
+   "CauseId": "sp4_silver_necklace_flattened_links",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.22265625,
+   "V": 0.53515625,
+   "Width": 0.0859375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    23,
+    63,
+    34,
+    74
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_silver_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__repair_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_silver_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.2578125,
+   "Width": 0.0390625,
+   "Height": 0.046875,
+   "bounds_px": [
+    36,
+    30,
+    41,
+    36
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__jump_ring_gap__link_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_jump_ring_gap",
+   "Id": "jump_ring_gap",
+   "CauseId": "sp4_silver_necklace_jump_ring_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5208333333333334,
+   "V": 0.72265625,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    196,
+    180,
+    204,
+    190
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__jump_ring_gap__link_core",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_jump_ring_gap",
+   "Id": "jump_ring_gap",
+   "CauseId": "sp4_silver_necklace_jump_ring_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.53515625,
+   "V": 0.73828125,
+   "Width": 0.0390625,
+   "Height": 0.0390625,
+   "bounds_px": [
+    66,
+    92,
+    71,
+    97
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__jump_ring_gap__link_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_link_core",
+   "Id": "link_core",
+   "CauseId": "sp4_silver_necklace_link_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.625,
+   "Width": 0.046875,
+   "Height": 0.0625,
+   "bounds_px": [
+    240,
+    152,
+    258,
+    168
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__jump_ring_gap__link_core",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_link_core",
+   "Id": "link_core",
+   "CauseId": "sp4_silver_necklace_link_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.73046875,
+   "V": 0.62109375,
+   "Width": 0.0703125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    76,
+    98,
+    83
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__jump_ring_gap__link_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_flattened_links",
+   "Id": "flattened_links",
+   "CauseId": "sp4_silver_necklace_flattened_links",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3229166666666667,
+   "V": 0.53125,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    114,
+    126,
+    134,
+    146
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__jump_ring_gap__link_core",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_flattened_links",
+   "Id": "flattened_links",
+   "CauseId": "sp4_silver_necklace_flattened_links",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.22265625,
+   "V": 0.53515625,
+   "Width": 0.0859375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    23,
+    63,
+    34,
+    74
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__jump_ring_gap__link_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_jump_ring_gap",
+   "Id": "jump_ring_gap",
+   "CauseId": "sp4_silver_necklace_jump_ring_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5208333333333334,
+   "V": 0.72265625,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    196,
+    180,
+    204,
+    190
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__jump_ring_gap__link_core",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_jump_ring_gap",
+   "Id": "jump_ring_gap",
+   "CauseId": "sp4_silver_necklace_jump_ring_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.53515625,
+   "V": 0.73828125,
+   "Width": 0.0390625,
+   "Height": 0.0390625,
+   "bounds_px": [
+    66,
+    92,
+    71,
+    97
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__jump_ring_gap__link_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_necklace_link_core",
+   "Id": "link_core",
+   "CauseId": "sp4_silver_necklace_link_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.625,
+   "Width": 0.046875,
+   "Height": 0.0625,
+   "bounds_px": [
+    240,
+    152,
+    258,
+    168
+   ]
+  },
+  {
+   "asset_key": "silver_necklace_orbit",
+   "state": "combo__flattened_links__jump_ring_gap__link_core",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_silver_necklace_link_core",
+   "Id": "link_core",
+   "CauseId": "sp4_silver_necklace_link_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.73046875,
+   "V": 0.62109375,
+   "Width": 0.0703125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    76,
+    98,
+    83
+   ]
+  }
+ ]
+}

@@ -1,0 +1,285 @@
+{
+ "asset_key": "collectible_painting",
+ "name_en": "Painting",
+ "category": "painting",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_collectible_painting",
+ "grid": [
+  2,
+  2
+ ],
+ "items_px": [
+  128,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "seal_mismatch": {
+   "paper": "paper/seal_mismatch.png",
+   "items": "items/seal_mismatch.png",
+   "templates": [
+    "sp4_painting_seal_mismatch"
+   ],
+   "view": "ordinary"
+  },
+  "print_screen": {
+   "paper": "paper/print_screen.png",
+   "items": "items/print_screen.png",
+   "templates": [
+    "sp4_painting_print_screen"
+   ],
+   "view": "ordinary"
+  },
+  "canvas_tear": {
+   "paper": "paper/canvas_tear.png",
+   "items": "items/canvas_tear.png",
+   "templates": [
+    "sp4_painting_canvas_tear"
+   ],
+   "view": "ordinary"
+  },
+  "water_tide": {
+   "paper": "paper/water_tide.png",
+   "items": "items/water_tide.png",
+   "templates": [
+    "sp4_painting_water_tide"
+   ],
+   "view": "ordinary"
+  },
+  "overpaint_patch": {
+   "paper": "paper/overpaint_patch.png",
+   "items": "items/overpaint_patch.png",
+   "templates": [
+    "sp4_painting_overpaint_patch"
+   ],
+   "view": "ordinary"
+  },
+  "overpaint_patch__uv": {
+   "paper": "paper/overpaint_patch__uv.png",
+   "items": "items/overpaint_patch__uv.png",
+   "templates": [
+    "sp4_painting_overpaint_patch"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "combo__seal_mismatch__canvas_tear": {
+   "paper": "paper/combo__seal_mismatch__canvas_tear.png",
+   "items": "items/combo__seal_mismatch__canvas_tear.png",
+   "templates": [
+    "sp4_painting_seal_mismatch",
+    "sp4_painting_canvas_tear"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__seal_mismatch__canvas_tear": {
+   "paper": "paper/repaired__seal_mismatch__canvas_tear.png",
+   "items": "items/repaired__seal_mismatch__canvas_tear.png",
+   "templates": [
+    "sp4_painting_seal_mismatch"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__seal_mismatch__canvas_tear"
+  },
+  "combo__seal_mismatch__water_tide": {
+   "paper": "paper/combo__seal_mismatch__water_tide.png",
+   "items": "items/combo__seal_mismatch__water_tide.png",
+   "templates": [
+    "sp4_painting_seal_mismatch",
+    "sp4_painting_water_tide"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__seal_mismatch__water_tide": {
+   "paper": "paper/repaired__seal_mismatch__water_tide.png",
+   "items": "items/repaired__seal_mismatch__water_tide.png",
+   "templates": [
+    "sp4_painting_seal_mismatch"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__seal_mismatch__water_tide"
+  },
+  "combo__print_screen__canvas_tear": {
+   "paper": "paper/combo__print_screen__canvas_tear.png",
+   "items": "items/combo__print_screen__canvas_tear.png",
+   "templates": [
+    "sp4_painting_print_screen",
+    "sp4_painting_canvas_tear"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__print_screen__canvas_tear": {
+   "paper": "paper/repaired__print_screen__canvas_tear.png",
+   "items": "items/repaired__print_screen__canvas_tear.png",
+   "templates": [
+    "sp4_painting_print_screen"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__print_screen__canvas_tear"
+  },
+  "combo__seal_mismatch__print_screen__canvas_tear": {
+   "paper": "paper/combo__seal_mismatch__print_screen__canvas_tear.png",
+   "items": "items/combo__seal_mismatch__print_screen__canvas_tear.png",
+   "templates": [
+    "sp4_painting_seal_mismatch",
+    "sp4_painting_print_screen",
+    "sp4_painting_canvas_tear"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__seal_mismatch__print_screen__canvas_tear": {
+   "paper": "paper/repaired__seal_mismatch__print_screen__canvas_tear.png",
+   "items": "items/repaired__seal_mismatch__print_screen__canvas_tear.png",
+   "templates": [
+    "sp4_painting_seal_mismatch",
+    "sp4_painting_print_screen"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__seal_mismatch__print_screen__canvas_tear"
+  }
+ },
+ "template_checks": {
+  "sp4_painting_seal_mismatch": {
+   "paper": {
+    "changed_px": 92,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     270,
+     178,
+     282,
+     190
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 27,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     99,
+     86,
+     107,
+     92
+    ]
+   }
+  },
+  "sp4_painting_print_screen": {
+   "paper": {
+    "changed_px": 640,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     68,
+     198,
+     106
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 120,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     38,
+     38,
+     67,
+     53
+    ]
+   }
+  },
+  "sp4_painting_canvas_tear": {
+   "paper": {
+    "changed_px": 732,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     64,
+     94,
+     88,
+     136
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 151,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     6,
+     49,
+     17,
+     68
+    ]
+   }
+  },
+  "sp4_painting_water_tide": {
+   "paper": {
+    "changed_px": 1016,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     116,
+     210,
+     244,
+     228
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 183,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     102,
+     86,
+     109
+    ]
+   }
+  },
+  "sp4_painting_overpaint_patch": {
+   "paper": {
+    "changed_px": 436,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     104,
+     52,
+     146,
+     80
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 98,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     24,
+     29,
+     43,
+     43
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

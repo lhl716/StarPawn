@@ -1,0 +1,128 @@
+{
+ "asset_key": "refined_gold_bar",
+ "combinations": [
+  {
+   "profile": "combo__cast_pores__traceability_mismatch",
+   "variant": "",
+   "templates": [
+    "sp4_refined_gold_bar_cast_pores",
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "repairable": [
+    "sp4_refined_gold_bar_cast_pores"
+   ],
+   "retained_after_repair": [
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "repaired_state": "repaired__cast_pores__traceability_mismatch"
+  },
+  {
+   "profile": "combo__slag_inclusion__traceability_mismatch",
+   "variant": "",
+   "templates": [
+    "sp4_refined_gold_bar_slag_inclusion",
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "repairable": [
+    "sp4_refined_gold_bar_slag_inclusion"
+   ],
+   "retained_after_repair": [
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "repaired_state": "repaired__slag_inclusion__traceability_mismatch"
+  },
+  {
+   "profile": "combo__cast_pores__slag_inclusion__traceability_mismatch",
+   "variant": "",
+   "templates": [
+    "sp4_refined_gold_bar_cast_pores",
+    "sp4_refined_gold_bar_slag_inclusion",
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "repairable": [
+    "sp4_refined_gold_bar_cast_pores",
+    "sp4_refined_gold_bar_slag_inclusion"
+   ],
+   "retained_after_repair": [
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "repaired_state": "repaired__cast_pores__slag_inclusion__traceability_mismatch"
+  },
+  {
+   "profile": "purity_shortfall",
+   "variant": "",
+   "templates": [
+    "sp4_refined_gold_bar_purity_shortfall"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_refined_gold_bar_purity_shortfall"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": true
+  },
+  {
+   "profile": "cast_pores",
+   "variant": "",
+   "templates": [
+    "sp4_refined_gold_bar_cast_pores"
+   ],
+   "repairable": [
+    "sp4_refined_gold_bar_cast_pores"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "slag_inclusion",
+   "variant": "",
+   "templates": [
+    "sp4_refined_gold_bar_slag_inclusion"
+   ],
+   "repairable": [
+    "sp4_refined_gold_bar_slag_inclusion"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "short_pour",
+   "variant": "",
+   "templates": [
+    "sp4_refined_gold_bar_short_pour"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_refined_gold_bar_short_pour"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": true
+  },
+  {
+   "profile": "traceability_mismatch",
+   "variant": "",
+   "templates": [
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

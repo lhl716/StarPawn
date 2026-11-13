@@ -1,0 +1,73 @@
+{
+ "asset_key": "legacy_antique_vase",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "legacy_antique_vase",
+   "state": "antique_vase_repaired",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_vase_restore",
+   "Id": "vase_restore",
+   "CauseId": "restoration_history",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.583,
+    0.594
+   ],
+   "U": 0.4557291666666667,
+   "V": 0.80078125,
+   "Width": 0.15104166666666666,
+   "Height": 0.1015625,
+   "bounds_px": [
+    146,
+    192,
+    204,
+    218
+   ]
+  },
+  {
+   "asset_key": "legacy_antique_vase",
+   "state": "antique_vase_repaired",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "legacy_vase_restore",
+   "Id": "vase_restore",
+   "CauseId": "restoration_history",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.583,
+    0.594
+   ],
+   "U": 0.4296875,
+   "V": 0.8125,
+   "Width": 0.203125,
+   "Height": 0.09375,
+   "bounds_px": [
+    21,
+    49,
+    34,
+    55
+   ]
+  }
+ ]
+}

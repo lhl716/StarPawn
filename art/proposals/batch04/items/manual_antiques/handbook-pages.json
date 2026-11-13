@@ -1,0 +1,262 @@
+{
+ "manual": "manual_antiques",
+ "page_size": [
+  440,
+  616
+ ],
+ "page_count": 4,
+ "style_spec": "art/VANILLA_HANDBOOK_SPEC_04.txt",
+ "pages": [
+  {
+   "manual": "manual_antiques",
+   "page": 0,
+   "kind": "index",
+   "template": "ui/handbook_page/index.png",
+   "previous": null,
+   "next": 1,
+   "entries": [
+    {
+     "category": "antique_vase",
+     "subtype": "all_models",
+     "first_page": 1,
+     "loc_key": "sp4.handbook.manual_antiques.index.antique_vase.all_models"
+    }
+   ],
+   "mockup": "items/manual_antiques/pages/page_00.png"
+  },
+  {
+   "manual": "manual_antiques",
+   "page": 1,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "antique_vase",
+   "subtype": "all_models",
+   "previous": 0,
+   "next": 2,
+   "sections": [
+    {
+     "TemplateId": "sp4_antique_vase_neck_crack",
+     "label_en": "Vase neck crack",
+     "category": "antique_vase",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_vase",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "conserve",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/collectible_vase/paper/intact.png",
+      "crop_px": [
+       143,
+       37,
+       223,
+       89
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_vase/paper/neck_crack.png",
+      "crop_px": [
+       143,
+       37,
+       223,
+       89
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_antique_vase_neck_crack.heading",
+      "body": "sp4.handbook.sp4_antique_vase_neck_crack.body",
+      "limits": "sp4.handbook.sp4_antique_vase_neck_crack.limits",
+      "reference_caption": "sp4.handbook.sp4_antique_vase_neck_crack.ref",
+      "problem_caption": "sp4.handbook.sp4_antique_vase_neck_crack.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_antique_vase_lip_chip",
+     "label_en": "Chipped vase lip",
+     "category": "antique_vase",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_vase",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "conserve",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/collectible_vase/paper/intact.png",
+      "crop_px": [
+       126,
+       13,
+       166,
+       39
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_vase/paper/lip_chip.png",
+      "crop_px": [
+       126,
+       13,
+       166,
+       39
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_antique_vase_lip_chip.heading",
+      "body": "sp4.handbook.sp4_antique_vase_lip_chip.body",
+      "limits": "sp4.handbook.sp4_antique_vase_lip_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_antique_vase_lip_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_antique_vase_lip_chip.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_antiques/pages/page_01.png"
+  },
+  {
+   "manual": "manual_antiques",
+   "page": 2,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "antique_vase",
+   "subtype": "all_models",
+   "previous": 1,
+   "next": 3,
+   "sections": [
+    {
+     "TemplateId": "sp4_antique_vase_restoration_join",
+     "label_en": "Restored vase wall",
+     "category": "antique_vase",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_vase",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/collectible_vase/paper/intact.png",
+      "crop_px": [
+       135,
+       179,
+       215,
+       231
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_vase/paper/restoration_join__uv.png",
+      "crop_px": [
+       135,
+       179,
+       215,
+       231
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_antique_vase_restoration_join.heading",
+      "body": "sp4.handbook.sp4_antique_vase_restoration_join.body",
+      "limits": "sp4.handbook.sp4_antique_vase_restoration_join.limits",
+      "reference_caption": "sp4.handbook.sp4_antique_vase_restoration_join.ref",
+      "problem_caption": "sp4.handbook.sp4_antique_vase_restoration_join.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_antique_vase_false_crazing",
+     "label_en": "Applied aging lines",
+     "category": "antique_vase",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_vase",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "authenticity_disclosure",
+     "reference": {
+      "layer": "items/collectible_vase/paper/intact.png",
+      "crop_px": [
+       99,
+       123,
+       179,
+       175
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_vase/paper/false_crazing.png",
+      "crop_px": [
+       99,
+       123,
+       179,
+       175
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_antique_vase_false_crazing.heading",
+      "body": "sp4.handbook.sp4_antique_vase_false_crazing.body",
+      "limits": "sp4.handbook.sp4_antique_vase_false_crazing.limits",
+      "reference_caption": "sp4.handbook.sp4_antique_vase_false_crazing.ref",
+      "problem_caption": "sp4.handbook.sp4_antique_vase_false_crazing.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_antiques/pages/page_02.png"
+  },
+  {
+   "manual": "manual_antiques",
+   "page": 3,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "antique_vase",
+   "subtype": "all_models",
+   "previous": 2,
+   "next": null,
+   "sections": [
+    {
+     "TemplateId": "sp4_antique_vase_base_mark_recut",
+     "label_en": "Recut maker mark",
+     "category": "antique_vase",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_vase",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "authenticity_disclosure",
+     "reference": {
+      "layer": "items/collectible_vase/paper/intact.png",
+      "crop_px": [
+       229,
+       175,
+       309,
+       227
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_vase/paper/base_mark_recut.png",
+      "crop_px": [
+       229,
+       175,
+       309,
+       227
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_antique_vase_base_mark_recut.heading",
+      "body": "sp4.handbook.sp4_antique_vase_base_mark_recut.body",
+      "limits": "sp4.handbook.sp4_antique_vase_base_mark_recut.limits",
+      "reference_caption": "sp4.handbook.sp4_antique_vase_base_mark_recut.ref",
+      "problem_caption": "sp4.handbook.sp4_antique_vase_base_mark_recut.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_antiques/pages/page_03.png"
+  }
+ ]
+}

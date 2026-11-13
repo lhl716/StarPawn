@@ -1,0 +1,715 @@
+{
+ "asset_key": "silver_ring_starburst",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "groove_abrasion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_groove_abrasion",
+   "Id": "groove_abrasion",
+   "CauseId": "sp4_silver_ring_groove_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.70703125,
+   "Width": 0.08854166666666667,
+   "Height": 0.0390625,
+   "bounds_px": [
+    170,
+    176,
+    204,
+    186
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "groove_abrasion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_groove_abrasion",
+   "Id": "groove_abrasion",
+   "CauseId": "sp4_silver_ring_groove_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4765625,
+   "V": 0.7265625,
+   "Width": 0.171875,
+   "Height": 0.046875,
+   "bounds_px": [
+    25,
+    45,
+    36,
+    48
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "ovalized_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_ovalized_band",
+   "Id": "ovalized_band",
+   "CauseId": "sp4_silver_ring_ovalized_band",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.51953125,
+   "Width": 0.03125,
+   "Height": 0.1953125,
+   "bounds_px": [
+    270,
+    108,
+    282,
+    158
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "ovalized_band",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_ovalized_band",
+   "Id": "ovalized_band",
+   "CauseId": "sp4_silver_ring_ovalized_band",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.859375,
+   "V": 0.5234375,
+   "Width": 0.0625,
+   "Height": 0.234375,
+   "bounds_px": [
+    53,
+    26,
+    57,
+    41
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "shank_split",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_shank_split",
+   "Id": "shank_split",
+   "CauseId": "sp4_silver_ring_shank_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.6171875,
+   "Width": 0.03125,
+   "Height": 0.109375,
+   "bounds_px": [
+    138,
+    144,
+    150,
+    172
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "shank_split",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_shank_split",
+   "Id": "shank_split",
+   "CauseId": "sp4_silver_ring_shank_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3046875,
+   "V": 0.640625,
+   "Width": 0.078125,
+   "Height": 0.125,
+   "bounds_px": [
+    17,
+    37,
+    22,
+    45
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "copper_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_copper_breakthrough",
+   "Id": "copper_breakthrough",
+   "CauseId": "sp4_silver_ring_copper_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6145833333333334,
+   "V": 0.6953125,
+   "Width": 0.08333333333333333,
+   "Height": 0.109375,
+   "bounds_px": [
+    220,
+    164,
+    252,
+    192
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "copper_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_copper_breakthrough",
+   "Id": "copper_breakthrough",
+   "CauseId": "sp4_silver_ring_copper_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.7109375,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    39,
+    41,
+    49,
+    50
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "sizing_insert",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_sizing_insert",
+   "Id": "sizing_insert",
+   "CauseId": "sp4_silver_ring_sizing_insert",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5859375,
+   "V": 0.2890625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    216,
+    62,
+    234,
+    86
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "sizing_insert",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_sizing_insert",
+   "Id": "sizing_insert",
+   "CauseId": "sp4_silver_ring_sizing_insert",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6328125,
+   "V": 0.2734375,
+   "Width": 0.078125,
+   "Height": 0.109375,
+   "bounds_px": [
+    38,
+    14,
+    43,
+    21
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__copper_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_groove_abrasion",
+   "Id": "groove_abrasion",
+   "CauseId": "sp4_silver_ring_groove_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.70703125,
+   "Width": 0.08854166666666667,
+   "Height": 0.0390625,
+   "bounds_px": [
+    170,
+    176,
+    204,
+    186
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__copper_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_groove_abrasion",
+   "Id": "groove_abrasion",
+   "CauseId": "sp4_silver_ring_groove_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4765625,
+   "V": 0.7265625,
+   "Width": 0.171875,
+   "Height": 0.046875,
+   "bounds_px": [
+    25,
+    45,
+    36,
+    48
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__copper_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_copper_breakthrough",
+   "Id": "copper_breakthrough",
+   "CauseId": "sp4_silver_ring_copper_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6145833333333334,
+   "V": 0.6953125,
+   "Width": 0.08333333333333333,
+   "Height": 0.109375,
+   "bounds_px": [
+    220,
+    164,
+    252,
+    192
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__copper_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_copper_breakthrough",
+   "Id": "copper_breakthrough",
+   "CauseId": "sp4_silver_ring_copper_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.7109375,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    39,
+    41,
+    49,
+    50
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__sizing_insert",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_groove_abrasion",
+   "Id": "groove_abrasion",
+   "CauseId": "sp4_silver_ring_groove_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.70703125,
+   "Width": 0.08854166666666667,
+   "Height": 0.0390625,
+   "bounds_px": [
+    170,
+    176,
+    204,
+    186
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__sizing_insert",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_groove_abrasion",
+   "Id": "groove_abrasion",
+   "CauseId": "sp4_silver_ring_groove_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4765625,
+   "V": 0.7265625,
+   "Width": 0.171875,
+   "Height": 0.046875,
+   "bounds_px": [
+    25,
+    45,
+    36,
+    48
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__sizing_insert",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_sizing_insert",
+   "Id": "sizing_insert",
+   "CauseId": "sp4_silver_ring_sizing_insert",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5859375,
+   "V": 0.2890625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    216,
+    62,
+    234,
+    86
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__sizing_insert",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_sizing_insert",
+   "Id": "sizing_insert",
+   "CauseId": "sp4_silver_ring_sizing_insert",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6328125,
+   "V": 0.2734375,
+   "Width": 0.078125,
+   "Height": 0.109375,
+   "bounds_px": [
+    38,
+    14,
+    43,
+    21
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__ovalized_band__copper_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_ovalized_band",
+   "Id": "ovalized_band",
+   "CauseId": "sp4_silver_ring_ovalized_band",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.51953125,
+   "Width": 0.03125,
+   "Height": 0.1953125,
+   "bounds_px": [
+    270,
+    108,
+    282,
+    158
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__ovalized_band__copper_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_ovalized_band",
+   "Id": "ovalized_band",
+   "CauseId": "sp4_silver_ring_ovalized_band",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.859375,
+   "V": 0.5234375,
+   "Width": 0.0625,
+   "Height": 0.234375,
+   "bounds_px": [
+    53,
+    26,
+    57,
+    41
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__ovalized_band__copper_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_copper_breakthrough",
+   "Id": "copper_breakthrough",
+   "CauseId": "sp4_silver_ring_copper_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6145833333333334,
+   "V": 0.6953125,
+   "Width": 0.08333333333333333,
+   "Height": 0.109375,
+   "bounds_px": [
+    220,
+    164,
+    252,
+    192
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__ovalized_band__copper_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_copper_breakthrough",
+   "Id": "copper_breakthrough",
+   "CauseId": "sp4_silver_ring_copper_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.7109375,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    39,
+    41,
+    49,
+    50
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__ovalized_band__copper_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_groove_abrasion",
+   "Id": "groove_abrasion",
+   "CauseId": "sp4_silver_ring_groove_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.70703125,
+   "Width": 0.08854166666666667,
+   "Height": 0.0390625,
+   "bounds_px": [
+    170,
+    176,
+    204,
+    186
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__ovalized_band__copper_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_groove_abrasion",
+   "Id": "groove_abrasion",
+   "CauseId": "sp4_silver_ring_groove_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4765625,
+   "V": 0.7265625,
+   "Width": 0.171875,
+   "Height": 0.046875,
+   "bounds_px": [
+    25,
+    45,
+    36,
+    48
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__ovalized_band__copper_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_ovalized_band",
+   "Id": "ovalized_band",
+   "CauseId": "sp4_silver_ring_ovalized_band",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.51953125,
+   "Width": 0.03125,
+   "Height": 0.1953125,
+   "bounds_px": [
+    270,
+    108,
+    282,
+    158
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__ovalized_band__copper_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_ovalized_band",
+   "Id": "ovalized_band",
+   "CauseId": "sp4_silver_ring_ovalized_band",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.859375,
+   "V": 0.5234375,
+   "Width": 0.0625,
+   "Height": 0.234375,
+   "bounds_px": [
+    53,
+    26,
+    57,
+    41
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__ovalized_band__copper_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_ring_copper_breakthrough",
+   "Id": "copper_breakthrough",
+   "CauseId": "sp4_silver_ring_copper_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6145833333333334,
+   "V": 0.6953125,
+   "Width": 0.08333333333333333,
+   "Height": 0.109375,
+   "bounds_px": [
+    220,
+    164,
+    252,
+    192
+   ]
+  },
+  {
+   "asset_key": "silver_ring_starburst",
+   "state": "combo__groove_abrasion__ovalized_band__copper_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_silver_ring_copper_breakthrough",
+   "Id": "copper_breakthrough",
+   "CauseId": "sp4_silver_ring_copper_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.7109375,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    39,
+    41,
+    49,
+    50
+   ]
+  }
+ ]
+}

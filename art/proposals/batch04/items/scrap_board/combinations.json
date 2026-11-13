@@ -1,0 +1,139 @@
+{
+ "asset_key": "scrap_board",
+ "combinations": [
+  {
+   "profile": "combo__missing_chip__contact_stripping",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_board_missing_chip",
+    "sp4_scrap_board_contact_stripping"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_board_missing_chip",
+    "sp4_scrap_board_contact_stripping"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__missing_chip__burned_trace",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_board_missing_chip",
+    "sp4_scrap_board_burned_trace"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_board_missing_chip",
+    "sp4_scrap_board_burned_trace"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__missing_chip__corroded_pad",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_board_missing_chip",
+    "sp4_scrap_board_corroded_pad"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_board_missing_chip",
+    "sp4_scrap_board_corroded_pad"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__missing_chip__contact_stripping__burned_trace",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_board_missing_chip",
+    "sp4_scrap_board_contact_stripping",
+    "sp4_scrap_board_burned_trace"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_board_missing_chip",
+    "sp4_scrap_board_contact_stripping",
+    "sp4_scrap_board_burned_trace"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "missing_chip",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_board_missing_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_board_missing_chip"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "contact_stripping",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_board_contact_stripping"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_board_contact_stripping"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "burned_trace",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_board_burned_trace"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_board_burned_trace"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "corroded_pad",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_board_corroded_pad"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_board_corroded_pad"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "false_grade_label",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_board_false_grade_label"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_board_false_grade_label"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

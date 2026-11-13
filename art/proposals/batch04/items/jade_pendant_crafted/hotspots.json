@@ -1,0 +1,2115 @@
+{
+ "asset_key": "jade_pendant_crafted",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_drilled_eye_crack",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_drilled_eye_crack",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_edge_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_edge_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_clouded_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5286458333333334,
+   "V": 0.4296875,
+   "Width": 0.13020833333333334,
+   "Height": 0.21875,
+   "bounds_px": [
+    178,
+    82,
+    228,
+    138
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_clouded_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.421875,
+   "Width": 0.171875,
+   "Height": 0.1875,
+   "bounds_px": [
+    29,
+    21,
+    40,
+    33
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5104166666666666,
+   "V": 0.56640625,
+   "Width": 0.14583333333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    168,
+    130,
+    224,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.5703125,
+   "Width": 0.21875,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    33,
+    39,
+    40
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_filled_eye_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_filled_eye_seam",
+   "Id": "filled_eye_seam",
+   "CauseId": "sp4_jade_pendant_filled_eye_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4817708333333333,
+   "V": 0.26171875,
+   "Width": 0.078125,
+   "Height": 0.0703125,
+   "bounds_px": [
+    170,
+    58,
+    200,
+    76
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_filled_eye_seam",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_filled_eye_seam",
+   "Id": "filled_eye_seam",
+   "CauseId": "sp4_jade_pendant_filled_eye_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4765625,
+   "V": 0.2578125,
+   "Width": 0.140625,
+   "Height": 0.078125,
+   "bounds_px": [
+    26,
+    14,
+    35,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__edge_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__edge_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__edge_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__edge_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5104166666666666,
+   "V": 0.56640625,
+   "Width": 0.14583333333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    168,
+    130,
+    224,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.5703125,
+   "Width": 0.21875,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    33,
+    39,
+    40
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__edge_chip__clouded_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__edge_chip__clouded_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__edge_chip__clouded_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5286458333333334,
+   "V": 0.4296875,
+   "Width": 0.13020833333333334,
+   "Height": 0.21875,
+   "bounds_px": [
+    178,
+    82,
+    228,
+    138
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__edge_chip__clouded_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.421875,
+   "Width": 0.171875,
+   "Height": 0.1875,
+   "bounds_px": [
+    29,
+    21,
+    40,
+    33
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5104166666666666,
+   "V": 0.56640625,
+   "Width": 0.14583333333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    168,
+    130,
+    224,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "dou_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.5703125,
+   "Width": 0.21875,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    33,
+    39,
+    40
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_drilled_eye_crack",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_drilled_eye_crack",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_edge_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_edge_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_clouded_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5286458333333334,
+   "V": 0.4296875,
+   "Width": 0.13020833333333334,
+   "Height": 0.21875,
+   "bounds_px": [
+    178,
+    82,
+    228,
+    138
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_clouded_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.421875,
+   "Width": 0.171875,
+   "Height": 0.1875,
+   "bounds_px": [
+    29,
+    21,
+    40,
+    33
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5104166666666666,
+   "V": 0.56640625,
+   "Width": 0.14583333333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    168,
+    130,
+    224,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.5703125,
+   "Width": 0.21875,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    33,
+    39,
+    40
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_filled_eye_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_filled_eye_seam",
+   "Id": "filled_eye_seam",
+   "CauseId": "sp4_jade_pendant_filled_eye_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4817708333333333,
+   "V": 0.26171875,
+   "Width": 0.078125,
+   "Height": 0.0703125,
+   "bounds_px": [
+    170,
+    58,
+    200,
+    76
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_filled_eye_seam",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_filled_eye_seam",
+   "Id": "filled_eye_seam",
+   "CauseId": "sp4_jade_pendant_filled_eye_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4765625,
+   "V": 0.2578125,
+   "Width": 0.140625,
+   "Height": 0.078125,
+   "bounds_px": [
+    26,
+    14,
+    35,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__edge_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__edge_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__edge_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__edge_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5104166666666666,
+   "V": 0.56640625,
+   "Width": 0.14583333333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    168,
+    130,
+    224,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.5703125,
+   "Width": 0.21875,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    33,
+    39,
+    40
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__edge_chip__clouded_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__edge_chip__clouded_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__edge_chip__clouded_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5286458333333334,
+   "V": 0.4296875,
+   "Width": 0.13020833333333334,
+   "Height": 0.21875,
+   "bounds_px": [
+    178,
+    82,
+    228,
+    138
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__edge_chip__clouded_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.421875,
+   "Width": 0.171875,
+   "Height": 0.1875,
+   "bounds_px": [
+    29,
+    21,
+    40,
+    33
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5104166666666666,
+   "V": 0.56640625,
+   "Width": 0.14583333333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    168,
+    130,
+    224,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "nuo_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.5703125,
+   "Width": 0.21875,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    33,
+    39,
+    40
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_drilled_eye_crack",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_drilled_eye_crack",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_edge_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_edge_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_clouded_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5286458333333334,
+   "V": 0.4296875,
+   "Width": 0.13020833333333334,
+   "Height": 0.21875,
+   "bounds_px": [
+    178,
+    82,
+    228,
+    138
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_clouded_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.421875,
+   "Width": 0.171875,
+   "Height": 0.1875,
+   "bounds_px": [
+    29,
+    21,
+    40,
+    33
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5104166666666666,
+   "V": 0.56640625,
+   "Width": 0.14583333333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    168,
+    130,
+    224,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.5703125,
+   "Width": 0.21875,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    33,
+    39,
+    40
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_filled_eye_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_filled_eye_seam",
+   "Id": "filled_eye_seam",
+   "CauseId": "sp4_jade_pendant_filled_eye_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4817708333333333,
+   "V": 0.26171875,
+   "Width": 0.078125,
+   "Height": 0.0703125,
+   "bounds_px": [
+    170,
+    58,
+    200,
+    76
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_filled_eye_seam",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_filled_eye_seam",
+   "Id": "filled_eye_seam",
+   "CauseId": "sp4_jade_pendant_filled_eye_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4765625,
+   "V": 0.2578125,
+   "Width": 0.140625,
+   "Height": 0.078125,
+   "bounds_px": [
+    26,
+    14,
+    35,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__edge_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__edge_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__edge_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__edge_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5104166666666666,
+   "V": 0.56640625,
+   "Width": 0.14583333333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    168,
+    130,
+    224,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.5703125,
+   "Width": 0.21875,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    33,
+    39,
+    40
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__edge_chip__clouded_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__edge_chip__clouded_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__edge_chip__clouded_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5286458333333334,
+   "V": 0.4296875,
+   "Width": 0.13020833333333334,
+   "Height": 0.21875,
+   "bounds_px": [
+    178,
+    82,
+    228,
+    138
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__edge_chip__clouded_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_clouded_center",
+   "Id": "clouded_center",
+   "CauseId": "sp4_jade_pendant_clouded_center",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.421875,
+   "Width": 0.171875,
+   "Height": 0.1875,
+   "bounds_px": [
+    29,
+    21,
+    40,
+    33
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.3125,
+   "Width": 0.07291666666666667,
+   "Height": 0.171875,
+   "bounds_px": [
+    196,
+    58,
+    224,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+   "Id": "drilled_eye_crack",
+   "CauseId": "sp4_jade_pendant_drilled_eye_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.578125,
+   "V": 0.3046875,
+   "Width": 0.125,
+   "Height": 0.171875,
+   "bounds_px": [
+    33,
+    14,
+    41,
+    25
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.71484375,
+   "Width": 0.08333333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    136,
+    166,
+    168,
+    200
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_edge_chip",
+   "Id": "edge_chip",
+   "CauseId": "sp4_jade_pendant_edge_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.7109375,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    18,
+    41,
+    26,
+    50
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5104166666666666,
+   "V": 0.56640625,
+   "Width": 0.14583333333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    168,
+    130,
+    224,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_pendant_crafted",
+   "state": "bing_combo__drilled_eye_crack__edge_chip__dyed_groove",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_pendant_dyed_groove",
+   "Id": "dyed_groove",
+   "CauseId": "sp4_jade_pendant_dyed_groove",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.5703125,
+   "Width": 0.21875,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    33,
+    39,
+    40
+   ]
+  }
+ ]
+}

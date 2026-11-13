@@ -1,0 +1,238 @@
+{
+ "asset_key": "gem_pearl_baroque",
+ "name_en": "Baroque Pearl",
+ "category": "gem_pearl",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_gem_pearl_baroque",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "nacre_peel": {
+   "paper": "paper/nacre_peel.png",
+   "items": "items/nacre_peel.png",
+   "templates": [
+    "sp4_gem_pearl_nacre_peel"
+   ],
+   "view": "ordinary"
+  },
+  "drill_chip": {
+   "paper": "paper/drill_chip.png",
+   "items": "items/drill_chip.png",
+   "templates": [
+    "sp4_gem_pearl_drill_chip"
+   ],
+   "view": "ordinary"
+  },
+  "surface_scratch": {
+   "paper": "paper/surface_scratch.png",
+   "items": "items/surface_scratch.png",
+   "templates": [
+    "sp4_gem_pearl_surface_scratch"
+   ],
+   "view": "ordinary"
+  },
+  "dull_patch": {
+   "paper": "paper/dull_patch.png",
+   "items": "items/dull_patch.png",
+   "templates": [
+    "sp4_gem_pearl_dull_patch"
+   ],
+   "view": "ordinary"
+  },
+  "coated_imitation": {
+   "paper": "paper/coated_imitation.png",
+   "items": "items/coated_imitation.png",
+   "templates": [
+    "sp4_gem_pearl_coated_imitation"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "combo__nacre_peel__drill_chip": {
+   "paper": "paper/combo__nacre_peel__drill_chip.png",
+   "items": "items/combo__nacre_peel__drill_chip.png",
+   "templates": [
+    "sp4_gem_pearl_nacre_peel",
+    "sp4_gem_pearl_drill_chip"
+   ],
+   "view": "ordinary"
+  },
+  "combo__nacre_peel__surface_scratch": {
+   "paper": "paper/combo__nacre_peel__surface_scratch.png",
+   "items": "items/combo__nacre_peel__surface_scratch.png",
+   "templates": [
+    "sp4_gem_pearl_nacre_peel",
+    "sp4_gem_pearl_surface_scratch"
+   ],
+   "view": "ordinary"
+  },
+  "combo__drill_chip__dull_patch": {
+   "paper": "paper/combo__drill_chip__dull_patch.png",
+   "items": "items/combo__drill_chip__dull_patch.png",
+   "templates": [
+    "sp4_gem_pearl_drill_chip",
+    "sp4_gem_pearl_dull_patch"
+   ],
+   "view": "ordinary"
+  },
+  "combo__nacre_peel__drill_chip__surface_scratch": {
+   "paper": "paper/combo__nacre_peel__drill_chip__surface_scratch.png",
+   "items": "items/combo__nacre_peel__drill_chip__surface_scratch.png",
+   "templates": [
+    "sp4_gem_pearl_nacre_peel",
+    "sp4_gem_pearl_drill_chip",
+    "sp4_gem_pearl_surface_scratch"
+   ],
+   "view": "ordinary"
+  },
+  "instrument_observation": {
+   "paper": "paper/instrument_observation.png",
+   "items": "items/instrument_observation.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  }
+ },
+ "template_checks": {
+  "sp4_gem_pearl_nacre_peel": {
+   "paper": {
+    "changed_px": 924,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     132,
+     128,
+     172,
+     160
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 82,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     16,
+     31,
+     28,
+     41
+    ]
+   }
+  },
+  "sp4_gem_pearl_drill_chip": {
+   "paper": {
+    "changed_px": 588,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     184,
+     200,
+     214,
+     224
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 46,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     29,
+     49,
+     38,
+     56
+    ]
+   }
+  },
+  "sp4_gem_pearl_surface_scratch": {
+   "paper": {
+    "changed_px": 64,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     230,
+     130,
+     246,
+     158
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     41,
+     33,
+     45,
+     40
+    ]
+   }
+  },
+  "sp4_gem_pearl_dull_patch": {
+   "paper": {
+    "changed_px": 1640,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     166,
+     114,
+     222,
+     160
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 82,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     26,
+     29,
+     40,
+     40
+    ]
+   }
+  },
+  "sp4_gem_pearl_coated_imitation": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

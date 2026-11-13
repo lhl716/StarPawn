@@ -1,0 +1,22 @@
+{
+ "asset_key": "dialog",
+ "kind": "component",
+ "size": [
+  360,
+  200
+ ],
+ "states": [
+  "confirm",
+  "blocked",
+  "error"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Nine-slice; margins12,12,12,12.",
+ "nine_slice_margins_ltrb": [
+  12,
+  12,
+  12,
+  12
+ ]
+}

@@ -1,0 +1,2615 @@
+{
+ "asset_key": "jade_rough_water",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jade_rough_water",
+   "state": "impact_spall",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "impact_spall",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "joined_cap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7109375,
+   "V": 0.59765625,
+   "Width": 0.09895833333333333,
+   "Height": 0.2109375,
+   "bounds_px": [
+    254,
+    126,
+    292,
+    180
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "joined_cap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8203125,
+   "V": 0.59765625,
+   "Width": 0.140625,
+   "Height": 0.1953125,
+   "bounds_px": [
+    96,
+    64,
+    114,
+    89
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__joined_cap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__joined_cap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__joined_cap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7109375,
+   "V": 0.59765625,
+   "Width": 0.09895833333333333,
+   "Height": 0.2109375,
+   "bounds_px": [
+    254,
+    126,
+    292,
+    180
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__joined_cap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8203125,
+   "V": 0.59765625,
+   "Width": 0.140625,
+   "Height": 0.1953125,
+   "bounds_px": [
+    96,
+    64,
+    114,
+    89
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__surface_color_wash__joined_cap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__surface_color_wash__joined_cap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__surface_color_wash__joined_cap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__surface_color_wash__joined_cap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__surface_color_wash__joined_cap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7109375,
+   "V": 0.59765625,
+   "Width": 0.09895833333333333,
+   "Height": 0.2109375,
+   "bounds_px": [
+    254,
+    126,
+    292,
+    180
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "combo__impact_spall__surface_color_wash__joined_cap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8203125,
+   "V": 0.59765625,
+   "Width": 0.140625,
+   "Height": 0.1953125,
+   "bounds_px": [
+    96,
+    64,
+    114,
+    89
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_impact_spall",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_impact_spall",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_through_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5963541666666666,
+   "V": 0.49609375,
+   "Width": 0.046875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    220,
+    112,
+    238,
+    142
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_through_fracture",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.64453125,
+   "V": 0.49609375,
+   "Width": 0.0703125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    56,
+    87,
+    71
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_fibrous_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5833333333333334,
+   "V": 0.44140625,
+   "Width": 0.08333333333333333,
+   "Height": 0.0703125,
+   "bounds_px": [
+    208,
+    104,
+    240,
+    122
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_fibrous_cloud",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.44140625,
+   "Width": 0.125,
+   "Height": 0.0703125,
+   "bounds_px": [
+    71,
+    52,
+    87,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_joined_cap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7109375,
+   "V": 0.59765625,
+   "Width": 0.09895833333333333,
+   "Height": 0.2109375,
+   "bounds_px": [
+    254,
+    126,
+    292,
+    180
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_joined_cap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8203125,
+   "V": 0.59765625,
+   "Width": 0.140625,
+   "Height": 0.1953125,
+   "bounds_px": [
+    96,
+    64,
+    114,
+    89
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__through_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__through_fracture",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__through_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5963541666666666,
+   "V": 0.49609375,
+   "Width": 0.046875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    220,
+    112,
+    238,
+    142
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__through_fracture",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.64453125,
+   "V": 0.49609375,
+   "Width": 0.0703125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    56,
+    87,
+    71
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__fibrous_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__fibrous_cloud",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__fibrous_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5833333333333334,
+   "V": 0.44140625,
+   "Width": 0.08333333333333333,
+   "Height": 0.0703125,
+   "bounds_px": [
+    208,
+    104,
+    240,
+    122
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__fibrous_cloud",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.44140625,
+   "Width": 0.125,
+   "Height": 0.0703125,
+   "bounds_px": [
+    71,
+    52,
+    87,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5963541666666666,
+   "V": 0.49609375,
+   "Width": 0.046875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    220,
+    112,
+    238,
+    142
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.64453125,
+   "V": 0.49609375,
+   "Width": 0.0703125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    56,
+    87,
+    71
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_dou_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_impact_spall",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_impact_spall",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_through_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5963541666666666,
+   "V": 0.49609375,
+   "Width": 0.046875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    220,
+    112,
+    238,
+    142
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_through_fracture",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.64453125,
+   "V": 0.49609375,
+   "Width": 0.0703125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    56,
+    87,
+    71
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_fibrous_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5833333333333334,
+   "V": 0.44140625,
+   "Width": 0.08333333333333333,
+   "Height": 0.0703125,
+   "bounds_px": [
+    208,
+    104,
+    240,
+    122
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_fibrous_cloud",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.44140625,
+   "Width": 0.125,
+   "Height": 0.0703125,
+   "bounds_px": [
+    71,
+    52,
+    87,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_joined_cap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7109375,
+   "V": 0.59765625,
+   "Width": 0.09895833333333333,
+   "Height": 0.2109375,
+   "bounds_px": [
+    254,
+    126,
+    292,
+    180
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_joined_cap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8203125,
+   "V": 0.59765625,
+   "Width": 0.140625,
+   "Height": 0.1953125,
+   "bounds_px": [
+    96,
+    64,
+    114,
+    89
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__through_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__through_fracture",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__through_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5963541666666666,
+   "V": 0.49609375,
+   "Width": 0.046875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    220,
+    112,
+    238,
+    142
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__through_fracture",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.64453125,
+   "V": 0.49609375,
+   "Width": 0.0703125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    56,
+    87,
+    71
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__fibrous_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__fibrous_cloud",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__fibrous_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5833333333333334,
+   "V": 0.44140625,
+   "Width": 0.08333333333333333,
+   "Height": 0.0703125,
+   "bounds_px": [
+    208,
+    104,
+    240,
+    122
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__fibrous_cloud",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.44140625,
+   "Width": 0.125,
+   "Height": 0.0703125,
+   "bounds_px": [
+    71,
+    52,
+    87,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5963541666666666,
+   "V": 0.49609375,
+   "Width": 0.046875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    220,
+    112,
+    238,
+    142
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.64453125,
+   "V": 0.49609375,
+   "Width": 0.0703125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    56,
+    87,
+    71
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_nuo_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_impact_spall",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_impact_spall",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_through_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5963541666666666,
+   "V": 0.49609375,
+   "Width": 0.046875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    220,
+    112,
+    238,
+    142
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_through_fracture",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.64453125,
+   "V": 0.49609375,
+   "Width": 0.0703125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    56,
+    87,
+    71
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_fibrous_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5833333333333334,
+   "V": 0.44140625,
+   "Width": 0.08333333333333333,
+   "Height": 0.0703125,
+   "bounds_px": [
+    208,
+    104,
+    240,
+    122
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_fibrous_cloud",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.44140625,
+   "Width": 0.125,
+   "Height": 0.0703125,
+   "bounds_px": [
+    71,
+    52,
+    87,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_joined_cap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7109375,
+   "V": 0.59765625,
+   "Width": 0.09895833333333333,
+   "Height": 0.2109375,
+   "bounds_px": [
+    254,
+    126,
+    292,
+    180
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_joined_cap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_joined_cap",
+   "Id": "joined_cap",
+   "CauseId": "sp4_rough_water_joined_cap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8203125,
+   "V": 0.59765625,
+   "Width": 0.140625,
+   "Height": 0.1953125,
+   "bounds_px": [
+    96,
+    64,
+    114,
+    89
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__through_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__through_fracture",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__through_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5963541666666666,
+   "V": 0.49609375,
+   "Width": 0.046875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    220,
+    112,
+    238,
+    142
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__through_fracture",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.64453125,
+   "V": 0.49609375,
+   "Width": 0.0703125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    56,
+    87,
+    71
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__fibrous_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__fibrous_cloud",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__fibrous_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5833333333333334,
+   "V": 0.44140625,
+   "Width": 0.08333333333333333,
+   "Height": 0.0703125,
+   "bounds_px": [
+    208,
+    104,
+    240,
+    122
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__fibrous_cloud",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_fibrous_cloud",
+   "Id": "fibrous_cloud",
+   "CauseId": "sp4_rough_water_fibrous_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.44140625,
+   "Width": 0.125,
+   "Height": 0.0703125,
+   "bounds_px": [
+    71,
+    52,
+    87,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2708333333333333,
+   "V": 0.45703125,
+   "Width": 0.052083333333333336,
+   "Height": 0.1171875,
+   "bounds_px": [
+    94,
+    102,
+    114,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_impact_spall",
+   "Id": "impact_spall",
+   "CauseId": "sp4_rough_water_impact_spall",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15625,
+   "V": 0.45703125,
+   "Width": 0.078125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    15,
+    51,
+    25,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5963541666666666,
+   "V": 0.49609375,
+   "Width": 0.046875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    220,
+    112,
+    238,
+    142
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_through_fracture",
+   "Id": "through_fracture",
+   "CauseId": "sp4_rough_water_through_fracture",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.64453125,
+   "V": 0.49609375,
+   "Width": 0.0703125,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    56,
+    87,
+    71
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.51953125,
+   "Width": 0.13020833333333334,
+   "Height": 0.1171875,
+   "bounds_px": [
+    136,
+    118,
+    186,
+    148
+   ]
+  },
+  {
+   "asset_key": "jade_rough_water",
+   "state": "window_bing_combo__impact_spall__through_fracture__surface_color_wash",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_water_surface_color_wash",
+   "Id": "surface_color_wash",
+   "CauseId": "sp4_rough_water_surface_color_wash",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.37890625,
+   "V": 0.51953125,
+   "Width": 0.1796875,
+   "Height": 0.1171875,
+   "bounds_px": [
+    37,
+    59,
+    60,
+    74
+   ]
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "asset_key": "screen_handbook",
+ "kind": "screen_plate",
+ "size": [
+  440,
+  616
+ ],
+ "states": [
+  "default",
+  "empty",
+  "blocked"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Handbook Reader; text-free skin plus annotated 1920x1080 and 3840x2160 full-screen mockups. Preserve logical anchors; future screens marked planned.",
+ "anchors": {
+  "issuer": [
+   28,
+   24,
+   332,
+   16
+  ],
+  "title": [
+   28,
+   44,
+   332,
+   28
+  ],
+  "ctrl_a": [
+   390,
+   8,
+   18,
+   18
+  ],
+  "ctrl_b": [
+   412,
+   8,
+   18,
+   18
+  ],
+  "intro": [
+   28,
+   80,
+   384,
+   48
+  ],
+  "s1_head": [
+   20,
+   140,
+   400,
+   20
+  ],
+  "s1_text": [
+   28,
+   164,
+   384,
+   44
+  ],
+  "s1_left": [
+   40,
+   216,
+   160,
+   104
+  ],
+  "s1_right": [
+   240,
+   216,
+   160,
+   104
+  ],
+  "s1_cap_left": [
+   40,
+   324,
+   160,
+   20
+  ],
+  "s1_cap_right": [
+   240,
+   324,
+   160,
+   20
+  ],
+  "s2_head": [
+   20,
+   360,
+   400,
+   20
+  ],
+  "s2_text": [
+   28,
+   384,
+   384,
+   44
+  ],
+  "s2_left": [
+   40,
+   436,
+   160,
+   104
+  ],
+  "s2_right": [
+   240,
+   436,
+   160,
+   104
+  ],
+  "s2_cap_left": [
+   40,
+   544,
+   160,
+   20
+  ],
+  "s2_cap_right": [
+   240,
+   544,
+   160,
+   20
+  ],
+  "footer": [
+   28,
+   580,
+   384,
+   20
+  ],
+  "prev": [
+   28,
+   580,
+   60,
+   20
+  ],
+  "next": [
+   352,
+   580,
+   60,
+   20
+  ]
+ },
+ "mockups": [
+  "mockup_1080p.png (1920x1080)",
+  "mockup_4k.png (3840x2160)"
+ ]
+}

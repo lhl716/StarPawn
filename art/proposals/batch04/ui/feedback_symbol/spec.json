@@ -1,0 +1,17 @@
+{
+ "asset_key": "feedback_symbol",
+ "kind": "component",
+ "size": [
+  64,
+  64
+ ],
+ "states": [
+  "neutral",
+  "impatient",
+  "withdrawn",
+  "satisfied"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Small feedback symbol/gesture treatment, not a new NPC character roster."
+}

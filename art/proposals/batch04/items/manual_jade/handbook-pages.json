@@ -1,0 +1,2662 @@
+{
+ "manual": "manual_jade",
+ "page_size": [
+  440,
+  616
+ ],
+ "page_count": 34,
+ "style_spec": "art/VANILLA_HANDBOOK_SPEC_04.txt",
+ "pages": [
+  {
+   "manual": "manual_jade",
+   "page": 0,
+   "kind": "index",
+   "template": "ui/handbook_page/index.png",
+   "previous": null,
+   "next": 1,
+   "entries": [
+    {
+     "category": "jade_rough",
+     "subtype": "yellow",
+     "first_page": 1,
+     "loc_key": "sp4.handbook.manual_jade.index.jade_rough.yellow"
+    },
+    {
+     "category": "jade_rough",
+     "subtype": "black",
+     "first_page": 4,
+     "loc_key": "sp4.handbook.manual_jade.index.jade_rough.black"
+    },
+    {
+     "category": "jade_rough",
+     "subtype": "water",
+     "first_page": 7,
+     "loc_key": "sp4.handbook.manual_jade.index.jade_rough.water"
+    },
+    {
+     "category": "jade_rough",
+     "subtype": "white",
+     "first_page": 10,
+     "loc_key": "sp4.handbook.manual_jade.index.jade_rough.white"
+    },
+    {
+     "category": "jade_rough",
+     "subtype": "rust",
+     "first_page": 13,
+     "loc_key": "sp4.handbook.manual_jade.index.jade_rough.rust"
+    },
+    {
+     "category": "jade_rough",
+     "subtype": "mountain",
+     "first_page": 16,
+     "loc_key": "sp4.handbook.manual_jade.index.jade_rough.mountain"
+    },
+    {
+     "category": "jade_pendant",
+     "subtype": "all_models",
+     "first_page": 19,
+     "loc_key": "sp4.handbook.manual_jade.index.jade_pendant.all_models"
+    },
+    {
+     "category": "jade_cabochon",
+     "subtype": "all_models",
+     "first_page": 22,
+     "loc_key": "sp4.handbook.manual_jade.index.jade_cabochon.all_models"
+    },
+    {
+     "category": "jade_bangle",
+     "subtype": "all_models",
+     "first_page": 25,
+     "loc_key": "sp4.handbook.manual_jade.index.jade_bangle.all_models"
+    },
+    {
+     "category": "jade_beads",
+     "subtype": "all_models",
+     "first_page": 28,
+     "loc_key": "sp4.handbook.manual_jade.index.jade_beads.all_models"
+    },
+    {
+     "category": "jade_carving",
+     "subtype": "all_models",
+     "first_page": 31,
+     "loc_key": "sp4.handbook.manual_jade.index.jade_carving.all_models"
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_00.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 1,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "yellow",
+   "previous": 0,
+   "next": 2,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_yellow_shell_fissure",
+     "label_en": "Yellow-skin fissure",
+     "category": "jade_rough",
+     "subtype": "yellow",
+     "example_asset_key": "jade_rough_yellow",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "rough_integrity",
+     "reference": {
+      "layer": "items/jade_rough_yellow/paper/window_open_nuo.png",
+      "crop_px": [
+       214,
+       101,
+       294,
+       153
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_yellow/paper/window_nuo_shell_fissure.png",
+      "crop_px": [
+       214,
+       101,
+       294,
+       153
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_yellow_shell_fissure.heading",
+      "body": "sp4.handbook.sp4_rough_yellow_shell_fissure.body",
+      "limits": "sp4.handbook.sp4_rough_yellow_shell_fissure.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_yellow_shell_fissure.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_yellow_shell_fissure.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_yellow_chalk_cloud",
+     "label_en": "Chalky interior cloud",
+     "category": "jade_rough",
+     "subtype": "yellow",
+     "example_asset_key": "jade_rough_yellow",
+     "view": "light",
+     "instrument": "jade_light",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_rough_yellow/paper/light_observation_nuo.png",
+      "crop_px": [
+       102,
+       115,
+       182,
+       167
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_yellow/paper/window_nuo_chalk_cloud__light.png",
+      "crop_px": [
+       102,
+       115,
+       182,
+       167
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_yellow_chalk_cloud.heading",
+      "body": "sp4.handbook.sp4_rough_yellow_chalk_cloud.body",
+      "limits": "sp4.handbook.sp4_rough_yellow_chalk_cloud.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_yellow_chalk_cloud.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_yellow_chalk_cloud.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_01.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 2,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "yellow",
+   "previous": 1,
+   "next": 3,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+     "label_en": "Dark mineral pocket",
+     "category": "jade_rough",
+     "subtype": "yellow",
+     "example_asset_key": "jade_rough_yellow",
+     "view": "window",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_rough_yellow/paper/window_open_nuo.png",
+      "crop_px": [
+       139,
+       143,
+       179,
+       169
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_yellow/paper/window_nuo_black_grain_pocket.png",
+      "crop_px": [
+       139,
+       143,
+       179,
+       169
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_yellow_black_grain_pocket.heading",
+      "body": "sp4.handbook.sp4_rough_yellow_black_grain_pocket.body",
+      "limits": "sp4.handbook.sp4_rough_yellow_black_grain_pocket.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_yellow_black_grain_pocket.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_yellow_black_grain_pocket.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_yellow_dyed_sand",
+     "label_en": "Dyed sand-skin grains",
+     "category": "jade_rough",
+     "subtype": "yellow",
+     "example_asset_key": "jade_rough_yellow",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_yellow/paper/uv_observation.png",
+      "crop_px": [
+       107,
+       57,
+       187,
+       109
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_yellow/paper/window_nuo_dyed_sand__uv.png",
+      "crop_px": [
+       107,
+       57,
+       187,
+       109
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_yellow_dyed_sand.heading",
+      "body": "sp4.handbook.sp4_rough_yellow_dyed_sand.body",
+      "limits": "sp4.handbook.sp4_rough_yellow_dyed_sand.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_yellow_dyed_sand.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_yellow_dyed_sand.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_02.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 3,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "yellow",
+   "previous": 2,
+   "next": 4,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_yellow_window_inlay",
+     "label_en": "Glued inspection-window insert",
+     "category": "jade_rough",
+     "subtype": "yellow",
+     "example_asset_key": "jade_rough_yellow",
+     "view": "window",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "assembly_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_yellow/paper/window_open_nuo.png",
+      "crop_px": [
+       139,
+       114,
+       219,
+       166
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_yellow/paper/window_nuo_window_inlay.png",
+      "crop_px": [
+       139,
+       114,
+       219,
+       166
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_yellow_window_inlay.heading",
+      "body": "sp4.handbook.sp4_rough_yellow_window_inlay.body",
+      "limits": "sp4.handbook.sp4_rough_yellow_window_inlay.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_yellow_window_inlay.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_yellow_window_inlay.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_03.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 4,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "black",
+   "previous": 3,
+   "next": 5,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_black_hairline_skin_split",
+     "label_en": "Black-skin hairline split",
+     "category": "jade_rough",
+     "subtype": "black",
+     "example_asset_key": "jade_rough_black",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "rough_integrity",
+     "reference": {
+      "layer": "items/jade_rough_black/paper/window_open_nuo.png",
+      "crop_px": [
+       184,
+       63,
+       264,
+       115
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_black/paper/window_nuo_hairline_skin_split.png",
+      "crop_px": [
+       184,
+       63,
+       264,
+       115
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_black_hairline_skin_split.heading",
+      "body": "sp4.handbook.sp4_rough_black_hairline_skin_split.body",
+      "limits": "sp4.handbook.sp4_rough_black_hairline_skin_split.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_black_hairline_skin_split.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_black_hairline_skin_split.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_black_opaque_heart",
+     "label_en": "Opaque interior zone",
+     "category": "jade_rough",
+     "subtype": "black",
+     "example_asset_key": "jade_rough_black",
+     "view": "light",
+     "instrument": "jade_light",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_rough_black/paper/light_observation_nuo.png",
+      "crop_px": [
+       154,
+       123,
+       234,
+       175
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_black/paper/window_nuo_opaque_heart__light.png",
+      "crop_px": [
+       154,
+       123,
+       234,
+       175
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_black_opaque_heart.heading",
+      "body": "sp4.handbook.sp4_rough_black_opaque_heart.body",
+      "limits": "sp4.handbook.sp4_rough_black_opaque_heart.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_black_opaque_heart.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_black_opaque_heart.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_04.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 5,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "black",
+   "previous": 4,
+   "next": 6,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_black_white_vein",
+     "label_en": "Coarse pale mineral vein",
+     "category": "jade_rough",
+     "subtype": "black",
+     "example_asset_key": "jade_rough_black",
+     "view": "window",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_rough_black/paper/window_open_nuo.png",
+      "crop_px": [
+       171,
+       121,
+       251,
+       173
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_black/paper/window_nuo_white_vein.png",
+      "crop_px": [
+       171,
+       121,
+       251,
+       173
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_black_white_vein.heading",
+      "body": "sp4.handbook.sp4_rough_black_white_vein.body",
+      "limits": "sp4.handbook.sp4_rough_black_white_vein.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_black_white_vein.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_black_white_vein.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_black_artificial_dark_skin",
+     "label_en": "Artificial dark coating",
+     "category": "jade_rough",
+     "subtype": "black",
+     "example_asset_key": "jade_rough_black",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_black/paper/window_open_nuo.png",
+      "crop_px": [
+       105,
+       149,
+       185,
+       201
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_black/paper/window_nuo_artificial_dark_skin.png",
+      "crop_px": [
+       105,
+       149,
+       185,
+       201
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_black_artificial_dark_skin.heading",
+      "body": "sp4.handbook.sp4_rough_black_artificial_dark_skin.body",
+      "limits": "sp4.handbook.sp4_rough_black_artificial_dark_skin.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_black_artificial_dark_skin.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_black_artificial_dark_skin.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_05.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 6,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "black",
+   "previous": 5,
+   "next": 7,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_black_plugged_window",
+     "label_en": "Plugged bright window",
+     "category": "jade_rough",
+     "subtype": "black",
+     "example_asset_key": "jade_rough_black",
+     "view": "window",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "assembly_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_black/paper/window_open_nuo.png",
+      "crop_px": [
+       173,
+       152,
+       213,
+       178
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_black/paper/window_nuo_plugged_window.png",
+      "crop_px": [
+       173,
+       152,
+       213,
+       178
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_black_plugged_window.heading",
+      "body": "sp4.handbook.sp4_rough_black_plugged_window.body",
+      "limits": "sp4.handbook.sp4_rough_black_plugged_window.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_black_plugged_window.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_black_plugged_window.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_06.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 7,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "water",
+   "previous": 6,
+   "next": 8,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_water_impact_spall",
+     "label_en": "Water-worn shell spall",
+     "category": "jade_rough",
+     "subtype": "water",
+     "example_asset_key": "jade_rough_water",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "rough_integrity",
+     "reference": {
+      "layer": "items/jade_rough_water/paper/window_open_nuo.png",
+      "crop_px": [
+       64,
+       91,
+       144,
+       143
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_water/paper/window_nuo_impact_spall.png",
+      "crop_px": [
+       64,
+       91,
+       144,
+       143
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_water_impact_spall.heading",
+      "body": "sp4.handbook.sp4_rough_water_impact_spall.body",
+      "limits": "sp4.handbook.sp4_rough_water_impact_spall.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_water_impact_spall.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_water_impact_spall.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_water_through_fracture",
+     "label_en": "Water-stone through fracture",
+     "category": "jade_rough",
+     "subtype": "water",
+     "example_asset_key": "jade_rough_water",
+     "view": "window",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "rough_integrity",
+     "reference": {
+      "layer": "items/jade_rough_water/paper/window_open_nuo.png",
+      "crop_px": [
+       189,
+       101,
+       269,
+       153
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_water/paper/window_nuo_through_fracture.png",
+      "crop_px": [
+       189,
+       101,
+       269,
+       153
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_water_through_fracture.heading",
+      "body": "sp4.handbook.sp4_rough_water_through_fracture.body",
+      "limits": "sp4.handbook.sp4_rough_water_through_fracture.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_water_through_fracture.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_water_through_fracture.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_07.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 8,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "water",
+   "previous": 7,
+   "next": 9,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_water_fibrous_cloud",
+     "label_en": "Dense fibrous interior cloud",
+     "category": "jade_rough",
+     "subtype": "water",
+     "example_asset_key": "jade_rough_water",
+     "view": "light",
+     "instrument": "jade_light",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_rough_water/paper/light_observation_nuo.png",
+      "crop_px": [
+       204,
+       100,
+       244,
+       126
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_water/paper/window_nuo_fibrous_cloud__light.png",
+      "crop_px": [
+       204,
+       100,
+       244,
+       126
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_water_fibrous_cloud.heading",
+      "body": "sp4.handbook.sp4_rough_water_fibrous_cloud.body",
+      "limits": "sp4.handbook.sp4_rough_water_fibrous_cloud.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_water_fibrous_cloud.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_water_fibrous_cloud.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_water_surface_color_wash",
+     "label_en": "Applied surface color wash",
+     "category": "jade_rough",
+     "subtype": "water",
+     "example_asset_key": "jade_rough_water",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_water/paper/uv_observation.png",
+      "crop_px": [
+       121,
+       107,
+       201,
+       159
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_water/paper/window_nuo_surface_color_wash__uv.png",
+      "crop_px": [
+       121,
+       107,
+       201,
+       159
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_water_surface_color_wash.heading",
+      "body": "sp4.handbook.sp4_rough_water_surface_color_wash.body",
+      "limits": "sp4.handbook.sp4_rough_water_surface_color_wash.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_water_surface_color_wash.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_water_surface_color_wash.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_08.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 9,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "water",
+   "previous": 8,
+   "next": 10,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_water_joined_cap",
+     "label_en": "Joined water-stone cap",
+     "category": "jade_rough",
+     "subtype": "water",
+     "example_asset_key": "jade_rough_water",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "assembly_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_water/paper/window_open_nuo.png",
+      "crop_px": [
+       193,
+       101,
+       353,
+       205
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_water/paper/window_nuo_joined_cap.png",
+      "crop_px": [
+       193,
+       101,
+       353,
+       205
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_water_joined_cap.heading",
+      "body": "sp4.handbook.sp4_rough_water_joined_cap.body",
+      "limits": "sp4.handbook.sp4_rough_water_joined_cap.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_water_joined_cap.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_water_joined_cap.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_09.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 10,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "white",
+   "previous": 9,
+   "next": 11,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_white_salt_skin_split",
+     "label_en": "White-skin edge split",
+     "category": "jade_rough",
+     "subtype": "white",
+     "example_asset_key": "jade_rough_white",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "rough_integrity",
+     "reference": {
+      "layer": "items/jade_rough_white/paper/window_open_nuo.png",
+      "crop_px": [
+       231,
+       166,
+       271,
+       192
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_white/paper/window_nuo_salt_skin_split.png",
+      "crop_px": [
+       231,
+       166,
+       271,
+       192
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_white_salt_skin_split.heading",
+      "body": "sp4.handbook.sp4_rough_white_salt_skin_split.body",
+      "limits": "sp4.handbook.sp4_rough_white_salt_skin_split.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_white_salt_skin_split.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_white_salt_skin_split.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_white_coarse_void_zone",
+     "label_en": "Coarse interior void zone",
+     "category": "jade_rough",
+     "subtype": "white",
+     "example_asset_key": "jade_rough_white",
+     "view": "window",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_rough_white/paper/window_open_nuo.png",
+      "crop_px": [
+       130,
+       96,
+       170,
+       122
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_white/paper/window_nuo_coarse_void_zone.png",
+      "crop_px": [
+       130,
+       96,
+       170,
+       122
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_white_coarse_void_zone.heading",
+      "body": "sp4.handbook.sp4_rough_white_coarse_void_zone.body",
+      "limits": "sp4.handbook.sp4_rough_white_coarse_void_zone.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_white_coarse_void_zone.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_white_coarse_void_zone.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_10.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 11,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "white",
+   "previous": 10,
+   "next": 12,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_white_carbon_pocket",
+     "label_en": "Dark inclusion pocket",
+     "category": "jade_rough",
+     "subtype": "white",
+     "example_asset_key": "jade_rough_white",
+     "view": "light",
+     "instrument": "jade_light",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_rough_white/paper/light_observation_nuo.png",
+      "crop_px": [
+       145,
+       82,
+       185,
+       108
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_white/paper/window_nuo_carbon_pocket__light.png",
+      "crop_px": [
+       145,
+       82,
+       185,
+       108
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_white_carbon_pocket.heading",
+      "body": "sp4.handbook.sp4_rough_white_carbon_pocket.body",
+      "limits": "sp4.handbook.sp4_rough_white_carbon_pocket.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_white_carbon_pocket.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_white_carbon_pocket.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_white_chalk_skin_patch",
+     "label_en": "Applied chalky shell patch",
+     "category": "jade_rough",
+     "subtype": "white",
+     "example_asset_key": "jade_rough_white",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "assembly_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_white/paper/window_open_nuo.png",
+      "crop_px": [
+       141,
+       155,
+       221,
+       207
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_white/paper/window_nuo_chalk_skin_patch.png",
+      "crop_px": [
+       141,
+       155,
+       221,
+       207
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_white_chalk_skin_patch.heading",
+      "body": "sp4.handbook.sp4_rough_white_chalk_skin_patch.body",
+      "limits": "sp4.handbook.sp4_rough_white_chalk_skin_patch.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_white_chalk_skin_patch.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_white_chalk_skin_patch.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_11.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 12,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "white",
+   "previous": 11,
+   "next": 13,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_white_window_plug",
+     "label_en": "White-skin window plug",
+     "category": "jade_rough",
+     "subtype": "white",
+     "example_asset_key": "jade_rough_white",
+     "view": "window",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "assembly_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_white/paper/window_open_nuo.png",
+      "crop_px": [
+       143,
+       81,
+       223,
+       133
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_white/paper/window_nuo_window_plug.png",
+      "crop_px": [
+       143,
+       81,
+       223,
+       133
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_white_window_plug.heading",
+      "body": "sp4.handbook.sp4_rough_white_window_plug.body",
+      "limits": "sp4.handbook.sp4_rough_white_window_plug.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_white_window_plug.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_white_window_plug.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_12.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 13,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "rust",
+   "previous": 12,
+   "next": 14,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_rust_rust_ridge_split",
+     "label_en": "Rust-ridge fracture",
+     "category": "jade_rough",
+     "subtype": "rust",
+     "example_asset_key": "jade_rough_rust",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "rough_integrity",
+     "reference": {
+      "layer": "items/jade_rough_rust/paper/window_open_nuo.png",
+      "crop_px": [
+       154,
+       76,
+       234,
+       128
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_rust/paper/window_nuo_rust_ridge_split.png",
+      "crop_px": [
+       154,
+       76,
+       234,
+       128
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_rust_rust_ridge_split.heading",
+      "body": "sp4.handbook.sp4_rough_rust_rust_ridge_split.body",
+      "limits": "sp4.handbook.sp4_rough_rust_rust_ridge_split.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_rust_rust_ridge_split.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_rust_rust_ridge_split.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_rust_brown_interior_patch",
+     "label_en": "Brown interior inclusion",
+     "category": "jade_rough",
+     "subtype": "rust",
+     "example_asset_key": "jade_rough_rust",
+     "view": "window",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_rough_rust/paper/window_open_nuo.png",
+      "crop_px": [
+       203,
+       156,
+       243,
+       182
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_rust/paper/window_nuo_brown_interior_patch.png",
+      "crop_px": [
+       203,
+       156,
+       243,
+       182
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_rust_brown_interior_patch.heading",
+      "body": "sp4.handbook.sp4_rough_rust_brown_interior_patch.body",
+      "limits": "sp4.handbook.sp4_rough_rust_brown_interior_patch.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_rust_brown_interior_patch.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_rust_brown_interior_patch.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_13.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 14,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "rust",
+   "previous": 13,
+   "next": 15,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_rust_cotton_sheet",
+     "label_en": "Sheet-like interior cotton",
+     "category": "jade_rough",
+     "subtype": "rust",
+     "example_asset_key": "jade_rough_rust",
+     "view": "light",
+     "instrument": "jade_light",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_rough_rust/paper/light_observation_nuo.png",
+      "crop_px": [
+       201,
+       129,
+       281,
+       181
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_rust/paper/window_nuo_cotton_sheet__light.png",
+      "crop_px": [
+       201,
+       129,
+       281,
+       181
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_rust_cotton_sheet.heading",
+      "body": "sp4.handbook.sp4_rough_rust_cotton_sheet.body",
+      "limits": "sp4.handbook.sp4_rough_rust_cotton_sheet.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_rust_cotton_sheet.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_rust_cotton_sheet.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_rust_painted_rust",
+     "label_en": "Painted rust markings",
+     "category": "jade_rough",
+     "subtype": "rust",
+     "example_asset_key": "jade_rough_rust",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_rust/paper/window_open_nuo.png",
+      "crop_px": [
+       99,
+       58,
+       179,
+       110
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_rust/paper/window_nuo_painted_rust.png",
+      "crop_px": [
+       99,
+       58,
+       179,
+       110
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_rust_painted_rust.heading",
+      "body": "sp4.handbook.sp4_rough_rust_painted_rust.body",
+      "limits": "sp4.handbook.sp4_rough_rust_painted_rust.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_rust_painted_rust.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_rust_painted_rust.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_14.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 15,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "rust",
+   "previous": 14,
+   "next": 16,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_rust_patched_shell",
+     "label_en": "Reattached shell fragment",
+     "category": "jade_rough",
+     "subtype": "rust",
+     "example_asset_key": "jade_rough_rust",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "assembly_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_rust/paper/window_open_nuo.png",
+      "crop_px": [
+       36,
+       101,
+       196,
+       205
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_rust/paper/window_nuo_patched_shell.png",
+      "crop_px": [
+       36,
+       101,
+       196,
+       205
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_rust_patched_shell.heading",
+      "body": "sp4.handbook.sp4_rough_rust_patched_shell.body",
+      "limits": "sp4.handbook.sp4_rough_rust_patched_shell.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_rust_patched_shell.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_rust_patched_shell.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_15.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 16,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "mountain",
+   "previous": 15,
+   "next": 17,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+     "label_en": "Mountain-rough open fissure",
+     "category": "jade_rough",
+     "subtype": "mountain",
+     "example_asset_key": "jade_rough_mountain",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "rough_integrity",
+     "reference": {
+      "layer": "items/jade_rough_mountain/paper/window_open_nuo.png",
+      "crop_px": [
+       157,
+       110,
+       317,
+       214
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_mountain/paper/window_nuo_open_mountain_fissure.png",
+      "crop_px": [
+       157,
+       110,
+       317,
+       214
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_mountain_open_mountain_fissure.heading",
+      "body": "sp4.handbook.sp4_rough_mountain_open_mountain_fissure.body",
+      "limits": "sp4.handbook.sp4_rough_mountain_open_mountain_fissure.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_mountain_open_mountain_fissure.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_mountain_open_mountain_fissure.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_mountain_coarse_interior",
+     "label_en": "Coarse mountain interior",
+     "category": "jade_rough",
+     "subtype": "mountain",
+     "example_asset_key": "jade_rough_mountain",
+     "view": "window",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_rough_mountain/paper/window_open_nuo.png",
+      "crop_px": [
+       168,
+       84,
+       208,
+       110
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_mountain/paper/window_nuo_coarse_interior.png",
+      "crop_px": [
+       168,
+       84,
+       208,
+       110
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_mountain_coarse_interior.heading",
+      "body": "sp4.handbook.sp4_rough_mountain_coarse_interior.body",
+      "limits": "sp4.handbook.sp4_rough_mountain_coarse_interior.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_mountain_coarse_interior.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_mountain_coarse_interior.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_16.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 17,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "mountain",
+   "previous": 16,
+   "next": 18,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_mountain_black_band",
+     "label_en": "Dark interior band",
+     "category": "jade_rough",
+     "subtype": "mountain",
+     "example_asset_key": "jade_rough_mountain",
+     "view": "light",
+     "instrument": "jade_light",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_rough_mountain/paper/light_observation_nuo.png",
+      "crop_px": [
+       146,
+       81,
+       226,
+       133
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_mountain/paper/window_nuo_black_band__light.png",
+      "crop_px": [
+       146,
+       81,
+       226,
+       133
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_mountain_black_band.heading",
+      "body": "sp4.handbook.sp4_rough_mountain_black_band.body",
+      "limits": "sp4.handbook.sp4_rough_mountain_black_band.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_mountain_black_band.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_mountain_black_band.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+     "label_en": "Filled mountain-shell seam",
+     "category": "jade_rough",
+     "subtype": "mountain",
+     "example_asset_key": "jade_rough_mountain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_mountain/paper/uv_observation.png",
+      "crop_px": [
+       152,
+       160,
+       232,
+       212
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_mountain/paper/window_nuo_filled_shell_seam__uv.png",
+      "crop_px": [
+       152,
+       160,
+       232,
+       212
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_mountain_filled_shell_seam.heading",
+      "body": "sp4.handbook.sp4_rough_mountain_filled_shell_seam.body",
+      "limits": "sp4.handbook.sp4_rough_mountain_filled_shell_seam.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_mountain_filled_shell_seam.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_mountain_filled_shell_seam.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_17.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 18,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_rough",
+   "subtype": "mountain",
+   "previous": 17,
+   "next": 19,
+   "sections": [
+    {
+     "TemplateId": "sp4_rough_mountain_colored_window",
+     "label_en": "Color-treated mountain window",
+     "category": "jade_rough",
+     "subtype": "mountain",
+     "example_asset_key": "jade_rough_mountain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_rough_mountain/paper/uv_observation.png",
+      "crop_px": [
+       147,
+       80,
+       227,
+       132
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_rough_mountain/paper/window_nuo_colored_window__uv.png",
+      "crop_px": [
+       147,
+       80,
+       227,
+       132
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_rough_mountain_colored_window.heading",
+      "body": "sp4.handbook.sp4_rough_mountain_colored_window.body",
+      "limits": "sp4.handbook.sp4_rough_mountain_colored_window.limits",
+      "reference_caption": "sp4.handbook.sp4_rough_mountain_colored_window.ref",
+      "problem_caption": "sp4.handbook.sp4_rough_mountain_colored_window.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_18.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 19,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_pendant",
+   "subtype": "all_models",
+   "previous": 18,
+   "next": 20,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_pendant_drilled_eye_crack",
+     "label_en": "Crack from pendant eye",
+     "category": "jade_pendant",
+     "subtype": "all_models",
+     "example_asset_key": "jade_pendant_plain",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "jade_structure",
+     "reference": {
+      "layer": "items/jade_pendant_plain/paper/nuo_intact.png",
+      "crop_px": [
+       170,
+       54,
+       250,
+       106
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_pendant_plain/paper/nuo_drilled_eye_crack.png",
+      "crop_px": [
+       170,
+       54,
+       250,
+       106
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_pendant_drilled_eye_crack.heading",
+      "body": "sp4.handbook.sp4_jade_pendant_drilled_eye_crack.body",
+      "limits": "sp4.handbook.sp4_jade_pendant_drilled_eye_crack.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_pendant_drilled_eye_crack.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_pendant_drilled_eye_crack.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jade_pendant_edge_chip",
+     "label_en": "Chipped pendant edge",
+     "category": "jade_pendant",
+     "subtype": "all_models",
+     "example_asset_key": "jade_pendant_plain",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "none",
+     "economic_channel": "jade_structure",
+     "reference": {
+      "layer": "items/jade_pendant_plain/paper/nuo_intact.png",
+      "crop_px": [
+       108,
+       189,
+       188,
+       241
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_pendant_plain/paper/nuo_edge_chip.png",
+      "crop_px": [
+       108,
+       189,
+       188,
+       241
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_pendant_edge_chip.heading",
+      "body": "sp4.handbook.sp4_jade_pendant_edge_chip.body",
+      "limits": "sp4.handbook.sp4_jade_pendant_edge_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_pendant_edge_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_pendant_edge_chip.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_19.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 20,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_pendant",
+   "subtype": "all_models",
+   "previous": 19,
+   "next": 21,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_pendant_clouded_center",
+     "label_en": "Dense pendant cotton",
+     "category": "jade_pendant",
+     "subtype": "all_models",
+     "example_asset_key": "jade_pendant_plain",
+     "view": "light",
+     "instrument": "jade_light",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_pendant_plain/paper/nuo_light_observation.png",
+      "crop_px": [
+       123,
+       58,
+       283,
+       162
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_pendant_plain/paper/nuo_clouded_center__light.png",
+      "crop_px": [
+       123,
+       58,
+       283,
+       162
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_pendant_clouded_center.heading",
+      "body": "sp4.handbook.sp4_jade_pendant_clouded_center.body",
+      "limits": "sp4.handbook.sp4_jade_pendant_clouded_center.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_pendant_clouded_center.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_pendant_clouded_center.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jade_pendant_dyed_groove",
+     "label_en": "Dye concentrated in pendant groove",
+     "category": "jade_pendant",
+     "subtype": "all_models",
+     "example_asset_key": "jade_pendant_plain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_pendant_plain/paper/nuo_uv_observation.png",
+      "crop_px": [
+       152,
+       161,
+       232,
+       213
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_pendant_plain/paper/nuo_dyed_groove__uv.png",
+      "crop_px": [
+       152,
+       161,
+       232,
+       213
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_pendant_dyed_groove.heading",
+      "body": "sp4.handbook.sp4_jade_pendant_dyed_groove.body",
+      "limits": "sp4.handbook.sp4_jade_pendant_dyed_groove.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_pendant_dyed_groove.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_pendant_dyed_groove.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_20.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 21,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_pendant",
+   "subtype": "all_models",
+   "previous": 20,
+   "next": 22,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_pendant_filled_eye_seam",
+     "label_en": "Filled pendant fissure",
+     "category": "jade_pendant",
+     "subtype": "all_models",
+     "example_asset_key": "jade_pendant_plain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_pendant_plain/paper/nuo_uv_observation.png",
+      "crop_px": [
+       165,
+       54,
+       205,
+       80
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_pendant_plain/paper/nuo_filled_eye_seam__uv.png",
+      "crop_px": [
+       165,
+       54,
+       205,
+       80
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_pendant_filled_eye_seam.heading",
+      "body": "sp4.handbook.sp4_jade_pendant_filled_eye_seam.body",
+      "limits": "sp4.handbook.sp4_jade_pendant_filled_eye_seam.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_pendant_filled_eye_seam.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_pendant_filled_eye_seam.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_21.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 22,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_cabochon",
+   "subtype": "all_models",
+   "previous": 21,
+   "next": 23,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_cabochon_dome_fissure",
+     "label_en": "Cabochon dome fissure",
+     "category": "jade_cabochon",
+     "subtype": "all_models",
+     "example_asset_key": "jade_cabochon_plain",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "jade_structure",
+     "reference": {
+      "layer": "items/jade_cabochon_plain/paper/nuo_intact.png",
+      "crop_px": [
+       178,
+       84,
+       338,
+       188
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_cabochon_plain/paper/nuo_dome_fissure.png",
+      "crop_px": [
+       178,
+       84,
+       338,
+       188
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_cabochon_dome_fissure.heading",
+      "body": "sp4.handbook.sp4_jade_cabochon_dome_fissure.body",
+      "limits": "sp4.handbook.sp4_jade_cabochon_dome_fissure.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_cabochon_dome_fissure.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_cabochon_dome_fissure.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jade_cabochon_girdle_chip",
+     "label_en": "Chipped cabochon girdle",
+     "category": "jade_cabochon",
+     "subtype": "all_models",
+     "example_asset_key": "jade_cabochon_plain",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "none",
+     "economic_channel": "jade_structure",
+     "reference": {
+      "layer": "items/jade_cabochon_plain/paper/nuo_intact.png",
+      "crop_px": [
+       64,
+       159,
+       144,
+       211
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_cabochon_plain/paper/nuo_girdle_chip.png",
+      "crop_px": [
+       64,
+       159,
+       144,
+       211
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_cabochon_girdle_chip.heading",
+      "body": "sp4.handbook.sp4_jade_cabochon_girdle_chip.body",
+      "limits": "sp4.handbook.sp4_jade_cabochon_girdle_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_cabochon_girdle_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_cabochon_girdle_chip.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_22.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 23,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_cabochon",
+   "subtype": "all_models",
+   "previous": 22,
+   "next": 24,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_cabochon_central_inclusion",
+     "label_en": "Cabochon dark inclusion",
+     "category": "jade_cabochon",
+     "subtype": "all_models",
+     "example_asset_key": "jade_cabochon_plain",
+     "view": "light",
+     "instrument": "jade_light",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_cabochon_plain/paper/nuo_light_observation.png",
+      "crop_px": [
+       124,
+       113,
+       164,
+       139
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_cabochon_plain/paper/nuo_central_inclusion__light.png",
+      "crop_px": [
+       124,
+       113,
+       164,
+       139
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_cabochon_central_inclusion.heading",
+      "body": "sp4.handbook.sp4_jade_cabochon_central_inclusion.body",
+      "limits": "sp4.handbook.sp4_jade_cabochon_central_inclusion.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_cabochon_central_inclusion.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_cabochon_central_inclusion.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+     "label_en": "Dyed cabochon grain web",
+     "category": "jade_cabochon",
+     "subtype": "all_models",
+     "example_asset_key": "jade_cabochon_plain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_cabochon_plain/paper/nuo_uv_observation.png",
+      "crop_px": [
+       114,
+       125,
+       274,
+       229
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_cabochon_plain/paper/nuo_dyed_grain_web__uv.png",
+      "crop_px": [
+       114,
+       125,
+       274,
+       229
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_cabochon_dyed_grain_web.heading",
+      "body": "sp4.handbook.sp4_jade_cabochon_dyed_grain_web.body",
+      "limits": "sp4.handbook.sp4_jade_cabochon_dyed_grain_web.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_cabochon_dyed_grain_web.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_cabochon_dyed_grain_web.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_23.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 24,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_cabochon",
+   "subtype": "all_models",
+   "previous": 23,
+   "next": 25,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_cabochon_filled_dome_seam",
+     "label_en": "Filled cabochon seam",
+     "category": "jade_cabochon",
+     "subtype": "all_models",
+     "example_asset_key": "jade_cabochon_plain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_cabochon_plain/paper/nuo_uv_observation.png",
+      "crop_px": [
+       211,
+       79,
+       371,
+       183
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_cabochon_plain/paper/nuo_filled_dome_seam__uv.png",
+      "crop_px": [
+       211,
+       79,
+       371,
+       183
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_cabochon_filled_dome_seam.heading",
+      "body": "sp4.handbook.sp4_jade_cabochon_filled_dome_seam.body",
+      "limits": "sp4.handbook.sp4_jade_cabochon_filled_dome_seam.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_cabochon_filled_dome_seam.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_cabochon_filled_dome_seam.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_24.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 25,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_bangle",
+   "subtype": "all_models",
+   "previous": 24,
+   "next": 26,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+     "label_en": "Radial bangle crack",
+     "category": "jade_bangle",
+     "subtype": "all_models",
+     "example_asset_key": "jade_bangle_plain",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "jade_structure",
+     "reference": {
+      "layer": "items/jade_bangle_plain/paper/nuo_intact.png",
+      "crop_px": [
+       246,
+       158,
+       326,
+       210
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_bangle_plain/paper/nuo_radial_bangle_crack.png",
+      "crop_px": [
+       246,
+       158,
+       326,
+       210
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_bangle_radial_bangle_crack.heading",
+      "body": "sp4.handbook.sp4_jade_bangle_radial_bangle_crack.body",
+      "limits": "sp4.handbook.sp4_jade_bangle_radial_bangle_crack.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_bangle_radial_bangle_crack.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_bangle_radial_bangle_crack.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+     "label_en": "Chipped inner bangle rim",
+     "category": "jade_bangle",
+     "subtype": "all_models",
+     "example_asset_key": "jade_bangle_plain",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "none",
+     "economic_channel": "jade_structure",
+     "reference": {
+      "layer": "items/jade_bangle_plain/paper/nuo_intact.png",
+      "crop_px": [
+       75,
+       75,
+       115,
+       101
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_bangle_plain/paper/nuo_inner_rim_chip.png",
+      "crop_px": [
+       75,
+       75,
+       115,
+       101
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_bangle_inner_rim_chip.heading",
+      "body": "sp4.handbook.sp4_jade_bangle_inner_rim_chip.body",
+      "limits": "sp4.handbook.sp4_jade_bangle_inner_rim_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_bangle_inner_rim_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_bangle_inner_rim_chip.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_25.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 26,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_bangle",
+   "subtype": "all_models",
+   "previous": 25,
+   "next": 27,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_bangle_clouded_arc",
+     "label_en": "Clouded bangle arc",
+     "category": "jade_bangle",
+     "subtype": "all_models",
+     "example_asset_key": "jade_bangle_plain",
+     "view": "light",
+     "instrument": "jade_light",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_bangle_plain/paper/nuo_light_observation.png",
+      "crop_px": [
+       60,
+       159,
+       140,
+       211
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_bangle_plain/paper/nuo_clouded_arc__light.png",
+      "crop_px": [
+       60,
+       159,
+       140,
+       211
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_bangle_clouded_arc.heading",
+      "body": "sp4.handbook.sp4_jade_bangle_clouded_arc.body",
+      "limits": "sp4.handbook.sp4_jade_bangle_clouded_arc.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_bangle_clouded_arc.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_bangle_clouded_arc.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jade_bangle_dyed_band",
+     "label_en": "Dyed bangle band",
+     "category": "jade_bangle",
+     "subtype": "all_models",
+     "example_asset_key": "jade_bangle_plain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_bangle_plain/paper/nuo_uv_observation.png",
+      "crop_px": [
+       157,
+       169,
+       237,
+       221
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_bangle_plain/paper/nuo_dyed_band__uv.png",
+      "crop_px": [
+       157,
+       169,
+       237,
+       221
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_bangle_dyed_band.heading",
+      "body": "sp4.handbook.sp4_jade_bangle_dyed_band.body",
+      "limits": "sp4.handbook.sp4_jade_bangle_dyed_band.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_bangle_dyed_band.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_bangle_dyed_band.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_26.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 27,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_bangle",
+   "subtype": "all_models",
+   "previous": 26,
+   "next": 28,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_bangle_joined_bangle_seam",
+     "label_en": "Filled bangle fracture",
+     "category": "jade_bangle",
+     "subtype": "all_models",
+     "example_asset_key": "jade_bangle_plain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_bangle_plain/paper/nuo_uv_observation.png",
+      "crop_px": [
+       261,
+       51,
+       341,
+       103
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_bangle_plain/paper/nuo_joined_bangle_seam__uv.png",
+      "crop_px": [
+       261,
+       51,
+       341,
+       103
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_bangle_joined_bangle_seam.heading",
+      "body": "sp4.handbook.sp4_jade_bangle_joined_bangle_seam.body",
+      "limits": "sp4.handbook.sp4_jade_bangle_joined_bangle_seam.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_bangle_joined_bangle_seam.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_bangle_joined_bangle_seam.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_27.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 28,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_beads",
+   "subtype": "all_models",
+   "previous": 27,
+   "next": 29,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_beads_drill_exit_crack",
+     "label_en": "Bead drill-exit crack",
+     "category": "jade_beads",
+     "subtype": "all_models",
+     "example_asset_key": "jade_beads_plain",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "jade_structure",
+     "reference": {
+      "layer": "items/jade_beads_plain/paper/nuo_intact.png",
+      "crop_px": [
+       154,
+       191,
+       194,
+       217
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_beads_plain/paper/nuo_drill_exit_crack.png",
+      "crop_px": [
+       154,
+       191,
+       194,
+       217
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_beads_drill_exit_crack.heading",
+      "body": "sp4.handbook.sp4_jade_beads_drill_exit_crack.body",
+      "limits": "sp4.handbook.sp4_jade_beads_drill_exit_crack.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_beads_drill_exit_crack.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_beads_drill_exit_crack.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jade_beads_bead_chip",
+     "label_en": "Chipped front bead",
+     "category": "jade_beads",
+     "subtype": "all_models",
+     "example_asset_key": "jade_beads_plain",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "none",
+     "economic_channel": "jade_structure",
+     "reference": {
+      "layer": "items/jade_beads_plain/paper/nuo_intact.png",
+      "crop_px": [
+       114,
+       179,
+       154,
+       205
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_beads_plain/paper/nuo_bead_chip.png",
+      "crop_px": [
+       114,
+       179,
+       154,
+       205
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_beads_bead_chip.heading",
+      "body": "sp4.handbook.sp4_jade_beads_bead_chip.body",
+      "limits": "sp4.handbook.sp4_jade_beads_bead_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_beads_bead_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_beads_bead_chip.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_28.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 29,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_beads",
+   "subtype": "all_models",
+   "previous": 28,
+   "next": 30,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_beads_mismatched_bead",
+     "label_en": "Mismatched bead inclusion",
+     "category": "jade_beads",
+     "subtype": "all_models",
+     "example_asset_key": "jade_beads_plain",
+     "view": "light",
+     "instrument": "jade_light",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_beads_plain/paper/nuo_light_observation.png",
+      "crop_px": [
+       226,
+       175,
+       266,
+       201
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_beads_plain/paper/nuo_mismatched_bead__light.png",
+      "crop_px": [
+       226,
+       175,
+       266,
+       201
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_beads_mismatched_bead.heading",
+      "body": "sp4.handbook.sp4_jade_beads_mismatched_bead.body",
+      "limits": "sp4.handbook.sp4_jade_beads_mismatched_bead.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_beads_mismatched_bead.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_beads_mismatched_bead.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jade_beads_dyed_drill_pool",
+     "label_en": "Dye pooled at bead hole",
+     "category": "jade_beads",
+     "subtype": "all_models",
+     "example_asset_key": "jade_beads_plain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_beads_plain/paper/nuo_uv_observation.png",
+      "crop_px": [
+       197,
+       192,
+       237,
+       218
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_beads_plain/paper/nuo_dyed_drill_pool__uv.png",
+      "crop_px": [
+       197,
+       192,
+       237,
+       218
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_beads_dyed_drill_pool.heading",
+      "body": "sp4.handbook.sp4_jade_beads_dyed_drill_pool.body",
+      "limits": "sp4.handbook.sp4_jade_beads_dyed_drill_pool.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_beads_dyed_drill_pool.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_beads_dyed_drill_pool.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_29.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 30,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_beads",
+   "subtype": "all_models",
+   "previous": 29,
+   "next": 31,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_beads_filled_bead_split",
+     "label_en": "Filled bead split",
+     "category": "jade_beads",
+     "subtype": "all_models",
+     "example_asset_key": "jade_beads_plain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_beads_plain/paper/nuo_uv_observation.png",
+      "crop_px": [
+       100,
+       160,
+       180,
+       212
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_beads_plain/paper/nuo_filled_bead_split__uv.png",
+      "crop_px": [
+       100,
+       160,
+       180,
+       212
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_beads_filled_bead_split.heading",
+      "body": "sp4.handbook.sp4_jade_beads_filled_bead_split.body",
+      "limits": "sp4.handbook.sp4_jade_beads_filled_bead_split.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_beads_filled_bead_split.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_beads_filled_bead_split.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_30.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 31,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_carving",
+   "subtype": "all_models",
+   "previous": 30,
+   "next": 32,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_carving_recess_fissure",
+     "label_en": "Carving recess fissure",
+     "category": "jade_carving",
+     "subtype": "all_models",
+     "example_asset_key": "jade_carving_plain",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "jade_structure",
+     "reference": {
+      "layer": "items/jade_carving_plain/paper/nuo_intact.png",
+      "crop_px": [
+       158,
+       121,
+       238,
+       173
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_carving_plain/paper/nuo_recess_fissure.png",
+      "crop_px": [
+       158,
+       121,
+       238,
+       173
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_carving_recess_fissure.heading",
+      "body": "sp4.handbook.sp4_jade_carving_recess_fissure.body",
+      "limits": "sp4.handbook.sp4_jade_carving_recess_fissure.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_carving_recess_fissure.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_carving_recess_fissure.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jade_carving_relief_chip",
+     "label_en": "Chipped relief tip",
+     "category": "jade_carving",
+     "subtype": "all_models",
+     "example_asset_key": "jade_carving_plain",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "none",
+     "economic_channel": "jade_structure",
+     "reference": {
+      "layer": "items/jade_carving_plain/paper/nuo_intact.png",
+      "crop_px": [
+       270,
+       43,
+       310,
+       69
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_carving_plain/paper/nuo_relief_chip.png",
+      "crop_px": [
+       270,
+       43,
+       310,
+       69
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_carving_relief_chip.heading",
+      "body": "sp4.handbook.sp4_jade_carving_relief_chip.body",
+      "limits": "sp4.handbook.sp4_jade_carving_relief_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_carving_relief_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_carving_relief_chip.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_31.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 32,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_carving",
+   "subtype": "all_models",
+   "previous": 31,
+   "next": 33,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_carving_opaque_relief_zone",
+     "label_en": "Opaque carving inclusion",
+     "category": "jade_carving",
+     "subtype": "all_models",
+     "example_asset_key": "jade_carving_plain",
+     "view": "light",
+     "instrument": "jade_light",
+     "repair_class": "none",
+     "economic_channel": "jade_quality",
+     "reference": {
+      "layer": "items/jade_carving_plain/paper/nuo_light_observation.png",
+      "crop_px": [
+       162,
+       159,
+       242,
+       211
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_carving_plain/paper/nuo_opaque_relief_zone__light.png",
+      "crop_px": [
+       162,
+       159,
+       242,
+       211
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_carving_opaque_relief_zone.heading",
+      "body": "sp4.handbook.sp4_jade_carving_opaque_relief_zone.body",
+      "limits": "sp4.handbook.sp4_jade_carving_opaque_relief_zone.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_carving_opaque_relief_zone.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_carving_opaque_relief_zone.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jade_carving_dyed_recess",
+     "label_en": "Dye concentrated in carved recess",
+     "category": "jade_carving",
+     "subtype": "all_models",
+     "example_asset_key": "jade_carving_plain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_carving_plain/paper/nuo_uv_observation.png",
+      "crop_px": [
+       105,
+       102,
+       185,
+       154
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jade_carving_plain/paper/nuo_dyed_recess__uv.png",
+      "crop_px": [
+       105,
+       102,
+       185,
+       154
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_carving_dyed_recess.heading",
+      "body": "sp4.handbook.sp4_jade_carving_dyed_recess.body",
+      "limits": "sp4.handbook.sp4_jade_carving_dyed_recess.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_carving_dyed_recess.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_carving_dyed_recess.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_32.png"
+  },
+  {
+   "manual": "manual_jade",
+   "page": 33,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jade_carving",
+   "subtype": "all_models",
+   "previous": 32,
+   "next": null,
+   "sections": [
+    {
+     "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+     "label_en": "Filled carving bridge",
+     "category": "jade_carving",
+     "subtype": "all_models",
+     "example_asset_key": "jade_carving_plain",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "treatment_disclosure",
+     "reference": {
+      "layer": "items/jade_carving_plain/paper/nuo_uv_observation.png",
+      "crop_px": [
+       241,
+       43,
+       281,
+       69
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jade_carving_plain/paper/nuo_filled_relief_bridge__uv.png",
+      "crop_px": [
+       241,
+       43,
+       281,
+       69
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jade_carving_filled_relief_bridge.heading",
+      "body": "sp4.handbook.sp4_jade_carving_filled_relief_bridge.body",
+      "limits": "sp4.handbook.sp4_jade_carving_filled_relief_bridge.limits",
+      "reference_caption": "sp4.handbook.sp4_jade_carving_filled_relief_bridge.ref",
+      "problem_caption": "sp4.handbook.sp4_jade_carving_filled_relief_bridge.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jade/pages/page_33.png"
+  }
+ ]
+}

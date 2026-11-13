@@ -1,0 +1,221 @@
+{
+ "asset_key": "gem_emerald_step",
+ "name_en": "Step Emerald",
+ "category": "gem_emerald",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_gem_emerald_step",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "corner_chip": {
+   "paper": "paper/corner_chip.png",
+   "items": "items/corner_chip.png",
+   "templates": [
+    "sp4_gem_emerald_corner_chip"
+   ],
+   "view": "ordinary"
+  },
+  "open_fracture": {
+   "paper": "paper/open_fracture.png",
+   "items": "items/open_fracture.png",
+   "templates": [
+    "sp4_gem_emerald_open_fracture"
+   ],
+   "view": "ordinary"
+  },
+  "face_window": {
+   "paper": "paper/face_window.png",
+   "items": "items/face_window.png",
+   "templates": [
+    "sp4_gem_emerald_face_window"
+   ],
+   "view": "ordinary"
+  },
+  "filling_record": {
+   "paper": "paper/filling_record.png",
+   "items": "items/filling_record.png",
+   "templates": [
+    "sp4_gem_emerald_filling_record"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "imitation_record": {
+   "paper": "paper/imitation_record.png",
+   "items": "items/imitation_record.png",
+   "templates": [
+    "sp4_gem_emerald_imitation_record"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "combo__corner_chip__open_fracture": {
+   "paper": "paper/combo__corner_chip__open_fracture.png",
+   "items": "items/combo__corner_chip__open_fracture.png",
+   "templates": [
+    "sp4_gem_emerald_corner_chip",
+    "sp4_gem_emerald_open_fracture"
+   ],
+   "view": "ordinary"
+  },
+  "combo__corner_chip__face_window": {
+   "paper": "paper/combo__corner_chip__face_window.png",
+   "items": "items/combo__corner_chip__face_window.png",
+   "templates": [
+    "sp4_gem_emerald_corner_chip",
+    "sp4_gem_emerald_face_window"
+   ],
+   "view": "ordinary"
+  },
+  "combo__corner_chip__open_fracture__face_window": {
+   "paper": "paper/combo__corner_chip__open_fracture__face_window.png",
+   "items": "items/combo__corner_chip__open_fracture__face_window.png",
+   "templates": [
+    "sp4_gem_emerald_corner_chip",
+    "sp4_gem_emerald_open_fracture",
+    "sp4_gem_emerald_face_window"
+   ],
+   "view": "ordinary"
+  },
+  "instrument_observation": {
+   "paper": "paper/instrument_observation.png",
+   "items": "items/instrument_observation.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  }
+ },
+ "template_checks": {
+  "sp4_gem_emerald_corner_chip": {
+   "paper": {
+    "changed_px": 736,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     230,
+     180,
+     264,
+     212
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 45,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     41,
+     45,
+     50,
+     54
+    ]
+   }
+  },
+  "sp4_gem_emerald_open_fracture": {
+   "paper": {
+    "changed_px": 128,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     126,
+     126,
+     164,
+     142
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 15,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     15,
+     31,
+     25,
+     36
+    ]
+   }
+  },
+  "sp4_gem_emerald_face_window": {
+   "paper": {
+    "changed_px": 1616,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     170,
+     106,
+     216,
+     166
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 81,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     27,
+     27,
+     38,
+     42
+    ]
+   }
+  },
+  "sp4_gem_emerald_filling_record": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_gem_emerald_imitation_record": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

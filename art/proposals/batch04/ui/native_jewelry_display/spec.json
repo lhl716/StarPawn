@@ -1,0 +1,30 @@
+{
+ "asset_key": "native_jewelry_display",
+ "kind": "component",
+ "size": [
+  288,
+  304
+ ],
+ "states": [
+  "empty",
+  "partly_filled",
+  "full",
+  "reserved"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "4x4 cells; content origin16,32; custody and stock limits remain visible.",
+ "grid": [
+  4,
+  4
+ ],
+ "cell_px": 64,
+ "content_origin": [
+  16,
+  32
+ ],
+ "margins_right_bottom": [
+  16,
+  16
+ ]
+}

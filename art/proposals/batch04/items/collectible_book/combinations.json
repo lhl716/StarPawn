@@ -1,0 +1,143 @@
+{
+ "asset_key": "collectible_book",
+ "combinations": [
+  {
+   "profile": "combo__reprint_notice__spine_split",
+   "variant": "",
+   "templates": [
+    "sp4_book_reprint_notice",
+    "sp4_book_spine_split"
+   ],
+   "repairable": [
+    "sp4_book_spine_split"
+   ],
+   "retained_after_repair": [
+    "sp4_book_reprint_notice"
+   ],
+   "repaired_state": "repaired__reprint_notice__spine_split"
+  },
+  {
+   "profile": "combo__reprint_notice__water_warp",
+   "variant": "",
+   "templates": [
+    "sp4_book_reprint_notice",
+    "sp4_book_water_warp"
+   ],
+   "repairable": [
+    "sp4_book_water_warp"
+   ],
+   "retained_after_repair": [
+    "sp4_book_reprint_notice"
+   ],
+   "repaired_state": "repaired__reprint_notice__water_warp"
+  },
+  {
+   "profile": "combo__signature_copy__spine_split",
+   "variant": "",
+   "templates": [
+    "sp4_book_signature_copy",
+    "sp4_book_spine_split"
+   ],
+   "repairable": [
+    "sp4_book_spine_split"
+   ],
+   "retained_after_repair": [
+    "sp4_book_signature_copy"
+   ],
+   "repaired_state": "repaired__signature_copy__spine_split"
+  },
+  {
+   "profile": "combo__reprint_notice__signature_copy__spine_split",
+   "variant": "",
+   "templates": [
+    "sp4_book_reprint_notice",
+    "sp4_book_signature_copy",
+    "sp4_book_spine_split"
+   ],
+   "repairable": [
+    "sp4_book_spine_split"
+   ],
+   "retained_after_repair": [
+    "sp4_book_reprint_notice",
+    "sp4_book_signature_copy"
+   ],
+   "repaired_state": "repaired__reprint_notice__signature_copy__spine_split"
+  },
+  {
+   "profile": "reprint_notice",
+   "variant": "",
+   "templates": [
+    "sp4_book_reprint_notice"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_book_reprint_notice"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "signature_copy",
+   "variant": "",
+   "templates": [
+    "sp4_book_signature_copy"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_book_signature_copy"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "missing_leaf",
+   "variant": "",
+   "templates": [
+    "sp4_book_missing_leaf"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_book_missing_leaf"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "spine_split",
+   "variant": "",
+   "templates": [
+    "sp4_book_spine_split"
+   ],
+   "repairable": [
+    "sp4_book_spine_split"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "water_warp",
+   "variant": "",
+   "templates": [
+    "sp4_book_water_warp"
+   ],
+   "repairable": [
+    "sp4_book_water_warp"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

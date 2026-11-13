@@ -1,0 +1,16 @@
+{
+ "asset_key": "grade_badge",
+ "kind": "component",
+ "size": [
+  24,
+  24
+ ],
+ "states": [
+  "dou",
+  "nuo",
+  "bing"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Labels separate; icon shapes distinguish tiers without color alone."
+}

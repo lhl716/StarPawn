@@ -1,0 +1,143 @@
+{
+ "asset_key": "silver_ring_orbit",
+ "combinations": [
+  {
+   "profile": "combo__groove_abrasion__copper_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_ring_groove_abrasion",
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "repairable": [
+    "sp4_silver_ring_groove_abrasion"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "repaired_state": "repaired__groove_abrasion__copper_breakthrough"
+  },
+  {
+   "profile": "combo__groove_abrasion__sizing_insert",
+   "variant": "",
+   "templates": [
+    "sp4_silver_ring_groove_abrasion",
+    "sp4_silver_ring_sizing_insert"
+   ],
+   "repairable": [
+    "sp4_silver_ring_groove_abrasion"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_ring_sizing_insert"
+   ],
+   "repaired_state": "repaired__groove_abrasion__sizing_insert"
+  },
+  {
+   "profile": "combo__ovalized_band__copper_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_ring_ovalized_band",
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "repairable": [
+    "sp4_silver_ring_ovalized_band"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "repaired_state": "repaired__ovalized_band__copper_breakthrough"
+  },
+  {
+   "profile": "combo__groove_abrasion__ovalized_band__copper_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_ring_groove_abrasion",
+    "sp4_silver_ring_ovalized_band",
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "repairable": [
+    "sp4_silver_ring_groove_abrasion",
+    "sp4_silver_ring_ovalized_band"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "repaired_state": "repaired__groove_abrasion__ovalized_band__copper_breakthrough"
+  },
+  {
+   "profile": "groove_abrasion",
+   "variant": "",
+   "templates": [
+    "sp4_silver_ring_groove_abrasion"
+   ],
+   "repairable": [
+    "sp4_silver_ring_groove_abrasion"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ovalized_band",
+   "variant": "",
+   "templates": [
+    "sp4_silver_ring_ovalized_band"
+   ],
+   "repairable": [
+    "sp4_silver_ring_ovalized_band"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "shank_split",
+   "variant": "",
+   "templates": [
+    "sp4_silver_ring_shank_split"
+   ],
+   "repairable": [
+    "sp4_silver_ring_shank_split"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "copper_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "sizing_insert",
+   "variant": "",
+   "templates": [
+    "sp4_silver_ring_sizing_insert"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_silver_ring_sizing_insert"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

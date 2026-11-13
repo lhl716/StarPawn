@@ -1,0 +1,139 @@
+{
+ "asset_key": "scrap_processor",
+ "combinations": [
+  {
+   "profile": "combo__missing_pins__cap_removed",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_processor_missing_pins",
+    "sp4_scrap_processor_cap_removed"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_processor_missing_pins",
+    "sp4_scrap_processor_cap_removed"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__missing_pins__package_fracture",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_processor_missing_pins",
+    "sp4_scrap_processor_package_fracture"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_processor_missing_pins",
+    "sp4_scrap_processor_package_fracture"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__missing_pins__scorched_package",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_processor_missing_pins",
+    "sp4_scrap_processor_scorched_package"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_processor_missing_pins",
+    "sp4_scrap_processor_scorched_package"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__missing_pins__cap_removed__package_fracture",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_processor_missing_pins",
+    "sp4_scrap_processor_cap_removed",
+    "sp4_scrap_processor_package_fracture"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_processor_missing_pins",
+    "sp4_scrap_processor_cap_removed",
+    "sp4_scrap_processor_package_fracture"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "missing_pins",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_processor_missing_pins"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_processor_missing_pins"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "cap_removed",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_processor_cap_removed"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_processor_cap_removed"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "package_fracture",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_processor_package_fracture"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_processor_package_fracture"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "scorched_package",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_processor_scorched_package"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_processor_scorched_package"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "reprinted_grade",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_processor_reprinted_grade"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_processor_reprinted_grade"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

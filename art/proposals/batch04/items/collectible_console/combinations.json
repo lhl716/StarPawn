@@ -1,0 +1,143 @@
+{
+ "asset_key": "collectible_console",
+ "combinations": [
+  {
+   "profile": "combo__port_contacts__service_screw",
+   "variant": "",
+   "templates": [
+    "sp4_console_port_contacts",
+    "sp4_console_service_screw"
+   ],
+   "repairable": [
+    "sp4_console_port_contacts"
+   ],
+   "retained_after_repair": [
+    "sp4_console_service_screw"
+   ],
+   "repaired_state": "repaired__port_contacts__service_screw"
+  },
+  {
+   "profile": "combo__shell_fracture__service_screw",
+   "variant": "",
+   "templates": [
+    "sp4_console_shell_fracture",
+    "sp4_console_service_screw"
+   ],
+   "repairable": [
+    "sp4_console_shell_fracture"
+   ],
+   "retained_after_repair": [
+    "sp4_console_service_screw"
+   ],
+   "repaired_state": "repaired__shell_fracture__service_screw"
+  },
+  {
+   "profile": "combo__vent_heat__service_screw",
+   "variant": "",
+   "templates": [
+    "sp4_console_vent_heat",
+    "sp4_console_service_screw"
+   ],
+   "repairable": [
+    "sp4_console_vent_heat"
+   ],
+   "retained_after_repair": [
+    "sp4_console_service_screw"
+   ],
+   "repaired_state": "repaired__vent_heat__service_screw"
+  },
+  {
+   "profile": "combo__port_contacts__shell_fracture__service_screw",
+   "variant": "",
+   "templates": [
+    "sp4_console_port_contacts",
+    "sp4_console_shell_fracture",
+    "sp4_console_service_screw"
+   ],
+   "repairable": [
+    "sp4_console_port_contacts",
+    "sp4_console_shell_fracture"
+   ],
+   "retained_after_repair": [
+    "sp4_console_service_screw"
+   ],
+   "repaired_state": "repaired__port_contacts__shell_fracture__service_screw"
+  },
+  {
+   "profile": "port_contacts",
+   "variant": "",
+   "templates": [
+    "sp4_console_port_contacts"
+   ],
+   "repairable": [
+    "sp4_console_port_contacts"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "shell_fracture",
+   "variant": "",
+   "templates": [
+    "sp4_console_shell_fracture"
+   ],
+   "repairable": [
+    "sp4_console_shell_fracture"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "vent_heat",
+   "variant": "",
+   "templates": [
+    "sp4_console_vent_heat"
+   ],
+   "repairable": [
+    "sp4_console_vent_heat"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "power_socket",
+   "variant": "",
+   "templates": [
+    "sp4_console_power_socket"
+   ],
+   "repairable": [
+    "sp4_console_power_socket"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "service_screw",
+   "variant": "",
+   "templates": [
+    "sp4_console_service_screw"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_console_service_screw"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

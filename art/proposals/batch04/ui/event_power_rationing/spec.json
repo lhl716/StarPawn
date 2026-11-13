@@ -1,0 +1,14 @@
+{
+ "asset_key": "event_power_rationing",
+ "kind": "event_icon",
+ "size": [
+  64,
+  64
+ ],
+ "states": [
+  "default"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Event power_rationing; depict its cause. Percentages, dates and price directions are separate UI state."
+}

@@ -1,0 +1,2115 @@
+{
+ "asset_key": "jade_cabochon_crafted",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_dome_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_dome_fissure",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_girdle_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.62109375,
+   "Width": 0.11979166666666667,
+   "Height": 0.1796875,
+   "bounds_px": [
+    82,
+    136,
+    128,
+    182
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_girdle_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.5859375,
+   "Width": 0.140625,
+   "Height": 0.140625,
+   "bounds_px": [
+    12,
+    33,
+    21,
+    42
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.4921875,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    136,
+    120,
+    152,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.5,
+   "Width": 0.125,
+   "Height": 0.09375,
+   "bounds_px": [
+    20,
+    29,
+    28,
+    35
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_dyed_grain_web",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.69140625,
+   "Width": 0.2604166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    144,
+    160,
+    244,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_dyed_grain_web",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.625,
+   "Width": 0.265625,
+   "Height": 0.09375,
+   "bounds_px": [
+    24,
+    37,
+    41,
+    43
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_filled_dome_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_filled_dome_seam",
+   "Id": "filled_dome_seam",
+   "CauseId": "sp4_jade_cabochon_filled_dome_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7578125,
+   "V": 0.51171875,
+   "Width": 0.036458333333333336,
+   "Height": 0.2265625,
+   "bounds_px": [
+    284,
+    102,
+    298,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_filled_dome_seam",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_filled_dome_seam",
+   "Id": "filled_dome_seam",
+   "CauseId": "sp4_jade_cabochon_filled_dome_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.5078125,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    48,
+    28,
+    51,
+    37
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__girdle_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__girdle_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__girdle_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.62109375,
+   "Width": 0.11979166666666667,
+   "Height": 0.1796875,
+   "bounds_px": [
+    82,
+    136,
+    128,
+    182
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__girdle_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.5859375,
+   "Width": 0.140625,
+   "Height": 0.140625,
+   "bounds_px": [
+    12,
+    33,
+    21,
+    42
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.4921875,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    136,
+    120,
+    152,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.5,
+   "Width": 0.125,
+   "Height": 0.09375,
+   "bounds_px": [
+    20,
+    29,
+    28,
+    35
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__dyed_grain_web",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__dyed_grain_web",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__dyed_grain_web",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.69140625,
+   "Width": 0.2604166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    144,
+    160,
+    244,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__dyed_grain_web",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.625,
+   "Width": 0.265625,
+   "Height": 0.09375,
+   "bounds_px": [
+    24,
+    37,
+    41,
+    43
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.62109375,
+   "Width": 0.11979166666666667,
+   "Height": 0.1796875,
+   "bounds_px": [
+    82,
+    136,
+    128,
+    182
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.5859375,
+   "Width": 0.140625,
+   "Height": 0.140625,
+   "bounds_px": [
+    12,
+    33,
+    21,
+    42
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.4921875,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    136,
+    120,
+    152,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "dou_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.5,
+   "Width": 0.125,
+   "Height": 0.09375,
+   "bounds_px": [
+    20,
+    29,
+    28,
+    35
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_dome_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_dome_fissure",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_girdle_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.62109375,
+   "Width": 0.11979166666666667,
+   "Height": 0.1796875,
+   "bounds_px": [
+    82,
+    136,
+    128,
+    182
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_girdle_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.5859375,
+   "Width": 0.140625,
+   "Height": 0.140625,
+   "bounds_px": [
+    12,
+    33,
+    21,
+    42
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.4921875,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    136,
+    120,
+    152,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.5,
+   "Width": 0.125,
+   "Height": 0.09375,
+   "bounds_px": [
+    20,
+    29,
+    28,
+    35
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_dyed_grain_web",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.69140625,
+   "Width": 0.2604166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    144,
+    160,
+    244,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_dyed_grain_web",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.625,
+   "Width": 0.265625,
+   "Height": 0.09375,
+   "bounds_px": [
+    24,
+    37,
+    41,
+    43
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_filled_dome_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_filled_dome_seam",
+   "Id": "filled_dome_seam",
+   "CauseId": "sp4_jade_cabochon_filled_dome_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7578125,
+   "V": 0.51171875,
+   "Width": 0.036458333333333336,
+   "Height": 0.2265625,
+   "bounds_px": [
+    284,
+    102,
+    298,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_filled_dome_seam",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_filled_dome_seam",
+   "Id": "filled_dome_seam",
+   "CauseId": "sp4_jade_cabochon_filled_dome_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.5078125,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    48,
+    28,
+    51,
+    37
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__girdle_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__girdle_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__girdle_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.62109375,
+   "Width": 0.11979166666666667,
+   "Height": 0.1796875,
+   "bounds_px": [
+    82,
+    136,
+    128,
+    182
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__girdle_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.5859375,
+   "Width": 0.140625,
+   "Height": 0.140625,
+   "bounds_px": [
+    12,
+    33,
+    21,
+    42
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.4921875,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    136,
+    120,
+    152,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.5,
+   "Width": 0.125,
+   "Height": 0.09375,
+   "bounds_px": [
+    20,
+    29,
+    28,
+    35
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__dyed_grain_web",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__dyed_grain_web",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__dyed_grain_web",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.69140625,
+   "Width": 0.2604166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    144,
+    160,
+    244,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__dyed_grain_web",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.625,
+   "Width": 0.265625,
+   "Height": 0.09375,
+   "bounds_px": [
+    24,
+    37,
+    41,
+    43
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.62109375,
+   "Width": 0.11979166666666667,
+   "Height": 0.1796875,
+   "bounds_px": [
+    82,
+    136,
+    128,
+    182
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.5859375,
+   "Width": 0.140625,
+   "Height": 0.140625,
+   "bounds_px": [
+    12,
+    33,
+    21,
+    42
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.4921875,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    136,
+    120,
+    152,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "nuo_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.5,
+   "Width": 0.125,
+   "Height": 0.09375,
+   "bounds_px": [
+    20,
+    29,
+    28,
+    35
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_dome_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_dome_fissure",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_girdle_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.62109375,
+   "Width": 0.11979166666666667,
+   "Height": 0.1796875,
+   "bounds_px": [
+    82,
+    136,
+    128,
+    182
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_girdle_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.5859375,
+   "Width": 0.140625,
+   "Height": 0.140625,
+   "bounds_px": [
+    12,
+    33,
+    21,
+    42
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.4921875,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    136,
+    120,
+    152,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.5,
+   "Width": 0.125,
+   "Height": 0.09375,
+   "bounds_px": [
+    20,
+    29,
+    28,
+    35
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_dyed_grain_web",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.69140625,
+   "Width": 0.2604166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    144,
+    160,
+    244,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_dyed_grain_web",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.625,
+   "Width": 0.265625,
+   "Height": 0.09375,
+   "bounds_px": [
+    24,
+    37,
+    41,
+    43
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_filled_dome_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_filled_dome_seam",
+   "Id": "filled_dome_seam",
+   "CauseId": "sp4_jade_cabochon_filled_dome_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7578125,
+   "V": 0.51171875,
+   "Width": 0.036458333333333336,
+   "Height": 0.2265625,
+   "bounds_px": [
+    284,
+    102,
+    298,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_filled_dome_seam",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_filled_dome_seam",
+   "Id": "filled_dome_seam",
+   "CauseId": "sp4_jade_cabochon_filled_dome_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.5078125,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    48,
+    28,
+    51,
+    37
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__girdle_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__girdle_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__girdle_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.62109375,
+   "Width": 0.11979166666666667,
+   "Height": 0.1796875,
+   "bounds_px": [
+    82,
+    136,
+    128,
+    182
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__girdle_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.5859375,
+   "Width": 0.140625,
+   "Height": 0.140625,
+   "bounds_px": [
+    12,
+    33,
+    21,
+    42
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.4921875,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    136,
+    120,
+    152,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.5,
+   "Width": 0.125,
+   "Height": 0.09375,
+   "bounds_px": [
+    20,
+    29,
+    28,
+    35
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__dyed_grain_web",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__dyed_grain_web",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__dyed_grain_web",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.69140625,
+   "Width": 0.2604166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    144,
+    160,
+    244,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__dyed_grain_web",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dyed_grain_web",
+   "Id": "dyed_grain_web",
+   "CauseId": "sp4_jade_cabochon_dyed_grain_web",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.625,
+   "Width": 0.265625,
+   "Height": 0.09375,
+   "bounds_px": [
+    24,
+    37,
+    41,
+    43
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.53125,
+   "Width": 0.09375,
+   "Height": 0.21875,
+   "bounds_px": [
+    240,
+    108,
+    276,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_dome_fissure",
+   "Id": "dome_fissure",
+   "CauseId": "sp4_jade_cabochon_dome_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6953125,
+   "V": 0.5234375,
+   "Width": 0.140625,
+   "Height": 0.171875,
+   "bounds_px": [
+    40,
+    28,
+    49,
+    39
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.62109375,
+   "Width": 0.11979166666666667,
+   "Height": 0.1796875,
+   "bounds_px": [
+    82,
+    136,
+    128,
+    182
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_jade_cabochon_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.5859375,
+   "Width": 0.140625,
+   "Height": 0.140625,
+   "bounds_px": [
+    12,
+    33,
+    21,
+    42
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.4921875,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    136,
+    120,
+    152,
+    132
+   ]
+  },
+  {
+   "asset_key": "jade_cabochon_crafted",
+   "state": "bing_combo__dome_fissure__girdle_chip__central_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jade_cabochon_central_inclusion",
+   "Id": "central_inclusion",
+   "CauseId": "sp4_jade_cabochon_central_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.5,
+   "Width": 0.125,
+   "Height": 0.09375,
+   "bounds_px": [
+    20,
+    29,
+    28,
+    35
+   ]
+  }
+ ]
+}

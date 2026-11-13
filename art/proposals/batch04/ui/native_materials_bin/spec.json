@@ -1,0 +1,29 @@
+{
+ "asset_key": "native_materials_bin",
+ "kind": "component",
+ "size": [
+  288,
+  304
+ ],
+ "states": [
+  "empty",
+  "partly_filled",
+  "full"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "4x4 cells of64px; content origin16,32; right/bottom margins16px. No nested bins.",
+ "grid": [
+  4,
+  4
+ ],
+ "cell_px": 64,
+ "content_origin": [
+  16,
+  32
+ ],
+ "margins_right_bottom": [
+  16,
+  16
+ ]
+}

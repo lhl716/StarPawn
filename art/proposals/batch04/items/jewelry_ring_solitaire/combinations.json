@@ -1,0 +1,1439 @@
+{
+ "asset_key": "jewelry_ring_solitaire",
+ "combinations": [
+  {
+   "profile": "au18k_diamond_round_combo__loose_prong__old_resize",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_diamond_round_repaired__loose_prong__old_resize"
+  },
+  {
+   "profile": "au18k_diamond_round_combo__shank_dent__old_resize",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_diamond_round_repaired__shank_dent__old_resize"
+  },
+  {
+   "profile": "au18k_diamond_round_combo__missing_center__old_resize",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_diamond_round_repaired__missing_center__old_resize"
+  },
+  {
+   "profile": "au18k_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_diamond_round_repaired__loose_prong__shank_dent__old_resize"
+  },
+  {
+   "profile": "au18k_diamond_round_loose_prong",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_round_shank_dent",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_round_missing_center",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_round_tool_scars",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_round_old_resize",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_round_intact",
+   "variant": "au18k_diamond_round_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "au18k_diamond_princess_combo__loose_prong__old_resize",
+   "variant": "au18k_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_diamond_princess_repaired__loose_prong__old_resize"
+  },
+  {
+   "profile": "au18k_diamond_princess_combo__shank_dent__old_resize",
+   "variant": "au18k_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_diamond_princess_repaired__shank_dent__old_resize"
+  },
+  {
+   "profile": "au18k_diamond_princess_combo__missing_center__old_resize",
+   "variant": "au18k_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_diamond_princess_repaired__missing_center__old_resize"
+  },
+  {
+   "profile": "au18k_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "variant": "au18k_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_diamond_princess_repaired__loose_prong__shank_dent__old_resize"
+  },
+  {
+   "profile": "au18k_diamond_princess_loose_prong",
+   "variant": "au18k_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_princess_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_princess_shank_dent",
+   "variant": "au18k_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_princess_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_princess_missing_center",
+   "variant": "au18k_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_princess_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_princess_tool_scars",
+   "variant": "au18k_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_princess_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_princess_old_resize",
+   "variant": "au18k_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_princess_intact",
+   "variant": "au18k_diamond_princess_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "au18k_ruby_oval_combo__loose_prong__old_resize",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_ruby_oval_repaired__loose_prong__old_resize"
+  },
+  {
+   "profile": "au18k_ruby_oval_combo__shank_dent__old_resize",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_ruby_oval_repaired__shank_dent__old_resize"
+  },
+  {
+   "profile": "au18k_ruby_oval_combo__missing_center__old_resize",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_ruby_oval_repaired__missing_center__old_resize"
+  },
+  {
+   "profile": "au18k_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_ruby_oval_repaired__loose_prong__shank_dent__old_resize"
+  },
+  {
+   "profile": "au18k_ruby_oval_loose_prong",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_ruby_oval_shank_dent",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_ruby_oval_missing_center",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_ruby_oval_tool_scars",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_ruby_oval_old_resize",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_ruby_oval_intact",
+   "variant": "au18k_ruby_oval_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "au18k_sapphire_oval_combo__loose_prong__old_resize",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_sapphire_oval_repaired__loose_prong__old_resize"
+  },
+  {
+   "profile": "au18k_sapphire_oval_combo__shank_dent__old_resize",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_sapphire_oval_repaired__shank_dent__old_resize"
+  },
+  {
+   "profile": "au18k_sapphire_oval_combo__missing_center__old_resize",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_sapphire_oval_repaired__missing_center__old_resize"
+  },
+  {
+   "profile": "au18k_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_sapphire_oval_repaired__loose_prong__shank_dent__old_resize"
+  },
+  {
+   "profile": "au18k_sapphire_oval_loose_prong",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_sapphire_oval_shank_dent",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_sapphire_oval_missing_center",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_sapphire_oval_tool_scars",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_sapphire_oval_old_resize",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_sapphire_oval_intact",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "au18k_emerald_step_combo__loose_prong__old_resize",
+   "variant": "au18k_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_emerald_step_repaired__loose_prong__old_resize"
+  },
+  {
+   "profile": "au18k_emerald_step_combo__shank_dent__old_resize",
+   "variant": "au18k_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_emerald_step_repaired__shank_dent__old_resize"
+  },
+  {
+   "profile": "au18k_emerald_step_combo__missing_center__old_resize",
+   "variant": "au18k_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_emerald_step_repaired__missing_center__old_resize"
+  },
+  {
+   "profile": "au18k_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "variant": "au18k_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "au18k_emerald_step_repaired__loose_prong__shank_dent__old_resize"
+  },
+  {
+   "profile": "au18k_emerald_step_loose_prong",
+   "variant": "au18k_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_emerald_step_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_emerald_step_shank_dent",
+   "variant": "au18k_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_emerald_step_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_emerald_step_missing_center",
+   "variant": "au18k_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_emerald_step_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_emerald_step_tool_scars",
+   "variant": "au18k_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_emerald_step_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_emerald_step_old_resize",
+   "variant": "au18k_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_emerald_step_intact",
+   "variant": "au18k_emerald_step_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "ag925_diamond_round_combo__loose_prong__old_resize",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_diamond_round_repaired__loose_prong__old_resize"
+  },
+  {
+   "profile": "ag925_diamond_round_combo__shank_dent__old_resize",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_diamond_round_repaired__shank_dent__old_resize"
+  },
+  {
+   "profile": "ag925_diamond_round_combo__missing_center__old_resize",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_diamond_round_repaired__missing_center__old_resize"
+  },
+  {
+   "profile": "ag925_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_diamond_round_repaired__loose_prong__shank_dent__old_resize"
+  },
+  {
+   "profile": "ag925_diamond_round_loose_prong",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_round_shank_dent",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_round_missing_center",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_round_tool_scars",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_round_old_resize",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_round_intact",
+   "variant": "ag925_diamond_round_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "ag925_diamond_princess_combo__loose_prong__old_resize",
+   "variant": "ag925_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_diamond_princess_repaired__loose_prong__old_resize"
+  },
+  {
+   "profile": "ag925_diamond_princess_combo__shank_dent__old_resize",
+   "variant": "ag925_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_diamond_princess_repaired__shank_dent__old_resize"
+  },
+  {
+   "profile": "ag925_diamond_princess_combo__missing_center__old_resize",
+   "variant": "ag925_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_diamond_princess_repaired__missing_center__old_resize"
+  },
+  {
+   "profile": "ag925_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "variant": "ag925_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_diamond_princess_repaired__loose_prong__shank_dent__old_resize"
+  },
+  {
+   "profile": "ag925_diamond_princess_loose_prong",
+   "variant": "ag925_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_princess_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_princess_shank_dent",
+   "variant": "ag925_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_princess_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_princess_missing_center",
+   "variant": "ag925_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_princess_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_princess_tool_scars",
+   "variant": "ag925_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_princess_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_princess_old_resize",
+   "variant": "ag925_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_princess_intact",
+   "variant": "ag925_diamond_princess_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "ag925_ruby_oval_combo__loose_prong__old_resize",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_ruby_oval_repaired__loose_prong__old_resize"
+  },
+  {
+   "profile": "ag925_ruby_oval_combo__shank_dent__old_resize",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_ruby_oval_repaired__shank_dent__old_resize"
+  },
+  {
+   "profile": "ag925_ruby_oval_combo__missing_center__old_resize",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_ruby_oval_repaired__missing_center__old_resize"
+  },
+  {
+   "profile": "ag925_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_ruby_oval_repaired__loose_prong__shank_dent__old_resize"
+  },
+  {
+   "profile": "ag925_ruby_oval_loose_prong",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_ruby_oval_shank_dent",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_ruby_oval_missing_center",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_ruby_oval_tool_scars",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_ruby_oval_old_resize",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_ruby_oval_intact",
+   "variant": "ag925_ruby_oval_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "ag925_sapphire_oval_combo__loose_prong__old_resize",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_sapphire_oval_repaired__loose_prong__old_resize"
+  },
+  {
+   "profile": "ag925_sapphire_oval_combo__shank_dent__old_resize",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_sapphire_oval_repaired__shank_dent__old_resize"
+  },
+  {
+   "profile": "ag925_sapphire_oval_combo__missing_center__old_resize",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_sapphire_oval_repaired__missing_center__old_resize"
+  },
+  {
+   "profile": "ag925_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_sapphire_oval_repaired__loose_prong__shank_dent__old_resize"
+  },
+  {
+   "profile": "ag925_sapphire_oval_loose_prong",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_sapphire_oval_shank_dent",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_sapphire_oval_missing_center",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_sapphire_oval_tool_scars",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_sapphire_oval_old_resize",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_sapphire_oval_intact",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "ag925_emerald_step_combo__loose_prong__old_resize",
+   "variant": "ag925_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_emerald_step_repaired__loose_prong__old_resize"
+  },
+  {
+   "profile": "ag925_emerald_step_combo__shank_dent__old_resize",
+   "variant": "ag925_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_emerald_step_repaired__shank_dent__old_resize"
+  },
+  {
+   "profile": "ag925_emerald_step_combo__missing_center__old_resize",
+   "variant": "ag925_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_emerald_step_repaired__missing_center__old_resize"
+  },
+  {
+   "profile": "ag925_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "variant": "ag925_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent",
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": "ag925_emerald_step_repaired__loose_prong__shank_dent__old_resize"
+  },
+  {
+   "profile": "ag925_emerald_step_loose_prong",
+   "variant": "ag925_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_loose_prong"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_emerald_step_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_emerald_step_shank_dent",
+   "variant": "ag925_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_shank_dent"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_emerald_step_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_emerald_step_missing_center",
+   "variant": "ag925_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_emerald_step_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_emerald_step_tool_scars",
+   "variant": "ag925_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "repairable": [
+    "sp4_jewelry_ring_tool_scars"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_emerald_step_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_emerald_step_old_resize",
+   "variant": "ag925_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_ring_old_resize"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_emerald_step_intact",
+   "variant": "ag925_emerald_step_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [
+  {
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "au18k_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "au18k_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "ag925_diamond_princess_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "ag925_emerald_step_",
+   "templates": [
+    "sp4_jewelry_ring_loose_prong",
+    "sp4_jewelry_ring_missing_center"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  }
+ ],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

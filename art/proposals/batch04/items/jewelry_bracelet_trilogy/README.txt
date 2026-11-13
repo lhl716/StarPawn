@@ -1,0 +1,128 @@
+Trilogy Gem-Set Bracelet (jewelry_bracelet_trilogy)
+
+Status: PROPOSAL, planned_04_not_registered. Not registered in the game; no runtime file was changed.
+Footprint 2x1 cells -> inventory 128x64 px; inspection 384x256 px (authored 192x128, exported 2x nearest).
+Current 0.3 source: none (new in 0.4). Planned 0.4 family: sp4_jewelry_bracelet_trilogy.
+
+States (113):
+  au18k_diamond_round_intact
+  au18k_diamond_round_clasp_gap - templates: sp4_jewelry_bracelet_clasp_gap
+  au18k_diamond_round_flat_link - templates: sp4_jewelry_bracelet_flat_link
+  au18k_diamond_round_loose_center - templates: sp4_jewelry_bracelet_loose_center
+  au18k_diamond_round_missing_left - templates: sp4_jewelry_bracelet_missing_left
+  au18k_diamond_round_link_join - templates: sp4_jewelry_bracelet_link_join
+  au18k_diamond_round_combo__clasp_gap__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_link_join
+  au18k_diamond_round_repaired__clasp_gap__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_diamond_round_combo__clasp_gap__link_join
+  au18k_diamond_round_combo__flat_link__link_join - templates: sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  au18k_diamond_round_repaired__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_diamond_round_combo__flat_link__link_join
+  au18k_diamond_round_combo__loose_center__link_join - templates: sp4_jewelry_bracelet_loose_center, sp4_jewelry_bracelet_link_join
+  au18k_diamond_round_repaired__loose_center__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_diamond_round_combo__loose_center__link_join
+  au18k_diamond_round_combo__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  au18k_diamond_round_repaired__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_diamond_round_combo__clasp_gap__flat_link__link_join
+  au18k_diamond_round_inherited__table_abrasion
+  au18k_ruby_oval_intact
+  au18k_ruby_oval_clasp_gap - templates: sp4_jewelry_bracelet_clasp_gap
+  au18k_ruby_oval_flat_link - templates: sp4_jewelry_bracelet_flat_link
+  au18k_ruby_oval_loose_center - templates: sp4_jewelry_bracelet_loose_center
+  au18k_ruby_oval_missing_left - templates: sp4_jewelry_bracelet_missing_left
+  au18k_ruby_oval_link_join - templates: sp4_jewelry_bracelet_link_join
+  au18k_ruby_oval_combo__clasp_gap__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_link_join
+  au18k_ruby_oval_repaired__clasp_gap__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_ruby_oval_combo__clasp_gap__link_join
+  au18k_ruby_oval_combo__flat_link__link_join - templates: sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  au18k_ruby_oval_repaired__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_ruby_oval_combo__flat_link__link_join
+  au18k_ruby_oval_combo__loose_center__link_join - templates: sp4_jewelry_bracelet_loose_center, sp4_jewelry_bracelet_link_join
+  au18k_ruby_oval_repaired__loose_center__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_ruby_oval_combo__loose_center__link_join
+  au18k_ruby_oval_combo__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  au18k_ruby_oval_repaired__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_ruby_oval_combo__clasp_gap__flat_link__link_join
+  au18k_sapphire_oval_intact
+  au18k_sapphire_oval_clasp_gap - templates: sp4_jewelry_bracelet_clasp_gap
+  au18k_sapphire_oval_flat_link - templates: sp4_jewelry_bracelet_flat_link
+  au18k_sapphire_oval_loose_center - templates: sp4_jewelry_bracelet_loose_center
+  au18k_sapphire_oval_missing_left - templates: sp4_jewelry_bracelet_missing_left
+  au18k_sapphire_oval_link_join - templates: sp4_jewelry_bracelet_link_join
+  au18k_sapphire_oval_combo__clasp_gap__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_link_join
+  au18k_sapphire_oval_repaired__clasp_gap__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_sapphire_oval_combo__clasp_gap__link_join
+  au18k_sapphire_oval_combo__flat_link__link_join - templates: sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  au18k_sapphire_oval_repaired__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_sapphire_oval_combo__flat_link__link_join
+  au18k_sapphire_oval_combo__loose_center__link_join - templates: sp4_jewelry_bracelet_loose_center, sp4_jewelry_bracelet_link_join
+  au18k_sapphire_oval_repaired__loose_center__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_sapphire_oval_combo__loose_center__link_join
+  au18k_sapphire_oval_combo__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  au18k_sapphire_oval_repaired__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_sapphire_oval_combo__clasp_gap__flat_link__link_join
+  au18k_emerald_oval_intact
+  au18k_emerald_oval_clasp_gap - templates: sp4_jewelry_bracelet_clasp_gap
+  au18k_emerald_oval_flat_link - templates: sp4_jewelry_bracelet_flat_link
+  au18k_emerald_oval_loose_center - templates: sp4_jewelry_bracelet_loose_center
+  au18k_emerald_oval_missing_left - templates: sp4_jewelry_bracelet_missing_left
+  au18k_emerald_oval_link_join - templates: sp4_jewelry_bracelet_link_join
+  au18k_emerald_oval_combo__clasp_gap__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_link_join
+  au18k_emerald_oval_repaired__clasp_gap__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_emerald_oval_combo__clasp_gap__link_join
+  au18k_emerald_oval_combo__flat_link__link_join - templates: sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  au18k_emerald_oval_repaired__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_emerald_oval_combo__flat_link__link_join
+  au18k_emerald_oval_combo__loose_center__link_join - templates: sp4_jewelry_bracelet_loose_center, sp4_jewelry_bracelet_link_join
+  au18k_emerald_oval_repaired__loose_center__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_emerald_oval_combo__loose_center__link_join
+  au18k_emerald_oval_combo__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  au18k_emerald_oval_repaired__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of au18k_emerald_oval_combo__clasp_gap__flat_link__link_join
+  ag925_diamond_round_intact
+  ag925_diamond_round_clasp_gap - templates: sp4_jewelry_bracelet_clasp_gap
+  ag925_diamond_round_flat_link - templates: sp4_jewelry_bracelet_flat_link
+  ag925_diamond_round_loose_center - templates: sp4_jewelry_bracelet_loose_center
+  ag925_diamond_round_missing_left - templates: sp4_jewelry_bracelet_missing_left
+  ag925_diamond_round_link_join - templates: sp4_jewelry_bracelet_link_join
+  ag925_diamond_round_combo__clasp_gap__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_link_join
+  ag925_diamond_round_repaired__clasp_gap__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_diamond_round_combo__clasp_gap__link_join
+  ag925_diamond_round_combo__flat_link__link_join - templates: sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  ag925_diamond_round_repaired__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_diamond_round_combo__flat_link__link_join
+  ag925_diamond_round_combo__loose_center__link_join - templates: sp4_jewelry_bracelet_loose_center, sp4_jewelry_bracelet_link_join
+  ag925_diamond_round_repaired__loose_center__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_diamond_round_combo__loose_center__link_join
+  ag925_diamond_round_combo__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  ag925_diamond_round_repaired__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_diamond_round_combo__clasp_gap__flat_link__link_join
+  ag925_ruby_oval_intact
+  ag925_ruby_oval_clasp_gap - templates: sp4_jewelry_bracelet_clasp_gap
+  ag925_ruby_oval_flat_link - templates: sp4_jewelry_bracelet_flat_link
+  ag925_ruby_oval_loose_center - templates: sp4_jewelry_bracelet_loose_center
+  ag925_ruby_oval_missing_left - templates: sp4_jewelry_bracelet_missing_left
+  ag925_ruby_oval_link_join - templates: sp4_jewelry_bracelet_link_join
+  ag925_ruby_oval_combo__clasp_gap__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_link_join
+  ag925_ruby_oval_repaired__clasp_gap__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_ruby_oval_combo__clasp_gap__link_join
+  ag925_ruby_oval_combo__flat_link__link_join - templates: sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  ag925_ruby_oval_repaired__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_ruby_oval_combo__flat_link__link_join
+  ag925_ruby_oval_combo__loose_center__link_join - templates: sp4_jewelry_bracelet_loose_center, sp4_jewelry_bracelet_link_join
+  ag925_ruby_oval_repaired__loose_center__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_ruby_oval_combo__loose_center__link_join
+  ag925_ruby_oval_combo__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  ag925_ruby_oval_repaired__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_ruby_oval_combo__clasp_gap__flat_link__link_join
+  ag925_sapphire_oval_intact
+  ag925_sapphire_oval_clasp_gap - templates: sp4_jewelry_bracelet_clasp_gap
+  ag925_sapphire_oval_flat_link - templates: sp4_jewelry_bracelet_flat_link
+  ag925_sapphire_oval_loose_center - templates: sp4_jewelry_bracelet_loose_center
+  ag925_sapphire_oval_missing_left - templates: sp4_jewelry_bracelet_missing_left
+  ag925_sapphire_oval_link_join - templates: sp4_jewelry_bracelet_link_join
+  ag925_sapphire_oval_combo__clasp_gap__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_link_join
+  ag925_sapphire_oval_repaired__clasp_gap__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_sapphire_oval_combo__clasp_gap__link_join
+  ag925_sapphire_oval_combo__flat_link__link_join - templates: sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  ag925_sapphire_oval_repaired__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_sapphire_oval_combo__flat_link__link_join
+  ag925_sapphire_oval_combo__loose_center__link_join - templates: sp4_jewelry_bracelet_loose_center, sp4_jewelry_bracelet_link_join
+  ag925_sapphire_oval_repaired__loose_center__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_sapphire_oval_combo__loose_center__link_join
+  ag925_sapphire_oval_combo__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  ag925_sapphire_oval_repaired__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_sapphire_oval_combo__clasp_gap__flat_link__link_join
+  ag925_emerald_oval_intact
+  ag925_emerald_oval_clasp_gap - templates: sp4_jewelry_bracelet_clasp_gap
+  ag925_emerald_oval_flat_link - templates: sp4_jewelry_bracelet_flat_link
+  ag925_emerald_oval_loose_center - templates: sp4_jewelry_bracelet_loose_center
+  ag925_emerald_oval_missing_left - templates: sp4_jewelry_bracelet_missing_left
+  ag925_emerald_oval_link_join - templates: sp4_jewelry_bracelet_link_join
+  ag925_emerald_oval_combo__clasp_gap__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_link_join
+  ag925_emerald_oval_repaired__clasp_gap__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_emerald_oval_combo__clasp_gap__link_join
+  ag925_emerald_oval_combo__flat_link__link_join - templates: sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  ag925_emerald_oval_repaired__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_emerald_oval_combo__flat_link__link_join
+  ag925_emerald_oval_combo__loose_center__link_join - templates: sp4_jewelry_bracelet_loose_center, sp4_jewelry_bracelet_link_join
+  ag925_emerald_oval_repaired__loose_center__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_emerald_oval_combo__loose_center__link_join
+  ag925_emerald_oval_combo__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_clasp_gap, sp4_jewelry_bracelet_flat_link, sp4_jewelry_bracelet_link_join
+  ag925_emerald_oval_repaired__clasp_gap__flat_link__link_join - templates: sp4_jewelry_bracelet_link_join; repaired composite of ag925_emerald_oval_combo__clasp_gap__flat_link__link_join
+
+Files: paper/, items/, layers/paper, layers/items, hotspots.json (center-based), combinations.json, manifest.json, comparison.png, source/generate.py.
+
+Notes and known limitations:
+  - Variants: au18k/ag925 x every stone in JEWELRY_SETTINGS_04.csv. Each socket holds one separate stone layer; no decorative stones exist outside the sockets.
+  - The inherited__* state shows one child stone's own visible template through the mounted pose; other child evidence needs demounting.
+  - Art is generated by the shared deterministic generator in art/proposals/batch04/source; edit there, not the PNGs.
+  - In-game filtering at the 298x199 frame is not an integer scale and still needs validation in the game.

@@ -1,0 +1,275 @@
+{
+ "asset_key": "collectible_console",
+ "name_en": "Console",
+ "category": "console",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_collectible_console",
+ "grid": [
+  2,
+  2
+ ],
+ "items_px": [
+  128,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "port_contacts": {
+   "paper": "paper/port_contacts.png",
+   "items": "items/port_contacts.png",
+   "templates": [
+    "sp4_console_port_contacts"
+   ],
+   "view": "ordinary"
+  },
+  "shell_fracture": {
+   "paper": "paper/shell_fracture.png",
+   "items": "items/shell_fracture.png",
+   "templates": [
+    "sp4_console_shell_fracture"
+   ],
+   "view": "ordinary"
+  },
+  "vent_heat": {
+   "paper": "paper/vent_heat.png",
+   "items": "items/vent_heat.png",
+   "templates": [
+    "sp4_console_vent_heat"
+   ],
+   "view": "ordinary"
+  },
+  "power_socket": {
+   "paper": "paper/power_socket.png",
+   "items": "items/power_socket.png",
+   "templates": [
+    "sp4_console_power_socket"
+   ],
+   "view": "ordinary"
+  },
+  "service_screw": {
+   "paper": "paper/service_screw.png",
+   "items": "items/service_screw.png",
+   "templates": [
+    "sp4_console_service_screw"
+   ],
+   "view": "ordinary"
+  },
+  "combo__port_contacts__service_screw": {
+   "paper": "paper/combo__port_contacts__service_screw.png",
+   "items": "items/combo__port_contacts__service_screw.png",
+   "templates": [
+    "sp4_console_port_contacts",
+    "sp4_console_service_screw"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__port_contacts__service_screw": {
+   "paper": "paper/repaired__port_contacts__service_screw.png",
+   "items": "items/repaired__port_contacts__service_screw.png",
+   "templates": [
+    "sp4_console_service_screw"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__port_contacts__service_screw"
+  },
+  "combo__shell_fracture__service_screw": {
+   "paper": "paper/combo__shell_fracture__service_screw.png",
+   "items": "items/combo__shell_fracture__service_screw.png",
+   "templates": [
+    "sp4_console_shell_fracture",
+    "sp4_console_service_screw"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__shell_fracture__service_screw": {
+   "paper": "paper/repaired__shell_fracture__service_screw.png",
+   "items": "items/repaired__shell_fracture__service_screw.png",
+   "templates": [
+    "sp4_console_service_screw"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__shell_fracture__service_screw"
+  },
+  "combo__vent_heat__service_screw": {
+   "paper": "paper/combo__vent_heat__service_screw.png",
+   "items": "items/combo__vent_heat__service_screw.png",
+   "templates": [
+    "sp4_console_vent_heat",
+    "sp4_console_service_screw"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__vent_heat__service_screw": {
+   "paper": "paper/repaired__vent_heat__service_screw.png",
+   "items": "items/repaired__vent_heat__service_screw.png",
+   "templates": [
+    "sp4_console_service_screw"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__vent_heat__service_screw"
+  },
+  "combo__port_contacts__shell_fracture__service_screw": {
+   "paper": "paper/combo__port_contacts__shell_fracture__service_screw.png",
+   "items": "items/combo__port_contacts__shell_fracture__service_screw.png",
+   "templates": [
+    "sp4_console_port_contacts",
+    "sp4_console_shell_fracture",
+    "sp4_console_service_screw"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__port_contacts__shell_fracture__service_screw": {
+   "paper": "paper/repaired__port_contacts__shell_fracture__service_screw.png",
+   "items": "items/repaired__port_contacts__shell_fracture__service_screw.png",
+   "templates": [
+    "sp4_console_service_screw"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__port_contacts__shell_fracture__service_screw"
+  }
+ },
+ "template_checks": {
+  "sp4_console_port_contacts": {
+   "paper": {
+    "changed_px": 172,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     96,
+     174,
+     116,
+     194
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 29,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     29,
+     80,
+     36,
+     88
+    ]
+   }
+  },
+  "sp4_console_shell_fracture": {
+   "paper": {
+    "changed_px": 264,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     224,
+     182,
+     282,
+     216
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 48,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     76,
+     84,
+     97,
+     96
+    ]
+   }
+  },
+  "sp4_console_vent_heat": {
+   "paper": {
+    "changed_px": 2052,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     182,
+     40,
+     260,
+     82
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 248,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     61,
+     32,
+     89,
+     47
+    ]
+   }
+  },
+  "sp4_console_power_socket": {
+   "paper": {
+    "changed_px": 124,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     314,
+     106,
+     330,
+     130
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 24,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     108,
+     56,
+     114,
+     65
+    ]
+   }
+  },
+  "sp4_console_service_screw": {
+   "paper": {
+    "changed_px": 240,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     34,
+     204,
+     58,
+     228
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 45,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     6,
+     91,
+     15,
+     101
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

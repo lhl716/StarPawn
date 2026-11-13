@@ -1,0 +1,82 @@
+{
+ "asset_key": "screen_bank",
+ "kind": "screen_plate",
+ "size": [
+  600,
+  400
+ ],
+ "states": [
+  "default",
+  "empty",
+  "blocked"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Bank and Physical Cards; text-free skin plus annotated 1920x1080 and 3840x2160 full-screen mockups. Preserve logical anchors; future screens marked planned.",
+ "anchors": {
+  "title": [
+   40,
+   12,
+   440,
+   28
+  ],
+  "subtitle": [
+   40,
+   46,
+   440,
+   16
+  ],
+  "content": [
+   40,
+   74,
+   520,
+   256
+  ],
+  "feedback": [
+   40,
+   336,
+   520,
+   22
+  ],
+  "navigation": [
+   40,
+   364,
+   520,
+   28
+  ],
+  "inspection_image": null
+ },
+ "elements": [
+  {
+   "kind": "P",
+   "rect": [
+    180,
+    76,
+    380,
+    150
+   ]
+  },
+  {
+   "kind": "A",
+   "rect": [
+    40,
+    80,
+    130,
+    136
+   ]
+  },
+  {
+   "kind": "A",
+   "rect": [
+    180,
+    76,
+    380,
+    150
+   ]
+  }
+ ],
+ "mockups": [
+  "mockup_1080p.png (1920x1080)",
+  "mockup_4k.png (3840x2160)"
+ ]
+}

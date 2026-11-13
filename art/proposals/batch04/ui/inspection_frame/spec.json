@@ -1,0 +1,15 @@
+{
+ "asset_key": "inspection_frame",
+ "kind": "component",
+ "size": [
+  298,
+  199
+ ],
+ "states": [
+  "default",
+  "locked"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Frame plate must not reduce the existing clickable image rectangle."
+}

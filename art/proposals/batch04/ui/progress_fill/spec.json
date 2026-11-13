@@ -1,0 +1,16 @@
+{
+ "asset_key": "progress_fill",
+ "kind": "component",
+ "size": [
+  240,
+  12
+ ],
+ "states": [
+  "default",
+  "paused",
+  "complete"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Clipped by runtime; do not resize whole texture per value."
+}

@@ -1,0 +1,17 @@
+{
+ "asset_key": "stone_socket",
+ "kind": "component",
+ "size": [
+  48,
+  48
+ ],
+ "states": [
+  "empty",
+  "compatible",
+  "incompatible",
+  "reserved"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Logical slot indicator only, not an extra stone item or embedded text."
+}

@@ -1,0 +1,262 @@
+{
+ "manual": "manual_art",
+ "page_size": [
+  440,
+  616
+ ],
+ "page_count": 4,
+ "style_spec": "art/VANILLA_HANDBOOK_SPEC_04.txt",
+ "pages": [
+  {
+   "manual": "manual_art",
+   "page": 0,
+   "kind": "index",
+   "template": "ui/handbook_page/index.png",
+   "previous": null,
+   "next": 1,
+   "entries": [
+    {
+     "category": "painting",
+     "subtype": "all_models",
+     "first_page": 1,
+     "loc_key": "sp4.handbook.manual_art.index.painting.all_models"
+    }
+   ],
+   "mockup": "items/manual_art/pages/page_00.png"
+  },
+  {
+   "manual": "manual_art",
+   "page": 1,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "painting",
+   "subtype": "all_models",
+   "previous": 0,
+   "next": 2,
+   "sections": [
+    {
+     "TemplateId": "sp4_painting_seal_mismatch",
+     "label_en": "Mismatched artist seal",
+     "category": "painting",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_painting",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "authenticity_disclosure",
+     "reference": {
+      "layer": "items/collectible_painting/paper/intact.png",
+      "crop_px": [
+       256,
+       171,
+       296,
+       197
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_painting/paper/seal_mismatch.png",
+      "crop_px": [
+       256,
+       171,
+       296,
+       197
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_painting_seal_mismatch.heading",
+      "body": "sp4.handbook.sp4_painting_seal_mismatch.body",
+      "limits": "sp4.handbook.sp4_painting_seal_mismatch.limits",
+      "reference_caption": "sp4.handbook.sp4_painting_seal_mismatch.ref",
+      "problem_caption": "sp4.handbook.sp4_painting_seal_mismatch.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_painting_print_screen",
+     "label_en": "Printed imitation brushwork",
+     "category": "painting",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_painting",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "authenticity_disclosure",
+     "reference": {
+      "layer": "items/collectible_painting/paper/intact.png",
+      "crop_px": [
+       127,
+       61,
+       207,
+       113
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_painting/paper/print_screen.png",
+      "crop_px": [
+       127,
+       61,
+       207,
+       113
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_painting_print_screen.heading",
+      "body": "sp4.handbook.sp4_painting_print_screen.body",
+      "limits": "sp4.handbook.sp4_painting_print_screen.limits",
+      "reference_caption": "sp4.handbook.sp4_painting_print_screen.ref",
+      "problem_caption": "sp4.handbook.sp4_painting_print_screen.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_art/pages/page_01.png"
+  },
+  {
+   "manual": "manual_art",
+   "page": 2,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "painting",
+   "subtype": "all_models",
+   "previous": 1,
+   "next": 3,
+   "sections": [
+    {
+     "TemplateId": "sp4_painting_canvas_tear",
+     "label_en": "Torn painting support",
+     "category": "painting",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_painting",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "conserve",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/collectible_painting/paper/intact.png",
+      "crop_px": [
+       36,
+       89,
+       116,
+       141
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_painting/paper/canvas_tear.png",
+      "crop_px": [
+       36,
+       89,
+       116,
+       141
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_painting_canvas_tear.heading",
+      "body": "sp4.handbook.sp4_painting_canvas_tear.body",
+      "limits": "sp4.handbook.sp4_painting_canvas_tear.limits",
+      "reference_caption": "sp4.handbook.sp4_painting_canvas_tear.ref",
+      "problem_caption": "sp4.handbook.sp4_painting_canvas_tear.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_painting_water_tide",
+     "label_en": "Water tide mark",
+     "category": "painting",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_painting",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "conserve",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/collectible_painting/paper/intact.png",
+      "crop_px": [
+       100,
+       152,
+       260,
+       256
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_painting/paper/water_tide.png",
+      "crop_px": [
+       100,
+       152,
+       260,
+       256
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_painting_water_tide.heading",
+      "body": "sp4.handbook.sp4_painting_water_tide.body",
+      "limits": "sp4.handbook.sp4_painting_water_tide.limits",
+      "reference_caption": "sp4.handbook.sp4_painting_water_tide.ref",
+      "problem_caption": "sp4.handbook.sp4_painting_water_tide.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_art/pages/page_02.png"
+  },
+  {
+   "manual": "manual_art",
+   "page": 3,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "painting",
+   "subtype": "all_models",
+   "previous": 2,
+   "next": null,
+   "sections": [
+    {
+     "TemplateId": "sp4_painting_overpaint_patch",
+     "label_en": "Overpainted repair",
+     "category": "painting",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_painting",
+     "view": "uv",
+     "instrument": "uv",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/collectible_painting/paper/intact.png",
+      "crop_px": [
+       85,
+       40,
+       165,
+       92
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_painting/paper/overpaint_patch__uv.png",
+      "crop_px": [
+       85,
+       40,
+       165,
+       92
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_painting_overpaint_patch.heading",
+      "body": "sp4.handbook.sp4_painting_overpaint_patch.body",
+      "limits": "sp4.handbook.sp4_painting_overpaint_patch.limits",
+      "reference_caption": "sp4.handbook.sp4_painting_overpaint_patch.ref",
+      "problem_caption": "sp4.handbook.sp4_painting_overpaint_patch.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_art/pages/page_03.png"
+  }
+ ]
+}

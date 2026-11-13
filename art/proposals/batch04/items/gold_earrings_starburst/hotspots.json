@@ -1,0 +1,715 @@
+{
+ "asset_key": "gold_earrings_starburst",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "bent_post",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_gold_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.2109375,
+   "Width": 0.125,
+   "Height": 0.15625,
+   "bounds_px": [
+    266,
+    34,
+    314,
+    74
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "bent_post",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_gold_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8671875,
+   "V": 0.2265625,
+   "Width": 0.171875,
+   "Height": 0.140625,
+   "bounds_px": [
+    50,
+    10,
+    61,
+    19
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "split_loop",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_split_loop",
+   "Id": "split_loop",
+   "CauseId": "sp4_gold_earrings_split_loop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.48828125,
+   "Width": 0.015625,
+   "Height": 0.0390625,
+   "bounds_px": [
+    108,
+    120,
+    114,
+    130
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "split_loop",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_split_loop",
+   "Id": "split_loop",
+   "CauseId": "sp4_gold_earrings_split_loop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.203125,
+   "V": 0.484375,
+   "Width": 0.03125,
+   "Height": 0.0625,
+   "bounds_px": [
+    12,
+    29,
+    14,
+    33
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "loose_back",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_gold_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7213541666666666,
+   "V": 0.73046875,
+   "Width": 0.06770833333333333,
+   "Height": 0.0703125,
+   "bounds_px": [
+    264,
+    178,
+    290,
+    196
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "loose_back",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_gold_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8046875,
+   "V": 0.7109375,
+   "Width": 0.109375,
+   "Height": 0.078125,
+   "bounds_px": [
+    48,
+    43,
+    55,
+    48
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "post_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_post_plating",
+   "Id": "post_plating",
+   "CauseId": "sp4_gold_earrings_post_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.328125,
+   "V": 0.7734375,
+   "Width": 0.09375,
+   "Height": 0.140625,
+   "bounds_px": [
+    108,
+    180,
+    144,
+    216
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "post_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_post_plating",
+   "Id": "post_plating",
+   "CauseId": "sp4_gold_earrings_post_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.765625,
+   "Width": 0.140625,
+   "Height": 0.125,
+   "bounds_px": [
+    12,
+    45,
+    21,
+    53
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "repaired_mount",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_repaired_mount",
+   "Id": "repaired_mount",
+   "CauseId": "sp4_gold_earrings_repaired_mount",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.27734375,
+   "Width": 0.057291666666666664,
+   "Height": 0.1015625,
+   "bounds_px": [
+    212,
+    58,
+    234,
+    84
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "repaired_mount",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_repaired_mount",
+   "Id": "repaired_mount",
+   "CauseId": "sp4_gold_earrings_repaired_mount",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.609375,
+   "V": 0.2890625,
+   "Width": 0.09375,
+   "Height": 0.109375,
+   "bounds_px": [
+    36,
+    15,
+    42,
+    22
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__post_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_gold_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.2109375,
+   "Width": 0.125,
+   "Height": 0.15625,
+   "bounds_px": [
+    266,
+    34,
+    314,
+    74
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__post_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_gold_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8671875,
+   "V": 0.2265625,
+   "Width": 0.171875,
+   "Height": 0.140625,
+   "bounds_px": [
+    50,
+    10,
+    61,
+    19
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__post_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_post_plating",
+   "Id": "post_plating",
+   "CauseId": "sp4_gold_earrings_post_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.328125,
+   "V": 0.7734375,
+   "Width": 0.09375,
+   "Height": 0.140625,
+   "bounds_px": [
+    108,
+    180,
+    144,
+    216
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__post_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_post_plating",
+   "Id": "post_plating",
+   "CauseId": "sp4_gold_earrings_post_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.765625,
+   "Width": 0.140625,
+   "Height": 0.125,
+   "bounds_px": [
+    12,
+    45,
+    21,
+    53
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__repaired_mount",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_gold_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.2109375,
+   "Width": 0.125,
+   "Height": 0.15625,
+   "bounds_px": [
+    266,
+    34,
+    314,
+    74
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__repaired_mount",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_gold_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8671875,
+   "V": 0.2265625,
+   "Width": 0.171875,
+   "Height": 0.140625,
+   "bounds_px": [
+    50,
+    10,
+    61,
+    19
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__repaired_mount",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_repaired_mount",
+   "Id": "repaired_mount",
+   "CauseId": "sp4_gold_earrings_repaired_mount",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.27734375,
+   "Width": 0.057291666666666664,
+   "Height": 0.1015625,
+   "bounds_px": [
+    212,
+    58,
+    234,
+    84
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__repaired_mount",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_repaired_mount",
+   "Id": "repaired_mount",
+   "CauseId": "sp4_gold_earrings_repaired_mount",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.609375,
+   "V": 0.2890625,
+   "Width": 0.09375,
+   "Height": 0.109375,
+   "bounds_px": [
+    36,
+    15,
+    42,
+    22
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__split_loop__post_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_split_loop",
+   "Id": "split_loop",
+   "CauseId": "sp4_gold_earrings_split_loop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.48828125,
+   "Width": 0.015625,
+   "Height": 0.0390625,
+   "bounds_px": [
+    108,
+    120,
+    114,
+    130
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__split_loop__post_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_split_loop",
+   "Id": "split_loop",
+   "CauseId": "sp4_gold_earrings_split_loop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.203125,
+   "V": 0.484375,
+   "Width": 0.03125,
+   "Height": 0.0625,
+   "bounds_px": [
+    12,
+    29,
+    14,
+    33
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__split_loop__post_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_post_plating",
+   "Id": "post_plating",
+   "CauseId": "sp4_gold_earrings_post_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.328125,
+   "V": 0.7734375,
+   "Width": 0.09375,
+   "Height": 0.140625,
+   "bounds_px": [
+    108,
+    180,
+    144,
+    216
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__split_loop__post_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_post_plating",
+   "Id": "post_plating",
+   "CauseId": "sp4_gold_earrings_post_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.765625,
+   "Width": 0.140625,
+   "Height": 0.125,
+   "bounds_px": [
+    12,
+    45,
+    21,
+    53
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__split_loop__post_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_gold_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.2109375,
+   "Width": 0.125,
+   "Height": 0.15625,
+   "bounds_px": [
+    266,
+    34,
+    314,
+    74
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__split_loop__post_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_gold_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8671875,
+   "V": 0.2265625,
+   "Width": 0.171875,
+   "Height": 0.140625,
+   "bounds_px": [
+    50,
+    10,
+    61,
+    19
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__split_loop__post_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_split_loop",
+   "Id": "split_loop",
+   "CauseId": "sp4_gold_earrings_split_loop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.48828125,
+   "Width": 0.015625,
+   "Height": 0.0390625,
+   "bounds_px": [
+    108,
+    120,
+    114,
+    130
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__split_loop__post_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_split_loop",
+   "Id": "split_loop",
+   "CauseId": "sp4_gold_earrings_split_loop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.203125,
+   "V": 0.484375,
+   "Width": 0.03125,
+   "Height": 0.0625,
+   "bounds_px": [
+    12,
+    29,
+    14,
+    33
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__split_loop__post_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_earrings_post_plating",
+   "Id": "post_plating",
+   "CauseId": "sp4_gold_earrings_post_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.328125,
+   "V": 0.7734375,
+   "Width": 0.09375,
+   "Height": 0.140625,
+   "bounds_px": [
+    108,
+    180,
+    144,
+    216
+   ]
+  },
+  {
+   "asset_key": "gold_earrings_starburst",
+   "state": "combo__bent_post__split_loop__post_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_earrings_post_plating",
+   "Id": "post_plating",
+   "CauseId": "sp4_gold_earrings_post_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.765625,
+   "Width": 0.140625,
+   "Height": 0.125,
+   "bounds_px": [
+    12,
+    45,
+    21,
+    53
+   ]
+  }
+ ]
+}

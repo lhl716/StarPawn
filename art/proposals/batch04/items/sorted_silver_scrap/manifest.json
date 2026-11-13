@@ -1,0 +1,42 @@
+{
+ "asset_key": "sorted_silver_scrap",
+ "name_en": "Sorted Silver-Bearing Scrap",
+ "category": "sorted_silver_scrap",
+ "subtype": "",
+ "role": "material_lot",
+ "target_family_id": "sp4_sorted_silver_scrap",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "sealed": {
+   "paper": "paper/sealed.png",
+   "items": "items/sealed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "assayed": {
+   "paper": "paper/assayed.png",
+   "items": "items/assayed.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

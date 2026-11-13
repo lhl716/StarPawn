@@ -1,0 +1,131 @@
+{
+ "asset_key": "legacy_gold_bar",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "legacy_gold_bar",
+   "state": "gold_bar_suspect",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_bar_seam",
+   "Id": "bar_seam",
+   "CauseId": "bar_filler",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.66,
+    0.574
+   ],
+   "U": 0.4348958333333333,
+   "V": 0.75390625,
+   "Width": 0.265625,
+   "Height": 0.0390625,
+   "bounds_px": [
+    116,
+    188,
+    218,
+    198
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bar",
+   "state": "gold_bar_suspect",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "legacy_bar_seam",
+   "Id": "bar_seam",
+   "CauseId": "bar_filler",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.66,
+    0.574
+   ],
+   "U": 0.4296875,
+   "V": 0.6328125,
+   "Width": 0.265625,
+   "Height": 0.015625,
+   "bounds_px": [
+    19,
+    40,
+    36,
+    41
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bar",
+   "state": "gold_bar_suspect",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_bar_stamp",
+   "Id": "bar_stamp",
+   "CauseId": "bar_filler",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.49,
+    0.434
+   ],
+   "U": 0.5052083333333334,
+   "V": 0.37890625,
+   "Width": 0.19791666666666666,
+   "Height": 0.1484375,
+   "bounds_px": [
+    156,
+    78,
+    232,
+    116
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bar",
+   "state": "gold_bar_suspect",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "legacy_bar_stamp",
+   "Id": "bar_stamp",
+   "CauseId": "bar_filler",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.49,
+    0.434
+   ],
+   "U": 0.5078125,
+   "V": 0.4140625,
+   "Width": 0.203125,
+   "Height": 0.109375,
+   "bounds_px": [
+    26,
+    23,
+    39,
+    30
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "asset_key": "button_secondary",
+ "kind": "component",
+ "size": [
+  88,
+  24
+ ],
+ "states": [
+  "default",
+  "hover",
+  "pressed",
+  "disabled"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Nine-slice; margins6,6,6,6.",
+ "nine_slice_margins_ltrb": [
+  6,
+  6,
+  6,
+  6
+ ]
+}

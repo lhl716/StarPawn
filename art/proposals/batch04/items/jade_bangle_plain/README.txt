@@ -1,0 +1,59 @@
+Plain Jade Bangle (jade_bangle_plain)
+
+Status: PROPOSAL, planned_04_not_registered. Not registered in the game; no runtime file was changed.
+Footprint 2x1 cells -> inventory 128x64 px; inspection 384x256 px (authored 192x128, exported 2x nearest).
+Current 0.3 source: sp3_jade_bangle. Planned 0.4 family: sp4_jade_bangle_plain.
+
+States (45):
+  dou_intact
+  dou_light_observation - planned light observation view, needs runtime integration
+  dou_uv_observation - planned uv observation view, needs runtime integration
+  dou_radial_bangle_crack - templates: sp4_jade_bangle_radial_bangle_crack
+  dou_inner_rim_chip - templates: sp4_jade_bangle_inner_rim_chip
+  dou_clouded_arc - templates: sp4_jade_bangle_clouded_arc
+  dou_clouded_arc__light - templates: sp4_jade_bangle_clouded_arc; planned light observation view, needs runtime integration
+  dou_dyed_band - templates: sp4_jade_bangle_dyed_band
+  dou_dyed_band__uv - templates: sp4_jade_bangle_dyed_band; planned uv observation view, needs runtime integration
+  dou_joined_bangle_seam - templates: sp4_jade_bangle_joined_bangle_seam
+  dou_joined_bangle_seam__uv - templates: sp4_jade_bangle_joined_bangle_seam; planned uv observation view, needs runtime integration
+  dou_combo__radial_bangle_crack__inner_rim_chip - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_inner_rim_chip
+  dou_combo__radial_bangle_crack__clouded_arc - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_clouded_arc
+  dou_combo__radial_bangle_crack__dyed_band - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_dyed_band
+  dou_combo__radial_bangle_crack__inner_rim_chip__clouded_arc - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_inner_rim_chip, sp4_jade_bangle_clouded_arc
+  nuo_intact
+  nuo_light_observation - planned light observation view, needs runtime integration
+  nuo_uv_observation - planned uv observation view, needs runtime integration
+  nuo_radial_bangle_crack - templates: sp4_jade_bangle_radial_bangle_crack
+  nuo_inner_rim_chip - templates: sp4_jade_bangle_inner_rim_chip
+  nuo_clouded_arc - templates: sp4_jade_bangle_clouded_arc
+  nuo_clouded_arc__light - templates: sp4_jade_bangle_clouded_arc; planned light observation view, needs runtime integration
+  nuo_dyed_band - templates: sp4_jade_bangle_dyed_band
+  nuo_dyed_band__uv - templates: sp4_jade_bangle_dyed_band; planned uv observation view, needs runtime integration
+  nuo_joined_bangle_seam - templates: sp4_jade_bangle_joined_bangle_seam
+  nuo_joined_bangle_seam__uv - templates: sp4_jade_bangle_joined_bangle_seam; planned uv observation view, needs runtime integration
+  nuo_combo__radial_bangle_crack__inner_rim_chip - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_inner_rim_chip
+  nuo_combo__radial_bangle_crack__clouded_arc - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_clouded_arc
+  nuo_combo__radial_bangle_crack__dyed_band - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_dyed_band
+  nuo_combo__radial_bangle_crack__inner_rim_chip__clouded_arc - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_inner_rim_chip, sp4_jade_bangle_clouded_arc
+  bing_intact
+  bing_light_observation - planned light observation view, needs runtime integration
+  bing_uv_observation - planned uv observation view, needs runtime integration
+  bing_radial_bangle_crack - templates: sp4_jade_bangle_radial_bangle_crack
+  bing_inner_rim_chip - templates: sp4_jade_bangle_inner_rim_chip
+  bing_clouded_arc - templates: sp4_jade_bangle_clouded_arc
+  bing_clouded_arc__light - templates: sp4_jade_bangle_clouded_arc; planned light observation view, needs runtime integration
+  bing_dyed_band - templates: sp4_jade_bangle_dyed_band
+  bing_dyed_band__uv - templates: sp4_jade_bangle_dyed_band; planned uv observation view, needs runtime integration
+  bing_joined_bangle_seam - templates: sp4_jade_bangle_joined_bangle_seam
+  bing_joined_bangle_seam__uv - templates: sp4_jade_bangle_joined_bangle_seam; planned uv observation view, needs runtime integration
+  bing_combo__radial_bangle_crack__inner_rim_chip - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_inner_rim_chip
+  bing_combo__radial_bangle_crack__clouded_arc - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_clouded_arc
+  bing_combo__radial_bangle_crack__dyed_band - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_dyed_band
+  bing_combo__radial_bangle_crack__inner_rim_chip__clouded_arc - templates: sp4_jade_bangle_radial_bangle_crack, sp4_jade_bangle_inner_rim_chip, sp4_jade_bangle_clouded_arc
+
+Files: paper/, items/, layers/paper, layers/items, hotspots.json (center-based), combinations.json, manifest.json, comparison.png, source/generate.py.
+
+Notes and known limitations:
+  - No template of this category has a repair class, so no repaired composite exists; combinations.json maps repaired_state to null.
+  - Art is generated by the shared deterministic generator in art/proposals/batch04/source; edit there, not the PNGs.
+  - In-game filtering at the 298x199 frame is not an integer scale and still needs validation in the game.

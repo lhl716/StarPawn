@@ -1,0 +1,15 @@
+{
+ "asset_key": "certificate_page",
+ "kind": "component",
+ "size": [
+  440,
+  616
+ ],
+ "states": [
+  "valid",
+  "superseded"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Native-style portrait report; no baked serial, issuer account, purity or date. Physical paper item still uses its 384x256 inspection illustration."
+}

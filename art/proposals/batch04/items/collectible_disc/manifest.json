@@ -1,0 +1,276 @@
+{
+ "asset_key": "collectible_disc",
+ "name_en": "Disc",
+ "category": "disc",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_collectible_disc",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "radial_score": {
+   "paper": "paper/radial_score.png",
+   "items": "items/radial_score.png",
+   "templates": [
+    "sp4_disc_radial_score"
+   ],
+   "view": "ordinary"
+  },
+  "hub_fissure": {
+   "paper": "paper/hub_fissure.png",
+   "items": "items/hub_fissure.png",
+   "templates": [
+    "sp4_disc_hub_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "layer_delamination": {
+   "paper": "paper/layer_delamination.png",
+   "items": "items/layer_delamination.png",
+   "templates": [
+    "sp4_disc_layer_delamination"
+   ],
+   "view": "ordinary"
+  },
+  "matrix_mismatch": {
+   "paper": "paper/matrix_mismatch.png",
+   "items": "items/matrix_mismatch.png",
+   "templates": [
+    "sp4_disc_matrix_mismatch"
+   ],
+   "view": "ordinary"
+  },
+  "label_resurface": {
+   "paper": "paper/label_resurface.png",
+   "items": "items/label_resurface.png",
+   "templates": [
+    "sp4_disc_label_resurface"
+   ],
+   "view": "ordinary"
+  },
+  "combo__radial_score__hub_fissure": {
+   "paper": "paper/combo__radial_score__hub_fissure.png",
+   "items": "items/combo__radial_score__hub_fissure.png",
+   "templates": [
+    "sp4_disc_radial_score",
+    "sp4_disc_hub_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__radial_score__hub_fissure": {
+   "paper": "paper/repaired__radial_score__hub_fissure.png",
+   "items": "items/repaired__radial_score__hub_fissure.png",
+   "templates": [
+    "sp4_disc_hub_fissure"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__radial_score__hub_fissure"
+  },
+  "combo__radial_score__layer_delamination": {
+   "paper": "paper/combo__radial_score__layer_delamination.png",
+   "items": "items/combo__radial_score__layer_delamination.png",
+   "templates": [
+    "sp4_disc_radial_score",
+    "sp4_disc_layer_delamination"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__radial_score__layer_delamination": {
+   "paper": "paper/repaired__radial_score__layer_delamination.png",
+   "items": "items/repaired__radial_score__layer_delamination.png",
+   "templates": [
+    "sp4_disc_layer_delamination"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__radial_score__layer_delamination"
+  },
+  "combo__radial_score__matrix_mismatch": {
+   "paper": "paper/combo__radial_score__matrix_mismatch.png",
+   "items": "items/combo__radial_score__matrix_mismatch.png",
+   "templates": [
+    "sp4_disc_radial_score",
+    "sp4_disc_matrix_mismatch"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__radial_score__matrix_mismatch": {
+   "paper": "paper/repaired__radial_score__matrix_mismatch.png",
+   "items": "items/repaired__radial_score__matrix_mismatch.png",
+   "templates": [
+    "sp4_disc_matrix_mismatch"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__radial_score__matrix_mismatch"
+  },
+  "combo__radial_score__hub_fissure__layer_delamination": {
+   "paper": "paper/combo__radial_score__hub_fissure__layer_delamination.png",
+   "items": "items/combo__radial_score__hub_fissure__layer_delamination.png",
+   "templates": [
+    "sp4_disc_radial_score",
+    "sp4_disc_hub_fissure",
+    "sp4_disc_layer_delamination"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__radial_score__hub_fissure__layer_delamination": {
+   "paper": "paper/repaired__radial_score__hub_fissure__layer_delamination.png",
+   "items": "items/repaired__radial_score__hub_fissure__layer_delamination.png",
+   "templates": [
+    "sp4_disc_hub_fissure",
+    "sp4_disc_layer_delamination"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__radial_score__hub_fissure__layer_delamination"
+  }
+ },
+ "template_checks": {
+  "sp4_disc_radial_score": {
+   "paper": {
+    "changed_px": 160,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     234,
+     162,
+     270,
+     196
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 22,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     41,
+     40,
+     51,
+     49
+    ]
+   }
+  },
+  "sp4_disc_hub_fissure": {
+   "paper": {
+    "changed_px": 144,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     194,
+     74,
+     206,
+     110
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 18,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     32,
+     19,
+     36,
+     28
+    ]
+   }
+  },
+  "sp4_disc_layer_delamination": {
+   "paper": {
+    "changed_px": 944,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     88,
+     126,
+     114,
+     194
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 42,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     8,
+     31,
+     14,
+     47
+    ]
+   }
+  },
+  "sp4_disc_matrix_mismatch": {
+   "paper": {
+    "changed_px": 76,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     216,
+     134,
+     232,
+     146
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     38,
+     33,
+     42,
+     36
+    ]
+   }
+  },
+  "sp4_disc_label_resurface": {
+   "paper": {
+    "changed_px": 532,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     112,
+     54,
+     178,
+     92
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 38,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     15,
+     14,
+     29,
+     24
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

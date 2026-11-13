@@ -1,0 +1,29 @@
+{
+ "asset_key": "native_presentation_case",
+ "kind": "component",
+ "size": [
+  288,
+  176
+ ],
+ "states": [
+  "empty",
+  "partly_filled",
+  "full"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "4x2 cells; content origin16,32; actual child items retained.",
+ "grid": [
+  4,
+  2
+ ],
+ "cell_px": 64,
+ "content_origin": [
+  16,
+  32
+ ],
+ "margins_right_bottom": [
+  16,
+  16
+ ]
+}

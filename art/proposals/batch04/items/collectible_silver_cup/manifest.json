@@ -1,0 +1,275 @@
+{
+ "asset_key": "collectible_silver_cup",
+ "name_en": "Silver Cup",
+ "category": "silver_cup",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_collectible_silver_cup",
+ "grid": [
+  1,
+  2
+ ],
+ "items_px": [
+  64,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "wall_dent": {
+   "paper": "paper/wall_dent.png",
+   "items": "items/wall_dent.png",
+   "templates": [
+    "sp4_silver_cup_wall_dent"
+   ],
+   "view": "ordinary"
+  },
+  "rim_split": {
+   "paper": "paper/rim_split.png",
+   "items": "items/rim_split.png",
+   "templates": [
+    "sp4_silver_cup_rim_split"
+   ],
+   "view": "ordinary"
+  },
+  "base_wobble": {
+   "paper": "paper/base_wobble.png",
+   "items": "items/base_wobble.png",
+   "templates": [
+    "sp4_silver_cup_base_wobble"
+   ],
+   "view": "ordinary"
+  },
+  "inside_breakthrough": {
+   "paper": "paper/inside_breakthrough.png",
+   "items": "items/inside_breakthrough.png",
+   "templates": [
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "handle_rejoin": {
+   "paper": "paper/handle_rejoin.png",
+   "items": "items/handle_rejoin.png",
+   "templates": [
+    "sp4_silver_cup_handle_rejoin"
+   ],
+   "view": "ordinary"
+  },
+  "combo__wall_dent__inside_breakthrough": {
+   "paper": "paper/combo__wall_dent__inside_breakthrough.png",
+   "items": "items/combo__wall_dent__inside_breakthrough.png",
+   "templates": [
+    "sp4_silver_cup_wall_dent",
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__wall_dent__inside_breakthrough": {
+   "paper": "paper/repaired__wall_dent__inside_breakthrough.png",
+   "items": "items/repaired__wall_dent__inside_breakthrough.png",
+   "templates": [
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__wall_dent__inside_breakthrough"
+  },
+  "combo__wall_dent__handle_rejoin": {
+   "paper": "paper/combo__wall_dent__handle_rejoin.png",
+   "items": "items/combo__wall_dent__handle_rejoin.png",
+   "templates": [
+    "sp4_silver_cup_wall_dent",
+    "sp4_silver_cup_handle_rejoin"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__wall_dent__handle_rejoin": {
+   "paper": "paper/repaired__wall_dent__handle_rejoin.png",
+   "items": "items/repaired__wall_dent__handle_rejoin.png",
+   "templates": [
+    "sp4_silver_cup_handle_rejoin"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__wall_dent__handle_rejoin"
+  },
+  "combo__rim_split__inside_breakthrough": {
+   "paper": "paper/combo__rim_split__inside_breakthrough.png",
+   "items": "items/combo__rim_split__inside_breakthrough.png",
+   "templates": [
+    "sp4_silver_cup_rim_split",
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__rim_split__inside_breakthrough": {
+   "paper": "paper/repaired__rim_split__inside_breakthrough.png",
+   "items": "items/repaired__rim_split__inside_breakthrough.png",
+   "templates": [
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__rim_split__inside_breakthrough"
+  },
+  "combo__wall_dent__rim_split__inside_breakthrough": {
+   "paper": "paper/combo__wall_dent__rim_split__inside_breakthrough.png",
+   "items": "items/combo__wall_dent__rim_split__inside_breakthrough.png",
+   "templates": [
+    "sp4_silver_cup_wall_dent",
+    "sp4_silver_cup_rim_split",
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__wall_dent__rim_split__inside_breakthrough": {
+   "paper": "paper/repaired__wall_dent__rim_split__inside_breakthrough.png",
+   "items": "items/repaired__wall_dent__rim_split__inside_breakthrough.png",
+   "templates": [
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__wall_dent__rim_split__inside_breakthrough"
+  }
+ },
+ "template_checks": {
+  "sp4_silver_cup_wall_dent": {
+   "paper": {
+    "changed_px": 504,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     172,
+     48,
+     196,
+     80
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 106,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     23,
+     29,
+     35,
+     43
+    ]
+   }
+  },
+  "sp4_silver_cup_rim_split": {
+   "paper": {
+    "changed_px": 80,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     214,
+     36,
+     224,
+     56
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 18,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     23,
+     46,
+     32
+    ]
+   }
+  },
+  "sp4_silver_cup_base_wobble": {
+   "paper": {
+    "changed_px": 116,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     204,
+     222,
+     226,
+     230
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 40,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     37,
+     105,
+     49,
+     110
+    ]
+   }
+  },
+  "sp4_silver_cup_inside_breakthrough": {
+   "paper": {
+    "changed_px": 164,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     170,
+     26,
+     198,
+     36
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 37,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     22,
+     18,
+     35,
+     23
+    ]
+   }
+  },
+  "sp4_silver_cup_handle_rejoin": {
+   "paper": {
+    "changed_px": 104,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     222,
+     50,
+     232,
+     62
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 25,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     44,
+     29,
+     50,
+     34
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

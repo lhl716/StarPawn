@@ -1,0 +1,42 @@
+{
+ "asset_key": "manual_media",
+ "name_en": "Media Handbook",
+ "category": "manual",
+ "subtype": "",
+ "role": "manual",
+ "target_family_id": "sp4_manual_media",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "closed": {
+   "paper": "paper/closed.png",
+   "items": "items/closed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "open_page_template": {
+   "paper": "paper/open_page_template.png",
+   "items": "items/open_page_template.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

@@ -1,0 +1,401 @@
+{
+ "asset_key": "jade_bangle_crafted",
+ "combinations": [
+  {
+   "profile": "dou_combo__radial_bangle_crack__inner_rim_chip",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_combo__radial_bangle_crack__clouded_arc",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_combo__radial_bangle_crack__dyed_band",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_radial_bangle_crack",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_inner_rim_chip",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_clouded_arc",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_dyed_band",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_joined_bangle_seam",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_bangle_joined_bangle_seam"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_joined_bangle_seam"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_intact",
+   "variant": "dou_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__radial_bangle_crack__inner_rim_chip",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__radial_bangle_crack__clouded_arc",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__radial_bangle_crack__dyed_band",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_radial_bangle_crack",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_inner_rim_chip",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_clouded_arc",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_dyed_band",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_joined_bangle_seam",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_bangle_joined_bangle_seam"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_joined_bangle_seam"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_intact",
+   "variant": "nuo_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__radial_bangle_crack__inner_rim_chip",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__radial_bangle_crack__clouded_arc",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__radial_bangle_crack__dyed_band",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack",
+    "sp4_jade_bangle_inner_rim_chip",
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_radial_bangle_crack",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_bangle_radial_bangle_crack"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_radial_bangle_crack"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_inner_rim_chip",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_inner_rim_chip"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_clouded_arc",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_clouded_arc"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_dyed_band",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_dyed_band"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_joined_bangle_seam",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_bangle_joined_bangle_seam"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_bangle_joined_bangle_seam"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_intact",
+   "variant": "bing_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

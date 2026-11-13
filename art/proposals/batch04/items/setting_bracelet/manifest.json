@@ -1,0 +1,66 @@
+{
+ "asset_key": "setting_bracelet",
+ "name_en": "Empty Bracelet Setting",
+ "category": "setting_bracelet",
+ "subtype": "",
+ "role": "component",
+ "target_family_id": "sp4_setting_bracelet",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "au18k_empty": {
+   "paper": "paper/au18k_empty.png",
+   "items": "items/au18k_empty.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_service_worn": {
+   "paper": "paper/au18k_service_worn.png",
+   "items": "items/au18k_service_worn.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_repaired": {
+   "paper": "paper/au18k_repaired.png",
+   "items": "items/au18k_repaired.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_empty": {
+   "paper": "paper/ag925_empty.png",
+   "items": "items/ag925_empty.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_service_worn": {
+   "paper": "paper/ag925_service_worn.png",
+   "items": "items/ag925_service_worn.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_repaired": {
+   "paper": "paper/ag925_repaired.png",
+   "items": "items/ag925_repaired.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

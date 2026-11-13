@@ -1,0 +1,2479 @@
+{
+ "asset_key": "jewelry_pendant_bezel",
+ "name_en": "Bezel Gem-Set Pendant",
+ "category": "jewelry_pendant",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_jewelry_pendant_bezel",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "au18k_diamond_round_intact": {
+   "paper": "paper/au18k_diamond_round_intact.png",
+   "items": "items/au18k_diamond_round_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_bail_gap": {
+   "paper": "paper/au18k_diamond_round_bail_gap.png",
+   "items": "items/au18k_diamond_round_bail_gap.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_lifted_bezel": {
+   "paper": "paper/au18k_diamond_round_lifted_bezel.png",
+   "items": "items/au18k_diamond_round_lifted_bezel.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_missing_insert": {
+   "paper": "paper/au18k_diamond_round_missing_insert.png",
+   "items": "items/au18k_diamond_round_missing_insert.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_rim_scrape": {
+   "paper": "paper/au18k_diamond_round_rim_scrape.png",
+   "items": "items/au18k_diamond_round_rim_scrape.png",
+   "templates": [
+    "sp4_jewelry_pendant_rim_scrape"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_bail_join": {
+   "paper": "paper/au18k_diamond_round_bail_join.png",
+   "items": "items/au18k_diamond_round_bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_combo__bail_gap__bail_join": {
+   "paper": "paper/au18k_diamond_round_combo__bail_gap__bail_join.png",
+   "items": "items/au18k_diamond_round_combo__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_repaired__bail_gap__bail_join": {
+   "paper": "paper/au18k_diamond_round_repaired__bail_gap__bail_join.png",
+   "items": "items/au18k_diamond_round_repaired__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_round_combo__bail_gap__bail_join"
+  },
+  "au18k_diamond_round_combo__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_diamond_round_combo__lifted_bezel__bail_join.png",
+   "items": "items/au18k_diamond_round_combo__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_repaired__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_diamond_round_repaired__lifted_bezel__bail_join.png",
+   "items": "items/au18k_diamond_round_repaired__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_round_combo__lifted_bezel__bail_join"
+  },
+  "au18k_diamond_round_combo__missing_insert__bail_join": {
+   "paper": "paper/au18k_diamond_round_combo__missing_insert__bail_join.png",
+   "items": "items/au18k_diamond_round_combo__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_repaired__missing_insert__bail_join": {
+   "paper": "paper/au18k_diamond_round_repaired__missing_insert__bail_join.png",
+   "items": "items/au18k_diamond_round_repaired__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_round_combo__missing_insert__bail_join"
+  },
+  "au18k_diamond_round_combo__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_diamond_round_combo__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/au18k_diamond_round_combo__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_diamond_round_repaired__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_diamond_round_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/au18k_diamond_round_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_diamond_round_combo__bail_gap__lifted_bezel__bail_join"
+  },
+  "au18k_diamond_round_inherited__table_abrasion": {
+   "paper": "paper/au18k_diamond_round_inherited__table_abrasion.png",
+   "items": "items/au18k_diamond_round_inherited__table_abrasion.png",
+   "templates": [],
+   "view": "ordinary",
+   "inherited_child_template": "sp4_gem_diamond_table_abrasion",
+   "inherited_socket": "bezel_center"
+  },
+  "au18k_ruby_oval_intact": {
+   "paper": "paper/au18k_ruby_oval_intact.png",
+   "items": "items/au18k_ruby_oval_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_bail_gap": {
+   "paper": "paper/au18k_ruby_oval_bail_gap.png",
+   "items": "items/au18k_ruby_oval_bail_gap.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_lifted_bezel": {
+   "paper": "paper/au18k_ruby_oval_lifted_bezel.png",
+   "items": "items/au18k_ruby_oval_lifted_bezel.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_missing_insert": {
+   "paper": "paper/au18k_ruby_oval_missing_insert.png",
+   "items": "items/au18k_ruby_oval_missing_insert.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_rim_scrape": {
+   "paper": "paper/au18k_ruby_oval_rim_scrape.png",
+   "items": "items/au18k_ruby_oval_rim_scrape.png",
+   "templates": [
+    "sp4_jewelry_pendant_rim_scrape"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_bail_join": {
+   "paper": "paper/au18k_ruby_oval_bail_join.png",
+   "items": "items/au18k_ruby_oval_bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_combo__bail_gap__bail_join": {
+   "paper": "paper/au18k_ruby_oval_combo__bail_gap__bail_join.png",
+   "items": "items/au18k_ruby_oval_combo__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_repaired__bail_gap__bail_join": {
+   "paper": "paper/au18k_ruby_oval_repaired__bail_gap__bail_join.png",
+   "items": "items/au18k_ruby_oval_repaired__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_ruby_oval_combo__bail_gap__bail_join"
+  },
+  "au18k_ruby_oval_combo__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_ruby_oval_combo__lifted_bezel__bail_join.png",
+   "items": "items/au18k_ruby_oval_combo__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_repaired__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_ruby_oval_repaired__lifted_bezel__bail_join.png",
+   "items": "items/au18k_ruby_oval_repaired__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_ruby_oval_combo__lifted_bezel__bail_join"
+  },
+  "au18k_ruby_oval_combo__missing_insert__bail_join": {
+   "paper": "paper/au18k_ruby_oval_combo__missing_insert__bail_join.png",
+   "items": "items/au18k_ruby_oval_combo__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_repaired__missing_insert__bail_join": {
+   "paper": "paper/au18k_ruby_oval_repaired__missing_insert__bail_join.png",
+   "items": "items/au18k_ruby_oval_repaired__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_ruby_oval_combo__missing_insert__bail_join"
+  },
+  "au18k_ruby_oval_combo__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_ruby_oval_combo__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/au18k_ruby_oval_combo__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_ruby_oval_repaired__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_ruby_oval_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/au18k_ruby_oval_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_ruby_oval_combo__bail_gap__lifted_bezel__bail_join"
+  },
+  "au18k_sapphire_pear_intact": {
+   "paper": "paper/au18k_sapphire_pear_intact.png",
+   "items": "items/au18k_sapphire_pear_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_pear_bail_gap": {
+   "paper": "paper/au18k_sapphire_pear_bail_gap.png",
+   "items": "items/au18k_sapphire_pear_bail_gap.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_pear_lifted_bezel": {
+   "paper": "paper/au18k_sapphire_pear_lifted_bezel.png",
+   "items": "items/au18k_sapphire_pear_lifted_bezel.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_pear_missing_insert": {
+   "paper": "paper/au18k_sapphire_pear_missing_insert.png",
+   "items": "items/au18k_sapphire_pear_missing_insert.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_pear_rim_scrape": {
+   "paper": "paper/au18k_sapphire_pear_rim_scrape.png",
+   "items": "items/au18k_sapphire_pear_rim_scrape.png",
+   "templates": [
+    "sp4_jewelry_pendant_rim_scrape"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_pear_bail_join": {
+   "paper": "paper/au18k_sapphire_pear_bail_join.png",
+   "items": "items/au18k_sapphire_pear_bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_pear_combo__bail_gap__bail_join": {
+   "paper": "paper/au18k_sapphire_pear_combo__bail_gap__bail_join.png",
+   "items": "items/au18k_sapphire_pear_combo__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_pear_repaired__bail_gap__bail_join": {
+   "paper": "paper/au18k_sapphire_pear_repaired__bail_gap__bail_join.png",
+   "items": "items/au18k_sapphire_pear_repaired__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_sapphire_pear_combo__bail_gap__bail_join"
+  },
+  "au18k_sapphire_pear_combo__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_sapphire_pear_combo__lifted_bezel__bail_join.png",
+   "items": "items/au18k_sapphire_pear_combo__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_pear_repaired__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_sapphire_pear_repaired__lifted_bezel__bail_join.png",
+   "items": "items/au18k_sapphire_pear_repaired__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_sapphire_pear_combo__lifted_bezel__bail_join"
+  },
+  "au18k_sapphire_pear_combo__missing_insert__bail_join": {
+   "paper": "paper/au18k_sapphire_pear_combo__missing_insert__bail_join.png",
+   "items": "items/au18k_sapphire_pear_combo__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_pear_repaired__missing_insert__bail_join": {
+   "paper": "paper/au18k_sapphire_pear_repaired__missing_insert__bail_join.png",
+   "items": "items/au18k_sapphire_pear_repaired__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_sapphire_pear_combo__missing_insert__bail_join"
+  },
+  "au18k_sapphire_pear_combo__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_sapphire_pear_combo__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/au18k_sapphire_pear_combo__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_sapphire_pear_repaired__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_sapphire_pear_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/au18k_sapphire_pear_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_sapphire_pear_combo__bail_gap__lifted_bezel__bail_join"
+  },
+  "au18k_emerald_oval_intact": {
+   "paper": "paper/au18k_emerald_oval_intact.png",
+   "items": "items/au18k_emerald_oval_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_emerald_oval_bail_gap": {
+   "paper": "paper/au18k_emerald_oval_bail_gap.png",
+   "items": "items/au18k_emerald_oval_bail_gap.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_oval_lifted_bezel": {
+   "paper": "paper/au18k_emerald_oval_lifted_bezel.png",
+   "items": "items/au18k_emerald_oval_lifted_bezel.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_oval_missing_insert": {
+   "paper": "paper/au18k_emerald_oval_missing_insert.png",
+   "items": "items/au18k_emerald_oval_missing_insert.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_oval_rim_scrape": {
+   "paper": "paper/au18k_emerald_oval_rim_scrape.png",
+   "items": "items/au18k_emerald_oval_rim_scrape.png",
+   "templates": [
+    "sp4_jewelry_pendant_rim_scrape"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_oval_bail_join": {
+   "paper": "paper/au18k_emerald_oval_bail_join.png",
+   "items": "items/au18k_emerald_oval_bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_oval_combo__bail_gap__bail_join": {
+   "paper": "paper/au18k_emerald_oval_combo__bail_gap__bail_join.png",
+   "items": "items/au18k_emerald_oval_combo__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_oval_repaired__bail_gap__bail_join": {
+   "paper": "paper/au18k_emerald_oval_repaired__bail_gap__bail_join.png",
+   "items": "items/au18k_emerald_oval_repaired__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_emerald_oval_combo__bail_gap__bail_join"
+  },
+  "au18k_emerald_oval_combo__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_emerald_oval_combo__lifted_bezel__bail_join.png",
+   "items": "items/au18k_emerald_oval_combo__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_oval_repaired__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_emerald_oval_repaired__lifted_bezel__bail_join.png",
+   "items": "items/au18k_emerald_oval_repaired__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_emerald_oval_combo__lifted_bezel__bail_join"
+  },
+  "au18k_emerald_oval_combo__missing_insert__bail_join": {
+   "paper": "paper/au18k_emerald_oval_combo__missing_insert__bail_join.png",
+   "items": "items/au18k_emerald_oval_combo__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_oval_repaired__missing_insert__bail_join": {
+   "paper": "paper/au18k_emerald_oval_repaired__missing_insert__bail_join.png",
+   "items": "items/au18k_emerald_oval_repaired__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_emerald_oval_combo__missing_insert__bail_join"
+  },
+  "au18k_emerald_oval_combo__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_emerald_oval_combo__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/au18k_emerald_oval_combo__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_emerald_oval_repaired__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_emerald_oval_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/au18k_emerald_oval_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_emerald_oval_combo__bail_gap__lifted_bezel__bail_join"
+  },
+  "au18k_pearl_baroque_intact": {
+   "paper": "paper/au18k_pearl_baroque_intact.png",
+   "items": "items/au18k_pearl_baroque_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "au18k_pearl_baroque_bail_gap": {
+   "paper": "paper/au18k_pearl_baroque_bail_gap.png",
+   "items": "items/au18k_pearl_baroque_bail_gap.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_pearl_baroque_lifted_bezel": {
+   "paper": "paper/au18k_pearl_baroque_lifted_bezel.png",
+   "items": "items/au18k_pearl_baroque_lifted_bezel.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_pearl_baroque_missing_insert": {
+   "paper": "paper/au18k_pearl_baroque_missing_insert.png",
+   "items": "items/au18k_pearl_baroque_missing_insert.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_pearl_baroque_rim_scrape": {
+   "paper": "paper/au18k_pearl_baroque_rim_scrape.png",
+   "items": "items/au18k_pearl_baroque_rim_scrape.png",
+   "templates": [
+    "sp4_jewelry_pendant_rim_scrape"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_pearl_baroque_bail_join": {
+   "paper": "paper/au18k_pearl_baroque_bail_join.png",
+   "items": "items/au18k_pearl_baroque_bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_pearl_baroque_combo__bail_gap__bail_join": {
+   "paper": "paper/au18k_pearl_baroque_combo__bail_gap__bail_join.png",
+   "items": "items/au18k_pearl_baroque_combo__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_pearl_baroque_repaired__bail_gap__bail_join": {
+   "paper": "paper/au18k_pearl_baroque_repaired__bail_gap__bail_join.png",
+   "items": "items/au18k_pearl_baroque_repaired__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_pearl_baroque_combo__bail_gap__bail_join"
+  },
+  "au18k_pearl_baroque_combo__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_pearl_baroque_combo__lifted_bezel__bail_join.png",
+   "items": "items/au18k_pearl_baroque_combo__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_pearl_baroque_repaired__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_pearl_baroque_repaired__lifted_bezel__bail_join.png",
+   "items": "items/au18k_pearl_baroque_repaired__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_pearl_baroque_combo__lifted_bezel__bail_join"
+  },
+  "au18k_pearl_baroque_combo__missing_insert__bail_join": {
+   "paper": "paper/au18k_pearl_baroque_combo__missing_insert__bail_join.png",
+   "items": "items/au18k_pearl_baroque_combo__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_pearl_baroque_repaired__missing_insert__bail_join": {
+   "paper": "paper/au18k_pearl_baroque_repaired__missing_insert__bail_join.png",
+   "items": "items/au18k_pearl_baroque_repaired__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_pearl_baroque_combo__missing_insert__bail_join"
+  },
+  "au18k_pearl_baroque_combo__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_pearl_baroque_combo__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/au18k_pearl_baroque_combo__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "au18k_pearl_baroque_repaired__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/au18k_pearl_baroque_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/au18k_pearl_baroque_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "au18k_pearl_baroque_combo__bail_gap__lifted_bezel__bail_join"
+  },
+  "ag925_diamond_round_intact": {
+   "paper": "paper/ag925_diamond_round_intact.png",
+   "items": "items/ag925_diamond_round_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_bail_gap": {
+   "paper": "paper/ag925_diamond_round_bail_gap.png",
+   "items": "items/ag925_diamond_round_bail_gap.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_lifted_bezel": {
+   "paper": "paper/ag925_diamond_round_lifted_bezel.png",
+   "items": "items/ag925_diamond_round_lifted_bezel.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_missing_insert": {
+   "paper": "paper/ag925_diamond_round_missing_insert.png",
+   "items": "items/ag925_diamond_round_missing_insert.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_rim_scrape": {
+   "paper": "paper/ag925_diamond_round_rim_scrape.png",
+   "items": "items/ag925_diamond_round_rim_scrape.png",
+   "templates": [
+    "sp4_jewelry_pendant_rim_scrape"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_bail_join": {
+   "paper": "paper/ag925_diamond_round_bail_join.png",
+   "items": "items/ag925_diamond_round_bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_combo__bail_gap__bail_join": {
+   "paper": "paper/ag925_diamond_round_combo__bail_gap__bail_join.png",
+   "items": "items/ag925_diamond_round_combo__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_repaired__bail_gap__bail_join": {
+   "paper": "paper/ag925_diamond_round_repaired__bail_gap__bail_join.png",
+   "items": "items/ag925_diamond_round_repaired__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_round_combo__bail_gap__bail_join"
+  },
+  "ag925_diamond_round_combo__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_diamond_round_combo__lifted_bezel__bail_join.png",
+   "items": "items/ag925_diamond_round_combo__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_repaired__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_diamond_round_repaired__lifted_bezel__bail_join.png",
+   "items": "items/ag925_diamond_round_repaired__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_round_combo__lifted_bezel__bail_join"
+  },
+  "ag925_diamond_round_combo__missing_insert__bail_join": {
+   "paper": "paper/ag925_diamond_round_combo__missing_insert__bail_join.png",
+   "items": "items/ag925_diamond_round_combo__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_repaired__missing_insert__bail_join": {
+   "paper": "paper/ag925_diamond_round_repaired__missing_insert__bail_join.png",
+   "items": "items/ag925_diamond_round_repaired__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_round_combo__missing_insert__bail_join"
+  },
+  "ag925_diamond_round_combo__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_diamond_round_combo__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/ag925_diamond_round_combo__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_diamond_round_repaired__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_diamond_round_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/ag925_diamond_round_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_diamond_round_combo__bail_gap__lifted_bezel__bail_join"
+  },
+  "ag925_ruby_oval_intact": {
+   "paper": "paper/ag925_ruby_oval_intact.png",
+   "items": "items/ag925_ruby_oval_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_bail_gap": {
+   "paper": "paper/ag925_ruby_oval_bail_gap.png",
+   "items": "items/ag925_ruby_oval_bail_gap.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_lifted_bezel": {
+   "paper": "paper/ag925_ruby_oval_lifted_bezel.png",
+   "items": "items/ag925_ruby_oval_lifted_bezel.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_missing_insert": {
+   "paper": "paper/ag925_ruby_oval_missing_insert.png",
+   "items": "items/ag925_ruby_oval_missing_insert.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_rim_scrape": {
+   "paper": "paper/ag925_ruby_oval_rim_scrape.png",
+   "items": "items/ag925_ruby_oval_rim_scrape.png",
+   "templates": [
+    "sp4_jewelry_pendant_rim_scrape"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_bail_join": {
+   "paper": "paper/ag925_ruby_oval_bail_join.png",
+   "items": "items/ag925_ruby_oval_bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_combo__bail_gap__bail_join": {
+   "paper": "paper/ag925_ruby_oval_combo__bail_gap__bail_join.png",
+   "items": "items/ag925_ruby_oval_combo__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_repaired__bail_gap__bail_join": {
+   "paper": "paper/ag925_ruby_oval_repaired__bail_gap__bail_join.png",
+   "items": "items/ag925_ruby_oval_repaired__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_ruby_oval_combo__bail_gap__bail_join"
+  },
+  "ag925_ruby_oval_combo__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_ruby_oval_combo__lifted_bezel__bail_join.png",
+   "items": "items/ag925_ruby_oval_combo__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_repaired__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_ruby_oval_repaired__lifted_bezel__bail_join.png",
+   "items": "items/ag925_ruby_oval_repaired__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_ruby_oval_combo__lifted_bezel__bail_join"
+  },
+  "ag925_ruby_oval_combo__missing_insert__bail_join": {
+   "paper": "paper/ag925_ruby_oval_combo__missing_insert__bail_join.png",
+   "items": "items/ag925_ruby_oval_combo__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_repaired__missing_insert__bail_join": {
+   "paper": "paper/ag925_ruby_oval_repaired__missing_insert__bail_join.png",
+   "items": "items/ag925_ruby_oval_repaired__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_ruby_oval_combo__missing_insert__bail_join"
+  },
+  "ag925_ruby_oval_combo__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_ruby_oval_combo__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/ag925_ruby_oval_combo__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_ruby_oval_repaired__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_ruby_oval_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/ag925_ruby_oval_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_ruby_oval_combo__bail_gap__lifted_bezel__bail_join"
+  },
+  "ag925_sapphire_pear_intact": {
+   "paper": "paper/ag925_sapphire_pear_intact.png",
+   "items": "items/ag925_sapphire_pear_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_pear_bail_gap": {
+   "paper": "paper/ag925_sapphire_pear_bail_gap.png",
+   "items": "items/ag925_sapphire_pear_bail_gap.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_pear_lifted_bezel": {
+   "paper": "paper/ag925_sapphire_pear_lifted_bezel.png",
+   "items": "items/ag925_sapphire_pear_lifted_bezel.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_pear_missing_insert": {
+   "paper": "paper/ag925_sapphire_pear_missing_insert.png",
+   "items": "items/ag925_sapphire_pear_missing_insert.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_pear_rim_scrape": {
+   "paper": "paper/ag925_sapphire_pear_rim_scrape.png",
+   "items": "items/ag925_sapphire_pear_rim_scrape.png",
+   "templates": [
+    "sp4_jewelry_pendant_rim_scrape"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_pear_bail_join": {
+   "paper": "paper/ag925_sapphire_pear_bail_join.png",
+   "items": "items/ag925_sapphire_pear_bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_pear_combo__bail_gap__bail_join": {
+   "paper": "paper/ag925_sapphire_pear_combo__bail_gap__bail_join.png",
+   "items": "items/ag925_sapphire_pear_combo__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_pear_repaired__bail_gap__bail_join": {
+   "paper": "paper/ag925_sapphire_pear_repaired__bail_gap__bail_join.png",
+   "items": "items/ag925_sapphire_pear_repaired__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_sapphire_pear_combo__bail_gap__bail_join"
+  },
+  "ag925_sapphire_pear_combo__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_sapphire_pear_combo__lifted_bezel__bail_join.png",
+   "items": "items/ag925_sapphire_pear_combo__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_pear_repaired__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_sapphire_pear_repaired__lifted_bezel__bail_join.png",
+   "items": "items/ag925_sapphire_pear_repaired__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_sapphire_pear_combo__lifted_bezel__bail_join"
+  },
+  "ag925_sapphire_pear_combo__missing_insert__bail_join": {
+   "paper": "paper/ag925_sapphire_pear_combo__missing_insert__bail_join.png",
+   "items": "items/ag925_sapphire_pear_combo__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_pear_repaired__missing_insert__bail_join": {
+   "paper": "paper/ag925_sapphire_pear_repaired__missing_insert__bail_join.png",
+   "items": "items/ag925_sapphire_pear_repaired__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_sapphire_pear_combo__missing_insert__bail_join"
+  },
+  "ag925_sapphire_pear_combo__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_sapphire_pear_combo__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/ag925_sapphire_pear_combo__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_sapphire_pear_repaired__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_sapphire_pear_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/ag925_sapphire_pear_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_sapphire_pear_combo__bail_gap__lifted_bezel__bail_join"
+  },
+  "ag925_emerald_oval_intact": {
+   "paper": "paper/ag925_emerald_oval_intact.png",
+   "items": "items/ag925_emerald_oval_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_emerald_oval_bail_gap": {
+   "paper": "paper/ag925_emerald_oval_bail_gap.png",
+   "items": "items/ag925_emerald_oval_bail_gap.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_oval_lifted_bezel": {
+   "paper": "paper/ag925_emerald_oval_lifted_bezel.png",
+   "items": "items/ag925_emerald_oval_lifted_bezel.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_oval_missing_insert": {
+   "paper": "paper/ag925_emerald_oval_missing_insert.png",
+   "items": "items/ag925_emerald_oval_missing_insert.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_oval_rim_scrape": {
+   "paper": "paper/ag925_emerald_oval_rim_scrape.png",
+   "items": "items/ag925_emerald_oval_rim_scrape.png",
+   "templates": [
+    "sp4_jewelry_pendant_rim_scrape"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_oval_bail_join": {
+   "paper": "paper/ag925_emerald_oval_bail_join.png",
+   "items": "items/ag925_emerald_oval_bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_oval_combo__bail_gap__bail_join": {
+   "paper": "paper/ag925_emerald_oval_combo__bail_gap__bail_join.png",
+   "items": "items/ag925_emerald_oval_combo__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_oval_repaired__bail_gap__bail_join": {
+   "paper": "paper/ag925_emerald_oval_repaired__bail_gap__bail_join.png",
+   "items": "items/ag925_emerald_oval_repaired__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_emerald_oval_combo__bail_gap__bail_join"
+  },
+  "ag925_emerald_oval_combo__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_emerald_oval_combo__lifted_bezel__bail_join.png",
+   "items": "items/ag925_emerald_oval_combo__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_oval_repaired__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_emerald_oval_repaired__lifted_bezel__bail_join.png",
+   "items": "items/ag925_emerald_oval_repaired__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_emerald_oval_combo__lifted_bezel__bail_join"
+  },
+  "ag925_emerald_oval_combo__missing_insert__bail_join": {
+   "paper": "paper/ag925_emerald_oval_combo__missing_insert__bail_join.png",
+   "items": "items/ag925_emerald_oval_combo__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_oval_repaired__missing_insert__bail_join": {
+   "paper": "paper/ag925_emerald_oval_repaired__missing_insert__bail_join.png",
+   "items": "items/ag925_emerald_oval_repaired__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_emerald_oval_combo__missing_insert__bail_join"
+  },
+  "ag925_emerald_oval_combo__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_emerald_oval_combo__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/ag925_emerald_oval_combo__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_emerald_oval_repaired__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_emerald_oval_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/ag925_emerald_oval_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_emerald_oval_combo__bail_gap__lifted_bezel__bail_join"
+  },
+  "ag925_pearl_baroque_intact": {
+   "paper": "paper/ag925_pearl_baroque_intact.png",
+   "items": "items/ag925_pearl_baroque_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ag925_pearl_baroque_bail_gap": {
+   "paper": "paper/ag925_pearl_baroque_bail_gap.png",
+   "items": "items/ag925_pearl_baroque_bail_gap.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_pearl_baroque_lifted_bezel": {
+   "paper": "paper/ag925_pearl_baroque_lifted_bezel.png",
+   "items": "items/ag925_pearl_baroque_lifted_bezel.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_pearl_baroque_missing_insert": {
+   "paper": "paper/ag925_pearl_baroque_missing_insert.png",
+   "items": "items/ag925_pearl_baroque_missing_insert.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_pearl_baroque_rim_scrape": {
+   "paper": "paper/ag925_pearl_baroque_rim_scrape.png",
+   "items": "items/ag925_pearl_baroque_rim_scrape.png",
+   "templates": [
+    "sp4_jewelry_pendant_rim_scrape"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_pearl_baroque_bail_join": {
+   "paper": "paper/ag925_pearl_baroque_bail_join.png",
+   "items": "items/ag925_pearl_baroque_bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_pearl_baroque_combo__bail_gap__bail_join": {
+   "paper": "paper/ag925_pearl_baroque_combo__bail_gap__bail_join.png",
+   "items": "items/ag925_pearl_baroque_combo__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_pearl_baroque_repaired__bail_gap__bail_join": {
+   "paper": "paper/ag925_pearl_baroque_repaired__bail_gap__bail_join.png",
+   "items": "items/ag925_pearl_baroque_repaired__bail_gap__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_pearl_baroque_combo__bail_gap__bail_join"
+  },
+  "ag925_pearl_baroque_combo__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_pearl_baroque_combo__lifted_bezel__bail_join.png",
+   "items": "items/ag925_pearl_baroque_combo__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_pearl_baroque_repaired__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_pearl_baroque_repaired__lifted_bezel__bail_join.png",
+   "items": "items/ag925_pearl_baroque_repaired__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_pearl_baroque_combo__lifted_bezel__bail_join"
+  },
+  "ag925_pearl_baroque_combo__missing_insert__bail_join": {
+   "paper": "paper/ag925_pearl_baroque_combo__missing_insert__bail_join.png",
+   "items": "items/ag925_pearl_baroque_combo__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_missing_insert",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_pearl_baroque_repaired__missing_insert__bail_join": {
+   "paper": "paper/ag925_pearl_baroque_repaired__missing_insert__bail_join.png",
+   "items": "items/ag925_pearl_baroque_repaired__missing_insert__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_pearl_baroque_combo__missing_insert__bail_join"
+  },
+  "ag925_pearl_baroque_combo__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_pearl_baroque_combo__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/ag925_pearl_baroque_combo__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_gap",
+    "sp4_jewelry_pendant_lifted_bezel",
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary"
+  },
+  "ag925_pearl_baroque_repaired__bail_gap__lifted_bezel__bail_join": {
+   "paper": "paper/ag925_pearl_baroque_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "items": "items/ag925_pearl_baroque_repaired__bail_gap__lifted_bezel__bail_join.png",
+   "templates": [
+    "sp4_jewelry_pendant_bail_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "ag925_pearl_baroque_combo__bail_gap__lifted_bezel__bail_join"
+  }
+ },
+ "template_checks": {
+  "au18k_diamond_round_sp4_jewelry_pendant_bail_gap": {
+   "paper": {
+    "changed_px": 76,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     202,
+     38,
+     212,
+     48
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     35,
+     9,
+     37,
+     13
+    ]
+   }
+  },
+  "au18k_diamond_round_sp4_jewelry_pendant_lifted_bezel": {
+   "paper": {
+    "changed_px": 172,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     232,
+     120,
+     244,
+     150
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 10,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     30,
+     45,
+     37
+    ]
+   }
+  },
+  "au18k_diamond_round_sp4_jewelry_pendant_missing_insert": {
+   "paper": {
+    "changed_px": 7988,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     96,
+     244,
+     200
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 511,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     24,
+     45,
+     50
+    ]
+   }
+  },
+  "au18k_diamond_round_sp4_jewelry_pendant_rim_scrape": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     186,
+     162,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     46,
+     24,
+     50
+    ]
+   }
+  },
+  "au18k_diamond_round_sp4_jewelry_pendant_bail_join": {
+   "paper": {
+    "changed_px": 72,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     186,
+     70,
+     198,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     17,
+     33,
+     20
+    ]
+   }
+  },
+  "au18k_ruby_oval_sp4_jewelry_pendant_bail_gap": {
+   "paper": {
+    "changed_px": 76,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     202,
+     38,
+     212,
+     48
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     35,
+     9,
+     37,
+     13
+    ]
+   }
+  },
+  "au18k_ruby_oval_sp4_jewelry_pendant_lifted_bezel": {
+   "paper": {
+    "changed_px": 152,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     232,
+     120,
+     242,
+     150
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     31,
+     45,
+     36
+    ]
+   }
+  },
+  "au18k_ruby_oval_sp4_jewelry_pendant_missing_insert": {
+   "paper": {
+    "changed_px": 5960,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     110,
+     244,
+     188
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 381,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     27,
+     45,
+     47
+    ]
+   }
+  },
+  "au18k_ruby_oval_sp4_jewelry_pendant_rim_scrape": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     186,
+     162,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     46,
+     24,
+     50
+    ]
+   }
+  },
+  "au18k_ruby_oval_sp4_jewelry_pendant_bail_join": {
+   "paper": {
+    "changed_px": 72,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     186,
+     70,
+     198,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     17,
+     33,
+     20
+    ]
+   }
+  },
+  "au18k_sapphire_pear_sp4_jewelry_pendant_bail_gap": {
+   "paper": {
+    "changed_px": 76,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     202,
+     38,
+     212,
+     48
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     35,
+     9,
+     37,
+     13
+    ]
+   }
+  },
+  "au18k_sapphire_pear_sp4_jewelry_pendant_lifted_bezel": {
+   "paper": {
+    "changed_px": 172,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     232,
+     120,
+     244,
+     150
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     31,
+     45,
+     37
+    ]
+   }
+  },
+  "au18k_sapphire_pear_sp4_jewelry_pendant_missing_insert": {
+   "paper": {
+    "changed_px": 4996,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     154,
+     94,
+     230,
+     198
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 332,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     22,
+     23,
+     42,
+     50
+    ]
+   }
+  },
+  "au18k_sapphire_pear_sp4_jewelry_pendant_rim_scrape": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     186,
+     162,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     46,
+     24,
+     50
+    ]
+   }
+  },
+  "au18k_sapphire_pear_sp4_jewelry_pendant_bail_join": {
+   "paper": {
+    "changed_px": 72,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     186,
+     70,
+     198,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     17,
+     33,
+     20
+    ]
+   }
+  },
+  "au18k_emerald_oval_sp4_jewelry_pendant_bail_gap": {
+   "paper": {
+    "changed_px": 76,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     202,
+     38,
+     212,
+     48
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     35,
+     9,
+     37,
+     13
+    ]
+   }
+  },
+  "au18k_emerald_oval_sp4_jewelry_pendant_lifted_bezel": {
+   "paper": {
+    "changed_px": 152,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     232,
+     120,
+     242,
+     150
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     31,
+     45,
+     36
+    ]
+   }
+  },
+  "au18k_emerald_oval_sp4_jewelry_pendant_missing_insert": {
+   "paper": {
+    "changed_px": 5960,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     110,
+     244,
+     188
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 381,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     27,
+     45,
+     47
+    ]
+   }
+  },
+  "au18k_emerald_oval_sp4_jewelry_pendant_rim_scrape": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     186,
+     162,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     46,
+     24,
+     50
+    ]
+   }
+  },
+  "au18k_emerald_oval_sp4_jewelry_pendant_bail_join": {
+   "paper": {
+    "changed_px": 72,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     186,
+     70,
+     198,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     17,
+     33,
+     20
+    ]
+   }
+  },
+  "au18k_pearl_baroque_sp4_jewelry_pendant_bail_gap": {
+   "paper": {
+    "changed_px": 76,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     202,
+     38,
+     212,
+     48
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     35,
+     9,
+     37,
+     13
+    ]
+   }
+  },
+  "au18k_pearl_baroque_sp4_jewelry_pendant_lifted_bezel": {
+   "paper": {
+    "changed_px": 172,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     232,
+     120,
+     244,
+     150
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     31,
+     45,
+     37
+    ]
+   }
+  },
+  "au18k_pearl_baroque_sp4_jewelry_pendant_missing_insert": {
+   "paper": {
+    "changed_px": 5800,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     150,
+     102,
+     232,
+     198
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 361,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     21,
+     26,
+     42,
+     49
+    ]
+   }
+  },
+  "au18k_pearl_baroque_sp4_jewelry_pendant_rim_scrape": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     186,
+     162,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     46,
+     24,
+     50
+    ]
+   }
+  },
+  "au18k_pearl_baroque_sp4_jewelry_pendant_bail_join": {
+   "paper": {
+    "changed_px": 72,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     186,
+     70,
+     198,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     17,
+     33,
+     20
+    ]
+   }
+  },
+  "ag925_diamond_round_sp4_jewelry_pendant_bail_gap": {
+   "paper": {
+    "changed_px": 76,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     202,
+     38,
+     212,
+     48
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     35,
+     9,
+     37,
+     13
+    ]
+   }
+  },
+  "ag925_diamond_round_sp4_jewelry_pendant_lifted_bezel": {
+   "paper": {
+    "changed_px": 172,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     232,
+     120,
+     244,
+     150
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 10,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     30,
+     45,
+     37
+    ]
+   }
+  },
+  "ag925_diamond_round_sp4_jewelry_pendant_missing_insert": {
+   "paper": {
+    "changed_px": 7988,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     96,
+     244,
+     200
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 511,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     24,
+     45,
+     50
+    ]
+   }
+  },
+  "ag925_diamond_round_sp4_jewelry_pendant_rim_scrape": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     186,
+     162,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     46,
+     24,
+     50
+    ]
+   }
+  },
+  "ag925_diamond_round_sp4_jewelry_pendant_bail_join": {
+   "paper": {
+    "changed_px": 72,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     186,
+     70,
+     198,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     17,
+     33,
+     20
+    ]
+   }
+  },
+  "ag925_ruby_oval_sp4_jewelry_pendant_bail_gap": {
+   "paper": {
+    "changed_px": 76,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     202,
+     38,
+     212,
+     48
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     35,
+     9,
+     37,
+     13
+    ]
+   }
+  },
+  "ag925_ruby_oval_sp4_jewelry_pendant_lifted_bezel": {
+   "paper": {
+    "changed_px": 152,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     232,
+     120,
+     242,
+     150
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     31,
+     45,
+     36
+    ]
+   }
+  },
+  "ag925_ruby_oval_sp4_jewelry_pendant_missing_insert": {
+   "paper": {
+    "changed_px": 5960,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     110,
+     244,
+     188
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 381,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     27,
+     45,
+     47
+    ]
+   }
+  },
+  "ag925_ruby_oval_sp4_jewelry_pendant_rim_scrape": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     186,
+     162,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     46,
+     24,
+     50
+    ]
+   }
+  },
+  "ag925_ruby_oval_sp4_jewelry_pendant_bail_join": {
+   "paper": {
+    "changed_px": 72,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     186,
+     70,
+     198,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     17,
+     33,
+     20
+    ]
+   }
+  },
+  "ag925_sapphire_pear_sp4_jewelry_pendant_bail_gap": {
+   "paper": {
+    "changed_px": 76,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     202,
+     38,
+     212,
+     48
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     35,
+     9,
+     37,
+     13
+    ]
+   }
+  },
+  "ag925_sapphire_pear_sp4_jewelry_pendant_lifted_bezel": {
+   "paper": {
+    "changed_px": 172,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     232,
+     120,
+     244,
+     150
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     31,
+     45,
+     37
+    ]
+   }
+  },
+  "ag925_sapphire_pear_sp4_jewelry_pendant_missing_insert": {
+   "paper": {
+    "changed_px": 4996,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     154,
+     94,
+     230,
+     198
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 332,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     22,
+     23,
+     42,
+     50
+    ]
+   }
+  },
+  "ag925_sapphire_pear_sp4_jewelry_pendant_rim_scrape": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     186,
+     162,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     46,
+     24,
+     50
+    ]
+   }
+  },
+  "ag925_sapphire_pear_sp4_jewelry_pendant_bail_join": {
+   "paper": {
+    "changed_px": 72,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     186,
+     70,
+     198,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     17,
+     33,
+     20
+    ]
+   }
+  },
+  "ag925_emerald_oval_sp4_jewelry_pendant_bail_gap": {
+   "paper": {
+    "changed_px": 76,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     202,
+     38,
+     212,
+     48
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     35,
+     9,
+     37,
+     13
+    ]
+   }
+  },
+  "ag925_emerald_oval_sp4_jewelry_pendant_lifted_bezel": {
+   "paper": {
+    "changed_px": 152,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     232,
+     120,
+     242,
+     150
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     31,
+     45,
+     36
+    ]
+   }
+  },
+  "ag925_emerald_oval_sp4_jewelry_pendant_missing_insert": {
+   "paper": {
+    "changed_px": 5960,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     110,
+     244,
+     188
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 381,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     27,
+     45,
+     47
+    ]
+   }
+  },
+  "ag925_emerald_oval_sp4_jewelry_pendant_rim_scrape": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     186,
+     162,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     46,
+     24,
+     50
+    ]
+   }
+  },
+  "ag925_emerald_oval_sp4_jewelry_pendant_bail_join": {
+   "paper": {
+    "changed_px": 72,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     186,
+     70,
+     198,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     17,
+     33,
+     20
+    ]
+   }
+  },
+  "ag925_pearl_baroque_sp4_jewelry_pendant_bail_gap": {
+   "paper": {
+    "changed_px": 76,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     202,
+     38,
+     212,
+     48
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     35,
+     9,
+     37,
+     13
+    ]
+   }
+  },
+  "ag925_pearl_baroque_sp4_jewelry_pendant_lifted_bezel": {
+   "paper": {
+    "changed_px": 172,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     232,
+     120,
+     244,
+     150
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     31,
+     45,
+     37
+    ]
+   }
+  },
+  "ag925_pearl_baroque_sp4_jewelry_pendant_missing_insert": {
+   "paper": {
+    "changed_px": 5800,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     150,
+     102,
+     232,
+     198
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 361,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     21,
+     26,
+     42,
+     49
+    ]
+   }
+  },
+  "ag925_pearl_baroque_sp4_jewelry_pendant_rim_scrape": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     186,
+     162,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     46,
+     24,
+     50
+    ]
+   }
+  },
+  "ag925_pearl_baroque_sp4_jewelry_pendant_bail_join": {
+   "paper": {
+    "changed_px": 72,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     186,
+     70,
+     198,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 6,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     17,
+     33,
+     20
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}
