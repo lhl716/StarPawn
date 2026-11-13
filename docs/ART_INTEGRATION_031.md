@@ -70,6 +70,8 @@ The [volume manifest and compatibility notes](HANDBOOK_VOLUMES_031.md) list ever
 | Short handbook navigation | Gold rings open directly from inspection in 3 pages. The metals index occupies 2 pages. All 5 gold-bracelet pages were exercised, including the final page. Legacy anthology ownership still grants access. |
 | Physical book purchase | Bought the gold-bar volume for 25 credits: cash 4376 -> 4351, assets 77 -> 78. The native magnifier opens its 4-page reader. |
 | Organizer | The existing organizer accepted the new volume through its storage controls: 2/8 -> 3/8. Reading it from the organizer opened the correct gold-bar volume, and the native container displayed all three real books. |
+| Final booklet reload | Restarted the game and loaded the named 4351-credit checkpoint. All three books remained inside the native organizer. The new gold-bar reader opened and reached page 4/4 with no Next control or decorative arrow. |
+| Jade volume routing | The saved yellow-skin rough item opens the sand/black-skin volume directly: 8 examples in 5 pages. Its fixed comparison page was checked after restart. |
 | Native inventory | Cards, tools, books, jewelry and jade rendered in the existing grid. No footprint migration was applied. |
 
 ![Opened jade and evidence retained after loading the save](report-assets/art031/jade-after-reload.jpg)
@@ -83,6 +85,10 @@ Three recorded observations correspond to two economic causes. Quotation evidenc
 ![New physical gold-bar booklet opened with the native magnifier](report-assets/art031/short-physical-gold-bar.jpg)
 
 ![New booklet stored alongside the legacy handbooks](report-assets/art031/short-organizer-stored.jpg)
+
+![Short jade handbook in the restarted game](report-assets/art031/short-jade-comparison-final.jpg)
+
+![Gold-bar handbook final page without an inactive arrow](report-assets/art031/short-gold-bar-last-final.jpg)
 
 ## Automated checks and limits
 
