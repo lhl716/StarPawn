@@ -108,7 +108,7 @@ internal static class AppraisalTests
             var s=State();var a=Asset(s,"sp3_gold_ring_0_p7");var e=Open(s,a);var t=Tool(s,"assay");Appraisal.Measure(s,e.EncounterId,t.AssetId);
             InspectionV2.Discover(s,e.EncounterId,"metal_split");Catalog.Repair(s,a.AssetId,"repair-1",1000);
             Check(Catalog.TextureFor(a).EndsWith("_p4"),"Repair erased material flaw");Check(a.Measurements.Contains("assay")&&a.DefinitionId.EndsWith("_p7"),"Repair changed identity");
-            Check(Catalog.ActiveHotspots(a).All(h=>h.TemplateId=="metal_plating"),"Resolved damage remains active");
+            Check(Catalog.ActiveHotspots(a).All(h=>h.CauseId=="metal_plating"),"Resolved damage remains active");
         });
         Test("all expanded metal profiles respect actual material recovery floor",()=>{
             foreach(var d in definitions.Where(d=>d.Id.StartsWith("sp3_gold")||d.Id.StartsWith("sp3_silver")))

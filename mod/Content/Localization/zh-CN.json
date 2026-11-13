@@ -6666,6 +6666,566 @@
       "Key": "ui03.c5f65c5a85452d79",
       "Source": "其他收藏",
       "Text": "其他收藏"
+    },
+    {
+      "Key": "template.sp4_gold_ring_outer_scrape.label",
+      "Source": "外圈划痕",
+      "Text": "外圈划痕"
+    },
+    {
+      "Key": "template.sp4_gold_ring_outer_scrape.guide",
+      "Source": "比较示例中的局部形状与反光。此处外圈划痕影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处外圈划痕影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_gold_ring_band_fissure.label",
+      "Source": "戒臂裂缝",
+      "Text": "戒臂裂缝"
+    },
+    {
+      "Key": "template.sp4_gold_ring_band_fissure.guide",
+      "Source": "比较示例中的局部形状与反光。此处戒臂裂缝影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处戒臂裂缝影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_gold_ring_exposed_core.label",
+      "Source": "戒面镀层露底",
+      "Text": "戒面镀层露底"
+    },
+    {
+      "Key": "template.sp4_gold_ring_exposed_core.guide",
+      "Source": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。",
+      "Text": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。"
+    },
+    {
+      "Key": "template.sp4_gold_bracelet_arc_gouge.label",
+      "Source": "弧面擦伤",
+      "Text": "弧面擦伤"
+    },
+    {
+      "Key": "template.sp4_gold_bracelet_arc_gouge.guide",
+      "Source": "比较示例中的局部形状与反光。此处弧面擦伤影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处弧面擦伤影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_gold_bracelet_rim_fissure.label",
+      "Source": "镯缘裂隙",
+      "Text": "镯缘裂隙"
+    },
+    {
+      "Key": "template.sp4_gold_bracelet_rim_fissure.guide",
+      "Source": "比较示例中的局部形状与反光。此处镯缘裂隙影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处镯缘裂隙影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_gold_bracelet_inner_plating.label",
+      "Source": "内弧镀层露底",
+      "Text": "内弧镀层露底"
+    },
+    {
+      "Key": "template.sp4_gold_bracelet_inner_plating.guide",
+      "Source": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。",
+      "Text": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。"
+    },
+    {
+      "Key": "template.sp4_gold_necklace_tangled_run.label",
+      "Source": "链条缠结",
+      "Text": "链条缠结"
+    },
+    {
+      "Key": "template.sp4_gold_necklace_tangled_run.guide",
+      "Source": "比较示例中的局部形状与反光。此处链条缠结影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处链条缠结影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_gold_necklace_open_link.label",
+      "Source": "链环开口",
+      "Text": "链环开口"
+    },
+    {
+      "Key": "template.sp4_gold_necklace_open_link.guide",
+      "Source": "比较示例中的局部形状与反光。此处链环开口影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处链环开口影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_gold_necklace_link_plating.label",
+      "Source": "链环镀层露底",
+      "Text": "链环镀层露底"
+    },
+    {
+      "Key": "template.sp4_gold_necklace_link_plating.guide",
+      "Source": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。",
+      "Text": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。"
+    },
+    {
+      "Key": "template.sp4_gold_earrings_bent_post.label",
+      "Source": "耳针弯折",
+      "Text": "耳针弯折"
+    },
+    {
+      "Key": "template.sp4_gold_earrings_bent_post.guide",
+      "Source": "比较示例中的局部形状与反光。此处耳针弯折影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处耳针弯折影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_gold_earrings_split_loop.label",
+      "Source": "吊环断裂",
+      "Text": "吊环断裂"
+    },
+    {
+      "Key": "template.sp4_gold_earrings_split_loop.guide",
+      "Source": "比较示例中的局部形状与反光。此处吊环断裂影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处吊环断裂影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_gold_earrings_post_plating.label",
+      "Source": "耳饰镀层露底",
+      "Text": "耳饰镀层露底"
+    },
+    {
+      "Key": "template.sp4_gold_earrings_post_plating.guide",
+      "Source": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。",
+      "Text": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。"
+    },
+    {
+      "Key": "template.sp4_gold_bar_face_score.label",
+      "Source": "金条划伤",
+      "Text": "金条划伤"
+    },
+    {
+      "Key": "template.sp4_gold_bar_face_score.guide",
+      "Source": "比较示例中的局部形状与反光。此处金条划伤影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处金条划伤影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_gold_bar_corner_impact.label",
+      "Source": "金条边角撞伤",
+      "Text": "金条边角撞伤"
+    },
+    {
+      "Key": "template.sp4_gold_bar_corner_impact.guide",
+      "Source": "比较示例中的局部形状与反光。此处金条边角撞伤影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处金条边角撞伤影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_gold_bar_seam_core.label",
+      "Source": "金条夹芯露缝",
+      "Text": "金条夹芯露缝"
+    },
+    {
+      "Key": "template.sp4_gold_bar_seam_core.guide",
+      "Source": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。",
+      "Text": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。"
+    },
+    {
+      "Key": "template.sp4_silver_ring_groove_abrasion.label",
+      "Source": "刻槽磨损",
+      "Text": "刻槽磨损"
+    },
+    {
+      "Key": "template.sp4_silver_ring_groove_abrasion.guide",
+      "Source": "比较示例中的局部形状与反光。此处刻槽磨损影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处刻槽磨损影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_silver_ring_shank_split.label",
+      "Source": "银戒裂缝",
+      "Text": "银戒裂缝"
+    },
+    {
+      "Key": "template.sp4_silver_ring_shank_split.guide",
+      "Source": "比较示例中的局部形状与反光。此处银戒裂缝影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处银戒裂缝影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_silver_ring_copper_breakthrough.label",
+      "Source": "银戒镀层露底",
+      "Text": "银戒镀层露底"
+    },
+    {
+      "Key": "template.sp4_silver_ring_copper_breakthrough.guide",
+      "Source": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。",
+      "Text": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。"
+    },
+    {
+      "Key": "template.sp4_silver_bracelet_engraving_loss.label",
+      "Source": "银镯刻纹磨损",
+      "Text": "银镯刻纹磨损"
+    },
+    {
+      "Key": "template.sp4_silver_bracelet_engraving_loss.guide",
+      "Source": "比较示例中的局部形状与反光。此处银镯刻纹磨损影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处银镯刻纹磨损影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_silver_bracelet_arc_split.label",
+      "Source": "银镯裂缝",
+      "Text": "银镯裂缝"
+    },
+    {
+      "Key": "template.sp4_silver_bracelet_arc_split.guide",
+      "Source": "比较示例中的局部形状与反光。此处银镯裂缝影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处银镯裂缝影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_silver_bracelet_seam_breakthrough.label",
+      "Source": "银镯镀层露底",
+      "Text": "银镯镀层露底"
+    },
+    {
+      "Key": "template.sp4_silver_bracelet_seam_breakthrough.guide",
+      "Source": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。",
+      "Text": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。"
+    },
+    {
+      "Key": "template.sp4_silver_necklace_flattened_links.label",
+      "Source": "银链压扁",
+      "Text": "银链压扁"
+    },
+    {
+      "Key": "template.sp4_silver_necklace_flattened_links.guide",
+      "Source": "比较示例中的局部形状与反光。此处银链压扁影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处银链压扁影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_silver_necklace_jump_ring_gap.label",
+      "Source": "银链开环",
+      "Text": "银链开环"
+    },
+    {
+      "Key": "template.sp4_silver_necklace_jump_ring_gap.guide",
+      "Source": "比较示例中的局部形状与反光。此处银链开环影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处银链开环影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_silver_necklace_link_core.label",
+      "Source": "银链镀层露底",
+      "Text": "银链镀层露底"
+    },
+    {
+      "Key": "template.sp4_silver_necklace_link_core.guide",
+      "Source": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。",
+      "Text": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。"
+    },
+    {
+      "Key": "template.sp4_silver_earrings_twisted_hook.label",
+      "Source": "银耳钩扭曲",
+      "Text": "银耳钩扭曲"
+    },
+    {
+      "Key": "template.sp4_silver_earrings_twisted_hook.guide",
+      "Source": "比较示例中的局部形状与反光。此处银耳钩扭曲影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处银耳钩扭曲影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_silver_earrings_pendant_loop_split.label",
+      "Source": "银耳环断裂",
+      "Text": "银耳环断裂"
+    },
+    {
+      "Key": "template.sp4_silver_earrings_pendant_loop_split.guide",
+      "Source": "比较示例中的局部形状与反光。此处银耳环断裂影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处银耳环断裂影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_silver_earrings_body_core.label",
+      "Source": "银耳饰镀层露底",
+      "Text": "银耳饰镀层露底"
+    },
+    {
+      "Key": "template.sp4_silver_earrings_body_core.guide",
+      "Source": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。",
+      "Text": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。"
+    },
+    {
+      "Key": "template.sp4_silver_bar_face_abrasion.label",
+      "Source": "银条划伤",
+      "Text": "银条划伤"
+    },
+    {
+      "Key": "template.sp4_silver_bar_face_abrasion.guide",
+      "Source": "比较示例中的局部形状与反光。此处银条划伤影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处银条划伤影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_silver_bar_edge_roll.label",
+      "Source": "银条卷边",
+      "Text": "银条卷边"
+    },
+    {
+      "Key": "template.sp4_silver_bar_edge_roll.guide",
+      "Source": "比较示例中的局部形状与反光。此处银条卷边影响品相与工艺价；可送工坊修复。",
+      "Text": "比较示例中的局部形状与反光。此处银条卷边影响品相与工艺价；可送工坊修复。"
+    },
+    {
+      "Key": "template.sp4_silver_bar_copper_seam.label",
+      "Source": "银条夹芯露缝",
+      "Text": "银条夹芯露缝"
+    },
+    {
+      "Key": "template.sp4_silver_bar_copper_seam.guide",
+      "Source": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。",
+      "Text": "局部底材与表层的颜色不同。外表不能代表整体含量；用成色分析仪核实，再按实测含量估价。"
+    },
+    {
+      "Key": "template.sp4_jade_pendant_dyed_groove.label",
+      "Source": "颜色聚集异常",
+      "Text": "颜色聚集异常"
+    },
+    {
+      "Key": "template.sp4_jade_pendant_dyed_groove.guide",
+      "Source": "比较沟槽或孔口的颜色聚集。使用紫外灯辅助检查；这一线索不能单独证明天然或处理结论。",
+      "Text": "比较沟槽或孔口的颜色聚集。使用紫外灯辅助检查；这一线索不能单独证明天然或处理结论。"
+    },
+    {
+      "Key": "template.sp4_jade_pendant_drilled_eye_crack.label",
+      "Source": "局部裂隙",
+      "Text": "局部裂隙"
+    },
+    {
+      "Key": "template.sp4_jade_pendant_drilled_eye_crack.guide",
+      "Source": "比较局部的分叉深线和错位亮边。裂隙影响结构及品相，不能靠抛光消除。",
+      "Text": "比较局部的分叉深线和错位亮边。裂隙影响结构及品相，不能靠抛光消除。"
+    },
+    {
+      "Key": "template.sp4_jade_cabochon_dyed_grain_web.label",
+      "Source": "颜色聚集异常",
+      "Text": "颜色聚集异常"
+    },
+    {
+      "Key": "template.sp4_jade_cabochon_dyed_grain_web.guide",
+      "Source": "比较沟槽或孔口的颜色聚集。使用紫外灯辅助检查；这一线索不能单独证明天然或处理结论。",
+      "Text": "比较沟槽或孔口的颜色聚集。使用紫外灯辅助检查；这一线索不能单独证明天然或处理结论。"
+    },
+    {
+      "Key": "template.sp4_jade_cabochon_dome_fissure.label",
+      "Source": "局部裂隙",
+      "Text": "局部裂隙"
+    },
+    {
+      "Key": "template.sp4_jade_cabochon_dome_fissure.guide",
+      "Source": "比较局部的分叉深线和错位亮边。裂隙影响结构及品相，不能靠抛光消除。",
+      "Text": "比较局部的分叉深线和错位亮边。裂隙影响结构及品相，不能靠抛光消除。"
+    },
+    {
+      "Key": "template.sp4_jade_bangle_dyed_band.label",
+      "Source": "颜色聚集异常",
+      "Text": "颜色聚集异常"
+    },
+    {
+      "Key": "template.sp4_jade_bangle_dyed_band.guide",
+      "Source": "比较沟槽或孔口的颜色聚集。使用紫外灯辅助检查；这一线索不能单独证明天然或处理结论。",
+      "Text": "比较沟槽或孔口的颜色聚集。使用紫外灯辅助检查；这一线索不能单独证明天然或处理结论。"
+    },
+    {
+      "Key": "template.sp4_jade_bangle_radial_bangle_crack.label",
+      "Source": "局部裂隙",
+      "Text": "局部裂隙"
+    },
+    {
+      "Key": "template.sp4_jade_bangle_radial_bangle_crack.guide",
+      "Source": "比较局部的分叉深线和错位亮边。裂隙影响结构及品相，不能靠抛光消除。",
+      "Text": "比较局部的分叉深线和错位亮边。裂隙影响结构及品相，不能靠抛光消除。"
+    },
+    {
+      "Key": "template.sp4_jade_beads_dyed_drill_pool.label",
+      "Source": "颜色聚集异常",
+      "Text": "颜色聚集异常"
+    },
+    {
+      "Key": "template.sp4_jade_beads_dyed_drill_pool.guide",
+      "Source": "比较沟槽或孔口的颜色聚集。使用紫外灯辅助检查；这一线索不能单独证明天然或处理结论。",
+      "Text": "比较沟槽或孔口的颜色聚集。使用紫外灯辅助检查；这一线索不能单独证明天然或处理结论。"
+    },
+    {
+      "Key": "template.sp4_jade_beads_drill_exit_crack.label",
+      "Source": "局部裂隙",
+      "Text": "局部裂隙"
+    },
+    {
+      "Key": "template.sp4_jade_beads_drill_exit_crack.guide",
+      "Source": "比较局部的分叉深线和错位亮边。裂隙影响结构及品相，不能靠抛光消除。",
+      "Text": "比较局部的分叉深线和错位亮边。裂隙影响结构及品相，不能靠抛光消除。"
+    },
+    {
+      "Key": "template.compat04_yellow_shell_crack.label",
+      "Source": "皮壳裂隙",
+      "Text": "皮壳裂隙"
+    },
+    {
+      "Key": "template.compat04_yellow_shell_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_yellow_window_crack.label",
+      "Source": "开窗延伸裂隙",
+      "Text": "开窗延伸裂隙"
+    },
+    {
+      "Key": "template.compat04_yellow_window_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_yellow_inclusion.label",
+      "Source": "开窗棉絮",
+      "Text": "开窗棉絮"
+    },
+    {
+      "Key": "template.compat04_yellow_inclusion.guide",
+      "Source": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。",
+      "Text": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。"
+    },
+    {
+      "Key": "template.compat04_black_shell_crack.label",
+      "Source": "皮壳裂隙",
+      "Text": "皮壳裂隙"
+    },
+    {
+      "Key": "template.compat04_black_shell_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_black_window_crack.label",
+      "Source": "开窗延伸裂隙",
+      "Text": "开窗延伸裂隙"
+    },
+    {
+      "Key": "template.compat04_black_window_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_black_inclusion.label",
+      "Source": "开窗暗色内含物",
+      "Text": "开窗暗色内含物"
+    },
+    {
+      "Key": "template.compat04_black_inclusion.guide",
+      "Source": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。",
+      "Text": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。"
+    },
+    {
+      "Key": "template.compat04_water_shell_crack.label",
+      "Source": "皮壳裂隙",
+      "Text": "皮壳裂隙"
+    },
+    {
+      "Key": "template.compat04_water_shell_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_water_window_crack.label",
+      "Source": "开窗延伸裂隙",
+      "Text": "开窗延伸裂隙"
+    },
+    {
+      "Key": "template.compat04_water_window_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_water_inclusion.label",
+      "Source": "开窗纤维状棉絮",
+      "Text": "开窗纤维状棉絮"
+    },
+    {
+      "Key": "template.compat04_water_inclusion.guide",
+      "Source": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。",
+      "Text": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。"
+    },
+    {
+      "Key": "template.compat04_white_shell_crack.label",
+      "Source": "皮壳裂隙",
+      "Text": "皮壳裂隙"
+    },
+    {
+      "Key": "template.compat04_white_shell_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_white_window_crack.label",
+      "Source": "开窗延伸裂隙",
+      "Text": "开窗延伸裂隙"
+    },
+    {
+      "Key": "template.compat04_white_window_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_white_inclusion.label",
+      "Source": "开窗碳色团块",
+      "Text": "开窗碳色团块"
+    },
+    {
+      "Key": "template.compat04_white_inclusion.guide",
+      "Source": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。",
+      "Text": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。"
+    },
+    {
+      "Key": "template.compat04_rust_shell_crack.label",
+      "Source": "皮壳裂隙",
+      "Text": "皮壳裂隙"
+    },
+    {
+      "Key": "template.compat04_rust_shell_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_rust_window_crack.label",
+      "Source": "开窗延伸裂隙",
+      "Text": "开窗延伸裂隙"
+    },
+    {
+      "Key": "template.compat04_rust_window_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_rust_inclusion.label",
+      "Source": "开窗片状棉絮",
+      "Text": "开窗片状棉絮"
+    },
+    {
+      "Key": "template.compat04_rust_inclusion.guide",
+      "Source": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。",
+      "Text": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。"
+    },
+    {
+      "Key": "template.compat04_mountain_shell_crack.label",
+      "Source": "皮壳裂隙",
+      "Text": "皮壳裂隙"
+    },
+    {
+      "Key": "template.compat04_mountain_shell_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_mountain_window_crack.label",
+      "Source": "开窗延伸裂隙",
+      "Text": "开窗延伸裂隙"
+    },
+    {
+      "Key": "template.compat04_mountain_window_crack.guide",
+      "Source": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。",
+      "Text": "比较圈定部位的分叉深线与亮边。皮壳和开窗中的裂隙可能属于同一损伤原因，只计价一次；裂隙不能抛光消除。"
+    },
+    {
+      "Key": "template.compat04_mountain_inclusion.label",
+      "Source": "开窗黑色带",
+      "Text": "开窗黑色带"
+    },
+    {
+      "Key": "template.compat04_mountain_inclusion.guide",
+      "Source": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。",
+      "Text": "比较开窗内局部与周围的透明度和颜色。该处内含物影响可用料；透玉灯可辅助观察，切割前仍不能确认产量。"
     }
   ]
 }

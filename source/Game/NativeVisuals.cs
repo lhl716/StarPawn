@@ -8,6 +8,23 @@ namespace StarPawn.Game
     // This changes UI layout, never the asset texture, hitbox, ownership, or cash.
     internal static class NativeVisuals
     {
+        internal static void ConfigureTextures()
+        {
+            var mod=ModLoader.Mods.Find(m=>m.Manifest.ID=="starpawn");
+            if(mod==null)return;
+            foreach(var texture in mod.Textures.Values)
+            {
+                texture.filterMode=FilterMode.Point;
+                texture.wrapMode=TextureWrapMode.Clamp;
+            }
+            foreach(var sprite in mod.PaperSprites.Values)
+                if(sprite!=null && sprite.texture!=null)
+                {
+                    sprite.texture.filterMode=FilterMode.Point;
+                    sprite.texture.wrapMode=TextureWrapMode.Clamp;
+                }
+        }
+
         internal static void Fit(GameItemElement item)
         {
             if (item == null || !item.useSpriteFromMod || item.spriteAtlasPath != "starpawn" || UISettings.current == null) return;

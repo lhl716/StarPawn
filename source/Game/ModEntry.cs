@@ -67,6 +67,7 @@ namespace StarPawn.Game
         private void ConfigureNativeItems(ModItemDirectory directory)
         {
             if (!ContentReady) InitializeContent(startupManifest ?? throw new InvalidOperationException("Missing startup manifest."));
+            NativeVisuals.ConfigureTextures();
             NativeBridge.RegisterDefinitions(Catalog.Definitions.Select(d => new NativeItemDefinition {
                 DefinitionId = "starpawn." + d.Id, DisplayName = d.Name, VariantId = d.Id,
                 SpriteKey = d.TextureKey.Substring(d.TextureKey.IndexOf(':') + 1),
@@ -220,7 +221,7 @@ namespace StarPawn.Game
             var token=generation; id=id ?? "button-"+x+"-"+y;
             ui.AddButton(x,y,w,h,"",()=>RunAction(token,action),id);
             ui.Last.sprite="starpawn:button"; ui.Last.hoverSprite="starpawn:button_hover"; ui.Last.raycast=true;
-            ui.AddText(x,y,w,h,TextResolver.LocalizeInline(label),"button",id+"-label","center",10); ui.Last.valign="middle"; ui.Last.color="#ffffff"; ui.Last.raycast=false;
+            ui.AddText(x,y,w,h,TextResolver.LocalizeInline(label),"button",id+"-label","center",10); ui.Last.valign="middle"; ui.Last.color="#25222b"; ui.Last.raycast=false;
         }
         private void ClearButton(PaperUI ui,float x,float y,float w,float h,Action action,string id)
         {

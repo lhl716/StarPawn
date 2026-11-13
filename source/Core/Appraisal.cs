@@ -95,7 +95,8 @@ namespace StarPawn.Core
                 var signal = (unchecked((uint)asset.JadeSeed) % 3 + (uint)asset.JadeGrade) % 3;
                 return new[] { "局部透光弱，皮壳厚度也可能遮挡内部。", "边缘有青色光晕，内部连续性仍不确定。", "细窄色带透光，需开窗进一步观察。" }[signal] + "产量须切割后确认。";
             }
-            var evidence = d.Hotspots.Where(h => h.InstrumentKind == kind && asset.DiscoveredEvidenceIds.Contains(h.Id) && !asset.ResolvedCauseIds.Contains(h.CauseId)).Select(h => h.Label).Distinct().ToList();
+            var evidence = d.Hotspots.Where(h => h.InstrumentKind == kind && asset.DiscoveredEvidenceIds.Contains(h.Id) && !asset.ResolvedCauseIds.Contains(h.CauseId))
+                .GroupBy(h => h.CauseId, StringComparer.Ordinal).Select(g => g.First().Label).Distinct().ToList();
             return evidence.Count == 0 ? (kind == "uv" ? "未见本手册列出的异常荧光；不能据此证明真品。" : "镜下未见本手册列出的细部异常；仍可检查其他部位。") : "记录：" + string.Join("、", evidence) + "。请结合手册和其他证据判断。";
         }
 

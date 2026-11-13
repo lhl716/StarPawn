@@ -104,22 +104,26 @@ namespace StarPawn.Game
             RequireNativeOwned(manual);
             var d=Catalog.GetDefinition(manual.DefinitionId);
             var entries=Appraisal.Handbook(category);
-            page=Math.Max(0,Math.Min(page,entries.Count));
-            var book=BeginPage(d.Name,"图鉴第 "+(page+1)+" / "+(entries.Count+1)+" 页 · 圈线标示观察重点");
-            if(page==0) Text(book,30,86,530,192,d.ReadingText,15);
-            else
+            var lastPage=(entries.Count+1)/2;
+            page=Math.Max(0,Math.Min(page,lastPage));
+            var book=BeginHandbook(d.Name);
+            if(page==0)
             {
-                var entry=entries[page-1];var h=entry.Evidence;var sample=entry.Example;
-                var texture=h.ViewId=="window"?sample.WindowTextureKey:sample.TextureKey;
-                book.AddImage(24,93,288,192,texture,"stretch","manual-example");book.Last.raycast=false;
-                book.AddImage(24+h.U*288-h.Width*144-3,93+h.V*192-h.Height*96-3,h.Width*288+6,h.Height*192+6,"starpawn:marker","stretch","manual-focus");book.Last.raycast=false;
-                Text(book,330,80,244,32,h.Label,16);
-                Text(book,330,121,244,156,(string.IsNullOrEmpty(h.Guidance)?"对照圈出的固定细节观察；同一原因的不同线索只计价一次。":h.Guidance)+"\n\n"+(h.Repairable?"工坊可修复此类损伤。":"属于材质、真伪或永久品相问题。")+(string.IsNullOrEmpty(h.InstrumentKind)?"":"\n辅助工具："+Appraisal.InstrumentName(h.InstrumentKind)),11);
+                Text(book,28,88,384,152,d.ReadingText,13);
+                Text(book,28,256,384,28,"查验图例",15);book.Last.color="#486071";
+                Text(book,28,295,384,124,"左栏为参考外观，右栏为同一部位的异常实例。\n\n先比较结构与表面，再使用合适的仪器。示例只说明一种特征，不代表正在交易的实物已经完成鉴定。",13);
+                Text(book,28,446,384,76,"图鉴收录 "+entries.Count+" 项固定特征。\n每页最多两项，翻页查看对照。",13);
             }
-            if(page>0)Button(book,24,306,110,24,"上一页",()=>OpenHandbook(category,page-1));
-            if(page<entries.Count)Button(book,146,306,110,24,"下一页",()=>OpenHandbook(category,page+1));
-            if(!string.IsNullOrEmpty(selectedEncounter)&&state.Catalog.Encounters.Any(e=>e.EncounterId==selectedEncounter&&!e.Completed))Button(book,386,306,188,24,"回到当前验货台",DrawInspection);
-            Footer(book);Show(book);
+            else
+                foreach(var pair in entries.Skip((page-1)*2).Take(2).Select((entry,index)=>new {entry,index}))
+                    HandbookSection(book,pair.entry,140+pair.index*220);
+            if(page>0)HandbookLink(book,28,580,80,20,"上一页",()=>OpenHandbook(category,page-1));
+            if(page<lastPage)HandbookLink(book,332,580,80,20,"下一页",()=>OpenHandbook(category,page+1));
+            Text(book,156,580,128,20,(page+1)+" / "+(lastPage+1),11);book.Last.align="center";
+            ClearButton(book,410,8,20,20,CloseWindow,"handbook-close");
+            if(!string.IsNullOrEmpty(selectedEncounter)&&state.Catalog.Encounters.Any(e=>e.EncounterId==selectedEncounter&&!e.Completed))
+                HandbookLink(book,276,page==0?548:108,136,20,"返回当前验货",DrawInspection);
+            Show(book);
         }
 
         private void OpenOrganizer(string assetId,int page)
