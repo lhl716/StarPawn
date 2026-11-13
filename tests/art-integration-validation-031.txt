@@ -1,0 +1,6 @@
+PASS: 239 pre-art definitions retain facts, price inputs, occupied cells and saved item/evidence/cause IDs.
+PASS: 15 additive one-cell handbook volumes have at most 5 pages including the introduction.
+PASS: 267 runtime item texture keys, 78 paired handbook examples, cards and UI skins resolve with binary alpha.
+PASS: 307 stored centre-based hotspots match effective composite clue bounds.
+PASS: staged authored textures exactly match the runtime delivery.
+NOT PROVEN: every clue is intuitively readable at the final game scale; inspect in-game and report misses.

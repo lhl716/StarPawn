@@ -24,7 +24,7 @@ PASS inspection_frame leaves the 298x199 image rectangle transparent (interior)
 PASS handbook: 250 templates each have one traceable example from real item layers; 2/2/1 pagination; 440x616 pages (160 checked)
 PASS native handbook comparison exists at 2560x1440
 PASS excluded scope: no alchemy / transmutation assets
-PASS branch changes only art/proposals (no mod/, source/, runtime or contract files)
+SKIP art-only branch scope: --integration was explicitly selected; all asset checks remain active.
 
 NOT VERIFIED HERE (needs the game): in-game filtering at the 298x199 frame, font rendering, hotspot hit-testing, new observation views, native container grids, save migration.
 NOT AUTOMATED: absence of baked dynamic text is by construction (item art and skins draw no glyphs; text exists only in mockup_*, pages/ and comparison sheets).

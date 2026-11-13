@@ -9,7 +9,9 @@ import m_metal, m_jade, m_goods
 def leg_bracelet(c, v):
     mat = v["mat"]
     c.arc(0, 0.1, 0.82, 0.62, -60, 240, 0.2, mat, part="arc", minpx=4)
-    c.box(-0.2, -0.62, 0.2, -0.38, mat, 4, "clasp")
+    # The clasp must bridge the two arc ends at x=+/-0.41; the old narrow
+    # rectangle floated in the open gap, even in intact and repaired states.
+    c.box(-0.46, -0.62, 0.46, -0.38, mat, 4, "clasp")
     c.box(-0.06, -0.56, 0.06, -0.44, mat, 2, "clasp", bevel=False)
     c.anchor("wear", -0.62, -0.28, "arc")
     c.anchor("seam", 0.66, -0.26, "arc")

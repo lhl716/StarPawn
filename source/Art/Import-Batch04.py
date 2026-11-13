@@ -14,7 +14,7 @@ from pathlib import Path
 import shutil
 import sys
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[2]
 parser = argparse.ArgumentParser(description=__doc__)
@@ -25,11 +25,16 @@ os.environ['STARPAWN_SOURCE_ROOT'] = str(ROOT)
 sys.path.insert(0, str(args.art_source.resolve()))
 import core
 import m_all  # registers the reviewed, deterministic model and template renderers
+import uikit
+import sheets
+import build_ui
+from handbook_volumes import PREFIX as VOLUME_PREFIX, append_volumes
 
 STAGE = ROOT/'work/art04-stage'
 for folder in ('Textures/Paper', 'Textures/Items', 'Content/Localization'):
     (STAGE/folder).mkdir(parents=True, exist_ok=True)
 pack = json.loads((ROOT/'mod/Content/items.json').read_text(encoding='utf-8-sig'))
+pack['Items'] = [d for d in pack['Items'] if not d['Id'].startswith(VOLUME_PREFIX)]
 before = copy.deepcopy(pack)
 loc = json.loads((ROOT/'mod/Content/Localization/zh-CN.json').read_text(encoding='utf-8-sig'))
 texts = {e['Key']: e for e in loc['Entries']}
@@ -193,6 +198,33 @@ for d,h in representatives.values():
     for suffix,im in (('reference',clean),('problem',damaged)):
         output('manual_'+d['Id']+'_'+h['Id']+'_'+suffix,'Paper',im.crop(rect).resize((160,104),Image.Resampling.NEAREST))
 
+# Rebuild the compatible UI skins from the reviewed drawing code, keeping text
+# in the game's own renderer. The introductory page has no illustration slots.
+panel = uikit.plate(600,400)
+draw = ImageDraw.Draw(panel)
+draw.line((22,40,578,40),fill=uikit.PAPER_SH)
+draw.line((22,365,578,365),fill=uikit.PAPER_SH)
+output('panel','Paper',panel)
+for key,source,state in (('button','button_primary','default'),
+                         ('button_hover','button_primary','hover'),
+                         ('marker','evidence_marker','discovered')):
+    output(key,'Paper',build_ui.component(source,state))
+for intro in (False,True):
+    if intro:
+        im,draw=sheets.base(stamp=False)
+        draw.line((28,576,411,576),fill=sheets.SHEET_SH)
+    else:
+        im=sheets.handbook('defect_example')
+    # Only the close control is exposed. The proposed duplicate-page glyph has
+    # no runtime action, so omit that misleading decoration from both skins.
+    draw=ImageDraw.Draw(im)
+    draw.rectangle((390,8,407,25),fill=sheets.SHEET)
+    # Page availability is dynamic. Do not leave an apparently clickable arrow
+    # baked into the last page after its Next control has disappeared.
+    draw.rectangle((34,584,42,596),fill=sheets.SHEET)
+    draw.rectangle((398,584,406,596),fill=sheets.SHEET)
+    output('handbook_intro' if intro else 'handbook_page','Paper',im)
+
 # Static game facts and saved identifiers must be bit-for-bit stable.
 allowed={'U','V','Width','Height','TemplateId','Label','LabelKey','Guidance','GuidanceKey'}
 for old,new in zip(before['Items'],pack['Items']):
@@ -200,9 +232,10 @@ for old,new in zip(before['Items'],pack['Items']):
     for a,b in zip(old['Hotspots'],new['Hotspots']):
         assert {k:v for k,v in a.items() if k not in allowed} == {k:v for k,v in b.items() if k not in allowed},new['Id']
 
-report=dict(source_commit='05c585d7cfc81749f547768f5684a00129e864b4',definitions=len(pack['Items']),
+volumes = append_volumes(pack, texts)
+report=dict(source_commit='05c585d7cfc81749f547768f5684a00129e864b4',definitions=len(pack['Items']),handbook_volumes=volumes,
             textures=len(images),manual_examples=len(representatives),hotspots=facts,problems=problems,
-            migration='Presentation only. Existing occupied cells and saved item/evidence/cause IDs are preserved.',
+            migration='Existing facts, occupied cells and saved IDs are preserved. Fifteen short physical handbooks are additive; old books retain access.',
             scope='The 0.4 jewelry/recovery machines are art proposals, not newly enabled gameplay.')
 (STAGE/'report.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
 for path,im in images.items():

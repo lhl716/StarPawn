@@ -163,7 +163,7 @@
   },
   "sp4_gem_emerald_face_window": {
    "paper": {
-    "changed_px": 1616,
+    "changed_px": 1612,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
@@ -175,7 +175,7 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 81,
+    "changed_px": 80,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [

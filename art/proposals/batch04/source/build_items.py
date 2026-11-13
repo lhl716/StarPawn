@@ -24,7 +24,8 @@ OBS = {"uv": "uv", "jade_light": "light"}
 SEM_BAD = [("missing_center", "loose_prong"), ("missing_insert", "lifted_bezel"), ("missing_drop", "drop_retainer"),
            ("missing_left", "flat_link")]
 PAPER_BG, DESK, SLOT = (222, 207, 176, 255), (38, 48, 58, 255), (52, 66, 72, 255)
-FONT = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 10)
+from fonts import review_font
+FONT = review_font(10)
 INHERIT = {"diamond": ("sp4_gem_diamond_table_abrasion", "scratch", dict(n=2, L=0.5, ang=35, gap=2, lip=False)),
            "ruby": ("sp4_gem_ruby_dark_inclusion", "specks", dict(n=5, sc=1, tone=1)),
            "sapphire": ("sp4_gem_sapphire_uneven_zone", "stripe", dict(L=0.9, ang=70, wid=0.3, dt=2)),

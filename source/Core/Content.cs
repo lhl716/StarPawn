@@ -103,6 +103,8 @@ namespace StarPawn.Core
         public string Form = "";
         public string ManualCategory = "";
         public string ManualFor = "";
+        public List<string> HandbookTemplates = new List<string>();
+        public List<string> HandbookFamilies = new List<string>();
         public string InstrumentKind = "";
         public bool ShopOnly;
         public bool IsOrganizer;

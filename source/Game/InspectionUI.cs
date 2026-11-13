@@ -83,7 +83,7 @@ namespace StarPawn.Game
                 }
             }
             Button(ui,22,74,174,22,"检测仪器",OpenInstruments);
-            Button(ui,206,74,168,22,"查阅分类手册",()=>OpenHandbook(Appraisal.Category(d),0));
+            Button(ui,206,74,168,22,"查阅分类手册",()=>OpenHandbookForItem(d));
             var s=new StringBuilder();
             s.AppendLine(q.MaterialDescription);
             if(d.Material=="gold"||d.Material=="silver")

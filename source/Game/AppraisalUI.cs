@@ -23,10 +23,11 @@ namespace StarPawn.Game
             }
         }
 
-        private void OpenEquipmentShop(int page)
+        private void OpenEquipmentShop(int page,string focusDefinition="")
         {
             if (!EnsureRun() || state == null) return;
-            var goods = Catalog.Definitions.Where(d => d.ShopOnly).OrderBy(d => d.Id).ToList();
+            var goods = Catalog.Definitions.Where(d => d.ShopOnly && !Appraisal.IsHandbookCollection(d)).OrderBy(d => d.Id).ToList();
+            if(!string.IsNullOrEmpty(focusDefinition))page=Math.Max(0,goods.FindIndex(d=>d.Id==focusDefinition))/5;
             page = Math.Max(0, Math.Min(page, Math.Max(0, (goods.Count - 1) / 5)));
             var ui = BeginPage("星港鉴定用品", "仪器、分类图鉴与八格手册收纳；购买后交付到店。");
             var row = 0;
@@ -57,7 +58,7 @@ namespace StarPawn.Game
         {
             var asset = Catalog.GetAsset(state!.Catalog,assetId); var d = Catalog.GetDefinition(asset.DefinitionId);
             if (d.IsOrganizer) { OpenOrganizer(assetId,0); return; }
-            if (!string.IsNullOrEmpty(d.ManualFor)) { OpenHandbook(d.ManualFor,0); return; }
+            if (!string.IsNullOrEmpty(d.ManualFor)) { OpenHandbook(d.ManualFor,0,d.Id); return; }
             var ui=BeginPage(d.Name,"检测仪器 · 右键实物选择“使用”，再点击待检物品。");
             ui.AddImage(24,80,245,163,d.TextureKey,"stretch","equipment"); ui.Last.raycast=false;
             Text(ui,290,88,275,125,d.Description+"\n\n进入待检物品的验货台，选择“检测仪器”。重复测量不重复获得经验，也不刷新顾客耐心。",13);
@@ -69,6 +70,12 @@ namespace StarPawn.Game
         private void OpenInstruments()
         {
             var asset=Catalog.GetAsset(state!.Catalog,selectedAsset);var d=Catalog.GetDefinition(asset.DefinitionId);
+            var encounter=InspectionV2.GetEncounter(state.Catalog,selectedEncounter);
+            if(encounter.Locked||encounter.Completed)
+            {
+                notice=asset.OwnerId=="player"?"这次检查已经结束，先让眼睛休息一下。":"顾客把物品收回身边，摇了摇头。";
+                DrawInspection();return;
+            }
             var ui=BeginPage("检测台 · "+d.Name,"读数保留在实物档案；仪器不能恢复已耗尽的顾客耐心。");
             var tools=state.Catalog.Assets.Where(a=>a.OwnerId=="player"&&a.Status=="active"&&!string.IsNullOrEmpty(Catalog.GetDefinition(a.DefinitionId).InstrumentKind)).GroupBy(a=>Catalog.GetDefinition(a.DefinitionId).InstrumentKind).Select(g=>g.First()).ToList();
             var row=0;
@@ -92,36 +99,74 @@ namespace StarPawn.Game
             notice=result.Message;OpenInstruments();
         }
 
-        private void OpenHandbook(string category,int page)
+        private AssetRecord? OwnedHandbook(ItemDefinition requested) => state!.Catalog.Assets.FirstOrDefault(a=>
+            a.OwnerId=="player"&&a.Status=="active"&&Appraisal.CanReadHandbook(Catalog.GetDefinition(a.DefinitionId),requested));
+
+        private void OpenHandbookForItem(ItemDefinition item)
         {
-            var manual=state!.Catalog.Assets.FirstOrDefault(a=>a.OwnerId=="player"&&a.Status=="active"&&Catalog.GetDefinition(a.DefinitionId).ManualFor==category);
+            var manual=Appraisal.HandbookFor(item);
+            OpenHandbook(manual.ManualFor,0,manual.Id);
+        }
+
+        private void OpenHandbookIndex(string category,int page)
+        {
+            var volumes=Appraisal.HandbookVolumes(category);
+            var count=Math.Max(1,(volumes.Count+Appraisal.HandbookIndexRows-1)/Appraisal.HandbookIndexRows);
+            page=Math.Max(0,Math.Min(page,count-1));
+            var book=BeginHandbook(category=="metals"?"黄金与白银 · 分册目录":"翡翠鉴定 · 分册目录",true);
+            Text(book,28,88,384,58,"按品类选择独立手册，每册含说明页最多五页。\n原有大手册可继续阅读整套分册；新分册可单独购买和收纳。",12);
+            foreach(var pair in volumes.Skip(page*Appraisal.HandbookIndexRows).Take(Appraisal.HandbookIndexRows).Select((entry,index)=>new{entry,index}))
+            {
+                var d=pair.entry;var y=166+pair.index*70;var available=OwnedHandbook(d)!=null;
+                Text(book,28,y,276,22,d.Name,13);book.Last.color="#486071";
+                Text(book,28,y+26,276,22,Appraisal.Handbook(d).Count+" 项图例 · "+Appraisal.HandbookPageCount(d)+" 页",11);
+                HandbookLink(book,312,y+10,100,28,available?"翻阅":"购入分册",()=>OpenHandbook(category,0,d.Id));
+            }
+            if(page>0)HandbookLink(book,28,580,80,20,"上一页",()=>OpenHandbookIndex(category,page-1));
+            if(page+1<count)HandbookLink(book,332,580,80,20,"下一页",()=>OpenHandbookIndex(category,page+1));
+            Text(book,156,580,128,20,(page+1)+" / "+count,11);book.Last.align="center";
+            ClearButton(book,410,8,20,20,CloseWindow,"handbook-close");
+            if(!string.IsNullOrEmpty(selectedEncounter)&&state!.Catalog.Encounters.Any(e=>e.EncounterId==selectedEncounter&&!e.Completed))
+                HandbookLink(book,276,548,136,20,"返回当前验货",DrawInspection);
+            Show(book);
+        }
+
+        private void OpenHandbook(string category,int page,string definitionId="")
+        {
+            var d=string.IsNullOrEmpty(definitionId)
+                ?Catalog.Definitions.First(x=>x.ManualFor==category&&x.HandbookTemplates.Count==0)
+                :Catalog.GetDefinition(definitionId);
+            if(Appraisal.IsHandbookCollection(d)){OpenHandbookIndex(category,page);return;}
+            var manual=OwnedHandbook(d);
             if(manual==null)
             {
-                var ui=BeginPage("分类鉴定图鉴","手册是可购买和收纳的实体书。");
-                Text(ui,30,100,530,110,"书架上还没有这一类鉴定手册。\n星港用品店提供对应图鉴，记录固定缺陷的外观、检测方法和议价依据。",16);
-                Button(ui,30,250,240,30,"前往鉴定用品商店",()=>OpenEquipmentShop(0));Footer(ui);Show(ui);return;
+                var ui=BeginPage(d.Name,"手册是可购买和收纳的实体书。");
+                Text(ui,30,100,530,110,"书架上还没有这一册。\n"+d.Description+"\n星港用品店售价 "+d.BaseValue+" Cr。",16);
+                Button(ui,30,250,240,30,"前往鉴定用品商店",()=>OpenEquipmentShop(0,d.Id));Footer(ui);Show(ui);return;
             }
             RequireNativeOwned(manual);
-            var d=Catalog.GetDefinition(manual.DefinitionId);
-            var entries=Appraisal.Handbook(category);
-            var lastPage=(entries.Count+1)/2;
+            var entries=Appraisal.Handbook(d);
+            var lastPage=Appraisal.HandbookPageCount(d)-1;
+            if(lastPage>=Appraisal.MaxHandbookPages)throw new InvalidOperationException("鉴定手册必须分册，每册最多五页。");
             page=Math.Max(0,Math.Min(page,lastPage));
-            var book=BeginHandbook(d.Name);
+            var book=BeginHandbook(d.Name,page==0);
             if(page==0)
             {
                 Text(book,28,88,384,152,d.ReadingText,13);
                 Text(book,28,256,384,28,"查验图例",15);book.Last.color="#486071";
                 Text(book,28,295,384,124,"左栏为参考外观，右栏为同一部位的异常实例。\n\n先比较结构与表面，再使用合适的仪器。示例只说明一种特征，不代表正在交易的实物已经完成鉴定。",13);
-                Text(book,28,446,384,76,"图鉴收录 "+entries.Count+" 项固定特征。\n每页最多两项，翻页查看对照。",13);
+                Text(book,28,446,384,76,"本册收录 "+entries.Count+" 项固定特征，共 "+(lastPage+1)+" 页。\n每页最多两项，翻页查看对照。",13);
             }
             else
                 foreach(var pair in entries.Skip((page-1)*2).Take(2).Select((entry,index)=>new {entry,index}))
                     HandbookSection(book,pair.entry,140+pair.index*220);
-            if(page>0)HandbookLink(book,28,580,80,20,"上一页",()=>OpenHandbook(category,page-1));
-            if(page<lastPage)HandbookLink(book,332,580,80,20,"下一页",()=>OpenHandbook(category,page+1));
+            if(page>0)HandbookLink(book,28,580,80,20,"上一页",()=>OpenHandbook(category,page-1,d.Id));
+            if(page<lastPage)HandbookLink(book,332,580,80,20,"下一页",()=>OpenHandbook(category,page+1,d.Id));
             Text(book,156,580,128,20,(page+1)+" / "+(lastPage+1),11);book.Last.align="center";
             ClearButton(book,410,8,20,20,CloseWindow,"handbook-close");
-            if(!string.IsNullOrEmpty(selectedEncounter)&&state.Catalog.Encounters.Any(e=>e.EncounterId==selectedEncounter&&!e.Completed))
+            if(Appraisal.HandbookVolumes(category).Count>0)
+                HandbookLink(book,28,page==0?548:108,136,20,"分册目录",()=>OpenHandbookIndex(category,0));
+            if(!string.IsNullOrEmpty(selectedEncounter)&&state!.Catalog.Encounters.Any(e=>e.EncounterId==selectedEncounter&&!e.Completed))
                 HandbookLink(book,276,page==0?548:108,136,20,"返回当前验货",DrawInspection);
             Show(book);
         }
@@ -141,7 +186,7 @@ namespace StarPawn.Game
                 var native=RequireNativeOwned(manual);var stored=ReferenceEquals(native.parentInventory,inventory);var y=74+row++*44;
                 var d=Catalog.GetDefinition(manual.DefinitionId);
                 Text(ui,24,y,315,38,d.Name+"\n"+(stored?"已在此收纳中":"在其他库存位置"),11);
-                Button(ui,346,y+5,105,27,"翻阅",()=>{if(string.IsNullOrEmpty(d.ManualFor))OpenReading(manual.AssetId);else OpenHandbook(d.ManualFor,0);});
+                Button(ui,346,y+5,105,27,"翻阅",()=>{if(string.IsNullOrEmpty(d.ManualFor))OpenReading(manual.AssetId);else OpenHandbook(d.ManualFor,0,d.Id);});
                 Button(ui,463,y+5,111,27,stored?"取出":"放入",()=>{
                     RequireCommerceReady();
                     if(PlayerStore.Instance.currentClientInstance!=null&&ReferenceEquals(PlayerStore.Instance.GetCurrentlyNegociatedItem(),native))throw new InvalidOperationException("先从交易台收回这本手册。");

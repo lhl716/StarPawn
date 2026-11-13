@@ -2,15 +2,15 @@
 
 A unified shop-management expansion for **Probably Stolen**, covering physical-item appraisal, precious metals and jewelry, jade processing, collectibles, entertainment goods, banking, securities, and pawning.
 
-Current playable version: **0.3.0 / Windows / 100-Rev13 / Steam BuildID 26525552**. The gameplay revision has been implemented and tested in the game using a separate save slot. Runtime artwork remains development art; the gold-ring sample direction is approved for the next batch below.
+Current integration build: **0.3.1 / Windows / 100-Rev13 / Steam BuildID 26525552**, on `integration/art04`. Claude's `art/batch04` delivery is integrated into the existing playable catalog and tested in a separate save. See the [illustrated integration report](docs/ART_INTEGRATION_031.md) for fixes, screenshots, test evidence, demo instructions, and remaining limitations. This is a compatible art update to the 0.3 gameplay, not the complete 0.4 business expansion.
 
-This revision adds two designs for each of five gold and silver item types, six jade-rough types, four finished-jade types, five physical instruments, seven fixed-defect handbooks, and an eight-slot handbook organizer. Banking gains daily transaction limits, revised rates for new contracts, a financial overview, and overnight settlement receipts. See the [0.3 delivery record](docs/REVISION_03.txt) for exact scope and limitations. The 239 catalog definitions include condition combinations; they are not 239 distinct designs.
+The 0.3 gameplay adds two designs for each of five gold and silver item types, six jade-rough types, four finished-jade types, five physical instruments, and an eight-slot handbook organizer. The 0.3.1 update adds [15 short physical handbook volumes](docs/HANDBOOK_VOLUMES_031.md), with every book limited to five pages including its introduction. Five existing short books remain on sale; old metals/jade anthologies retain collection access through short indexes. Banking has daily transaction limits, revised rates for new contracts, a financial overview, and overnight settlement receipts. See the [0.3 delivery record](docs/REVISION_03.txt) for historical scope. The catalog now has 254 definitions (239 preserved plus 15 books); condition combinations are included, so this is not a count of distinct art designs.
 
 ## Current production handoff: 0.4 design
 
-The user accepted the ring sample's visual direction and authorized the complete fixed-size art batch. Current contract revision: **04.2** (jewelry business, vanilla-style manuals, physical refining only). **The playable release remains 0.3; the following 0.4 files are design and production contracts, not implemented gameplay.**
+The user accepted the ring sample's visual direction and authorized the complete fixed-size art batch. Contract revision **04.2** covers jewelry business, native-style manuals and physical refining; the **04.3 pagination amendment** limits all manuals to five pages. **The playable release is 0.3.1; the following 0.4 files are design and production contracts, not implemented gameplay.**
 
-Start with the [batch prompt](art/CLAUDE_BATCH_PROMPT_04.txt) and [frozen production specification](art/BATCH_ART_SPEC_04.txt). The specifications cover:
+The batch has been delivered under `art/proposals/batch04`. The [batch prompt](art/CLAUDE_BATCH_PROMPT_04.txt) and [frozen production specification](art/BATCH_ART_SPEC_04.txt) remain its production contracts. The specifications cover:
 
 - [135 physical art models and exact inventory footprints/pixel sizes](art/ITEM_LAYOUT_04.csv), with [all 241 current item/card mappings](art/RUNTIME_COVERAGE_04.csv).
 - [71 UI screen, widget, and event-icon dimensions](art/UI_ASSETS_04.csv).
@@ -32,7 +32,7 @@ Start with the [art direction and handoff](art/ART_DIRECTION.txt), [minimal styl
 
 The initial deliverable was one gold ring in three conditions; that visual direction is now accepted for the 0.4 production contract above. [asset-plan.csv](art/asset-plan.csv) is the earlier broad proposal list; exact 0.3 runtime files and condition mappings remain in [runtime-art-map.json](art/runtime-art-map.json); [UI_SPEC.txt](art/UI_SPEC.txt) documents the earlier screen baseline. `existing-assets.json` and `existing-items.json` are historical 0.2 snapshots. The newer fixed-size manifests take precedence for batch production.
 
-The original sample work is on `art/style-sample`. Preserve that work when creating the batch branch. Approved and integrated assets can later enter `mod/Textures/`. Preserve item IDs, evidence IDs, interfaces, and save compatibility. Any hotspot-coordinate changes require matching configuration updates and validation.
+The original sample work is on `art/style-sample`. Its approved direction is now adapted into `mod/Textures/`. The historical `runtime-art-map.json` remains the legacy generator input; [runtime-art-map-031.json](art/runtime-art-map-031.json) records the integrated clue bounds. Existing item IDs, evidence IDs, economic causes, and occupied cells are preserved.
 
 Prompts and explanatory documentation are in English. The game remains localized in Simplified Chinese. Runtime exports, historical data snapshots, localization examples, and screenshots retain their original Chinese display strings so they can be matched to the actual game; these are source data, not instructions to translate the game.
 

@@ -2,6 +2,7 @@
 import math
 
 from PIL import Image, ImageDraw, ImageFont
+from fonts import review_font
 
 from px import Canvas, up
 import m_metal, m_gem, m_util
@@ -21,7 +22,7 @@ _fc = {}
 def font(size, zh=True):
     k = (size, zh)
     if k not in _fc:
-        _fc[k] = ImageFont.truetype(ZH if zh else EN, size)
+        _fc[k] = review_font(size, zh)
     return _fc[k]
 
 

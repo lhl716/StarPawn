@@ -58,6 +58,42 @@ internal static class AppraisalTests
             var s=State();var a=Asset(s);var e=Open(s,a);InspectionV2.Miss(s,e.EncounterId);var before=Snap(s);
             var entries=Appraisal.Handbook("metals");Check(entries.All(x=>!string.IsNullOrEmpty(x.Evidence.Guidance)),"Missing guidance");Check(before==Snap(s),"Handbook changed inspection");
         });
+        Test("every handbook and legacy collection index fits five pages including its introduction",()=>{
+            var manuals=definitions.Where(d=>!string.IsNullOrEmpty(d.ManualFor)).ToList();
+            Check(manuals.Count(d=>d.HandbookTemplates.Count>0)==15,"Missing physical short volumes");
+            Check(manuals.All(d=>Appraisal.HandbookPageCount(d)<=5),"A book exceeds five pages");
+            Check(manuals.Where(d=>d.HandbookTemplates.Count>0).All(d=>d.IsBook&&d.ShopOnly&&d.WidthCells==1&&d.HeightCells==1),"Volume is not a one-cell physical book");
+        });
+        Test("splitting books preserves every fixed example exactly once in its category",()=>{
+            foreach(var category in Appraisal.ManualCategories)
+            {
+                var volumes=Appraisal.HandbookVolumes(category);if(volumes.Count==0)continue;
+                var actual=volumes.SelectMany(v=>Appraisal.Handbook(v)).Select(e=>e.Evidence.TemplateId).ToList();
+                Check(actual.Distinct().Count()==actual.Count,"Duplicate examples across volumes");
+                Check(actual.OrderBy(x=>x).SequenceEqual(Appraisal.Handbook(category).Select(e=>e.Evidence.TemplateId).OrderBy(x=>x)),"Truncated examples");
+            }
+        });
+        Test("inspection routes clean and damaged profiles to the same category-specific volume",()=>{
+            foreach(var family in definitions.Where(d=>!d.ShopOnly).GroupBy(Appraisal.Family))
+                Check(family.Select(d=>Appraisal.HandbookFor(d).Id).Distinct().Count()==1,"Routing disclosed hidden profile");
+            Check(Appraisal.HandbookFor(Catalog.GetDefinition("sp3_gold_ring_0_p0")).Id=="sp31_manual_gold_ring","Gold ring misrouted");
+            Check(Appraisal.HandbookFor(Catalog.GetDefinition("sp3_rough_yellow_p0")).Id=="sp31_manual_rough_sand","Rough jade misrouted");
+        });
+        Test("legacy books retain collection access while individual volumes do not unlock other books",()=>{
+            var gold=Catalog.GetDefinition("sp31_manual_gold_ring");var silver=Catalog.GetDefinition("sp31_manual_silver_ring");
+            var jade=Catalog.GetDefinition("sp31_manual_rough_sand");var legacy=Catalog.GetDefinition("sp3_manual_metals");
+            Check(Appraisal.CanReadHandbook(legacy,gold)&&Appraisal.CanReadHandbook(legacy,silver),"Legacy access lost");
+            Check(Appraisal.CanReadHandbook(gold,gold)&&!Appraisal.CanReadHandbook(gold,silver)&&!Appraisal.CanReadHandbook(legacy,jade),"Book ownership leaks access");
+        });
+        Test("oversized and incomplete handbook manifests fail content validation",()=>{
+            var copy=Copy(definitions);var volume=copy.First(d=>d.Id=="sp31_manual_gold_ring");
+            volume.HandbookTemplates=Appraisal.Handbook("metals").Take(9).Select(e=>e.Evidence.TemplateId).ToList();Reject(()=>Appraisal.ValidateTemplates(copy));
+            copy=Copy(definitions);copy.First(d=>d.Id=="sp31_manual_gold_ring").HandbookTemplates.RemoveAt(0);Reject(()=>Appraisal.ValidateTemplates(copy));
+        });
+        Test("cross-category family mappings and duplicated handbook coverage are rejected",()=>{
+            var copy=Copy(definitions);copy.First(d=>d.Id=="sp31_manual_gold_ring").HandbookFamilies.Add("sp3_rough_yellow");Reject(()=>Appraisal.ValidateTemplates(copy));
+            copy=Copy(definitions);copy.First(d=>d.Id=="sp31_manual_gold_ring").HandbookTemplates.Add(copy.First(d=>d.Id=="sp31_manual_gold_bar").HandbookTemplates[0]);Reject(()=>Appraisal.ValidateTemplates(copy));
+        });
         Test("assay establishes actual material and invalidates old price without certificate",()=>{
             var s=State();var a=Asset(s);var e=Open(s,a);var t=Tool(s,"assay");var q=Quote(s,e);
             Check(!Catalog.PublicFacts(a).MaterialConfirmed&&q.Price>20,"Hidden truth leaked before assay");

@@ -4,7 +4,8 @@ import json, os
 from PIL import Image, ImageDraw, ImageFont
 import core
 from core import B04, LAYOUT, save
-F = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 10)
+from fonts import review_font
+F = review_font(10)
 
 
 def first(key):

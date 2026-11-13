@@ -1,0 +1,11 @@
+StarPawn 0.3.1 test summary - 2026-11-13
+Eight C# suites; separate from Unity live-game evidence.
+Run-AppraisalTests-031.txt: APPRAISAL TESTS PASSED: 31; real packaged content + core, not Unity inventory validation
+Run-BankCardTests-031.txt: BANK_CARD_POLICY_PASSED=10; actual BankCardsRoot/Core plus delivery fake; NOT Unity/Harmony validation
+Run-CommerceTests-031.txt: COMMERCE_HARNESS_PASSED=27; actual CommerceActions/NativeSourcing/Core source + fake native boundary; NOT an in-game test
+Run-ContentBootstrapTests-031.txt: CONTENT BOOTSTRAP TESTS PASSED: 11
+Run-ContentTests-031.txt: CONTENT TESTS PASSED: 29
+Run-EconomyTests-031.txt: PASS: 32 economy invariant tests. Native cash/assets/save integration is not covered here.
+Run-NativeTradeTests-031.txt: RESULT 22/22 passed; boundary doubles, not an in-game test.
+Run-Tests-031.txt: PASS: 9 invariant tests. Game integration not tested by this executable.
+Total: 171 checks. See docs/ART_INTEGRATION_031.md for live scenarios and limitations.

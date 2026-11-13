@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Technical validation of art/proposals/batch04. Writes validation-results.txt.
 A PASS here is a file/geometry check, not a visual quality pass and not gameplay proof."""
+import argparse
 import glob
 import json
 import os
 import subprocess
 import sys
+from pathlib import Path
 
 import numpy as np
 from PIL import Image
@@ -47,6 +49,10 @@ def stack(base, singles):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--integration", action="store_true",
+                        help="Skip only the art-only branch scope restriction; keep every asset check.")
+    args = parser.parse_args()
     b_struct, b_size, b_alpha, b_margin, b_2x, b_states = [], [], [], [], [], []
     b_policy, b_read, b_hot, b_combo, b_rep, b_tier, b_sock, b_hidden = [], [], [], [], [], [], [], []
     n_png = n_hot = n_combo = n_tpl = 0
@@ -74,7 +80,7 @@ def main():
                     continue
                 if not np.isin(a[:, :, 3], (0, 255)).all():
                     b_alpha.append(f[len(B04) + 1:])
-                if "/layers/" in f:
+                if "layers" in Path(f).parts:
                     continue
                 img[kind][os.path.basename(f)[:-4]] = a
                 bb = bbox(a)
@@ -265,11 +271,10 @@ def main():
     bad = [f for f in glob.glob(os.path.join(B04, "**"), recursive=True) if any(x in os.path.basename(f).lower() for x in forb)]
     check("excluded scope: no alchemy / transmutation assets", bad)
     try:
-        out = subprocess.check_output(["git", "-C", ROOT, "diff", "--name-only", "origin/main...HEAD"], text=True).split("\n")
-        wt = subprocess.check_output(["git", "-C", ROOT, "status", "--porcelain"], text=True).split("\n")
-        ch = [f for f in out if f] + [l[3:] for l in wt if l.strip()]
-        bad = sorted(set(f for f in ch if not f.startswith("art/proposals/")))
-        check("branch changes only art/proposals (no mod/, source/, runtime or contract files)", bad)
+        if args.integration:
+            res.append("SKIP art-only branch scope: --integration was explicitly selected; all asset checks remain active.")
+        else:
+            validate_git_scope()
     except Exception as e:
         res.append("SKIP git scope check: %s" % e)
     res.append("")
@@ -281,6 +286,14 @@ def main():
     core.text("\n".join(head + res), B04, "validation-results.txt")
     print("\n".join(head + res))
     return 1 if fails else 0
+
+
+def validate_git_scope():
+    out = subprocess.check_output(["git", "-C", ROOT, "diff", "--name-only", "origin/main...HEAD"], text=True).split("\n")
+    wt = subprocess.check_output(["git", "-C", ROOT, "status", "--porcelain"], text=True).split("\n")
+    ch = [f for f in out if f] + [l[3:] for l in wt if l.strip()]
+    bad = sorted(set(f for f in ch if not f.startswith("art/proposals/")))
+    check("branch changes only art/proposals (no mod/, source/, runtime or contract files)", bad)
 
 
 if __name__ == "__main__":

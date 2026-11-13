@@ -1,6 +1,9 @@
 StarPawn 0.4 Vanilla Handbook Visual Contract
 Revision 04.2 / 2026-11-13 / REQUIRED FOR ALL APPRAISAL DOCUMENTS
 
+Pagination amendment 04.3 / 2026-11-13
+The user requires EVERY physical handbook to have at most FIVE pages, including its introduction/index. Split by material and product category into additional independent volumes; do not truncate templates or shrink the type. This overrides the long nine-book grouping and page numbering below. docs/HANDBOOK_VOLUMES_031.md defines the playable 15 new volumes, original-book compatibility, and fixed one-cell dimensions. The batch04 CSV/index and 160 mockup pages remain historical example references, not the accepted runtime pagination. All visual proportions and fixed-template semantics below remain applicable.
+
 Observed reference, not an invented retro style
 Actual game: Probably Stolen VERSION 100-REV13, Simplified Chinese, captured 2026-11-13 from the independent test save. art/references/vanilla_handbook/native_counterfeit_handbook.jpg shows the native illustrated counterfeit-identification sheet opened from an inventory document. native_inspection_note.jpg shows the native mentor inspection note. StarPawn 0.3 was installed, but the observed handbook/note are the base game's inventory documents, not the mod's F7 reader. No modified 0.4 manual has been rendered in-game yet.
 These screenshots are visual references only. The game's illustration, text, stamp and branding remain their respective owner's work; do not extract them into distributable runtime textures. Draw original category examples and a fictional StarPawn issuer mark. The references are not a new asset license.

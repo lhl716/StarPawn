@@ -1,0 +1,4483 @@
+{
+  "source_commit": "05c585d7cfc81749f547768f5684a00129e864b4",
+  "definitions": 254,
+  "handbook_volumes": [
+    {
+      "id": "sp31_manual_gold_ring",
+      "category": "metals",
+      "title": "黄金鉴定·戒指",
+      "templates": 3,
+      "pages": 3,
+      "families": [
+        "sp3_gold_ring_0",
+        "sp3_gold_ring_1"
+      ]
+    },
+    {
+      "id": "sp31_manual_gold_bracelet",
+      "category": "metals",
+      "title": "黄金鉴定·手镯",
+      "templates": 8,
+      "pages": 5,
+      "families": [
+        "sp3_gold_bracelet_0",
+        "sp3_gold_bracelet_1",
+        "legacy_gold_bracelet"
+      ]
+    },
+    {
+      "id": "sp31_manual_gold_necklace",
+      "category": "metals",
+      "title": "黄金鉴定·项链",
+      "templates": 3,
+      "pages": 3,
+      "families": [
+        "sp3_gold_necklace_0",
+        "sp3_gold_necklace_1"
+      ]
+    },
+    {
+      "id": "sp31_manual_gold_earrings",
+      "category": "metals",
+      "title": "黄金鉴定·耳环",
+      "templates": 3,
+      "pages": 3,
+      "families": [
+        "sp3_gold_earrings_0",
+        "sp3_gold_earrings_1"
+      ]
+    },
+    {
+      "id": "sp31_manual_gold_bar",
+      "category": "metals",
+      "title": "黄金鉴定·金条",
+      "templates": 5,
+      "pages": 4,
+      "families": [
+        "sp3_gold_bar_0",
+        "sp3_gold_bar_1",
+        "legacy_gold_bar"
+      ]
+    },
+    {
+      "id": "sp31_manual_silver_ring",
+      "category": "metals",
+      "title": "白银鉴定·戒指",
+      "templates": 3,
+      "pages": 3,
+      "families": [
+        "sp3_silver_ring_0",
+        "sp3_silver_ring_1"
+      ]
+    },
+    {
+      "id": "sp31_manual_silver_bracelet",
+      "category": "metals",
+      "title": "白银鉴定·手镯",
+      "templates": 4,
+      "pages": 3,
+      "families": [
+        "sp3_silver_bracelet_0",
+        "sp3_silver_bracelet_1",
+        "legacy_silver_bracelet"
+      ]
+    },
+    {
+      "id": "sp31_manual_silver_necklace",
+      "category": "metals",
+      "title": "白银鉴定·项链",
+      "templates": 3,
+      "pages": 3,
+      "families": [
+        "sp3_silver_necklace_0",
+        "sp3_silver_necklace_1"
+      ]
+    },
+    {
+      "id": "sp31_manual_silver_earrings",
+      "category": "metals",
+      "title": "白银鉴定·耳环",
+      "templates": 3,
+      "pages": 3,
+      "families": [
+        "sp3_silver_earrings_0",
+        "sp3_silver_earrings_1"
+      ]
+    },
+    {
+      "id": "sp31_manual_silver_bar",
+      "category": "metals",
+      "title": "白银鉴定·银条与器皿",
+      "templates": 5,
+      "pages": 4,
+      "families": [
+        "sp3_silver_bar_0",
+        "sp3_silver_bar_1",
+        "legacy_silver_bar",
+        "legacy_silver_cup"
+      ]
+    },
+    {
+      "id": "sp31_manual_rough_sand",
+      "category": "jade",
+      "title": "翡翠原石·沙皮与乌沙",
+      "templates": 8,
+      "pages": 5,
+      "families": [
+        "sp3_rough_yellow",
+        "sp3_rough_black",
+        "legacy_jade_rough"
+      ]
+    },
+    {
+      "id": "sp31_manual_rough_water",
+      "category": "jade",
+      "title": "翡翠原石·水石与白皮",
+      "templates": 6,
+      "pages": 4,
+      "families": [
+        "sp3_rough_water",
+        "sp3_rough_white"
+      ]
+    },
+    {
+      "id": "sp31_manual_rough_mountain",
+      "category": "jade",
+      "title": "翡翠原石·铁锈与山石",
+      "templates": 6,
+      "pages": 4,
+      "families": [
+        "sp3_rough_rust",
+        "sp3_rough_mountain"
+      ]
+    },
+    {
+      "id": "sp31_manual_jade_pendant",
+      "category": "jade",
+      "title": "翡翠成品·玉佩与蛋面",
+      "templates": 5,
+      "pages": 4,
+      "families": [
+        "sp3_jade_pendant",
+        "sp3_jade_cabochon",
+        "legacy_jade_pendant"
+      ]
+    },
+    {
+      "id": "sp31_manual_jade_bangle",
+      "category": "jade",
+      "title": "翡翠成品·手镯与珠串",
+      "templates": 4,
+      "pages": 3,
+      "families": [
+        "sp3_jade_bangle",
+        "sp3_jade_beads"
+      ]
+    }
+  ],
+  "textures": 700,
+  "manual_examples": 78,
+  "hotspots": [
+    {
+      "definition": "gold_bracelet_worn",
+      "evidence": "surface_wear",
+      "template": "legacy_surface_wear",
+      "view": "front",
+      "texture": "starpawn:gold_bracelet_worn",
+      "bounds": [
+        90,
+        76,
+        126,
+        110
+      ],
+      "visible_pixels": 368
+    },
+    {
+      "definition": "gold_bracelet_worn",
+      "evidence": "surface_seam",
+      "template": "legacy_surface_seam",
+      "view": "front",
+      "texture": "starpawn:gold_bracelet_worn",
+      "bounds": [
+        268,
+        84,
+        290,
+        104
+      ],
+      "visible_pixels": 132
+    },
+    {
+      "definition": "gold_bracelet_worn",
+      "evidence": "clasp_break",
+      "template": "legacy_clasp_break",
+      "view": "front",
+      "texture": "starpawn:gold_bracelet_worn",
+      "bounds": [
+        210,
+        44,
+        220,
+        76
+      ],
+      "visible_pixels": 308
+    },
+    {
+      "definition": "gold_bracelet_plated",
+      "evidence": "plating_edge",
+      "template": "legacy_plating_edge",
+      "view": "front",
+      "texture": "starpawn:gold_bracelet_plated",
+      "bounds": [
+        86,
+        74,
+        132,
+        108
+      ],
+      "visible_pixels": 884
+    },
+    {
+      "definition": "gold_bracelet_plated",
+      "evidence": "plating_seam",
+      "template": "legacy_plating_seam",
+      "view": "front",
+      "texture": "starpawn:gold_bracelet_plated",
+      "bounds": [
+        266,
+        82,
+        292,
+        106
+      ],
+      "visible_pixels": 156
+    },
+    {
+      "definition": "gold_bracelet_plated",
+      "evidence": "clasp_break",
+      "template": "legacy_clasp_break",
+      "view": "front",
+      "texture": "starpawn:gold_bracelet_plated",
+      "bounds": [
+        210,
+        44,
+        220,
+        76
+      ],
+      "visible_pixels": 308
+    },
+    {
+      "definition": "gold_bar_suspect",
+      "evidence": "bar_seam",
+      "template": "legacy_bar_seam",
+      "view": "front",
+      "texture": "starpawn:gold_bar_suspect",
+      "bounds": [
+        116,
+        188,
+        218,
+        198
+      ],
+      "visible_pixels": 1020
+    },
+    {
+      "definition": "gold_bar_suspect",
+      "evidence": "bar_stamp",
+      "template": "legacy_bar_stamp",
+      "view": "front",
+      "texture": "starpawn:gold_bar_suspect",
+      "bounds": [
+        156,
+        78,
+        232,
+        116
+      ],
+      "visible_pixels": 532
+    },
+    {
+      "definition": "silver_cup_worn",
+      "evidence": "cup_dent",
+      "template": "legacy_cup_dent",
+      "view": "front",
+      "texture": "starpawn:silver_cup_worn",
+      "bounds": [
+        166,
+        42,
+        202,
+        82
+      ],
+      "visible_pixels": 992
+    },
+    {
+      "definition": "silver_bracelet_worn",
+      "evidence": "silver_clasp",
+      "template": "legacy_silver_clasp",
+      "view": "front",
+      "texture": "starpawn:silver_bracelet_worn",
+      "bounds": [
+        210,
+        44,
+        220,
+        76
+      ],
+      "visible_pixels": 308
+    },
+    {
+      "definition": "silver_bar_suspect",
+      "evidence": "silver_bar_seam",
+      "template": "legacy_silver_bar_seam",
+      "view": "front",
+      "texture": "starpawn:silver_bar_suspect",
+      "bounds": [
+        116,
+        188,
+        218,
+        198
+      ],
+      "visible_pixels": 1020
+    },
+    {
+      "definition": "jade_rough_cracked",
+      "evidence": "rough_crack",
+      "template": "legacy_rough_crack",
+      "view": "front",
+      "texture": "starpawn:jade_rough_cracked",
+      "bounds": [
+        248,
+        104,
+        276,
+        152
+      ],
+      "visible_pixels": 272
+    },
+    {
+      "definition": "jade_rough_cracked",
+      "evidence": "window_crack",
+      "template": "legacy_window_crack",
+      "view": "window",
+      "texture": "starpawn:jade_window_cracked",
+      "bounds": [
+        152,
+        128,
+        170,
+        166
+      ],
+      "visible_pixels": 176
+    },
+    {
+      "definition": "jade_pendant_dyed",
+      "evidence": "dye_pool",
+      "template": "legacy_dye_pool",
+      "view": "front",
+      "texture": "starpawn:jade_pendant_dyed",
+      "bounds": [
+        162,
+        170,
+        222,
+        204
+      ],
+      "visible_pixels": 712
+    },
+    {
+      "definition": "antique_vase_repaired",
+      "evidence": "vase_restore",
+      "template": "legacy_vase_restore",
+      "view": "front",
+      "texture": "starpawn:antique_vase_repaired",
+      "bounds": [
+        146,
+        192,
+        204,
+        218
+      ],
+      "visible_pixels": 652
+    },
+    {
+      "definition": "painting_forged",
+      "evidence": "seal_mismatch",
+      "template": "legacy_seal_mismatch",
+      "view": "front",
+      "texture": "starpawn:painting_forged",
+      "bounds": [
+        268,
+        176,
+        284,
+        188
+      ],
+      "visible_pixels": 112
+    },
+    {
+      "definition": "painting_forged",
+      "evidence": "print_dots",
+      "template": "legacy_print_dots",
+      "view": "front",
+      "texture": "starpawn:painting_forged",
+      "bounds": [
+        132,
+        68,
+        202,
+        106
+      ],
+      "visible_pixels": 720
+    },
+    {
+      "definition": "console_damaged",
+      "evidence": "console_port",
+      "template": "legacy_console_port",
+      "view": "front",
+      "texture": "starpawn:console_damaged",
+      "bounds": [
+        98,
+        174,
+        122,
+        192
+      ],
+      "visible_pixels": 184
+    },
+    {
+      "definition": "console_damaged",
+      "evidence": "console_screw",
+      "template": "legacy_console_screw",
+      "view": "front",
+      "texture": "starpawn:console_damaged",
+      "bounds": [
+        40,
+        200,
+        66,
+        224
+      ],
+      "visible_pixels": 280
+    },
+    {
+      "definition": "handheld_damaged",
+      "evidence": "handheld_port",
+      "template": "legacy_handheld_port",
+      "view": "front",
+      "texture": "starpawn:handheld_damaged",
+      "bounds": [
+        300,
+        188,
+        324,
+        196
+      ],
+      "visible_pixels": 88
+    },
+    {
+      "definition": "cartridge_bootleg",
+      "evidence": "label_print",
+      "template": "legacy_label_print",
+      "view": "front",
+      "texture": "starpawn:cartridge_bootleg",
+      "bounds": [
+        132,
+        60,
+        172,
+        80
+      ],
+      "visible_pixels": 300
+    },
+    {
+      "definition": "disc_scratched",
+      "evidence": "disc_scratch",
+      "template": "legacy_disc_scratch",
+      "view": "front",
+      "texture": "starpawn:disc_scratched",
+      "bounds": [
+        230,
+        160,
+        266,
+        194
+      ],
+      "visible_pixels": 160
+    },
+    {
+      "definition": "book_reprint",
+      "evidence": "reprint_mark",
+      "template": "legacy_reprint_mark",
+      "view": "front",
+      "texture": "starpawn:book_reprint",
+      "bounds": [
+        110,
+        170,
+        130,
+        174
+      ],
+      "visible_pixels": 80
+    },
+    {
+      "definition": "sp3_gold_ring_0_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_ring_outer_scrape",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p1",
+      "bounds": [
+        124,
+        162,
+        158,
+        186
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_ring_0_p2",
+      "evidence": "metal_split",
+      "template": "sp4_gold_ring_band_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p2",
+      "bounds": [
+        216,
+        164,
+        234,
+        202
+      ],
+      "visible_pixels": 208
+    },
+    {
+      "definition": "sp3_gold_ring_0_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_ring_outer_scrape",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p3",
+      "bounds": [
+        124,
+        162,
+        158,
+        186
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_ring_0_p3",
+      "evidence": "metal_split",
+      "template": "sp4_gold_ring_band_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p3",
+      "bounds": [
+        216,
+        164,
+        234,
+        202
+      ],
+      "visible_pixels": 208
+    },
+    {
+      "definition": "sp3_gold_ring_0_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_ring_exposed_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p4",
+      "bounds": [
+        138,
+        172,
+        208,
+        204
+      ],
+      "visible_pixels": 1664
+    },
+    {
+      "definition": "sp3_gold_ring_0_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_ring_outer_scrape",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p5",
+      "bounds": [
+        124,
+        162,
+        158,
+        186
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_ring_0_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_ring_exposed_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p5",
+      "bounds": [
+        138,
+        172,
+        208,
+        204
+      ],
+      "visible_pixels": 1664
+    },
+    {
+      "definition": "sp3_gold_ring_0_p6",
+      "evidence": "metal_split",
+      "template": "sp4_gold_ring_band_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p6",
+      "bounds": [
+        216,
+        164,
+        234,
+        202
+      ],
+      "visible_pixels": 208
+    },
+    {
+      "definition": "sp3_gold_ring_0_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_ring_exposed_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p6",
+      "bounds": [
+        138,
+        172,
+        208,
+        204
+      ],
+      "visible_pixels": 1664
+    },
+    {
+      "definition": "sp3_gold_ring_0_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_ring_outer_scrape",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p7",
+      "bounds": [
+        124,
+        162,
+        158,
+        186
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_ring_0_p7",
+      "evidence": "metal_split",
+      "template": "sp4_gold_ring_band_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p7",
+      "bounds": [
+        216,
+        164,
+        234,
+        202
+      ],
+      "visible_pixels": 208
+    },
+    {
+      "definition": "sp3_gold_ring_0_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_ring_exposed_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_0_p7",
+      "bounds": [
+        138,
+        172,
+        208,
+        204
+      ],
+      "visible_pixels": 1664
+    },
+    {
+      "definition": "sp3_gold_ring_1_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_ring_outer_scrape",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p1",
+      "bounds": [
+        132,
+        156,
+        162,
+        180
+      ],
+      "visible_pixels": 384
+    },
+    {
+      "definition": "sp3_gold_ring_1_p2",
+      "evidence": "metal_split",
+      "template": "sp4_gold_ring_band_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p2",
+      "bounds": [
+        212,
+        152,
+        228,
+        188
+      ],
+      "visible_pixels": 192
+    },
+    {
+      "definition": "sp3_gold_ring_1_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_ring_outer_scrape",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p3",
+      "bounds": [
+        132,
+        156,
+        162,
+        180
+      ],
+      "visible_pixels": 384
+    },
+    {
+      "definition": "sp3_gold_ring_1_p3",
+      "evidence": "metal_split",
+      "template": "sp4_gold_ring_band_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p3",
+      "bounds": [
+        212,
+        152,
+        228,
+        188
+      ],
+      "visible_pixels": 192
+    },
+    {
+      "definition": "sp3_gold_ring_1_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_ring_exposed_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p4",
+      "bounds": [
+        146,
+        172,
+        206,
+        206
+      ],
+      "visible_pixels": 1548
+    },
+    {
+      "definition": "sp3_gold_ring_1_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_ring_outer_scrape",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p5",
+      "bounds": [
+        132,
+        156,
+        162,
+        180
+      ],
+      "visible_pixels": 384
+    },
+    {
+      "definition": "sp3_gold_ring_1_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_ring_exposed_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p5",
+      "bounds": [
+        146,
+        172,
+        206,
+        206
+      ],
+      "visible_pixels": 1548
+    },
+    {
+      "definition": "sp3_gold_ring_1_p6",
+      "evidence": "metal_split",
+      "template": "sp4_gold_ring_band_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p6",
+      "bounds": [
+        212,
+        152,
+        228,
+        188
+      ],
+      "visible_pixels": 192
+    },
+    {
+      "definition": "sp3_gold_ring_1_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_ring_exposed_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p6",
+      "bounds": [
+        146,
+        172,
+        206,
+        206
+      ],
+      "visible_pixels": 1548
+    },
+    {
+      "definition": "sp3_gold_ring_1_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_ring_outer_scrape",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p7",
+      "bounds": [
+        132,
+        156,
+        162,
+        180
+      ],
+      "visible_pixels": 384
+    },
+    {
+      "definition": "sp3_gold_ring_1_p7",
+      "evidence": "metal_split",
+      "template": "sp4_gold_ring_band_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p7",
+      "bounds": [
+        212,
+        152,
+        228,
+        188
+      ],
+      "visible_pixels": 192
+    },
+    {
+      "definition": "sp3_gold_ring_1_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_ring_exposed_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_ring_1_p7",
+      "bounds": [
+        146,
+        172,
+        206,
+        206
+      ],
+      "visible_pixels": 1548
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bracelet_arc_gouge",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p1",
+      "bounds": [
+        112,
+        170,
+        170,
+        186
+      ],
+      "visible_pixels": 416
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p2",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bracelet_rim_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p2",
+      "bounds": [
+        94,
+        154,
+        106,
+        182
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bracelet_arc_gouge",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p3",
+      "bounds": [
+        112,
+        170,
+        170,
+        186
+      ],
+      "visible_pixels": 416
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p3",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bracelet_rim_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p3",
+      "bounds": [
+        94,
+        154,
+        106,
+        182
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bracelet_inner_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p4",
+      "bounds": [
+        144,
+        46,
+        260,
+        62
+      ],
+      "visible_pixels": 1212
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bracelet_arc_gouge",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p5",
+      "bounds": [
+        112,
+        170,
+        170,
+        186
+      ],
+      "visible_pixels": 416
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bracelet_inner_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p5",
+      "bounds": [
+        144,
+        46,
+        260,
+        62
+      ],
+      "visible_pixels": 1212
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p6",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bracelet_rim_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p6",
+      "bounds": [
+        94,
+        154,
+        106,
+        182
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bracelet_inner_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p6",
+      "bounds": [
+        144,
+        46,
+        260,
+        62
+      ],
+      "visible_pixels": 1212
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bracelet_arc_gouge",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p7",
+      "bounds": [
+        112,
+        170,
+        170,
+        186
+      ],
+      "visible_pixels": 416
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p7",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bracelet_rim_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p7",
+      "bounds": [
+        94,
+        154,
+        106,
+        182
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_gold_bracelet_0_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bracelet_inner_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_0_p7",
+      "bounds": [
+        144,
+        46,
+        260,
+        62
+      ],
+      "visible_pixels": 1212
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bracelet_arc_gouge",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p1",
+      "bounds": [
+        120,
+        166,
+        162,
+        180
+      ],
+      "visible_pixels": 328
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p2",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bracelet_rim_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p2",
+      "bounds": [
+        104,
+        152,
+        118,
+        176
+      ],
+      "visible_pixels": 132
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bracelet_arc_gouge",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p3",
+      "bounds": [
+        120,
+        166,
+        162,
+        180
+      ],
+      "visible_pixels": 328
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p3",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bracelet_rim_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p3",
+      "bounds": [
+        104,
+        152,
+        118,
+        176
+      ],
+      "visible_pixels": 132
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bracelet_inner_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p4",
+      "bounds": [
+        146,
+        32,
+        254,
+        44
+      ],
+      "visible_pixels": 800
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bracelet_arc_gouge",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p5",
+      "bounds": [
+        120,
+        166,
+        162,
+        180
+      ],
+      "visible_pixels": 328
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bracelet_inner_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p5",
+      "bounds": [
+        146,
+        32,
+        254,
+        44
+      ],
+      "visible_pixels": 800
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p6",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bracelet_rim_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p6",
+      "bounds": [
+        104,
+        152,
+        118,
+        176
+      ],
+      "visible_pixels": 132
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bracelet_inner_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p6",
+      "bounds": [
+        146,
+        32,
+        254,
+        44
+      ],
+      "visible_pixels": 800
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bracelet_arc_gouge",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p7",
+      "bounds": [
+        120,
+        166,
+        162,
+        180
+      ],
+      "visible_pixels": 328
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p7",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bracelet_rim_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p7",
+      "bounds": [
+        104,
+        152,
+        118,
+        176
+      ],
+      "visible_pixels": 132
+    },
+    {
+      "definition": "sp3_gold_bracelet_1_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bracelet_inner_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bracelet_1_p7",
+      "bounds": [
+        146,
+        32,
+        254,
+        44
+      ],
+      "visible_pixels": 800
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_necklace_tangled_run",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p1",
+      "bounds": [
+        118,
+        136,
+        162,
+        180
+      ],
+      "visible_pixels": 892
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p2",
+      "evidence": "metal_split",
+      "template": "sp4_gold_necklace_open_link",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p2",
+      "bounds": [
+        186,
+        190,
+        196,
+        196
+      ],
+      "visible_pixels": 44
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_necklace_tangled_run",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p3",
+      "bounds": [
+        118,
+        136,
+        162,
+        180
+      ],
+      "visible_pixels": 892
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p3",
+      "evidence": "metal_split",
+      "template": "sp4_gold_necklace_open_link",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p3",
+      "bounds": [
+        186,
+        190,
+        196,
+        196
+      ],
+      "visible_pixels": 44
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_necklace_link_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p4",
+      "bounds": [
+        240,
+        152,
+        258,
+        168
+      ],
+      "visible_pixels": 112
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_necklace_tangled_run",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p5",
+      "bounds": [
+        118,
+        136,
+        162,
+        180
+      ],
+      "visible_pixels": 892
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_necklace_link_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p5",
+      "bounds": [
+        240,
+        152,
+        258,
+        168
+      ],
+      "visible_pixels": 112
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p6",
+      "evidence": "metal_split",
+      "template": "sp4_gold_necklace_open_link",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p6",
+      "bounds": [
+        186,
+        190,
+        196,
+        196
+      ],
+      "visible_pixels": 44
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_necklace_link_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p6",
+      "bounds": [
+        240,
+        152,
+        258,
+        168
+      ],
+      "visible_pixels": 112
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_necklace_tangled_run",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p7",
+      "bounds": [
+        118,
+        136,
+        162,
+        180
+      ],
+      "visible_pixels": 892
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p7",
+      "evidence": "metal_split",
+      "template": "sp4_gold_necklace_open_link",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p7",
+      "bounds": [
+        186,
+        190,
+        196,
+        196
+      ],
+      "visible_pixels": 44
+    },
+    {
+      "definition": "sp3_gold_necklace_0_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_necklace_link_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_0_p7",
+      "bounds": [
+        240,
+        152,
+        258,
+        168
+      ],
+      "visible_pixels": 112
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_necklace_tangled_run",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p1",
+      "bounds": [
+        134,
+        144,
+        170,
+        180
+      ],
+      "visible_pixels": 544
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p2",
+      "evidence": "metal_split",
+      "template": "sp4_gold_necklace_open_link",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p2",
+      "bounds": [
+        188,
+        196,
+        198,
+        204
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_necklace_tangled_run",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p3",
+      "bounds": [
+        134,
+        144,
+        170,
+        180
+      ],
+      "visible_pixels": 544
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p3",
+      "evidence": "metal_split",
+      "template": "sp4_gold_necklace_open_link",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p3",
+      "bounds": [
+        188,
+        196,
+        198,
+        204
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_necklace_link_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p4",
+      "bounds": [
+        238,
+        142,
+        250,
+        156
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_necklace_tangled_run",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p5",
+      "bounds": [
+        134,
+        144,
+        170,
+        180
+      ],
+      "visible_pixels": 544
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_necklace_link_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p5",
+      "bounds": [
+        238,
+        142,
+        250,
+        156
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p6",
+      "evidence": "metal_split",
+      "template": "sp4_gold_necklace_open_link",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p6",
+      "bounds": [
+        188,
+        196,
+        198,
+        204
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_necklace_link_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p6",
+      "bounds": [
+        238,
+        142,
+        250,
+        156
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_necklace_tangled_run",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p7",
+      "bounds": [
+        134,
+        144,
+        170,
+        180
+      ],
+      "visible_pixels": 544
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p7",
+      "evidence": "metal_split",
+      "template": "sp4_gold_necklace_open_link",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p7",
+      "bounds": [
+        188,
+        196,
+        198,
+        204
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_gold_necklace_1_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_necklace_link_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_necklace_1_p7",
+      "bounds": [
+        238,
+        142,
+        250,
+        156
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_earrings_bent_post",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p1",
+      "bounds": [
+        266,
+        34,
+        314,
+        74
+      ],
+      "visible_pixels": 676
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p2",
+      "evidence": "metal_split",
+      "template": "sp4_gold_earrings_split_loop",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p2",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_earrings_bent_post",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p3",
+      "bounds": [
+        266,
+        34,
+        314,
+        74
+      ],
+      "visible_pixels": 676
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p3",
+      "evidence": "metal_split",
+      "template": "sp4_gold_earrings_split_loop",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p3",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_earrings_post_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p4",
+      "bounds": [
+        108,
+        180,
+        144,
+        216
+      ],
+      "visible_pixels": 916
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_earrings_bent_post",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p5",
+      "bounds": [
+        266,
+        34,
+        314,
+        74
+      ],
+      "visible_pixels": 676
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_earrings_post_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p5",
+      "bounds": [
+        108,
+        180,
+        144,
+        216
+      ],
+      "visible_pixels": 916
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p6",
+      "evidence": "metal_split",
+      "template": "sp4_gold_earrings_split_loop",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p6",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_earrings_post_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p6",
+      "bounds": [
+        108,
+        180,
+        144,
+        216
+      ],
+      "visible_pixels": 916
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_earrings_bent_post",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p7",
+      "bounds": [
+        266,
+        34,
+        314,
+        74
+      ],
+      "visible_pixels": 676
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p7",
+      "evidence": "metal_split",
+      "template": "sp4_gold_earrings_split_loop",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p7",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_earrings_0_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_earrings_post_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_0_p7",
+      "bounds": [
+        108,
+        180,
+        144,
+        216
+      ],
+      "visible_pixels": 916
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_earrings_bent_post",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p1",
+      "bounds": [
+        266,
+        34,
+        314,
+        74
+      ],
+      "visible_pixels": 676
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p2",
+      "evidence": "metal_split",
+      "template": "sp4_gold_earrings_split_loop",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p2",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_earrings_bent_post",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p3",
+      "bounds": [
+        266,
+        34,
+        314,
+        74
+      ],
+      "visible_pixels": 676
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p3",
+      "evidence": "metal_split",
+      "template": "sp4_gold_earrings_split_loop",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p3",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_earrings_post_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p4",
+      "bounds": [
+        108,
+        180,
+        144,
+        216
+      ],
+      "visible_pixels": 904
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_earrings_bent_post",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p5",
+      "bounds": [
+        266,
+        34,
+        314,
+        74
+      ],
+      "visible_pixels": 676
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_earrings_post_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p5",
+      "bounds": [
+        108,
+        180,
+        144,
+        216
+      ],
+      "visible_pixels": 904
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p6",
+      "evidence": "metal_split",
+      "template": "sp4_gold_earrings_split_loop",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p6",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_earrings_post_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p6",
+      "bounds": [
+        108,
+        180,
+        144,
+        216
+      ],
+      "visible_pixels": 904
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_earrings_bent_post",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p7",
+      "bounds": [
+        266,
+        34,
+        314,
+        74
+      ],
+      "visible_pixels": 676
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p7",
+      "evidence": "metal_split",
+      "template": "sp4_gold_earrings_split_loop",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p7",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_gold_earrings_1_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_earrings_post_plating",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_earrings_1_p7",
+      "bounds": [
+        108,
+        180,
+        144,
+        216
+      ],
+      "visible_pixels": 904
+    },
+    {
+      "definition": "sp3_gold_bar_0_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bar_face_score",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p1",
+      "bounds": [
+        72,
+        80,
+        112,
+        104
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_bar_0_p2",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bar_corner_impact",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p2",
+      "bounds": [
+        312,
+        168,
+        334,
+        186
+      ],
+      "visible_pixels": 292
+    },
+    {
+      "definition": "sp3_gold_bar_0_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bar_face_score",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p3",
+      "bounds": [
+        72,
+        80,
+        112,
+        104
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_bar_0_p3",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bar_corner_impact",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p3",
+      "bounds": [
+        312,
+        168,
+        334,
+        186
+      ],
+      "visible_pixels": 292
+    },
+    {
+      "definition": "sp3_gold_bar_0_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bar_seam_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p4",
+      "bounds": [
+        128,
+        176,
+        218,
+        182
+      ],
+      "visible_pixels": 540
+    },
+    {
+      "definition": "sp3_gold_bar_0_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bar_face_score",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p5",
+      "bounds": [
+        72,
+        80,
+        112,
+        104
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_bar_0_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bar_seam_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p5",
+      "bounds": [
+        128,
+        176,
+        218,
+        182
+      ],
+      "visible_pixels": 540
+    },
+    {
+      "definition": "sp3_gold_bar_0_p6",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bar_corner_impact",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p6",
+      "bounds": [
+        312,
+        168,
+        334,
+        186
+      ],
+      "visible_pixels": 292
+    },
+    {
+      "definition": "sp3_gold_bar_0_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bar_seam_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p6",
+      "bounds": [
+        128,
+        176,
+        218,
+        182
+      ],
+      "visible_pixels": 540
+    },
+    {
+      "definition": "sp3_gold_bar_0_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bar_face_score",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p7",
+      "bounds": [
+        72,
+        80,
+        112,
+        104
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_bar_0_p7",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bar_corner_impact",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p7",
+      "bounds": [
+        312,
+        168,
+        334,
+        186
+      ],
+      "visible_pixels": 292
+    },
+    {
+      "definition": "sp3_gold_bar_0_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bar_seam_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_0_p7",
+      "bounds": [
+        128,
+        176,
+        218,
+        182
+      ],
+      "visible_pixels": 540
+    },
+    {
+      "definition": "sp3_gold_bar_1_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bar_face_score",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p1",
+      "bounds": [
+        96,
+        72,
+        136,
+        96
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_bar_1_p2",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bar_corner_impact",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p2",
+      "bounds": [
+        290,
+        172,
+        312,
+        190
+      ],
+      "visible_pixels": 288
+    },
+    {
+      "definition": "sp3_gold_bar_1_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bar_face_score",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p3",
+      "bounds": [
+        96,
+        72,
+        136,
+        96
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_bar_1_p3",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bar_corner_impact",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p3",
+      "bounds": [
+        290,
+        172,
+        312,
+        190
+      ],
+      "visible_pixels": 288
+    },
+    {
+      "definition": "sp3_gold_bar_1_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bar_seam_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p4",
+      "bounds": [
+        128,
+        180,
+        218,
+        186
+      ],
+      "visible_pixels": 540
+    },
+    {
+      "definition": "sp3_gold_bar_1_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bar_face_score",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p5",
+      "bounds": [
+        96,
+        72,
+        136,
+        96
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_bar_1_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bar_seam_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p5",
+      "bounds": [
+        128,
+        180,
+        218,
+        186
+      ],
+      "visible_pixels": 540
+    },
+    {
+      "definition": "sp3_gold_bar_1_p6",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bar_corner_impact",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p6",
+      "bounds": [
+        290,
+        172,
+        312,
+        190
+      ],
+      "visible_pixels": 288
+    },
+    {
+      "definition": "sp3_gold_bar_1_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bar_seam_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p6",
+      "bounds": [
+        128,
+        180,
+        218,
+        186
+      ],
+      "visible_pixels": 540
+    },
+    {
+      "definition": "sp3_gold_bar_1_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_gold_bar_face_score",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p7",
+      "bounds": [
+        96,
+        72,
+        136,
+        96
+      ],
+      "visible_pixels": 428
+    },
+    {
+      "definition": "sp3_gold_bar_1_p7",
+      "evidence": "metal_split",
+      "template": "sp4_gold_bar_corner_impact",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p7",
+      "bounds": [
+        290,
+        172,
+        312,
+        190
+      ],
+      "visible_pixels": 288
+    },
+    {
+      "definition": "sp3_gold_bar_1_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_gold_bar_seam_core",
+      "view": "front",
+      "texture": "starpawn:sp3_gold_bar_1_p7",
+      "bounds": [
+        128,
+        180,
+        218,
+        186
+      ],
+      "visible_pixels": 540
+    },
+    {
+      "definition": "sp3_silver_ring_0_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_ring_groove_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p1",
+      "bounds": [
+        162,
+        176,
+        204,
+        190
+      ],
+      "visible_pixels": 284
+    },
+    {
+      "definition": "sp3_silver_ring_0_p2",
+      "evidence": "metal_split",
+      "template": "sp4_silver_ring_shank_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p2",
+      "bounds": [
+        128,
+        154,
+        144,
+        186
+      ],
+      "visible_pixels": 176
+    },
+    {
+      "definition": "sp3_silver_ring_0_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_ring_groove_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p3",
+      "bounds": [
+        162,
+        176,
+        204,
+        190
+      ],
+      "visible_pixels": 284
+    },
+    {
+      "definition": "sp3_silver_ring_0_p3",
+      "evidence": "metal_split",
+      "template": "sp4_silver_ring_shank_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p3",
+      "bounds": [
+        128,
+        154,
+        144,
+        186
+      ],
+      "visible_pixels": 176
+    },
+    {
+      "definition": "sp3_silver_ring_0_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_ring_copper_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p4",
+      "bounds": [
+        224,
+        166,
+        260,
+        198
+      ],
+      "visible_pixels": 796
+    },
+    {
+      "definition": "sp3_silver_ring_0_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_ring_groove_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p5",
+      "bounds": [
+        162,
+        176,
+        204,
+        190
+      ],
+      "visible_pixels": 284
+    },
+    {
+      "definition": "sp3_silver_ring_0_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_ring_copper_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p5",
+      "bounds": [
+        224,
+        166,
+        260,
+        198
+      ],
+      "visible_pixels": 796
+    },
+    {
+      "definition": "sp3_silver_ring_0_p6",
+      "evidence": "metal_split",
+      "template": "sp4_silver_ring_shank_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p6",
+      "bounds": [
+        128,
+        154,
+        144,
+        186
+      ],
+      "visible_pixels": 176
+    },
+    {
+      "definition": "sp3_silver_ring_0_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_ring_copper_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p6",
+      "bounds": [
+        224,
+        166,
+        260,
+        198
+      ],
+      "visible_pixels": 796
+    },
+    {
+      "definition": "sp3_silver_ring_0_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_ring_groove_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p7",
+      "bounds": [
+        162,
+        176,
+        204,
+        190
+      ],
+      "visible_pixels": 284
+    },
+    {
+      "definition": "sp3_silver_ring_0_p7",
+      "evidence": "metal_split",
+      "template": "sp4_silver_ring_shank_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p7",
+      "bounds": [
+        128,
+        154,
+        144,
+        186
+      ],
+      "visible_pixels": 176
+    },
+    {
+      "definition": "sp3_silver_ring_0_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_ring_copper_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_0_p7",
+      "bounds": [
+        224,
+        166,
+        260,
+        198
+      ],
+      "visible_pixels": 796
+    },
+    {
+      "definition": "sp3_silver_ring_1_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_ring_groove_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p1",
+      "bounds": [
+        170,
+        176,
+        204,
+        186
+      ],
+      "visible_pixels": 164
+    },
+    {
+      "definition": "sp3_silver_ring_1_p2",
+      "evidence": "metal_split",
+      "template": "sp4_silver_ring_shank_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p2",
+      "bounds": [
+        138,
+        144,
+        150,
+        172
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_silver_ring_1_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_ring_groove_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p3",
+      "bounds": [
+        170,
+        176,
+        204,
+        186
+      ],
+      "visible_pixels": 164
+    },
+    {
+      "definition": "sp3_silver_ring_1_p3",
+      "evidence": "metal_split",
+      "template": "sp4_silver_ring_shank_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p3",
+      "bounds": [
+        138,
+        144,
+        150,
+        172
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_silver_ring_1_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_ring_copper_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p4",
+      "bounds": [
+        220,
+        164,
+        252,
+        192
+      ],
+      "visible_pixels": 636
+    },
+    {
+      "definition": "sp3_silver_ring_1_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_ring_groove_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p5",
+      "bounds": [
+        170,
+        176,
+        204,
+        186
+      ],
+      "visible_pixels": 164
+    },
+    {
+      "definition": "sp3_silver_ring_1_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_ring_copper_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p5",
+      "bounds": [
+        220,
+        164,
+        252,
+        192
+      ],
+      "visible_pixels": 636
+    },
+    {
+      "definition": "sp3_silver_ring_1_p6",
+      "evidence": "metal_split",
+      "template": "sp4_silver_ring_shank_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p6",
+      "bounds": [
+        138,
+        144,
+        150,
+        172
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_silver_ring_1_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_ring_copper_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p6",
+      "bounds": [
+        220,
+        164,
+        252,
+        192
+      ],
+      "visible_pixels": 636
+    },
+    {
+      "definition": "sp3_silver_ring_1_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_ring_groove_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p7",
+      "bounds": [
+        170,
+        176,
+        204,
+        186
+      ],
+      "visible_pixels": 164
+    },
+    {
+      "definition": "sp3_silver_ring_1_p7",
+      "evidence": "metal_split",
+      "template": "sp4_silver_ring_shank_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p7",
+      "bounds": [
+        138,
+        144,
+        150,
+        172
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_silver_ring_1_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_ring_copper_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_ring_1_p7",
+      "bounds": [
+        220,
+        164,
+        252,
+        192
+      ],
+      "visible_pixels": 636
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bracelet_engraving_loss",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p1",
+      "bounds": [
+        152,
+        166,
+        206,
+        180
+      ],
+      "visible_pixels": 380
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p2",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bracelet_arc_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p2",
+      "bounds": [
+        200,
+        166,
+        212,
+        194
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bracelet_engraving_loss",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p3",
+      "bounds": [
+        152,
+        166,
+        206,
+        180
+      ],
+      "visible_pixels": 368
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p3",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bracelet_arc_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p3",
+      "bounds": [
+        200,
+        166,
+        212,
+        194
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bracelet_seam_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p4",
+      "bounds": [
+        232,
+        38,
+        238,
+        58
+      ],
+      "visible_pixels": 120
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bracelet_engraving_loss",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p5",
+      "bounds": [
+        152,
+        166,
+        206,
+        180
+      ],
+      "visible_pixels": 380
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bracelet_seam_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p5",
+      "bounds": [
+        232,
+        38,
+        238,
+        58
+      ],
+      "visible_pixels": 120
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p6",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bracelet_arc_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p6",
+      "bounds": [
+        200,
+        166,
+        212,
+        194
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bracelet_seam_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p6",
+      "bounds": [
+        232,
+        38,
+        238,
+        58
+      ],
+      "visible_pixels": 120
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bracelet_engraving_loss",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p7",
+      "bounds": [
+        152,
+        166,
+        206,
+        180
+      ],
+      "visible_pixels": 368
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p7",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bracelet_arc_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p7",
+      "bounds": [
+        200,
+        166,
+        212,
+        194
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_silver_bracelet_0_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bracelet_seam_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_0_p7",
+      "bounds": [
+        232,
+        38,
+        238,
+        58
+      ],
+      "visible_pixels": 120
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bracelet_engraving_loss",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p1",
+      "bounds": [
+        112,
+        164,
+        162,
+        176
+      ],
+      "visible_pixels": 364
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p2",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bracelet_arc_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p2",
+      "bounds": [
+        234,
+        162,
+        248,
+        184
+      ],
+      "visible_pixels": 124
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bracelet_engraving_loss",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p3",
+      "bounds": [
+        112,
+        164,
+        162,
+        176
+      ],
+      "visible_pixels": 364
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p3",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bracelet_arc_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p3",
+      "bounds": [
+        234,
+        162,
+        248,
+        184
+      ],
+      "visible_pixels": 124
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bracelet_seam_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p4",
+      "bounds": [
+        230,
+        24,
+        236,
+        42
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bracelet_engraving_loss",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p5",
+      "bounds": [
+        112,
+        164,
+        162,
+        176
+      ],
+      "visible_pixels": 364
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bracelet_seam_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p5",
+      "bounds": [
+        230,
+        24,
+        236,
+        42
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p6",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bracelet_arc_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p6",
+      "bounds": [
+        234,
+        162,
+        248,
+        184
+      ],
+      "visible_pixels": 124
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bracelet_seam_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p6",
+      "bounds": [
+        230,
+        24,
+        236,
+        42
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bracelet_engraving_loss",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p7",
+      "bounds": [
+        112,
+        164,
+        162,
+        176
+      ],
+      "visible_pixels": 364
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p7",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bracelet_arc_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p7",
+      "bounds": [
+        234,
+        162,
+        248,
+        184
+      ],
+      "visible_pixels": 124
+    },
+    {
+      "definition": "sp3_silver_bracelet_1_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bracelet_seam_breakthrough",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bracelet_1_p7",
+      "bounds": [
+        230,
+        24,
+        236,
+        42
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_necklace_flattened_links",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p1",
+      "bounds": [
+        114,
+        126,
+        134,
+        146
+      ],
+      "visible_pixels": 104
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p2",
+      "evidence": "metal_split",
+      "template": "sp4_silver_necklace_jump_ring_gap",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p2",
+      "bounds": [
+        196,
+        180,
+        204,
+        190
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_necklace_flattened_links",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p3",
+      "bounds": [
+        114,
+        126,
+        134,
+        146
+      ],
+      "visible_pixels": 104
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p3",
+      "evidence": "metal_split",
+      "template": "sp4_silver_necklace_jump_ring_gap",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p3",
+      "bounds": [
+        196,
+        180,
+        204,
+        190
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_necklace_link_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p4",
+      "bounds": [
+        240,
+        152,
+        258,
+        168
+      ],
+      "visible_pixels": 112
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_necklace_flattened_links",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p5",
+      "bounds": [
+        114,
+        126,
+        134,
+        146
+      ],
+      "visible_pixels": 104
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_necklace_link_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p5",
+      "bounds": [
+        240,
+        152,
+        258,
+        168
+      ],
+      "visible_pixels": 112
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p6",
+      "evidence": "metal_split",
+      "template": "sp4_silver_necklace_jump_ring_gap",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p6",
+      "bounds": [
+        196,
+        180,
+        204,
+        190
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_necklace_link_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p6",
+      "bounds": [
+        240,
+        152,
+        258,
+        168
+      ],
+      "visible_pixels": 112
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_necklace_flattened_links",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p7",
+      "bounds": [
+        114,
+        126,
+        134,
+        146
+      ],
+      "visible_pixels": 104
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p7",
+      "evidence": "metal_split",
+      "template": "sp4_silver_necklace_jump_ring_gap",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p7",
+      "bounds": [
+        196,
+        180,
+        204,
+        190
+      ],
+      "visible_pixels": 60
+    },
+    {
+      "definition": "sp3_silver_necklace_0_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_necklace_link_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_0_p7",
+      "bounds": [
+        240,
+        152,
+        258,
+        168
+      ],
+      "visible_pixels": 112
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_necklace_flattened_links",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p1",
+      "bounds": [
+        122,
+        128,
+        140,
+        140
+      ],
+      "visible_pixels": 48
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p2",
+      "evidence": "metal_split",
+      "template": "sp4_silver_necklace_jump_ring_gap",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p2",
+      "bounds": [
+        196,
+        188,
+        204,
+        198
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_necklace_flattened_links",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p3",
+      "bounds": [
+        122,
+        128,
+        140,
+        140
+      ],
+      "visible_pixels": 48
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p3",
+      "evidence": "metal_split",
+      "template": "sp4_silver_necklace_jump_ring_gap",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p3",
+      "bounds": [
+        196,
+        188,
+        204,
+        198
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_necklace_link_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p4",
+      "bounds": [
+        238,
+        142,
+        250,
+        156
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_necklace_flattened_links",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p5",
+      "bounds": [
+        122,
+        128,
+        140,
+        140
+      ],
+      "visible_pixels": 48
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_necklace_link_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p5",
+      "bounds": [
+        238,
+        142,
+        250,
+        156
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p6",
+      "evidence": "metal_split",
+      "template": "sp4_silver_necklace_jump_ring_gap",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p6",
+      "bounds": [
+        196,
+        188,
+        204,
+        198
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_necklace_link_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p6",
+      "bounds": [
+        238,
+        142,
+        250,
+        156
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_necklace_flattened_links",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p7",
+      "bounds": [
+        122,
+        128,
+        140,
+        140
+      ],
+      "visible_pixels": 48
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p7",
+      "evidence": "metal_split",
+      "template": "sp4_silver_necklace_jump_ring_gap",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p7",
+      "bounds": [
+        196,
+        188,
+        204,
+        198
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_necklace_1_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_necklace_link_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_necklace_1_p7",
+      "bounds": [
+        238,
+        142,
+        250,
+        156
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_earrings_twisted_hook",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p1",
+      "bounds": [
+        274,
+        32,
+        314,
+        118
+      ],
+      "visible_pixels": 1028
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p2",
+      "evidence": "metal_split",
+      "template": "sp4_silver_earrings_pendant_loop_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p2",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_earrings_twisted_hook",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p3",
+      "bounds": [
+        274,
+        32,
+        314,
+        118
+      ],
+      "visible_pixels": 1028
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p3",
+      "evidence": "metal_split",
+      "template": "sp4_silver_earrings_pendant_loop_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p3",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_earrings_body_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p4",
+      "bounds": [
+        196,
+        60,
+        220,
+        98
+      ],
+      "visible_pixels": 664
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_earrings_twisted_hook",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p5",
+      "bounds": [
+        274,
+        32,
+        314,
+        118
+      ],
+      "visible_pixels": 1028
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_earrings_body_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p5",
+      "bounds": [
+        196,
+        60,
+        220,
+        98
+      ],
+      "visible_pixels": 664
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p6",
+      "evidence": "metal_split",
+      "template": "sp4_silver_earrings_pendant_loop_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p6",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_earrings_body_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p6",
+      "bounds": [
+        196,
+        60,
+        220,
+        98
+      ],
+      "visible_pixels": 664
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_earrings_twisted_hook",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p7",
+      "bounds": [
+        274,
+        32,
+        314,
+        118
+      ],
+      "visible_pixels": 1028
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p7",
+      "evidence": "metal_split",
+      "template": "sp4_silver_earrings_pendant_loop_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p7",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_earrings_0_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_earrings_body_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_0_p7",
+      "bounds": [
+        196,
+        60,
+        220,
+        98
+      ],
+      "visible_pixels": 664
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_earrings_twisted_hook",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p1",
+      "bounds": [
+        274,
+        32,
+        314,
+        118
+      ],
+      "visible_pixels": 1028
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p2",
+      "evidence": "metal_split",
+      "template": "sp4_silver_earrings_pendant_loop_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p2",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_earrings_twisted_hook",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p3",
+      "bounds": [
+        274,
+        32,
+        314,
+        118
+      ],
+      "visible_pixels": 1028
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p3",
+      "evidence": "metal_split",
+      "template": "sp4_silver_earrings_pendant_loop_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p3",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_earrings_body_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p4",
+      "bounds": [
+        196,
+        60,
+        220,
+        98
+      ],
+      "visible_pixels": 664
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_earrings_twisted_hook",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p5",
+      "bounds": [
+        274,
+        32,
+        314,
+        118
+      ],
+      "visible_pixels": 1028
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_earrings_body_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p5",
+      "bounds": [
+        196,
+        60,
+        220,
+        98
+      ],
+      "visible_pixels": 664
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p6",
+      "evidence": "metal_split",
+      "template": "sp4_silver_earrings_pendant_loop_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p6",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_earrings_body_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p6",
+      "bounds": [
+        196,
+        60,
+        220,
+        98
+      ],
+      "visible_pixels": 664
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_earrings_twisted_hook",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p7",
+      "bounds": [
+        274,
+        32,
+        314,
+        118
+      ],
+      "visible_pixels": 1028
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p7",
+      "evidence": "metal_split",
+      "template": "sp4_silver_earrings_pendant_loop_split",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p7",
+      "bounds": [
+        108,
+        120,
+        114,
+        130
+      ],
+      "visible_pixels": 56
+    },
+    {
+      "definition": "sp3_silver_earrings_1_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_earrings_body_core",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_earrings_1_p7",
+      "bounds": [
+        196,
+        60,
+        220,
+        98
+      ],
+      "visible_pixels": 664
+    },
+    {
+      "definition": "sp3_silver_bar_0_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bar_face_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p1",
+      "bounds": [
+        244,
+        94,
+        286,
+        128
+      ],
+      "visible_pixels": 556
+    },
+    {
+      "definition": "sp3_silver_bar_0_p2",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bar_edge_roll",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p2",
+      "bounds": [
+        132,
+        178,
+        154,
+        186
+      ],
+      "visible_pixels": 136
+    },
+    {
+      "definition": "sp3_silver_bar_0_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bar_face_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p3",
+      "bounds": [
+        244,
+        94,
+        286,
+        128
+      ],
+      "visible_pixels": 556
+    },
+    {
+      "definition": "sp3_silver_bar_0_p3",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bar_edge_roll",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p3",
+      "bounds": [
+        132,
+        178,
+        154,
+        186
+      ],
+      "visible_pixels": 136
+    },
+    {
+      "definition": "sp3_silver_bar_0_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bar_copper_seam",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p4",
+      "bounds": [
+        336,
+        120,
+        354,
+        146
+      ],
+      "visible_pixels": 132
+    },
+    {
+      "definition": "sp3_silver_bar_0_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bar_face_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p5",
+      "bounds": [
+        244,
+        94,
+        286,
+        128
+      ],
+      "visible_pixels": 556
+    },
+    {
+      "definition": "sp3_silver_bar_0_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bar_copper_seam",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p5",
+      "bounds": [
+        336,
+        120,
+        354,
+        146
+      ],
+      "visible_pixels": 132
+    },
+    {
+      "definition": "sp3_silver_bar_0_p6",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bar_edge_roll",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p6",
+      "bounds": [
+        132,
+        178,
+        154,
+        186
+      ],
+      "visible_pixels": 136
+    },
+    {
+      "definition": "sp3_silver_bar_0_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bar_copper_seam",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p6",
+      "bounds": [
+        336,
+        120,
+        354,
+        146
+      ],
+      "visible_pixels": 132
+    },
+    {
+      "definition": "sp3_silver_bar_0_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bar_face_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p7",
+      "bounds": [
+        244,
+        94,
+        286,
+        128
+      ],
+      "visible_pixels": 556
+    },
+    {
+      "definition": "sp3_silver_bar_0_p7",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bar_edge_roll",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p7",
+      "bounds": [
+        132,
+        178,
+        154,
+        186
+      ],
+      "visible_pixels": 136
+    },
+    {
+      "definition": "sp3_silver_bar_0_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bar_copper_seam",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_0_p7",
+      "bounds": [
+        336,
+        120,
+        354,
+        146
+      ],
+      "visible_pixels": 132
+    },
+    {
+      "definition": "sp3_silver_bar_1_p1",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bar_face_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p1",
+      "bounds": [
+        244,
+        84,
+        286,
+        118
+      ],
+      "visible_pixels": 556
+    },
+    {
+      "definition": "sp3_silver_bar_1_p2",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bar_edge_roll",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p2",
+      "bounds": [
+        132,
+        182,
+        154,
+        190
+      ],
+      "visible_pixels": 136
+    },
+    {
+      "definition": "sp3_silver_bar_1_p3",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bar_face_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p3",
+      "bounds": [
+        244,
+        84,
+        286,
+        118
+      ],
+      "visible_pixels": 556
+    },
+    {
+      "definition": "sp3_silver_bar_1_p3",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bar_edge_roll",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p3",
+      "bounds": [
+        132,
+        182,
+        154,
+        190
+      ],
+      "visible_pixels": 136
+    },
+    {
+      "definition": "sp3_silver_bar_1_p4",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bar_copper_seam",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p4",
+      "bounds": [
+        310,
+        120,
+        326,
+        146
+      ],
+      "visible_pixels": 128
+    },
+    {
+      "definition": "sp3_silver_bar_1_p5",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bar_face_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p5",
+      "bounds": [
+        244,
+        84,
+        286,
+        118
+      ],
+      "visible_pixels": 556
+    },
+    {
+      "definition": "sp3_silver_bar_1_p5",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bar_copper_seam",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p5",
+      "bounds": [
+        310,
+        120,
+        326,
+        146
+      ],
+      "visible_pixels": 128
+    },
+    {
+      "definition": "sp3_silver_bar_1_p6",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bar_edge_roll",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p6",
+      "bounds": [
+        132,
+        182,
+        154,
+        190
+      ],
+      "visible_pixels": 136
+    },
+    {
+      "definition": "sp3_silver_bar_1_p6",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bar_copper_seam",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p6",
+      "bounds": [
+        310,
+        120,
+        326,
+        146
+      ],
+      "visible_pixels": 128
+    },
+    {
+      "definition": "sp3_silver_bar_1_p7",
+      "evidence": "metal_wear",
+      "template": "sp4_silver_bar_face_abrasion",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p7",
+      "bounds": [
+        244,
+        84,
+        286,
+        118
+      ],
+      "visible_pixels": 556
+    },
+    {
+      "definition": "sp3_silver_bar_1_p7",
+      "evidence": "metal_split",
+      "template": "sp4_silver_bar_edge_roll",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p7",
+      "bounds": [
+        132,
+        182,
+        154,
+        190
+      ],
+      "visible_pixels": 136
+    },
+    {
+      "definition": "sp3_silver_bar_1_p7",
+      "evidence": "metal_plating",
+      "template": "sp4_silver_bar_copper_seam",
+      "view": "front",
+      "texture": "starpawn:sp3_silver_bar_1_p7",
+      "bounds": [
+        310,
+        120,
+        326,
+        146
+      ],
+      "visible_pixels": 128
+    },
+    {
+      "definition": "sp3_jade_pendant_p1",
+      "evidence": "jade_dye",
+      "template": "sp4_jade_pendant_dyed_groove",
+      "view": "front",
+      "texture": "starpawn:sp3_jade_pendant_p1",
+      "bounds": [
+        162,
+        172,
+        222,
+        202
+      ],
+      "visible_pixels": 616
+    },
+    {
+      "definition": "sp3_jade_pendant_p2",
+      "evidence": "jade_crack",
+      "template": "sp4_jade_pendant_drilled_eye_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_jade_pendant_p2",
+      "bounds": [
+        196,
+        58,
+        224,
+        102
+      ],
+      "visible_pixels": 212
+    },
+    {
+      "definition": "sp3_jade_cabochon_p1",
+      "evidence": "jade_dye",
+      "template": "sp4_jade_cabochon_dyed_grain_web",
+      "view": "front",
+      "texture": "starpawn:sp3_jade_cabochon_p1",
+      "bounds": [
+        144,
+        160,
+        244,
+        194
+      ],
+      "visible_pixels": 1208
+    },
+    {
+      "definition": "sp3_jade_cabochon_p2",
+      "evidence": "jade_crack",
+      "template": "sp4_jade_cabochon_dome_fissure",
+      "view": "front",
+      "texture": "starpawn:sp3_jade_cabochon_p2",
+      "bounds": [
+        240,
+        108,
+        276,
+        164
+      ],
+      "visible_pixels": 272
+    },
+    {
+      "definition": "sp3_jade_bangle_p1",
+      "evidence": "jade_dye",
+      "template": "sp4_jade_bangle_dyed_band",
+      "view": "front",
+      "texture": "starpawn:sp3_jade_bangle_p1",
+      "bounds": [
+        174,
+        180,
+        220,
+        210
+      ],
+      "visible_pixels": 516
+    },
+    {
+      "definition": "sp3_jade_bangle_p2",
+      "evidence": "jade_crack",
+      "template": "sp4_jade_bangle_radial_bangle_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_jade_bangle_p2",
+      "bounds": [
+        280,
+        172,
+        292,
+        196
+      ],
+      "visible_pixels": 92
+    },
+    {
+      "definition": "sp3_jade_beads_p1",
+      "evidence": "jade_dye",
+      "template": "sp4_jade_beads_dyed_drill_pool",
+      "view": "front",
+      "texture": "starpawn:sp3_jade_beads_p1",
+      "bounds": [
+        206,
+        194,
+        228,
+        216
+      ],
+      "visible_pixels": 164
+    },
+    {
+      "definition": "sp3_jade_beads_p2",
+      "evidence": "jade_crack",
+      "template": "sp4_jade_beads_drill_exit_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_jade_beads_p2",
+      "bounds": [
+        160,
+        196,
+        188,
+        212
+      ],
+      "visible_pixels": 104
+    },
+    {
+      "definition": "sp3_rough_yellow_p1",
+      "evidence": "jade_crack",
+      "template": "compat04_yellow_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_yellow_p1",
+      "bounds": [
+        242,
+        106,
+        262,
+        146
+      ],
+      "visible_pixels": 216
+    },
+    {
+      "definition": "sp3_rough_yellow_p1",
+      "evidence": "jade_crack_window",
+      "template": "compat04_yellow_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_yellow_p1_window",
+      "bounds": [
+        156,
+        128,
+        172,
+        160
+      ],
+      "visible_pixels": 152
+    },
+    {
+      "definition": "sp3_rough_yellow_p2",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_yellow_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_yellow_p2_window",
+      "bounds": [
+        130,
+        126,
+        154,
+        156
+      ],
+      "visible_pixels": 392
+    },
+    {
+      "definition": "sp3_rough_yellow_p3",
+      "evidence": "jade_crack",
+      "template": "compat04_yellow_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_yellow_p3",
+      "bounds": [
+        242,
+        106,
+        262,
+        146
+      ],
+      "visible_pixels": 216
+    },
+    {
+      "definition": "sp3_rough_yellow_p3",
+      "evidence": "jade_crack_window",
+      "template": "compat04_yellow_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_yellow_p3_window",
+      "bounds": [
+        156,
+        128,
+        172,
+        160
+      ],
+      "visible_pixels": 152
+    },
+    {
+      "definition": "sp3_rough_yellow_p3",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_yellow_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_yellow_p3_window",
+      "bounds": [
+        130,
+        126,
+        154,
+        156
+      ],
+      "visible_pixels": 392
+    },
+    {
+      "definition": "sp3_rough_black_p1",
+      "evidence": "jade_crack",
+      "template": "compat04_black_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_black_p1",
+      "bounds": [
+        202,
+        74,
+        222,
+        114
+      ],
+      "visible_pixels": 216
+    },
+    {
+      "definition": "sp3_rough_black_p1",
+      "evidence": "jade_crack_window",
+      "template": "compat04_black_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_black_p1_window",
+      "bounds": [
+        192,
+        136,
+        208,
+        168
+      ],
+      "visible_pixels": 152
+    },
+    {
+      "definition": "sp3_rough_black_p2",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_black_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_black_p2_window",
+      "bounds": [
+        180,
+        136,
+        208,
+        162
+      ],
+      "visible_pixels": 388
+    },
+    {
+      "definition": "sp3_rough_black_p3",
+      "evidence": "jade_crack",
+      "template": "compat04_black_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_black_p3",
+      "bounds": [
+        202,
+        74,
+        222,
+        114
+      ],
+      "visible_pixels": 216
+    },
+    {
+      "definition": "sp3_rough_black_p3",
+      "evidence": "jade_crack_window",
+      "template": "compat04_black_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_black_p3_window",
+      "bounds": [
+        194,
+        136,
+        208,
+        168
+      ],
+      "visible_pixels": 64
+    },
+    {
+      "definition": "sp3_rough_black_p3",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_black_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_black_p3_window",
+      "bounds": [
+        180,
+        136,
+        208,
+        162
+      ],
+      "visible_pixels": 388
+    },
+    {
+      "definition": "sp3_rough_water_p1",
+      "evidence": "jade_crack",
+      "template": "compat04_water_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_water_p1",
+      "bounds": [
+        96,
+        116,
+        116,
+        156
+      ],
+      "visible_pixels": 212
+    },
+    {
+      "definition": "sp3_rough_water_p1",
+      "evidence": "jade_crack_window",
+      "template": "compat04_water_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_water_p1_window",
+      "bounds": [
+        220,
+        112,
+        236,
+        142
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_rough_water_p2",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_water_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_water_p2_window",
+      "bounds": [
+        208,
+        104,
+        240,
+        122
+      ],
+      "visible_pixels": 280
+    },
+    {
+      "definition": "sp3_rough_water_p3",
+      "evidence": "jade_crack",
+      "template": "compat04_water_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_water_p3",
+      "bounds": [
+        96,
+        116,
+        116,
+        156
+      ],
+      "visible_pixels": 212
+    },
+    {
+      "definition": "sp3_rough_water_p3",
+      "evidence": "jade_crack_window",
+      "template": "compat04_water_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_water_p3_window",
+      "bounds": [
+        220,
+        112,
+        236,
+        142
+      ],
+      "visible_pixels": 144
+    },
+    {
+      "definition": "sp3_rough_water_p3",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_water_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_water_p3_window",
+      "bounds": [
+        208,
+        104,
+        240,
+        122
+      ],
+      "visible_pixels": 280
+    },
+    {
+      "definition": "sp3_rough_white_p1",
+      "evidence": "jade_crack",
+      "template": "compat04_white_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_white_p1",
+      "bounds": [
+        238,
+        170,
+        254,
+        202
+      ],
+      "visible_pixels": 168
+    },
+    {
+      "definition": "sp3_rough_white_p1",
+      "evidence": "jade_crack_window",
+      "template": "compat04_white_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_white_p1_window",
+      "bounds": [
+        162,
+        94,
+        178,
+        126
+      ],
+      "visible_pixels": 152
+    },
+    {
+      "definition": "sp3_rough_white_p2",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_white_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_white_p2_window",
+      "bounds": [
+        152,
+        86,
+        178,
+        104
+      ],
+      "visible_pixels": 200
+    },
+    {
+      "definition": "sp3_rough_white_p3",
+      "evidence": "jade_crack",
+      "template": "compat04_white_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_white_p3",
+      "bounds": [
+        238,
+        170,
+        254,
+        202
+      ],
+      "visible_pixels": 168
+    },
+    {
+      "definition": "sp3_rough_white_p3",
+      "evidence": "jade_crack_window",
+      "template": "compat04_white_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_white_p3_window",
+      "bounds": [
+        166,
+        100,
+        178,
+        126
+      ],
+      "visible_pixels": 124
+    },
+    {
+      "definition": "sp3_rough_white_p3",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_white_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_white_p3_window",
+      "bounds": [
+        152,
+        86,
+        178,
+        104
+      ],
+      "visible_pixels": 200
+    },
+    {
+      "definition": "sp3_rough_rust_p1",
+      "evidence": "jade_crack",
+      "template": "compat04_rust_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_rust_p1",
+      "bounds": [
+        170,
+        96,
+        190,
+        136
+      ],
+      "visible_pixels": 216
+    },
+    {
+      "definition": "sp3_rough_rust_p1",
+      "evidence": "jade_crack_window",
+      "template": "compat04_rust_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_rust_p1_window",
+      "bounds": [
+        220,
+        144,
+        236,
+        176
+      ],
+      "visible_pixels": 152
+    },
+    {
+      "definition": "sp3_rough_rust_p2",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_rust_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_rust_p2_window",
+      "bounds": [
+        230,
+        140,
+        252,
+        170
+      ],
+      "visible_pixels": 372
+    },
+    {
+      "definition": "sp3_rough_rust_p3",
+      "evidence": "jade_crack",
+      "template": "compat04_rust_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_rust_p3",
+      "bounds": [
+        170,
+        96,
+        190,
+        136
+      ],
+      "visible_pixels": 216
+    },
+    {
+      "definition": "sp3_rough_rust_p3",
+      "evidence": "jade_crack_window",
+      "template": "compat04_rust_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_rust_p3_window",
+      "bounds": [
+        220,
+        144,
+        236,
+        176
+      ],
+      "visible_pixels": 152
+    },
+    {
+      "definition": "sp3_rough_rust_p3",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_rust_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_rust_p3_window",
+      "bounds": [
+        230,
+        140,
+        252,
+        170
+      ],
+      "visible_pixels": 372
+    },
+    {
+      "definition": "sp3_rough_mountain_p1",
+      "evidence": "jade_crack",
+      "template": "compat04_mountain_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_mountain_p1",
+      "bounds": [
+        222,
+        138,
+        242,
+        178
+      ],
+      "visible_pixels": 216
+    },
+    {
+      "definition": "sp3_rough_mountain_p1",
+      "evidence": "jade_crack_window",
+      "template": "compat04_mountain_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_mountain_p1_window",
+      "bounds": [
+        184,
+        94,
+        200,
+        126
+      ],
+      "visible_pixels": 152
+    },
+    {
+      "definition": "sp3_rough_mountain_p2",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_mountain_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_mountain_p2_window",
+      "bounds": [
+        164,
+        90,
+        208,
+        124
+      ],
+      "visible_pixels": 280
+    },
+    {
+      "definition": "sp3_rough_mountain_p3",
+      "evidence": "jade_crack",
+      "template": "compat04_mountain_shell_crack",
+      "view": "front",
+      "texture": "starpawn:sp3_rough_mountain_p3",
+      "bounds": [
+        222,
+        138,
+        242,
+        178
+      ],
+      "visible_pixels": 216
+    },
+    {
+      "definition": "sp3_rough_mountain_p3",
+      "evidence": "jade_crack_window",
+      "template": "compat04_mountain_window_crack",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_mountain_p3_window",
+      "bounds": [
+        184,
+        94,
+        196,
+        126
+      ],
+      "visible_pixels": 108
+    },
+    {
+      "definition": "sp3_rough_mountain_p3",
+      "evidence": "jade_inclusion_window",
+      "template": "compat04_mountain_inclusion",
+      "view": "window",
+      "texture": "starpawn:sp3_rough_mountain_p3_window",
+      "bounds": [
+        164,
+        90,
+        208,
+        124
+      ],
+      "visible_pixels": 280
+    }
+  ],
+  "problems": [],
+  "migration": "Existing facts, occupied cells and saved IDs are preserved. Fifteen short physical handbooks are additive; old books retain access.",
+  "scope": "The 0.4 jewelry/recovery machines are art proposals, not newly enabled gameplay."
+}

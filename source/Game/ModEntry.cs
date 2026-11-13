@@ -59,6 +59,7 @@ namespace StarPawn.Game
             ModHelper.AddDebugFunction(ModId, ModHelper.DEBUG_CATEGORY_SPECIAL, "StarPawn Desk", OpenHome);
             ModHelper.AddDebugFunction(ModId, ModHelper.DEBUG_CATEGORY_SPECIAL, "StarPawn Save Demo", SaveDemo);
             ModHelper.AddDebugFunction(ModId, ModHelper.DEBUG_CATEGORY_SPECIAL, "StarPawn Instrument Audit", AuditInstruments);
+            ModHelper.AddDebugFunction(ModId, ModHelper.DEBUG_CATEGORY_SPECIAL, "StarPawn Art QA (isolated slot 6)", PrepareArtQa);
             hotkeyObject = new GameObject("StarPawn Desk"); UnityEngine.Object.DontDestroyOnLoad(hotkeyObject);
             var hotkey = hotkeyObject.AddComponent<StarPawnEntryPoint>(); hotkey.Pressed = Toggle;
             hotkey.Available = () => runReady && enabled && ContentReady && InPlayableStore();

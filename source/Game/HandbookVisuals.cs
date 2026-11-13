@@ -7,10 +7,10 @@ namespace StarPawn.Game
     {
         // Native papers use a 1080-high reference canvas. At 1440p this displays
         // as 880 x 1232, matching the observed base-game document proportions.
-        private PaperUI BeginHandbook(string title)
+        private PaperUI BeginHandbook(string title,bool introduction)
         {
             CloseWindow();
-            var ui=ModHelper.CreatePaper(ModId,"appraisal-handbook","starpawn:handbook_page",660,924);
+            var ui=ModHelper.CreatePaper(ModId,"appraisal-handbook",introduction?"starpawn:handbook_intro":"starpawn:handbook_page",660,924);
             ui.Data.designWidth=440;ui.Data.designHeight=616;
             ui.SetChrome(false,false,false,false).AddPage(title);
             ui.SetPosition(-545,0);

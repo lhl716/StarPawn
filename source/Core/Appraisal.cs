@@ -15,6 +15,9 @@ namespace StarPawn.Core
     {
         public static readonly string[] InstrumentKinds = { "scale", "assay", "loupe", "jade_light", "uv" };
         public static readonly string[] ManualCategories = { "metals", "jade", "antiques", "art", "electronics", "media", "books" };
+        public const int MaxHandbookPages = 5;
+        public const int HandbookExamplesPerPage = 2;
+        public const int HandbookIndexRows = 5;
 
         public static string Category(ItemDefinition definition)
         {
@@ -53,6 +56,38 @@ namespace StarPawn.Core
                 .GroupBy(e => string.IsNullOrEmpty(e.Evidence.TemplateId) ? e.Evidence.CauseId : e.Evidence.TemplateId)
                 .OrderBy(g => g.Key, StringComparer.Ordinal).Select(g => g.First()).ToList().AsReadOnly();
         }
+
+        public static IReadOnlyList<ItemDefinition> HandbookVolumes(string category) => Catalog.Definitions
+            .Where(d => d.ManualFor == category && d.HandbookTemplates.Count > 0)
+            .OrderBy(d => d.Id, StringComparer.Ordinal).ToList().AsReadOnly();
+
+        public static bool IsHandbookCollection(ItemDefinition definition) =>
+            !string.IsNullOrEmpty(definition.ManualFor) && definition.HandbookTemplates.Count == 0 &&
+            HandbookVolumes(definition.ManualFor).Count > 0;
+
+        public static IReadOnlyList<HandbookEntry> Handbook(ItemDefinition manual)
+        {
+            var entries = Handbook(manual.ManualFor);
+            return manual.HandbookTemplates.Count == 0 ? entries : entries
+                .Where(e => manual.HandbookTemplates.Contains(e.Evidence.TemplateId)).ToList().AsReadOnly();
+        }
+
+        // Includes the opening explanation page; there is no hidden overflow section.
+        public static int HandbookPageCount(ItemDefinition manual) => IsHandbookCollection(manual)
+            ? Math.Max(1, (HandbookVolumes(manual.ManualFor).Count + HandbookIndexRows - 1) / HandbookIndexRows)
+            : 1 + (Handbook(manual).Count + HandbookExamplesPerPage - 1) / HandbookExamplesPerPage;
+
+        // Routing depends only on the public product family, never its hidden defects.
+        public static ItemDefinition HandbookFor(ItemDefinition item)
+        {
+            var category = Category(item);
+            return HandbookVolumes(category).FirstOrDefault(d => d.HandbookFamilies.Contains(Family(item))) ??
+                Catalog.Definitions.First(d => d.ManualFor == category && d.HandbookTemplates.Count == 0);
+        }
+
+        public static bool CanReadHandbook(ItemDefinition owned, ItemDefinition requested) =>
+            owned.IsBook && !string.IsNullOrEmpty(owned.ManualFor) && owned.ManualFor == requested.ManualFor &&
+            (owned.HandbookTemplates.Count == 0 || owned.Id == requested.Id);
 
         public static string InstrumentName(string kind)
         {
@@ -135,7 +170,13 @@ namespace StarPawn.Core
             var ids = new HashSet<string>(items.Select(d => d.Id));
             foreach (var d in items)
             {
+                if (d.HandbookTemplates == null || d.HandbookFamilies == null) throw new InvalidOperationException("Missing handbook lists.");
                 if (!string.IsNullOrEmpty(d.ManualFor) && (!d.IsBook || !ManualCategories.Contains(d.ManualFor))) throw new InvalidOperationException("Invalid appraisal manual.");
+                if (d.HandbookTemplates.Count > 0 && (string.IsNullOrEmpty(d.ManualFor) || d.HandbookFamilies.Count == 0 ||
+                    d.HandbookTemplates.Count > (MaxHandbookPages - 1) * HandbookExamplesPerPage ||
+                    d.HandbookTemplates.Distinct().Count() != d.HandbookTemplates.Count ||
+                    d.HandbookFamilies.Distinct().Count() != d.HandbookFamilies.Count))
+                    throw new InvalidOperationException("Invalid or oversized handbook volume.");
                 if (d.IsJadeRough)
                     foreach (var output in new[] { d.JadePendantOutput, d.JadeCabochonOutput, d.JadeBangleOutput, d.JadeBeadsOutput }.Where(s => !string.IsNullOrEmpty(s)))
                         if (!ids.Contains(output) || items.Single(i => i.Id == output).IsJadeRough) throw new InvalidOperationException("Missing or recursive jade output.");
@@ -148,6 +189,35 @@ namespace StarPawn.Core
                 if (string.IsNullOrWhiteSpace(first.Guidance)) throw new InvalidOperationException("A fixed defect template needs handbook guidance.");
                 if (g.Any(h => h.Label != first.Label || h.Guidance != first.Guidance || h.Repairable != first.Repairable || h.RevealsMaterial != first.RevealsMaterial || h.RevealsAuthenticity != first.RevealsAuthenticity || h.InstrumentKind != first.InstrumentKind))
                     throw new InvalidOperationException("Defect template properties differ: " + g.Key);
+            }
+            foreach (var category in ManualCategories)
+            {
+                var products = items.Where(d => !d.ShopOnly && Category(d) == category).ToList();
+                var expected = new HashSet<string>(products.SelectMany(d => d.Hotspots).Select(h => h.TemplateId));
+                var volumes = items.Where(d => d.ManualFor == category && d.HandbookTemplates.Count > 0).ToList();
+                if (volumes.Count == 0)
+                {
+                    if (items.Any(d => d.ManualFor == category) && expected.Count > (MaxHandbookPages - 1) * HandbookExamplesPerPage)
+                        throw new InvalidOperationException("Long handbook must be split into volumes.");
+                    continue;
+                }
+                if (volumes.Count > MaxHandbookPages * HandbookIndexRows)
+                    throw new InvalidOperationException("Handbook collection index exceeds five pages.");
+                var covered = volumes.SelectMany(d => d.HandbookTemplates).ToList();
+                if (covered.Distinct().Count() != covered.Count || !expected.SetEquals(covered))
+                    throw new InvalidOperationException("Handbook volumes omit or duplicate fixed templates.");
+                foreach (var volume in volumes)
+                    if (volume.HandbookFamilies.Any(f => !products.Any(d => Family(d) == f)))
+                        throw new InvalidOperationException("Handbook refers to an unknown or foreign family.");
+                foreach (var family in products.GroupBy(Family))
+                {
+                    var matches = volumes.Where(v => v.HandbookFamilies.Contains(family.Key)).ToList();
+                    // An extension with no authored clues can use the collection index.
+                    // Defect-bearing families still require one complete fixed volume.
+                    if (matches.Count > 1 || (matches.Count == 0 && family.Any(d => d.Hotspots.Count > 0)) ||
+                        (matches.Count == 1 && family.SelectMany(d => d.Hotspots).Any(h => !matches[0].HandbookTemplates.Contains(h.TemplateId))))
+                        throw new InvalidOperationException("Every product family needs one complete matching handbook.");
+                }
             }
         }
     }
