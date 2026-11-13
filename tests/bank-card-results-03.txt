@@ -1,0 +1,11 @@
+PASS viewing cards never opens account or issues plastic
+PASS savings opening issues account reference and repeated claim is idempotent
+PASS full inventory leaves account valid and retry uses same account
+PASS duplicate card references do not duplicate account money
+PASS savings reissue invalidates old serial and preserves balance
+PASS closed savings account invalidates retained card
+PASS credit loss and reissue preserve debt
+PASS same-day credit reopen has a distinct account identity
+PASS foreign run and corrupt serial cannot open account
+PASS legacy signed credit obtains identity without clearing principal
+BANK_CARD_POLICY_PASSED=10; actual BankCardsRoot/Core plus delivery fake; NOT Unity/Harmony validation

@@ -47,10 +47,11 @@ public static class EconomyTests
             Check(duplicate.Duplicate && Encode(f.State) == snapshot);
             f.Close(23); Check(f.State.Bank.Balance == 1030);
         });
-        Test("Later deposit accrues only under the stated closing-balance rule", () => {
+        Test("Later deposit becomes interest eligible the next day", () => {
             var f = new Fixture(); f.Do(EconomyAction.OpenBank, 1); f.Do(EconomyAction.Deposit, 20, 1000);
             Check(f.State.Bank.Balance == 1000 && f.State.Bank.LastSettledDay == 19);
-            f.Close(20); Check(f.State.Bank.Balance == 1010);
+            f.Close(20); Check(f.State.Bank.Balance == 1000);
+            f.Close(21); Check(f.State.Bank.Balance == 1010);
         });
         Test("Card reissue references one balance and reopening gets a fresh account cursor", () => {
             var f = new Fixture(); var old = f.Do(EconomyAction.OpenBank, 1).EntityId;
@@ -274,6 +275,65 @@ public static class EconomyTests
             Check(!EconomyService.Apply(f.State, f.Command(EconomyAction.TakeLoan, 1, 1), f.Rules).Success);
             Check(before == Encode(f.State)); f.Close(1);
             Check(!EconomyService.Apply(f.State, f.Command(EconomyAction.Deposit, 1, 1), f.Rules).Success);
+        });
+        Test("Daily limits aggregate successful amounts and failures do not consume them", () => {
+            var f = new Fixture(); f.Do(EconomyAction.OpenBank, 1);
+            var deposit = f.Command(EconomyAction.Deposit, 1, 3000); f.Do(deposit); f.Do(deposit);
+            f.Do(EconomyAction.Deposit, 1, 2000);
+            Check(f.State.DepositedToday == 5000);
+            var before = Encode(f.State); Check(!EconomyService.Apply(f.State, f.Command(EconomyAction.Deposit, 1, 1), f.Rules).Success);
+            Check(Encode(f.State) == before);
+            f.Do(EconomyAction.Withdraw, 1, 1500); f.Do(EconomyAction.Withdraw, 1, 500);
+            Check(EconomyService.GetDailyRemaining(f.State, EconomyAction.Withdraw, 1, f.Rules) == 0);
+            before = Encode(f.State); Check(!EconomyService.Apply(f.State, f.Command(EconomyAction.Withdraw, 1, 1), f.Rules).Success);
+            Check(before == Encode(f.State));
+        });
+        Test("Reissue reopening and serialized reload cannot refresh daily usage", () => {
+            var f = new Fixture(); f.Rules.DailyDepositLimit = 500; f.Do(EconomyAction.OpenBank, 1);
+            f.Do(EconomyAction.Deposit, 1, 500); f.Do(EconomyAction.Withdraw, 1, 500);
+            f.Do(EconomyAction.ReissueBankCard, 1); f.Do(EconomyAction.CloseBank, 1); f.Do(EconomyAction.OpenBank, 1);
+            f.State = JsonSerializer.Deserialize<EconomyState>(Encode(f.State), Json)!;
+            Check(!EconomyService.Apply(f.State, f.Command(EconomyAction.Deposit, 1, 1), f.Rules).Success);
+            var before = Encode(f.State); Check(EconomyService.GetDailyRemaining(f.State, EconomyAction.Deposit, 2, f.Rules) == 500 && Encode(f.State) == before);
+            f.Do(EconomyAction.Deposit, 2, 500); Check(f.State.DailyUsageDay == 2 && f.State.DepositedToday == 500);
+            Check(!EconomyService.Apply(f.State, f.Command(EconomyAction.Withdraw, 1, 1), f.Rules).Success);
+        });
+        Test("Credit repayments remain available without replenishing daily borrowing", () => {
+            var f = new Fixture(); f.Do(EconomyAction.OpenCredit, 1, 5000); f.Do(EconomyAction.BorrowCredit, 1, 1000);
+            f.Do(EconomyAction.RepayCredit, 1, 1000); f.Do(EconomyAction.ReissueCreditCard, 1);
+            f.Do(EconomyAction.CloseCredit, 1); f.Do(EconomyAction.OpenCredit, 1, 5000);
+            Check(!EconomyService.Apply(f.State, f.Command(EconomyAction.BorrowCredit, 1, 1), f.Rules).Success);
+            f.Do(EconomyAction.BorrowCredit, 2, 1000); Check(f.State.CreditBorrowedToday == 1000);
+        });
+        Test("Loan contracts share daily and total outstanding principal caps", () => {
+            var f = new Fixture(); f.Rules.MaximumTotalLoanPrincipal = 4000;
+            f.Do(EconomyAction.TakeLoan, 1, 2000); f.Do(EconomyAction.TakeLoan, 1, 1000);
+            Check(!EconomyService.Apply(f.State, f.Command(EconomyAction.TakeLoan, 1, 1), f.Rules).Success);
+            f.Do(EconomyAction.TakeLoan, 2, 1000);
+            var before = Encode(f.State); Check(!EconomyService.Apply(f.State, f.Command(EconomyAction.TakeLoan, 2, 1), f.Rules).Success && before == Encode(f.State));
+        });
+        Test("Legacy states start without quota debt and signed rates stay immutable", () => {
+            var f = new Fixture(); f.Do(EconomyAction.OpenCredit, 1, 5000); var original = f.State.Credit.DailyInterestBps;
+            f.Rules.CreditInterestBps = 600; f.Do(EconomyAction.BorrowCredit, 2, 100); Check(f.State.Credit.DailyInterestBps == original);
+            var legacy = JsonSerializer.Deserialize<EconomyState>("{}", Json)!;
+            EconomyService.Validate(legacy, new EconomyRules()); Check(legacy.DailyUsageDay == -1 && legacy.Bank.NewDepositDay == -1);
+        });
+        Test("Depositing borrowed cash cannot earn during the loan interest grace night", () => {
+            var f = new Fixture(); f.Rules = new EconomyRules(); f.Do(EconomyAction.OpenBank, 1); f.Close(1);
+            f.Cash = 0; var loan = f.Do(EconomyAction.TakeLoan, 2, 1000).EntityId; f.Do(EconomyAction.Deposit, 2, 1000);
+            f.Close(2); Check(f.State.Bank.Balance == 1000);
+            f.Do(EconomyAction.Withdraw, 3, 1000); var repay = f.Command(EconomyAction.RepayLoan, 3, 1000); repay.ContractId = loan; f.Do(repay);
+            Check(f.Cash == 0 && f.State.Bank.Balance == 0 && f.State.Loans.Single().Status == "Paid");
+        });
+        Test("Default 7 14 and 30 day rates preserve savings below borrowing cost", () => {
+            foreach (var days in new[] { 7, 14, 30 }) {
+                var f = new Fixture(); f.Rules = new EconomyRules(); f.Do(EconomyAction.OpenBank, 1); f.Do(EconomyAction.Deposit, 1, 1000);
+                f.Do(EconomyAction.OpenCredit, 1, 5000); f.Do(EconomyAction.BorrowCredit, 1, 1000); f.Do(EconomyAction.TakeLoan, 1, 1000);
+                f.Close(days + 1);
+                var savings = f.State.Bank.Balance - 1000;
+                Check(savings > 0 && savings < f.State.Credit.AccruedInterest && savings < f.State.Loans.Single().AccruedInterest);
+                Console.WriteLine("BALANCE days=" + days + " savings=" + savings + " credit=" + f.State.Credit.AccruedInterest + " loan=" + f.State.Loans.Single().AccruedInterest);
+            }
         });
         Console.WriteLine("PASS: " + passed + " economy invariant tests. Native cash/assets/save integration is not covered here.");
         return 0;

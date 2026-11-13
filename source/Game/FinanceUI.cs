@@ -17,21 +17,24 @@ namespace StarPawn.Game
             if (bank.Status != "Open")
             {
                 Text(ui, 24, 74, 550, 36, bank.Status == "Closed" ? "原账户已关闭，可主动重新开户。" : "尚未开户：不会产生存款、利息、债务或自动费用。");
-                Text(ui, 24, 116, 550, 45, "储蓄日息 " + FinanceRate(rules.BankInterestBps) + "，开户次日起计息。\n后续存取款按游戏日收盘余额计算，销户须先处理余额与借贷。", 10);
+                Text(ui, 24, 116, 550, 45, "储蓄日息 " + FinanceRate(rules.BankInterestBps) + "；新存款次日起息。\n每日存入上限 " + rules.DailyDepositLimit + "，取现上限 " + rules.DailyWithdrawalLimit + " Cr。", 10);
                 Button(ui, 24, 169, 150, 24, "开立储蓄账户", () => FinanceDo(new EconomyCommand { Kind = EconomyAction.OpenBank }, OpenBank), "bank-open");
             }
             else
             {
                 Text(ui, 24, 73, 550, 27, "账户余额 " + bank.Balance + " Cr    日息 " + FinanceRate(bank.DailyInterestBps), 14);
-                Text(ui, 24, 105, 550, 39, "账户 " + bank.AccountId + " · 储蓄卡版本 " + bank.CardSerial + "\n卡片仅引用此账户，补卡不会产生第二份余额。", 10);
+                Text(ui, 24, 105, 550, 39, "账户 " + bank.AccountId + " · 储蓄卡版本 " + bank.CardSerial + "\n今日存入 " + DailyUsage(EconomyAction.Deposit) + " · 取现 " + DailyUsage(EconomyAction.Withdraw), 10);
                 Button(ui, 24, 152, 115, 24, "存入 100", () => FinanceDo(new EconomyCommand { Kind = EconomyAction.Deposit, Amount = 100 }, OpenBank), "bank-deposit-100");
                 Button(ui, 149, 152, 115, 24, "存入 500", () => FinanceDo(new EconomyCommand { Kind = EconomyAction.Deposit, Amount = 500 }, OpenBank), "bank-deposit-500");
                 Button(ui, 274, 152, 115, 24, "取出 100", () => FinanceDo(new EconomyCommand { Kind = EconomyAction.Withdraw, Amount = 100 }, OpenBank), "bank-withdraw-100");
-                Button(ui, 399, 152, 175, 24, "取出全部 " + bank.Balance, () => FinanceDo(new EconomyCommand { Kind = EconomyAction.Withdraw, Amount = bank.Balance }, OpenBank), "bank-withdraw-all");
+                var withdrawable = Math.Min(bank.Balance, EconomyService.GetDailyRemaining(state.Economy, EconomyAction.Withdraw, Day(), rules));
+                if (withdrawable > 0)
+                    Button(ui, 399, 152, 175, 24, "取出可用 " + withdrawable, () => FinanceDo(new EconomyCommand { Kind = EconomyAction.Withdraw, Amount = withdrawable }, OpenBank), "bank-withdraw-all");
+                else Text(ui, 399, 154, 175, 22, bank.Balance == 0 ? "暂无可取余额" : "今日取现额度已用完", 10);
                 Button(ui, 24, 188, 150, 24, "补发储蓄卡", () => FinanceDo(new EconomyCommand { Kind = EconomyAction.ReissueBankCard }, OpenBank), "bank-card");
                 Button(ui, 184, 188, 150, 24, "关闭零余额账户", () => FinanceDo(new EconomyCommand { Kind = EconomyAction.CloseBank }, OpenBank), "bank-close");
                 Button(ui, 344, 188, 230, 24, "实体银行卡 · 领取与补办", OpenCards, "bank-cards");
-                Text(ui, 24, 226, 550, 30, "首次计息：第 " + bank.FirstInterestDay + " 日；已结算至第 " + bank.LastSettledDay + " 日。", 10);
+                Text(ui, 24, 226, 550, 45, "当前可计息本金 " + EconomyService.GetSavingsInterestPrincipal(bank, Day()) + " Cr；新存款次日起息。\n已结算至第 " + bank.LastSettledDay + " 日；补卡或重新开户不刷新今日额度。", 10);
             }
             Button(ui, 24, 283, 170, 24, "信用与普通贷款", OpenCreditLoans, "bank-credit");
             Button(ui, 204, 283, 170, 24, "证券与本地行情", OpenMarkets, "bank-markets");
@@ -58,10 +61,12 @@ namespace StarPawn.Game
                 Button(ui, 294, 124, 125, 24, "还款 " + Math.Min(100, debt), () => FinanceDo(new EconomyCommand { Kind = EconomyAction.RepayCredit, Amount = Math.Min(100, debt) }, OpenCreditLoans), "credit-repay-100");
                 Button(ui, 429, 124, 145, 24, "还清 " + debt, () => FinanceDo(new EconomyCommand { Kind = EconomyAction.RepayCredit, Amount = debt }, OpenCreditLoans), "credit-repay-all");
             }
-            Text(ui, 24, 170, 550, 43, "普通贷款：期限 " + rules.DefaultLoanDays + " 个游戏日，日息 " + FinanceRate(rules.LoanInterestBps) + "。\n签约次日起计息；到期未还仍保留债务，不因关闭界面消失。", 10);
+            Text(ui, 24, 151, 550, 17, "今日信用借款 " + DailyUsage(EconomyAction.BorrowCredit) + " Cr；还款不限额。", 9);
+            Text(ui, 24, 174, 550, 39, "普通贷款：期限 " + rules.DefaultLoanDays + " 个游戏日，日息 " + FinanceRate(rules.LoanInterestBps) + "。\n签约次日起计息；旧合同保持签约利率。", 10);
             Button(ui, 24, 221, 160, 24, "借款 500", () => FinanceDo(new EconomyCommand { Kind = EconomyAction.TakeLoan, Amount = 500, TermDays = rules.DefaultLoanDays }, OpenCreditLoans), "loan-500");
             Button(ui, 194, 221, 160, 24, "借款 1000", () => FinanceDo(new EconomyCommand { Kind = EconomyAction.TakeLoan, Amount = 1000, TermDays = rules.DefaultLoanDays }, OpenCreditLoans), "loan-1000");
             Button(ui, 364, 221, 210, 24, "查看贷款合同", () => { financeLoanPage = 0; OpenLoanLedger(); }, "loan-ledger");
+            Text(ui, 24, 251, 550, 22, "今日贷款 " + DailyUsage(EconomyAction.TakeLoan) + "；未还本金 " + state.Economy.Loans.Where(x => x.Status == "Active").Sum(x => x.Principal) + " / " + rules.MaximumTotalLoanPrincipal, 9);
             Button(ui, 24, 283, 170, 24, "返回储蓄账户", OpenBank, "credit-back");
             Button(ui, 204, 283, 170, 24, "返回经营台", OpenHome, "credit-home");
             if (credit.Signed)
@@ -216,6 +221,7 @@ namespace StarPawn.Game
         }
 
         private static string FinanceRate(int basisPoints) => (basisPoints / 100m).ToString("0.##") + "%";
+        private string DailyUsage(EconomyAction kind) => state == null ? "" : EconomyService.GetDailyUsed(state.Economy, kind, Day()) + " / " + EconomyService.GetDailyLimit(kind, rules);
 
         private static string FinanceSecurityName(string symbol)
         {

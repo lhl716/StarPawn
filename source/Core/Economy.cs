@@ -58,10 +58,15 @@ namespace StarPawn.Core
     public sealed class EconomyRules
     {
         public int RulesVersion = 1;
-        public int BankInterestBps = 10;
-        public int CreditInterestBps = 35;
-        public int LoanInterestBps = 25;
-        public int PawnInterestBps = 40;
+        public int BankInterestBps = 20;
+        public int CreditInterestBps = 60;
+        public int LoanInterestBps = 45;
+        public int PawnInterestBps = 60;
+        public long DailyDepositLimit = 5000;
+        public long DailyWithdrawalLimit = 2000;
+        public long DailyCreditBorrowLimit = 1000;
+        public long DailyLoanBorrowLimit = 3000;
+        public long MaximumTotalLoanPrincipal = 10000;
         public int PawnRenewalFeeBps = 100;
         public int PawnLoanToValueBps = 6000;
         public long MaximumCreditLimit = 5000;
@@ -140,6 +145,8 @@ namespace StarPawn.Core
         public int DailyInterestBps;
         public long InterestRemainder;
         public int CardSerial;
+        public int NewDepositDay = -1;
+        public long NewDeposits;
         public BankAccountState Clone() => (BankAccountState)MemberwiseClone();
     }
 
@@ -256,6 +263,13 @@ namespace StarPawn.Core
         public List<EconomyReceipt> RecentOperations = new List<EconomyReceipt>();
         public int ArchivedLoanCount;
         public int ArchivedPawnCount;
+        // Save-wide usage survives reissue and closing/reopening any account.
+        // A new day is advanced only on a committed limited transaction.
+        public int DailyUsageDay = -1;
+        public long DepositedToday;
+        public long WithdrawnToday;
+        public long CreditBorrowedToday;
+        public long LoansBorrowedToday;
 
         public EconomyState DeepClone()
         {
@@ -295,6 +309,7 @@ namespace StarPawn.Core
                 Require(command.GameDay >= 0 && command.GameDay < int.MaxValue - 3661, "Invalid game day.");
                 Require(command.AvailableCash >= 0 && command.AvailableCash <= rules.MaximumCashBalance, "Invalid wallet snapshot.");
                 Require(command.GameDay > state.LastClosedDay, "This business day has already closed.");
+                Require(command.GameDay >= state.DailyUsageDay, "Business day predates the saved daily limits.");
                 var next = state.DeepClone();
                 var result = new EconomyResult();
                 SettleInternal(next, command.GameDay - 1, rules, result);
@@ -420,9 +435,14 @@ namespace StarPawn.Core
                     Require(s.Credit.Principal == 0 && s.Credit.AccruedInterest == 0 && !s.Loans.Any(x => x.Status == "Active"), "Settle outstanding credit and loans first.");
                     s.Bank.Status = "Closed"; result.EntityId = s.Bank.AccountId; break;
                 case EconomyAction.Deposit:
-                    BankOpen(s); Positive(c.Amount); s.Bank.Balance = checked(s.Bank.Balance + c.Amount); result.CashDelta = -c.Amount; break;
+                    BankOpen(s); Positive(c.Amount); UseDailyLimit(s, c, r);
+                    if (s.Bank.NewDepositDay != c.GameDay) { s.Bank.NewDepositDay = c.GameDay; s.Bank.NewDeposits = 0; }
+                    s.Bank.NewDeposits = checked(s.Bank.NewDeposits + c.Amount);
+                    s.Bank.Balance = checked(s.Bank.Balance + c.Amount); result.CashDelta = -c.Amount; break;
                 case EconomyAction.Withdraw:
                     BankOpen(s); Positive(c.Amount); Require(c.Amount <= s.Bank.Balance, "Insufficient bank balance.");
+                    UseDailyLimit(s, c, r);
+                    s.Bank.NewDeposits = Math.Max(0, s.Bank.NewDeposits - c.Amount);
                     s.Bank.Balance -= c.Amount; result.CashDelta = c.Amount; break;
                 case EconomyAction.ReissueBankCard:
                     BankOpen(s); s.Bank.CardSerial = checked(s.Bank.CardSerial + 1); result.EntityId = s.Bank.AccountId; break;
@@ -445,6 +465,7 @@ namespace StarPawn.Core
                 case EconomyAction.BorrowCredit:
                     Require(s.Credit.Signed, "Sign a credit agreement first."); Positive(c.Amount);
                     Require(checked(s.Credit.Principal + c.Amount) <= s.Credit.Limit, "Credit limit exceeded.");
+                    UseDailyLimit(s, c, r);
                     if (s.Credit.Principal == 0 && s.Credit.AccruedInterest == 0) { s.Credit.FirstInterestDay = c.GameDay + 1; s.Credit.LastSettledDay = c.GameDay; s.Credit.InterestRemainder = 0; }
                     s.Credit.Principal = checked(s.Credit.Principal + c.Amount); result.CashDelta = c.Amount; break;
                 case EconomyAction.RepayCredit:
@@ -455,6 +476,8 @@ namespace StarPawn.Core
                     result.CashDelta = -c.Amount; break;
                 case EconomyAction.TakeLoan:
                     Positive(c.Amount); Require(c.Amount <= r.MaximumLoanPrincipal, "Loan principal exceeds the product maximum.");
+                    Require(checked(s.Loans.Where(x => x.Status == "Active").Sum(x => x.Principal) + c.Amount) <= r.MaximumTotalLoanPrincipal, "普通贷款的未还本金已达总额度。");
+                    UseDailyLimit(s, c, r);
                     Require(s.Loans.Count(x => x.Status == "Active") < r.MaximumActiveContracts, "Too many open loans.");
                     var term = Term(c.TermDays, r.DefaultLoanDays, r);
                     var loan = new LoanContract { Id = NewId(s, "loan"), OriginalPrincipal = c.Amount, Principal = c.Amount,
@@ -561,7 +584,7 @@ namespace StarPawn.Core
                 if (s.Bank.Status == "Open" && day > s.Bank.LastSettledDay)
                 {
                     if (day >= s.Bank.FirstInterestDay)
-                        s.Bank.Balance = checked(s.Bank.Balance + Interest(s.Bank.Balance, s.Bank.DailyInterestBps, ref s.Bank.InterestRemainder));
+                        s.Bank.Balance = checked(s.Bank.Balance + Interest(GetSavingsInterestPrincipal(s.Bank, day), s.Bank.DailyInterestBps, ref s.Bank.InterestRemainder));
                     s.Bank.LastSettledDay = day;
                 }
                 if (s.Credit.Signed && day > s.Credit.LastSettledDay)
@@ -613,10 +636,15 @@ namespace StarPawn.Core
             Require(s.Bank != null && s.Credit != null && s.Loans != null && s.Positions != null && s.PawnContracts != null && s.Events != null && s.TriggeredEventKinds != null && s.RecentOperations != null, "Missing economy collection.");
             Require(s.Loans.All(x => x != null) && s.PawnContracts.All(x => x != null) && s.Positions.All(x => x != null) && s.Events.All(x => x != null) && s.RecentOperations.All(x => x != null), "Null economy record.");
             Require(s.LastCommandSequence >= 0 && s.NextEntitySequence > 0 && s.LastClosedDay >= -1 && s.MarketRevision >= 0, "Invalid economy cursors.");
+            Require(s.DailyUsageDay >= -1 && s.DailyUsageDay < int.MaxValue - 3661, "Invalid daily usage day.");
+            Balance(s.DepositedToday, r); Balance(s.WithdrawnToday, r); Balance(s.CreditBorrowedToday, r); Balance(s.LoansBorrowedToday, r);
+            if (s.DailyUsageDay == -1) Require(s.DepositedToday == 0 && s.WithdrawnToday == 0 && s.CreditBorrowedToday == 0 && s.LoansBorrowedToday == 0, "Daily usage has no date.");
             Require(new[] { "None", "Open", "Closed" }.Contains(s.Bank.Status), "Invalid bank state.");
             if (s.Bank.Status != "None") Require(!string.IsNullOrWhiteSpace(s.Bank.AccountId) && s.Bank.CardSerial > 0, "Invalid bank identity.");
             if (s.Bank.Status != "None") Require(s.Bank.OpenedDay >= 0 && s.Bank.FirstInterestDay > s.Bank.OpenedDay && s.Bank.LastSettledDay >= s.Bank.OpenedDay, "Invalid bank accrual dates.");
             if (s.Bank.Status != "Open") Require(s.Bank.Balance == 0, "Closed account holds money.");
+            Require(s.Bank.NewDepositDay >= -1 && s.Bank.NewDeposits >= 0 && s.Bank.NewDeposits <= s.Bank.Balance &&
+                (s.Bank.NewDepositDay >= 0 || s.Bank.NewDeposits == 0), "Invalid new-deposit accrual state.");
             ValidateRate(s.Bank.DailyInterestBps); ValidateRate(s.Credit.DailyInterestBps);
             Require(s.Credit.AccountId != null && s.Credit.AccountId.Length <= 128 && s.Credit.CardSerial >= 0, "Invalid credit card identity.");
             Require((s.Credit.AccountId.Length == 0 && s.Credit.CardSerial == 0) ||
@@ -688,6 +716,8 @@ namespace StarPawn.Core
             Require(r.RulesVersion > 0 && r.PawnLoanToValueBps > 0 && r.PawnLoanToValueBps <= 10000, "Invalid rules version or lending ratio.");
             Require(r.MaximumLedgerBalance > 0 && r.MaximumLedgerBalance <= 1000000000000L && r.MaximumCashBalance > 0 && r.MaximumCashBalance <= int.MaxValue, "Invalid monetary bound.");
             Require(r.MaximumCreditLimit > 0 && r.MaximumLoanPrincipal > 0 && r.MaximumPawnPrincipal > 0 && r.PawnLicenseCost >= 0, "Invalid finance limits.");
+            foreach (var limit in new[] { r.DailyDepositLimit, r.DailyWithdrawalLimit, r.DailyCreditBorrowLimit, r.DailyLoanBorrowLimit, r.MaximumTotalLoanPrincipal })
+                Require(limit > 0 && limit <= r.MaximumLedgerBalance && limit <= r.MaximumCashBalance, "Invalid daily finance limit.");
             Require(r.MaximumActiveContracts > 0 && r.MaximumPositions > 0 && r.RecentOperationLimit >= 1 && r.ClosedContractLimit >= 0, "Invalid record limits.");
             Require(r.DefaultLoanDays > 0 && r.DefaultPawnDays > 0 && r.MaximumTermDays > 0 && r.DefaultLoanDays <= r.MaximumTermDays && r.DefaultPawnDays <= r.MaximumTermDays && r.MaximumTermDays <= 3650, "Invalid term lengths.");
             Require(r.MaximumCatchupDays >= 1 && r.MaximumCatchupDays <= 36600 && r.MaximumSecurityQuantity > 0, "Invalid settlement/position bound.");
@@ -703,6 +733,51 @@ namespace StarPawn.Core
 
         private static bool HasParticipation(EconomyState s) => s.Bank.Status == "Open" || s.Credit.Signed || s.Loans.Any(x => x.Status == "Active") || s.SecuritiesOpened || s.PawnLicensed || s.MarketEventsOptedIn || s.GoldAgreementActive;
         private static void BankOpen(EconomyState s) => Require(s.Bank.Status == "Open", "Open a savings account first.");
+        public static long GetSavingsInterestPrincipal(BankAccountState bank, int day)
+            => bank.Status != "Open" || day < bank.FirstInterestDay ? 0 : Math.Max(0, bank.Balance - (bank.NewDepositDay == day ? bank.NewDeposits : 0));
+        public static long GetDailyLimit(EconomyAction kind, EconomyRules rules)
+        {
+            switch (kind)
+            {
+                case EconomyAction.Deposit: return rules.DailyDepositLimit;
+                case EconomyAction.Withdraw: return rules.DailyWithdrawalLimit;
+                case EconomyAction.BorrowCredit: return rules.DailyCreditBorrowLimit;
+                case EconomyAction.TakeLoan: return rules.DailyLoanBorrowLimit;
+                default: throw new ArgumentException("This action has no daily limit.");
+            }
+        }
+        public static long GetDailyUsed(EconomyState state, EconomyAction kind, int day)
+        {
+            Require(day >= 0 && day >= state.DailyUsageDay, "Invalid daily usage query day.");
+            if (day != state.DailyUsageDay) return 0;
+            switch (kind)
+            {
+                case EconomyAction.Deposit: return state.DepositedToday;
+                case EconomyAction.Withdraw: return state.WithdrawnToday;
+                case EconomyAction.BorrowCredit: return state.CreditBorrowedToday;
+                case EconomyAction.TakeLoan: return state.LoansBorrowedToday;
+                default: throw new ArgumentException("This action has no daily limit.");
+            }
+        }
+        public static long GetDailyRemaining(EconomyState state, EconomyAction kind, int day, EconomyRules rules)
+            => Math.Max(0, GetDailyLimit(kind, rules) - GetDailyUsed(state, kind, day));
+        private static void UseDailyLimit(EconomyState s, EconomyCommand c, EconomyRules r)
+        {
+            var remaining = GetDailyRemaining(s, c.Kind, c.GameDay, r);
+            Require(c.Amount <= remaining, "今日业务额度不足，剩余 " + remaining + " Cr；下一营业日恢复额度。");
+            if (s.DailyUsageDay != c.GameDay)
+            {
+                s.DailyUsageDay = c.GameDay;
+                s.DepositedToday = s.WithdrawnToday = s.CreditBorrowedToday = s.LoansBorrowedToday = 0;
+            }
+            switch (c.Kind)
+            {
+                case EconomyAction.Deposit: s.DepositedToday = checked(s.DepositedToday + c.Amount); break;
+                case EconomyAction.Withdraw: s.WithdrawnToday = checked(s.WithdrawnToday + c.Amount); break;
+                case EconomyAction.BorrowCredit: s.CreditBorrowedToday = checked(s.CreditBorrowedToday + c.Amount); break;
+                case EconomyAction.TakeLoan: s.LoansBorrowedToday = checked(s.LoansBorrowedToday + c.Amount); break;
+            }
+        }
         private static void Positive(long amount) => Require(amount > 0, "Amount must be positive.");
         private static void Balance(long value, EconomyRules r) => Require(value >= 0 && value <= r.MaximumLedgerBalance, "Balance is negative or exceeds its bound.");
         private static void ValidateRate(int rate) => Require(rate >= 0 && rate <= 10000, "Invalid basis-point interest rate.");
@@ -744,6 +819,8 @@ namespace StarPawn.Core
             s.GoldAgreementActive = n.GoldAgreementActive; s.GoldAgreementStartDay = n.GoldAgreementStartDay;
             s.Events = n.Events; s.TriggeredEventKinds = n.TriggeredEventKinds; s.RecentOperations = n.RecentOperations;
             s.ArchivedLoanCount = n.ArchivedLoanCount; s.ArchivedPawnCount = n.ArchivedPawnCount;
+            s.DailyUsageDay = n.DailyUsageDay; s.DepositedToday = n.DepositedToday; s.WithdrawnToday = n.WithdrawnToday;
+            s.CreditBorrowedToday = n.CreditBorrowedToday; s.LoansBorrowedToday = n.LoansBorrowedToday;
         }
     }
 }

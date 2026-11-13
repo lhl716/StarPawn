@@ -1,0 +1,36 @@
+PASS Unparticipating state and pure market queries have no side effects
+PASS Late bank opening never backfills interest and daily settlement is idempotent
+PASS Later deposit becomes interest eligible the next day
+PASS Card reissue references one balance and reopening gets a fresh account cursor
+PASS Insufficient cash rejects every staged balance/cursor change
+PASS Duplicate buttons and archived stale tokens cannot duplicate cash
+PASS Credit limit is not cash and borrowing creates matching debt
+PASS Credit cards reference one debt and same-day reopening invalidates old identity
+PASS Legacy credit agreement gains card identity only on explicit reissue without altering debt
+PASS Invalid credit card identity and serial overflow cannot partially change state
+PASS Loan terms snapshot rate and repayment pays interest before principal
+PASS Stocks and crypto require opt-in; trades conserve units and use deterministic quotes
+PASS Stale displayed market rejects both buys and sells without cash position or settlement changes
+PASS Same-day market revision also invalidates a displayed trade quote
+PASS Pawn custody rejects double pledges and returns the same borrower asset on due day
+PASS Pawn lender pays once, renewal retains identity, and customer redemption pays once
+PASS Due-day closing forfeits once and blocks later redemption
+PASS Multi-entity daily failure cannot partially credit earlier accounts
+PASS Local events require separate consent, start tomorrow, expire, and cannot be retriggered
+PASS Bank closure cannot erase loans and normal products do not enable macro story
+PASS Serialized state preserves idempotency and future schemas are rejected intact
+PASS Product closure cannot erase debt or positions; settled products can exit
+PASS Terminal contract histories are bounded while active obligations survive
+PASS Archived pawn effects retain immutable asset identity while previous state resolves contracts
+PASS Negative amounts wallet overflow and closed-day actions fail without mutation
+PASS Daily limits aggregate successful amounts and failures do not consume them
+PASS Reissue reopening and serialized reload cannot refresh daily usage
+PASS Credit repayments remain available without replenishing daily borrowing
+PASS Loan contracts share daily and total outstanding principal caps
+PASS Legacy states start without quota debt and signed rates stay immutable
+PASS Depositing borrowed cash cannot earn during the loan interest grace night
+BALANCE days=7 savings=14 credit=42 loan=31
+BALANCE days=14 savings=28 credit=84 loan=63
+BALANCE days=30 savings=61 credit=180 loan=135
+PASS Default 7 14 and 30 day rates preserve savings below borrowing cost
+PASS: 32 economy invariant tests. Native cash/assets/save integration is not covered here.

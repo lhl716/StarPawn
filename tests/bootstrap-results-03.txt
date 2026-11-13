@@ -1,0 +1,12 @@
+PASS real packaged content initializes through native folder API
+PASS two-miss rule override fails without overwriting config or save
+PASS future content schema fails closed
+PASS unknown finance key is rejected rather than silently defaulting
+PASS missing texture blocks registration
+PASS missing localization key blocks registration
+PASS duplicate JSON property is rejected
+PASS language path traversal is rejected
+PASS extension path traversal is rejected
+PASS partial language overlay preserves base keys and finance state
+PASS example extension loads with added keys and stable independent definition
+CONTENT BOOTSTRAP TESTS PASSED: 11
