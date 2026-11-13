@@ -1,0 +1,715 @@
+{
+ "asset_key": "scrap_board",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "scrap_board",
+   "state": "missing_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_missing_chip",
+   "Id": "missing_chip",
+   "CauseId": "sp4_scrap_board_missing_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.21875,
+   "V": 0.39453125,
+   "Width": 0.16666666666666666,
+   "Height": 0.2109375,
+   "bounds_px": [
+    52,
+    74,
+    116,
+    128
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "missing_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_missing_chip",
+   "Id": "missing_chip",
+   "CauseId": "sp4_scrap_board_missing_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2109375,
+   "V": 0.359375,
+   "Width": 0.171875,
+   "Height": 0.28125,
+   "bounds_px": [
+    16,
+    14,
+    38,
+    32
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "contact_stripping",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_contact_stripping",
+   "Id": "contact_stripping",
+   "CauseId": "sp4_scrap_board_contact_stripping",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3255208333333333,
+   "V": 0.74609375,
+   "Width": 0.19270833333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    88,
+    180,
+    162,
+    202
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "contact_stripping",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_contact_stripping",
+   "Id": "contact_stripping",
+   "CauseId": "sp4_scrap_board_contact_stripping",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8359375,
+   "Width": 0.203125,
+   "Height": 0.109375,
+   "bounds_px": [
+    28,
+    50,
+    54,
+    57
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "burned_trace",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_burned_trace",
+   "Id": "burned_trace",
+   "CauseId": "sp4_scrap_board_burned_trace",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4713541666666667,
+   "V": 0.58984375,
+   "Width": 0.11979166666666667,
+   "Height": 0.0703125,
+   "bounds_px": [
+    158,
+    142,
+    204,
+    160
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "burned_trace",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_burned_trace",
+   "Id": "burned_trace",
+   "CauseId": "sp4_scrap_board_burned_trace",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.47265625,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.109375,
+   "bounds_px": [
+    53,
+    37,
+    68,
+    44
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "corroded_pad",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_corroded_pad",
+   "Id": "corroded_pad",
+   "CauseId": "sp4_scrap_board_corroded_pad",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8541666666666666,
+   "V": 0.35546875,
+   "Width": 0.11458333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    306,
+    74,
+    350,
+    108
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "corroded_pad",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_corroded_pad",
+   "Id": "corroded_pad",
+   "CauseId": "sp4_scrap_board_corroded_pad",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.859375,
+   "V": 0.3125,
+   "Width": 0.109375,
+   "Height": 0.15625,
+   "bounds_px": [
+    103,
+    15,
+    117,
+    25
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "false_grade_label",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_false_grade_label",
+   "Id": "false_grade_label",
+   "CauseId": "sp4_scrap_board_false_grade_label",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.8723958333333334,
+   "V": 0.63671875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0859375,
+   "bounds_px": [
+    324,
+    152,
+    346,
+    174
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "false_grade_label",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_false_grade_label",
+   "Id": "false_grade_label",
+   "CauseId": "sp4_scrap_board_false_grade_label",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.87890625,
+   "V": 0.6796875,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    109,
+    40,
+    116,
+    47
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__contact_stripping",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_missing_chip",
+   "Id": "missing_chip",
+   "CauseId": "sp4_scrap_board_missing_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.21875,
+   "V": 0.39453125,
+   "Width": 0.16666666666666666,
+   "Height": 0.2109375,
+   "bounds_px": [
+    52,
+    74,
+    116,
+    128
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__contact_stripping",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_missing_chip",
+   "Id": "missing_chip",
+   "CauseId": "sp4_scrap_board_missing_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2109375,
+   "V": 0.359375,
+   "Width": 0.171875,
+   "Height": 0.28125,
+   "bounds_px": [
+    16,
+    14,
+    38,
+    32
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__contact_stripping",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_contact_stripping",
+   "Id": "contact_stripping",
+   "CauseId": "sp4_scrap_board_contact_stripping",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3255208333333333,
+   "V": 0.74609375,
+   "Width": 0.19270833333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    88,
+    180,
+    162,
+    202
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__contact_stripping",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_contact_stripping",
+   "Id": "contact_stripping",
+   "CauseId": "sp4_scrap_board_contact_stripping",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8359375,
+   "Width": 0.203125,
+   "Height": 0.109375,
+   "bounds_px": [
+    28,
+    50,
+    54,
+    57
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__burned_trace",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_missing_chip",
+   "Id": "missing_chip",
+   "CauseId": "sp4_scrap_board_missing_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.21875,
+   "V": 0.39453125,
+   "Width": 0.16666666666666666,
+   "Height": 0.2109375,
+   "bounds_px": [
+    52,
+    74,
+    116,
+    128
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__burned_trace",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_missing_chip",
+   "Id": "missing_chip",
+   "CauseId": "sp4_scrap_board_missing_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2109375,
+   "V": 0.359375,
+   "Width": 0.171875,
+   "Height": 0.28125,
+   "bounds_px": [
+    16,
+    14,
+    38,
+    32
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__burned_trace",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_burned_trace",
+   "Id": "burned_trace",
+   "CauseId": "sp4_scrap_board_burned_trace",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4713541666666667,
+   "V": 0.58984375,
+   "Width": 0.11979166666666667,
+   "Height": 0.0703125,
+   "bounds_px": [
+    158,
+    142,
+    204,
+    160
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__burned_trace",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_burned_trace",
+   "Id": "burned_trace",
+   "CauseId": "sp4_scrap_board_burned_trace",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.47265625,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.109375,
+   "bounds_px": [
+    53,
+    37,
+    68,
+    44
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__corroded_pad",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_missing_chip",
+   "Id": "missing_chip",
+   "CauseId": "sp4_scrap_board_missing_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.21875,
+   "V": 0.39453125,
+   "Width": 0.16666666666666666,
+   "Height": 0.2109375,
+   "bounds_px": [
+    52,
+    74,
+    116,
+    128
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__corroded_pad",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_missing_chip",
+   "Id": "missing_chip",
+   "CauseId": "sp4_scrap_board_missing_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2109375,
+   "V": 0.359375,
+   "Width": 0.171875,
+   "Height": 0.28125,
+   "bounds_px": [
+    16,
+    14,
+    38,
+    32
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__corroded_pad",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_corroded_pad",
+   "Id": "corroded_pad",
+   "CauseId": "sp4_scrap_board_corroded_pad",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8541666666666666,
+   "V": 0.35546875,
+   "Width": 0.11458333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    306,
+    74,
+    350,
+    108
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__corroded_pad",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_corroded_pad",
+   "Id": "corroded_pad",
+   "CauseId": "sp4_scrap_board_corroded_pad",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.859375,
+   "V": 0.3125,
+   "Width": 0.109375,
+   "Height": 0.15625,
+   "bounds_px": [
+    103,
+    15,
+    117,
+    25
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__contact_stripping__burned_trace",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_missing_chip",
+   "Id": "missing_chip",
+   "CauseId": "sp4_scrap_board_missing_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.21875,
+   "V": 0.39453125,
+   "Width": 0.16666666666666666,
+   "Height": 0.2109375,
+   "bounds_px": [
+    52,
+    74,
+    116,
+    128
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__contact_stripping__burned_trace",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_missing_chip",
+   "Id": "missing_chip",
+   "CauseId": "sp4_scrap_board_missing_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2109375,
+   "V": 0.359375,
+   "Width": 0.171875,
+   "Height": 0.28125,
+   "bounds_px": [
+    16,
+    14,
+    38,
+    32
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__contact_stripping__burned_trace",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_contact_stripping",
+   "Id": "contact_stripping",
+   "CauseId": "sp4_scrap_board_contact_stripping",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3255208333333333,
+   "V": 0.74609375,
+   "Width": 0.19270833333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    88,
+    180,
+    162,
+    202
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__contact_stripping__burned_trace",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_contact_stripping",
+   "Id": "contact_stripping",
+   "CauseId": "sp4_scrap_board_contact_stripping",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8359375,
+   "Width": 0.203125,
+   "Height": 0.109375,
+   "bounds_px": [
+    28,
+    50,
+    54,
+    57
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__contact_stripping__burned_trace",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_board_burned_trace",
+   "Id": "burned_trace",
+   "CauseId": "sp4_scrap_board_burned_trace",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4713541666666667,
+   "V": 0.58984375,
+   "Width": 0.11979166666666667,
+   "Height": 0.0703125,
+   "bounds_px": [
+    158,
+    142,
+    204,
+    160
+   ]
+  },
+  {
+   "asset_key": "scrap_board",
+   "state": "combo__missing_chip__contact_stripping__burned_trace",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_scrap_board_burned_trace",
+   "Id": "burned_trace",
+   "CauseId": "sp4_scrap_board_burned_trace",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.47265625,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.109375,
+   "bounds_px": [
+    53,
+    37,
+    68,
+    44
+   ]
+  }
+ ]
+}

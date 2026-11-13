@@ -1,0 +1,42 @@
+{
+ "asset_key": "process_cartridge",
+ "name_en": "Sealed Processing Cartridge",
+ "category": "process_cartridge",
+ "subtype": "",
+ "role": "consumable",
+ "target_family_id": "sp4_process_cartridge",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "sealed": {
+   "paper": "paper/sealed.png",
+   "items": "items/sealed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "spent": {
+   "paper": "paper/spent.png",
+   "items": "items/spent.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

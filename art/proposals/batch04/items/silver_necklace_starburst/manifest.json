@@ -1,0 +1,275 @@
+{
+ "asset_key": "silver_necklace_starburst",
+ "name_en": "Starburst Silver Necklace",
+ "category": "silver_necklace",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_silver_necklace_starburst",
+ "grid": [
+  2,
+  2
+ ],
+ "items_px": [
+  128,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "flattened_links": {
+   "paper": "paper/flattened_links.png",
+   "items": "items/flattened_links.png",
+   "templates": [
+    "sp4_silver_necklace_flattened_links"
+   ],
+   "view": "ordinary"
+  },
+  "jump_ring_gap": {
+   "paper": "paper/jump_ring_gap.png",
+   "items": "items/jump_ring_gap.png",
+   "templates": [
+    "sp4_silver_necklace_jump_ring_gap"
+   ],
+   "view": "ordinary"
+  },
+  "spring_failure": {
+   "paper": "paper/spring_failure.png",
+   "items": "items/spring_failure.png",
+   "templates": [
+    "sp4_silver_necklace_spring_failure"
+   ],
+   "view": "ordinary"
+  },
+  "link_core": {
+   "paper": "paper/link_core.png",
+   "items": "items/link_core.png",
+   "templates": [
+    "sp4_silver_necklace_link_core"
+   ],
+   "view": "ordinary"
+  },
+  "repair_link": {
+   "paper": "paper/repair_link.png",
+   "items": "items/repair_link.png",
+   "templates": [
+    "sp4_silver_necklace_repair_link"
+   ],
+   "view": "ordinary"
+  },
+  "combo__flattened_links__link_core": {
+   "paper": "paper/combo__flattened_links__link_core.png",
+   "items": "items/combo__flattened_links__link_core.png",
+   "templates": [
+    "sp4_silver_necklace_flattened_links",
+    "sp4_silver_necklace_link_core"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__flattened_links__link_core": {
+   "paper": "paper/repaired__flattened_links__link_core.png",
+   "items": "items/repaired__flattened_links__link_core.png",
+   "templates": [
+    "sp4_silver_necklace_link_core"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__flattened_links__link_core"
+  },
+  "combo__flattened_links__repair_link": {
+   "paper": "paper/combo__flattened_links__repair_link.png",
+   "items": "items/combo__flattened_links__repair_link.png",
+   "templates": [
+    "sp4_silver_necklace_flattened_links",
+    "sp4_silver_necklace_repair_link"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__flattened_links__repair_link": {
+   "paper": "paper/repaired__flattened_links__repair_link.png",
+   "items": "items/repaired__flattened_links__repair_link.png",
+   "templates": [
+    "sp4_silver_necklace_repair_link"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__flattened_links__repair_link"
+  },
+  "combo__jump_ring_gap__link_core": {
+   "paper": "paper/combo__jump_ring_gap__link_core.png",
+   "items": "items/combo__jump_ring_gap__link_core.png",
+   "templates": [
+    "sp4_silver_necklace_jump_ring_gap",
+    "sp4_silver_necklace_link_core"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__jump_ring_gap__link_core": {
+   "paper": "paper/repaired__jump_ring_gap__link_core.png",
+   "items": "items/repaired__jump_ring_gap__link_core.png",
+   "templates": [
+    "sp4_silver_necklace_link_core"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__jump_ring_gap__link_core"
+  },
+  "combo__flattened_links__jump_ring_gap__link_core": {
+   "paper": "paper/combo__flattened_links__jump_ring_gap__link_core.png",
+   "items": "items/combo__flattened_links__jump_ring_gap__link_core.png",
+   "templates": [
+    "sp4_silver_necklace_flattened_links",
+    "sp4_silver_necklace_jump_ring_gap",
+    "sp4_silver_necklace_link_core"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__flattened_links__jump_ring_gap__link_core": {
+   "paper": "paper/repaired__flattened_links__jump_ring_gap__link_core.png",
+   "items": "items/repaired__flattened_links__jump_ring_gap__link_core.png",
+   "templates": [
+    "sp4_silver_necklace_link_core"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__flattened_links__jump_ring_gap__link_core"
+  }
+ },
+ "template_checks": {
+  "sp4_silver_necklace_flattened_links": {
+   "paper": {
+    "changed_px": 80,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     120,
+     122,
+     136,
+     148
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 25,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     23,
+     63,
+     34,
+     74
+    ]
+   }
+  },
+  "sp4_silver_necklace_jump_ring_gap": {
+   "paper": {
+    "changed_px": 56,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     198,
+     194,
+     204,
+     204
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 14,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     67,
+     99,
+     71,
+     104
+    ]
+   }
+  },
+  "sp4_silver_necklace_spring_failure": {
+   "paper": {
+    "changed_px": 24,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     228,
+     64,
+     238,
+     68
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 11,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     83,
+     30,
+     88,
+     33
+    ]
+   }
+  },
+  "sp4_silver_necklace_link_core": {
+   "paper": {
+    "changed_px": 64,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     242,
+     146,
+     258,
+     158
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     91,
+     73,
+     99,
+     80
+    ]
+   }
+  },
+  "sp4_silver_necklace_repair_link": {
+   "paper": {
+    "changed_px": 48,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     64,
+     150,
+     74
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 23,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     34,
+     30,
+     41,
+     37
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

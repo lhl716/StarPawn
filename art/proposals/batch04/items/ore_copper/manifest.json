@@ -1,0 +1,231 @@
+{
+ "asset_key": "ore_copper",
+ "name_en": "Copper-Bearing Ore",
+ "category": "ore_copper",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_ore_copper",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "low_copper_grade": {
+   "paper": "paper/low_copper_grade.png",
+   "items": "items/low_copper_grade.png",
+   "templates": [
+    "sp4_ore_copper_low_copper_grade"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "barren_matrix": {
+   "paper": "paper/barren_matrix.png",
+   "items": "items/barren_matrix.png",
+   "templates": [
+    "sp4_ore_copper_barren_matrix"
+   ],
+   "view": "ordinary"
+  },
+  "applied_green_coating": {
+   "paper": "paper/applied_green_coating.png",
+   "items": "items/applied_green_coating.png",
+   "templates": [
+    "sp4_ore_copper_applied_green_coating"
+   ],
+   "view": "ordinary"
+  },
+  "foreign_aggregate": {
+   "paper": "paper/foreign_aggregate.png",
+   "items": "items/foreign_aggregate.png",
+   "templates": [
+    "sp4_ore_copper_foreign_aggregate"
+   ],
+   "view": "ordinary"
+  },
+  "source_tag_mismatch": {
+   "paper": "paper/source_tag_mismatch.png",
+   "items": "items/source_tag_mismatch.png",
+   "templates": [
+    "sp4_ore_copper_source_tag_mismatch"
+   ],
+   "view": "ordinary"
+  },
+  "combo__barren_matrix__applied_green_coating": {
+   "paper": "paper/combo__barren_matrix__applied_green_coating.png",
+   "items": "items/combo__barren_matrix__applied_green_coating.png",
+   "templates": [
+    "sp4_ore_copper_barren_matrix",
+    "sp4_ore_copper_applied_green_coating"
+   ],
+   "view": "ordinary"
+  },
+  "combo__barren_matrix__foreign_aggregate": {
+   "paper": "paper/combo__barren_matrix__foreign_aggregate.png",
+   "items": "items/combo__barren_matrix__foreign_aggregate.png",
+   "templates": [
+    "sp4_ore_copper_barren_matrix",
+    "sp4_ore_copper_foreign_aggregate"
+   ],
+   "view": "ordinary"
+  },
+  "combo__barren_matrix__source_tag_mismatch": {
+   "paper": "paper/combo__barren_matrix__source_tag_mismatch.png",
+   "items": "items/combo__barren_matrix__source_tag_mismatch.png",
+   "templates": [
+    "sp4_ore_copper_barren_matrix",
+    "sp4_ore_copper_source_tag_mismatch"
+   ],
+   "view": "ordinary"
+  },
+  "combo__barren_matrix__applied_green_coating__foreign_aggregate": {
+   "paper": "paper/combo__barren_matrix__applied_green_coating__foreign_aggregate.png",
+   "items": "items/combo__barren_matrix__applied_green_coating__foreign_aggregate.png",
+   "templates": [
+    "sp4_ore_copper_barren_matrix",
+    "sp4_ore_copper_applied_green_coating",
+    "sp4_ore_copper_foreign_aggregate"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {
+  "sp4_ore_copper_low_copper_grade": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_ore_copper_barren_matrix": {
+   "paper": {
+    "changed_px": 4676,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     162,
+     72,
+     262,
+     142
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 481,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     15,
+     87,
+     36
+    ]
+   }
+  },
+  "sp4_ore_copper_applied_green_coating": {
+   "paper": {
+    "changed_px": 1276,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     90,
+     80,
+     140,
+     114
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 145,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     16,
+     47,
+     28
+    ]
+   }
+  },
+  "sp4_ore_copper_foreign_aggregate": {
+   "paper": {
+    "changed_px": 1240,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     280,
+     112,
+     328,
+     148
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 153,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     94,
+     26,
+     109,
+     40
+    ]
+   }
+  },
+  "sp4_ore_copper_source_tag_mismatch": {
+   "paper": {
+    "changed_px": 112,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     48,
+     172,
+     70,
+     194
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 16,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     47,
+     24,
+     54
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

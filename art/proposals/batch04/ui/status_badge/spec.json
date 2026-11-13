@@ -1,0 +1,19 @@
+{
+ "asset_key": "status_badge",
+ "kind": "component",
+ "size": [
+  24,
+  24
+ ],
+ "states": [
+  "owned",
+  "consigned",
+  "reserved",
+  "consumed",
+  "unknown",
+  "confirmed"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Knowledge and ownership are distinct statuses."
+}

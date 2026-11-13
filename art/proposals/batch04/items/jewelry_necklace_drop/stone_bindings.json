@@ -1,0 +1,310 @@
+{
+ "assembly_asset_key": "jewelry_necklace_drop",
+ "socket_count": 1,
+ "sockets": [
+  "drop_center"
+ ],
+ "bindings": [
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "au18k_diamond_round",
+   "image": "paper",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_diamond_round_stone_drop_center.png",
+   "socket_center_px": [
+    191.71,
+    219.14
+   ],
+   "scale_from_source": 0.1564,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "au18k_diamond_round",
+   "image": "items",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_diamond_round_stone_drop_center.png",
+   "socket_center_px": [
+    63.85,
+    111.93
+   ],
+   "scale_from_source": 0.3289,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "au18k_ruby_oval",
+   "image": "paper",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_ruby_oval",
+   "stone_source_layer": "items/gem_ruby_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_ruby_oval_stone_drop_center.png",
+   "socket_center_px": [
+    191.71,
+    219.14
+   ],
+   "scale_from_source": 0.1564,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "au18k_ruby_oval",
+   "image": "items",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_ruby_oval",
+   "stone_source_layer": "items/gem_ruby_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_ruby_oval_stone_drop_center.png",
+   "socket_center_px": [
+    63.85,
+    111.93
+   ],
+   "scale_from_source": 0.3289,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "au18k_sapphire_pear",
+   "image": "paper",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_sapphire_pear",
+   "stone_source_layer": "items/gem_sapphire_pear/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_sapphire_pear_stone_drop_center.png",
+   "socket_center_px": [
+    191.71,
+    219.14
+   ],
+   "scale_from_source": 0.1564,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "au18k_sapphire_pear",
+   "image": "items",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_sapphire_pear",
+   "stone_source_layer": "items/gem_sapphire_pear/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_sapphire_pear_stone_drop_center.png",
+   "socket_center_px": [
+    63.85,
+    111.93
+   ],
+   "scale_from_source": 0.3289,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "au18k_emerald_step",
+   "image": "paper",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_emerald_step",
+   "stone_source_layer": "items/gem_emerald_step/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_emerald_step_stone_drop_center.png",
+   "socket_center_px": [
+    191.71,
+    219.14
+   ],
+   "scale_from_source": 0.1564,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "au18k_emerald_step",
+   "image": "items",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_emerald_step",
+   "stone_source_layer": "items/gem_emerald_step/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_emerald_step_stone_drop_center.png",
+   "socket_center_px": [
+    63.85,
+    111.93
+   ],
+   "scale_from_source": 0.3289,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "au18k_pearl_baroque",
+   "image": "paper",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_pearl_baroque",
+   "stone_source_layer": "items/gem_pearl_baroque/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_pearl_baroque_stone_drop_center.png",
+   "socket_center_px": [
+    191.71,
+    219.14
+   ],
+   "scale_from_source": 0.1564,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "au18k_pearl_baroque",
+   "image": "items",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_pearl_baroque",
+   "stone_source_layer": "items/gem_pearl_baroque/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_pearl_baroque_stone_drop_center.png",
+   "socket_center_px": [
+    63.85,
+    111.93
+   ],
+   "scale_from_source": 0.3289,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "ag925_diamond_round",
+   "image": "paper",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_diamond_round_stone_drop_center.png",
+   "socket_center_px": [
+    191.71,
+    219.14
+   ],
+   "scale_from_source": 0.1564,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "ag925_diamond_round",
+   "image": "items",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_diamond_round_stone_drop_center.png",
+   "socket_center_px": [
+    63.85,
+    111.93
+   ],
+   "scale_from_source": 0.3289,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "ag925_ruby_oval",
+   "image": "paper",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_ruby_oval",
+   "stone_source_layer": "items/gem_ruby_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_ruby_oval_stone_drop_center.png",
+   "socket_center_px": [
+    191.71,
+    219.14
+   ],
+   "scale_from_source": 0.1564,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "ag925_ruby_oval",
+   "image": "items",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_ruby_oval",
+   "stone_source_layer": "items/gem_ruby_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_ruby_oval_stone_drop_center.png",
+   "socket_center_px": [
+    63.85,
+    111.93
+   ],
+   "scale_from_source": 0.3289,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "ag925_sapphire_pear",
+   "image": "paper",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_sapphire_pear",
+   "stone_source_layer": "items/gem_sapphire_pear/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_sapphire_pear_stone_drop_center.png",
+   "socket_center_px": [
+    191.71,
+    219.14
+   ],
+   "scale_from_source": 0.1564,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "ag925_sapphire_pear",
+   "image": "items",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_sapphire_pear",
+   "stone_source_layer": "items/gem_sapphire_pear/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_sapphire_pear_stone_drop_center.png",
+   "socket_center_px": [
+    63.85,
+    111.93
+   ],
+   "scale_from_source": 0.3289,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "ag925_emerald_step",
+   "image": "paper",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_emerald_step",
+   "stone_source_layer": "items/gem_emerald_step/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_emerald_step_stone_drop_center.png",
+   "socket_center_px": [
+    191.71,
+    219.14
+   ],
+   "scale_from_source": 0.1564,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "ag925_emerald_step",
+   "image": "items",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_emerald_step",
+   "stone_source_layer": "items/gem_emerald_step/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_emerald_step_stone_drop_center.png",
+   "socket_center_px": [
+    63.85,
+    111.93
+   ],
+   "scale_from_source": 0.3289,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "ag925_pearl_baroque",
+   "image": "paper",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_pearl_baroque",
+   "stone_source_layer": "items/gem_pearl_baroque/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_pearl_baroque_stone_drop_center.png",
+   "socket_center_px": [
+    191.71,
+    219.14
+   ],
+   "scale_from_source": 0.1564,
+   "setting_asset_key": "setting_necklace"
+  },
+  {
+   "assembly": "jewelry_necklace_drop",
+   "variant": "ag925_pearl_baroque",
+   "image": "items",
+   "socket_id": "drop_center",
+   "stone_asset_key": "gem_pearl_baroque",
+   "stone_source_layer": "items/gem_pearl_baroque/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_pearl_baroque_stone_drop_center.png",
+   "socket_center_px": [
+    63.85,
+    111.93
+   ],
+   "scale_from_source": 0.3289,
+   "setting_asset_key": "setting_necklace"
+  }
+ ],
+ "note": "scale_from_source maps the loose stone's authored layer onto the socket; stones are redrawn at socket size, not resampled."
+}

@@ -1,0 +1,128 @@
+{
+ "asset_key": "refined_silver_bar",
+ "combinations": [
+  {
+   "profile": "combo__shrink_cavity__batch_restrike",
+   "variant": "",
+   "templates": [
+    "sp4_refined_silver_bar_shrink_cavity",
+    "sp4_refined_silver_bar_batch_restrike"
+   ],
+   "repairable": [
+    "sp4_refined_silver_bar_shrink_cavity"
+   ],
+   "retained_after_repair": [
+    "sp4_refined_silver_bar_batch_restrike"
+   ],
+   "repaired_state": "repaired__shrink_cavity__batch_restrike"
+  },
+  {
+   "profile": "combo__slag_seam__batch_restrike",
+   "variant": "",
+   "templates": [
+    "sp4_refined_silver_bar_slag_seam",
+    "sp4_refined_silver_bar_batch_restrike"
+   ],
+   "repairable": [
+    "sp4_refined_silver_bar_slag_seam"
+   ],
+   "retained_after_repair": [
+    "sp4_refined_silver_bar_batch_restrike"
+   ],
+   "repaired_state": "repaired__slag_seam__batch_restrike"
+  },
+  {
+   "profile": "combo__shrink_cavity__slag_seam__batch_restrike",
+   "variant": "",
+   "templates": [
+    "sp4_refined_silver_bar_shrink_cavity",
+    "sp4_refined_silver_bar_slag_seam",
+    "sp4_refined_silver_bar_batch_restrike"
+   ],
+   "repairable": [
+    "sp4_refined_silver_bar_shrink_cavity",
+    "sp4_refined_silver_bar_slag_seam"
+   ],
+   "retained_after_repair": [
+    "sp4_refined_silver_bar_batch_restrike"
+   ],
+   "repaired_state": "repaired__shrink_cavity__slag_seam__batch_restrike"
+  },
+  {
+   "profile": "assay_deficit",
+   "variant": "",
+   "templates": [
+    "sp4_refined_silver_bar_assay_deficit"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_refined_silver_bar_assay_deficit"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": true
+  },
+  {
+   "profile": "shrink_cavity",
+   "variant": "",
+   "templates": [
+    "sp4_refined_silver_bar_shrink_cavity"
+   ],
+   "repairable": [
+    "sp4_refined_silver_bar_shrink_cavity"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "slag_seam",
+   "variant": "",
+   "templates": [
+    "sp4_refined_silver_bar_slag_seam"
+   ],
+   "repairable": [
+    "sp4_refined_silver_bar_slag_seam"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "short_mass",
+   "variant": "",
+   "templates": [
+    "sp4_refined_silver_bar_short_mass"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_refined_silver_bar_short_mass"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": true
+  },
+  {
+   "profile": "batch_restrike",
+   "variant": "",
+   "templates": [
+    "sp4_refined_silver_bar_batch_restrike"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_refined_silver_bar_batch_restrike"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

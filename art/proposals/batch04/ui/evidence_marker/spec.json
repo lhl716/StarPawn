@@ -1,0 +1,16 @@
+{
+ "asset_key": "evidence_marker",
+ "kind": "component",
+ "size": [
+  32,
+  32
+ ],
+ "states": [
+  "discovered",
+  "selected",
+  "resolved"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Transparent; preview circles overlay only; no markers on item art."
+}

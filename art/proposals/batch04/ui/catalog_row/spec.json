@@ -1,0 +1,16 @@
+{
+ "asset_key": "catalog_row",
+ "kind": "component",
+ "size": [
+  520,
+  42
+ ],
+ "states": [
+  "default",
+  "selected",
+  "disabled"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Five rows per standard catalog; text and thumbnail drawn separately."
+}

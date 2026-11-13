@@ -1,0 +1,54 @@
+{
+ "asset_key": "recovery_batch",
+ "name_en": "Sealed Recovery Batch",
+ "category": "recovery_batch",
+ "subtype": "",
+ "role": "process_item",
+ "target_family_id": "sp4_recovery_batch",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "queued": {
+   "paper": "paper/queued.png",
+   "items": "items/queued.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "in_process": {
+   "paper": "paper/in_process.png",
+   "items": "items/in_process.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ready": {
+   "paper": "paper/ready.png",
+   "items": "items/ready.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "interrupted": {
+   "paper": "paper/interrupted.png",
+   "items": "items/interrupted.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

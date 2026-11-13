@@ -1,0 +1,275 @@
+{
+ "asset_key": "collectible_cartridge",
+ "name_en": "Cartridge",
+ "category": "cartridge",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_collectible_cartridge",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "label_misregister": {
+   "paper": "paper/label_misregister.png",
+   "items": "items/label_misregister.png",
+   "templates": [
+    "sp4_cartridge_label_misregister"
+   ],
+   "view": "ordinary"
+  },
+  "contact_loss": {
+   "paper": "paper/contact_loss.png",
+   "items": "items/contact_loss.png",
+   "templates": [
+    "sp4_cartridge_contact_loss"
+   ],
+   "view": "ordinary"
+  },
+  "shell_tab": {
+   "paper": "paper/shell_tab.png",
+   "items": "items/shell_tab.png",
+   "templates": [
+    "sp4_cartridge_shell_tab"
+   ],
+   "view": "ordinary"
+  },
+  "label_lift": {
+   "paper": "paper/label_lift.png",
+   "items": "items/label_lift.png",
+   "templates": [
+    "sp4_cartridge_label_lift"
+   ],
+   "view": "ordinary"
+  },
+  "case_reseal": {
+   "paper": "paper/case_reseal.png",
+   "items": "items/case_reseal.png",
+   "templates": [
+    "sp4_cartridge_case_reseal"
+   ],
+   "view": "ordinary"
+  },
+  "combo__label_misregister__contact_loss": {
+   "paper": "paper/combo__label_misregister__contact_loss.png",
+   "items": "items/combo__label_misregister__contact_loss.png",
+   "templates": [
+    "sp4_cartridge_label_misregister",
+    "sp4_cartridge_contact_loss"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__label_misregister__contact_loss": {
+   "paper": "paper/repaired__label_misregister__contact_loss.png",
+   "items": "items/repaired__label_misregister__contact_loss.png",
+   "templates": [
+    "sp4_cartridge_label_misregister"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__label_misregister__contact_loss"
+  },
+  "combo__label_misregister__shell_tab": {
+   "paper": "paper/combo__label_misregister__shell_tab.png",
+   "items": "items/combo__label_misregister__shell_tab.png",
+   "templates": [
+    "sp4_cartridge_label_misregister",
+    "sp4_cartridge_shell_tab"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__label_misregister__shell_tab": {
+   "paper": "paper/repaired__label_misregister__shell_tab.png",
+   "items": "items/repaired__label_misregister__shell_tab.png",
+   "templates": [
+    "sp4_cartridge_label_misregister"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__label_misregister__shell_tab"
+  },
+  "combo__label_misregister__label_lift": {
+   "paper": "paper/combo__label_misregister__label_lift.png",
+   "items": "items/combo__label_misregister__label_lift.png",
+   "templates": [
+    "sp4_cartridge_label_misregister",
+    "sp4_cartridge_label_lift"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__label_misregister__label_lift": {
+   "paper": "paper/repaired__label_misregister__label_lift.png",
+   "items": "items/repaired__label_misregister__label_lift.png",
+   "templates": [
+    "sp4_cartridge_label_misregister"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__label_misregister__label_lift"
+  },
+  "combo__label_misregister__contact_loss__shell_tab": {
+   "paper": "paper/combo__label_misregister__contact_loss__shell_tab.png",
+   "items": "items/combo__label_misregister__contact_loss__shell_tab.png",
+   "templates": [
+    "sp4_cartridge_label_misregister",
+    "sp4_cartridge_contact_loss",
+    "sp4_cartridge_shell_tab"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__label_misregister__contact_loss__shell_tab": {
+   "paper": "paper/repaired__label_misregister__contact_loss__shell_tab.png",
+   "items": "items/repaired__label_misregister__contact_loss__shell_tab.png",
+   "templates": [
+    "sp4_cartridge_label_misregister"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__label_misregister__contact_loss__shell_tab"
+  }
+ },
+ "template_checks": {
+  "sp4_cartridge_label_misregister": {
+   "paper": {
+    "changed_px": 524,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     130,
+     56,
+     172,
+     78
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 59,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     16,
+     14,
+     28,
+     21
+    ]
+   }
+  },
+  "sp4_cartridge_contact_loss": {
+   "paper": {
+    "changed_px": 176,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     172,
+     200,
+     186,
+     218
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 18,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     27,
+     49,
+     31,
+     56
+    ]
+   }
+  },
+  "sp4_cartridge_shell_tab": {
+   "paper": {
+    "changed_px": 436,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     250,
+     16,
+     282,
+     30
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 30,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     46,
+     4,
+     54,
+     8
+    ]
+   }
+  },
+  "sp4_cartridge_label_lift": {
+   "paper": {
+    "changed_px": 176,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     122,
+     142,
+     150,
+     168
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     15,
+     35,
+     22,
+     42
+    ]
+   }
+  },
+  "sp4_cartridge_case_reseal": {
+   "paper": {
+    "changed_px": 172,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     264,
+     104,
+     278,
+     186
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 24,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     50,
+     26,
+     54,
+     47
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

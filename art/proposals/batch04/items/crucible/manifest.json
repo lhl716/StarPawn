@@ -1,0 +1,48 @@
+{
+ "asset_key": "crucible",
+ "name_en": "Crucible",
+ "category": "crucible",
+ "subtype": "",
+ "role": "tool",
+ "target_family_id": "sp4_crucible",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "empty": {
+   "paper": "paper/empty.png",
+   "items": "items/empty.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "loaded": {
+   "paper": "paper/loaded.png",
+   "items": "items/loaded.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "cooling": {
+   "paper": "paper/cooling.png",
+   "items": "items/cooling.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

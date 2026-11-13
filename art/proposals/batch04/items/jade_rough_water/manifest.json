@@ -1,0 +1,897 @@
+{
+ "asset_key": "jade_rough_water",
+ "name_en": "Water-Worn Jade Rough",
+ "category": "jade_rough",
+ "subtype": "water",
+ "role": "appraisable",
+ "target_family_id": "sp4_jade_rough_water",
+ "grid": [
+  2,
+  2
+ ],
+ "items_px": [
+  128,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "hidden_dou_nuo_bing",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "sealed": {
+   "paper": "paper/sealed.png",
+   "items": "items/sealed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "impact_spall": {
+   "paper": "paper/impact_spall.png",
+   "items": "items/impact_spall.png",
+   "templates": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "view": "ordinary"
+  },
+  "surface_color_wash": {
+   "paper": "paper/surface_color_wash.png",
+   "items": "items/surface_color_wash.png",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "ordinary"
+  },
+  "surface_color_wash__uv": {
+   "paper": "paper/surface_color_wash__uv.png",
+   "items": "items/surface_color_wash__uv.png",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "joined_cap": {
+   "paper": "paper/joined_cap.png",
+   "items": "items/joined_cap.png",
+   "templates": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "view": "ordinary"
+  },
+  "combo__impact_spall__surface_color_wash": {
+   "paper": "paper/combo__impact_spall__surface_color_wash.png",
+   "items": "items/combo__impact_spall__surface_color_wash.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "ordinary"
+  },
+  "combo__impact_spall__joined_cap": {
+   "paper": "paper/combo__impact_spall__joined_cap.png",
+   "items": "items/combo__impact_spall__joined_cap.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_joined_cap"
+   ],
+   "view": "ordinary"
+  },
+  "combo__impact_spall__surface_color_wash__joined_cap": {
+   "paper": "paper/combo__impact_spall__surface_color_wash__joined_cap.png",
+   "items": "items/combo__impact_spall__surface_color_wash__joined_cap.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash",
+    "sp4_rough_water_joined_cap"
+   ],
+   "view": "ordinary"
+  },
+  "uv_observation": {
+   "paper": "paper/uv_observation.png",
+   "items": "items/uv_observation.png",
+   "templates": [],
+   "view": "uv",
+   "planned_view": true
+  },
+  "window_open_dou": {
+   "paper": "paper/window_open_dou.png",
+   "items": "items/window_open_dou.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "cut_surface_dou": {
+   "paper": "paper/cut_surface_dou.png",
+   "items": "items/cut_surface_dou.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "light_observation_dou": {
+   "paper": "paper/light_observation_dou.png",
+   "items": "items/light_observation_dou.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_dou_impact_spall": {
+   "paper": "paper/window_dou_impact_spall.png",
+   "items": "items/window_dou_impact_spall.png",
+   "templates": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_through_fracture": {
+   "paper": "paper/window_dou_through_fracture.png",
+   "items": "items/window_dou_through_fracture.png",
+   "templates": [
+    "sp4_rough_water_through_fracture"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_fibrous_cloud": {
+   "paper": "paper/window_dou_fibrous_cloud.png",
+   "items": "items/window_dou_fibrous_cloud.png",
+   "templates": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_fibrous_cloud__light": {
+   "paper": "paper/window_dou_fibrous_cloud__light.png",
+   "items": "items/window_dou_fibrous_cloud__light.png",
+   "templates": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_dou_surface_color_wash": {
+   "paper": "paper/window_dou_surface_color_wash.png",
+   "items": "items/window_dou_surface_color_wash.png",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_surface_color_wash__uv": {
+   "paper": "paper/window_dou_surface_color_wash__uv.png",
+   "items": "items/window_dou_surface_color_wash__uv.png",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "window_dou_joined_cap": {
+   "paper": "paper/window_dou_joined_cap.png",
+   "items": "items/window_dou_joined_cap.png",
+   "templates": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_combo__impact_spall__through_fracture": {
+   "paper": "paper/window_dou_combo__impact_spall__through_fracture.png",
+   "items": "items/window_dou_combo__impact_spall__through_fracture.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_combo__impact_spall__fibrous_cloud": {
+   "paper": "paper/window_dou_combo__impact_spall__fibrous_cloud.png",
+   "items": "items/window_dou_combo__impact_spall__fibrous_cloud.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_combo__impact_spall__surface_color_wash": {
+   "paper": "paper/window_dou_combo__impact_spall__surface_color_wash.png",
+   "items": "items/window_dou_combo__impact_spall__surface_color_wash.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "ordinary"
+  },
+  "window_dou_combo__impact_spall__through_fracture__surface_color_wash": {
+   "paper": "paper/window_dou_combo__impact_spall__through_fracture__surface_color_wash.png",
+   "items": "items/window_dou_combo__impact_spall__through_fracture__surface_color_wash.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "ordinary"
+  },
+  "window_open_nuo": {
+   "paper": "paper/window_open_nuo.png",
+   "items": "items/window_open_nuo.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "cut_surface_nuo": {
+   "paper": "paper/cut_surface_nuo.png",
+   "items": "items/cut_surface_nuo.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "light_observation_nuo": {
+   "paper": "paper/light_observation_nuo.png",
+   "items": "items/light_observation_nuo.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_nuo_impact_spall": {
+   "paper": "paper/window_nuo_impact_spall.png",
+   "items": "items/window_nuo_impact_spall.png",
+   "templates": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_through_fracture": {
+   "paper": "paper/window_nuo_through_fracture.png",
+   "items": "items/window_nuo_through_fracture.png",
+   "templates": [
+    "sp4_rough_water_through_fracture"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_fibrous_cloud": {
+   "paper": "paper/window_nuo_fibrous_cloud.png",
+   "items": "items/window_nuo_fibrous_cloud.png",
+   "templates": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_fibrous_cloud__light": {
+   "paper": "paper/window_nuo_fibrous_cloud__light.png",
+   "items": "items/window_nuo_fibrous_cloud__light.png",
+   "templates": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_nuo_surface_color_wash": {
+   "paper": "paper/window_nuo_surface_color_wash.png",
+   "items": "items/window_nuo_surface_color_wash.png",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_surface_color_wash__uv": {
+   "paper": "paper/window_nuo_surface_color_wash__uv.png",
+   "items": "items/window_nuo_surface_color_wash__uv.png",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "window_nuo_joined_cap": {
+   "paper": "paper/window_nuo_joined_cap.png",
+   "items": "items/window_nuo_joined_cap.png",
+   "templates": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_combo__impact_spall__through_fracture": {
+   "paper": "paper/window_nuo_combo__impact_spall__through_fracture.png",
+   "items": "items/window_nuo_combo__impact_spall__through_fracture.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_combo__impact_spall__fibrous_cloud": {
+   "paper": "paper/window_nuo_combo__impact_spall__fibrous_cloud.png",
+   "items": "items/window_nuo_combo__impact_spall__fibrous_cloud.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_combo__impact_spall__surface_color_wash": {
+   "paper": "paper/window_nuo_combo__impact_spall__surface_color_wash.png",
+   "items": "items/window_nuo_combo__impact_spall__surface_color_wash.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "ordinary"
+  },
+  "window_nuo_combo__impact_spall__through_fracture__surface_color_wash": {
+   "paper": "paper/window_nuo_combo__impact_spall__through_fracture__surface_color_wash.png",
+   "items": "items/window_nuo_combo__impact_spall__through_fracture__surface_color_wash.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "ordinary"
+  },
+  "window_open_bing": {
+   "paper": "paper/window_open_bing.png",
+   "items": "items/window_open_bing.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "cut_surface_bing": {
+   "paper": "paper/cut_surface_bing.png",
+   "items": "items/cut_surface_bing.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "light_observation_bing": {
+   "paper": "paper/light_observation_bing.png",
+   "items": "items/light_observation_bing.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_bing_impact_spall": {
+   "paper": "paper/window_bing_impact_spall.png",
+   "items": "items/window_bing_impact_spall.png",
+   "templates": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_through_fracture": {
+   "paper": "paper/window_bing_through_fracture.png",
+   "items": "items/window_bing_through_fracture.png",
+   "templates": [
+    "sp4_rough_water_through_fracture"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_fibrous_cloud": {
+   "paper": "paper/window_bing_fibrous_cloud.png",
+   "items": "items/window_bing_fibrous_cloud.png",
+   "templates": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_fibrous_cloud__light": {
+   "paper": "paper/window_bing_fibrous_cloud__light.png",
+   "items": "items/window_bing_fibrous_cloud__light.png",
+   "templates": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "window_bing_surface_color_wash": {
+   "paper": "paper/window_bing_surface_color_wash.png",
+   "items": "items/window_bing_surface_color_wash.png",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_surface_color_wash__uv": {
+   "paper": "paper/window_bing_surface_color_wash__uv.png",
+   "items": "items/window_bing_surface_color_wash__uv.png",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "window_bing_joined_cap": {
+   "paper": "paper/window_bing_joined_cap.png",
+   "items": "items/window_bing_joined_cap.png",
+   "templates": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_combo__impact_spall__through_fracture": {
+   "paper": "paper/window_bing_combo__impact_spall__through_fracture.png",
+   "items": "items/window_bing_combo__impact_spall__through_fracture.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_combo__impact_spall__fibrous_cloud": {
+   "paper": "paper/window_bing_combo__impact_spall__fibrous_cloud.png",
+   "items": "items/window_bing_combo__impact_spall__fibrous_cloud.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_combo__impact_spall__surface_color_wash": {
+   "paper": "paper/window_bing_combo__impact_spall__surface_color_wash.png",
+   "items": "items/window_bing_combo__impact_spall__surface_color_wash.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "ordinary"
+  },
+  "window_bing_combo__impact_spall__through_fracture__surface_color_wash": {
+   "paper": "paper/window_bing_combo__impact_spall__through_fracture__surface_color_wash.png",
+   "items": "items/window_bing_combo__impact_spall__through_fracture__surface_color_wash.png",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {
+  "sp4_rough_water_impact_spall": {
+   "paper": {
+    "changed_px": 396,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     92,
+     102,
+     112,
+     132
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 135,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     12,
+     50,
+     23,
+     67
+    ]
+   }
+  },
+  "sp4_rough_water_surface_color_wash": {
+   "paper": {
+    "changed_px": 520,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     134,
+     118,
+     182,
+     148
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 132,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     35,
+     59,
+     60,
+     74
+    ]
+   }
+  },
+  "sp4_rough_water_joined_cap": {
+   "paper": {
+    "changed_px": 548,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     258,
+     126,
+     294,
+     180
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 162,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     98,
+     65,
+     118,
+     91
+    ]
+   }
+  },
+  "window_dou_sp4_rough_water_impact_spall": {
+   "paper": {
+    "changed_px": 396,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     92,
+     102,
+     112,
+     132
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 135,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     12,
+     50,
+     23,
+     67
+    ]
+   }
+  },
+  "window_dou_sp4_rough_water_through_fracture": {
+   "paper": {
+    "changed_px": 176,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     222,
+     110,
+     240,
+     142
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 46,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     79,
+     55,
+     88,
+     72
+    ]
+   }
+  },
+  "window_dou_sp4_rough_water_fibrous_cloud": {
+   "paper": {
+    "changed_px": 300,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     208,
+     102,
+     242,
+     118
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 79,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     71,
+     51,
+     89,
+     60
+    ]
+   }
+  },
+  "window_dou_sp4_rough_water_surface_color_wash": {
+   "paper": {
+    "changed_px": 520,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     134,
+     118,
+     182,
+     148
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 132,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     35,
+     59,
+     60,
+     74
+    ]
+   }
+  },
+  "window_dou_sp4_rough_water_joined_cap": {
+   "paper": {
+    "changed_px": 548,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     258,
+     126,
+     294,
+     180
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 162,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     98,
+     65,
+     118,
+     91
+    ]
+   }
+  },
+  "window_nuo_sp4_rough_water_impact_spall": {
+   "paper": {
+    "changed_px": 396,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     92,
+     102,
+     112,
+     132
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 135,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     12,
+     50,
+     23,
+     67
+    ]
+   }
+  },
+  "window_nuo_sp4_rough_water_through_fracture": {
+   "paper": {
+    "changed_px": 176,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     222,
+     110,
+     240,
+     142
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 46,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     79,
+     55,
+     88,
+     72
+    ]
+   }
+  },
+  "window_nuo_sp4_rough_water_fibrous_cloud": {
+   "paper": {
+    "changed_px": 300,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     208,
+     102,
+     242,
+     118
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 79,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     71,
+     51,
+     89,
+     60
+    ]
+   }
+  },
+  "window_nuo_sp4_rough_water_surface_color_wash": {
+   "paper": {
+    "changed_px": 520,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     134,
+     118,
+     182,
+     148
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 132,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     35,
+     59,
+     60,
+     74
+    ]
+   }
+  },
+  "window_nuo_sp4_rough_water_joined_cap": {
+   "paper": {
+    "changed_px": 548,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     258,
+     126,
+     294,
+     180
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 162,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     98,
+     65,
+     118,
+     91
+    ]
+   }
+  },
+  "window_bing_sp4_rough_water_impact_spall": {
+   "paper": {
+    "changed_px": 396,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     92,
+     102,
+     112,
+     132
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 135,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     12,
+     50,
+     23,
+     67
+    ]
+   }
+  },
+  "window_bing_sp4_rough_water_through_fracture": {
+   "paper": {
+    "changed_px": 176,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     222,
+     110,
+     240,
+     142
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 46,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     79,
+     55,
+     88,
+     72
+    ]
+   }
+  },
+  "window_bing_sp4_rough_water_fibrous_cloud": {
+   "paper": {
+    "changed_px": 300,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     208,
+     102,
+     242,
+     118
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 79,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     71,
+     51,
+     89,
+     60
+    ]
+   }
+  },
+  "window_bing_sp4_rough_water_surface_color_wash": {
+   "paper": {
+    "changed_px": 520,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     134,
+     118,
+     182,
+     148
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 132,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     35,
+     59,
+     60,
+     74
+    ]
+   }
+  },
+  "window_bing_sp4_rough_water_joined_cap": {
+   "paper": {
+    "changed_px": 548,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     258,
+     126,
+     294,
+     180
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 162,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     98,
+     65,
+     118,
+     91
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

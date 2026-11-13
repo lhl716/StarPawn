@@ -1,0 +1,16 @@
+{
+ "asset_key": "handbook_page",
+ "kind": "component",
+ "size": [
+  440,
+  616
+ ],
+ "states": [
+  "introduction",
+  "defect_example",
+  "index"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Native-style PORTRAIT appraisal sheet; see VANILLA_HANDBOOK_SPEC_04.txt and actual game references. Supersedes old 512x320 landscape proposal."
+}

@@ -1,0 +1,709 @@
+{
+ "asset_key": "gem_diamond_round",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "girdle_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_gem_diamond_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.703125,
+   "V": 0.63671875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    256,
+    144,
+    284,
+    182
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "girdle_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_gem_diamond_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8046875,
+   "V": 0.6484375,
+   "Width": 0.109375,
+   "Height": 0.140625,
+   "bounds_px": [
+    48,
+    37,
+    55,
+    46
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "edge_feather",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_edge_feather",
+   "Id": "edge_feather",
+   "CauseId": "sp4_gem_diamond_edge_feather",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.44921875,
+   "Width": 0.08333333333333333,
+   "Height": 0.0390625,
+   "bounds_px": [
+    248,
+    110,
+    280,
+    120
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "edge_feather",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_edge_feather",
+   "Id": "edge_feather",
+   "CauseId": "sp4_gem_diamond_edge_feather",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.78125,
+   "V": 0.453125,
+   "Width": 0.125,
+   "Height": 0.0625,
+   "bounds_px": [
+    46,
+    27,
+    54,
+    31
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "table_abrasion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_table_abrasion",
+   "Id": "table_abrasion",
+   "CauseId": "sp4_gem_diamond_table_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4010416666666667,
+   "V": 0.58203125,
+   "Width": 0.052083333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    144,
+    140,
+    164,
+    158
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "table_abrasion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_table_abrasion",
+   "Id": "table_abrasion",
+   "CauseId": "sp4_gem_diamond_table_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.09375,
+   "bounds_px": [
+    19,
+    34,
+    25,
+    40
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "obscuring_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_obscuring_cloud",
+   "Id": "obscuring_cloud",
+   "CauseId": "sp4_gem_diamond_obscuring_cloud",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4739583333333333,
+   "V": 0.48046875,
+   "Width": 0.11458333333333333,
+   "Height": 0.1484375,
+   "bounds_px": [
+    160,
+    104,
+    204,
+    142
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "obscuring_cloud",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_obscuring_cloud",
+   "Id": "obscuring_cloud",
+   "CauseId": "sp4_gem_diamond_obscuring_cloud",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4609375,
+   "V": 0.4765625,
+   "Width": 0.140625,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    27,
+    34,
+    34
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "claim_mismatch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_claim_mismatch",
+   "Id": "claim_mismatch",
+   "CauseId": "sp4_gem_diamond_claim_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "lab_report",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_lab_report",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "claim_mismatch",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_claim_mismatch",
+   "Id": "claim_mismatch",
+   "CauseId": "sp4_gem_diamond_claim_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "lab_report",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_lab_report",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__edge_feather",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_gem_diamond_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.703125,
+   "V": 0.63671875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    256,
+    144,
+    284,
+    182
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__edge_feather",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_gem_diamond_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8046875,
+   "V": 0.6484375,
+   "Width": 0.109375,
+   "Height": 0.140625,
+   "bounds_px": [
+    48,
+    37,
+    55,
+    46
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__edge_feather",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_edge_feather",
+   "Id": "edge_feather",
+   "CauseId": "sp4_gem_diamond_edge_feather",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.44921875,
+   "Width": 0.08333333333333333,
+   "Height": 0.0390625,
+   "bounds_px": [
+    248,
+    110,
+    280,
+    120
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__edge_feather",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_edge_feather",
+   "Id": "edge_feather",
+   "CauseId": "sp4_gem_diamond_edge_feather",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.78125,
+   "V": 0.453125,
+   "Width": 0.125,
+   "Height": 0.0625,
+   "bounds_px": [
+    46,
+    27,
+    54,
+    31
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__table_abrasion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_gem_diamond_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.703125,
+   "V": 0.63671875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    256,
+    144,
+    284,
+    182
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__table_abrasion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_gem_diamond_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8046875,
+   "V": 0.6484375,
+   "Width": 0.109375,
+   "Height": 0.140625,
+   "bounds_px": [
+    48,
+    37,
+    55,
+    46
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__table_abrasion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_table_abrasion",
+   "Id": "table_abrasion",
+   "CauseId": "sp4_gem_diamond_table_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4010416666666667,
+   "V": 0.58203125,
+   "Width": 0.052083333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    144,
+    140,
+    164,
+    158
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__table_abrasion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_table_abrasion",
+   "Id": "table_abrasion",
+   "CauseId": "sp4_gem_diamond_table_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.09375,
+   "bounds_px": [
+    19,
+    34,
+    25,
+    40
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__obscuring_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_gem_diamond_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.703125,
+   "V": 0.63671875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    256,
+    144,
+    284,
+    182
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__obscuring_cloud",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_gem_diamond_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8046875,
+   "V": 0.6484375,
+   "Width": 0.109375,
+   "Height": 0.140625,
+   "bounds_px": [
+    48,
+    37,
+    55,
+    46
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__obscuring_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_obscuring_cloud",
+   "Id": "obscuring_cloud",
+   "CauseId": "sp4_gem_diamond_obscuring_cloud",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4739583333333333,
+   "V": 0.48046875,
+   "Width": 0.11458333333333333,
+   "Height": 0.1484375,
+   "bounds_px": [
+    160,
+    104,
+    204,
+    142
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__obscuring_cloud",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_obscuring_cloud",
+   "Id": "obscuring_cloud",
+   "CauseId": "sp4_gem_diamond_obscuring_cloud",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4609375,
+   "V": 0.4765625,
+   "Width": 0.140625,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    27,
+    34,
+    34
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__edge_feather__table_abrasion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_gem_diamond_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.703125,
+   "V": 0.63671875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    256,
+    144,
+    284,
+    182
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__edge_feather__table_abrasion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_girdle_chip",
+   "Id": "girdle_chip",
+   "CauseId": "sp4_gem_diamond_girdle_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8046875,
+   "V": 0.6484375,
+   "Width": 0.109375,
+   "Height": 0.140625,
+   "bounds_px": [
+    48,
+    37,
+    55,
+    46
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__edge_feather__table_abrasion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_edge_feather",
+   "Id": "edge_feather",
+   "CauseId": "sp4_gem_diamond_edge_feather",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.44921875,
+   "Width": 0.08333333333333333,
+   "Height": 0.0390625,
+   "bounds_px": [
+    248,
+    110,
+    280,
+    120
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__edge_feather__table_abrasion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_edge_feather",
+   "Id": "edge_feather",
+   "CauseId": "sp4_gem_diamond_edge_feather",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.78125,
+   "V": 0.453125,
+   "Width": 0.125,
+   "Height": 0.0625,
+   "bounds_px": [
+    46,
+    27,
+    54,
+    31
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__edge_feather__table_abrasion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_diamond_table_abrasion",
+   "Id": "table_abrasion",
+   "CauseId": "sp4_gem_diamond_table_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4010416666666667,
+   "V": 0.58203125,
+   "Width": 0.052083333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    144,
+    140,
+    164,
+    158
+   ]
+  },
+  {
+   "asset_key": "gem_diamond_round",
+   "state": "combo__girdle_chip__edge_feather__table_abrasion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_diamond_table_abrasion",
+   "Id": "table_abrasion",
+   "CauseId": "sp4_gem_diamond_table_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.09375,
+   "bounds_px": [
+    19,
+    34,
+    25,
+    40
+   ]
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "asset_key": "collectible_silver_cup",
+ "combinations": [
+  {
+   "profile": "combo__wall_dent__inside_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_cup_wall_dent",
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "repairable": [
+    "sp4_silver_cup_wall_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "repaired_state": "repaired__wall_dent__inside_breakthrough"
+  },
+  {
+   "profile": "combo__wall_dent__handle_rejoin",
+   "variant": "",
+   "templates": [
+    "sp4_silver_cup_wall_dent",
+    "sp4_silver_cup_handle_rejoin"
+   ],
+   "repairable": [
+    "sp4_silver_cup_wall_dent"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_cup_handle_rejoin"
+   ],
+   "repaired_state": "repaired__wall_dent__handle_rejoin"
+  },
+  {
+   "profile": "combo__rim_split__inside_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_cup_rim_split",
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "repairable": [
+    "sp4_silver_cup_rim_split"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "repaired_state": "repaired__rim_split__inside_breakthrough"
+  },
+  {
+   "profile": "combo__wall_dent__rim_split__inside_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_cup_wall_dent",
+    "sp4_silver_cup_rim_split",
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "repairable": [
+    "sp4_silver_cup_wall_dent",
+    "sp4_silver_cup_rim_split"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "repaired_state": "repaired__wall_dent__rim_split__inside_breakthrough"
+  },
+  {
+   "profile": "wall_dent",
+   "variant": "",
+   "templates": [
+    "sp4_silver_cup_wall_dent"
+   ],
+   "repairable": [
+    "sp4_silver_cup_wall_dent"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "rim_split",
+   "variant": "",
+   "templates": [
+    "sp4_silver_cup_rim_split"
+   ],
+   "repairable": [
+    "sp4_silver_cup_rim_split"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "base_wobble",
+   "variant": "",
+   "templates": [
+    "sp4_silver_cup_base_wobble"
+   ],
+   "repairable": [
+    "sp4_silver_cup_base_wobble"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "inside_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_silver_cup_inside_breakthrough"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "handle_rejoin",
+   "variant": "",
+   "templates": [
+    "sp4_silver_cup_handle_rejoin"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_silver_cup_handle_rejoin"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [
+  {
+   "variant": "",
+   "templates": [
+    "sp4_silver_cup_rim_split",
+    "sp4_silver_cup_handle_rejoin"
+   ],
+   "reason": "defect layers overlap or touch"
+  }
+ ],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

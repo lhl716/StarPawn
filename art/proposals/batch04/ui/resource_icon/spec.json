@@ -1,0 +1,20 @@
+{
+ "asset_key": "resource_icon",
+ "kind": "component",
+ "size": [
+  32,
+  32
+ ],
+ "states": [
+  "gold",
+  "silver",
+  "copper",
+  "gem",
+  "energy",
+  "capacity",
+  "time"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "No numeric quantities."
+}

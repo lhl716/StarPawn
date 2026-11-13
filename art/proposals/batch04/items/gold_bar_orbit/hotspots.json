@@ -1,0 +1,709 @@
+{
+ "asset_key": "gold_bar_orbit",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "face_score",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_face_score",
+   "Id": "face_score",
+   "CauseId": "sp4_gold_bar_face_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.23958333333333334,
+   "V": 0.359375,
+   "Width": 0.10416666666666667,
+   "Height": 0.09375,
+   "bounds_px": [
+    72,
+    80,
+    112,
+    104
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "face_score",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_face_score",
+   "Id": "face_score",
+   "CauseId": "sp4_gold_bar_face_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.234375,
+   "V": 0.3125,
+   "Width": 0.109375,
+   "Height": 0.15625,
+   "bounds_px": [
+    23,
+    15,
+    37,
+    25
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "corner_impact",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_corner_impact",
+   "Id": "corner_impact",
+   "CauseId": "sp4_gold_bar_corner_impact",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8411458333333334,
+   "V": 0.69140625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    312,
+    168,
+    334,
+    186
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "corner_impact",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_corner_impact",
+   "Id": "corner_impact",
+   "CauseId": "sp4_gold_bar_corner_impact",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.84765625,
+   "V": 0.7421875,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    105,
+    44,
+    112,
+    51
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "seam_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_seam_core",
+   "Id": "seam_core",
+   "CauseId": "sp4_gold_bar_seam_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4505208333333333,
+   "V": 0.69921875,
+   "Width": 0.234375,
+   "Height": 0.0234375,
+   "bounds_px": [
+    128,
+    176,
+    218,
+    182
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "seam_core",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_seam_core",
+   "Id": "seam_core",
+   "CauseId": "sp4_gold_bar_seam_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.44921875,
+   "V": 0.7421875,
+   "Width": 0.2421875,
+   "Height": 0.046875,
+   "bounds_px": [
+    42,
+    46,
+    73,
+    49
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "short_measure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_short_measure",
+   "Id": "short_measure",
+   "CauseId": "sp4_gold_bar_short_measure",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_scale",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "short_measure",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_short_measure",
+   "Id": "short_measure",
+   "CauseId": "sp4_gold_bar_short_measure",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_scale",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "altered_stamp",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_altered_stamp",
+   "Id": "altered_stamp",
+   "CauseId": "sp4_gold_bar_altered_stamp",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.40234375,
+   "Width": 0.15625,
+   "Height": 0.1171875,
+   "bounds_px": [
+    164,
+    88,
+    224,
+    118
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "altered_stamp",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_altered_stamp",
+   "Id": "altered_stamp",
+   "CauseId": "sp4_gold_bar_altered_stamp",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.359375,
+   "Width": 0.15625,
+   "Height": 0.15625,
+   "bounds_px": [
+    54,
+    18,
+    74,
+    28
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__seam_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_face_score",
+   "Id": "face_score",
+   "CauseId": "sp4_gold_bar_face_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.23958333333333334,
+   "V": 0.359375,
+   "Width": 0.10416666666666667,
+   "Height": 0.09375,
+   "bounds_px": [
+    72,
+    80,
+    112,
+    104
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__seam_core",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_face_score",
+   "Id": "face_score",
+   "CauseId": "sp4_gold_bar_face_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.234375,
+   "V": 0.3125,
+   "Width": 0.109375,
+   "Height": 0.15625,
+   "bounds_px": [
+    23,
+    15,
+    37,
+    25
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__seam_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_seam_core",
+   "Id": "seam_core",
+   "CauseId": "sp4_gold_bar_seam_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4505208333333333,
+   "V": 0.69921875,
+   "Width": 0.234375,
+   "Height": 0.0234375,
+   "bounds_px": [
+    128,
+    176,
+    218,
+    182
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__seam_core",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_seam_core",
+   "Id": "seam_core",
+   "CauseId": "sp4_gold_bar_seam_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.44921875,
+   "V": 0.7421875,
+   "Width": 0.2421875,
+   "Height": 0.046875,
+   "bounds_px": [
+    42,
+    46,
+    73,
+    49
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__altered_stamp",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_face_score",
+   "Id": "face_score",
+   "CauseId": "sp4_gold_bar_face_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.23958333333333334,
+   "V": 0.359375,
+   "Width": 0.10416666666666667,
+   "Height": 0.09375,
+   "bounds_px": [
+    72,
+    80,
+    112,
+    104
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__altered_stamp",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_face_score",
+   "Id": "face_score",
+   "CauseId": "sp4_gold_bar_face_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.234375,
+   "V": 0.3125,
+   "Width": 0.109375,
+   "Height": 0.15625,
+   "bounds_px": [
+    23,
+    15,
+    37,
+    25
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__altered_stamp",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_altered_stamp",
+   "Id": "altered_stamp",
+   "CauseId": "sp4_gold_bar_altered_stamp",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.40234375,
+   "Width": 0.15625,
+   "Height": 0.1171875,
+   "bounds_px": [
+    164,
+    88,
+    224,
+    118
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__altered_stamp",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_altered_stamp",
+   "Id": "altered_stamp",
+   "CauseId": "sp4_gold_bar_altered_stamp",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.359375,
+   "Width": 0.15625,
+   "Height": 0.15625,
+   "bounds_px": [
+    54,
+    18,
+    74,
+    28
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__corner_impact__seam_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_corner_impact",
+   "Id": "corner_impact",
+   "CauseId": "sp4_gold_bar_corner_impact",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8411458333333334,
+   "V": 0.69140625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    312,
+    168,
+    334,
+    186
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__corner_impact__seam_core",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_corner_impact",
+   "Id": "corner_impact",
+   "CauseId": "sp4_gold_bar_corner_impact",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.84765625,
+   "V": 0.7421875,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    105,
+    44,
+    112,
+    51
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__corner_impact__seam_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_seam_core",
+   "Id": "seam_core",
+   "CauseId": "sp4_gold_bar_seam_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4505208333333333,
+   "V": 0.69921875,
+   "Width": 0.234375,
+   "Height": 0.0234375,
+   "bounds_px": [
+    128,
+    176,
+    218,
+    182
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__corner_impact__seam_core",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_seam_core",
+   "Id": "seam_core",
+   "CauseId": "sp4_gold_bar_seam_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.44921875,
+   "V": 0.7421875,
+   "Width": 0.2421875,
+   "Height": 0.046875,
+   "bounds_px": [
+    42,
+    46,
+    73,
+    49
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__corner_impact__seam_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_face_score",
+   "Id": "face_score",
+   "CauseId": "sp4_gold_bar_face_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.23958333333333334,
+   "V": 0.359375,
+   "Width": 0.10416666666666667,
+   "Height": 0.09375,
+   "bounds_px": [
+    72,
+    80,
+    112,
+    104
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__corner_impact__seam_core",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_face_score",
+   "Id": "face_score",
+   "CauseId": "sp4_gold_bar_face_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.234375,
+   "V": 0.3125,
+   "Width": 0.109375,
+   "Height": 0.15625,
+   "bounds_px": [
+    23,
+    15,
+    37,
+    25
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__corner_impact__seam_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_corner_impact",
+   "Id": "corner_impact",
+   "CauseId": "sp4_gold_bar_corner_impact",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8411458333333334,
+   "V": 0.69140625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    312,
+    168,
+    334,
+    186
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__corner_impact__seam_core",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_corner_impact",
+   "Id": "corner_impact",
+   "CauseId": "sp4_gold_bar_corner_impact",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.84765625,
+   "V": 0.7421875,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    105,
+    44,
+    112,
+    51
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__corner_impact__seam_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bar_seam_core",
+   "Id": "seam_core",
+   "CauseId": "sp4_gold_bar_seam_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4505208333333333,
+   "V": 0.69921875,
+   "Width": 0.234375,
+   "Height": 0.0234375,
+   "bounds_px": [
+    128,
+    176,
+    218,
+    182
+   ]
+  },
+  {
+   "asset_key": "gold_bar_orbit",
+   "state": "combo__face_score__corner_impact__seam_core",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_gold_bar_seam_core",
+   "Id": "seam_core",
+   "CauseId": "sp4_gold_bar_seam_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.44921875,
+   "V": 0.7421875,
+   "Width": 0.2421875,
+   "Height": 0.046875,
+   "bounds_px": [
+    42,
+    46,
+    73,
+    49
+   ]
+  }
+ ]
+}

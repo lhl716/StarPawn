@@ -1,0 +1,44 @@
+{
+ "asset_key": "legacy_jade_pendant",
+ "name_en": "Legacy Jade Pendant",
+ "category": "jade_pendant",
+ "subtype": "",
+ "role": "legacy_appraisable",
+ "target_family_id": "legacy_jade_pendant",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "jade_pendant": {
+   "paper": "paper/jade_pendant.png",
+   "items": "items/jade_pendant.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "jade_pendant_dyed": {
+   "paper": "paper/jade_pendant_dyed.png",
+   "items": "items/jade_pendant_dyed.png",
+   "templates": [
+    "legacy_dye_pool"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

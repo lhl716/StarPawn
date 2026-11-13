@@ -1,0 +1,715 @@
+{
+ "asset_key": "collectible_cartridge",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "label_misregister",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_label_misregister",
+   "Id": "label_misregister",
+   "CauseId": "sp4_cartridge_label_misregister",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.26171875,
+   "Width": 0.109375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    130,
+    56,
+    172,
+    78
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "label_misregister",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_label_misregister",
+   "Id": "label_misregister",
+   "CauseId": "sp4_cartridge_label_misregister",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.2734375,
+   "Width": 0.1875,
+   "Height": 0.109375,
+   "bounds_px": [
+    16,
+    14,
+    28,
+    21
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "contact_loss",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_contact_loss",
+   "Id": "contact_loss",
+   "CauseId": "sp4_cartridge_contact_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4661458333333333,
+   "V": 0.81640625,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    172,
+    200,
+    186,
+    218
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "contact_loss",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_contact_loss",
+   "Id": "contact_loss",
+   "CauseId": "sp4_cartridge_contact_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.453125,
+   "V": 0.8203125,
+   "Width": 0.0625,
+   "Height": 0.109375,
+   "bounds_px": [
+    27,
+    49,
+    31,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "shell_tab",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_shell_tab",
+   "Id": "shell_tab",
+   "CauseId": "sp4_cartridge_shell_tab",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.08984375,
+   "Width": 0.08333333333333333,
+   "Height": 0.0546875,
+   "bounds_px": [
+    250,
+    16,
+    282,
+    30
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "shell_tab",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_shell_tab",
+   "Id": "shell_tab",
+   "CauseId": "sp4_cartridge_shell_tab",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.78125,
+   "V": 0.09375,
+   "Width": 0.125,
+   "Height": 0.0625,
+   "bounds_px": [
+    46,
+    4,
+    54,
+    8
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "label_lift",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_label_lift",
+   "Id": "label_lift",
+   "CauseId": "sp4_cartridge_label_lift",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3541666666666667,
+   "V": 0.60546875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1015625,
+   "bounds_px": [
+    122,
+    142,
+    150,
+    168
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "label_lift",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_label_lift",
+   "Id": "label_lift",
+   "CauseId": "sp4_cartridge_label_lift",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.6015625,
+   "Width": 0.109375,
+   "Height": 0.109375,
+   "bounds_px": [
+    15,
+    35,
+    22,
+    42
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "case_reseal",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_case_reseal",
+   "Id": "case_reseal",
+   "CauseId": "sp4_cartridge_case_reseal",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7057291666666666,
+   "V": 0.56640625,
+   "Width": 0.036458333333333336,
+   "Height": 0.3203125,
+   "bounds_px": [
+    264,
+    104,
+    278,
+    186
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "case_reseal",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_case_reseal",
+   "Id": "case_reseal",
+   "CauseId": "sp4_cartridge_case_reseal",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8125,
+   "V": 0.5703125,
+   "Width": 0.0625,
+   "Height": 0.328125,
+   "bounds_px": [
+    50,
+    26,
+    54,
+    47
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__contact_loss",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_label_misregister",
+   "Id": "label_misregister",
+   "CauseId": "sp4_cartridge_label_misregister",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.26171875,
+   "Width": 0.109375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    130,
+    56,
+    172,
+    78
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__contact_loss",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_label_misregister",
+   "Id": "label_misregister",
+   "CauseId": "sp4_cartridge_label_misregister",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.2734375,
+   "Width": 0.1875,
+   "Height": 0.109375,
+   "bounds_px": [
+    16,
+    14,
+    28,
+    21
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__contact_loss",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_contact_loss",
+   "Id": "contact_loss",
+   "CauseId": "sp4_cartridge_contact_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4661458333333333,
+   "V": 0.81640625,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    172,
+    200,
+    186,
+    218
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__contact_loss",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_contact_loss",
+   "Id": "contact_loss",
+   "CauseId": "sp4_cartridge_contact_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.453125,
+   "V": 0.8203125,
+   "Width": 0.0625,
+   "Height": 0.109375,
+   "bounds_px": [
+    27,
+    49,
+    31,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__shell_tab",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_label_misregister",
+   "Id": "label_misregister",
+   "CauseId": "sp4_cartridge_label_misregister",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.26171875,
+   "Width": 0.109375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    130,
+    56,
+    172,
+    78
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__shell_tab",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_label_misregister",
+   "Id": "label_misregister",
+   "CauseId": "sp4_cartridge_label_misregister",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.2734375,
+   "Width": 0.1875,
+   "Height": 0.109375,
+   "bounds_px": [
+    16,
+    14,
+    28,
+    21
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__shell_tab",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_shell_tab",
+   "Id": "shell_tab",
+   "CauseId": "sp4_cartridge_shell_tab",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.08984375,
+   "Width": 0.08333333333333333,
+   "Height": 0.0546875,
+   "bounds_px": [
+    250,
+    16,
+    282,
+    30
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__shell_tab",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_shell_tab",
+   "Id": "shell_tab",
+   "CauseId": "sp4_cartridge_shell_tab",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.78125,
+   "V": 0.09375,
+   "Width": 0.125,
+   "Height": 0.0625,
+   "bounds_px": [
+    46,
+    4,
+    54,
+    8
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__label_lift",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_label_misregister",
+   "Id": "label_misregister",
+   "CauseId": "sp4_cartridge_label_misregister",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.26171875,
+   "Width": 0.109375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    130,
+    56,
+    172,
+    78
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__label_lift",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_label_misregister",
+   "Id": "label_misregister",
+   "CauseId": "sp4_cartridge_label_misregister",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.2734375,
+   "Width": 0.1875,
+   "Height": 0.109375,
+   "bounds_px": [
+    16,
+    14,
+    28,
+    21
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__label_lift",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_label_lift",
+   "Id": "label_lift",
+   "CauseId": "sp4_cartridge_label_lift",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3541666666666667,
+   "V": 0.60546875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1015625,
+   "bounds_px": [
+    122,
+    142,
+    150,
+    168
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__label_lift",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_label_lift",
+   "Id": "label_lift",
+   "CauseId": "sp4_cartridge_label_lift",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.6015625,
+   "Width": 0.109375,
+   "Height": 0.109375,
+   "bounds_px": [
+    15,
+    35,
+    22,
+    42
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__contact_loss__shell_tab",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_label_misregister",
+   "Id": "label_misregister",
+   "CauseId": "sp4_cartridge_label_misregister",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.26171875,
+   "Width": 0.109375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    130,
+    56,
+    172,
+    78
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__contact_loss__shell_tab",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_label_misregister",
+   "Id": "label_misregister",
+   "CauseId": "sp4_cartridge_label_misregister",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.2734375,
+   "Width": 0.1875,
+   "Height": 0.109375,
+   "bounds_px": [
+    16,
+    14,
+    28,
+    21
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__contact_loss__shell_tab",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_contact_loss",
+   "Id": "contact_loss",
+   "CauseId": "sp4_cartridge_contact_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4661458333333333,
+   "V": 0.81640625,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    172,
+    200,
+    186,
+    218
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__contact_loss__shell_tab",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_contact_loss",
+   "Id": "contact_loss",
+   "CauseId": "sp4_cartridge_contact_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.453125,
+   "V": 0.8203125,
+   "Width": 0.0625,
+   "Height": 0.109375,
+   "bounds_px": [
+    27,
+    49,
+    31,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__contact_loss__shell_tab",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_cartridge_shell_tab",
+   "Id": "shell_tab",
+   "CauseId": "sp4_cartridge_shell_tab",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.08984375,
+   "Width": 0.08333333333333333,
+   "Height": 0.0546875,
+   "bounds_px": [
+    250,
+    16,
+    282,
+    30
+   ]
+  },
+  {
+   "asset_key": "collectible_cartridge",
+   "state": "combo__label_misregister__contact_loss__shell_tab",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_cartridge_shell_tab",
+   "Id": "shell_tab",
+   "CauseId": "sp4_cartridge_shell_tab",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.78125,
+   "V": 0.09375,
+   "Width": 0.125,
+   "Height": 0.0625,
+   "bounds_px": [
+    46,
+    4,
+    54,
+    8
+   ]
+  }
+ ]
+}

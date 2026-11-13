@@ -1,0 +1,45 @@
+{
+ "asset_key": "legacy_console",
+ "name_en": "Legacy Console",
+ "category": "console",
+ "subtype": "",
+ "role": "legacy_appraisable",
+ "target_family_id": "legacy_console",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "console": {
+   "paper": "paper/console.png",
+   "items": "items/console.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "console_damaged": {
+   "paper": "paper/console_damaged.png",
+   "items": "items/console_damaged.png",
+   "templates": [
+    "legacy_console_port",
+    "legacy_console_screw"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

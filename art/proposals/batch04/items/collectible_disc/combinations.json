@@ -1,0 +1,143 @@
+{
+ "asset_key": "collectible_disc",
+ "combinations": [
+  {
+   "profile": "combo__radial_score__hub_fissure",
+   "variant": "",
+   "templates": [
+    "sp4_disc_radial_score",
+    "sp4_disc_hub_fissure"
+   ],
+   "repairable": [
+    "sp4_disc_radial_score"
+   ],
+   "retained_after_repair": [
+    "sp4_disc_hub_fissure"
+   ],
+   "repaired_state": "repaired__radial_score__hub_fissure"
+  },
+  {
+   "profile": "combo__radial_score__layer_delamination",
+   "variant": "",
+   "templates": [
+    "sp4_disc_radial_score",
+    "sp4_disc_layer_delamination"
+   ],
+   "repairable": [
+    "sp4_disc_radial_score"
+   ],
+   "retained_after_repair": [
+    "sp4_disc_layer_delamination"
+   ],
+   "repaired_state": "repaired__radial_score__layer_delamination"
+  },
+  {
+   "profile": "combo__radial_score__matrix_mismatch",
+   "variant": "",
+   "templates": [
+    "sp4_disc_radial_score",
+    "sp4_disc_matrix_mismatch"
+   ],
+   "repairable": [
+    "sp4_disc_radial_score"
+   ],
+   "retained_after_repair": [
+    "sp4_disc_matrix_mismatch"
+   ],
+   "repaired_state": "repaired__radial_score__matrix_mismatch"
+  },
+  {
+   "profile": "combo__radial_score__hub_fissure__layer_delamination",
+   "variant": "",
+   "templates": [
+    "sp4_disc_radial_score",
+    "sp4_disc_hub_fissure",
+    "sp4_disc_layer_delamination"
+   ],
+   "repairable": [
+    "sp4_disc_radial_score"
+   ],
+   "retained_after_repair": [
+    "sp4_disc_hub_fissure",
+    "sp4_disc_layer_delamination"
+   ],
+   "repaired_state": "repaired__radial_score__hub_fissure__layer_delamination"
+  },
+  {
+   "profile": "radial_score",
+   "variant": "",
+   "templates": [
+    "sp4_disc_radial_score"
+   ],
+   "repairable": [
+    "sp4_disc_radial_score"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "hub_fissure",
+   "variant": "",
+   "templates": [
+    "sp4_disc_hub_fissure"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_disc_hub_fissure"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "layer_delamination",
+   "variant": "",
+   "templates": [
+    "sp4_disc_layer_delamination"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_disc_layer_delamination"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "matrix_mismatch",
+   "variant": "",
+   "templates": [
+    "sp4_disc_matrix_mismatch"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_disc_matrix_mismatch"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "label_resurface",
+   "variant": "",
+   "templates": [
+    "sp4_disc_label_resurface"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_disc_label_resurface"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

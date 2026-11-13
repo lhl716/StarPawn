@@ -1,0 +1,17 @@
+{
+ "asset_key": "inventory_cell",
+ "kind": "component",
+ "size": [
+  64,
+  64
+ ],
+ "states": [
+  "empty",
+  "hover",
+  "selected",
+  "blocked"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Repeats per grid cell; item art retains its exact manifest canvas."
+}

@@ -1,0 +1,44 @@
+{
+ "asset_key": "legacy_silver_bar",
+ "name_en": "Legacy 100 g Silver Bar",
+ "category": "silver_bar",
+ "subtype": "",
+ "role": "legacy_appraisable",
+ "target_family_id": "legacy_silver_bar",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "silver_bar": {
+   "paper": "paper/silver_bar.png",
+   "items": "items/silver_bar.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "silver_bar_suspect": {
+   "paper": "paper/silver_bar_suspect.png",
+   "items": "items/silver_bar_suspect.png",
+   "templates": [
+    "legacy_silver_bar_seam"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

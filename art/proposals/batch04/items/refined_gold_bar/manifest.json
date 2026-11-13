@@ -1,0 +1,231 @@
+{
+ "asset_key": "refined_gold_bar",
+ "name_en": "Recovered Gold Bar",
+ "category": "refined_gold_bar",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_refined_gold_bar",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "purity_shortfall": {
+   "paper": "paper/purity_shortfall.png",
+   "items": "items/purity_shortfall.png",
+   "templates": [
+    "sp4_refined_gold_bar_purity_shortfall"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "cast_pores": {
+   "paper": "paper/cast_pores.png",
+   "items": "items/cast_pores.png",
+   "templates": [
+    "sp4_refined_gold_bar_cast_pores"
+   ],
+   "view": "ordinary"
+  },
+  "slag_inclusion": {
+   "paper": "paper/slag_inclusion.png",
+   "items": "items/slag_inclusion.png",
+   "templates": [
+    "sp4_refined_gold_bar_slag_inclusion"
+   ],
+   "view": "ordinary"
+  },
+  "short_pour": {
+   "paper": "paper/short_pour.png",
+   "items": "items/short_pour.png",
+   "templates": [
+    "sp4_refined_gold_bar_short_pour"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "traceability_mismatch": {
+   "paper": "paper/traceability_mismatch.png",
+   "items": "items/traceability_mismatch.png",
+   "templates": [
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "view": "ordinary"
+  },
+  "combo__cast_pores__traceability_mismatch": {
+   "paper": "paper/combo__cast_pores__traceability_mismatch.png",
+   "items": "items/combo__cast_pores__traceability_mismatch.png",
+   "templates": [
+    "sp4_refined_gold_bar_cast_pores",
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__cast_pores__traceability_mismatch": {
+   "paper": "paper/repaired__cast_pores__traceability_mismatch.png",
+   "items": "items/repaired__cast_pores__traceability_mismatch.png",
+   "templates": [
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__cast_pores__traceability_mismatch"
+  },
+  "combo__slag_inclusion__traceability_mismatch": {
+   "paper": "paper/combo__slag_inclusion__traceability_mismatch.png",
+   "items": "items/combo__slag_inclusion__traceability_mismatch.png",
+   "templates": [
+    "sp4_refined_gold_bar_slag_inclusion",
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__slag_inclusion__traceability_mismatch": {
+   "paper": "paper/repaired__slag_inclusion__traceability_mismatch.png",
+   "items": "items/repaired__slag_inclusion__traceability_mismatch.png",
+   "templates": [
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__slag_inclusion__traceability_mismatch"
+  },
+  "combo__cast_pores__slag_inclusion__traceability_mismatch": {
+   "paper": "paper/combo__cast_pores__slag_inclusion__traceability_mismatch.png",
+   "items": "items/combo__cast_pores__slag_inclusion__traceability_mismatch.png",
+   "templates": [
+    "sp4_refined_gold_bar_cast_pores",
+    "sp4_refined_gold_bar_slag_inclusion",
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__cast_pores__slag_inclusion__traceability_mismatch": {
+   "paper": "paper/repaired__cast_pores__slag_inclusion__traceability_mismatch.png",
+   "items": "items/repaired__cast_pores__slag_inclusion__traceability_mismatch.png",
+   "templates": [
+    "sp4_refined_gold_bar_traceability_mismatch"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__cast_pores__slag_inclusion__traceability_mismatch"
+  }
+ },
+ "template_checks": {
+  "sp4_refined_gold_bar_purity_shortfall": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_refined_gold_bar_cast_pores": {
+   "paper": {
+    "changed_px": 72,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     118,
+     86,
+     138,
+     100
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     37,
+     17,
+     46,
+     24
+    ]
+   }
+  },
+  "sp4_refined_gold_bar_slag_inclusion": {
+   "paper": {
+    "changed_px": 232,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     228,
+     158,
+     258,
+     174
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 35,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     77,
+     40,
+     87,
+     48
+    ]
+   }
+  },
+  "sp4_refined_gold_bar_short_pour": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_refined_gold_bar_traceability_mismatch": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

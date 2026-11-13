@@ -1,0 +1,276 @@
+{
+ "asset_key": "collectible_book",
+ "name_en": "Signed Book",
+ "category": "book",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_collectible_book",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "reprint_notice": {
+   "paper": "paper/reprint_notice.png",
+   "items": "items/reprint_notice.png",
+   "templates": [
+    "sp4_book_reprint_notice"
+   ],
+   "view": "ordinary"
+  },
+  "signature_copy": {
+   "paper": "paper/signature_copy.png",
+   "items": "items/signature_copy.png",
+   "templates": [
+    "sp4_book_signature_copy"
+   ],
+   "view": "ordinary"
+  },
+  "missing_leaf": {
+   "paper": "paper/missing_leaf.png",
+   "items": "items/missing_leaf.png",
+   "templates": [
+    "sp4_book_missing_leaf"
+   ],
+   "view": "ordinary"
+  },
+  "spine_split": {
+   "paper": "paper/spine_split.png",
+   "items": "items/spine_split.png",
+   "templates": [
+    "sp4_book_spine_split"
+   ],
+   "view": "ordinary"
+  },
+  "water_warp": {
+   "paper": "paper/water_warp.png",
+   "items": "items/water_warp.png",
+   "templates": [
+    "sp4_book_water_warp"
+   ],
+   "view": "ordinary"
+  },
+  "combo__reprint_notice__spine_split": {
+   "paper": "paper/combo__reprint_notice__spine_split.png",
+   "items": "items/combo__reprint_notice__spine_split.png",
+   "templates": [
+    "sp4_book_reprint_notice",
+    "sp4_book_spine_split"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__reprint_notice__spine_split": {
+   "paper": "paper/repaired__reprint_notice__spine_split.png",
+   "items": "items/repaired__reprint_notice__spine_split.png",
+   "templates": [
+    "sp4_book_reprint_notice"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__reprint_notice__spine_split"
+  },
+  "combo__reprint_notice__water_warp": {
+   "paper": "paper/combo__reprint_notice__water_warp.png",
+   "items": "items/combo__reprint_notice__water_warp.png",
+   "templates": [
+    "sp4_book_reprint_notice",
+    "sp4_book_water_warp"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__reprint_notice__water_warp": {
+   "paper": "paper/repaired__reprint_notice__water_warp.png",
+   "items": "items/repaired__reprint_notice__water_warp.png",
+   "templates": [
+    "sp4_book_reprint_notice"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__reprint_notice__water_warp"
+  },
+  "combo__signature_copy__spine_split": {
+   "paper": "paper/combo__signature_copy__spine_split.png",
+   "items": "items/combo__signature_copy__spine_split.png",
+   "templates": [
+    "sp4_book_signature_copy",
+    "sp4_book_spine_split"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__signature_copy__spine_split": {
+   "paper": "paper/repaired__signature_copy__spine_split.png",
+   "items": "items/repaired__signature_copy__spine_split.png",
+   "templates": [
+    "sp4_book_signature_copy"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__signature_copy__spine_split"
+  },
+  "combo__reprint_notice__signature_copy__spine_split": {
+   "paper": "paper/combo__reprint_notice__signature_copy__spine_split.png",
+   "items": "items/combo__reprint_notice__signature_copy__spine_split.png",
+   "templates": [
+    "sp4_book_reprint_notice",
+    "sp4_book_signature_copy",
+    "sp4_book_spine_split"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__reprint_notice__signature_copy__spine_split": {
+   "paper": "paper/repaired__reprint_notice__signature_copy__spine_split.png",
+   "items": "items/repaired__reprint_notice__signature_copy__spine_split.png",
+   "templates": [
+    "sp4_book_reprint_notice",
+    "sp4_book_signature_copy"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__reprint_notice__signature_copy__spine_split"
+  }
+ },
+ "template_checks": {
+  "sp4_book_reprint_notice": {
+   "paper": {
+    "changed_px": 64,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     108,
+     174,
+     124,
+     178
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 4,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     16,
+     41,
+     19,
+     43
+    ]
+   }
+  },
+  "sp4_book_signature_copy": {
+   "paper": {
+    "changed_px": 164,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     234,
+     162,
+     300,
+     186
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 12,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     41,
+     40,
+     54,
+     44
+    ]
+   }
+  },
+  "sp4_book_missing_leaf": {
+   "paper": {
+    "changed_px": 336,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     190,
+     164,
+     198,
+     226
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     32,
+     38,
+     34,
+     50
+    ]
+   }
+  },
+  "sp4_book_spine_split": {
+   "paper": {
+    "changed_px": 48,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     190,
+     228,
+     198,
+     238
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 5,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     32,
+     51,
+     35,
+     53
+    ]
+   }
+  },
+  "sp4_book_water_warp": {
+   "paper": {
+    "changed_px": 1276,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     264,
+     184,
+     338,
+     216
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 33,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     47,
+     42,
+     60,
+     49
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

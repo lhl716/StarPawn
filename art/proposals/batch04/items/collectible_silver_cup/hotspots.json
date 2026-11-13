@@ -1,0 +1,715 @@
+{
+ "asset_key": "collectible_silver_cup",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "wall_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_wall_dent",
+   "Id": "wall_dent",
+   "CauseId": "sp4_silver_cup_wall_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4791666666666667,
+   "V": 0.25,
+   "Width": 0.0625,
+   "Height": 0.125,
+   "bounds_px": [
+    172,
+    48,
+    196,
+    80
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "wall_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_wall_dent",
+   "Id": "wall_dent",
+   "CauseId": "sp4_silver_cup_wall_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.453125,
+   "V": 0.28125,
+   "Width": 0.1875,
+   "Height": 0.109375,
+   "bounds_px": [
+    23,
+    29,
+    35,
+    43
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "rim_split",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_rim_split",
+   "Id": "rim_split",
+   "CauseId": "sp4_silver_cup_rim_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5703125,
+   "V": 0.1796875,
+   "Width": 0.026041666666666668,
+   "Height": 0.078125,
+   "bounds_px": [
+    214,
+    36,
+    224,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "rim_split",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_rim_split",
+   "Id": "rim_split",
+   "CauseId": "sp4_silver_cup_rim_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.21484375,
+   "Width": 0.0625,
+   "Height": 0.0703125,
+   "bounds_px": [
+    42,
+    23,
+    46,
+    32
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "base_wobble",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_base_wobble",
+   "Id": "base_wobble",
+   "CauseId": "sp4_silver_cup_base_wobble",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5598958333333334,
+   "V": 0.8828125,
+   "Width": 0.057291666666666664,
+   "Height": 0.03125,
+   "bounds_px": [
+    204,
+    222,
+    226,
+    230
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "base_wobble",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_base_wobble",
+   "Id": "base_wobble",
+   "CauseId": "sp4_silver_cup_base_wobble",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.671875,
+   "V": 0.83984375,
+   "Width": 0.1875,
+   "Height": 0.0390625,
+   "bounds_px": [
+    37,
+    105,
+    49,
+    110
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "inside_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_inside_breakthrough",
+   "Id": "inside_breakthrough",
+   "CauseId": "sp4_silver_cup_inside_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4791666666666667,
+   "V": 0.12109375,
+   "Width": 0.07291666666666667,
+   "Height": 0.0390625,
+   "bounds_px": [
+    170,
+    26,
+    198,
+    36
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "inside_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_inside_breakthrough",
+   "Id": "inside_breakthrough",
+   "CauseId": "sp4_silver_cup_inside_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4453125,
+   "V": 0.16015625,
+   "Width": 0.203125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    22,
+    18,
+    35,
+    23
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "handle_rejoin",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_handle_rejoin",
+   "Id": "handle_rejoin",
+   "CauseId": "sp4_silver_cup_handle_rejoin",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5911458333333334,
+   "V": 0.21875,
+   "Width": 0.026041666666666668,
+   "Height": 0.046875,
+   "bounds_px": [
+    222,
+    50,
+    232,
+    62
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "handle_rejoin",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_handle_rejoin",
+   "Id": "handle_rejoin",
+   "CauseId": "sp4_silver_cup_handle_rejoin",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.24609375,
+   "Width": 0.09375,
+   "Height": 0.0390625,
+   "bounds_px": [
+    44,
+    29,
+    50,
+    34
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__inside_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_wall_dent",
+   "Id": "wall_dent",
+   "CauseId": "sp4_silver_cup_wall_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4791666666666667,
+   "V": 0.25,
+   "Width": 0.0625,
+   "Height": 0.125,
+   "bounds_px": [
+    172,
+    48,
+    196,
+    80
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__inside_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_wall_dent",
+   "Id": "wall_dent",
+   "CauseId": "sp4_silver_cup_wall_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.453125,
+   "V": 0.28125,
+   "Width": 0.1875,
+   "Height": 0.109375,
+   "bounds_px": [
+    23,
+    29,
+    35,
+    43
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__inside_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_inside_breakthrough",
+   "Id": "inside_breakthrough",
+   "CauseId": "sp4_silver_cup_inside_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4791666666666667,
+   "V": 0.12109375,
+   "Width": 0.07291666666666667,
+   "Height": 0.0390625,
+   "bounds_px": [
+    170,
+    26,
+    198,
+    36
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__inside_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_inside_breakthrough",
+   "Id": "inside_breakthrough",
+   "CauseId": "sp4_silver_cup_inside_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4453125,
+   "V": 0.16015625,
+   "Width": 0.203125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    22,
+    18,
+    35,
+    23
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__handle_rejoin",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_wall_dent",
+   "Id": "wall_dent",
+   "CauseId": "sp4_silver_cup_wall_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4791666666666667,
+   "V": 0.25,
+   "Width": 0.0625,
+   "Height": 0.125,
+   "bounds_px": [
+    172,
+    48,
+    196,
+    80
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__handle_rejoin",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_wall_dent",
+   "Id": "wall_dent",
+   "CauseId": "sp4_silver_cup_wall_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.453125,
+   "V": 0.28125,
+   "Width": 0.1875,
+   "Height": 0.109375,
+   "bounds_px": [
+    23,
+    29,
+    35,
+    43
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__handle_rejoin",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_handle_rejoin",
+   "Id": "handle_rejoin",
+   "CauseId": "sp4_silver_cup_handle_rejoin",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5911458333333334,
+   "V": 0.21875,
+   "Width": 0.026041666666666668,
+   "Height": 0.046875,
+   "bounds_px": [
+    222,
+    50,
+    232,
+    62
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__handle_rejoin",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_handle_rejoin",
+   "Id": "handle_rejoin",
+   "CauseId": "sp4_silver_cup_handle_rejoin",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.24609375,
+   "Width": 0.09375,
+   "Height": 0.0390625,
+   "bounds_px": [
+    44,
+    29,
+    50,
+    34
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__rim_split__inside_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_rim_split",
+   "Id": "rim_split",
+   "CauseId": "sp4_silver_cup_rim_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5703125,
+   "V": 0.1796875,
+   "Width": 0.026041666666666668,
+   "Height": 0.078125,
+   "bounds_px": [
+    214,
+    36,
+    224,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__rim_split__inside_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_rim_split",
+   "Id": "rim_split",
+   "CauseId": "sp4_silver_cup_rim_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.21484375,
+   "Width": 0.0625,
+   "Height": 0.0703125,
+   "bounds_px": [
+    42,
+    23,
+    46,
+    32
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__rim_split__inside_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_inside_breakthrough",
+   "Id": "inside_breakthrough",
+   "CauseId": "sp4_silver_cup_inside_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4791666666666667,
+   "V": 0.12109375,
+   "Width": 0.07291666666666667,
+   "Height": 0.0390625,
+   "bounds_px": [
+    170,
+    26,
+    198,
+    36
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__rim_split__inside_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_inside_breakthrough",
+   "Id": "inside_breakthrough",
+   "CauseId": "sp4_silver_cup_inside_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4453125,
+   "V": 0.16015625,
+   "Width": 0.203125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    22,
+    18,
+    35,
+    23
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__rim_split__inside_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_wall_dent",
+   "Id": "wall_dent",
+   "CauseId": "sp4_silver_cup_wall_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4791666666666667,
+   "V": 0.25,
+   "Width": 0.0625,
+   "Height": 0.125,
+   "bounds_px": [
+    172,
+    48,
+    196,
+    80
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__rim_split__inside_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_wall_dent",
+   "Id": "wall_dent",
+   "CauseId": "sp4_silver_cup_wall_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.453125,
+   "V": 0.28125,
+   "Width": 0.1875,
+   "Height": 0.109375,
+   "bounds_px": [
+    23,
+    29,
+    35,
+    43
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__rim_split__inside_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_rim_split",
+   "Id": "rim_split",
+   "CauseId": "sp4_silver_cup_rim_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5703125,
+   "V": 0.1796875,
+   "Width": 0.026041666666666668,
+   "Height": 0.078125,
+   "bounds_px": [
+    214,
+    36,
+    224,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__rim_split__inside_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_rim_split",
+   "Id": "rim_split",
+   "CauseId": "sp4_silver_cup_rim_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.21484375,
+   "Width": 0.0625,
+   "Height": 0.0703125,
+   "bounds_px": [
+    42,
+    23,
+    46,
+    32
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__rim_split__inside_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_cup_inside_breakthrough",
+   "Id": "inside_breakthrough",
+   "CauseId": "sp4_silver_cup_inside_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4791666666666667,
+   "V": 0.12109375,
+   "Width": 0.07291666666666667,
+   "Height": 0.0390625,
+   "bounds_px": [
+    170,
+    26,
+    198,
+    36
+   ]
+  },
+  {
+   "asset_key": "collectible_silver_cup",
+   "state": "combo__wall_dent__rim_split__inside_breakthrough",
+   "image": "items",
+   "image_size": [
+    64,
+    128
+   ],
+   "TemplateId": "sp4_silver_cup_inside_breakthrough",
+   "Id": "inside_breakthrough",
+   "CauseId": "sp4_silver_cup_inside_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4453125,
+   "V": 0.16015625,
+   "Width": 0.203125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    22,
+    18,
+    35,
+    23
+   ]
+  }
+ ]
+}

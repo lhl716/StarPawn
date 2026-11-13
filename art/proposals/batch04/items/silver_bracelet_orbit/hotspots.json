@@ -1,0 +1,715 @@
+{
+ "asset_key": "silver_bracelet_orbit",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "engraving_loss",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_engraving_loss",
+   "Id": "engraving_loss",
+   "CauseId": "sp4_silver_bracelet_engraving_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4661458333333333,
+   "V": 0.67578125,
+   "Width": 0.140625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    152,
+    166,
+    206,
+    180
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "engraving_loss",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_engraving_loss",
+   "Id": "engraving_loss",
+   "CauseId": "sp4_silver_bracelet_engraving_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.47265625,
+   "V": 0.8359375,
+   "Width": 0.1328125,
+   "Height": 0.078125,
+   "bounds_px": [
+    52,
+    51,
+    69,
+    56
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "rim_buckle",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_rim_buckle",
+   "Id": "rim_buckle",
+   "CauseId": "sp4_silver_bracelet_rim_buckle",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8958333333333334,
+   "V": 0.53515625,
+   "Width": 0.08333333333333333,
+   "Height": 0.1640625,
+   "bounds_px": [
+    328,
+    116,
+    360,
+    158
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "rim_buckle",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_rim_buckle",
+   "Id": "rim_buckle",
+   "CauseId": "sp4_silver_bracelet_rim_buckle",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.9140625,
+   "V": 0.59375,
+   "Width": 0.09375,
+   "Height": 0.25,
+   "bounds_px": [
+    111,
+    30,
+    123,
+    46
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "arc_split",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_arc_split",
+   "Id": "arc_split",
+   "CauseId": "sp4_silver_bracelet_arc_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5364583333333334,
+   "V": 0.703125,
+   "Width": 0.03125,
+   "Height": 0.109375,
+   "bounds_px": [
+    200,
+    166,
+    212,
+    194
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "arc_split",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_arc_split",
+   "Id": "arc_split",
+   "CauseId": "sp4_silver_bracelet_arc_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.8359375,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    66,
+    49,
+    72,
+    58
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "seam_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_seam_breakthrough",
+   "Id": "seam_breakthrough",
+   "CauseId": "sp4_silver_bracelet_seam_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.1875,
+   "Width": 0.015625,
+   "Height": 0.078125,
+   "bounds_px": [
+    232,
+    38,
+    238,
+    58
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "seam_breakthrough",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_seam_breakthrough",
+   "Id": "seam_breakthrough",
+   "CauseId": "sp4_silver_bracelet_seam_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.61328125,
+   "V": 0.1171875,
+   "Width": 0.0234375,
+   "Height": 0.109375,
+   "bounds_px": [
+    77,
+    4,
+    80,
+    11
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "braze_patch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_braze_patch",
+   "Id": "braze_patch",
+   "CauseId": "sp4_silver_bracelet_braze_patch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.28125,
+   "V": 0.68359375,
+   "Width": 0.07291666666666667,
+   "Height": 0.0703125,
+   "bounds_px": [
+    94,
+    166,
+    122,
+    184
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "braze_patch",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_braze_patch",
+   "Id": "braze_patch",
+   "CauseId": "sp4_silver_bracelet_braze_patch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.796875,
+   "Width": 0.078125,
+   "Height": 0.09375,
+   "bounds_px": [
+    29,
+    48,
+    39,
+    54
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__seam_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_engraving_loss",
+   "Id": "engraving_loss",
+   "CauseId": "sp4_silver_bracelet_engraving_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4661458333333333,
+   "V": 0.67578125,
+   "Width": 0.140625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    152,
+    166,
+    206,
+    180
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__seam_breakthrough",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_engraving_loss",
+   "Id": "engraving_loss",
+   "CauseId": "sp4_silver_bracelet_engraving_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.47265625,
+   "V": 0.8359375,
+   "Width": 0.1328125,
+   "Height": 0.078125,
+   "bounds_px": [
+    52,
+    51,
+    69,
+    56
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__seam_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_seam_breakthrough",
+   "Id": "seam_breakthrough",
+   "CauseId": "sp4_silver_bracelet_seam_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.1875,
+   "Width": 0.015625,
+   "Height": 0.078125,
+   "bounds_px": [
+    232,
+    38,
+    238,
+    58
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__seam_breakthrough",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_seam_breakthrough",
+   "Id": "seam_breakthrough",
+   "CauseId": "sp4_silver_bracelet_seam_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.61328125,
+   "V": 0.1171875,
+   "Width": 0.0234375,
+   "Height": 0.109375,
+   "bounds_px": [
+    77,
+    4,
+    80,
+    11
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__braze_patch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_engraving_loss",
+   "Id": "engraving_loss",
+   "CauseId": "sp4_silver_bracelet_engraving_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4661458333333333,
+   "V": 0.67578125,
+   "Width": 0.140625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    152,
+    166,
+    206,
+    180
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__braze_patch",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_engraving_loss",
+   "Id": "engraving_loss",
+   "CauseId": "sp4_silver_bracelet_engraving_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.47265625,
+   "V": 0.8359375,
+   "Width": 0.1328125,
+   "Height": 0.078125,
+   "bounds_px": [
+    52,
+    51,
+    69,
+    56
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__braze_patch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_braze_patch",
+   "Id": "braze_patch",
+   "CauseId": "sp4_silver_bracelet_braze_patch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.28125,
+   "V": 0.68359375,
+   "Width": 0.07291666666666667,
+   "Height": 0.0703125,
+   "bounds_px": [
+    94,
+    166,
+    122,
+    184
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__braze_patch",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_braze_patch",
+   "Id": "braze_patch",
+   "CauseId": "sp4_silver_bracelet_braze_patch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.796875,
+   "Width": 0.078125,
+   "Height": 0.09375,
+   "bounds_px": [
+    29,
+    48,
+    39,
+    54
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__rim_buckle__seam_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_rim_buckle",
+   "Id": "rim_buckle",
+   "CauseId": "sp4_silver_bracelet_rim_buckle",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8958333333333334,
+   "V": 0.53515625,
+   "Width": 0.08333333333333333,
+   "Height": 0.1640625,
+   "bounds_px": [
+    328,
+    116,
+    360,
+    158
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__rim_buckle__seam_breakthrough",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_rim_buckle",
+   "Id": "rim_buckle",
+   "CauseId": "sp4_silver_bracelet_rim_buckle",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.9140625,
+   "V": 0.59375,
+   "Width": 0.09375,
+   "Height": 0.25,
+   "bounds_px": [
+    111,
+    30,
+    123,
+    46
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__rim_buckle__seam_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_seam_breakthrough",
+   "Id": "seam_breakthrough",
+   "CauseId": "sp4_silver_bracelet_seam_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.1875,
+   "Width": 0.015625,
+   "Height": 0.078125,
+   "bounds_px": [
+    232,
+    38,
+    238,
+    58
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__rim_buckle__seam_breakthrough",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_seam_breakthrough",
+   "Id": "seam_breakthrough",
+   "CauseId": "sp4_silver_bracelet_seam_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.61328125,
+   "V": 0.1171875,
+   "Width": 0.0234375,
+   "Height": 0.109375,
+   "bounds_px": [
+    77,
+    4,
+    80,
+    11
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__rim_buckle__seam_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_engraving_loss",
+   "Id": "engraving_loss",
+   "CauseId": "sp4_silver_bracelet_engraving_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4661458333333333,
+   "V": 0.67578125,
+   "Width": 0.140625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    152,
+    166,
+    206,
+    180
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__rim_buckle__seam_breakthrough",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_engraving_loss",
+   "Id": "engraving_loss",
+   "CauseId": "sp4_silver_bracelet_engraving_loss",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.47265625,
+   "V": 0.8359375,
+   "Width": 0.1328125,
+   "Height": 0.078125,
+   "bounds_px": [
+    52,
+    51,
+    69,
+    56
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__rim_buckle__seam_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_rim_buckle",
+   "Id": "rim_buckle",
+   "CauseId": "sp4_silver_bracelet_rim_buckle",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8958333333333334,
+   "V": 0.53515625,
+   "Width": 0.08333333333333333,
+   "Height": 0.1640625,
+   "bounds_px": [
+    328,
+    116,
+    360,
+    158
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__rim_buckle__seam_breakthrough",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_rim_buckle",
+   "Id": "rim_buckle",
+   "CauseId": "sp4_silver_bracelet_rim_buckle",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.9140625,
+   "V": 0.59375,
+   "Width": 0.09375,
+   "Height": 0.25,
+   "bounds_px": [
+    111,
+    30,
+    123,
+    46
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__rim_buckle__seam_breakthrough",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_silver_bracelet_seam_breakthrough",
+   "Id": "seam_breakthrough",
+   "CauseId": "sp4_silver_bracelet_seam_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.1875,
+   "Width": 0.015625,
+   "Height": 0.078125,
+   "bounds_px": [
+    232,
+    38,
+    238,
+    58
+   ]
+  },
+  {
+   "asset_key": "silver_bracelet_orbit",
+   "state": "combo__engraving_loss__rim_buckle__seam_breakthrough",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_silver_bracelet_seam_breakthrough",
+   "Id": "seam_breakthrough",
+   "CauseId": "sp4_silver_bracelet_seam_breakthrough",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.61328125,
+   "V": 0.1171875,
+   "Width": 0.0234375,
+   "Height": 0.109375,
+   "bounds_px": [
+    77,
+    4,
+    80,
+    11
+   ]
+  }
+ ]
+}

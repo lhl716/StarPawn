@@ -1,0 +1,715 @@
+{
+ "asset_key": "collectible_handheld",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "collectible_handheld",
+   "state": "charging_contacts",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_charging_contacts",
+   "Id": "charging_contacts",
+   "CauseId": "sp4_handheld_charging_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8229166666666666,
+   "V": 0.7578125,
+   "Width": 0.0625,
+   "Height": 0.03125,
+   "bounds_px": [
+    304,
+    190,
+    328,
+    198
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "charging_contacts",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_charging_contacts",
+   "Id": "charging_contacts",
+   "CauseId": "sp4_handheld_charging_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.83203125,
+   "V": 0.8515625,
+   "Width": 0.0703125,
+   "Height": 0.046875,
+   "bounds_px": [
+    102,
+    53,
+    111,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "display_line",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_display_line",
+   "Id": "display_line",
+   "CauseId": "sp4_handheld_display_line",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.58203125,
+   "Width": 0.34375,
+   "Height": 0.0078125,
+   "bounds_px": [
+    126,
+    148,
+    258,
+    150
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "display_line",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_display_line",
+   "Id": "display_line",
+   "CauseId": "sp4_handheld_display_line",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.6171875,
+   "Width": 0.34375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    39,
+    86,
+    40
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "stuck_button",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_stuck_button",
+   "Id": "stuck_button",
+   "CauseId": "sp4_handheld_stuck_button",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8776041666666666,
+   "V": 0.4453125,
+   "Width": 0.06770833333333333,
+   "Height": 0.109375,
+   "bounds_px": [
+    324,
+    100,
+    350,
+    128
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "stuck_button",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_stuck_button",
+   "Id": "stuck_button",
+   "CauseId": "sp4_handheld_stuck_button",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.88671875,
+   "V": 0.4375,
+   "Width": 0.0703125,
+   "Height": 0.15625,
+   "bounds_px": [
+    109,
+    23,
+    118,
+    33
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "shell_split",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_shell_split",
+   "Id": "shell_split",
+   "CauseId": "sp4_handheld_shell_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.125,
+   "V": 0.66015625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0859375,
+   "bounds_px": [
+    16,
+    158,
+    80,
+    180
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "shell_split",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_shell_split",
+   "Id": "shell_split",
+   "CauseId": "sp4_handheld_shell_split",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.1171875,
+   "V": 0.7265625,
+   "Width": 0.171875,
+   "Height": 0.140625,
+   "bounds_px": [
+    4,
+    42,
+    26,
+    51
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "battery_cover_rework",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_battery_cover_rework",
+   "Id": "battery_cover_rework",
+   "CauseId": "sp4_handheld_battery_cover_rework",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.73828125,
+   "Width": 0.046875,
+   "Height": 0.0703125,
+   "bounds_px": [
+    152,
+    180,
+    170,
+    198
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "battery_cover_rework",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_battery_cover_rework",
+   "Id": "battery_cover_rework",
+   "CauseId": "sp4_handheld_battery_cover_rework",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.41796875,
+   "V": 0.8203125,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    50,
+    49,
+    57,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__charging_contacts__battery_cover_rework",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_charging_contacts",
+   "Id": "charging_contacts",
+   "CauseId": "sp4_handheld_charging_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8229166666666666,
+   "V": 0.7578125,
+   "Width": 0.0625,
+   "Height": 0.03125,
+   "bounds_px": [
+    304,
+    190,
+    328,
+    198
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__charging_contacts__battery_cover_rework",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_charging_contacts",
+   "Id": "charging_contacts",
+   "CauseId": "sp4_handheld_charging_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.83203125,
+   "V": 0.8515625,
+   "Width": 0.0703125,
+   "Height": 0.046875,
+   "bounds_px": [
+    102,
+    53,
+    111,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__charging_contacts__battery_cover_rework",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_battery_cover_rework",
+   "Id": "battery_cover_rework",
+   "CauseId": "sp4_handheld_battery_cover_rework",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.73828125,
+   "Width": 0.046875,
+   "Height": 0.0703125,
+   "bounds_px": [
+    152,
+    180,
+    170,
+    198
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__charging_contacts__battery_cover_rework",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_battery_cover_rework",
+   "Id": "battery_cover_rework",
+   "CauseId": "sp4_handheld_battery_cover_rework",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.41796875,
+   "V": 0.8203125,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    50,
+    49,
+    57,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__display_line__battery_cover_rework",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_display_line",
+   "Id": "display_line",
+   "CauseId": "sp4_handheld_display_line",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.58203125,
+   "Width": 0.34375,
+   "Height": 0.0078125,
+   "bounds_px": [
+    126,
+    148,
+    258,
+    150
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__display_line__battery_cover_rework",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_display_line",
+   "Id": "display_line",
+   "CauseId": "sp4_handheld_display_line",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.6171875,
+   "Width": 0.34375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    39,
+    86,
+    40
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__display_line__battery_cover_rework",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_battery_cover_rework",
+   "Id": "battery_cover_rework",
+   "CauseId": "sp4_handheld_battery_cover_rework",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.73828125,
+   "Width": 0.046875,
+   "Height": 0.0703125,
+   "bounds_px": [
+    152,
+    180,
+    170,
+    198
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__display_line__battery_cover_rework",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_battery_cover_rework",
+   "Id": "battery_cover_rework",
+   "CauseId": "sp4_handheld_battery_cover_rework",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.41796875,
+   "V": 0.8203125,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    50,
+    49,
+    57,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__stuck_button__battery_cover_rework",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_stuck_button",
+   "Id": "stuck_button",
+   "CauseId": "sp4_handheld_stuck_button",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8776041666666666,
+   "V": 0.4453125,
+   "Width": 0.06770833333333333,
+   "Height": 0.109375,
+   "bounds_px": [
+    324,
+    100,
+    350,
+    128
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__stuck_button__battery_cover_rework",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_stuck_button",
+   "Id": "stuck_button",
+   "CauseId": "sp4_handheld_stuck_button",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.88671875,
+   "V": 0.4375,
+   "Width": 0.0703125,
+   "Height": 0.15625,
+   "bounds_px": [
+    109,
+    23,
+    118,
+    33
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__stuck_button__battery_cover_rework",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_battery_cover_rework",
+   "Id": "battery_cover_rework",
+   "CauseId": "sp4_handheld_battery_cover_rework",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.73828125,
+   "Width": 0.046875,
+   "Height": 0.0703125,
+   "bounds_px": [
+    152,
+    180,
+    170,
+    198
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__stuck_button__battery_cover_rework",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_battery_cover_rework",
+   "Id": "battery_cover_rework",
+   "CauseId": "sp4_handheld_battery_cover_rework",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.41796875,
+   "V": 0.8203125,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    50,
+    49,
+    57,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__charging_contacts__display_line__battery_cover_rework",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_charging_contacts",
+   "Id": "charging_contacts",
+   "CauseId": "sp4_handheld_charging_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8229166666666666,
+   "V": 0.7578125,
+   "Width": 0.0625,
+   "Height": 0.03125,
+   "bounds_px": [
+    304,
+    190,
+    328,
+    198
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__charging_contacts__display_line__battery_cover_rework",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_charging_contacts",
+   "Id": "charging_contacts",
+   "CauseId": "sp4_handheld_charging_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.83203125,
+   "V": 0.8515625,
+   "Width": 0.0703125,
+   "Height": 0.046875,
+   "bounds_px": [
+    102,
+    53,
+    111,
+    56
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__charging_contacts__display_line__battery_cover_rework",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_display_line",
+   "Id": "display_line",
+   "CauseId": "sp4_handheld_display_line",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.58203125,
+   "Width": 0.34375,
+   "Height": 0.0078125,
+   "bounds_px": [
+    126,
+    148,
+    258,
+    150
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__charging_contacts__display_line__battery_cover_rework",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_display_line",
+   "Id": "display_line",
+   "CauseId": "sp4_handheld_display_line",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.6171875,
+   "Width": 0.34375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    39,
+    86,
+    40
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__charging_contacts__display_line__battery_cover_rework",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_handheld_battery_cover_rework",
+   "Id": "battery_cover_rework",
+   "CauseId": "sp4_handheld_battery_cover_rework",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.73828125,
+   "Width": 0.046875,
+   "Height": 0.0703125,
+   "bounds_px": [
+    152,
+    180,
+    170,
+    198
+   ]
+  },
+  {
+   "asset_key": "collectible_handheld",
+   "state": "combo__charging_contacts__display_line__battery_cover_rework",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_handheld_battery_cover_rework",
+   "Id": "battery_cover_rework",
+   "CauseId": "sp4_handheld_battery_cover_rework",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.41796875,
+   "V": 0.8203125,
+   "Width": 0.0546875,
+   "Height": 0.109375,
+   "bounds_px": [
+    50,
+    49,
+    57,
+    56
+   ]
+  }
+ ]
+}

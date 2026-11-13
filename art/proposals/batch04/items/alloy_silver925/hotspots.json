@@ -1,0 +1,550 @@
+{
+ "asset_key": "alloy_silver925",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "alloy_silver925",
+   "state": "fineness_shortfall",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_fineness_shortfall",
+   "Id": "fineness_shortfall",
+   "CauseId": "sp4_alloy_silver_bar_fineness_shortfall",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_assay",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "fineness_shortfall",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_fineness_shortfall",
+   "Id": "fineness_shortfall",
+   "CauseId": "sp4_alloy_silver_bar_fineness_shortfall",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_assay",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "inhomogeneous_cast",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "Id": "inhomogeneous_cast",
+   "CauseId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6067708333333334,
+   "V": 0.39453125,
+   "Width": 0.005208333333333333,
+   "Height": 0.0078125,
+   "bounds_px": [
+    232,
+    100,
+    234,
+    102
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "inhomogeneous_cast",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "Id": "inhomogeneous_cast",
+   "CauseId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "visible_evidence",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "edge_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_edge_fissure",
+   "Id": "edge_fissure",
+   "CauseId": "sp4_alloy_silver_bar_edge_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6640625,
+   "V": 0.51953125,
+   "Width": 0.109375,
+   "Height": 0.0234375,
+   "bounds_px": [
+    234,
+    130,
+    276,
+    136
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "edge_fissure",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_edge_fissure",
+   "Id": "edge_fissure",
+   "CauseId": "sp4_alloy_silver_bar_edge_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.66796875,
+   "V": 0.5390625,
+   "Width": 0.1171875,
+   "Height": 0.046875,
+   "bounds_px": [
+    78,
+    33,
+    93,
+    36
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "weight_deficit",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_weight_deficit",
+   "Id": "weight_deficit",
+   "CauseId": "sp4_alloy_silver_bar_weight_deficit",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_scale_and_assay",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "weight_deficit",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_weight_deficit",
+   "Id": "weight_deficit",
+   "CauseId": "sp4_alloy_silver_bar_weight_deficit",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_scale_and_assay",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "restamped_fineness",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_restamped_fineness",
+   "Id": "restamped_fineness",
+   "CauseId": "sp4_alloy_silver_bar_restamped_fineness",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.4140625,
+   "Width": 0.15625,
+   "Height": 0.109375,
+   "bounds_px": [
+    164,
+    92,
+    224,
+    120
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "restamped_fineness",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_restamped_fineness",
+   "Id": "restamped_fineness",
+   "CauseId": "sp4_alloy_silver_bar_restamped_fineness",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.3828125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    54,
+    20,
+    74,
+    29
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__inhomogeneous_cast__restamped_fineness",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "Id": "inhomogeneous_cast",
+   "CauseId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6067708333333334,
+   "V": 0.39453125,
+   "Width": 0.005208333333333333,
+   "Height": 0.0078125,
+   "bounds_px": [
+    232,
+    100,
+    234,
+    102
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__inhomogeneous_cast__restamped_fineness",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_restamped_fineness",
+   "Id": "restamped_fineness",
+   "CauseId": "sp4_alloy_silver_bar_restamped_fineness",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.4140625,
+   "Width": 0.15625,
+   "Height": 0.109375,
+   "bounds_px": [
+    164,
+    92,
+    224,
+    120
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__inhomogeneous_cast__restamped_fineness",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_restamped_fineness",
+   "Id": "restamped_fineness",
+   "CauseId": "sp4_alloy_silver_bar_restamped_fineness",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.3828125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    54,
+    20,
+    74,
+    29
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__edge_fissure__restamped_fineness",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_edge_fissure",
+   "Id": "edge_fissure",
+   "CauseId": "sp4_alloy_silver_bar_edge_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6640625,
+   "V": 0.51953125,
+   "Width": 0.109375,
+   "Height": 0.0234375,
+   "bounds_px": [
+    234,
+    130,
+    276,
+    136
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__edge_fissure__restamped_fineness",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_edge_fissure",
+   "Id": "edge_fissure",
+   "CauseId": "sp4_alloy_silver_bar_edge_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.66796875,
+   "V": 0.5390625,
+   "Width": 0.1171875,
+   "Height": 0.046875,
+   "bounds_px": [
+    78,
+    33,
+    93,
+    36
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__edge_fissure__restamped_fineness",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_restamped_fineness",
+   "Id": "restamped_fineness",
+   "CauseId": "sp4_alloy_silver_bar_restamped_fineness",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.4140625,
+   "Width": 0.15625,
+   "Height": 0.109375,
+   "bounds_px": [
+    164,
+    92,
+    224,
+    120
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__edge_fissure__restamped_fineness",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_restamped_fineness",
+   "Id": "restamped_fineness",
+   "CauseId": "sp4_alloy_silver_bar_restamped_fineness",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.3828125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    54,
+    20,
+    74,
+    29
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__inhomogeneous_cast__edge_fissure__restamped_fineness",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "Id": "inhomogeneous_cast",
+   "CauseId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6067708333333334,
+   "V": 0.39453125,
+   "Width": 0.005208333333333333,
+   "Height": 0.0078125,
+   "bounds_px": [
+    232,
+    100,
+    234,
+    102
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__inhomogeneous_cast__edge_fissure__restamped_fineness",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_edge_fissure",
+   "Id": "edge_fissure",
+   "CauseId": "sp4_alloy_silver_bar_edge_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6640625,
+   "V": 0.51953125,
+   "Width": 0.109375,
+   "Height": 0.0234375,
+   "bounds_px": [
+    234,
+    130,
+    276,
+    136
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__inhomogeneous_cast__edge_fissure__restamped_fineness",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_edge_fissure",
+   "Id": "edge_fissure",
+   "CauseId": "sp4_alloy_silver_bar_edge_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.66796875,
+   "V": 0.5390625,
+   "Width": 0.1171875,
+   "Height": 0.046875,
+   "bounds_px": [
+    78,
+    33,
+    93,
+    36
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__inhomogeneous_cast__edge_fissure__restamped_fineness",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_restamped_fineness",
+   "Id": "restamped_fineness",
+   "CauseId": "sp4_alloy_silver_bar_restamped_fineness",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5052083333333334,
+   "V": 0.4140625,
+   "Width": 0.15625,
+   "Height": 0.109375,
+   "bounds_px": [
+    164,
+    92,
+    224,
+    120
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__inhomogeneous_cast__edge_fissure__restamped_fineness",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_restamped_fineness",
+   "Id": "restamped_fineness",
+   "CauseId": "sp4_alloy_silver_bar_restamped_fineness",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.3828125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    54,
+    20,
+    74,
+    29
+   ]
+  }
+ ]
+}

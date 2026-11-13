@@ -1,0 +1,73 @@
+{
+ "asset_key": "legacy_silver_cup",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "legacy_silver_cup",
+   "state": "silver_cup_worn",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_cup_dent",
+   "Id": "cup_dent",
+   "CauseId": "cup_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.56,
+    0.54
+   ],
+   "U": 0.4791666666666667,
+   "V": 0.2421875,
+   "Width": 0.09375,
+   "Height": 0.15625,
+   "bounds_px": [
+    166,
+    42,
+    202,
+    82
+   ]
+  },
+  {
+   "asset_key": "legacy_silver_cup",
+   "state": "silver_cup_worn",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "legacy_cup_dent",
+   "Id": "cup_dent",
+   "CauseId": "cup_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.56,
+    0.54
+   ],
+   "U": 0.46875,
+   "V": 0.25,
+   "Width": 0.15625,
+   "Height": 0.1875,
+   "bounds_px": [
+    25,
+    10,
+    35,
+    22
+   ]
+  }
+ ]
+}

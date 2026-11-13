@@ -1,0 +1,517 @@
+{
+ "asset_key": "jade_rough_water",
+ "combinations": [
+  {
+   "profile": "combo__impact_spall__surface_color_wash",
+   "variant": "",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__impact_spall__joined_cap",
+   "variant": "",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_joined_cap"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_joined_cap"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__impact_spall__surface_color_wash__joined_cap",
+   "variant": "",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash",
+    "sp4_rough_water_joined_cap"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash",
+    "sp4_rough_water_joined_cap"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "impact_spall",
+   "variant": "",
+   "templates": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "surface_color_wash",
+   "variant": "",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "joined_cap",
+   "variant": "",
+   "templates": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "sealed",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_dou_combo__impact_spall__through_fracture",
+   "variant": "window_dou_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_dou_combo__impact_spall__fibrous_cloud",
+   "variant": "window_dou_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_dou_combo__impact_spall__surface_color_wash",
+   "variant": "window_dou_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_dou_combo__impact_spall__through_fracture__surface_color_wash",
+   "variant": "window_dou_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_dou_impact_spall",
+   "variant": "window_dou_",
+   "templates": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_dou_through_fracture",
+   "variant": "window_dou_",
+   "templates": [
+    "sp4_rough_water_through_fracture"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_through_fracture"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_dou_fibrous_cloud",
+   "variant": "window_dou_",
+   "templates": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_dou_surface_color_wash",
+   "variant": "window_dou_",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_dou_joined_cap",
+   "variant": "window_dou_",
+   "templates": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_open_dou",
+   "variant": "window_dou_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_nuo_combo__impact_spall__through_fracture",
+   "variant": "window_nuo_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_nuo_combo__impact_spall__fibrous_cloud",
+   "variant": "window_nuo_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_nuo_combo__impact_spall__surface_color_wash",
+   "variant": "window_nuo_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_nuo_combo__impact_spall__through_fracture__surface_color_wash",
+   "variant": "window_nuo_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_nuo_impact_spall",
+   "variant": "window_nuo_",
+   "templates": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_nuo_through_fracture",
+   "variant": "window_nuo_",
+   "templates": [
+    "sp4_rough_water_through_fracture"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_through_fracture"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_nuo_fibrous_cloud",
+   "variant": "window_nuo_",
+   "templates": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_nuo_surface_color_wash",
+   "variant": "window_nuo_",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_nuo_joined_cap",
+   "variant": "window_nuo_",
+   "templates": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_open_nuo",
+   "variant": "window_nuo_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_bing_combo__impact_spall__through_fracture",
+   "variant": "window_bing_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_bing_combo__impact_spall__fibrous_cloud",
+   "variant": "window_bing_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_bing_combo__impact_spall__surface_color_wash",
+   "variant": "window_bing_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_bing_combo__impact_spall__through_fracture__surface_color_wash",
+   "variant": "window_bing_",
+   "templates": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall",
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "window_bing_impact_spall",
+   "variant": "window_bing_",
+   "templates": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_impact_spall"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_bing_through_fracture",
+   "variant": "window_bing_",
+   "templates": [
+    "sp4_rough_water_through_fracture"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_through_fracture"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_bing_fibrous_cloud",
+   "variant": "window_bing_",
+   "templates": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_bing_surface_color_wash",
+   "variant": "window_bing_",
+   "templates": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_surface_color_wash"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_bing_joined_cap",
+   "variant": "window_bing_",
+   "templates": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_rough_water_joined_cap"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "window_open_bing",
+   "variant": "window_bing_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [
+  {
+   "variant": "window_dou_",
+   "templates": [
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "reason": "defect layers overlap or touch"
+  },
+  {
+   "variant": "window_nuo_",
+   "templates": [
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "reason": "defect layers overlap or touch"
+  },
+  {
+   "variant": "window_bing_",
+   "templates": [
+    "sp4_rough_water_through_fracture",
+    "sp4_rough_water_fibrous_cloud"
+   ],
+   "reason": "defect layers overlap or touch"
+  }
+ ],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

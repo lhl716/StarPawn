@@ -1,0 +1,17 @@
+{
+ "asset_key": "button_icon",
+ "kind": "component",
+ "size": [
+  24,
+  24
+ ],
+ "states": [
+  "default",
+  "hover",
+  "pressed",
+  "disabled"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "No baked label."
+}

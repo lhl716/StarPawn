@@ -1,0 +1,709 @@
+{
+ "asset_key": "gem_sapphire_oval",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "pavilion_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_pavilion_chip",
+   "Id": "pavilion_chip",
+   "CauseId": "sp4_gem_sapphire_pavilion_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5026041666666666,
+   "V": 0.74609375,
+   "Width": 0.09895833333333333,
+   "Height": 0.1015625,
+   "bounds_px": [
+    174,
+    178,
+    212,
+    204
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "pavilion_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_pavilion_chip",
+   "Id": "pavilion_chip",
+   "CauseId": "sp4_gem_sapphire_pavilion_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.7421875,
+   "Width": 0.171875,
+   "Height": 0.109375,
+   "bounds_px": [
+    27,
+    44,
+    38,
+    51
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "facet_abrasion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_facet_abrasion",
+   "Id": "facet_abrasion",
+   "CauseId": "sp4_gem_sapphire_facet_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3854166666666667,
+   "V": 0.3359375,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    138,
+    76,
+    158,
+    96
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "facet_abrasion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_facet_abrasion",
+   "Id": "facet_abrasion",
+   "CauseId": "sp4_gem_sapphire_facet_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.328125,
+   "V": 0.34375,
+   "Width": 0.09375,
+   "Height": 0.09375,
+   "bounds_px": [
+    18,
+    19,
+    24,
+    25
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "uneven_zone",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_uneven_zone",
+   "Id": "uneven_zone",
+   "CauseId": "sp4_gem_sapphire_uneven_zone",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.50390625,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    208,
+    102,
+    238,
+    156
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "uneven_zone",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_uneven_zone",
+   "Id": "uneven_zone",
+   "CauseId": "sp4_gem_sapphire_uneven_zone",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.5078125,
+   "Width": 0.109375,
+   "Height": 0.234375,
+   "bounds_px": [
+    36,
+    25,
+    43,
+    40
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "edge_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_edge_fracture",
+   "Id": "edge_fracture",
+   "CauseId": "sp4_gem_sapphire_edge_fracture",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6510416666666666,
+   "V": 0.6484375,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    232,
+    156,
+    268,
+    176
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "edge_fracture",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_edge_fracture",
+   "Id": "edge_fracture",
+   "CauseId": "sp4_gem_sapphire_edge_fracture",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7265625,
+   "V": 0.6484375,
+   "Width": 0.140625,
+   "Height": 0.078125,
+   "bounds_px": [
+    42,
+    39,
+    51,
+    44
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "composite_claim",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_composite_claim",
+   "Id": "composite_claim",
+   "CauseId": "sp4_gem_sapphire_composite_claim",
+   "ViewId": "front",
+   "InstrumentKind": "lab_report",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_lab_report",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "composite_claim",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_composite_claim",
+   "Id": "composite_claim",
+   "CauseId": "sp4_gem_sapphire_composite_claim",
+   "ViewId": "front",
+   "InstrumentKind": "lab_report",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_lab_report",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__facet_abrasion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_pavilion_chip",
+   "Id": "pavilion_chip",
+   "CauseId": "sp4_gem_sapphire_pavilion_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5026041666666666,
+   "V": 0.74609375,
+   "Width": 0.09895833333333333,
+   "Height": 0.1015625,
+   "bounds_px": [
+    174,
+    178,
+    212,
+    204
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__facet_abrasion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_pavilion_chip",
+   "Id": "pavilion_chip",
+   "CauseId": "sp4_gem_sapphire_pavilion_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.7421875,
+   "Width": 0.171875,
+   "Height": 0.109375,
+   "bounds_px": [
+    27,
+    44,
+    38,
+    51
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__facet_abrasion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_facet_abrasion",
+   "Id": "facet_abrasion",
+   "CauseId": "sp4_gem_sapphire_facet_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3854166666666667,
+   "V": 0.3359375,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    138,
+    76,
+    158,
+    96
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__facet_abrasion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_facet_abrasion",
+   "Id": "facet_abrasion",
+   "CauseId": "sp4_gem_sapphire_facet_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.328125,
+   "V": 0.34375,
+   "Width": 0.09375,
+   "Height": 0.09375,
+   "bounds_px": [
+    18,
+    19,
+    24,
+    25
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__uneven_zone",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_pavilion_chip",
+   "Id": "pavilion_chip",
+   "CauseId": "sp4_gem_sapphire_pavilion_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5026041666666666,
+   "V": 0.74609375,
+   "Width": 0.09895833333333333,
+   "Height": 0.1015625,
+   "bounds_px": [
+    174,
+    178,
+    212,
+    204
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__uneven_zone",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_pavilion_chip",
+   "Id": "pavilion_chip",
+   "CauseId": "sp4_gem_sapphire_pavilion_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.7421875,
+   "Width": 0.171875,
+   "Height": 0.109375,
+   "bounds_px": [
+    27,
+    44,
+    38,
+    51
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__uneven_zone",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_uneven_zone",
+   "Id": "uneven_zone",
+   "CauseId": "sp4_gem_sapphire_uneven_zone",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.50390625,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    208,
+    102,
+    238,
+    156
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__uneven_zone",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_uneven_zone",
+   "Id": "uneven_zone",
+   "CauseId": "sp4_gem_sapphire_uneven_zone",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.5078125,
+   "Width": 0.109375,
+   "Height": 0.234375,
+   "bounds_px": [
+    36,
+    25,
+    43,
+    40
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__edge_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_pavilion_chip",
+   "Id": "pavilion_chip",
+   "CauseId": "sp4_gem_sapphire_pavilion_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5026041666666666,
+   "V": 0.74609375,
+   "Width": 0.09895833333333333,
+   "Height": 0.1015625,
+   "bounds_px": [
+    174,
+    178,
+    212,
+    204
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__edge_fracture",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_pavilion_chip",
+   "Id": "pavilion_chip",
+   "CauseId": "sp4_gem_sapphire_pavilion_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.7421875,
+   "Width": 0.171875,
+   "Height": 0.109375,
+   "bounds_px": [
+    27,
+    44,
+    38,
+    51
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__edge_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_edge_fracture",
+   "Id": "edge_fracture",
+   "CauseId": "sp4_gem_sapphire_edge_fracture",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6510416666666666,
+   "V": 0.6484375,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    232,
+    156,
+    268,
+    176
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__edge_fracture",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_edge_fracture",
+   "Id": "edge_fracture",
+   "CauseId": "sp4_gem_sapphire_edge_fracture",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7265625,
+   "V": 0.6484375,
+   "Width": 0.140625,
+   "Height": 0.078125,
+   "bounds_px": [
+    42,
+    39,
+    51,
+    44
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__facet_abrasion__uneven_zone",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_pavilion_chip",
+   "Id": "pavilion_chip",
+   "CauseId": "sp4_gem_sapphire_pavilion_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5026041666666666,
+   "V": 0.74609375,
+   "Width": 0.09895833333333333,
+   "Height": 0.1015625,
+   "bounds_px": [
+    174,
+    178,
+    212,
+    204
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__facet_abrasion__uneven_zone",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_pavilion_chip",
+   "Id": "pavilion_chip",
+   "CauseId": "sp4_gem_sapphire_pavilion_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.7421875,
+   "Width": 0.171875,
+   "Height": 0.109375,
+   "bounds_px": [
+    27,
+    44,
+    38,
+    51
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__facet_abrasion__uneven_zone",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_facet_abrasion",
+   "Id": "facet_abrasion",
+   "CauseId": "sp4_gem_sapphire_facet_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3854166666666667,
+   "V": 0.3359375,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    138,
+    76,
+    158,
+    96
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__facet_abrasion__uneven_zone",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_facet_abrasion",
+   "Id": "facet_abrasion",
+   "CauseId": "sp4_gem_sapphire_facet_abrasion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.328125,
+   "V": 0.34375,
+   "Width": 0.09375,
+   "Height": 0.09375,
+   "bounds_px": [
+    18,
+    19,
+    24,
+    25
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__facet_abrasion__uneven_zone",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_sapphire_uneven_zone",
+   "Id": "uneven_zone",
+   "CauseId": "sp4_gem_sapphire_uneven_zone",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.50390625,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    208,
+    102,
+    238,
+    156
+   ]
+  },
+  {
+   "asset_key": "gem_sapphire_oval",
+   "state": "combo__pavilion_chip__facet_abrasion__uneven_zone",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_sapphire_uneven_zone",
+   "Id": "uneven_zone",
+   "CauseId": "sp4_gem_sapphire_uneven_zone",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.5078125,
+   "Width": 0.109375,
+   "Height": 0.234375,
+   "bounds_px": [
+    36,
+    25,
+    43,
+    40
+   ]
+  }
+ ]
+}

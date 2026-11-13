@@ -1,0 +1,2115 @@
+{
+ "asset_key": "jade_bangle_crafted",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_radial_bangle_crack",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_radial_bangle_crack",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_inner_rim_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.24739583333333334,
+   "V": 0.328125,
+   "Width": 0.015625,
+   "Height": 0.015625,
+   "bounds_px": [
+    92,
+    82,
+    98,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_inner_rim_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.25,
+   "V": 0.2734375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    30,
+    16,
+    34,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.2604166666666667,
+   "V": 0.72265625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    72,
+    174,
+    128,
+    196
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.7890625,
+   "Width": 0.140625,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    47,
+    43,
+    54
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_dyed_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5130208333333334,
+   "V": 0.78125,
+   "Width": 0.11979166666666667,
+   "Height": 0.109375,
+   "bounds_px": [
+    174,
+    186,
+    220,
+    214
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_dyed_band",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.51171875,
+   "V": 0.8671875,
+   "Width": 0.1171875,
+   "Height": 0.140625,
+   "bounds_px": [
+    58,
+    51,
+    73,
+    60
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_joined_bangle_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_joined_bangle_seam",
+   "Id": "joined_bangle_seam",
+   "CauseId": "sp4_jade_bangle_joined_bangle_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7864583333333334,
+   "V": 0.30859375,
+   "Width": 0.03125,
+   "Height": 0.0859375,
+   "bounds_px": [
+    296,
+    68,
+    308,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_joined_bangle_seam",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_joined_bangle_seam",
+   "Id": "joined_bangle_seam",
+   "CauseId": "sp4_jade_bangle_joined_bangle_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.77734375,
+   "V": 0.25,
+   "Width": 0.0234375,
+   "Height": 0.09375,
+   "bounds_px": [
+    98,
+    13,
+    101,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.24739583333333334,
+   "V": 0.328125,
+   "Width": 0.015625,
+   "Height": 0.015625,
+   "bounds_px": [
+    92,
+    82,
+    98,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.25,
+   "V": 0.2734375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    30,
+    16,
+    34,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.2604166666666667,
+   "V": 0.72265625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    72,
+    174,
+    128,
+    196
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.7890625,
+   "Width": 0.140625,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    47,
+    43,
+    54
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__dyed_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__dyed_band",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__dyed_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5130208333333334,
+   "V": 0.78125,
+   "Width": 0.11979166666666667,
+   "Height": 0.109375,
+   "bounds_px": [
+    174,
+    186,
+    220,
+    214
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__dyed_band",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.51171875,
+   "V": 0.8671875,
+   "Width": 0.1171875,
+   "Height": 0.140625,
+   "bounds_px": [
+    58,
+    51,
+    73,
+    60
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.24739583333333334,
+   "V": 0.328125,
+   "Width": 0.015625,
+   "Height": 0.015625,
+   "bounds_px": [
+    92,
+    82,
+    98,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.25,
+   "V": 0.2734375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    30,
+    16,
+    34,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.2604166666666667,
+   "V": 0.72265625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    72,
+    174,
+    128,
+    196
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "dou_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.7890625,
+   "Width": 0.140625,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    47,
+    43,
+    54
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_radial_bangle_crack",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_radial_bangle_crack",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_inner_rim_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.24739583333333334,
+   "V": 0.328125,
+   "Width": 0.015625,
+   "Height": 0.015625,
+   "bounds_px": [
+    92,
+    82,
+    98,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_inner_rim_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.25,
+   "V": 0.2734375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    30,
+    16,
+    34,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.2604166666666667,
+   "V": 0.72265625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    72,
+    174,
+    128,
+    196
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.7890625,
+   "Width": 0.140625,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    47,
+    43,
+    54
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_dyed_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5130208333333334,
+   "V": 0.78125,
+   "Width": 0.11979166666666667,
+   "Height": 0.109375,
+   "bounds_px": [
+    174,
+    186,
+    220,
+    214
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_dyed_band",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.51171875,
+   "V": 0.8671875,
+   "Width": 0.1171875,
+   "Height": 0.140625,
+   "bounds_px": [
+    58,
+    51,
+    73,
+    60
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_joined_bangle_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_joined_bangle_seam",
+   "Id": "joined_bangle_seam",
+   "CauseId": "sp4_jade_bangle_joined_bangle_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7864583333333334,
+   "V": 0.30859375,
+   "Width": 0.03125,
+   "Height": 0.0859375,
+   "bounds_px": [
+    296,
+    68,
+    308,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_joined_bangle_seam",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_joined_bangle_seam",
+   "Id": "joined_bangle_seam",
+   "CauseId": "sp4_jade_bangle_joined_bangle_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.77734375,
+   "V": 0.25,
+   "Width": 0.0234375,
+   "Height": 0.09375,
+   "bounds_px": [
+    98,
+    13,
+    101,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.24739583333333334,
+   "V": 0.328125,
+   "Width": 0.015625,
+   "Height": 0.015625,
+   "bounds_px": [
+    92,
+    82,
+    98,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.25,
+   "V": 0.2734375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    30,
+    16,
+    34,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.2604166666666667,
+   "V": 0.72265625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    72,
+    174,
+    128,
+    196
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.7890625,
+   "Width": 0.140625,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    47,
+    43,
+    54
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__dyed_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__dyed_band",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__dyed_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5130208333333334,
+   "V": 0.78125,
+   "Width": 0.11979166666666667,
+   "Height": 0.109375,
+   "bounds_px": [
+    174,
+    186,
+    220,
+    214
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__dyed_band",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.51171875,
+   "V": 0.8671875,
+   "Width": 0.1171875,
+   "Height": 0.140625,
+   "bounds_px": [
+    58,
+    51,
+    73,
+    60
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.24739583333333334,
+   "V": 0.328125,
+   "Width": 0.015625,
+   "Height": 0.015625,
+   "bounds_px": [
+    92,
+    82,
+    98,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.25,
+   "V": 0.2734375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    30,
+    16,
+    34,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.2604166666666667,
+   "V": 0.72265625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    72,
+    174,
+    128,
+    196
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "nuo_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.7890625,
+   "Width": 0.140625,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    47,
+    43,
+    54
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_radial_bangle_crack",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_radial_bangle_crack",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_inner_rim_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.24739583333333334,
+   "V": 0.328125,
+   "Width": 0.015625,
+   "Height": 0.015625,
+   "bounds_px": [
+    92,
+    82,
+    98,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_inner_rim_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.25,
+   "V": 0.2734375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    30,
+    16,
+    34,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.2604166666666667,
+   "V": 0.72265625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    72,
+    174,
+    128,
+    196
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.7890625,
+   "Width": 0.140625,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    47,
+    43,
+    54
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_dyed_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5130208333333334,
+   "V": 0.78125,
+   "Width": 0.11979166666666667,
+   "Height": 0.109375,
+   "bounds_px": [
+    174,
+    186,
+    220,
+    214
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_dyed_band",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.51171875,
+   "V": 0.8671875,
+   "Width": 0.1171875,
+   "Height": 0.140625,
+   "bounds_px": [
+    58,
+    51,
+    73,
+    60
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_joined_bangle_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_joined_bangle_seam",
+   "Id": "joined_bangle_seam",
+   "CauseId": "sp4_jade_bangle_joined_bangle_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7864583333333334,
+   "V": 0.30859375,
+   "Width": 0.03125,
+   "Height": 0.0859375,
+   "bounds_px": [
+    296,
+    68,
+    308,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_joined_bangle_seam",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_joined_bangle_seam",
+   "Id": "joined_bangle_seam",
+   "CauseId": "sp4_jade_bangle_joined_bangle_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.77734375,
+   "V": 0.25,
+   "Width": 0.0234375,
+   "Height": 0.09375,
+   "bounds_px": [
+    98,
+    13,
+    101,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.24739583333333334,
+   "V": 0.328125,
+   "Width": 0.015625,
+   "Height": 0.015625,
+   "bounds_px": [
+    92,
+    82,
+    98,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__inner_rim_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.25,
+   "V": 0.2734375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    30,
+    16,
+    34,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.2604166666666667,
+   "V": 0.72265625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    72,
+    174,
+    128,
+    196
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.7890625,
+   "Width": 0.140625,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    47,
+    43,
+    54
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__dyed_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__dyed_band",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__dyed_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5130208333333334,
+   "V": 0.78125,
+   "Width": 0.11979166666666667,
+   "Height": 0.109375,
+   "bounds_px": [
+    174,
+    186,
+    220,
+    214
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__dyed_band",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_dyed_band",
+   "Id": "dyed_band",
+   "CauseId": "sp4_jade_bangle_dyed_band",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.51171875,
+   "V": 0.8671875,
+   "Width": 0.1171875,
+   "Height": 0.140625,
+   "bounds_px": [
+    58,
+    51,
+    73,
+    60
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7395833333333334,
+   "V": 0.73046875,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    276,
+    172,
+    292,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_radial_bangle_crack",
+   "Id": "radial_bangle_crack",
+   "CauseId": "sp4_jade_bangle_radial_bangle_crack",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.8046875,
+   "Width": 0.046875,
+   "Height": 0.140625,
+   "bounds_px": [
+    91,
+    47,
+    97,
+    56
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.24739583333333334,
+   "V": 0.328125,
+   "Width": 0.015625,
+   "Height": 0.015625,
+   "bounds_px": [
+    92,
+    82,
+    98,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_inner_rim_chip",
+   "Id": "inner_rim_chip",
+   "CauseId": "sp4_jade_bangle_inner_rim_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.25,
+   "V": 0.2734375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    30,
+    16,
+    34,
+    19
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.2604166666666667,
+   "V": 0.72265625,
+   "Width": 0.14583333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    72,
+    174,
+    128,
+    196
+   ]
+  },
+  {
+   "asset_key": "jade_bangle_crafted",
+   "state": "bing_combo__radial_bangle_crack__inner_rim_chip__clouded_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_jade_bangle_clouded_arc",
+   "Id": "clouded_arc",
+   "CauseId": "sp4_jade_bangle_clouded_arc",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.7890625,
+   "Width": 0.140625,
+   "Height": 0.109375,
+   "bounds_px": [
+    25,
+    47,
+    43,
+    54
+   ]
+  }
+ ]
+}

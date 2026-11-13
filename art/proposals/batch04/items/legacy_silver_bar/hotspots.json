@@ -1,0 +1,73 @@
+{
+ "asset_key": "legacy_silver_bar",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "legacy_silver_bar",
+   "state": "silver_bar_suspect",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_silver_bar_seam",
+   "Id": "silver_bar_seam",
+   "CauseId": "silver_filler",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.685,
+    0.54
+   ],
+   "U": 0.4348958333333333,
+   "V": 0.75390625,
+   "Width": 0.265625,
+   "Height": 0.0390625,
+   "bounds_px": [
+    116,
+    188,
+    218,
+    198
+   ]
+  },
+  {
+   "asset_key": "legacy_silver_bar",
+   "state": "silver_bar_suspect",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "legacy_silver_bar_seam",
+   "Id": "silver_bar_seam",
+   "CauseId": "silver_filler",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.685,
+    0.54
+   ],
+   "U": 0.4296875,
+   "V": 0.6328125,
+   "Width": 0.265625,
+   "Height": 0.015625,
+   "bounds_px": [
+    19,
+    40,
+    36,
+    41
+   ]
+  }
+ ]
+}

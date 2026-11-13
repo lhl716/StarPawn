@@ -1,0 +1,14 @@
+{
+ "asset_key": "event_assay_campaign",
+ "kind": "event_icon",
+ "size": [
+  64,
+  64
+ ],
+ "states": [
+  "default"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Event assay_campaign; depict its cause. Percentages, dates and price directions are separate UI state."
+}

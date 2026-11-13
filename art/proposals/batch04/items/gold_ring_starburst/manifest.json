@@ -1,0 +1,275 @@
+{
+ "asset_key": "gold_ring_starburst",
+ "name_en": "Starburst Gold Ring",
+ "category": "gold_ring",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_gold_ring_starburst",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "outer_scrape": {
+   "paper": "paper/outer_scrape.png",
+   "items": "items/outer_scrape.png",
+   "templates": [
+    "sp4_gold_ring_outer_scrape"
+   ],
+   "view": "ordinary"
+  },
+  "band_dent": {
+   "paper": "paper/band_dent.png",
+   "items": "items/band_dent.png",
+   "templates": [
+    "sp4_gold_ring_band_dent"
+   ],
+   "view": "ordinary"
+  },
+  "band_fissure": {
+   "paper": "paper/band_fissure.png",
+   "items": "items/band_fissure.png",
+   "templates": [
+    "sp4_gold_ring_band_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "exposed_core": {
+   "paper": "paper/exposed_core.png",
+   "items": "items/exposed_core.png",
+   "templates": [
+    "sp4_gold_ring_exposed_core"
+   ],
+   "view": "ordinary"
+  },
+  "solder_join": {
+   "paper": "paper/solder_join.png",
+   "items": "items/solder_join.png",
+   "templates": [
+    "sp4_gold_ring_solder_join"
+   ],
+   "view": "ordinary"
+  },
+  "combo__outer_scrape__solder_join": {
+   "paper": "paper/combo__outer_scrape__solder_join.png",
+   "items": "items/combo__outer_scrape__solder_join.png",
+   "templates": [
+    "sp4_gold_ring_outer_scrape",
+    "sp4_gold_ring_solder_join"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__outer_scrape__solder_join": {
+   "paper": "paper/repaired__outer_scrape__solder_join.png",
+   "items": "items/repaired__outer_scrape__solder_join.png",
+   "templates": [
+    "sp4_gold_ring_solder_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__outer_scrape__solder_join"
+  },
+  "combo__band_dent__solder_join": {
+   "paper": "paper/combo__band_dent__solder_join.png",
+   "items": "items/combo__band_dent__solder_join.png",
+   "templates": [
+    "sp4_gold_ring_band_dent",
+    "sp4_gold_ring_solder_join"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__band_dent__solder_join": {
+   "paper": "paper/repaired__band_dent__solder_join.png",
+   "items": "items/repaired__band_dent__solder_join.png",
+   "templates": [
+    "sp4_gold_ring_solder_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__band_dent__solder_join"
+  },
+  "combo__band_fissure__exposed_core": {
+   "paper": "paper/combo__band_fissure__exposed_core.png",
+   "items": "items/combo__band_fissure__exposed_core.png",
+   "templates": [
+    "sp4_gold_ring_band_fissure",
+    "sp4_gold_ring_exposed_core"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__band_fissure__exposed_core": {
+   "paper": "paper/repaired__band_fissure__exposed_core.png",
+   "items": "items/repaired__band_fissure__exposed_core.png",
+   "templates": [
+    "sp4_gold_ring_exposed_core"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__band_fissure__exposed_core"
+  },
+  "combo__outer_scrape__band_dent__solder_join": {
+   "paper": "paper/combo__outer_scrape__band_dent__solder_join.png",
+   "items": "items/combo__outer_scrape__band_dent__solder_join.png",
+   "templates": [
+    "sp4_gold_ring_outer_scrape",
+    "sp4_gold_ring_band_dent",
+    "sp4_gold_ring_solder_join"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__outer_scrape__band_dent__solder_join": {
+   "paper": "paper/repaired__outer_scrape__band_dent__solder_join.png",
+   "items": "items/repaired__outer_scrape__band_dent__solder_join.png",
+   "templates": [
+    "sp4_gold_ring_solder_join"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__outer_scrape__band_dent__solder_join"
+  }
+ },
+ "template_checks": {
+  "sp4_gold_ring_outer_scrape": {
+   "paper": {
+    "changed_px": 384,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     132,
+     156,
+     162,
+     180
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 51,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     15,
+     39,
+     24,
+     49
+    ]
+   }
+  },
+  "sp4_gold_ring_band_dent": {
+   "paper": {
+    "changed_px": 376,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     190,
+     178,
+     218,
+     208
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 32,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     32,
+     46,
+     40,
+     55
+    ]
+   }
+  },
+  "sp4_gold_ring_band_fissure": {
+   "paper": {
+    "changed_px": 192,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     212,
+     152,
+     228,
+     188
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 26,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     37,
+     39,
+     43,
+     49
+    ]
+   }
+  },
+  "sp4_gold_ring_exposed_core": {
+   "paper": {
+    "changed_px": 1548,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     146,
+     172,
+     206,
+     206
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 132,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     44,
+     37,
+     54
+    ]
+   }
+  },
+  "sp4_gold_ring_solder_join": {
+   "paper": {
+    "changed_px": 80,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     216,
+     62,
+     220,
+     82
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 12,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     38,
+     14,
+     40,
+     20
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

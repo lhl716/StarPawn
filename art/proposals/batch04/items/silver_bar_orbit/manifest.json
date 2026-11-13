@@ -1,0 +1,267 @@
+{
+ "asset_key": "silver_bar_orbit",
+ "name_en": "Orbit Silver Bar",
+ "category": "silver_bar",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_silver_bar_orbit",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "face_abrasion": {
+   "paper": "paper/face_abrasion.png",
+   "items": "items/face_abrasion.png",
+   "templates": [
+    "sp4_silver_bar_face_abrasion"
+   ],
+   "view": "ordinary"
+  },
+  "edge_roll": {
+   "paper": "paper/edge_roll.png",
+   "items": "items/edge_roll.png",
+   "templates": [
+    "sp4_silver_bar_edge_roll"
+   ],
+   "view": "ordinary"
+  },
+  "copper_seam": {
+   "paper": "paper/copper_seam.png",
+   "items": "items/copper_seam.png",
+   "templates": [
+    "sp4_silver_bar_copper_seam"
+   ],
+   "view": "ordinary"
+  },
+  "underweight": {
+   "paper": "paper/underweight.png",
+   "items": "items/underweight.png",
+   "templates": [
+    "sp4_silver_bar_underweight"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "stamp_recut": {
+   "paper": "paper/stamp_recut.png",
+   "items": "items/stamp_recut.png",
+   "templates": [
+    "sp4_silver_bar_stamp_recut"
+   ],
+   "view": "ordinary"
+  },
+  "combo__face_abrasion__copper_seam": {
+   "paper": "paper/combo__face_abrasion__copper_seam.png",
+   "items": "items/combo__face_abrasion__copper_seam.png",
+   "templates": [
+    "sp4_silver_bar_face_abrasion",
+    "sp4_silver_bar_copper_seam"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__face_abrasion__copper_seam": {
+   "paper": "paper/repaired__face_abrasion__copper_seam.png",
+   "items": "items/repaired__face_abrasion__copper_seam.png",
+   "templates": [
+    "sp4_silver_bar_copper_seam"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__face_abrasion__copper_seam"
+  },
+  "combo__face_abrasion__stamp_recut": {
+   "paper": "paper/combo__face_abrasion__stamp_recut.png",
+   "items": "items/combo__face_abrasion__stamp_recut.png",
+   "templates": [
+    "sp4_silver_bar_face_abrasion",
+    "sp4_silver_bar_stamp_recut"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__face_abrasion__stamp_recut": {
+   "paper": "paper/repaired__face_abrasion__stamp_recut.png",
+   "items": "items/repaired__face_abrasion__stamp_recut.png",
+   "templates": [
+    "sp4_silver_bar_stamp_recut"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__face_abrasion__stamp_recut"
+  },
+  "combo__edge_roll__copper_seam": {
+   "paper": "paper/combo__edge_roll__copper_seam.png",
+   "items": "items/combo__edge_roll__copper_seam.png",
+   "templates": [
+    "sp4_silver_bar_edge_roll",
+    "sp4_silver_bar_copper_seam"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__edge_roll__copper_seam": {
+   "paper": "paper/repaired__edge_roll__copper_seam.png",
+   "items": "items/repaired__edge_roll__copper_seam.png",
+   "templates": [
+    "sp4_silver_bar_copper_seam"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__edge_roll__copper_seam"
+  },
+  "combo__face_abrasion__edge_roll__copper_seam": {
+   "paper": "paper/combo__face_abrasion__edge_roll__copper_seam.png",
+   "items": "items/combo__face_abrasion__edge_roll__copper_seam.png",
+   "templates": [
+    "sp4_silver_bar_face_abrasion",
+    "sp4_silver_bar_edge_roll",
+    "sp4_silver_bar_copper_seam"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__face_abrasion__edge_roll__copper_seam": {
+   "paper": "paper/repaired__face_abrasion__edge_roll__copper_seam.png",
+   "items": "items/repaired__face_abrasion__edge_roll__copper_seam.png",
+   "templates": [
+    "sp4_silver_bar_copper_seam"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__face_abrasion__edge_roll__copper_seam"
+  }
+ },
+ "template_checks": {
+  "sp4_silver_bar_face_abrasion": {
+   "paper": {
+    "changed_px": 556,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     244,
+     94,
+     286,
+     128
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 92,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     81,
+     20,
+     96,
+     33
+    ]
+   }
+  },
+  "sp4_silver_bar_edge_roll": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     132,
+     178,
+     154,
+     186
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 17,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     44,
+     48,
+     51,
+     51
+    ]
+   }
+  },
+  "sp4_silver_bar_copper_seam": {
+   "paper": {
+    "changed_px": 132,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     336,
+     120,
+     354,
+     146
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 13,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     113,
+     29,
+     118,
+     38
+    ]
+   }
+  },
+  "sp4_silver_bar_underweight": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_silver_bar_stamp_recut": {
+   "paper": {
+    "changed_px": 364,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     164,
+     88,
+     224,
+     118
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 48,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     18,
+     74,
+     28
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

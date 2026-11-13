@@ -1,0 +1,22 @@
+{
+ "asset_key": "tooltip",
+ "kind": "component",
+ "size": [
+  240,
+  80
+ ],
+ "states": [
+  "default",
+  "warning",
+  "error"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Nine-slice; margins8,8,8,8.",
+ "nine_slice_margins_ltrb": [
+  8,
+  8,
+  8,
+  8
+ ]
+}

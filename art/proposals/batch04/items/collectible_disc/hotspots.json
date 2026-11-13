@@ -1,0 +1,715 @@
+{
+ "asset_key": "collectible_disc",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "collectible_disc",
+   "state": "radial_score",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_radial_score",
+   "Id": "radial_score",
+   "CauseId": "sp4_disc_radial_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.65625,
+   "V": 0.69921875,
+   "Width": 0.09375,
+   "Height": 0.1328125,
+   "bounds_px": [
+    234,
+    162,
+    270,
+    196
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "radial_score",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_radial_score",
+   "Id": "radial_score",
+   "CauseId": "sp4_disc_radial_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.6953125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    41,
+    40,
+    51,
+    49
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "hub_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_hub_fissure",
+   "Id": "hub_fissure",
+   "CauseId": "sp4_disc_hub_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5208333333333334,
+   "V": 0.359375,
+   "Width": 0.03125,
+   "Height": 0.140625,
+   "bounds_px": [
+    194,
+    74,
+    206,
+    110
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "hub_fissure",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_hub_fissure",
+   "Id": "hub_fissure",
+   "CauseId": "sp4_disc_hub_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.53125,
+   "V": 0.3671875,
+   "Width": 0.0625,
+   "Height": 0.140625,
+   "bounds_px": [
+    32,
+    19,
+    36,
+    28
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "layer_delamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_layer_delamination",
+   "Id": "layer_delamination",
+   "CauseId": "sp4_disc_layer_delamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2630208333333333,
+   "V": 0.625,
+   "Width": 0.06770833333333333,
+   "Height": 0.265625,
+   "bounds_px": [
+    88,
+    126,
+    114,
+    194
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "layer_delamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_layer_delamination",
+   "Id": "layer_delamination",
+   "CauseId": "sp4_disc_layer_delamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.171875,
+   "V": 0.609375,
+   "Width": 0.09375,
+   "Height": 0.25,
+   "bounds_px": [
+    8,
+    31,
+    14,
+    47
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "matrix_mismatch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_matrix_mismatch",
+   "Id": "matrix_mismatch",
+   "CauseId": "sp4_disc_matrix_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5833333333333334,
+   "V": 0.546875,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    216,
+    134,
+    232,
+    146
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "matrix_mismatch",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_matrix_mismatch",
+   "Id": "matrix_mismatch",
+   "CauseId": "sp4_disc_matrix_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.5390625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    38,
+    33,
+    42,
+    36
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "label_resurface",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_label_resurface",
+   "Id": "label_resurface",
+   "CauseId": "sp4_disc_label_resurface",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3776041666666667,
+   "V": 0.28515625,
+   "Width": 0.171875,
+   "Height": 0.1484375,
+   "bounds_px": [
+    112,
+    54,
+    178,
+    92
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "label_resurface",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_label_resurface",
+   "Id": "label_resurface",
+   "CauseId": "sp4_disc_label_resurface",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.296875,
+   "Width": 0.21875,
+   "Height": 0.15625,
+   "bounds_px": [
+    15,
+    14,
+    29,
+    24
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__hub_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_radial_score",
+   "Id": "radial_score",
+   "CauseId": "sp4_disc_radial_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.65625,
+   "V": 0.69921875,
+   "Width": 0.09375,
+   "Height": 0.1328125,
+   "bounds_px": [
+    234,
+    162,
+    270,
+    196
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__hub_fissure",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_radial_score",
+   "Id": "radial_score",
+   "CauseId": "sp4_disc_radial_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.6953125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    41,
+    40,
+    51,
+    49
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__hub_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_hub_fissure",
+   "Id": "hub_fissure",
+   "CauseId": "sp4_disc_hub_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5208333333333334,
+   "V": 0.359375,
+   "Width": 0.03125,
+   "Height": 0.140625,
+   "bounds_px": [
+    194,
+    74,
+    206,
+    110
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__hub_fissure",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_hub_fissure",
+   "Id": "hub_fissure",
+   "CauseId": "sp4_disc_hub_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.53125,
+   "V": 0.3671875,
+   "Width": 0.0625,
+   "Height": 0.140625,
+   "bounds_px": [
+    32,
+    19,
+    36,
+    28
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__layer_delamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_radial_score",
+   "Id": "radial_score",
+   "CauseId": "sp4_disc_radial_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.65625,
+   "V": 0.69921875,
+   "Width": 0.09375,
+   "Height": 0.1328125,
+   "bounds_px": [
+    234,
+    162,
+    270,
+    196
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__layer_delamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_radial_score",
+   "Id": "radial_score",
+   "CauseId": "sp4_disc_radial_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.6953125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    41,
+    40,
+    51,
+    49
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__layer_delamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_layer_delamination",
+   "Id": "layer_delamination",
+   "CauseId": "sp4_disc_layer_delamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2630208333333333,
+   "V": 0.625,
+   "Width": 0.06770833333333333,
+   "Height": 0.265625,
+   "bounds_px": [
+    88,
+    126,
+    114,
+    194
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__layer_delamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_layer_delamination",
+   "Id": "layer_delamination",
+   "CauseId": "sp4_disc_layer_delamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.171875,
+   "V": 0.609375,
+   "Width": 0.09375,
+   "Height": 0.25,
+   "bounds_px": [
+    8,
+    31,
+    14,
+    47
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__matrix_mismatch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_radial_score",
+   "Id": "radial_score",
+   "CauseId": "sp4_disc_radial_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.65625,
+   "V": 0.69921875,
+   "Width": 0.09375,
+   "Height": 0.1328125,
+   "bounds_px": [
+    234,
+    162,
+    270,
+    196
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__matrix_mismatch",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_radial_score",
+   "Id": "radial_score",
+   "CauseId": "sp4_disc_radial_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.6953125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    41,
+    40,
+    51,
+    49
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__matrix_mismatch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_matrix_mismatch",
+   "Id": "matrix_mismatch",
+   "CauseId": "sp4_disc_matrix_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5833333333333334,
+   "V": 0.546875,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    216,
+    134,
+    232,
+    146
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__matrix_mismatch",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_matrix_mismatch",
+   "Id": "matrix_mismatch",
+   "CauseId": "sp4_disc_matrix_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.5390625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    38,
+    33,
+    42,
+    36
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__hub_fissure__layer_delamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_radial_score",
+   "Id": "radial_score",
+   "CauseId": "sp4_disc_radial_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.65625,
+   "V": 0.69921875,
+   "Width": 0.09375,
+   "Height": 0.1328125,
+   "bounds_px": [
+    234,
+    162,
+    270,
+    196
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__hub_fissure__layer_delamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_radial_score",
+   "Id": "radial_score",
+   "CauseId": "sp4_disc_radial_score",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.6953125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    41,
+    40,
+    51,
+    49
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__hub_fissure__layer_delamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_hub_fissure",
+   "Id": "hub_fissure",
+   "CauseId": "sp4_disc_hub_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5208333333333334,
+   "V": 0.359375,
+   "Width": 0.03125,
+   "Height": 0.140625,
+   "bounds_px": [
+    194,
+    74,
+    206,
+    110
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__hub_fissure__layer_delamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_hub_fissure",
+   "Id": "hub_fissure",
+   "CauseId": "sp4_disc_hub_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.53125,
+   "V": 0.3671875,
+   "Width": 0.0625,
+   "Height": 0.140625,
+   "bounds_px": [
+    32,
+    19,
+    36,
+    28
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__hub_fissure__layer_delamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_disc_layer_delamination",
+   "Id": "layer_delamination",
+   "CauseId": "sp4_disc_layer_delamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2630208333333333,
+   "V": 0.625,
+   "Width": 0.06770833333333333,
+   "Height": 0.265625,
+   "bounds_px": [
+    88,
+    126,
+    114,
+    194
+   ]
+  },
+  {
+   "asset_key": "collectible_disc",
+   "state": "combo__radial_score__hub_fissure__layer_delamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_disc_layer_delamination",
+   "Id": "layer_delamination",
+   "CauseId": "sp4_disc_layer_delamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.171875,
+   "V": 0.609375,
+   "Width": 0.09375,
+   "Height": 0.25,
+   "bounds_px": [
+    8,
+    31,
+    14,
+    47
+   ]
+  }
+ ]
+}

@@ -1,0 +1,611 @@
+{
+ "assembly_asset_key": "jewelry_earrings_stud",
+ "socket_count": 2,
+ "sockets": [
+  "left_stud",
+  "right_stud"
+ ],
+ "bindings": [
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_diamond_round",
+   "image": "paper",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_diamond_round_stone_left_stud.png",
+   "socket_center_px": [
+    125.3,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_diamond_round",
+   "image": "paper",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_diamond_round_stone_right_stud.png",
+   "socket_center_px": [
+    247.1,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_diamond_round",
+   "image": "items",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_diamond_round_stone_left_stud.png",
+   "socket_center_px": [
+    17.96,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_diamond_round",
+   "image": "items",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_diamond_round_stone_right_stud.png",
+   "socket_center_px": [
+    43.6,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_ruby_cushion",
+   "image": "paper",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_ruby_cushion",
+   "stone_source_layer": "items/gem_ruby_cushion/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_ruby_cushion_stone_left_stud.png",
+   "socket_center_px": [
+    125.3,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_ruby_cushion",
+   "image": "paper",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_ruby_cushion",
+   "stone_source_layer": "items/gem_ruby_cushion/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_ruby_cushion_stone_right_stud.png",
+   "socket_center_px": [
+    247.1,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_ruby_cushion",
+   "image": "items",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_ruby_cushion",
+   "stone_source_layer": "items/gem_ruby_cushion/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_ruby_cushion_stone_left_stud.png",
+   "socket_center_px": [
+    17.96,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_ruby_cushion",
+   "image": "items",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_ruby_cushion",
+   "stone_source_layer": "items/gem_ruby_cushion/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_ruby_cushion_stone_right_stud.png",
+   "socket_center_px": [
+    43.6,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_sapphire_oval",
+   "image": "paper",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_sapphire_oval",
+   "stone_source_layer": "items/gem_sapphire_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_sapphire_oval_stone_left_stud.png",
+   "socket_center_px": [
+    125.3,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_sapphire_oval",
+   "image": "paper",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_sapphire_oval",
+   "stone_source_layer": "items/gem_sapphire_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_sapphire_oval_stone_right_stud.png",
+   "socket_center_px": [
+    247.1,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_sapphire_oval",
+   "image": "items",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_sapphire_oval",
+   "stone_source_layer": "items/gem_sapphire_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_sapphire_oval_stone_left_stud.png",
+   "socket_center_px": [
+    17.96,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_sapphire_oval",
+   "image": "items",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_sapphire_oval",
+   "stone_source_layer": "items/gem_sapphire_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_sapphire_oval_stone_right_stud.png",
+   "socket_center_px": [
+    43.6,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_emerald_oval",
+   "image": "paper",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_emerald_oval_stone_left_stud.png",
+   "socket_center_px": [
+    125.3,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_emerald_oval",
+   "image": "paper",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_emerald_oval_stone_right_stud.png",
+   "socket_center_px": [
+    247.1,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_emerald_oval",
+   "image": "items",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_emerald_oval_stone_left_stud.png",
+   "socket_center_px": [
+    17.96,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_emerald_oval",
+   "image": "items",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_emerald_oval_stone_right_stud.png",
+   "socket_center_px": [
+    43.6,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_pearl_round",
+   "image": "paper",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_pearl_round",
+   "stone_source_layer": "items/gem_pearl_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_pearl_round_stone_left_stud.png",
+   "socket_center_px": [
+    125.3,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_pearl_round",
+   "image": "paper",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_pearl_round",
+   "stone_source_layer": "items/gem_pearl_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_pearl_round_stone_right_stud.png",
+   "socket_center_px": [
+    247.1,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_pearl_round",
+   "image": "items",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_pearl_round",
+   "stone_source_layer": "items/gem_pearl_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_pearl_round_stone_left_stud.png",
+   "socket_center_px": [
+    17.96,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "au18k_pearl_round",
+   "image": "items",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_pearl_round",
+   "stone_source_layer": "items/gem_pearl_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_pearl_round_stone_right_stud.png",
+   "socket_center_px": [
+    43.6,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_diamond_round",
+   "image": "paper",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_diamond_round_stone_left_stud.png",
+   "socket_center_px": [
+    125.3,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_diamond_round",
+   "image": "paper",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_diamond_round_stone_right_stud.png",
+   "socket_center_px": [
+    247.1,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_diamond_round",
+   "image": "items",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_diamond_round_stone_left_stud.png",
+   "socket_center_px": [
+    17.96,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_diamond_round",
+   "image": "items",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_diamond_round_stone_right_stud.png",
+   "socket_center_px": [
+    43.6,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_ruby_cushion",
+   "image": "paper",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_ruby_cushion",
+   "stone_source_layer": "items/gem_ruby_cushion/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_ruby_cushion_stone_left_stud.png",
+   "socket_center_px": [
+    125.3,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_ruby_cushion",
+   "image": "paper",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_ruby_cushion",
+   "stone_source_layer": "items/gem_ruby_cushion/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_ruby_cushion_stone_right_stud.png",
+   "socket_center_px": [
+    247.1,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_ruby_cushion",
+   "image": "items",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_ruby_cushion",
+   "stone_source_layer": "items/gem_ruby_cushion/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_ruby_cushion_stone_left_stud.png",
+   "socket_center_px": [
+    17.96,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_ruby_cushion",
+   "image": "items",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_ruby_cushion",
+   "stone_source_layer": "items/gem_ruby_cushion/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_ruby_cushion_stone_right_stud.png",
+   "socket_center_px": [
+    43.6,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_sapphire_oval",
+   "image": "paper",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_sapphire_oval",
+   "stone_source_layer": "items/gem_sapphire_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_sapphire_oval_stone_left_stud.png",
+   "socket_center_px": [
+    125.3,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_sapphire_oval",
+   "image": "paper",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_sapphire_oval",
+   "stone_source_layer": "items/gem_sapphire_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_sapphire_oval_stone_right_stud.png",
+   "socket_center_px": [
+    247.1,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_sapphire_oval",
+   "image": "items",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_sapphire_oval",
+   "stone_source_layer": "items/gem_sapphire_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_sapphire_oval_stone_left_stud.png",
+   "socket_center_px": [
+    17.96,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_sapphire_oval",
+   "image": "items",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_sapphire_oval",
+   "stone_source_layer": "items/gem_sapphire_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_sapphire_oval_stone_right_stud.png",
+   "socket_center_px": [
+    43.6,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_emerald_oval",
+   "image": "paper",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_emerald_oval_stone_left_stud.png",
+   "socket_center_px": [
+    125.3,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_emerald_oval",
+   "image": "paper",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_emerald_oval_stone_right_stud.png",
+   "socket_center_px": [
+    247.1,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_emerald_oval",
+   "image": "items",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_emerald_oval_stone_left_stud.png",
+   "socket_center_px": [
+    17.96,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_emerald_oval",
+   "image": "items",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_emerald_oval_stone_right_stud.png",
+   "socket_center_px": [
+    43.6,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_pearl_round",
+   "image": "paper",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_pearl_round",
+   "stone_source_layer": "items/gem_pearl_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_pearl_round_stone_left_stud.png",
+   "socket_center_px": [
+    125.3,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_pearl_round",
+   "image": "paper",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_pearl_round",
+   "stone_source_layer": "items/gem_pearl_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_pearl_round_stone_right_stud.png",
+   "socket_center_px": [
+    247.1,
+    145.4
+   ],
+   "scale_from_source": 0.4033,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_pearl_round",
+   "image": "items",
+   "socket_id": "left_stud",
+   "stone_asset_key": "gem_pearl_round",
+   "stone_source_layer": "items/gem_pearl_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_pearl_round_stone_left_stud.png",
+   "socket_center_px": [
+    17.96,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  },
+  {
+   "assembly": "jewelry_earrings_stud",
+   "variant": "ag925_pearl_round",
+   "image": "items",
+   "socket_id": "right_stud",
+   "stone_asset_key": "gem_pearl_round",
+   "stone_source_layer": "items/gem_pearl_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_pearl_round_stone_right_stud.png",
+   "socket_center_px": [
+    43.6,
+    35.66
+   ],
+   "scale_from_source": 0.3396,
+   "setting_asset_key": "setting_earrings"
+  }
+ ],
+ "note": "scale_from_source maps the loose stone's authored layer onto the socket; stones are redrawn at socket size, not resampled."
+}

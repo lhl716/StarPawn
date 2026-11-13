@@ -1,0 +1,143 @@
+{
+ "asset_key": "collectible_cartridge",
+ "combinations": [
+  {
+   "profile": "combo__label_misregister__contact_loss",
+   "variant": "",
+   "templates": [
+    "sp4_cartridge_label_misregister",
+    "sp4_cartridge_contact_loss"
+   ],
+   "repairable": [
+    "sp4_cartridge_contact_loss"
+   ],
+   "retained_after_repair": [
+    "sp4_cartridge_label_misregister"
+   ],
+   "repaired_state": "repaired__label_misregister__contact_loss"
+  },
+  {
+   "profile": "combo__label_misregister__shell_tab",
+   "variant": "",
+   "templates": [
+    "sp4_cartridge_label_misregister",
+    "sp4_cartridge_shell_tab"
+   ],
+   "repairable": [
+    "sp4_cartridge_shell_tab"
+   ],
+   "retained_after_repair": [
+    "sp4_cartridge_label_misregister"
+   ],
+   "repaired_state": "repaired__label_misregister__shell_tab"
+  },
+  {
+   "profile": "combo__label_misregister__label_lift",
+   "variant": "",
+   "templates": [
+    "sp4_cartridge_label_misregister",
+    "sp4_cartridge_label_lift"
+   ],
+   "repairable": [
+    "sp4_cartridge_label_lift"
+   ],
+   "retained_after_repair": [
+    "sp4_cartridge_label_misregister"
+   ],
+   "repaired_state": "repaired__label_misregister__label_lift"
+  },
+  {
+   "profile": "combo__label_misregister__contact_loss__shell_tab",
+   "variant": "",
+   "templates": [
+    "sp4_cartridge_label_misregister",
+    "sp4_cartridge_contact_loss",
+    "sp4_cartridge_shell_tab"
+   ],
+   "repairable": [
+    "sp4_cartridge_contact_loss",
+    "sp4_cartridge_shell_tab"
+   ],
+   "retained_after_repair": [
+    "sp4_cartridge_label_misregister"
+   ],
+   "repaired_state": "repaired__label_misregister__contact_loss__shell_tab"
+  },
+  {
+   "profile": "label_misregister",
+   "variant": "",
+   "templates": [
+    "sp4_cartridge_label_misregister"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_cartridge_label_misregister"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "contact_loss",
+   "variant": "",
+   "templates": [
+    "sp4_cartridge_contact_loss"
+   ],
+   "repairable": [
+    "sp4_cartridge_contact_loss"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "shell_tab",
+   "variant": "",
+   "templates": [
+    "sp4_cartridge_shell_tab"
+   ],
+   "repairable": [
+    "sp4_cartridge_shell_tab"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "label_lift",
+   "variant": "",
+   "templates": [
+    "sp4_cartridge_label_lift"
+   ],
+   "repairable": [
+    "sp4_cartridge_label_lift"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "case_reseal",
+   "variant": "",
+   "templates": [
+    "sp4_cartridge_case_reseal"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_cartridge_case_reseal"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

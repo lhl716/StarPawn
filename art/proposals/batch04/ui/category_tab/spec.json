@@ -1,0 +1,22 @@
+{
+ "asset_key": "category_tab",
+ "kind": "component",
+ "size": [
+  96,
+  24
+ ],
+ "states": [
+  "default",
+  "selected",
+  "disabled"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Nine-slice; margins6,6,6,6.",
+ "nine_slice_margins_ltrb": [
+  6,
+  6,
+  6,
+  6
+ ]
+}

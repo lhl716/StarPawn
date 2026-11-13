@@ -1,0 +1,275 @@
+{
+ "asset_key": "silver_bracelet_starburst",
+ "name_en": "Starburst Silver Bracelet",
+ "category": "silver_bracelet",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_silver_bracelet_starburst",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "engraving_loss": {
+   "paper": "paper/engraving_loss.png",
+   "items": "items/engraving_loss.png",
+   "templates": [
+    "sp4_silver_bracelet_engraving_loss"
+   ],
+   "view": "ordinary"
+  },
+  "rim_buckle": {
+   "paper": "paper/rim_buckle.png",
+   "items": "items/rim_buckle.png",
+   "templates": [
+    "sp4_silver_bracelet_rim_buckle"
+   ],
+   "view": "ordinary"
+  },
+  "arc_split": {
+   "paper": "paper/arc_split.png",
+   "items": "items/arc_split.png",
+   "templates": [
+    "sp4_silver_bracelet_arc_split"
+   ],
+   "view": "ordinary"
+  },
+  "seam_breakthrough": {
+   "paper": "paper/seam_breakthrough.png",
+   "items": "items/seam_breakthrough.png",
+   "templates": [
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "braze_patch": {
+   "paper": "paper/braze_patch.png",
+   "items": "items/braze_patch.png",
+   "templates": [
+    "sp4_silver_bracelet_braze_patch"
+   ],
+   "view": "ordinary"
+  },
+  "combo__engraving_loss__seam_breakthrough": {
+   "paper": "paper/combo__engraving_loss__seam_breakthrough.png",
+   "items": "items/combo__engraving_loss__seam_breakthrough.png",
+   "templates": [
+    "sp4_silver_bracelet_engraving_loss",
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__engraving_loss__seam_breakthrough": {
+   "paper": "paper/repaired__engraving_loss__seam_breakthrough.png",
+   "items": "items/repaired__engraving_loss__seam_breakthrough.png",
+   "templates": [
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__engraving_loss__seam_breakthrough"
+  },
+  "combo__rim_buckle__seam_breakthrough": {
+   "paper": "paper/combo__rim_buckle__seam_breakthrough.png",
+   "items": "items/combo__rim_buckle__seam_breakthrough.png",
+   "templates": [
+    "sp4_silver_bracelet_rim_buckle",
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__rim_buckle__seam_breakthrough": {
+   "paper": "paper/repaired__rim_buckle__seam_breakthrough.png",
+   "items": "items/repaired__rim_buckle__seam_breakthrough.png",
+   "templates": [
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__rim_buckle__seam_breakthrough"
+  },
+  "combo__rim_buckle__braze_patch": {
+   "paper": "paper/combo__rim_buckle__braze_patch.png",
+   "items": "items/combo__rim_buckle__braze_patch.png",
+   "templates": [
+    "sp4_silver_bracelet_rim_buckle",
+    "sp4_silver_bracelet_braze_patch"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__rim_buckle__braze_patch": {
+   "paper": "paper/repaired__rim_buckle__braze_patch.png",
+   "items": "items/repaired__rim_buckle__braze_patch.png",
+   "templates": [
+    "sp4_silver_bracelet_braze_patch"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__rim_buckle__braze_patch"
+  },
+  "combo__engraving_loss__rim_buckle__seam_breakthrough": {
+   "paper": "paper/combo__engraving_loss__rim_buckle__seam_breakthrough.png",
+   "items": "items/combo__engraving_loss__rim_buckle__seam_breakthrough.png",
+   "templates": [
+    "sp4_silver_bracelet_engraving_loss",
+    "sp4_silver_bracelet_rim_buckle",
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__engraving_loss__rim_buckle__seam_breakthrough": {
+   "paper": "paper/repaired__engraving_loss__rim_buckle__seam_breakthrough.png",
+   "items": "items/repaired__engraving_loss__rim_buckle__seam_breakthrough.png",
+   "templates": [
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__engraving_loss__rim_buckle__seam_breakthrough"
+  }
+ },
+ "template_checks": {
+  "sp4_silver_bracelet_engraving_loss": {
+   "paper": {
+    "changed_px": 364,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     112,
+     164,
+     162,
+     176
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 42,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     35,
+     50,
+     53,
+     54
+    ]
+   }
+  },
+  "sp4_silver_bracelet_rim_buckle": {
+   "paper": {
+    "changed_px": 436,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     314,
+     108,
+     344,
+     150
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 61,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     107,
+     29,
+     118,
+     44
+    ]
+   }
+  },
+  "sp4_silver_bracelet_arc_split": {
+   "paper": {
+    "changed_px": 124,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     234,
+     162,
+     248,
+     184
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 16,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     79,
+     49,
+     83,
+     56
+    ]
+   }
+  },
+  "sp4_silver_bracelet_seam_breakthrough": {
+   "paper": {
+    "changed_px": 60,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     230,
+     24,
+     236,
+     42
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 15,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     76,
+     1,
+     79,
+     6
+    ]
+   }
+  },
+  "sp4_silver_bracelet_braze_patch": {
+   "paper": {
+    "changed_px": 136,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     106,
+     162,
+     130,
+     176
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 16,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     33,
+     49,
+     41,
+     53
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

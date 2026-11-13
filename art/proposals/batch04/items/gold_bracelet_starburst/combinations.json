@@ -1,0 +1,143 @@
+{
+ "asset_key": "gold_bracelet_starburst",
+ "combinations": [
+  {
+   "profile": "combo__arc_gouge__inner_plating",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bracelet_arc_gouge",
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "repairable": [
+    "sp4_gold_bracelet_arc_gouge"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "repaired_state": "repaired__arc_gouge__inner_plating"
+  },
+  {
+   "profile": "combo__arc_gouge__joined_arc",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bracelet_arc_gouge",
+    "sp4_gold_bracelet_joined_arc"
+   ],
+   "repairable": [
+    "sp4_gold_bracelet_arc_gouge"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_bracelet_joined_arc"
+   ],
+   "repaired_state": "repaired__arc_gouge__joined_arc"
+  },
+  {
+   "profile": "combo__flattened_arc__inner_plating",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bracelet_flattened_arc",
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "repairable": [
+    "sp4_gold_bracelet_flattened_arc"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "repaired_state": "repaired__flattened_arc__inner_plating"
+  },
+  {
+   "profile": "combo__arc_gouge__flattened_arc__inner_plating",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bracelet_arc_gouge",
+    "sp4_gold_bracelet_flattened_arc",
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "repairable": [
+    "sp4_gold_bracelet_arc_gouge",
+    "sp4_gold_bracelet_flattened_arc"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "repaired_state": "repaired__arc_gouge__flattened_arc__inner_plating"
+  },
+  {
+   "profile": "arc_gouge",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bracelet_arc_gouge"
+   ],
+   "repairable": [
+    "sp4_gold_bracelet_arc_gouge"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "flattened_arc",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bracelet_flattened_arc"
+   ],
+   "repairable": [
+    "sp4_gold_bracelet_flattened_arc"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "rim_fissure",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bracelet_rim_fissure"
+   ],
+   "repairable": [
+    "sp4_gold_bracelet_rim_fissure"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "inner_plating",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "joined_arc",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bracelet_joined_arc"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gold_bracelet_joined_arc"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

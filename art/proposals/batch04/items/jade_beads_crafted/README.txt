@@ -1,0 +1,59 @@
+Crafted Jade Bead Strand (jade_beads_crafted)
+
+Status: PROPOSAL, planned_04_not_registered. Not registered in the game; no runtime file was changed.
+Footprint 2x2 cells -> inventory 128x128 px; inspection 384x256 px (authored 192x128, exported 2x nearest).
+Current 0.3 source: none (new in 0.4). Planned 0.4 family: sp4_jade_beads_crafted.
+
+States (45):
+  dou_intact
+  dou_light_observation - planned light observation view, needs runtime integration
+  dou_uv_observation - planned uv observation view, needs runtime integration
+  dou_drill_exit_crack - templates: sp4_jade_beads_drill_exit_crack
+  dou_bead_chip - templates: sp4_jade_beads_bead_chip
+  dou_mismatched_bead - templates: sp4_jade_beads_mismatched_bead
+  dou_mismatched_bead__light - templates: sp4_jade_beads_mismatched_bead; planned light observation view, needs runtime integration
+  dou_dyed_drill_pool - templates: sp4_jade_beads_dyed_drill_pool
+  dou_dyed_drill_pool__uv - templates: sp4_jade_beads_dyed_drill_pool; planned uv observation view, needs runtime integration
+  dou_filled_bead_split - templates: sp4_jade_beads_filled_bead_split
+  dou_filled_bead_split__uv - templates: sp4_jade_beads_filled_bead_split; planned uv observation view, needs runtime integration
+  dou_combo__drill_exit_crack__bead_chip - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_bead_chip
+  dou_combo__drill_exit_crack__mismatched_bead - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_mismatched_bead
+  dou_combo__drill_exit_crack__dyed_drill_pool - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_dyed_drill_pool
+  dou_combo__drill_exit_crack__bead_chip__mismatched_bead - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_bead_chip, sp4_jade_beads_mismatched_bead
+  nuo_intact
+  nuo_light_observation - planned light observation view, needs runtime integration
+  nuo_uv_observation - planned uv observation view, needs runtime integration
+  nuo_drill_exit_crack - templates: sp4_jade_beads_drill_exit_crack
+  nuo_bead_chip - templates: sp4_jade_beads_bead_chip
+  nuo_mismatched_bead - templates: sp4_jade_beads_mismatched_bead
+  nuo_mismatched_bead__light - templates: sp4_jade_beads_mismatched_bead; planned light observation view, needs runtime integration
+  nuo_dyed_drill_pool - templates: sp4_jade_beads_dyed_drill_pool
+  nuo_dyed_drill_pool__uv - templates: sp4_jade_beads_dyed_drill_pool; planned uv observation view, needs runtime integration
+  nuo_filled_bead_split - templates: sp4_jade_beads_filled_bead_split
+  nuo_filled_bead_split__uv - templates: sp4_jade_beads_filled_bead_split; planned uv observation view, needs runtime integration
+  nuo_combo__drill_exit_crack__bead_chip - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_bead_chip
+  nuo_combo__drill_exit_crack__mismatched_bead - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_mismatched_bead
+  nuo_combo__drill_exit_crack__dyed_drill_pool - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_dyed_drill_pool
+  nuo_combo__drill_exit_crack__bead_chip__mismatched_bead - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_bead_chip, sp4_jade_beads_mismatched_bead
+  bing_intact
+  bing_light_observation - planned light observation view, needs runtime integration
+  bing_uv_observation - planned uv observation view, needs runtime integration
+  bing_drill_exit_crack - templates: sp4_jade_beads_drill_exit_crack
+  bing_bead_chip - templates: sp4_jade_beads_bead_chip
+  bing_mismatched_bead - templates: sp4_jade_beads_mismatched_bead
+  bing_mismatched_bead__light - templates: sp4_jade_beads_mismatched_bead; planned light observation view, needs runtime integration
+  bing_dyed_drill_pool - templates: sp4_jade_beads_dyed_drill_pool
+  bing_dyed_drill_pool__uv - templates: sp4_jade_beads_dyed_drill_pool; planned uv observation view, needs runtime integration
+  bing_filled_bead_split - templates: sp4_jade_beads_filled_bead_split
+  bing_filled_bead_split__uv - templates: sp4_jade_beads_filled_bead_split; planned uv observation view, needs runtime integration
+  bing_combo__drill_exit_crack__bead_chip - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_bead_chip
+  bing_combo__drill_exit_crack__mismatched_bead - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_mismatched_bead
+  bing_combo__drill_exit_crack__dyed_drill_pool - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_dyed_drill_pool
+  bing_combo__drill_exit_crack__bead_chip__mismatched_bead - templates: sp4_jade_beads_drill_exit_crack, sp4_jade_beads_bead_chip, sp4_jade_beads_mismatched_bead
+
+Files: paper/, items/, layers/paper, layers/items, hotspots.json (center-based), combinations.json, manifest.json, comparison.png, source/generate.py.
+
+Notes and known limitations:
+  - No template of this category has a repair class, so no repaired composite exists; combinations.json maps repaired_state to null.
+  - Art is generated by the shared deterministic generator in art/proposals/batch04/source; edit there, not the PNGs.
+  - In-game filtering at the 298x199 frame is not an integer scale and still needs validation in the game.

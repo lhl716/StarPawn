@@ -1,0 +1,17 @@
+{
+ "asset_key": "order_receipt",
+ "kind": "component",
+ "size": [
+  440,
+  616
+ ],
+ "states": [
+  "accepted",
+  "ready",
+  "delivered",
+  "cancelled"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Portrait native-paper document; dynamic owner, terms, asset IDs and dates."
+}

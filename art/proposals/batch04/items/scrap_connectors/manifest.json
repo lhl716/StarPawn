@@ -1,0 +1,239 @@
+{
+ "asset_key": "scrap_connectors",
+ "name_en": "Connector Lot",
+ "category": "scrap_connectors",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_scrap_connectors",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "clipped_contacts": {
+   "paper": "paper/clipped_contacts.png",
+   "items": "items/clipped_contacts.png",
+   "templates": [
+    "sp4_scrap_connectors_clipped_contacts"
+   ],
+   "view": "ordinary"
+  },
+  "stripped_plating": {
+   "paper": "paper/stripped_plating.png",
+   "items": "items/stripped_plating.png",
+   "templates": [
+    "sp4_scrap_connectors_stripped_plating"
+   ],
+   "view": "ordinary"
+  },
+  "polymer_contamination": {
+   "paper": "paper/polymer_contamination.png",
+   "items": "items/polymer_contamination.png",
+   "templates": [
+    "sp4_scrap_connectors_polymer_contamination"
+   ],
+   "view": "ordinary"
+  },
+  "oxidized_contact": {
+   "paper": "paper/oxidized_contact.png",
+   "items": "items/oxidized_contact.png",
+   "templates": [
+    "sp4_scrap_connectors_oxidized_contact"
+   ],
+   "view": "ordinary"
+  },
+  "false_sorting": {
+   "paper": "paper/false_sorting.png",
+   "items": "items/false_sorting.png",
+   "templates": [
+    "sp4_scrap_connectors_false_sorting"
+   ],
+   "view": "ordinary"
+  },
+  "combo__clipped_contacts__stripped_plating": {
+   "paper": "paper/combo__clipped_contacts__stripped_plating.png",
+   "items": "items/combo__clipped_contacts__stripped_plating.png",
+   "templates": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_stripped_plating"
+   ],
+   "view": "ordinary"
+  },
+  "combo__clipped_contacts__polymer_contamination": {
+   "paper": "paper/combo__clipped_contacts__polymer_contamination.png",
+   "items": "items/combo__clipped_contacts__polymer_contamination.png",
+   "templates": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_polymer_contamination"
+   ],
+   "view": "ordinary"
+  },
+  "combo__clipped_contacts__false_sorting": {
+   "paper": "paper/combo__clipped_contacts__false_sorting.png",
+   "items": "items/combo__clipped_contacts__false_sorting.png",
+   "templates": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_false_sorting"
+   ],
+   "view": "ordinary"
+  },
+  "combo__clipped_contacts__stripped_plating__polymer_contamination": {
+   "paper": "paper/combo__clipped_contacts__stripped_plating__polymer_contamination.png",
+   "items": "items/combo__clipped_contacts__stripped_plating__polymer_contamination.png",
+   "templates": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_stripped_plating",
+    "sp4_scrap_connectors_polymer_contamination"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {
+  "sp4_scrap_connectors_clipped_contacts": {
+   "paper": {
+    "changed_px": 784,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     168,
+     210,
+     240,
+     232
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 93,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     25,
+     50,
+     44,
+     59
+    ]
+   }
+  },
+  "sp4_scrap_connectors_stripped_plating": {
+   "paper": {
+    "changed_px": 680,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     96,
+     182,
+     148,
+     216
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 18,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     14,
+     45,
+     21,
+     54
+    ]
+   }
+  },
+  "sp4_scrap_connectors_polymer_contamination": {
+   "paper": {
+    "changed_px": 992,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     256,
+     130,
+     298,
+     164
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 61,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     48,
+     32,
+     58,
+     41
+    ]
+   }
+  },
+  "sp4_scrap_connectors_oxidized_contact": {
+   "paper": {
+    "changed_px": 16,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     186,
+     178,
+     216,
+     192
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 1,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     50,
+     43,
+     51
+    ]
+   }
+  },
+  "sp4_scrap_connectors_false_sorting": {
+   "paper": {
+    "changed_px": 112,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     264,
+     30,
+     286,
+     52
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     50,
+     7,
+     55,
+     12
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

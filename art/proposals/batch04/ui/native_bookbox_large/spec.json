@@ -1,0 +1,29 @@
+{
+ "asset_key": "native_bookbox_large",
+ "kind": "component",
+ "size": [
+  288,
+  240
+ ],
+ "states": [
+  "empty",
+  "partly_filled",
+  "full"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "4x3 cells of64px; content origin16,32; margins16. New twelve-slot organizer only.",
+ "grid": [
+  4,
+  3
+ ],
+ "cell_px": 64,
+ "content_origin": [
+  16,
+  32
+ ],
+ "margins_right_bottom": [
+  16,
+  16
+ ]
+}

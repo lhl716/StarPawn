@@ -1,0 +1,241 @@
+{
+ "asset_key": "refined_copper_ingot",
+ "name_en": "Recovered Copper Ingot",
+ "category": "refined_copper_ingot",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_refined_copper_ingot",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "low_copper_fraction": {
+   "paper": "paper/low_copper_fraction.png",
+   "items": "items/low_copper_fraction.png",
+   "templates": [
+    "sp4_refined_copper_ingot_low_copper_fraction"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "cast_lap": {
+   "paper": "paper/cast_lap.png",
+   "items": "items/cast_lap.png",
+   "templates": [
+    "sp4_refined_copper_ingot_cast_lap"
+   ],
+   "view": "ordinary"
+  },
+  "trapped_slag": {
+   "paper": "paper/trapped_slag.png",
+   "items": "items/trapped_slag.png",
+   "templates": [
+    "sp4_refined_copper_ingot_trapped_slag"
+   ],
+   "view": "ordinary"
+  },
+  "short_fill": {
+   "paper": "paper/short_fill.png",
+   "items": "items/short_fill.png",
+   "templates": [
+    "sp4_refined_copper_ingot_short_fill"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "misidentified_batch": {
+   "paper": "paper/misidentified_batch.png",
+   "items": "items/misidentified_batch.png",
+   "templates": [
+    "sp4_refined_copper_ingot_misidentified_batch"
+   ],
+   "view": "ordinary"
+  },
+  "combo__cast_lap__misidentified_batch": {
+   "paper": "paper/combo__cast_lap__misidentified_batch.png",
+   "items": "items/combo__cast_lap__misidentified_batch.png",
+   "templates": [
+    "sp4_refined_copper_ingot_cast_lap",
+    "sp4_refined_copper_ingot_misidentified_batch"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__cast_lap__misidentified_batch": {
+   "paper": "paper/repaired__cast_lap__misidentified_batch.png",
+   "items": "items/repaired__cast_lap__misidentified_batch.png",
+   "templates": [
+    "sp4_refined_copper_ingot_misidentified_batch"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__cast_lap__misidentified_batch"
+  },
+  "combo__trapped_slag__misidentified_batch": {
+   "paper": "paper/combo__trapped_slag__misidentified_batch.png",
+   "items": "items/combo__trapped_slag__misidentified_batch.png",
+   "templates": [
+    "sp4_refined_copper_ingot_trapped_slag",
+    "sp4_refined_copper_ingot_misidentified_batch"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__trapped_slag__misidentified_batch": {
+   "paper": "paper/repaired__trapped_slag__misidentified_batch.png",
+   "items": "items/repaired__trapped_slag__misidentified_batch.png",
+   "templates": [
+    "sp4_refined_copper_ingot_misidentified_batch"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__trapped_slag__misidentified_batch"
+  },
+  "combo__cast_lap__trapped_slag__misidentified_batch": {
+   "paper": "paper/combo__cast_lap__trapped_slag__misidentified_batch.png",
+   "items": "items/combo__cast_lap__trapped_slag__misidentified_batch.png",
+   "templates": [
+    "sp4_refined_copper_ingot_cast_lap",
+    "sp4_refined_copper_ingot_trapped_slag",
+    "sp4_refined_copper_ingot_misidentified_batch"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__cast_lap__trapped_slag__misidentified_batch": {
+   "paper": "paper/repaired__cast_lap__trapped_slag__misidentified_batch.png",
+   "items": "items/repaired__cast_lap__trapped_slag__misidentified_batch.png",
+   "templates": [
+    "sp4_refined_copper_ingot_misidentified_batch"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__cast_lap__trapped_slag__misidentified_batch"
+  }
+ },
+ "template_checks": {
+  "sp4_refined_copper_ingot_low_copper_fraction": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_refined_copper_ingot_cast_lap": {
+   "paper": {
+    "changed_px": 100,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     234,
+     162,
+     278,
+     172
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 11,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     79,
+     44,
+     93,
+     48
+    ]
+   }
+  },
+  "sp4_refined_copper_ingot_trapped_slag": {
+   "paper": {
+    "changed_px": 408,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     108,
+     82,
+     136,
+     102
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 38,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     35,
+     17,
+     44,
+     23
+    ]
+   }
+  },
+  "sp4_refined_copper_ingot_short_fill": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_refined_copper_ingot_misidentified_batch": {
+   "paper": {
+    "changed_px": 68,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     58,
+     158,
+     76,
+     176
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     43,
+     24,
+     48
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

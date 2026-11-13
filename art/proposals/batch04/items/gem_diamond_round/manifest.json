@@ -1,0 +1,238 @@
+{
+ "asset_key": "gem_diamond_round",
+ "name_en": "Round Diamond",
+ "category": "gem_diamond",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_gem_diamond_round",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "planned_04_not_registered",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "girdle_chip": {
+   "paper": "paper/girdle_chip.png",
+   "items": "items/girdle_chip.png",
+   "templates": [
+    "sp4_gem_diamond_girdle_chip"
+   ],
+   "view": "ordinary"
+  },
+  "edge_feather": {
+   "paper": "paper/edge_feather.png",
+   "items": "items/edge_feather.png",
+   "templates": [
+    "sp4_gem_diamond_edge_feather"
+   ],
+   "view": "ordinary"
+  },
+  "table_abrasion": {
+   "paper": "paper/table_abrasion.png",
+   "items": "items/table_abrasion.png",
+   "templates": [
+    "sp4_gem_diamond_table_abrasion"
+   ],
+   "view": "ordinary"
+  },
+  "obscuring_cloud": {
+   "paper": "paper/obscuring_cloud.png",
+   "items": "items/obscuring_cloud.png",
+   "templates": [
+    "sp4_gem_diamond_obscuring_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "claim_mismatch": {
+   "paper": "paper/claim_mismatch.png",
+   "items": "items/claim_mismatch.png",
+   "templates": [
+    "sp4_gem_diamond_claim_mismatch"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "combo__girdle_chip__edge_feather": {
+   "paper": "paper/combo__girdle_chip__edge_feather.png",
+   "items": "items/combo__girdle_chip__edge_feather.png",
+   "templates": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_edge_feather"
+   ],
+   "view": "ordinary"
+  },
+  "combo__girdle_chip__table_abrasion": {
+   "paper": "paper/combo__girdle_chip__table_abrasion.png",
+   "items": "items/combo__girdle_chip__table_abrasion.png",
+   "templates": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_table_abrasion"
+   ],
+   "view": "ordinary"
+  },
+  "combo__girdle_chip__obscuring_cloud": {
+   "paper": "paper/combo__girdle_chip__obscuring_cloud.png",
+   "items": "items/combo__girdle_chip__obscuring_cloud.png",
+   "templates": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_obscuring_cloud"
+   ],
+   "view": "ordinary"
+  },
+  "combo__girdle_chip__edge_feather__table_abrasion": {
+   "paper": "paper/combo__girdle_chip__edge_feather__table_abrasion.png",
+   "items": "items/combo__girdle_chip__edge_feather__table_abrasion.png",
+   "templates": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_edge_feather",
+    "sp4_gem_diamond_table_abrasion"
+   ],
+   "view": "ordinary"
+  },
+  "instrument_observation": {
+   "paper": "paper/instrument_observation.png",
+   "items": "items/instrument_observation.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  }
+ },
+ "template_checks": {
+  "sp4_gem_diamond_girdle_chip": {
+   "paper": {
+    "changed_px": 788,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     256,
+     144,
+     284,
+     182
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 45,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     48,
+     37,
+     55,
+     46
+    ]
+   }
+  },
+  "sp4_gem_diamond_edge_feather": {
+   "paper": {
+    "changed_px": 64,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     248,
+     110,
+     280,
+     120
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     46,
+     27,
+     54,
+     31
+    ]
+   }
+  },
+  "sp4_gem_diamond_table_abrasion": {
+   "paper": {
+    "changed_px": 88,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     144,
+     140,
+     164,
+     158
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 10,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     19,
+     34,
+     25,
+     40
+    ]
+   }
+  },
+  "sp4_gem_diamond_obscuring_cloud": {
+   "paper": {
+    "changed_px": 1020,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     160,
+     104,
+     204,
+     142
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 36,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     25,
+     27,
+     34,
+     34
+    ]
+   }
+  },
+  "sp4_gem_diamond_claim_mismatch": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

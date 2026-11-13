@@ -1,0 +1,2115 @@
+{
+ "asset_key": "jade_carving_plain",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_recess_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_recess_fissure",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_relief_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.21875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    278,
+    46,
+    302,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_relief_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8984375,
+   "V": 0.20703125,
+   "Width": 0.09375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    109,
+    21,
+    121,
+    32
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_opaque_relief_zone",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_opaque_relief_zone",
+   "Id": "opaque_relief_zone",
+   "CauseId": "sp4_jade_carving_opaque_relief_zone",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.72265625,
+   "Width": 0.15625,
+   "Height": 0.1328125,
+   "bounds_px": [
+    172,
+    168,
+    232,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_opaque_relief_zone",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_opaque_relief_zone",
+   "Id": "opaque_relief_zone",
+   "CauseId": "sp4_jade_carving_opaque_relief_zone",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.54296875,
+   "V": 0.73046875,
+   "Width": 0.2578125,
+   "Height": 0.1328125,
+   "bounds_px": [
+    53,
+    85,
+    86,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3776041666666667,
+   "V": 0.5,
+   "Width": 0.078125,
+   "Height": 0.171875,
+   "bounds_px": [
+    130,
+    106,
+    160,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.50390625,
+   "Width": 0.1171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    31,
+    52,
+    46,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_filled_relief_bridge",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.21875,
+   "Width": 0.036458333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    254,
+    46,
+    268,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_filled_relief_bridge",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.2109375,
+   "Width": 0.046875,
+   "Height": 0.0625,
+   "bounds_px": [
+    96,
+    23,
+    102,
+    31
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__relief_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__relief_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__relief_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.21875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    278,
+    46,
+    302,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__relief_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8984375,
+   "V": 0.20703125,
+   "Width": 0.09375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    109,
+    21,
+    121,
+    32
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3776041666666667,
+   "V": 0.5,
+   "Width": 0.078125,
+   "Height": 0.171875,
+   "bounds_px": [
+    130,
+    106,
+    160,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.50390625,
+   "Width": 0.1171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    31,
+    52,
+    46,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__filled_relief_bridge",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__filled_relief_bridge",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__filled_relief_bridge",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.21875,
+   "Width": 0.036458333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    254,
+    46,
+    268,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__filled_relief_bridge",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.2109375,
+   "Width": 0.046875,
+   "Height": 0.0625,
+   "bounds_px": [
+    96,
+    23,
+    102,
+    31
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.21875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    278,
+    46,
+    302,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8984375,
+   "V": 0.20703125,
+   "Width": 0.09375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    109,
+    21,
+    121,
+    32
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3776041666666667,
+   "V": 0.5,
+   "Width": 0.078125,
+   "Height": 0.171875,
+   "bounds_px": [
+    130,
+    106,
+    160,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "dou_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.50390625,
+   "Width": 0.1171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    31,
+    52,
+    46,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_recess_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_recess_fissure",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_relief_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.21875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    278,
+    46,
+    302,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_relief_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8984375,
+   "V": 0.20703125,
+   "Width": 0.09375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    109,
+    21,
+    121,
+    32
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_opaque_relief_zone",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_opaque_relief_zone",
+   "Id": "opaque_relief_zone",
+   "CauseId": "sp4_jade_carving_opaque_relief_zone",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.72265625,
+   "Width": 0.15625,
+   "Height": 0.1328125,
+   "bounds_px": [
+    172,
+    168,
+    232,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_opaque_relief_zone",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_opaque_relief_zone",
+   "Id": "opaque_relief_zone",
+   "CauseId": "sp4_jade_carving_opaque_relief_zone",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.54296875,
+   "V": 0.73046875,
+   "Width": 0.2578125,
+   "Height": 0.1328125,
+   "bounds_px": [
+    53,
+    85,
+    86,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3776041666666667,
+   "V": 0.5,
+   "Width": 0.078125,
+   "Height": 0.171875,
+   "bounds_px": [
+    130,
+    106,
+    160,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.50390625,
+   "Width": 0.1171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    31,
+    52,
+    46,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_filled_relief_bridge",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.21875,
+   "Width": 0.036458333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    254,
+    46,
+    268,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_filled_relief_bridge",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.2109375,
+   "Width": 0.046875,
+   "Height": 0.0625,
+   "bounds_px": [
+    96,
+    23,
+    102,
+    31
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__relief_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__relief_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__relief_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.21875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    278,
+    46,
+    302,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__relief_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8984375,
+   "V": 0.20703125,
+   "Width": 0.09375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    109,
+    21,
+    121,
+    32
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3776041666666667,
+   "V": 0.5,
+   "Width": 0.078125,
+   "Height": 0.171875,
+   "bounds_px": [
+    130,
+    106,
+    160,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.50390625,
+   "Width": 0.1171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    31,
+    52,
+    46,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__filled_relief_bridge",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__filled_relief_bridge",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__filled_relief_bridge",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.21875,
+   "Width": 0.036458333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    254,
+    46,
+    268,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__filled_relief_bridge",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.2109375,
+   "Width": 0.046875,
+   "Height": 0.0625,
+   "bounds_px": [
+    96,
+    23,
+    102,
+    31
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.21875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    278,
+    46,
+    302,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8984375,
+   "V": 0.20703125,
+   "Width": 0.09375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    109,
+    21,
+    121,
+    32
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3776041666666667,
+   "V": 0.5,
+   "Width": 0.078125,
+   "Height": 0.171875,
+   "bounds_px": [
+    130,
+    106,
+    160,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "nuo_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.50390625,
+   "Width": 0.1171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    31,
+    52,
+    46,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_recess_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_recess_fissure",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_relief_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.21875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    278,
+    46,
+    302,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_relief_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8984375,
+   "V": 0.20703125,
+   "Width": 0.09375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    109,
+    21,
+    121,
+    32
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_opaque_relief_zone",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_opaque_relief_zone",
+   "Id": "opaque_relief_zone",
+   "CauseId": "sp4_jade_carving_opaque_relief_zone",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.72265625,
+   "Width": 0.15625,
+   "Height": 0.1328125,
+   "bounds_px": [
+    172,
+    168,
+    232,
+    202
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_opaque_relief_zone",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_opaque_relief_zone",
+   "Id": "opaque_relief_zone",
+   "CauseId": "sp4_jade_carving_opaque_relief_zone",
+   "ViewId": "front",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.54296875,
+   "V": 0.73046875,
+   "Width": 0.2578125,
+   "Height": 0.1328125,
+   "bounds_px": [
+    53,
+    85,
+    86,
+    102
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3776041666666667,
+   "V": 0.5,
+   "Width": 0.078125,
+   "Height": 0.171875,
+   "bounds_px": [
+    130,
+    106,
+    160,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.50390625,
+   "Width": 0.1171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    31,
+    52,
+    46,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_filled_relief_bridge",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.21875,
+   "Width": 0.036458333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    254,
+    46,
+    268,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_filled_relief_bridge",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.2109375,
+   "Width": 0.046875,
+   "Height": 0.0625,
+   "bounds_px": [
+    96,
+    23,
+    102,
+    31
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__relief_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__relief_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__relief_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.21875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    278,
+    46,
+    302,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__relief_chip",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8984375,
+   "V": 0.20703125,
+   "Width": 0.09375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    109,
+    21,
+    121,
+    32
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3776041666666667,
+   "V": 0.5,
+   "Width": 0.078125,
+   "Height": 0.171875,
+   "bounds_px": [
+    130,
+    106,
+    160,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.50390625,
+   "Width": 0.1171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    31,
+    52,
+    46,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__filled_relief_bridge",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__filled_relief_bridge",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__filled_relief_bridge",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.21875,
+   "Width": 0.036458333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    254,
+    46,
+    268,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__filled_relief_bridge",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_filled_relief_bridge",
+   "Id": "filled_relief_bridge",
+   "CauseId": "sp4_jade_carving_filled_relief_bridge",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.2109375,
+   "Width": 0.046875,
+   "Height": 0.0625,
+   "bounds_px": [
+    96,
+    23,
+    102,
+    31
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.515625,
+   "V": 0.57421875,
+   "Width": 0.0625,
+   "Height": 0.1796875,
+   "bounds_px": [
+    186,
+    124,
+    210,
+    170
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_recess_fissure",
+   "Id": "recess_fissure",
+   "CauseId": "sp4_jade_carving_recess_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.578125,
+   "Width": 0.09375,
+   "Height": 0.1875,
+   "bounds_px": [
+    61,
+    62,
+    73,
+    86
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.7552083333333334,
+   "V": 0.21875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    278,
+    46,
+    302,
+    66
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_relief_chip",
+   "Id": "relief_chip",
+   "CauseId": "sp4_jade_carving_relief_chip",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8984375,
+   "V": 0.20703125,
+   "Width": 0.09375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    109,
+    21,
+    121,
+    32
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3776041666666667,
+   "V": 0.5,
+   "Width": 0.078125,
+   "Height": 0.171875,
+   "bounds_px": [
+    130,
+    106,
+    160,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_carving_plain",
+   "state": "bing_combo__recess_fissure__relief_chip__dyed_recess",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jade_carving_dyed_recess",
+   "Id": "dyed_recess",
+   "CauseId": "sp4_jade_carving_dyed_recess",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.50390625,
+   "Width": 0.1171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    31,
+    52,
+    46,
+    77
+   ]
+  }
+ ]
+}

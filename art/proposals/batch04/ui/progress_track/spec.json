@@ -1,0 +1,16 @@
+{
+ "asset_key": "progress_track",
+ "kind": "component",
+ "size": [
+  240,
+  12
+ ],
+ "states": [
+  "default",
+  "paused",
+  "complete"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Fill separate; no baked percentage."
+}

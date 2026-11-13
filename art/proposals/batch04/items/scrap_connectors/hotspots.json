@@ -1,0 +1,715 @@
+{
+ "asset_key": "scrap_connectors",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "scrap_connectors",
+   "state": "clipped_contacts",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_clipped_contacts",
+   "Id": "clipped_contacts",
+   "CauseId": "sp4_scrap_connectors_clipped_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.53125,
+   "V": 0.86328125,
+   "Width": 0.1875,
+   "Height": 0.0859375,
+   "bounds_px": [
+    168,
+    210,
+    240,
+    232
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "clipped_contacts",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_clipped_contacts",
+   "Id": "clipped_contacts",
+   "CauseId": "sp4_scrap_connectors_clipped_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.8515625,
+   "Width": 0.296875,
+   "Height": 0.140625,
+   "bounds_px": [
+    25,
+    50,
+    44,
+    59
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "stripped_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_stripped_plating",
+   "Id": "stripped_plating",
+   "CauseId": "sp4_scrap_connectors_stripped_plating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3177083333333333,
+   "V": 0.77734375,
+   "Width": 0.13541666666666666,
+   "Height": 0.1328125,
+   "bounds_px": [
+    96,
+    182,
+    148,
+    216
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "stripped_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_stripped_plating",
+   "Id": "stripped_plating",
+   "CauseId": "sp4_scrap_connectors_stripped_plating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.7734375,
+   "Width": 0.109375,
+   "Height": 0.140625,
+   "bounds_px": [
+    14,
+    45,
+    21,
+    54
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "polymer_contamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_polymer_contamination",
+   "Id": "polymer_contamination",
+   "CauseId": "sp4_scrap_connectors_polymer_contamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7213541666666666,
+   "V": 0.57421875,
+   "Width": 0.109375,
+   "Height": 0.1328125,
+   "bounds_px": [
+    256,
+    130,
+    298,
+    164
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "polymer_contamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_polymer_contamination",
+   "Id": "polymer_contamination",
+   "CauseId": "sp4_scrap_connectors_polymer_contamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.828125,
+   "V": 0.5703125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    48,
+    32,
+    58,
+    41
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "oxidized_contact",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_oxidized_contact",
+   "Id": "oxidized_contact",
+   "CauseId": "sp4_scrap_connectors_oxidized_contact",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.72265625,
+   "Width": 0.078125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    186,
+    178,
+    216,
+    192
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "oxidized_contact",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_oxidized_contact",
+   "Id": "oxidized_contact",
+   "CauseId": "sp4_scrap_connectors_oxidized_contact",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6640625,
+   "V": 0.7890625,
+   "Width": 0.015625,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    50,
+    43,
+    51
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "false_sorting",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_false_sorting",
+   "Id": "false_sorting",
+   "CauseId": "sp4_scrap_connectors_false_sorting",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.7161458333333334,
+   "V": 0.16015625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0859375,
+   "bounds_px": [
+    264,
+    30,
+    286,
+    52
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "false_sorting",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_false_sorting",
+   "Id": "false_sorting",
+   "CauseId": "sp4_scrap_connectors_false_sorting",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.8203125,
+   "V": 0.1484375,
+   "Width": 0.078125,
+   "Height": 0.078125,
+   "bounds_px": [
+    50,
+    7,
+    55,
+    12
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__stripped_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_clipped_contacts",
+   "Id": "clipped_contacts",
+   "CauseId": "sp4_scrap_connectors_clipped_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.53125,
+   "V": 0.86328125,
+   "Width": 0.1875,
+   "Height": 0.0859375,
+   "bounds_px": [
+    168,
+    210,
+    240,
+    232
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__stripped_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_clipped_contacts",
+   "Id": "clipped_contacts",
+   "CauseId": "sp4_scrap_connectors_clipped_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.8515625,
+   "Width": 0.296875,
+   "Height": 0.140625,
+   "bounds_px": [
+    25,
+    50,
+    44,
+    59
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__stripped_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_stripped_plating",
+   "Id": "stripped_plating",
+   "CauseId": "sp4_scrap_connectors_stripped_plating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3177083333333333,
+   "V": 0.77734375,
+   "Width": 0.13541666666666666,
+   "Height": 0.1328125,
+   "bounds_px": [
+    96,
+    182,
+    148,
+    216
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__stripped_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_stripped_plating",
+   "Id": "stripped_plating",
+   "CauseId": "sp4_scrap_connectors_stripped_plating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.7734375,
+   "Width": 0.109375,
+   "Height": 0.140625,
+   "bounds_px": [
+    14,
+    45,
+    21,
+    54
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__polymer_contamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_clipped_contacts",
+   "Id": "clipped_contacts",
+   "CauseId": "sp4_scrap_connectors_clipped_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.53125,
+   "V": 0.86328125,
+   "Width": 0.1875,
+   "Height": 0.0859375,
+   "bounds_px": [
+    168,
+    210,
+    240,
+    232
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__polymer_contamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_clipped_contacts",
+   "Id": "clipped_contacts",
+   "CauseId": "sp4_scrap_connectors_clipped_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.8515625,
+   "Width": 0.296875,
+   "Height": 0.140625,
+   "bounds_px": [
+    25,
+    50,
+    44,
+    59
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__polymer_contamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_polymer_contamination",
+   "Id": "polymer_contamination",
+   "CauseId": "sp4_scrap_connectors_polymer_contamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7213541666666666,
+   "V": 0.57421875,
+   "Width": 0.109375,
+   "Height": 0.1328125,
+   "bounds_px": [
+    256,
+    130,
+    298,
+    164
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__polymer_contamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_polymer_contamination",
+   "Id": "polymer_contamination",
+   "CauseId": "sp4_scrap_connectors_polymer_contamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.828125,
+   "V": 0.5703125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    48,
+    32,
+    58,
+    41
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__false_sorting",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_clipped_contacts",
+   "Id": "clipped_contacts",
+   "CauseId": "sp4_scrap_connectors_clipped_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.53125,
+   "V": 0.86328125,
+   "Width": 0.1875,
+   "Height": 0.0859375,
+   "bounds_px": [
+    168,
+    210,
+    240,
+    232
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__false_sorting",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_clipped_contacts",
+   "Id": "clipped_contacts",
+   "CauseId": "sp4_scrap_connectors_clipped_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.8515625,
+   "Width": 0.296875,
+   "Height": 0.140625,
+   "bounds_px": [
+    25,
+    50,
+    44,
+    59
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__false_sorting",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_false_sorting",
+   "Id": "false_sorting",
+   "CauseId": "sp4_scrap_connectors_false_sorting",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.7161458333333334,
+   "V": 0.16015625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0859375,
+   "bounds_px": [
+    264,
+    30,
+    286,
+    52
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__false_sorting",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_false_sorting",
+   "Id": "false_sorting",
+   "CauseId": "sp4_scrap_connectors_false_sorting",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.8203125,
+   "V": 0.1484375,
+   "Width": 0.078125,
+   "Height": 0.078125,
+   "bounds_px": [
+    50,
+    7,
+    55,
+    12
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__stripped_plating__polymer_contamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_clipped_contacts",
+   "Id": "clipped_contacts",
+   "CauseId": "sp4_scrap_connectors_clipped_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.53125,
+   "V": 0.86328125,
+   "Width": 0.1875,
+   "Height": 0.0859375,
+   "bounds_px": [
+    168,
+    210,
+    240,
+    232
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__stripped_plating__polymer_contamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_clipped_contacts",
+   "Id": "clipped_contacts",
+   "CauseId": "sp4_scrap_connectors_clipped_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5390625,
+   "V": 0.8515625,
+   "Width": 0.296875,
+   "Height": 0.140625,
+   "bounds_px": [
+    25,
+    50,
+    44,
+    59
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__stripped_plating__polymer_contamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_stripped_plating",
+   "Id": "stripped_plating",
+   "CauseId": "sp4_scrap_connectors_stripped_plating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3177083333333333,
+   "V": 0.77734375,
+   "Width": 0.13541666666666666,
+   "Height": 0.1328125,
+   "bounds_px": [
+    96,
+    182,
+    148,
+    216
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__stripped_plating__polymer_contamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_stripped_plating",
+   "Id": "stripped_plating",
+   "CauseId": "sp4_scrap_connectors_stripped_plating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.7734375,
+   "Width": 0.109375,
+   "Height": 0.140625,
+   "bounds_px": [
+    14,
+    45,
+    21,
+    54
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__stripped_plating__polymer_contamination",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_scrap_connectors_polymer_contamination",
+   "Id": "polymer_contamination",
+   "CauseId": "sp4_scrap_connectors_polymer_contamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7213541666666666,
+   "V": 0.57421875,
+   "Width": 0.109375,
+   "Height": 0.1328125,
+   "bounds_px": [
+    256,
+    130,
+    298,
+    164
+   ]
+  },
+  {
+   "asset_key": "scrap_connectors",
+   "state": "combo__clipped_contacts__stripped_plating__polymer_contamination",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_scrap_connectors_polymer_contamination",
+   "Id": "polymer_contamination",
+   "CauseId": "sp4_scrap_connectors_polymer_contamination",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.828125,
+   "V": 0.5703125,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    48,
+    32,
+    58,
+    41
+   ]
+  }
+ ]
+}

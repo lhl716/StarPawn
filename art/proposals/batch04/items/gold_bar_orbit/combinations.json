@@ -1,0 +1,143 @@
+{
+ "asset_key": "gold_bar_orbit",
+ "combinations": [
+  {
+   "profile": "combo__face_score__seam_core",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bar_face_score",
+    "sp4_gold_bar_seam_core"
+   ],
+   "repairable": [
+    "sp4_gold_bar_face_score"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_bar_seam_core"
+   ],
+   "repaired_state": "repaired__face_score__seam_core"
+  },
+  {
+   "profile": "combo__face_score__altered_stamp",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bar_face_score",
+    "sp4_gold_bar_altered_stamp"
+   ],
+   "repairable": [
+    "sp4_gold_bar_face_score"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_bar_altered_stamp"
+   ],
+   "repaired_state": "repaired__face_score__altered_stamp"
+  },
+  {
+   "profile": "combo__corner_impact__seam_core",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bar_corner_impact",
+    "sp4_gold_bar_seam_core"
+   ],
+   "repairable": [
+    "sp4_gold_bar_corner_impact"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_bar_seam_core"
+   ],
+   "repaired_state": "repaired__corner_impact__seam_core"
+  },
+  {
+   "profile": "combo__face_score__corner_impact__seam_core",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bar_face_score",
+    "sp4_gold_bar_corner_impact",
+    "sp4_gold_bar_seam_core"
+   ],
+   "repairable": [
+    "sp4_gold_bar_face_score",
+    "sp4_gold_bar_corner_impact"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_bar_seam_core"
+   ],
+   "repaired_state": "repaired__face_score__corner_impact__seam_core"
+  },
+  {
+   "profile": "face_score",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bar_face_score"
+   ],
+   "repairable": [
+    "sp4_gold_bar_face_score"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "corner_impact",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bar_corner_impact"
+   ],
+   "repairable": [
+    "sp4_gold_bar_corner_impact"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "seam_core",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bar_seam_core"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gold_bar_seam_core"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "short_measure",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bar_short_measure"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gold_bar_short_measure"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": true
+  },
+  {
+   "profile": "altered_stamp",
+   "variant": "",
+   "templates": [
+    "sp4_gold_bar_altered_stamp"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gold_bar_altered_stamp"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

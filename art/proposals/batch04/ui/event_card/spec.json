@@ -1,0 +1,17 @@
+{
+ "asset_key": "event_card",
+ "kind": "component",
+ "size": [
+  520,
+  72
+ ],
+ "states": [
+  "forecast",
+  "active",
+  "expired",
+  "resolved"
+ ],
+ "implementation_status": "planned_04_skin_or_screen",
+ "text_free": true,
+ "notes": "Stable dynamic modifier/date/status fields; text-free."
+}
