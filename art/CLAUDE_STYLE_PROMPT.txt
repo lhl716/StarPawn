@@ -1,3 +1,5 @@
+Historical Stage 1 prompt. The sample direction has now been accepted; use CLAUDE_BATCH_PROMPT_04.txt for the authorized complete batch. The original prompt below is retained for context.
+
 Create one item-art style sample for StarPawn, a Probably Stolen mod: a gold ring shown side by side in three states—intact, worn plating exposing the base metal, and a cracked band. Keep the silhouette, viewing angle, and lighting identical. Use refined pixel art that fits the original game's worn science-fiction pawnshop, with a limited palette, clear materials, restrained highlights, and a transparent background. Keep every defect inside the object silhouette and readable at small sizes. Include an inventory-size preview. Do not draw characters, produce the full asset set, or change code. Wait for my approval of the style before proceeding.
 
 Repository: https://github.com/lhl716/StarPawn

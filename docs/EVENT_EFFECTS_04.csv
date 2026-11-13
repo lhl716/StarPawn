@@ -1,0 +1,53 @@
+event_id,title,trigger,duration_days,cooldown_days,channel,target,delta_bps,application,public_reason
+gold_shipment,Gold shipment arrives,scheduled,2,10,commodity_price,Au,-1500,multiplier_delta,Additional supply lowers today's gold bid and ask.
+gold_shipment,Gold shipment arrives,scheduled,2,10,supplier_availability,gold_goods,2500,multiplier_delta,New suppliers bring more gold merchandise.
+gold_shipment,Gold shipment arrives,scheduled,2,10,supplier_availability,ore_gold,3000,multiplier_delta,Gold-bearing feedstock is easier to source.
+port_delay,Freight route delayed,scheduled,2,10,commodity_price,Au,1000,multiplier_delta,Precious-metal deliveries are delayed.
+port_delay,Freight route delayed,scheduled,2,10,commodity_price,Ag,1200,multiplier_delta,Silver deliveries are delayed.
+port_delay,Freight route delayed,scheduled,2,10,commodity_price,Cu,1500,multiplier_delta,Copper deliveries are delayed.
+port_delay,Freight route delayed,scheduled,2,10,supplier_availability,all_trade_goods,-2500,multiplier_delta,Only newly generated supplier quantities are reduced.
+port_delay,Freight route delayed,scheduled,2,10,processing_service_cost,all,1000,multiplier_delta,New outsourced processing quotes include a freight surcharge.
+safe_haven,Customers seek precious metals,scheduled,2,12,commodity_price,Au,1200,multiplier_delta,Gold demand increases the shared market price.
+safe_haven,Customers seek precious metals,scheduled,2,12,commodity_price,Ag,800,multiplier_delta,Silver demand increases the shared market price.
+safe_haven,Customers seek precious metals,scheduled,2,12,category_demand,precious_metal_goods,1000,multiplier_delta,Jewelry workmanship demand rises without multiplying metal value twice.
+safe_haven,Customers seek precious metals,scheduled,2,12,risk_appetite,market,-1500,multiplier_delta,Risk-sensitive securities use the saved risk factor.
+jade_festival,Jade collectors' fair,scheduled,2,10,jade_tier_value,dou,500,multiplier_delta,Entry-tier jade demand rises modestly.
+jade_festival,Jade collectors' fair,scheduled,2,10,jade_tier_value,nuo,1200,multiplier_delta,Mid-tier jade demand rises.
+jade_festival,Jade collectors' fair,scheduled,2,10,jade_tier_value,bing,1800,multiplier_delta,High-tier jade demand rises most.
+jade_festival,Jade collectors' fair,scheduled,2,10,category_demand,jade_workmanship,1000,multiplier_delta,Finished jade craftsmanship attracts a separate demand premium.
+new_jade_seam,New jade seam discovered,story_choice,3,14,jade_tier_value,dou,-1800,multiplier_delta,Additional lower-tier jade supply reduces the tier index.
+new_jade_seam,New jade seam discovered,story_choice,3,14,jade_tier_value,nuo,-1200,multiplier_delta,Additional mid-tier jade supply reduces the tier index.
+new_jade_seam,New jade seam discovered,story_choice,3,14,jade_tier_value,bing,-500,multiplier_delta,High-tier supply changes less than common material.
+new_jade_seam,New jade seam discovered,story_choice,3,14,supplier_availability,jade_rough,3500,multiplier_delta,More new rough offers arrive without changing stones already owned.
+power_rationing,Workshop power rationing,scheduled,2,8,processing_energy_cost,all,3000,multiplier_delta,New processing quotes include higher energy costs.
+power_rationing,Workshop power rationing,scheduled,2,8,processing_duration,all,5000,multiplier_delta,New jobs take longer after whole-day rounding.
+power_rationing,Workshop power rationing,scheduled,2,8,supplier_availability,energy_cell,-2500,multiplier_delta,Charged cells are harder to source.
+recovery_grant,Station recovery grant,story_choice,2,12,processing_service_cost,recovery,-2000,multiplier_delta,Eligible new recovery jobs receive a service discount.
+recovery_grant,Station recovery grant,story_choice,2,12,recovery_efficiency,recovery,300,recipe_bps_delta,New recovery jobs lose less of the existing finite metal budget.
+recovery_grant,Station recovery grant,story_choice,2,12,supplier_availability,mixed_e_scrap,3000,multiplier_delta,Collection drives increase new electronic-scrap offers.
+chip_shortage,Processor shortage,scheduled,2,10,category_demand,electronics,2000,multiplier_delta,Working electronics and repair services become more valuable.
+chip_shortage,Processor shortage,scheduled,2,10,commodity_price,Au,500,multiplier_delta,Industrial gold demand affects the same shared gold quote.
+chip_shortage,Processor shortage,scheduled,2,10,commodity_price,Cu,1200,multiplier_delta,Industrial copper demand affects the shared copper quote.
+chip_shortage,Processor shortage,scheduled,2,10,supplier_availability,electronic_components,-3000,multiplier_delta,New component offers become scarcer.
+repair_drive,Repair and reuse campaign,scheduled,2,8,category_demand,electronics,1000,multiplier_delta,Functional repaired devices attract more demand.
+repair_drive,Repair and reuse campaign,scheduled,2,8,processing_service_cost,repair,-1500,multiplier_delta,New repair quotes receive a service discount.
+repair_drive,Repair and reuse campaign,scheduled,2,8,supplier_availability,damaged_electronics,2500,multiplier_delta,Customers bring more damaged devices for new offers.
+credit_squeeze,Station credit tightens,scheduled,2,14,new_savings_rate,new_agreements,5,rate_bps_add,Only newly agreed savings terms gain 0.05 percentage points daily.
+credit_squeeze,Station credit tightens,scheduled,2,14,new_credit_rate,new_agreements,15,rate_bps_add,Only newly signed credit terms gain 0.15 percentage points daily.
+credit_squeeze,Station credit tightens,scheduled,2,14,new_loan_rate,new_agreements,15,rate_bps_add,Only newly signed ordinary loans gain 0.15 percentage points daily.
+credit_squeeze,Station credit tightens,scheduled,2,14,new_pawn_rate,new_agreements,10,rate_bps_add,Only newly signed pawn contracts gain 0.10 percentage points daily.
+credit_squeeze,Station credit tightens,scheduled,2,14,new_pawn_ltv,new_agreements,-1000,rate_bps_add,New pawn principal caps are ten percentage points more conservative.
+credit_squeeze,Station credit tightens,scheduled,2,14,risk_appetite,market,-1500,multiplier_delta,Risk-sensitive securities use the saved risk factor.
+collectors_visit,Collectors visit the station,visitor_followup,1,8,category_demand,collectibles,2000,multiplier_delta,New collector demand raises applicable craftsmanship and collectible premiums.
+collectors_visit,Collectors visit the station,visitor_followup,1,8,category_demand,precious_metal_goods,1200,multiplier_delta,Decorative metalwork receives a workmanship premium.
+collectors_visit,Collectors visit the station,visitor_followup,1,8,supplier_availability,collectibles,1500,multiplier_delta,Visitors bring new collectible offers.
+assay_campaign,Public assay campaign,scheduled,2,10,assay_service_cost,outsourced_assay,-2000,multiplier_delta,New outsourced assay quotes cost less.
+assay_campaign,Public assay campaign,scheduled,2,10,category_demand,certified_goods,1000,multiplier_delta,Confirmed provenance affects eligible workmanship demand without revealing hidden truth.
+assay_campaign,Public assay campaign,scheduled,2,10,supplier_availability,process_cartridge,1500,multiplier_delta,Consumable assay and processing cartridges are more available as new offers.
+alchemy_breakthrough,Alchemy laboratory breakthrough,story_choice,2,14,alchemy_catalyst_cost,alchemy_powder,-1000,multiplier_delta,New alchemy catalyst quotes receive a limited subsidy.
+alchemy_breakthrough,Alchemy laboratory breakthrough,story_choice,2,14,alchemy_daily_quota,Au,2500,multiplier_delta,The next day's fictional gold-output permit rises within its hard cap.
+alchemy_breakthrough,Alchemy laboratory breakthrough,story_choice,2,14,supplier_availability,alchemy_powder,2500,multiplier_delta,New catalyst offers increase without duplicating existing powder.
+alchemy_breakthrough,Alchemy laboratory breakthrough,story_choice,2,14,processing_service_cost,alchemy,-1000,multiplier_delta,New alchemy service quotes receive a limited discount.
+powder_shortage,Alchemy powder shortage,scheduled,2,12,alchemy_catalyst_cost,alchemy_powder,2500,multiplier_delta,New alchemy catalyst quotes cost more.
+powder_shortage,Alchemy powder shortage,scheduled,2,12,alchemy_daily_quota,Au,-2500,multiplier_delta,The next day's fictional gold-output permit is reduced.
+powder_shortage,Alchemy powder shortage,scheduled,2,12,supplier_availability,alchemy_powder,-4000,multiplier_delta,New powder offers become scarce.

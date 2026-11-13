@@ -1,0 +1,1 @@
+PASS design only: 110 fixed item-art rows; 241 runtime mappings; 200 templates in 40 category/subtype sets; 14 events; 16 recipes; 61 UI rows; complete links and English prose. Gameplay not executed.

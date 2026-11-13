@@ -1,0 +1,25 @@
+Continue the StarPawn art production using the approved gold-ring pixel-art direction.
+
+Repository: https://github.com/lhl716/StarPawn
+Preserve the existing art/style-sample branch. Create art/batch04 from it and merge the latest origin/main to obtain the frozen production specifications. Do not overwrite or discard the sample work.
+
+Read these files before drawing:
+1. art/BATCH_ART_SPEC_04.txt
+2. art/ITEM_LAYOUT_04.csv and art/UI_ASSETS_04.csv
+3. docs/DEFECT_RULES_04.txt and docs/DEFECT_CATALOG_04.csv
+4. docs/SYSTEMS_DESIGN_04.txt, docs/EVENT_EFFECTS_04.csv, docs/EVENT_STORIES_04.csv, and docs/RECIPES_04.csv
+5. docs/MOD_RESEARCH_04.txt
+
+Treat the CSV dimensions as fixed. Inventory art is 64 pixels per occupied cell; every inspection image is 384x256. Do not change footprints, crop canvases, or reuse the old 96x64 placeholder size. Author inventory images separately. Keep the approved 192x128 drawing scale doubled with nearest-neighbor for inspection masters, and check readability at the actual 298x199 inspection frame.
+
+Produce the complete manifest batch: five gold categories with two designs each, corresponding silver designs, six rough-jade families, five finished-jade categories with two designs each, instruments, handbooks, physical cards, storage, collectibles, electronic scrap, ore, refined metals, alloys, recovery/refining equipment, fictional alchemy equipment, and all specified UI components/screens/event icons. Jade has exactly three game tiers: dou, nuo, and bing. Keep a rough stone's hidden grade out of its unopened exterior.
+
+Each appraisal category/subtype has its OWN five fixed defect templates. Use its assigned templates and valid combinations; do not apply a universal defect library to unrelated objects. Deliver intact bases, masks, individual visible-defect overlays, permitted combined states, relevant observation layers, repaired states, and matching handbook examples. Instrument-only conditions reuse the intact sprite without fabricated visible clues. A single object may be intact or have 1-3 compatible defects. Utility objects use functional states. Preserve camera/canvas alignment; chips may use explicitly documented state-specific silhouettes.
+
+First correct the ring sample's hotspot generator: StarPawn U/V are normalized rectangle CENTERS, not top-left coordinates. Export U=(x0+x1)/(2*width) and V=(y0+y1)/(2*height), plus full normalized Width/Height. Preserve existing IDs for cosmetic changes. Finish the ring's full category-specific set as an internal pipeline check, then continue through every batch without another style-approval pause.
+
+The event/refining/alchemy documents specify planned gameplay, not an implemented release. Design their visuals and UI states accurately: events affect common markets, demand, supply and processing conditions; electronics can hold finite hidden metal; recovery conserves existing material; fictional transmutation has separate costs, charges and quotas. Do not bake prices, purity, dates, balances or account data into textures. Preserve Chinese in-game localization; use English for documentation and annotations. Use original art, not third-party mod assets.
+
+Deliver under art/proposals/batch04 using the exact row output folders. Include editable layers or deterministic generators, manifests, center-based hotspots.json, combinations.json, comparison sheets, a complete progress index and validation-results.txt. Verify dimensions, transparency, geometry, permitted combinations, hidden-state separation and small-size readability. Supply 1080p and 4K UI mockups and clearly label screens awaiting gameplay integration.
+
+Change art/proposals files and their generators only. Do not edit runtime mod content, gameplay code, saves, the installed game, or economic rules. Commit and push art/batch04; do not merge main. Complete the authorized batch autonomously and report any genuine specification conflict with the exact affected row instead of silently changing sizes or mechanics.

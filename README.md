@@ -6,13 +6,31 @@ Current playable version: **0.3.0 / Windows / 100-Rev13 / Steam BuildID 26525552
 
 This revision adds two designs for each of five gold and silver item types, six jade-rough types, four finished-jade types, five physical instruments, seven fixed-defect handbooks, and an eight-slot handbook organizer. Banking gains daily transaction limits, revised rates for new contracts, a financial overview, and overnight settlement receipts. See the [0.3 delivery record](docs/REVISION_03.txt) for exact scope and limitations. The 239 catalog definitions include condition combinations; they are not 239 distinct designs.
 
-## Art handoff for Claude
+## Current production handoff: 0.4 design
+
+The user accepted the ring sample's visual direction and authorized the complete fixed-size art batch. **The playable release remains 0.3; the following 0.4 files are design and production contracts, not implemented gameplay.**
+
+Start with the [batch prompt](art/CLAUDE_BATCH_PROMPT_04.txt) and [frozen production specification](art/BATCH_ART_SPEC_04.txt). The specifications cover:
+
+- [110 physical art models and exact inventory footprints/pixel sizes](art/ITEM_LAYOUT_04.csv), with [all 241 current item/card mappings](art/RUNTIME_COVERAGE_04.csv).
+- [UI screen, widget, and event-icon dimensions](art/UI_ASSETS_04.csv).
+- [200 category-specific defect templates](docs/DEFECT_CATALOG_04.csv) and their [observation/combination rules](docs/DEFECT_RULES_04.txt).
+- [Connected event, market, material, recovery, and fictional-alchemy design](docs/SYSTEMS_DESIGN_04.txt), [event effects](docs/EVENT_EFFECTS_04.csv), [event stories](docs/EVENT_STORIES_04.csv), and [abstract processing recipes](docs/RECIPES_04.csv).
+- [Primary-source mod research and adaptation boundaries](docs/MOD_RESEARCH_04.txt).
+
+Gold has five categories with two designs each. Jade uses exactly three game tiers: dou, nuo, and bing. Each appraisal category/subtype owns its own defect set. Events affect shared prices, demand, supply, new agreement terms and processing conditions; existing item truth remains saved. Material recovery and explicitly fictional transmutation use separate accounting rules.
+
+Claude should preserve `art/style-sample`, create `art/batch04` from it, and merge current `origin/main` to obtain these specifications. Produce assets under `art/proposals/batch04`, then commit and push that art branch. No repeated style-only approval gate is required. Runtime code, live installation, and save migrations belong to the gameplay integration task.
+
+Run `python tests/Validate-Design04.py` to check design-table relationships. `python source/Content/Export-Design04.py` deterministically exports the fixed-size manifests without changing runtime content or images. These checks validate specifications, not the future gameplay implementation or yet-to-be-produced art.
+
+## Historical style-sample handoff (0.3)
 
 Start with the [art direction and handoff](art/ART_DIRECTION.txt), [minimal style-sample prompt](art/CLAUDE_STYLE_PROMPT.txt), and [0.3 delivery record](docs/REVISION_03.txt).
 
-The first deliverable is one gold ring in three conditions. Wait for the user's style approval before producing the full item and UI set. Design scope is listed in [asset-plan.csv](art/asset-plan.csv); exact runtime files and condition mappings are in [runtime-art-map.json](art/runtime-art-map.json); screen specifications are in [UI_SPEC.txt](art/UI_SPEC.txt). `existing-assets.json` and `existing-items.json` are historical 0.2 snapshots.
+The initial deliverable was one gold ring in three conditions; that visual direction is now accepted for the 0.4 production contract above. [asset-plan.csv](art/asset-plan.csv) is the earlier broad proposal list; exact 0.3 runtime files and condition mappings remain in [runtime-art-map.json](art/runtime-art-map.json); [UI_SPEC.txt](art/UI_SPEC.txt) documents the earlier screen baseline. `existing-assets.json` and `existing-items.json` are historical 0.2 snapshots. The newer fixed-size manifests take precedence for batch production.
 
-Pull the current `main` branch, then create `art/style-sample`. The `gameplay/0.3` branch also contains the 0.3 gameplay baseline. Put proposals in `art/proposals/`; approved assets can later enter `mod/Textures/`. Preserve item IDs, evidence IDs, interfaces, and save compatibility. Any hotspot-coordinate changes require matching configuration updates and validation.
+The original sample work is on `art/style-sample`. Preserve that work when creating the batch branch. Approved and integrated assets can later enter `mod/Textures/`. Preserve item IDs, evidence IDs, interfaces, and save compatibility. Any hotspot-coordinate changes require matching configuration updates and validation.
 
 Prompts and explanatory documentation are in English. The game remains localized in Simplified Chinese. Runtime exports, historical data snapshots, localization examples, and screenshots retain their original Chinese display strings so they can be matched to the actual game; these are source data, not instructions to translate the game.
 

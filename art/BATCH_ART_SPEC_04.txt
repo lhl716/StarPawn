@@ -1,0 +1,75 @@
+StarPawn 0.4 Frozen Art Production Contract
+Revision: 04.1 / 2026-11-13 / English documentation, Chinese game text
+Status: APPROVED DIRECTION / DESIGN CONTRACT; NOT A RUNTIME RELEASE
+
+1. Authority and scope
+The user accepted the gold-ring style direction and requested a fixed-size batch plan before production. Continue in that direction without another style-only approval gate. This contract replaces the earlier Stage 1-only instructions in ART_DIRECTION.txt and CLAUDE_STYLE_PROMPT.txt for this batch.
+Read in order: this file; ITEM_LAYOUT_04.csv; UI_ASSETS_04.csv; docs/DEFECT_RULES_04.txt and DEFECT_CATALOG_04.csv; docs/SYSTEMS_DESIGN_04.txt and EVENT_EFFECTS_04.csv; docs/MOD_RESEARCH_04.txt.
+ITEM_LAYOUT_04.csv is authoritative for the NEXT revision's physical footprints and export sizes. It has one row per art model/utility object, not per defect permutation. RUNTIME_COVERAGE_04.csv maps all 239 current definitions and two cards to their art row. runtime-art-map.json remains the authority for what version 0.3 actually loads today. asset-plan.csv is an older broad proposal list and must not override the new sizes or introduce extra models.
+No proposed event, recipe, new defect, changed footprint, or new view becomes playable merely because its art exists. Gameplay integration and migration belong to the gameplay owner. Submit the complete batch under art/proposals/batch04; do not edit mod/, source/Core, or source/Game.
+
+2. Frozen physical size system
+One inventory cell = a 64 x 64 export canvas. Every inventory PNG must be exactly (grid_width * 64) x (grid_height * 64), including transparent margins. The table uses only 1x1, 2x1, 1x2, and 2x2 footprints. Do not rotate footprints, crop transparent margins, or change cell counts to fit a drawing.
+Every Paper illustration is exactly 384 x 256 RGBA, regardless of inventory footprint. Author Paper art at 192 x 128 and export at 2x nearest-neighbor, following the accepted ring sample. Author inventory art separately at its native dimensions, with deliberate small-size simplification. Do not resize or stretch Paper art into inventory art.
+Validate inspection previews at the game's actual logical image frame, 298 x 199. This is not an integer scale from 384 x 256, so the preview is a readability check, not proof that every pixel will be displayed evenly. Deliver 1080p and 4K screen mockups; actual game filtering and integration still require in-game validation.
+Keep at least 8 export pixels of transparent margin in Paper art and 2 inventory pixels at the canvas boundary. Center and scale a model consistently across its states. Different models may use different silhouettes; never reuse one silhouette merely with new names.
+No text, prices, purity percentages, interest rates, dates, quotas, or account numbers baked into artwork. Static fictional emblem shapes are allowed. Use the exact inventory shapes from the manifest in mockups.
+
+3. Scope and model counts
+Gold: five categories (ring, bracelet, necklace, earring pair, bar), two designs each (Orbit and Starburst), ten models. Silver mirrors these five categories and two designs. An earring pair is one item, not two independent inventory children.
+Rough jade: six genuinely different skin/shape families, one model each. Finished jade: pendant, cabochon, bangle, bead strand, small carving; two designs each. Exactly three game quality tiers: dou (bean), nuo (glutinous), bing (ice). These are deliberately simplified game grades, not a comprehensive gemological taxonomy.
+Grade changes texture, depth and translucency, not the defect pool. Treatment is independent of grade. Never equate a dyed stone with a specific quality tier. On unopened rough, grade is hidden: all three grades use the same exterior for a given shape/defect combination. Interior/window/light layers can differ when legitimately observed.
+The manifest also covers legacy compatibility art, new-generation collectibles, five instruments, handbooks, storage, cards, electronic scrap, ore, recovered metals, alloys, processing items, refining equipment and fictional alchemy equipment. Legacy-only rows retain their existing conditions rather than gaining the new five-defect libraries.
+
+4. Defects belong to categories
+Use only the five authored templates assigned to each category/subtype in DEFECT_CATALOG_04.csv. Ring, necklace, bar, each rough-skin family, and each finished-jade form have separate template sets. Different categories may depict related damage, but they do not share an interchangeable universal template pool.
+For each new appraisable model, produce its intact base and all five single-defect states, then compatible combinations defined in the category rules. An instrument-only template with mask_policy=unchanged reuses the intact sprite and has a separate reading/example illustration; do not invent a visible defect overlay for hidden short weight or purity. A physical item may be intact or have 1-3 compatible causes. Do not put five defects on every object. A filled-crack observation and the crack it fills must not create duplicate economic deductions for the same cause.
+Provide a per-model combinations.json whitelist after checking semantic compatibility and spatial overlap. Include at least two valid two-defect examples and one valid three-defect example where the category permits them. Layered composition is the source of truth; exporting all 32 binary permutations is neither required nor authorized when some combinations are invalid.
+Ordinary items use fixed authored locations. Do not add random procedural scratches, floating patches, changing crack positions or rerolled masks. The generator must be deterministic. Functional tools/cards/manuals/machines use their manifest states instead of fabricated appraisal defects.
+Surface wear, plating and fine cracks should normally retain the intact alpha mask. Chipping, missing parts or genuine outline deformation can have a state-specific mask. Keep the same canvas/camera/anchor, record the silhouette change, and constrain every visible defect to the corresponding authored object geometry. A missing chip is transparent space, not a painted patch outside the object.
+Show hidden internal defects only in their proper observation layer. A UV/light image is an art proposal for the planned observation system, not permission to expose hidden facts in the current default view. Instrument display text comes from gameplay knowledge, not the texture.
+
+5. Repair and material truth
+Separate removable mechanical damage from non-repairable material/edition/treatment evidence. Repair can polish scratches or restore a clasp when the category permits it; it cannot turn plating into solid gold, change an old print into an original, erase a saved treatment history, or refill already-extracted metal.
+Provide repaired composites for the repairable subset of each allowed combination; preserve every remaining non-repairable cue. If a repair produces a documented seam, use the category's authored repaired state, not a new random flaw.
+Metal color is a visual clue. Gray-green base metal is accepted for the reviewed ring; copper-toned base material may be used for other explicitly authored variants. Preserve shading so the exposed material reads as metal. Do not imply that a color alone proves an assay result.
+
+6. Exact hotspot contract and the sample correction
+The existing sample generator's bbox_norm() writes x0/width and y0/height into U and V. That is incorrect for StarPawn: U/V are the RECTANGLE CENTER, with coordinates normalized from a top-left image origin.
+For integer bounds x0,y0,x1,y1: U=(x0+x1)/(2*image_width), V=(y0+y1)/(2*image_height), Width=(x1-x0)/image_width, Height=(y1-y0)/image_height. Recalculate from integer bounds; do not reuse rounded estimates.
+Each proposal hotspots.json must name asset_key, state, view, image size, and template ID; preserve existing Id/CauseId/TemplateId when backporting a cosmetic change. Use existing field meanings ViewId and InstrumentKind. Runtime supports front/window today; additional observation views in 0.4 are proposed integration data and must be marked planned rather than inserted into current runtime files.
+For visible evidence, the hotspot center must fall on the authored clue in that view. Instrument-only measurements have no fabricated clickable hotspot: record their reveal gate and a null visual region in proposal metadata, leaving runtime observation binding to the gameplay owner. Keep visible bounds tight enough that unrelated intact areas do not become valid hits. For long/irregular evidence, several observation hotspots may share one cause; pricing must still count that cause once. Include a diagnostic preview with visible bounds and center marks, without baking those marks into runtime art.
+Coordinate changes for existing evidence require matching texture and handbook-example changes. New causes/conditions need new versioned definitions, not silent additions to saved 0.3 items.
+
+7. File contract
+For every physical art row create its exact output_folder from ITEM_LAYOUT_04.csv. Required structure:
+  README.txt                  English state list, current/planned mapping, known limitations.
+  manifest.json               asset_key, frozen cell/pixel dimensions, category/subtype, grade policy, state file paths.
+  paper/<state>.png           384x256 RGBA.
+  items/<state>.png           exact grid-scaled size from the row.
+  layers/paper/<layer>.png    aligned bases, masks, condition overlays and observation layers.
+  layers/items/<layer>.png    separately authored small-size equivalents.
+  hotspots.json               center-based, view-specific evidence geometry.
+  combinations.json          permitted combinations and repaired-state mapping; empty with a reason for utilities/legacy-only rows.
+  comparison.png             readable state/tier/size review sheet, review backgrounds allowed here only.
+  source/                    editable layered source or deterministic generation script.
+Use lowercase snake_case states. Tier-dependent names include dou/nuo/bing. Publish an index at art/proposals/batch04/README.md with progress and links, plus validation-results.txt. Never pack all outputs into a single opaque archive.
+Handbooks also need cover and open-page template art. Each of the 200 category-specific defect templates gets at least one labeled review example keyed by TemplateId; actual game page text stays separate. Reuse the item's real defect layer for the example instead of drawing a contradictory second defect.
+
+8. UI and events
+UI_ASSETS_04.csv freezes all screen plates, reusable widgets and event-icon dimensions. Follow the 600x400 logical PaperUI canvas and the existing inspection rectangle unless a gameplay owner explicitly versions that contract. Deliver text-free skins plus mockups with English annotation and realistic Chinese text placeholders to test layout.
+Event icons represent causes (supply, demand, power, freight, recovery, fraud, alchemy), not randomly chosen prices. Event cards reserve stable fields for affected channels, exact modifier, start/end dates and status. Refining UI must show input reservation, material budget, cost, energy, job progress, output capacity and provenance. Alchemy UI must clearly distinguish fictional conversion from recovery of existing metal.
+Shared financial and craft previews use one market snapshot. No art should imply free recovered gold inside every device, guaranteed jade outcomes before observation, infinite machine energy, or duplicate rewards for the same event.
+
+9. Production sequence without repeated style gates
+Start from the existing art/style-sample work, create art/batch04, and merge current origin/main so this contract is present. Preserve the reviewed sample. Correct its hotspot exporter, then complete one gold ring with all five ring-specific defects, valid combinations and repaired composites as an internal pipeline check.
+Continue in manifest priority order through all physical rows and UI assets. Review the images at their fixed small and inspection sizes, fix inconsistencies, and record any gameplay integration requirements. No further user style approval is required for every category. A genuine contradiction in fixed sizes or template semantics should be reported with a concrete affected row and proposed resolution.
+Commit and push art/batch04. Do not merge main or alter runtime mechanics. The gameplay owner will integrate the proposed footprints, observation system, event economy and recipes after validation.
+
+10. Integration and save migration requirements
+The frozen target size is not the current live shape. Some 0.3 one-cell objects become wider/taller in 0.4. Do not overwrite WidthCells/HeightCells on already-placed items without an atomic migration that reserves legal free space. If no fit exists, retain the old object or place it in a visible recovery queue; never delete it, overlap another item, or move it silently into another owner's custody.
+New templates, composition budgets and processing histories require versioned definitions plus deterministic migration records. Existing truth, discoveries, XP, account/card serials, contract rates, consumed states, child IDs and event decisions persist. Deployed 0.3 content is unchanged by this design publication.
+
+11. Acceptance
+Validate exact dimensions, transparency, layer alignment or declared silhouette exceptions, all masks/hotspot centers, allowed combinations, tier secrecy for sealed rough, absence of baked dynamic text, and repaired-state retention of fraud/treatment cues. Validate all 110 manifest rows and every UI row. Render readable contact sheets; do not mistake a successful script run for a visual quality pass.
+Keep an English report of complete, incomplete, and integration-only work. Do not claim that art generation proves gameplay compatibility or that any researched third-party mod is installed or compatible.
