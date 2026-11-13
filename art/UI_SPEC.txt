@@ -1,6 +1,6 @@
 StarPawn 0.3 UI Art Specification (style awaiting user approval)
 
-Historical 0.3 screen baseline. The accepted style direction and authorized 0.4 production now use BATCH_ART_SPEC_04.txt and UI_ASSETS_04.csv, including event, recovery, refining, and alchemy screens. Those files supersede this document's old approval sequence and tentative sizing.
+Historical 0.3 screen baseline. The accepted style direction and authorized 0.4 production now use BATCH_ART_SPEC_04.txt revision 04.2 and UI_ASSETS_04.csv, including event, recovery, refining and jewelry screens. VANILLA_HANDBOOK_SPEC_04.txt supplies the required native-style portrait manual/report layout. Fictional alchemy is excluded. Those files supersede this document's old approval sequence and tentative sizing.
 
 Work sequence
 Complete the ring sample in CLAUDE_STYLE_PROMPT.txt first. After approval, present static mockups for the inspection desk and banking page, then expand to the remaining screens below. Prioritize skins and visual treatment. Submit interaction-layout changes as separate code changes and verify them in the game.

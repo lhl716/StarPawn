@@ -1,0 +1,39 @@
+StarPawn 0.4 Vanilla Handbook Visual Contract
+Revision 04.2 / 2026-11-13 / REQUIRED FOR ALL APPRAISAL DOCUMENTS
+
+Observed reference, not an invented retro style
+Actual game: Probably Stolen VERSION 100-REV13, Simplified Chinese, captured 2026-11-13 from the independent test save. art/references/vanilla_handbook/native_counterfeit_handbook.jpg shows the native illustrated counterfeit-identification sheet opened from an inventory document. native_inspection_note.jpg shows the native mentor inspection note. StarPawn 0.3 was installed, but the observed handbook/note are the base game's inventory documents, not the mod's F7 reader. No modified 0.4 manual has been rendered in-game yet.
+These screenshots are visual references only. The game's illustration, text, stamp and branding remain their respective owner's work; do not extract them into distributable runtime textures. Draw original category examples and a fictional StarPawn issuer mark. The references are not a new asset license.
+
+Native features to match
+The main illustrated reference is a tall warm gray-cream paper sheet on the left of the shop, with a dark pixel outline, irregular lightly worn edge, restrained folded/worn corners, and no dashboard frame. It leaves the counter/item context visible alongside it.
+A small blue issuer line and thin blue rules precede a larger centered dark title. Section headings are bold muted blue. Compact dark body copy explains a check; visual examples sit immediately below it. Some sections are full width; paired comparisons occupy two columns. Thin blue table dividers organize letter/mark comparisons. Green reference labels and red problem labels are accompanied by words, never color alone. A faint issuer stamp appears behind otherwise legible content. Close and duplicate/window controls sit at the top right.
+The separate mentor note uses ruled paper and a red margin; it is a secondary reference for job notes, not the template for the illustrated appraisal pages. Do not put ruled notebook lines behind every gem photograph. Do not replace reference documents with a terminal, statistical cards, large gold chrome or a modern tabbed analytics dashboard.
+
+Frozen export and layout contract
+handbook_page, screen_handbook, certificate_page and order_receipt are 440x616 RGBA portrait. This deliberate versioned exception supersedes the old 512x320 handbook component and 600x400 handbook-screen proposal; other business screens remain 600x400. The observed on-screen sheet was approximately 880x1232 at the captured 2560x1440 window. Export dimensions are an authored half-scale design target, not a claim about the base game's source texture resolution.
+The 384x256 Paper canvas in ITEM_LAYOUT_04.csv is still the physical item's inspection illustration (for example the book cover lying on a desk). It is NOT the open handbook-page size. Do not stretch a 384x256 cover or a 600x400 business screen into this portrait reader.
+Coordinates below refer to the 440x616 sheet, top-left origin:
+  edge art: 0..439 / 0..615; content safe rectangle x20..420, y24..588.
+  issuer/header: x28,y24,w332,h16; title: x28,y44,w332,h28.
+  controls: two 18x18 reserved areas at x390,y8 and x412,y8.
+  short introduction: x28,y80,w384,h48 (up to three short localized lines).
+  first section: heading x20,y140,w400,h20; explanation x28,y164,w384,h44.
+  paired example slots: left x40,y216,w160,h104; right x240,y216,w160,h104.
+  first captions: x40/y324 and x240/y324, each160x20.
+  second section: heading x20,y360,w400,h20; explanation x28,y384,w384,h44.
+  paired example slots: left x40,y436,w160,h104; right x240,y436,w160,h104.
+  second captions: x40/y544 and x240/y544, each160x20.
+  footer/page controls: x28,y580,w384,h20. Include explicit previous/next targets in metadata.
+Slot art is a registered crop/detail from the final item's real layer, shown at a readable size. Do not redraw a different crack for the handbook. 160x104 is a display box, not permission to distort source art; fit while preserving aspect ratio. Whole-object comparisons can use a section across the sheet. A native-style three-row mark comparison is an allowed alternative body template with the same outer margins.
+At most two defect explanations per page. A five-template category therefore gets at least three reference pages plus an index/intro as needed. Page count is not a physical extra book and does not add inventory cells. Render all copy, page numbers, tool names and labels at runtime; use English annotations and realistic Chinese placeholders in review mockups. Reserve wrapping space rather than reducing Chinese text to illegibility. Fonts should match the existing game font at integration; do not bundle a copied font.
+
+Required content per template
+Category/form, reference appearance, the exact authored problem, where to compare, necessary tool/view, what it suggests, what it cannot prove, price component affected, and whether repair is supported. A manual teaches fixed category templates; it never reads the current item's private truth or lists its undiscovered active defects. Each example links TemplateId, model, view, layer path and crop bounds.
+Instrument-only findings have a separate sample reading/interpretation diagram, not an invented visible flaw on the base object. Screeners can refer a stone for further testing; natural versus laboratory-grown origin is not established by sparkle or a generic UV glow. Separate truth, claim and suspicion. Appraisal findings and manufacturing state are different: an empty service setting is not a counterfeit complete ring.
+All 250 templates need traceable examples across the appropriate category books. docs/HANDBOOK_INDEX_04.csv fixes book ownership, chapter order, example model, all five TemplateIds and the 2/2/1 pagination for each of the 50 chapters. Page 0 is the book index. Nine category manuals: metals, jade, antiques, art, electronics, media, books, recovery/refining, jewelry/gemstones. Metal and mounting pages may cross-reference one another but cannot merge their different template libraries. Legacy manual compatibility remains explicit.
+
+Delivery and review
+Deliver text-free portrait paper/template layers, original header/stamp motifs, paired example assets and a handbook-pages.json index with TemplateIds and localization keys. Put output under art/proposals/batch04/ui/handbook_page and each physical manual's own output folder. Do not edit native game assets.
+Supply side-by-side review mockups beside the native screenshot at 2560x1440, plus the batch's required 1080p and 4K layouts. The portrait sheet must fit the viewport, permit readable pagination and leave an inspection item visible alongside it. Inspect legibility, caption accuracy, crop alignment and mask containment. The mod's current F7 landscape handbook is not evidence of vanilla visual parity.
+Art acceptance requires the observed vanilla layout language and the exact authored examples. Runtime acceptance separately requires opening the physical manual, navigation, organizer retrieval, resolution scaling and knowledge-gated content on the independent test save.

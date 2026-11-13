@@ -1,4 +1,4 @@
-StarPawn 0.4 Design Research: Events, Markets, Recovery, and Alchemy
+StarPawn 0.4 Design Research: Events, Markets, Recovery, and Jewelry
 Reviewed 2026-11-13. Research and independent design input; not an implementation or compatibility report.
 
 Evidence and scope
@@ -29,11 +29,11 @@ Source: https://steamcommunity.com/sharedfiles/filedetails/?id=3829293726
 Observed: Ore processing, metal refining, alloy smelting, recipe discovery, machine manufacture, and configured input/output routing form overnight production chains. The described power network supplies machines once each night, shares limited energy, and avoids multiplying the allowance merely by adding power banks.
 StarPawn application: Use persistent jobs with reserved inputs, a defined operation order, energy and capacity budgets, and exactly-once settlement. Power disruptions should pause or constrain processing through the job system. Track recovered metal, residue, and consumed feedstock rather than creating saleable output while leaving inputs reusable. Routing and machine adjacency are separate future integration tasks; this research does not certify native machine compatibility.
 
-5. Alchemy Expansion
+5. Alchemy Expansion -- EXCLUDED BY USER DECISION (04.2)
 Author: BBQ886. Indexed author release: v0.27.0, updated 2026-10-17.
 Source: https://www.nexusmods.com/probablystolen/mods/834
 Observed: This is fictional transmutation: alchemy powder and a Philosopher's Stone convert metal ingots into gold while retaining input purity, with a dedicated purchaser. It targets the Demo / IL2CPP / MelonLoader 0.7.3 environment. The author calls the content and balancing unfinished and identifies advanced items without normal acquisition routes. It is not evidence of full-release compatibility. The permission panel restricts redistribution and requires permission for modifications or asset reuse.
-StarPawn application: Keep transmutation distinct from recovering gold already present in electronics. If included, make the fictional process explicit and bounded by consumed resources, charges, output budgets, time, and event-sensitive operating costs. Define acquisition and sale paths before enabling recipes. Use independently created names, art, code, and balancing; do not import the author's files or assume permission to port them.
+StarPawn decision: EXCLUDED. The user explicitly rejected fictional alchemy. No associated items, conversion recipes, special purchaser, event channels, permits or UI are part of the active 0.4 contract. This paragraph is a historical research record only; it grants no production scope. Physical recovery and refining continue independently.
 
 6. Integrated Chemistry Lab
 Author: Hu Luo Bo (Steam display name). Author page included version 1.5.4.
@@ -54,13 +54,21 @@ https://www.epa.gov/recycle/electronics-donation-and-recycling
 Observed: EPA describes gold and copper among materials used in electronics and recoverable through recycling; its cellphone recycling example also lists silver and palladium. Reuse and refurbishment are distinct alternatives to material recycling.
 StarPawn application: Give supported electronic components a finite saved Au/Ag/Cu material inventory and a separate functional resale value. The player chooses repair/resale, component recovery, or material recovery. Exact game composition and yields are fictional balance values, not measurements of real devices. A gold-price event changes the value of recoverable gold, not the quantity already inside an existing circuit board. No real chemical extraction instructions are part of this design.
 
+9. Gem identification and treatment limits
+Primary sources reviewed 2026-11-13:
+https://www.gia.edu/gia-news-research/manmade-diamonds-questions-answers
+https://www.gia.edu/gem-treatment?lang=en
+Observed: GIA distinguishes laboratory-grown diamonds from look-alike materials; appearance alone does not establish origin. Treatment is a separate fact that should be described accurately.
+StarPawn application: Separate identity, claim, treatment and observation. A basic screener can refer a stone for laboratory work; it cannot reveal every origin/treatment. Use independent game-quality bands and fictional pricing rather than claiming laboratory-grade simulation. The new jewelry business is an original design, not a claimed port of Hot Jewelry or Jeweler.
+
 Research leads not used as confirmed implementation evidence
+The original handoff also lists Hot Jewelry (Steam 3836930074) and Jeweler (Steam 3837208482). Their full author descriptions were not retrieved in this correction pass. No detailed mechanics, copied assets or compatibility claims are inferred from their names. The user clarified that the requested jewelry business means our product and shop-service scope.
 Scavenging Expansion (Steam 3832768562) and More Events were located through secondary listings or other authors' acknowledgments, but their own complete primary descriptions were not successfully verified in this review. Do not present their detailed mechanics or compatibility as established. They can be researched later if their specific content is needed.
 
 Cross-system design conclusions
 A. News and event visuals describe persisted mechanical facts; they do not generate independent random prices.
 B. Daily market snapshots feed direct trade, material buyback, jade processing forecasts, refining output valuation, collateral estimates, securities exposure, and demand budgets.
-C. Ordinary recovery conserves each element. Fictional transmutation is a separate, explicitly licensed-in-fiction conversion with a bounded budget and provenance; it must not masquerade as improved recovery efficiency.
+C. All accepted processing conserves each element. Fictional transmutation is excluded; no created-gold exception exists. Gemstone component identity and custody are also conserved through jewelry services.
 D. Input ownership, native inventory space, reservation, debt terms, and item truth survive events and reloads. Event-driven prices must not alter the material composition or defects of an already-created item.
 E. Optional adapters identify external events and deduplicate their effects. Presence of a reference mod must not automatically enable an untested adapter or apply the same shock twice.
 F. Author-specific assets, story text, economic constants, and code are not included. Design contracts remain separate from runtime implementation and from coexistence testing.
