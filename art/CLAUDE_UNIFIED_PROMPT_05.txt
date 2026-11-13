@@ -1,0 +1,39 @@
+Implement the complete StarPawn update in docs/CLAUDE_UNIFIED_HANDOFF_05.txt.
+Read it in full, then read docs/NATIVE_APPRAISAL_AUDIT_05.txt and the authoritative
+art/ITEM_LAYOUT_05.csv. Revision 05 overrides conflicting older art-only prompts,
+footprints, handbook behavior, and independent appraisal-XP rules.
+
+Repository: https://github.com/lhl716/StarPawn
+Start from the latest origin/integration/art04, including this handoff, and work
+on feature/unified-business-05. Continue that branch if it already contains your
+implementation. Do not start from the older main/art branch or overwrite others'
+work. This is one complete assignment covering gameplay, native integration,
+artwork, UI, writing, migration, balance, and testing; do not split delivery into
+separately approved rounds or stop after another style sample.
+
+Unify native appraisal progression with StarPawn. A completed appraisal can lead
+to the same customer's sale offer, pawn request, or departure, with a persistent
+contextual intent and the same physical item. Preserve direct sale/pawn visits.
+Add Luxury, Collectibles, Materials, and Weapons labels and meaningful component-
+specific market/event links, including gold jewelry, fuel, hands, and electronics.
+
+Fix every item's explicit footprint and redraw to match the new manifest. Rework
+manuals as native Read-action books, each at most five pages, with native-style
+layout, specific illustrated guidance, and polished localized copy. Automatically
+apply discovered defects to the correct value component and play native discovery
+feedback once. Separate gold, workmanship, and gem values. Complete the specified
+jewelry, event, banking, pawn, and physical-recovery connections; exclude fictional
+alchemy. Preserve real ownership, components, signed contracts, and old saves.
+
+Keep prompts, design documents, and the engineering report in English. Retain the
+game's existing localization, including Simplified Chinese, through localization
+keys. Make routine choices yourself. Inspect existing code and sources rather
+than assuming design tables are already implemented. Use isolated demo saves for
+game checks and preserve unrelated mods, Workshop subscriptions, and user saves.
+
+Deliver integrated code and assets, updated generators/data, safe migrations,
+meaningful regression checks, actual in-game screenshots where available, an
+English engineering report, and a reproducible demonstration. Distinguish verified
+results from checks unavailable in your environment. Commit and push the completed
+feature branch; leave main unchanged. Follow the handoff's complete acceptance
+criteria, not only this short prompt.

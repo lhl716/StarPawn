@@ -1,0 +1,145 @@
+Native Appraisal Integration Audit
+2026-11-13 | Read-only inspection of the user's installed game
+
+Evidence and limits
+
+The findings below were read from Assembly-CSharp.dll using Mono.Cecil metadata
+and method instructions. The inspected file was under the installed game's
+Probably Stolen_Data/Managed directory. No game methods were executed by the
+audit, and no assemblies, saves, or runtime files were changed.
+
+Assembly-CSharp.dll SHA-256:
+725CB999D019DFF1FF31BED353C7F9BB8D81A7605A15DE1F80F5A3A6CF7B1D05
+
+The existing project identifies its tested game baseline as 100-Rev13 / Steam
+BuildID 26525552. Recheck actual method availability against the implementation
+environment; do not infer compatibility from the loader's legacy 0.46 string.
+Metadata discovery is not an in-game integration test or a promise about later
+game builds. Runtime method behavior still needs appropriate game testing.
+
+Native commission registry
+
+AppraisalItemRegistry.CreateVanilla registers exactly these three default types:
+  id          itemId       unlockRank    guideItemId
+  hand        hand         0             hand_guide
+  ribwich     ribwich      1             ribwich_guide
+  plasma_fuel plasma_fuel  2             fuel_guide
+
+AppraisalRankHelper defines RANK_JUNIOR=0, RANK_APPRAISER=1, RANK_SENIOR=2,
+and RANK_MASTER=3. GetRank reads PlayerStore.appraiserLevel and clamps to 0..3.
+No fourth default item type is registered specifically at rank 3.
+Display titles are localized through mech_appraisal_rank_* keys; the English
+labels here are explanatory, not a replacement localization table.
+
+The installed ModHelper exposes this registration method:
+
+  void AddAppraisalItem(
+      string modId,
+      string id,
+      string itemId,
+      int unlockRank,
+      Func<GameItem> createRandom,
+      Func<GameItem, int> getCorrectValue,
+      Func<GameItem, bool> isType,
+      string guideItemId,
+      Func<string> displayName)
+
+It constructs an AppraisalItemType and passes it to AppraisalItemRegistry.Register.
+The registry requires an ID, createRandom, and getCorrectValue, and clamps the
+unlock rank to 0..3. Register replaces a matching registration ID, so mod IDs must
+be distinct from vanilla and other mods. The source field records modId.
+Related available methods:
+  int ModHelper.RemoveAppraisalItems(string modId)
+  int ModHelper.GetAppraiserRank()
+
+GetAppraiserRank returns 0 if no PlayerStore exists. Do not interpret that fallback
+as an active save with business permissions or as permission to spawn customers.
+Registration does not by itself provide item artwork, inspection UI, saved
+identity, composition, or complete transaction behavior. Verify all those paths.
+
+Career, settlement, and rewards
+
+PlayerStore contains isAppraisalIntroduced, appraisalIntroducedDay, appraiserLevel,
+appraisalProgress, appraisalPromotionDeclined, appraisalPromotionDay, and
+appraisalBlacklist. Integrate with these native business gates rather than
+treating an arbitrary local XP value as the native career.
+
+AppraisalServiceHelper.OnEstimate calls the native accepted/refused progress
+handlers. AppraisalRankHelper.OnEstimateAccepted selects progress by accuracy
+grade; OnEstimateRefused applies only the nonpositive portion. Customer walkout
+has a separate rank-dependent progress effect. AddProgress respects difficulty
+gain/loss multipliers, clamps progress, and records a next-day promotion date
+when the threshold is reached. Promotion is therefore more than incrementing a
+number on each visual clue.
+
+Promote increments rank (maximum 3), resets promotion progress/date, replaces the
+certificate, and visits GetUnlockedAt(rank). It gives each new type's guideItemId
+when the corresponding physical item is not already present. Additional short
+volume entitlements require careful idempotent handling, not repeated free spawns.
+
+GiveAppraisalFee calculates a base fee plus a percentage-based portion and emits
+a paper receipt. GetEstimatePrecision compares the submitted value with the true
+value in bands; the best band is 95..105 percent. Reuse native settlement once.
+High-value mod jewelry needs fee-balance testing because native percentages were
+not automatically balanced for the new price range.
+
+AppraisalHelper.GetCorrectBaseValue finds the matching registered type and calls
+getCorrectValue for an APPRAISAL_ITEM. This is a private settlement answer, not
+publicly established material knowledge. A market adapter must keep the chosen
+commission snapshot and its native correct-value callback consistent.
+
+AppraisalItemRegistry also has GetUnlocked, GetUnlockedAt, GetPool, CanBlock,
+IsBlocked, and IsLastAllowed. Preserve native commission selection and blacklist
+rules; adding categories must not erase existing business choices.
+
+Other native inspection systems
+
+InspectionUIManager.OnInspectItem handles CIGARETTE_TAG, PLASMA_CELL_TAG,
+FOOD_STAMP_TAG, INS_INJECTOR_TAG, RIBWICH_TAG, HAND_TAG, and BERRY_TAG, then handles
+the appraisal panel for APPRAISAL_ITEM. These are not seven career-unlock entries.
+
+InsCigaretteHelper: printing/lettering, color, seal, logo, and box issues.
+InsStampHelper: seal, logo, chip, lettering, and amount issues.
+InsInjectorHelper: indicator, label, color, serial, body, and recall-related checks.
+AppHandHelper: material, interface, condition, armor/blade additions, and supported
+configuration premiums.
+RibwichHelper: opened/counterfeit states, logos, production date, packing facility,
+meat quantity, deluxe version, and production/facility premiums.
+PlasmaHelper: casing/model, wear, cracks, uncovered/reinforced states, color, seal,
+and specific compatible combinations.
+WineDirectory.WineBerry enables visual inspection of berries; it does not mean
+wine is a fourth registered career commission type.
+WaterScannerUIManager and ChemScannerUIManager expose measured-versus-labeled
+readouts and confrontation/matching actions. Instrument analysis is a related
+system, not evidence that all scanned goods share the appraisal rank registry.
+
+Native feedback and books
+
+Successful exposure audio is EmporiumAudioPlayer.audioExposeScam. Existing callers
+include ItemFeature.ExposeFeature and NegociationHelper.OnFeatureExposed. Reuse
+the sound carefully; calling whole native expose/negotiation handlers can also
+apply economic effects and must not create a second discount or reward.
+
+BookHelper.InitBookItem(GameItem, string) sets document/book tags, a book ID, and
+the current page. BookHelper.CanFlipLeft/CanFlipRight use the stored page/book ID.
+InitGuide uses AudioHelper.InitBook; InitPaperGuide uses InitPaperSheet.
+The native inventory Read action was observed in the stored reference captures.
+The installed ModHelper also exposes RegisterPaperBook(string, PaperBookData),
+ParsePaperBook(string), RemovePaperBooks(string), and GetPaperBookIds(string).
+Verify the selected native book route in game; the current mod's magnifier-based
+reader is a behavior to replace, not the reference for native parity.
+
+StarPawn source locations to inspect
+
+  source/Core/InspectionV2.cs: separate XP, discoveries, selected evidence, pricing.
+  source/Core/Appraisal.cs: tools and handbook selection/page counts.
+  source/Game/InspectionUI.cs: item UI, price display, click feedback.
+  source/Game/NativeBridge.cs: native shape and item registration.
+  source/Game/NativeVisuals.cs: image fitting to current allocated grid cells.
+  source/Game/NativeEquipment.cs: instrument actions, magnifier book text,
+    organizer's old 4x2 interior.
+  source/Game/HandbookVisuals.cs and AppraisalUI.cs: present handbook layout/copy.
+  mod/Content/inspection-rules.json: old 0,20,40,60,80,100 thresholds and 10 XP.
+
+Use this audit as evidence for the Revision 05 integration design. It does not
+assert that the integration has already been implemented or tested.

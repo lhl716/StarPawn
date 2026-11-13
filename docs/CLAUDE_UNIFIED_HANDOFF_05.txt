@@ -1,0 +1,657 @@
+StarPawn: Unified Appraisal, Pawn, Trade, Art, and Copy Handoff
+Revision 05 | 2026-11-13 | English implementation contract
+
+READ THIS FIRST
+
+Deliver one coherent update to StarPawn for Probably Stolen. Appraisal is the
+entry point to a connected shop business: inspect and value an actual item,
+complete an appraisal commission where applicable, then potentially buy it,
+accept it as pawn collateral, or return it to the customer. Carry the same item,
+observations, market information, and ownership through the entire transaction.
+The update includes gameplay code, native integration, artwork, UI, copy,
+migrations, balance, and verification. It is not an art-only assignment.
+
+This is one overall requirement, not a sequence of separately approved rounds.
+Make routine implementation decisions, inspect the existing code, and complete
+the connected behavior. Do not stop at a style sample, a plan, or unintegrated
+assets. Report actual limitations rather than claiming unavailable tests passed.
+
+Repository: https://github.com/lhl716/StarPawn
+Implementation base: origin/integration/art04, including its latest handoff.
+Observed playable baseline before this document: 0a90def34426bdcdcdd52ca379376fbc6b2b9702.
+Create feature/unified-business-05 from the up-to-date integration branch, or
+continue that feature branch if it already contains this work. Commit and push
+the completed work there. Preserve the user's other branches and commits.
+Do not use origin/main or the old art-only branch as the implementation base.
+Do not merge into main as part of this assignment.
+
+Revision 05 is a requirements revision, not a claim that version 0.5 exists.
+The handoff itself changes documentation only. Runtime changes remain to be done.
+
+1. Authority, language, and retained scope
+
+This document and art/ITEM_LAYOUT_05.csv supersede conflicting earlier design
+instructions. In particular, they replace the old one-cell compatibility policy,
+old organizer capacities, magnifier-based book opening, optional evidence
+selection, independent click-XP mastery, and art-only assignment restrictions.
+Older reports remain evidence of their historical builds, not acceptance of
+these new requirements.
+
+Keep the useful nonconflicting specifications in:
+  docs/NATIVE_APPRAISAL_AUDIT_05.txt
+  docs/ART_INTEGRATION_031.md
+  docs/HANDBOOK_VOLUMES_031.md (historical IDs and coverage, not old dimensions)
+  docs/SYSTEMS_DESIGN_04.txt
+  docs/JEWELRY_BUSINESS_04.txt
+  docs/JEWELRY_SETTINGS_04.csv and docs/JEWELRY_OPERATIONS_04.csv
+  docs/DEFECT_CATALOG_04.csv and docs/DEFECT_RULES_04.txt
+  docs/EVENT_EFFECTS_04.csv and docs/EVENT_STORIES_04.csv
+  docs/RECIPES_04.csv and docs/MOD_RESEARCH_04.txt
+  art/VANILLA_HANDBOOK_SPEC_04.txt (native appearance reference)
+  art/references/vanilla_handbook/ and docs/report-assets/art031/
+
+All prompts, implementation notes, reports, and new design documents are English.
+The game retains its existing localization support, including Simplified Chinese.
+Rewrite player-facing copy through localization keys, with clear English source
+copy and consistent localized equivalents. Do not silently change the player's
+language to English. Do not bake either language into reusable texture layers.
+
+Retain banking, credit, loans, securities, in-game financial assets, precious
+metals, jade, antiques, paintings, electronics, entertainment media, books, and
+pawning. Add the complete jewelry and physical recovery businesses already
+specified, rather than losing them during the appraisal rework. No real-world
+brokerage, wallet, multiplayer economy, or full instrument simulation is needed.
+
+Fictional alchemy is explicitly excluded: no transmutation, Philosopher's Stone,
+gold-creation powder, or special magical buyer. Physical dismantling, recovery,
+refining, and alloying operate only on elements already present in the inputs.
+
+2. Verified starting state and known defects
+
+The playable 0.3.1 build integrated Claude's batch04 artwork into 254 item
+definitions, including condition variants and 15 added short manuals. Its prior
+171 business/boundary checks and screenshots are historical evidence only.
+The full 0.4 jewelry, recovery, and event expansion is not implemented merely
+because its designs and art assets exist.
+
+The latest source audit found:
+  - 233 of 254 definitions omit explicit inventory dimensions and default to
+    1x1. Some should remain 1x1, but many larger objects are incorrectly tiny.
+  - NativeBridge explicitly sets the grid shape from these dimensions, while
+    NativeVisuals fits the image into that shape. A larger PNG cannot fix it.
+  - The old art table itself specifies undersized bracelets, rough jade, books,
+    and legacy objects; runtime and proposal dimensions also disagree.
+  - Books still enter their reader through magnifier inspection.
+  - The eight-book organizer currently has a 4x2 internal grid, suitable only
+    for its old one-cell books.
+  - Discovering a clue updates the current quote, but optional evidence selection
+    can remove its effect. Deductions can consume material value rather than
+    being confined to the appropriate component.
+  - Discovery does not currently play the native successful-exposure sound.
+  - The mod uses a separate 0..5 appraisal level, ten XP per clue, and automatic
+    visible-clue discovery at 100 XP; it does not use the native career.
+  - Silver-necklace structural clues were difficult to see and click at actual
+    display size. Automated pixel counts did not establish visual usability.
+
+Preserve existing asset/evidence IDs, observed facts, repairs, debts, holdings,
+and customer property. Correct the behavior instead of preserving the bugs.
+
+3. One native appraisal career
+
+Use the base game's appraisal career, rank, promotion progress, certificates,
+commission settlement, and customer flow. The locally inspected game exposes
+ModHelper.AddAppraisalItem and ModHelper.GetAppraiserRank. See the audit for exact
+signatures and the distinction between native appraisal and counterfeit checks.
+
+Native rank 0 unlocks hand appraisal, rank 1 ribwich, and rank 2 plasma_fuel.
+Rank 3 is master. Preserve these registrations and native progression. Register
+mod families alongside them; never clear the registry or replace vanilla types.
+Use unique mod-prefixed registration IDs and unregister only this mod's entries.
+
+Implementation defaults for added commission eligibility:
+  Rank 0: ordinary gold/silver goods and straightforward metal valuation.
+  Rank 1: finished jade and introductory collectible appraisals.
+  Rank 2: rough-jade assessments, loose-gem screening, complex collectibles,
+          and registered electronics/material-recovery assessments.
+  Rank 3: complex mounted-jewelry appraisals and high-value specialist commissions.
+These are new-family defaults, not changes to vanilla unlock ranks. Basic trade,
+reading, and ordinary repairs can be available earlier than specialist commissions.
+Keep every gold form available in the product scope; do not treat this schedule
+as permission to omit bracelets, necklaces, earrings, bars, or jewelry services.
+
+Award career progress through completed, evaluated commissions, following native
+accuracy and failure rules. A defect click is an observation, not a second
+career reward. Do not award progress twice for native settlement plus a mod hook,
+repeated evidence, reopening a UI, selling/buying back, or reloading a save.
+Remove the independent click-XP mastery route and its automatic answer reveal.
+Preserve native rank/progress during migration. Keep historical mod XP as legacy
+data if useful; do not silently convert it into native promotions.
+
+Use native promotion delivery for the appropriate physical handbook where
+supported. If one registration needs several short volumes, implement an
+idempotent entitlement/claim mechanism tied to the promotion, without duplicating
+books on reload. Existing higher-rank saves receive missing entitlements once.
+Opening a certificate or book is not itself permission to grant a promotion.
+
+4. Business labels and classification
+
+Provide visible, filterable labels: Luxury, Collectibles, Materials, and Weapons.
+Retain useful Electronics and Entertainment filters for existing stock. An item
+may have several labels, with one primary shelf category; labels are not mutually
+exclusive substitutes for physical composition or defect families.
+
+Examples:
+  Gold jewelry: Luxury; Au-bearing setting/material; form-specific defect family.
+  Rare gold jewelry: Luxury + Collectibles; collector premium requires evidence.
+  Bullion: Materials + Investment; priced by measured metal, not jewelry labor.
+  Finished jade/gems: Luxury; Collectibles only for supported collectible profiles.
+  Rough jade/ore: Materials; saved grade/composition and uncertain public knowledge.
+  Plasma fuel: Materials + Energy; preserve native type and inspection rules.
+  Native hands: Weapons business grouping + Augments trait; distinguish ordinary
+    prosthetic, tactical, and premium configurations without inventing new stats.
+  Rare hand configurations: Weapons + Collectibles where supported by native facts.
+  Circuit boards/processors: Electronics + Materials; finite recoverable metals.
+  Signed books/art/rare game editions: Collectibles, with Entertainment where relevant.
+
+Register mappings explicitly by item family/type and supported adapter. Never
+infer economic behavior from translated names, substring matching, a gold-colored
+sprite, or a business label alone. Gold plating is not a solid-gold mass budget.
+Preserve vanilla item dimensions and native functionality when adding labels;
+the new footprint table applies to StarPawn items, not a global vanilla resize.
+
+5. Appraisal-to-sale-or-pawn customer loop
+
+Support two compatible entry paths:
+  A. A customer requests a paid appraisal. Inspect, submit a valuation, settle
+     the commission once, then resolve the customer's possible follow-up intent.
+  B. A customer arrives already wanting to sell or pawn. Inspect/value the item
+     within that negotiation without forcing an extra paid appraisal commission.
+
+Common flow:
+  Customer arrives -> observed facts + market snapshot -> appraisal/valuation
+  -> offer to sell OR request a pawn loan OR take the item away
+  -> player reviews terms -> explicit acceptance -> cash/custody transfer.
+
+The same AssetId and, where available, native unique item ID must survive this
+flow. Do not spawn a copy for the follow-up offer or generate fresh defects.
+Appraisal does not transfer ownership. A report is not a new collateral asset.
+Commission fees, purchase payments, and pawn principal are separate ledger entries.
+Let the player decline a follow-up without undoing the completed appraisal fee.
+
+Use a saved weighted intent draw, not an unlimited repeated chance. Starting
+weights, in the order leave / offer_sale / request_pawn:
+  Ordinary appraisal customer: 50 / 30 / 20.
+  Urgently needs cash:          15 / 35 / 50.
+  Sentimentally attached:       55 /  5 / 40.
+  Trade dealer:                15 / 75 / 10.
+  Collector seeking advice:    70 / 15 / 15.
+These are fictional balance defaults, to be exercised and tuned, not claimed
+observations of the base game. Persist profile, resolved weights, snapshot, draw,
+chosen intent, and offer expiry on the encounter. Reveal the outcome once after
+appraisal settlement; UI reopening or save reload cannot redraw it.
+
+Resolve pawn eligibility, customer ownership, business access, trust, and supported
+item policy before drawing. Move an ineligible route's weight to leave rather
+than repeatedly rerolling until a deal appears. A failed/refused appraisal need
+not generate a follow-up. Finding a problem can cause a believable admission,
+revised claim, refusal, or request for repair, not automatic universal agreement.
+
+Events can shift intent weights through bounded, data-driven effects. For
+example, a credit squeeze can move 15 weight points toward pawn requests, taken
+from leave/sale, while a collector event changes the relevant buyer budgets and
+collector demand. Sum applicable changes, clamp to nonnegative weights, normalize
+once, and save the result. Each event row applies once, even across several tags.
+Changes affect new encounters, not an already accepted or revealed offer.
+
+Use finite customer budgets and actual available shop funds. Appraisal referrals
+do not create extra unbounded visitors beyond the shared event/customer budget.
+Keep follow-up dialogue short and contextual; no technical probability notices
+are required in the ordinary customer conversation.
+
+6. Pawn contracts as a continuation of valuation
+
+Use the common valuation service, with a clearly displayed conservative
+liquidation/buyback basis and a disclosed loan-to-value ratio. Start new offers
+at 50% LTV, bounded by the planned 30..65% policy; the current 0.3 default is 60%,
+so this is a new-offer balance change, not a rewrite of existing loans. Unverified
+claims cannot secure a natural-gem or high-purity premium. Explain lower offers
+through the missing test or liquidity limitation, not an unexplained total.
+
+Record contract ID, customer, asset/component IDs, appraisal reference, valuation
+snapshot, principal, signed interest/fees, start date, redemption deadline,
+custody, and amendment history. Signing debits the shop's lendable cash once and
+reserves the actual collateral. Customer collateral is unavailable for sale,
+repair, disassembly, refining, another loan, or unrelated order while pledged.
+
+Support redemption, renewal, and default/forfeiture through the same ledger.
+Allow redemption/renewal through the stated deadline's business hours; evaluate
+default at the documented closing boundary. Only one competing terminal action
+may win. Renewal is a recorded amendment, not a duplicate live contract.
+Forfeiture transfers ownership once; only then may the item enter ordinary
+shop stock, repair, resale, or eligible material recovery.
+
+Market movements affect new valuations and new agreements. Preserve principal,
+rates, fees, deadlines, and agreed custody of signed contracts. No event-driven
+retroactive repricing or surprise seizure. Preserve the existing player-as-
+borrower route as well as the shop-as-lender route; do not confuse their cash signs.
+
+7. Inspection, observation, and feedback
+
+Keep direct visual inspection: click a visible defect on the item image.
+Each appraisable category owns four or five fixed, illustrated defect templates
+(retain the existing five-template design sets where applicable). Generate intact
+items or allowed combinations from that category. Do not apply a universal pool
+to unrelated forms, redraw defects randomly, or place damage outside the object.
+Utility tools, cards, empty settings, and manuals have functional states, not
+five contrived appraisal defects.
+
+Store hidden item truth separately from the customer's claim and established
+knowledge. Visual clues can justify suspicion; only a supported test establishes
+precise content/origin. Instruments should have distinct, understandable roles:
+weight, material screening/assay, magnification, jade-light observation, UV, and
+gem screening. Use the limitations in the existing gem design; a handheld probe
+does not prove all natural origins or treatments.
+
+On the first correct discovery: persist the observation, immediately update all
+relevant estimates, briefly mark the location, show a concise component-specific
+price change, and play the native successful-exposure sound once. The audited
+audio field is EmporiumAudioPlayer.audioExposeScam. Reuse its feedback without
+accidentally invoking an additional native discount/settlement side effect.
+No sound/reward/extra deduction for duplicate clicks, redraw, page change, or load.
+
+Two consecutive incorrect claims against a customer end further claims for that
+encounter. A new valid finding resets that streak; repeating an old finding does
+not. Present complaint/withdrawal through dialogue and appropriate reputation
+feedback. Persist the streak across views, instruments, book reading, and reload.
+Study of player-owned stock must not impersonate a customer withdrawing an item.
+
+All confirmed unresolved causes affect valuation automatically. Remove the
+optional 'cite all evidence' workflow and evidence toggles that can restore value.
+Multiple views of the same crack share one economic cause and one deduction.
+Repair resolves only supported causes; history, material truth, and unrelated
+damage remain. Use the authored repaired artwork and update affected reports.
+
+8. Component valuation and connected markets
+
+Use one valuation service for inspection, purchase, resale, appraisal assessment,
+pawn collateral, workshop forecasts, and financial/material screens. Contexts
+may use different disclosed bid/ask prices, margins, and liquidation haircuts;
+they must agree about the item facts and the day's underlying market snapshot.
+
+For plain precious-metal jewelry:
+  metal value = measured eligible metal mass x confirmed purity x context price;
+  remaining workmanship = max(0, workmanship basis - applicable craft deductions);
+  item estimate = metal value + remaining workmanship.
+For mounted jewelry, add the separately valued real stone components. For a
+supported collectible, show any justified provenance/edition premium separately.
+Do not count the gross gemstone-inclusive weight as gold weight. Unknown purity,
+identity, or treatment remains explicitly estimated or untested in public UI.
+
+Ordinary scratches, dents, repair seams, and a crack without material loss deduct
+workmanship only. Cap their combined deduction at the eligible craft amount.
+Under-purity/imitation changes the relevant material basis after a justified
+finding. A missing metal link reduces actual metal mass even when purity is
+unchanged. A missing stone removes that stone's value, not the gold mass. A loose
+prong affects mounting integrity/workmanship rather than destroying the stone.
+Each cause has an explicit component allocation; do not charge it again through
+a generic quality multiplier over the whole total.
+
+Example using fictional game credits: gold 600 + workmanship 200 = 800. A scratch
+deducts 40 workmanship, leaving gold 600 + workmanship 160 = 760. Further cosmetic
+damage may exhaust the 160, but cannot reduce the 600 gold portion. A separate
+measured mass or purity change is a different operation, with its own evidence.
+
+Keep a visible weight, confirmed/claimed fineness, today's metal buying and
+selling rates, metal subtotal, craft subtotal, stone subtotal when applicable,
+and final quote. Name directions from the shop's viewpoint: Buy from customer,
+Sell to customer, or Material buyback. Avoid ambiguous standalone 'buy/sell'.
+Clean confirmed precious metal must not fall below its eligible current buyback
+value through cosmetic deductions or a blanket resale multiplier. Scrap recovery
+has its own disclosed service costs; do not hide those inside clean-gold pricing.
+Do not leak hidden purity through a supposedly public recovery-floor number.
+
+Separate the routine shop reference estimate from a paid appraisal submission.
+Routine trade estimates update immediately from established findings. A commission
+uses the same underlying rules but lets the player submit a final estimate from
+the available observations and handbook. The private correct-answer callback is
+for native settlement, not an always-visible answer label. Snapshot the applicable
+market for the commission so a day change cannot arbitrarily invalidate a submitted
+answer. Appraisal accuracy and the later negotiated buy/pawn margin are distinct.
+
+Use one persisted daily market and effect pipeline. Tags select registered effect
+rows; apply the union of rows once per eligible component/channel. Examples:
+  - Gold shock changes Au value in bullion and gold-bearing jewelry/settings.
+  - Luxury demand changes relevant workmanship/willingness to pay, not Au mass.
+  - Collector demand changes verified collectible premiums and buyer preferences.
+  - Jade events affect the specified dou/nuo/bing bands and new rough availability.
+  - Gem events change supported stone bands; mounted wrappers do not repeat them.
+  - Energy disruption can affect plasma-fuel demand and new processing costs/time.
+  - Weapons/augment demand targets supported hand configurations and buyers.
+  - Gold prices change recoverable Au value in supported electronics, not their
+    saved metal content; chip scarcity can separately change functional resale.
+  - Credit conditions affect new pawn/loan terms and eligible follow-up intent.
+
+Native goods such as fuel and hands need deliberate adapters. Adding a label or
+news story alone does not change native prices. If an adapter affects an appraisal
+type, its native correct-value callback, displayed observations, trade quote, and
+pawn reference must use compatible rules. Preserve native functionality and scope
+all hooks. No double valuation through both a native modifier and a mod modifier.
+
+Save schedules, durations, cooldowns, forecasts, chosen options, effect IDs, daily
+snapshots, and receipts. Reopening news or sleeping again after reload cannot
+reroll the same day. Use the existing shared limit of three concurrent world
+events and at most two extra event visitors per day as initial balance defaults.
+Old opt-outs remain meaningful; installing or reading a screen is not enrollment.
+Apply changed terms to new offers. Accepted loans, pawn contracts, orders, and
+processing jobs retain their signed values, inputs, fees, and promises.
+
+Study the recorded ideas from Station Events, Deep Space Financial Exchange,
+Shutter Events, Deep Foundry, Integrated Chemistry Lab, and CorpPresence in
+MOD_RESEARCH_04.txt. Implement appropriate original mechanics and verify any
+additional claims against author sources. These references do not establish
+installed-mod compatibility or permission to copy assets/code. StarPawn must work
+without those mods. Optional adapters must deduplicate the same external event.
+
+9. Product range, jewelry operations, and physical recovery
+
+Gold: rings, bracelets, necklaces, earrings, and bars; one or two distinct designs
+per form, retaining the existing two-design coverage. Retain corresponding silver
+goods and silver vessels. Rough jade keeps all six existing skin families, meeting
+the requested minimum of four or five. Finished jade covers pendant, cabochon,
+bangle, bead strand, and small carving. Use exactly dou, nuo, and bing as the three
+simplified game tiers. Skin family, grade, shape, claim, and defect are separate.
+
+Opening/cutting does not reroll a rough stone. Children inherit saved quality and
+source identity. Geometry matters: fragments cannot become a whole bangle. Keep
+uncertainty until a supported observation reveals it; no secret grade encoded in
+the exterior's default color or item name.
+
+The complete jewelry business remains required: diamond, ruby, sapphire, emerald,
+and pearl families; loose stones and mounted ring/pendant/earrings/bracelet/necklace;
+component sourcing, screening, laboratory identification where needed, buying,
+display, retail/wholesale selling, repair, demount/remount, compatible setting
+fabrication, matched sets, custom orders, delivery, and recorded aftercare.
+
+Preserve real setting and stone IDs through services. Earrings may contain two
+distinct stones; a bracelet may contain several. An empty setting is not a false
+missing-stone finding. Do not sell embedded children separately, recreate missing
+stones by paying a repair fee, or count the wrapper's value on top of its children.
+Disclosed laboratory-grown or cultured goods are not automatically counterfeit.
+
+Customer-supplied goods stay customer-owned in service custody. Deposits are held
+customer funds until earned, excluded from lendable cash and shop profit. Orders
+have feasible capacity/deadlines, finite customer budgets, reserved inputs,
+signed fees, refund/cancellation rules, and one delivery receipt. Follow the
+existing JEWELRY_BUSINESS_04 contract where it does not conflict with Revision 05.
+
+Physical recovery includes supported electronic components with finite, authored
+Au/Ag/Cu budgets, sorting/dismantling, recovery, refining, and alloy production.
+The player can compare repair/resale against recovery. All accepted operations
+reserve/consume inputs and conserve each element, accounting for residue/losses.
+Composition values are fictional game balance data, not real extraction yields.
+Do not include real chemical extraction instructions or elemental conversion.
+
+Machines, energy, service fees, time, ready-output capacity, and market events
+must affect the actual jobs, not only the UI. Persist the accepted input/output
+plan and costs. Reload and repeated collection cannot duplicate outputs. A full
+inventory leaves an output safely ready to claim, not charged-and-disappeared.
+
+10. Correct physical dimensions and consistent artwork
+
+art/ITEM_LAYOUT_05.csv is the new fixed physical-art manifest. It covers all 135
+existing proposal models plus the 15 currently playable short-book volumes.
+Every runtime condition variant must map to a manifest model and explicit grid
+dimensions; produce a coverage map with zero silent default-1x1 fallbacks.
+Keep the same footprint across intact, flawed, repaired, and inspection states
+unless an actual transformative process creates a separately recorded item.
+
+Required user dimensions, width x height:
+  Rough jade: 3x2. All physical appraisal manuals: 2x3.
+  Bracelets/bangles: 2x2. Necklaces: 1x3.
+Additional implementation defaults are frozen in the CSV for the full catalog,
+including ores, machines, tools, legacy objects, cases, and short-book covers.
+Native goods retain native shapes. Explicit future additions need manifest rows.
+The inherited target_family_id columns identify planned families; they do not
+authorize renaming existing saved definitions. Preserve source identities and
+provide explicit mappings for any genuinely new families or additional volumes.
+
+Inventory export convention: 64 source pixels per allocated cell. Examples:
+  rough 192x128; book 128x192; bracelet 128x128; necklace 64x192.
+This is an art-production scale, not a claim about native screen grid pixels.
+The 384x256 inspection canvas and 440x616 reader-page canvas serve different
+purposes; inventory dimensions do not automatically resize either one.
+
+Redraw/recompose for the required silhouette. A necklace should hang vertically,
+not be a square drawing squeezed into a narrow box. Rough jade needs convincing
+bulk; bracelets need a readable opening and thickness. Fit images without aspect
+distortion. Use a suitable inspectable pose or a registered detail view when a
+long thin form would become unreadable in the current landscape frame.
+
+Retain the approved ring sample's restrained pixel-art direction, but match
+actual vanilla screens for outline weight, pixel density, colors, light, and
+material contrast. Do not judge style only from isolated enlarged PNGs. Keep
+transparent backgrounds and consistent anchors. Defect masks stay inside the
+appropriate surface; a mark cannot cross the hole of a ring or float off a band.
+Preserve readable visible contributions in legal combinations and repaired states.
+
+Deliver regeneratable sources, masks, layers, condition combinations, hotspot
+coordinates, and book crop references. Refresh the hotspot map from final composed
+art, not stale placeholder coordinates. Keep inventory and inspection renditions
+recognizably the same object. Verify at actual 1080p and 1440p display sizes and
+check 4K scaling; include native-screen comparisons and thin-necklace tests.
+
+Organizer/container defaults:
+  Eight-book organizer: exterior 3x3, native interior 8x6; eight 2x3 books fit.
+  Twelve-book organizer: exterior 4x3, interior 8x9; twelve 2x3 books fit.
+  Card holder: exterior 2x1, interior 4x1; two 2x1 cards.
+  Gem case: exterior 2x2, interior 4x4 for loose components.
+  Presentation case: exterior 2x2, interior 4x3 so a 1x3 necklace can fit.
+  Jewelry display: exterior 3x2, interior 6x4; actual inventory children.
+Use native container interaction and suitable window scrolling/scaling. No nested
+container loopholes or decorative copies masquerading as real contents. Capacity
+descriptions must say books/cards/cells accurately; do not call 48 cells 48 books.
+Audit any other container's internal grid before promising compatible storage.
+
+11. Native books, page layout, and useful writing
+
+Physical manuals open through the native inventory Read action and native-style
+book/page behavior, not through the magnifying glass. Keep a useful inspection
+shortcut that opens the owned relevant book. The local game also exposes
+RegisterPaperBook and BookHelper; verify behavior against the installed assembly.
+Preserve ownership, last page, close/return behavior, and real organizer retrieval.
+
+Every physical manual, including introduction/index, has at most five pages.
+Split oversized subjects into additional clearly named volumes. Never satisfy
+the cap by deleting required examples, hiding a long book behind an index, or
+shrinking text. Existing anthologies may retain their saved access entitlement,
+but new individual volumes must not accidentally grant the entire library.
+
+Use the actual vanilla illustrated handbook reference in art/references.
+Keep portrait cream/gray paper, restrained blue headings/rules, dark readable
+body text, green/red labels with meaningful words, and unobtrusive pagination.
+Use the game's font at integration. Avoid a modern dashboard, giant gold frames,
+excess decoration, and excessive empty title space. Preserve item/shop visibility
+beside the document and make page controls work at supported resolutions.
+
+Editorial requirements:
+  - A concise opening shares space with useful reference content rather than
+    consuming a mandatory full page of operating instructions.
+  - Each page teaches one or two checks with a whole-object location cue and a
+    readable matched detail pair. Use the actual item's registered defect layer.
+  - Explain where to look, what distinguishes the states, which value component
+    is affected, and whether a tool or repair is appropriate.
+  - Use concrete captions such as 'Intact clasp' / 'Broken clasp', not generic
+    'Reference: absent' / 'Abnormal: needs verification' repeated everywhere.
+  - Explain instruments and interpretation limits in short dedicated blocks.
+  - Include useful positive features and valuation examples where the category
+    has them. Appraisal also teaches legitimate premiums.
+  - Keep category-local templates. Ring examples are not a universal guide to
+    necklaces, rough jade, or gemstones. A manual never displays the customer's
+    undiscovered active defects or private correct answer.
+  - Index/shortcut routing depends on public family and owned books, not hidden
+    defects, origin, or grade. New expansion volumes obey the same five-page cap.
+
+Typical four/five-template category: three illustrated reference pages, with any
+necessary tool/pricing material fitting the remaining pages. Layout may vary to
+serve the subject; a fixed two-slot template must not force awkward blank pages.
+Provide text-free layers, editable layout/source, localization keys, and realistic
+localized review renders. Do not replace paragraph editing with smaller fonts.
+
+12. Copy and UI throughout the business
+
+Rewrite the whole player-facing journey, not only the manual headings. Cover item
+names/tooltips, observation feedback, instrument readings, shop quotes, commission
+submission, follow-up dialogue, pawn terms, redemption, workshop orders, banking,
+market news, blocked actions, and receipts. Keep short, in-world language and
+consistent terms, units, dates, currency, and ownership wording.
+
+English source-copy examples (localize naturally, not word for word):
+  Instead of 'Cite all evidence': no button; findings are automatically applied.
+  Instead of '3 cited causes': list the actual established findings.
+  Instead of 'Evidence difference': 'Workmanship reduction' or 'Metal revaluation'.
+  Instead of 'Asset archive': 'Item record'.
+  Instead of presenting untested purity as fact: 'Mark: Au999 | Assay: not tested'.
+  Discovery: 'Surface scratch found. Workmanship -40. Current estimate: 760 Cr.'
+  Clasp entry: 'Check where the clasp joins the band. An intact join is continuous;
+    a break leaves a visible gap. This reduces workmanship. Metal value is
+    unchanged unless material is missing.'
+  Plating entry: 'A worn patch exposes a differently colored base. This suggests
+    the surface and interior differ. Test the material before valuing its gold.'
+  Sale follow-up: 'That is more than I expected. Would you buy it?'
+  Pawn follow-up: 'I need cash, but I want this back. Can I leave it as security?'
+  Leave: 'Thanks. I will keep it for now.'
+  Unverified collateral: 'A material test is needed before I can lend against
+    the claimed gold content.'
+
+Differentiate a truthful customer surprised by damage, a collector, a dealer, a
+cash-strapped owner, and a dishonest claimant. Do not make every correct click
+produce the same cooperative response. Avoid backend terms such as schema,
+state version, fixed template, atomic transaction, and snapshot in normal play.
+Keep technical details in developer diagnostics. Show concrete reasons and a
+useful next action when a service or transaction is unavailable.
+
+Prefer contextual native item actions and a continuous counter conversation over
+repeated F7 menu trips. Support useful filters by business label, form, ownership,
+and service status. Relevant handbook and inspected item should remain usable
+together. Keyboard, close/back, pagination, quote updates, and tool feedback must
+agree with visible controls. No decorative buttons with no action.
+
+13. Finance and balance constraints
+
+Banking/finance remains included in the main mod; no master EnableFinance switch
+or required third-party finance dependency. Participation is explicit: a player
+who has not opened an account, signed a loan, or accepted a product gets no silent
+account, credit, debt, interest, or fee. Existing obligations continue settling
+until properly closed; leaving a screen or disabling an optional event is not a
+debt reset.
+
+Retain physical savings/debit and credit cards, daily transaction/credit limits,
+available balance and remaining-limit displays, loans, savings interest, securities,
+and existing game-only financial assets. Use meaningful, visible interest and
+fees, with borrowing rates above deposit rates and no same-day deposit/borrow
+loop yielding guaranteed profit. Tune the inherited 0.3 and 0.4 starting values
+with economy scenarios and document the final values; do not silently overwrite
+the rates on already signed contracts.
+
+For reference, current mod/Content/finance-rules.json starts at daily savings
+0.20%, credit 0.60%, loan 0.45%, and pawn 0.60%; daily deposit/withdrawal limits
+are 5000/2000 Cr and daily credit/loan borrowing limits are 1000/3000 Cr.
+These are fictional game rates. Use them as a recorded baseline for balance
+comparisons, not a requirement to preserve every new-contract parameter forever.
+
+Limits and account identities survive card replacement, transfers, UI reopen,
+midnight settlement retry, and save reload. Daily interest and repayments settle
+once at the game's defined boundary; new money does not receive interest for
+days before it was deposited. Do not use customer deposits or pledged property
+as spendable/lendable shop assets. A stock/event link must use the same underlying
+event as the corresponding physical market, without promising identical returns.
+
+Balance scenarios should cover early-game cash, ordinary and urgent pawn demand,
+several days of interest, price shocks, repair versus recovery, gem orders, and
+high-value commissions. Native percentage-based appraisal fees may become too
+large for valuable gold/jewelry: verify their economy impact and use a transparent
+mod-commission fee cap or bounded fee policy if necessary, leaving vanilla
+commissions unchanged. Do not reduce item truth or fabricate market values just
+to hide a fee exploit.
+
+14. Migration, installation, and coexistence
+
+Before local deployment, preserve the current mod and relevant save files. Test
+on an independent save or a clearly named clone. Never clear a user's entire
+Mods directory, Workshop content, subscriptions, save index, or unrelated saves.
+Package/install changes only in StarPawn's own location with the game closed.
+Do not redistribute game binaries, personal saves, third-party mod files, or
+native art/audio/font assets. Runtime references to native resources are fine.
+
+Changing dimensions requires a real saved-inventory migration, not just new
+definitions. Preserve IDs, ownership, observed evidence, repairs, balances,
+contracts, stored children, and legacy handbook entitlements. Repack each affected
+inventory/container with the new shapes, respecting custody. If space is short,
+use a visible persistent overflow/claim location linked to the same objects.
+No overlapping shapes, erased items, free copies, forced sale, or inaccessible
+books. Make migration versioned and safe to resume once after interruption.
+
+Freeze already accepted jobs/contracts to their signed versions; recompute only
+new estimates after appropriate state changes. Ensure stale UI actions are
+rejected before touching cash or items. Backups and a migration receipt should
+make the changes inspectable. Do not overwrite migrated data with old defaults.
+
+15. Verification and final deliverables
+
+Deliver working source and runtime integration, regenerated final artwork and
+hotspots, corrected explicit item dimensions, revised handbooks and localization,
+new business classifications, connected customer/pawn behavior, and completed
+in-scope jewelry/events/recovery behavior. Update generators and manifests so a
+future normal regeneration cannot silently restore the old dimensions or text.
+Preserve working existing features while replacing the conflicting rules above.
+
+Acceptance evidence must include:
+  - Native and StarPawn appraisal types coexist at the intended ranks. Native
+    promotion, certificate replacement, new book entitlement, fees, accuracy,
+    and progress work without duplicate settlement or independent mod leveling.
+  - A paid appraisal can lead to sale, pawn, or departure on the SAME item.
+    Each route, player refusal, insufficient cash, ineligible collateral, and
+    reloading before/after the saved intent are exercised.
+  - Pawn signing, redemption, renewal, and default conserve cash/custody and
+    exclude double pledges, shop sale of customer collateral, or duplicate payout.
+  - All runtime variants have explicit matching footprints. Rough is 3x2,
+    manuals 2x3, bracelets 2x2, necklaces 1x3. Containers really fit their claims.
+    Migration works with full inventories, books already stored, and pledged items.
+  - Books open through Read, paginate within five pages, remain legible in the
+    native style, and agree with actual authored defects and instrument limits.
+  - First correct discovery updates the correct component immediately and plays
+    native feedback once. Repeated clues and multiple views do not double-deduct.
+    Two consecutive customer misses persist correctly; personal study is distinct.
+  - Cosmetic damage cannot consume the metal floor; material loss and purity
+    changes affect the right masses; stones, settings, and collectible premiums
+    are not double-counted. Unknown truth is not leaked through labels or prices.
+  - Labels filter the right items and select event effects once. Gold jewelry,
+    fuel, supported hands, electronics, jade, gems, and financial/pawn views show
+    the intended channel-specific links. Existing agreements remain unchanged.
+  - Jewelry services and recovery conserve components/elements, protect customer
+    property and deposits, and handle interrupted jobs/full output inventory.
+  - Banking limits, daily settlement, contract rates, and finite customer/supplier
+    budgets remain sound under repeated actions and save/load.
+  - Final art is readable/clickable at actual supported resolutions, especially
+    thin necklaces, clasps, plating, rough surfaces, and handbook detail crops.
+
+Run appropriate existing suites and meaningful new regression tests for these
+economic, state, and migration changes. Distinguish pure business tests, compile
+against actual game assemblies, metadata checks, and observed in-game tests.
+The old 171 passing checks and a successful art generator do not prove new paths.
+If the game or Computer Use is unavailable, provide reproducible steps and label
+those in-game checks unverified; do not invent screenshots or a tested demo save.
+
+Provide an English engineering report with actual screenshots, implemented scope,
+remaining limitations, balance choices, migrations, and test results. Prepare a
+named independent demo save where available and a short reproducible demo route:
+native promotion/book -> inspect gold -> commission follow-up sale/pawn ->
+redemption/default -> event-linked quote -> jewelry order -> physical recovery.
+Do not overwrite the user's playthrough to create the demo. Keep local save
+binaries/backups out of the public repository; document how to reproduce them.
+
+Commit and push the implementation branch with an accurate change summary and
+report links. The work is complete when the connected behavior is implemented
+and the available checks support it, not when a large asset batch merely exists.
+
+

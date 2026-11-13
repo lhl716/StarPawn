@@ -6,7 +6,15 @@ Current integration build: **0.3.1 / Windows / 100-Rev13 / Steam BuildID 2652555
 
 The 0.3 gameplay adds two designs for each of five gold and silver item types, six jade-rough types, four finished-jade types, five physical instruments, and an eight-slot handbook organizer. The 0.3.1 update adds [15 short physical handbook volumes](docs/HANDBOOK_VOLUMES_031.md), with every book limited to five pages including its introduction. Five existing short books remain on sale; old metals/jade anthologies retain collection access through short indexes. Banking has daily transaction limits, revised rates for new contracts, a financial overview, and overnight settlement receipts. See the [0.3 delivery record](docs/REVISION_03.txt) for historical scope. The catalog now has 254 definitions (239 preserved plus 15 books); condition combinations are included, so this is not a count of distinct art designs.
 
-## Current production handoff: 0.4 design
+## Current unified implementation handoff: Revision 05
+
+Read the [complete English handoff](docs/CLAUDE_UNIFIED_HANDOFF_05.txt), [native appraisal audit](docs/NATIVE_APPRAISAL_AUDIT_05.txt), [150-row corrected physical layout](art/ITEM_LAYOUT_05.csv), and [Claude prompt](art/CLAUDE_UNIFIED_PROMPT_05.txt). This is one integrated gameplay, art, UI, writing, migration, and testing assignment. The new documents describe required work; the playable build is still 0.3.1.
+
+Appraisal should use the native career and lead into persistent sale/pawn/departure choices on the same item. Luxury, Collectibles, Materials, and Weapons labels connect to component-specific prices and events. Books use native Read actions, two-by-three footprints, no more than five pages, and rewritten illustrated guidance. The handoff also corrects all item shapes, component deductions and discovery feedback, and retains the complete jewelry, banking, events, and physical-recovery scope.
+
+Revision 05 supersedes conflicting older dimensions, organizer capacity, magnifier-based book entry, optional evidence selection, independent click XP, and art-only restrictions. Start implementation from the latest `origin/integration/art04`, then work on `feature/unified-business-05`; preserve existing work and leave `main` unchanged. The 135 original model keys and 15 current short-book covers are all represented in the new layout. No runtime code or installed game files are changed by this documentation update.
+
+## Historical batch04 production contract
 
 The user accepted the ring sample's visual direction and authorized the complete fixed-size art batch. Contract revision **04.2** covers jewelry business, native-style manuals and physical refining; the **04.3 pagination amendment** limits all manuals to five pages. **The playable release is 0.3.1; the following 0.4 files are design and production contracts, not implemented gameplay.**
 
@@ -22,7 +30,7 @@ The batch has been delivered under `art/proposals/batch04`. The [batch prompt](a
 
 Gold has five categories with two designs each. Jade uses exactly three game tiers: dou, nuo, and bing. The jewelry loop adds diamond, ruby, sapphire, emerald and pearl goods, mounted forms, sourcing, appraisal, buying/selling, demounting/remounting, repairs, matching sets and customer orders. Each appraisal category/subtype owns its own defect set. Events affect shared prices, demand, supply, new agreement terms and processing conditions; existing item truth and signed orders remain saved. Fictional alchemy/transmutation is excluded. Recovery and refining conserve the elements already present, including trace metal in supported electronics.
 
-Claude should preserve `art/style-sample`, create or continue `art/batch04`, and merge current `origin/main` into that art branch to obtain these specifications. Produce assets under `art/proposals/batch04`, then commit and push that art branch; do not merge it into or push `main`. No repeated style-only approval gate is required. Runtime code, live installation, and save migrations belong to the gameplay integration task.
+The completed batch04 assignment used `art/style-sample` and `art/batch04` and separated art production from runtime integration. Those branch and art-only directions are historical. New work follows the Revision 05 handoff above, including its implementation base, corrected dimensions, and integrated code/art scope.
 
 Run `python tests/Validate-Design04.py` to check design-table relationships. `python source/Content/Export-Design04.py` deterministically exports the fixed-size manifests without changing runtime content or images. These checks validate specifications, not the future gameplay implementation or yet-to-be-produced art.
 

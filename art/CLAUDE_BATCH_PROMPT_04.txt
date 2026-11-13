@@ -1,3 +1,8 @@
+HISTORICAL PROMPT: batch04 is delivered. For current work, use
+art/CLAUDE_UNIFIED_PROMPT_05.txt and docs/CLAUDE_UNIFIED_HANDOFF_05.txt.
+Revision 05 supersedes the dimensions, branch instructions, and art-only scope
+below. This file is retained as the record of the earlier assignment.
+
 Continue StarPawn's complete art batch in the approved gold-ring pixel-art style.
 
 Repository: https://github.com/lhl716/StarPawn
