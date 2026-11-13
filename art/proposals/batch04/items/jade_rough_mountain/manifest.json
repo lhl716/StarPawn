@@ -184,13 +184,13 @@
    ],
    "view": "ordinary"
   },
-  "window_dou_combo__open_mountain_fissure__coarse_interior__black_band": {
-   "paper": "paper/window_dou_combo__open_mountain_fissure__coarse_interior__black_band.png",
-   "items": "items/window_dou_combo__open_mountain_fissure__coarse_interior__black_band.png",
+  "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam": {
+   "paper": "paper/window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam.png",
+   "items": "items/window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam.png",
    "templates": [
     "sp4_rough_mountain_open_mountain_fissure",
     "sp4_rough_mountain_coarse_interior",
-    "sp4_rough_mountain_black_band"
+    "sp4_rough_mountain_filled_shell_seam"
    ],
    "view": "ordinary"
   },
@@ -307,13 +307,13 @@
    ],
    "view": "ordinary"
   },
-  "window_nuo_combo__open_mountain_fissure__coarse_interior__black_band": {
-   "paper": "paper/window_nuo_combo__open_mountain_fissure__coarse_interior__black_band.png",
-   "items": "items/window_nuo_combo__open_mountain_fissure__coarse_interior__black_band.png",
+  "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam": {
+   "paper": "paper/window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam.png",
+   "items": "items/window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam.png",
    "templates": [
     "sp4_rough_mountain_open_mountain_fissure",
     "sp4_rough_mountain_coarse_interior",
-    "sp4_rough_mountain_black_band"
+    "sp4_rough_mountain_filled_shell_seam"
    ],
    "view": "ordinary"
   },
@@ -430,13 +430,13 @@
    ],
    "view": "ordinary"
   },
-  "window_bing_combo__open_mountain_fissure__coarse_interior__black_band": {
-   "paper": "paper/window_bing_combo__open_mountain_fissure__coarse_interior__black_band.png",
-   "items": "items/window_bing_combo__open_mountain_fissure__coarse_interior__black_band.png",
+  "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam": {
+   "paper": "paper/window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam.png",
+   "items": "items/window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam.png",
    "templates": [
     "sp4_rough_mountain_open_mountain_fissure",
     "sp4_rough_mountain_coarse_interior",
-    "sp4_rough_mountain_black_band"
+    "sp4_rough_mountain_filled_shell_seam"
    ],
    "view": "ordinary"
   }
@@ -444,76 +444,76 @@
  "template_checks": {
   "sp4_rough_mountain_open_mountain_fissure": {
    "paper": {
-    "changed_px": 280,
+    "changed_px": 260,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     224,
+     222,
      138,
-     256,
-     188
+     252,
+     186
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 70,
+    "changed_px": 65,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     80,
+     79,
      69,
-     96,
-     95
+     94,
+     93
     ]
    }
   },
   "sp4_rough_mountain_filled_shell_seam": {
    "paper": {
-    "changed_px": 240,
+    "changed_px": 204,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     158,
-     176,
-     226,
-     198
+     160,
+     178,
+     224,
+     194
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 56,
+    "changed_px": 55,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     47,
-     90,
-     81,
-     100
+     48,
+     88,
+     80,
+     97
     ]
    }
   },
   "window_dou_sp4_rough_mountain_open_mountain_fissure": {
    "paper": {
-    "changed_px": 280,
+    "changed_px": 260,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     224,
+     222,
      138,
-     256,
-     188
+     252,
+     186
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 70,
+    "changed_px": 65,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     80,
+     79,
      69,
-     96,
-     95
+     94,
+     93
     ]
    }
   },
@@ -524,9 +524,9 @@
     "within_object": true,
     "bounds": [
      178,
-     88,
+     90,
      198,
-     102
+     104
     ]
    },
    "policy": "same_alpha",
@@ -536,59 +536,59 @@
     "within_object": true,
     "bounds": [
      57,
-     43,
+     45,
      67,
-     50
+     52
     ]
    }
   },
   "window_dou_sp4_rough_mountain_black_band": {
    "paper": {
-    "changed_px": 288,
+    "changed_px": 280,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      164,
      90,
-     210,
+     208,
      124
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 81,
+    "changed_px": 70,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     49,
-     44,
-     74,
-     61
+     50,
+     45,
+     72,
+     62
     ]
    }
   },
   "window_dou_sp4_rough_mountain_filled_shell_seam": {
    "paper": {
-    "changed_px": 240,
+    "changed_px": 204,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     158,
-     176,
-     226,
-     198
+     160,
+     178,
+     224,
+     194
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 56,
+    "changed_px": 55,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     47,
-     90,
-     81,
-     100
+     48,
+     88,
+     80,
+     97
     ]
    }
   },
@@ -606,12 +606,12 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 66,
+    "changed_px": 64,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      55,
-     46,
+     47,
      69,
      59
     ]
@@ -619,26 +619,26 @@
   },
   "window_nuo_sp4_rough_mountain_open_mountain_fissure": {
    "paper": {
-    "changed_px": 280,
+    "changed_px": 260,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     224,
+     222,
      138,
-     256,
-     188
+     252,
+     186
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 70,
+    "changed_px": 65,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     80,
+     79,
      69,
-     96,
-     95
+     94,
+     93
     ]
    }
   },
@@ -649,9 +649,9 @@
     "within_object": true,
     "bounds": [
      178,
-     88,
+     90,
      198,
-     102
+     104
     ]
    },
    "policy": "same_alpha",
@@ -661,59 +661,59 @@
     "within_object": true,
     "bounds": [
      57,
-     43,
+     45,
      67,
-     50
+     52
     ]
    }
   },
   "window_nuo_sp4_rough_mountain_black_band": {
    "paper": {
-    "changed_px": 288,
+    "changed_px": 280,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      164,
      90,
-     210,
+     208,
      124
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 81,
+    "changed_px": 70,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     49,
-     44,
-     74,
-     61
+     50,
+     45,
+     72,
+     62
     ]
    }
   },
   "window_nuo_sp4_rough_mountain_filled_shell_seam": {
    "paper": {
-    "changed_px": 240,
+    "changed_px": 204,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     158,
-     176,
-     226,
-     198
+     160,
+     178,
+     224,
+     194
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 56,
+    "changed_px": 55,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     47,
-     90,
-     81,
-     100
+     48,
+     88,
+     80,
+     97
     ]
    }
   },
@@ -731,12 +731,12 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 66,
+    "changed_px": 64,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      55,
-     46,
+     47,
      69,
      59
     ]
@@ -744,26 +744,26 @@
   },
   "window_bing_sp4_rough_mountain_open_mountain_fissure": {
    "paper": {
-    "changed_px": 280,
+    "changed_px": 260,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     224,
+     222,
      138,
-     256,
-     188
+     252,
+     186
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 70,
+    "changed_px": 65,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     80,
+     79,
      69,
-     96,
-     95
+     94,
+     93
     ]
    }
   },
@@ -774,9 +774,9 @@
     "within_object": true,
     "bounds": [
      178,
-     88,
+     90,
      198,
-     102
+     104
     ]
    },
    "policy": "same_alpha",
@@ -786,59 +786,59 @@
     "within_object": true,
     "bounds": [
      57,
-     43,
+     45,
      67,
-     50
+     52
     ]
    }
   },
   "window_bing_sp4_rough_mountain_black_band": {
    "paper": {
-    "changed_px": 288,
+    "changed_px": 280,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      164,
      90,
-     210,
+     208,
      124
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 81,
+    "changed_px": 70,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     49,
-     44,
-     74,
-     61
+     50,
+     45,
+     72,
+     62
     ]
    }
   },
   "window_bing_sp4_rough_mountain_filled_shell_seam": {
    "paper": {
-    "changed_px": 240,
+    "changed_px": 204,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     158,
-     176,
-     226,
-     198
+     160,
+     178,
+     224,
+     194
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 56,
+    "changed_px": 55,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     47,
-     90,
-     81,
-     100
+     48,
+     88,
+     80,
+     97
     ]
    }
   },
@@ -856,12 +856,12 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 66,
+    "changed_px": 64,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      55,
-     46,
+     47,
      69,
      59
     ]

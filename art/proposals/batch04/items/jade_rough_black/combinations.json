@@ -461,14 +461,6 @@
    "reason": "defect layers overlap or touch"
   },
   {
-   "variant": "window_dou_",
-   "templates": [
-    "sp4_rough_black_white_vein",
-    "sp4_rough_black_plugged_window"
-   ],
-   "reason": "defect layers overlap or touch"
-  },
-  {
    "variant": "window_nuo_",
    "templates": [
     "sp4_rough_black_opaque_heart",
@@ -485,14 +477,6 @@
    "reason": "defect layers overlap or touch"
   },
   {
-   "variant": "window_nuo_",
-   "templates": [
-    "sp4_rough_black_white_vein",
-    "sp4_rough_black_plugged_window"
-   ],
-   "reason": "defect layers overlap or touch"
-  },
-  {
    "variant": "window_bing_",
    "templates": [
     "sp4_rough_black_opaque_heart",
@@ -504,14 +488,6 @@
    "variant": "window_bing_",
    "templates": [
     "sp4_rough_black_opaque_heart",
-    "sp4_rough_black_plugged_window"
-   ],
-   "reason": "defect layers overlap or touch"
-  },
-  {
-   "variant": "window_bing_",
-   "templates": [
-    "sp4_rough_black_white_vein",
     "sp4_rough_black_plugged_window"
    ],
    "reason": "defect layers overlap or touch"

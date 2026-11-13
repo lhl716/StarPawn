@@ -232,7 +232,7 @@ def scrap_connectors(c, v):
     c.anchor("row_front", 0.2, 0.78, "tips", 0)
     c.anchor("group_l", -0.6, 0.6, "tips_l")
     c.anchor("cluster_r", 0.72, 0.16, "cluster")
-    c.anchor("ends_low", 0.1, 0.5, "tips")
+    c.anchor("ends_low", -0.015, 0.55, "tips")
     c.anchor("tag", 0.7, -0.76, "tag")
 
 
@@ -282,7 +282,7 @@ def ore(c, v):
     c.anchor("seam", -0.28, 0.0, ["frag0", "frag1"])
     c.anchor("tag", -1.25, 0.5, "tag")
     c.anchor("zone_fl", -0.9, -0.1, "frag0")
-    c.anchor("container_low", 0.3, 0.3, "tray")
+    c.anchor("container_low", 0.3, 0.52, "tray")
     c.anchor("fragtag", 1.22, -0.4, "fragtag")
     c.anchor("frag_r", 1.05, 0.0, "frag2")
     c.anchor("recess", -0.7, -0.3, "frag0")
@@ -322,7 +322,7 @@ T = {
     "disc_hub_fissure": [("crack", "hub_up", dict(L=0.3, ang=-80, branch=False))],
     "disc_layer_delamination": [("stain", "outer_l", dict(rx=0.1, ry=0.26, mat="quartz", dt=0))],
     "disc_matrix_mismatch": [("shift", "matrix", dict(rw=0.12, rh=0.1, dx=2, dy=1))],
-    "disc_label_resurface": [("ghost", "label", dict(rw=0.5, rh=0.3, dx=2, dy=1))],
+    "disc_label_resurface": [("ghost", "label", dict(rw=0.5, rh=0.3, dx=2, dy=1)), ("stripe", "label", dict(L=0.34, ang=-30, wid=0.04, dt=-2))],
     "book_reprint_notice": [("seam", "copyright", dict(L=0.12, ang=0, mat="red", wpx=1, beads=False))],
     "book_signature_copy": [("ghost", "signature", dict(rw=0.56, rh=0.24, dx=1, dy=1))],
     "book_missing_leaf": [("stripe", "gutter_low", dict(L=0.3, ang=90, wid=0.05, flat=6)), ("gapline", (0.04, 0.4, None), dict(L=0.3, ang=90, lip=0))],
@@ -341,7 +341,7 @@ T = {
     "scrap_connectors_clipped_contacts": [("gap", "row_front", dict(w=8, L=0.75, ang=0))],
     "scrap_connectors_stripped_plating": [("stripe", "group_l", dict(L=0.5, ang=0, wid=0.3, mat="base", dt=0))],
     "scrap_connectors_polymer_contamination": [("patch", "cluster_r", dict(rx=0.17, ry=0.14, mat="dark", lip=False))],
-    "scrap_connectors_oxidized_contact": [("specks", "ends_low", dict(n=9, sc=2, mat="teal", tone=2))],
+    "scrap_connectors_oxidized_contact": [("stain", "ends_low", dict(rx=0.25, ry=0.14, mat="teal", dt=-1, dither=False)), ("specks", "ends_low", dict(n=9, sc=1, tone=1))],
     "scrap_connectors_false_sorting": [("xmark", "tag", dict(r=0.07))],
     "refined_gold_bar_purity_shortfall": [], "refined_gold_bar_short_pour": [],
     "refined_gold_bar_cast_pores": [("specks", "face_ul", dict(n=9, sc=1, tone=2, lip=True))],
@@ -362,7 +362,7 @@ T = {
     "ore_gold_mislabelled_origin": [("xmark", "tag", dict(r=0.07))],
     "ore_silver_coarse_gangue": [("stain", "zone_fl", dict(rx=0.3, ry=0.22, mat="quartz", dt=0)), ("specks", "zone_fl", dict(n=8, sc=2, tone=2))],
     "ore_silver_painted_sheen": [("stain", "ridge", dict(rx=0.3, ry=0.09, mat="silver", flat=5, dither=False))],
-    "ore_silver_moisture_mass": [("stripe", "container_low", dict(L=1.4, ang=0, wid=0.08, dt=-2))],
+    "ore_silver_moisture_mass": [("stripe", "container_low", dict(L=1.2, ang=0, wid=0.1, mat="inkblue", flat=2))],
     "ore_silver_mixed_source": [("stain", "frag_r", dict(rx=0.3, ry=0.24, mat="skin_rust", dt=0, dither=False)), ("xmark", "fragtag", dict(r=0.05))],
     "ore_copper_barren_matrix": [("stain", "band_front", dict(rx=0.46, ry=0.3, mat="quartz", dt=0, dither=False))],
     "ore_copper_applied_green_coating": [("stain", "recess", dict(rx=0.24, ry=0.16, mat="dye", dt=0, dither=False))],
@@ -373,7 +373,7 @@ T = {
     "alloy_gold_bar_cast_crack": [("crack", "corner_ur", dict(L=0.26, ang=160, branch=False, lip=2))],
     "alloy_gold_bar_altered_karat_stamp": [("ghost", "stamp", dict(rw=0.6, rh=0.3))],
     "alloy_silver_bar_fineness_shortfall": [], "alloy_silver_bar_weight_deficit": [],
-    "alloy_silver_bar_inhomogeneous_cast": [("halftone", "face_up_c", dict(rw=0.6, rh=0.14, dt=-2))],
+    "alloy_silver_bar_inhomogeneous_cast": [("stripe", "face_ur", dict(L=0.5, ang=0, wid=0.12, dt=-1, edge=True)), ("halftone", "face_ur", dict(rw=0.5, rh=0.12, dt=-2))],
     "alloy_silver_bar_edge_fissure": [("crack", "edge_right", dict(L=0.4, ang=180, branch=False))],
     "alloy_silver_bar_restamped_fineness": [("ghost", "stamp", dict(rw=0.6, rh=0.3))],
 }

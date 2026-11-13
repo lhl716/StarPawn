@@ -1,0 +1,2387 @@
+{
+ "manual": "manual_jewelry",
+ "page_size": [
+  440,
+  616
+ ],
+ "page_count": 31,
+ "style_spec": "art/VANILLA_HANDBOOK_SPEC_04.txt",
+ "pages": [
+  {
+   "manual": "manual_jewelry",
+   "page": 0,
+   "kind": "index",
+   "template": "ui/handbook_page/index.png",
+   "previous": null,
+   "next": 1,
+   "entries": [
+    {
+     "category": "gem_diamond",
+     "subtype": "all_models",
+     "first_page": 1,
+     "loc_key": "sp4.handbook.manual_jewelry.index.gem_diamond.all_models"
+    },
+    {
+     "category": "gem_ruby",
+     "subtype": "all_models",
+     "first_page": 4,
+     "loc_key": "sp4.handbook.manual_jewelry.index.gem_ruby.all_models"
+    },
+    {
+     "category": "gem_sapphire",
+     "subtype": "all_models",
+     "first_page": 7,
+     "loc_key": "sp4.handbook.manual_jewelry.index.gem_sapphire.all_models"
+    },
+    {
+     "category": "gem_emerald",
+     "subtype": "all_models",
+     "first_page": 10,
+     "loc_key": "sp4.handbook.manual_jewelry.index.gem_emerald.all_models"
+    },
+    {
+     "category": "gem_pearl",
+     "subtype": "all_models",
+     "first_page": 13,
+     "loc_key": "sp4.handbook.manual_jewelry.index.gem_pearl.all_models"
+    },
+    {
+     "category": "jewelry_ring",
+     "subtype": "all_models",
+     "first_page": 16,
+     "loc_key": "sp4.handbook.manual_jewelry.index.jewelry_ring.all_models"
+    },
+    {
+     "category": "jewelry_pendant",
+     "subtype": "all_models",
+     "first_page": 19,
+     "loc_key": "sp4.handbook.manual_jewelry.index.jewelry_pendant.all_models"
+    },
+    {
+     "category": "jewelry_earrings",
+     "subtype": "all_models",
+     "first_page": 22,
+     "loc_key": "sp4.handbook.manual_jewelry.index.jewelry_earrings.all_models"
+    },
+    {
+     "category": "jewelry_bracelet",
+     "subtype": "all_models",
+     "first_page": 25,
+     "loc_key": "sp4.handbook.manual_jewelry.index.jewelry_bracelet.all_models"
+    },
+    {
+     "category": "jewelry_necklace",
+     "subtype": "all_models",
+     "first_page": 28,
+     "loc_key": "sp4.handbook.manual_jewelry.index.jewelry_necklace.all_models"
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_00.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 1,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_diamond",
+   "subtype": "all_models",
+   "previous": 0,
+   "next": 2,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_diamond_girdle_chip",
+     "label_en": "Girdle chip",
+     "category": "gem_diamond",
+     "subtype": "all_models",
+     "example_asset_key": "gem_diamond_round",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_structure",
+     "reference": {
+      "layer": "items/gem_diamond_round/paper/intact.png",
+      "crop_px": [
+       230,
+       137,
+       310,
+       189
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_diamond_round/paper/girdle_chip.png",
+      "crop_px": [
+       230,
+       137,
+       310,
+       189
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_diamond_girdle_chip.heading",
+      "body": "sp4.handbook.sp4_gem_diamond_girdle_chip.body",
+      "limits": "sp4.handbook.sp4_gem_diamond_girdle_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_diamond_girdle_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_diamond_girdle_chip.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gem_diamond_edge_feather",
+     "label_en": "Surface-reaching feather",
+     "category": "gem_diamond",
+     "subtype": "all_models",
+     "example_asset_key": "gem_diamond_round",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_structure",
+     "reference": {
+      "layer": "items/gem_diamond_round/paper/intact.png",
+      "crop_px": [
+       244,
+       102,
+       284,
+       128
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gem_diamond_round/paper/edge_feather.png",
+      "crop_px": [
+       244,
+       102,
+       284,
+       128
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_diamond_edge_feather.heading",
+      "body": "sp4.handbook.sp4_gem_diamond_edge_feather.body",
+      "limits": "sp4.handbook.sp4_gem_diamond_edge_feather.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_diamond_edge_feather.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_diamond_edge_feather.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_01.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 2,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_diamond",
+   "subtype": "all_models",
+   "previous": 1,
+   "next": 3,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_diamond_table_abrasion",
+     "label_en": "Table abrasion",
+     "category": "gem_diamond",
+     "subtype": "all_models",
+     "example_asset_key": "gem_diamond_round",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_condition",
+     "reference": {
+      "layer": "items/gem_diamond_round/paper/intact.png",
+      "crop_px": [
+       134,
+       136,
+       174,
+       162
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_diamond_round/paper/table_abrasion.png",
+      "crop_px": [
+       134,
+       136,
+       174,
+       162
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_diamond_table_abrasion.heading",
+      "body": "sp4.handbook.sp4_gem_diamond_table_abrasion.body",
+      "limits": "sp4.handbook.sp4_gem_diamond_table_abrasion.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_diamond_table_abrasion.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_diamond_table_abrasion.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gem_diamond_obscuring_cloud",
+     "label_en": "Obscuring inclusion cloud",
+     "category": "gem_diamond",
+     "subtype": "all_models",
+     "example_asset_key": "gem_diamond_round",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_condition",
+     "reference": {
+      "layer": "items/gem_diamond_round/paper/intact.png",
+      "crop_px": [
+       142,
+       97,
+       222,
+       149
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gem_diamond_round/paper/obscuring_cloud.png",
+      "crop_px": [
+       142,
+       97,
+       222,
+       149
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_diamond_obscuring_cloud.heading",
+      "body": "sp4.handbook.sp4_gem_diamond_obscuring_cloud.body",
+      "limits": "sp4.handbook.sp4_gem_diamond_obscuring_cloud.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_diamond_obscuring_cloud.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_diamond_obscuring_cloud.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_02.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 3,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_diamond",
+   "subtype": "all_models",
+   "previous": 2,
+   "next": 4,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_diamond_claim_mismatch",
+     "label_en": "Diamond identity claim mismatch",
+     "category": "gem_diamond",
+     "subtype": "all_models",
+     "example_asset_key": "gem_diamond_round",
+     "view": "instrument_reading",
+     "instrument": "lab_report",
+     "repair_class": "none",
+     "economic_channel": "gem_identity",
+     "reference": {
+      "layer": "items/gem_diamond_round/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_diamond_round/layers/paper/reading_example_claim_mismatch.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_diamond_claim_mismatch.heading",
+      "body": "sp4.handbook.sp4_gem_diamond_claim_mismatch.body",
+      "limits": "sp4.handbook.sp4_gem_diamond_claim_mismatch.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_diamond_claim_mismatch.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_diamond_claim_mismatch.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_03.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 4,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_ruby",
+   "subtype": "all_models",
+   "previous": 3,
+   "next": 5,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_ruby_crown_chip",
+     "label_en": "Ruby crown chip",
+     "category": "gem_ruby",
+     "subtype": "all_models",
+     "example_asset_key": "gem_ruby_oval",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_structure",
+     "reference": {
+      "layer": "items/gem_ruby_oval/paper/intact.png",
+      "crop_px": [
+       98,
+       153,
+       178,
+       205
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_ruby_oval/paper/crown_chip.png",
+      "crop_px": [
+       98,
+       153,
+       178,
+       205
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_ruby_crown_chip.heading",
+      "body": "sp4.handbook.sp4_gem_ruby_crown_chip.body",
+      "limits": "sp4.handbook.sp4_gem_ruby_crown_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_ruby_crown_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_ruby_crown_chip.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gem_ruby_surface_fissure",
+     "label_en": "Ruby surface fissure",
+     "category": "gem_ruby",
+     "subtype": "all_models",
+     "example_asset_key": "gem_ruby_oval",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_structure",
+     "reference": {
+      "layer": "items/gem_ruby_oval/paper/intact.png",
+      "crop_px": [
+       204,
+       144,
+       284,
+       196
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gem_ruby_oval/paper/surface_fissure.png",
+      "crop_px": [
+       204,
+       144,
+       284,
+       196
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_ruby_surface_fissure.heading",
+      "body": "sp4.handbook.sp4_gem_ruby_surface_fissure.body",
+      "limits": "sp4.handbook.sp4_gem_ruby_surface_fissure.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_ruby_surface_fissure.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_ruby_surface_fissure.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_04.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 5,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_ruby",
+   "subtype": "all_models",
+   "previous": 4,
+   "next": 6,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_ruby_dark_inclusion",
+     "label_en": "Obscuring ruby inclusion",
+     "category": "gem_ruby",
+     "subtype": "all_models",
+     "example_asset_key": "gem_ruby_oval",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_condition",
+     "reference": {
+      "layer": "items/gem_ruby_oval/paper/intact.png",
+      "crop_px": [
+       141,
+       117,
+       181,
+       143
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_ruby_oval/paper/dark_inclusion.png",
+      "crop_px": [
+       141,
+       117,
+       181,
+       143
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_ruby_dark_inclusion.heading",
+      "body": "sp4.handbook.sp4_gem_ruby_dark_inclusion.body",
+      "limits": "sp4.handbook.sp4_gem_ruby_dark_inclusion.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_ruby_dark_inclusion.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_ruby_dark_inclusion.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gem_ruby_filled_fissure",
+     "label_en": "Disclosed ruby fissure filling",
+     "category": "gem_ruby",
+     "subtype": "all_models",
+     "example_asset_key": "gem_ruby_oval",
+     "view": "instrument_reading",
+     "instrument": "lab_report",
+     "repair_class": "none",
+     "economic_channel": "gem_treatment",
+     "reference": {
+      "layer": "items/gem_ruby_oval/paper/intact.png",
+      "crop_px": null,
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gem_ruby_oval/layers/paper/reading_example_filled_fissure.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_ruby_filled_fissure.heading",
+      "body": "sp4.handbook.sp4_gem_ruby_filled_fissure.body",
+      "limits": "sp4.handbook.sp4_gem_ruby_filled_fissure.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_ruby_filled_fissure.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_ruby_filled_fissure.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_05.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 6,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_ruby",
+   "subtype": "all_models",
+   "previous": 5,
+   "next": 7,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_ruby_glass_substitute",
+     "label_en": "Ruby claim with glass substitute",
+     "category": "gem_ruby",
+     "subtype": "all_models",
+     "example_asset_key": "gem_ruby_oval",
+     "view": "instrument_reading",
+     "instrument": "lab_report",
+     "repair_class": "none",
+     "economic_channel": "gem_identity",
+     "reference": {
+      "layer": "items/gem_ruby_oval/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_ruby_oval/layers/paper/reading_example_glass_substitute.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_ruby_glass_substitute.heading",
+      "body": "sp4.handbook.sp4_gem_ruby_glass_substitute.body",
+      "limits": "sp4.handbook.sp4_gem_ruby_glass_substitute.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_ruby_glass_substitute.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_ruby_glass_substitute.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_06.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 7,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_sapphire",
+   "subtype": "all_models",
+   "previous": 6,
+   "next": 8,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_sapphire_pavilion_chip",
+     "label_en": "Sapphire edge chip",
+     "category": "gem_sapphire",
+     "subtype": "all_models",
+     "example_asset_key": "gem_sapphire_oval",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_structure",
+     "reference": {
+      "layer": "items/gem_sapphire_oval/paper/intact.png",
+      "crop_px": [
+       153,
+       165,
+       233,
+       217
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_sapphire_oval/paper/pavilion_chip.png",
+      "crop_px": [
+       153,
+       165,
+       233,
+       217
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_sapphire_pavilion_chip.heading",
+      "body": "sp4.handbook.sp4_gem_sapphire_pavilion_chip.body",
+      "limits": "sp4.handbook.sp4_gem_sapphire_pavilion_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_sapphire_pavilion_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_sapphire_pavilion_chip.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gem_sapphire_facet_abrasion",
+     "label_en": "Sapphire facet abrasion",
+     "category": "gem_sapphire",
+     "subtype": "all_models",
+     "example_asset_key": "gem_sapphire_oval",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_condition",
+     "reference": {
+      "layer": "items/gem_sapphire_oval/paper/intact.png",
+      "crop_px": [
+       128,
+       73,
+       168,
+       99
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gem_sapphire_oval/paper/facet_abrasion.png",
+      "crop_px": [
+       128,
+       73,
+       168,
+       99
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_sapphire_facet_abrasion.heading",
+      "body": "sp4.handbook.sp4_gem_sapphire_facet_abrasion.body",
+      "limits": "sp4.handbook.sp4_gem_sapphire_facet_abrasion.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_sapphire_facet_abrasion.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_sapphire_facet_abrasion.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_07.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 8,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_sapphire",
+   "subtype": "all_models",
+   "previous": 7,
+   "next": 9,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_sapphire_uneven_zone",
+     "label_en": "Strong face-up color zoning",
+     "category": "gem_sapphire",
+     "subtype": "all_models",
+     "example_asset_key": "gem_sapphire_oval",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_condition",
+     "reference": {
+      "layer": "items/gem_sapphire_oval/paper/intact.png",
+      "crop_px": [
+       143,
+       77,
+       303,
+       181
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_sapphire_oval/paper/uneven_zone.png",
+      "crop_px": [
+       143,
+       77,
+       303,
+       181
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_sapphire_uneven_zone.heading",
+      "body": "sp4.handbook.sp4_gem_sapphire_uneven_zone.body",
+      "limits": "sp4.handbook.sp4_gem_sapphire_uneven_zone.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_sapphire_uneven_zone.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_sapphire_uneven_zone.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gem_sapphire_edge_fracture",
+     "label_en": "Sapphire edge fracture",
+     "category": "gem_sapphire",
+     "subtype": "all_models",
+     "example_asset_key": "gem_sapphire_oval",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_structure",
+     "reference": {
+      "layer": "items/gem_sapphire_oval/paper/intact.png",
+      "crop_px": [
+       230,
+       153,
+       270,
+       179
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gem_sapphire_oval/paper/edge_fracture.png",
+      "crop_px": [
+       230,
+       153,
+       270,
+       179
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_sapphire_edge_fracture.heading",
+      "body": "sp4.handbook.sp4_gem_sapphire_edge_fracture.body",
+      "limits": "sp4.handbook.sp4_gem_sapphire_edge_fracture.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_sapphire_edge_fracture.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_sapphire_edge_fracture.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_08.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 9,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_sapphire",
+   "subtype": "all_models",
+   "previous": 8,
+   "next": 10,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_sapphire_composite_claim",
+     "label_en": "Sapphire claim with composite stone",
+     "category": "gem_sapphire",
+     "subtype": "all_models",
+     "example_asset_key": "gem_sapphire_oval",
+     "view": "instrument_reading",
+     "instrument": "lab_report",
+     "repair_class": "none",
+     "economic_channel": "gem_identity",
+     "reference": {
+      "layer": "items/gem_sapphire_oval/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_sapphire_oval/layers/paper/reading_example_composite_claim.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_sapphire_composite_claim.heading",
+      "body": "sp4.handbook.sp4_gem_sapphire_composite_claim.body",
+      "limits": "sp4.handbook.sp4_gem_sapphire_composite_claim.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_sapphire_composite_claim.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_sapphire_composite_claim.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_09.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 10,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_emerald",
+   "subtype": "all_models",
+   "previous": 9,
+   "next": 11,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_emerald_corner_chip",
+     "label_en": "Emerald corner chip",
+     "category": "gem_emerald",
+     "subtype": "all_models",
+     "example_asset_key": "gem_emerald_step",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_structure",
+     "reference": {
+      "layer": "items/gem_emerald_step/paper/intact.png",
+      "crop_px": [
+       207,
+       170,
+       287,
+       222
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_emerald_step/paper/corner_chip.png",
+      "crop_px": [
+       207,
+       170,
+       287,
+       222
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_emerald_corner_chip.heading",
+      "body": "sp4.handbook.sp4_gem_emerald_corner_chip.body",
+      "limits": "sp4.handbook.sp4_gem_emerald_corner_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_emerald_corner_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_emerald_corner_chip.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gem_emerald_open_fracture",
+     "label_en": "Emerald open fracture",
+     "category": "gem_emerald",
+     "subtype": "all_models",
+     "example_asset_key": "gem_emerald_step",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_structure",
+     "reference": {
+      "layer": "items/gem_emerald_step/paper/intact.png",
+      "crop_px": [
+       105,
+       108,
+       185,
+       160
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gem_emerald_step/paper/open_fracture.png",
+      "crop_px": [
+       105,
+       108,
+       185,
+       160
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_emerald_open_fracture.heading",
+      "body": "sp4.handbook.sp4_gem_emerald_open_fracture.body",
+      "limits": "sp4.handbook.sp4_gem_emerald_open_fracture.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_emerald_open_fracture.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_emerald_open_fracture.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_10.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 11,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_emerald",
+   "subtype": "all_models",
+   "previous": 10,
+   "next": 12,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_emerald_face_window",
+     "label_en": "Excessive face-up window",
+     "category": "gem_emerald",
+     "subtype": "all_models",
+     "example_asset_key": "gem_emerald_step",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_condition",
+     "reference": {
+      "layer": "items/gem_emerald_step/paper/intact.png",
+      "crop_px": [
+       113,
+       84,
+       273,
+       188
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_emerald_step/paper/face_window.png",
+      "crop_px": [
+       113,
+       84,
+       273,
+       188
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_emerald_face_window.heading",
+      "body": "sp4.handbook.sp4_gem_emerald_face_window.body",
+      "limits": "sp4.handbook.sp4_gem_emerald_face_window.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_emerald_face_window.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_emerald_face_window.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gem_emerald_filling_record",
+     "label_en": "Emerald filling record",
+     "category": "gem_emerald",
+     "subtype": "all_models",
+     "example_asset_key": "gem_emerald_step",
+     "view": "instrument_reading",
+     "instrument": "lab_report",
+     "repair_class": "none",
+     "economic_channel": "gem_treatment",
+     "reference": {
+      "layer": "items/gem_emerald_step/paper/intact.png",
+      "crop_px": null,
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gem_emerald_step/layers/paper/reading_example_filling_record.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_emerald_filling_record.heading",
+      "body": "sp4.handbook.sp4_gem_emerald_filling_record.body",
+      "limits": "sp4.handbook.sp4_gem_emerald_filling_record.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_emerald_filling_record.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_emerald_filling_record.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_11.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 12,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_emerald",
+   "subtype": "all_models",
+   "previous": 11,
+   "next": 13,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_emerald_imitation_record",
+     "label_en": "Emerald claim with imitation",
+     "category": "gem_emerald",
+     "subtype": "all_models",
+     "example_asset_key": "gem_emerald_step",
+     "view": "instrument_reading",
+     "instrument": "lab_report",
+     "repair_class": "none",
+     "economic_channel": "gem_identity",
+     "reference": {
+      "layer": "items/gem_emerald_step/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_emerald_step/layers/paper/reading_example_imitation_record.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_emerald_imitation_record.heading",
+      "body": "sp4.handbook.sp4_gem_emerald_imitation_record.body",
+      "limits": "sp4.handbook.sp4_gem_emerald_imitation_record.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_emerald_imitation_record.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_emerald_imitation_record.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_12.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 13,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_pearl",
+   "subtype": "all_models",
+   "previous": 12,
+   "next": 14,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_pearl_nacre_peel",
+     "label_en": "Pearl surface peeling",
+     "category": "gem_pearl",
+     "subtype": "all_models",
+     "example_asset_key": "gem_pearl_round",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_structure",
+     "reference": {
+      "layer": "items/gem_pearl_round/paper/intact.png",
+      "crop_px": [
+       112,
+       118,
+       192,
+       170
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_pearl_round/paper/nacre_peel.png",
+      "crop_px": [
+       112,
+       118,
+       192,
+       170
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_pearl_nacre_peel.heading",
+      "body": "sp4.handbook.sp4_gem_pearl_nacre_peel.body",
+      "limits": "sp4.handbook.sp4_gem_pearl_nacre_peel.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_pearl_nacre_peel.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_pearl_nacre_peel.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gem_pearl_drill_chip",
+     "label_en": "Pearl drill-edge chip",
+     "category": "gem_pearl",
+     "subtype": "all_models",
+     "example_asset_key": "gem_pearl_round",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_structure",
+     "reference": {
+      "layer": "items/gem_pearl_round/paper/intact.png",
+      "crop_px": [
+       178,
+       196,
+       218,
+       222
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gem_pearl_round/paper/drill_chip.png",
+      "crop_px": [
+       178,
+       196,
+       218,
+       222
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_pearl_drill_chip.heading",
+      "body": "sp4.handbook.sp4_gem_pearl_drill_chip.body",
+      "limits": "sp4.handbook.sp4_gem_pearl_drill_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_pearl_drill_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_pearl_drill_chip.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_13.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 14,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_pearl",
+   "subtype": "all_models",
+   "previous": 13,
+   "next": 15,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_pearl_surface_scratch",
+     "label_en": "Pearl surface scratch",
+     "category": "gem_pearl",
+     "subtype": "all_models",
+     "example_asset_key": "gem_pearl_round",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "gem_condition",
+     "reference": {
+      "layer": "items/gem_pearl_round/paper/intact.png",
+      "crop_px": [
+       198,
+       118,
+       278,
+       170
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_pearl_round/paper/surface_scratch.png",
+      "crop_px": [
+       198,
+       118,
+       278,
+       170
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_pearl_surface_scratch.heading",
+      "body": "sp4.handbook.sp4_gem_pearl_surface_scratch.body",
+      "limits": "sp4.handbook.sp4_gem_pearl_surface_scratch.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_pearl_surface_scratch.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_pearl_surface_scratch.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_gem_pearl_dull_patch",
+     "label_en": "Uneven pearl luster patch",
+     "category": "gem_pearl",
+     "subtype": "all_models",
+     "example_asset_key": "gem_pearl_round",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "none",
+     "economic_channel": "gem_condition",
+     "reference": {
+      "layer": "items/gem_pearl_round/paper/intact.png",
+      "crop_px": [
+       154,
+       106,
+       234,
+       158
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/gem_pearl_round/paper/dull_patch.png",
+      "crop_px": [
+       154,
+       106,
+       234,
+       158
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_pearl_dull_patch.heading",
+      "body": "sp4.handbook.sp4_gem_pearl_dull_patch.body",
+      "limits": "sp4.handbook.sp4_gem_pearl_dull_patch.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_pearl_dull_patch.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_pearl_dull_patch.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_14.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 15,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "gem_pearl",
+   "subtype": "all_models",
+   "previous": 14,
+   "next": 16,
+   "sections": [
+    {
+     "TemplateId": "sp4_gem_pearl_coated_imitation",
+     "label_en": "Pearl claim with coated imitation",
+     "category": "gem_pearl",
+     "subtype": "all_models",
+     "example_asset_key": "gem_pearl_round",
+     "view": "instrument_reading",
+     "instrument": "lab_report",
+     "repair_class": "none",
+     "economic_channel": "gem_identity",
+     "reference": {
+      "layer": "items/gem_pearl_round/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/gem_pearl_round/layers/paper/reading_example_coated_imitation.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_gem_pearl_coated_imitation.heading",
+      "body": "sp4.handbook.sp4_gem_pearl_coated_imitation.body",
+      "limits": "sp4.handbook.sp4_gem_pearl_coated_imitation.limits",
+      "reference_caption": "sp4.handbook.sp4_gem_pearl_coated_imitation.ref",
+      "problem_caption": "sp4.handbook.sp4_gem_pearl_coated_imitation.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_15.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 16,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_ring",
+   "subtype": "all_models",
+   "previous": 15,
+   "next": 17,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_ring_loose_prong",
+     "label_en": "Loose ring prong",
+     "category": "jewelry_ring",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_ring_solitaire",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "reseat",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/jewelry_ring_solitaire/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       190,
+       63,
+       230,
+       89
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_ring_solitaire/paper/au18k_diamond_round_loose_prong.png",
+      "crop_px": [
+       190,
+       63,
+       230,
+       89
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_ring_loose_prong.heading",
+      "body": "sp4.handbook.sp4_jewelry_ring_loose_prong.body",
+      "limits": "sp4.handbook.sp4_jewelry_ring_loose_prong.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_ring_loose_prong.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_ring_loose_prong.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jewelry_ring_shank_dent",
+     "label_en": "Dented setting shank",
+     "category": "jewelry_ring",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_ring_solitaire",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/jewelry_ring_solitaire/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       182,
+       219,
+       222,
+       245
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_ring_solitaire/paper/au18k_diamond_round_shank_dent.png",
+      "crop_px": [
+       182,
+       219,
+       222,
+       245
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_ring_shank_dent.heading",
+      "body": "sp4.handbook.sp4_jewelry_ring_shank_dent.body",
+      "limits": "sp4.handbook.sp4_jewelry_ring_shank_dent.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_ring_shank_dent.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_ring_shank_dent.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_16.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 17,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_ring",
+   "subtype": "all_models",
+   "previous": 16,
+   "next": 18,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_ring_missing_center",
+     "label_en": "Missing ring center stone",
+     "category": "jewelry_ring",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_ring_solitaire",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "replace_stone",
+     "economic_channel": "missing_component",
+     "reference": {
+      "layer": "items/jewelry_ring_solitaire/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       112,
+       7,
+       272,
+       111
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_ring_solitaire/paper/au18k_diamond_round_missing_center.png",
+      "crop_px": [
+       112,
+       7,
+       272,
+       111
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_ring_missing_center.heading",
+      "body": "sp4.handbook.sp4_jewelry_ring_missing_center.body",
+      "limits": "sp4.handbook.sp4_jewelry_ring_missing_center.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_ring_missing_center.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_ring_missing_center.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jewelry_ring_tool_scars",
+     "label_en": "Setting tool scars",
+     "category": "jewelry_ring",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_ring_solitaire",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "polish",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/jewelry_ring_solitaire/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       118,
+       117,
+       158,
+       143
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_ring_solitaire/paper/au18k_diamond_round_tool_scars.png",
+      "crop_px": [
+       118,
+       117,
+       158,
+       143
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_ring_tool_scars.heading",
+      "body": "sp4.handbook.sp4_jewelry_ring_tool_scars.body",
+      "limits": "sp4.handbook.sp4_jewelry_ring_tool_scars.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_ring_tool_scars.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_ring_tool_scars.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_17.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 18,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_ring",
+   "subtype": "all_models",
+   "previous": 17,
+   "next": 19,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_ring_old_resize",
+     "label_en": "Previous setting resize",
+     "category": "jewelry_ring",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_ring_solitaire",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/jewelry_ring_solitaire/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       122,
+       194,
+       162,
+       220
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_ring_solitaire/paper/au18k_diamond_round_old_resize.png",
+      "crop_px": [
+       122,
+       194,
+       162,
+       220
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_ring_old_resize.heading",
+      "body": "sp4.handbook.sp4_jewelry_ring_old_resize.body",
+      "limits": "sp4.handbook.sp4_jewelry_ring_old_resize.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_ring_old_resize.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_ring_old_resize.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_18.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 19,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_pendant",
+   "subtype": "all_models",
+   "previous": 18,
+   "next": 20,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_pendant_bail_gap",
+     "label_en": "Open pendant bail",
+     "category": "jewelry_pendant",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_pendant_bezel",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "weld",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/jewelry_pendant_bezel/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       187,
+       30,
+       227,
+       56
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_pendant_bezel/paper/au18k_diamond_round_bail_gap.png",
+      "crop_px": [
+       187,
+       30,
+       227,
+       56
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_pendant_bail_gap.heading",
+      "body": "sp4.handbook.sp4_jewelry_pendant_bail_gap.body",
+      "limits": "sp4.handbook.sp4_jewelry_pendant_bail_gap.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_pendant_bail_gap.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_pendant_bail_gap.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jewelry_pendant_lifted_bezel",
+     "label_en": "Lifted pendant retaining rim",
+     "category": "jewelry_pendant",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_pendant_bezel",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "reseat",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/jewelry_pendant_bezel/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       198,
+       109,
+       278,
+       161
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_pendant_bezel/paper/au18k_diamond_round_lifted_bezel.png",
+      "crop_px": [
+       198,
+       109,
+       278,
+       161
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_pendant_lifted_bezel.heading",
+      "body": "sp4.handbook.sp4_jewelry_pendant_lifted_bezel.body",
+      "limits": "sp4.handbook.sp4_jewelry_pendant_lifted_bezel.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_pendant_lifted_bezel.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_pendant_lifted_bezel.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_19.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 20,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_pendant",
+   "subtype": "all_models",
+   "previous": 19,
+   "next": 21,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_pendant_missing_insert",
+     "label_en": "Missing pendant stone",
+     "category": "jewelry_pendant",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_pendant_bezel",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "replace_stone",
+     "economic_channel": "missing_component",
+     "reference": {
+      "layer": "items/jewelry_pendant_bezel/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       112,
+       96,
+       272,
+       200
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_pendant_bezel/paper/au18k_diamond_round_missing_insert.png",
+      "crop_px": [
+       112,
+       96,
+       272,
+       200
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_pendant_missing_insert.heading",
+      "body": "sp4.handbook.sp4_jewelry_pendant_missing_insert.body",
+      "limits": "sp4.handbook.sp4_jewelry_pendant_missing_insert.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_pendant_missing_insert.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_pendant_missing_insert.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jewelry_pendant_rim_scrape",
+     "label_en": "Pendant rim scrape",
+     "category": "jewelry_pendant",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_pendant_bezel",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "polish",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/jewelry_pendant_bezel/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       131,
+       181,
+       171,
+       207
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_pendant_bezel/paper/au18k_diamond_round_rim_scrape.png",
+      "crop_px": [
+       131,
+       181,
+       171,
+       207
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_pendant_rim_scrape.heading",
+      "body": "sp4.handbook.sp4_jewelry_pendant_rim_scrape.body",
+      "limits": "sp4.handbook.sp4_jewelry_pendant_rim_scrape.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_pendant_rim_scrape.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_pendant_rim_scrape.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_20.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 21,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_pendant",
+   "subtype": "all_models",
+   "previous": 20,
+   "next": 22,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_pendant_bail_join",
+     "label_en": "Previous bail repair",
+     "category": "jewelry_pendant",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_pendant_bezel",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/jewelry_pendant_bezel/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       172,
+       60,
+       212,
+       86
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_pendant_bezel/paper/au18k_diamond_round_bail_join.png",
+      "crop_px": [
+       172,
+       60,
+       212,
+       86
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_pendant_bail_join.heading",
+      "body": "sp4.handbook.sp4_jewelry_pendant_bail_join.body",
+      "limits": "sp4.handbook.sp4_jewelry_pendant_bail_join.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_pendant_bail_join.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_pendant_bail_join.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_21.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 22,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_earrings",
+   "subtype": "all_models",
+   "previous": 21,
+   "next": 23,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_earrings_bent_post",
+     "label_en": "Bent left earring post",
+     "category": "jewelry_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_earrings_stud",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/jewelry_earrings_stud/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       124,
+       23,
+       204,
+       75
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_earrings_stud/paper/au18k_diamond_round_bent_post.png",
+      "crop_px": [
+       124,
+       23,
+       204,
+       75
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_earrings_bent_post.heading",
+      "body": "sp4.handbook.sp4_jewelry_earrings_bent_post.body",
+      "limits": "sp4.handbook.sp4_jewelry_earrings_bent_post.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_earrings_bent_post.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_earrings_bent_post.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jewelry_earrings_loose_back",
+     "label_en": "Loose right retaining back",
+     "category": "jewelry_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_earrings_stud",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "reseat",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/jewelry_earrings_stud/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       277,
+       46,
+       317,
+       72
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_earrings_stud/paper/au18k_diamond_round_loose_back.png",
+      "crop_px": [
+       277,
+       46,
+       317,
+       72
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_earrings_loose_back.heading",
+      "body": "sp4.handbook.sp4_jewelry_earrings_loose_back.body",
+      "limits": "sp4.handbook.sp4_jewelry_earrings_loose_back.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_earrings_loose_back.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_earrings_loose_back.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_22.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 23,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_earrings",
+   "subtype": "all_models",
+   "previous": 22,
+   "next": 24,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_earrings_missing_right",
+     "label_en": "Missing right earring stone",
+     "category": "jewelry_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_earrings_stud",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "replace_stone",
+     "economic_channel": "missing_component",
+     "reference": {
+      "layer": "items/jewelry_earrings_stud/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       167,
+       94,
+       327,
+       198
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_earrings_stud/paper/au18k_diamond_round_missing_right.png",
+      "crop_px": [
+       167,
+       94,
+       327,
+       198
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_earrings_missing_right.heading",
+      "body": "sp4.handbook.sp4_jewelry_earrings_missing_right.body",
+      "limits": "sp4.handbook.sp4_jewelry_earrings_missing_right.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_earrings_missing_right.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_earrings_missing_right.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jewelry_earrings_prong_gap",
+     "label_en": "Left earring retaining gap",
+     "category": "jewelry_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_earrings_stud",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "reseat",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/jewelry_earrings_stud/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       131,
+       150,
+       171,
+       176
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_earrings_stud/paper/au18k_diamond_round_prong_gap.png",
+      "crop_px": [
+       131,
+       150,
+       171,
+       176
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_earrings_prong_gap.heading",
+      "body": "sp4.handbook.sp4_jewelry_earrings_prong_gap.body",
+      "limits": "sp4.handbook.sp4_jewelry_earrings_prong_gap.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_earrings_prong_gap.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_earrings_prong_gap.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_23.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 24,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_earrings",
+   "subtype": "all_models",
+   "previous": 23,
+   "next": 25,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_earrings_post_join",
+     "label_en": "Previous right post join",
+     "category": "jewelry_earrings",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_earrings_stud",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/jewelry_earrings_stud/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       248,
+       92,
+       288,
+       118
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_earrings_stud/paper/au18k_diamond_round_post_join.png",
+      "crop_px": [
+       248,
+       92,
+       288,
+       118
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_earrings_post_join.heading",
+      "body": "sp4.handbook.sp4_jewelry_earrings_post_join.body",
+      "limits": "sp4.handbook.sp4_jewelry_earrings_post_join.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_earrings_post_join.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_earrings_post_join.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_24.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 25,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_bracelet",
+   "subtype": "all_models",
+   "previous": 24,
+   "next": 26,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+     "label_en": "Trilogy clasp gap",
+     "category": "jewelry_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_bracelet_trilogy",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "clasp_repair",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/jewelry_bracelet_trilogy/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       323,
+       114,
+       363,
+       140
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_bracelet_trilogy/paper/au18k_diamond_round_clasp_gap.png",
+      "crop_px": [
+       323,
+       114,
+       363,
+       140
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_bracelet_clasp_gap.heading",
+      "body": "sp4.handbook.sp4_jewelry_bracelet_clasp_gap.body",
+      "limits": "sp4.handbook.sp4_jewelry_bracelet_clasp_gap.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_bracelet_clasp_gap.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_bracelet_clasp_gap.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jewelry_bracelet_flat_link",
+     "label_en": "Flattened trilogy link",
+     "category": "jewelry_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_bracelet_trilogy",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/jewelry_bracelet_trilogy/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       112,
+       155,
+       152,
+       181
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_bracelet_trilogy/paper/au18k_diamond_round_flat_link.png",
+      "crop_px": [
+       112,
+       155,
+       152,
+       181
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_bracelet_flat_link.heading",
+      "body": "sp4.handbook.sp4_jewelry_bracelet_flat_link.body",
+      "limits": "sp4.handbook.sp4_jewelry_bracelet_flat_link.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_bracelet_flat_link.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_bracelet_flat_link.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_25.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 26,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_bracelet",
+   "subtype": "all_models",
+   "previous": 25,
+   "next": 27,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_bracelet_loose_center",
+     "label_en": "Loose center-stone retainer",
+     "category": "jewelry_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_bracelet_trilogy",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "reseat",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/jewelry_bracelet_trilogy/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       182,
+       143,
+       222,
+       169
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_bracelet_trilogy/paper/au18k_diamond_round_loose_center.png",
+      "crop_px": [
+       182,
+       143,
+       222,
+       169
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_bracelet_loose_center.heading",
+      "body": "sp4.handbook.sp4_jewelry_bracelet_loose_center.body",
+      "limits": "sp4.handbook.sp4_jewelry_bracelet_loose_center.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_bracelet_loose_center.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_bracelet_loose_center.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jewelry_bracelet_missing_left",
+     "label_en": "Missing left trilogy stone",
+     "category": "jewelry_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_bracelet_trilogy",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "replace_stone",
+     "economic_channel": "missing_component",
+     "reference": {
+      "layer": "items/jewelry_bracelet_trilogy/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       58,
+       125,
+       138,
+       177
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_bracelet_trilogy/paper/au18k_diamond_round_missing_left.png",
+      "crop_px": [
+       58,
+       125,
+       138,
+       177
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_bracelet_missing_left.heading",
+      "body": "sp4.handbook.sp4_jewelry_bracelet_missing_left.body",
+      "limits": "sp4.handbook.sp4_jewelry_bracelet_missing_left.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_bracelet_missing_left.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_bracelet_missing_left.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_26.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 27,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_bracelet",
+   "subtype": "all_models",
+   "previous": 26,
+   "next": 28,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_bracelet_link_join",
+     "label_en": "Previous trilogy-link repair",
+     "category": "jewelry_bracelet",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_bracelet_trilogy",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/jewelry_bracelet_trilogy/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       215,
+       149,
+       255,
+       175
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_bracelet_trilogy/paper/au18k_diamond_round_link_join.png",
+      "crop_px": [
+       215,
+       149,
+       255,
+       175
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_bracelet_link_join.heading",
+      "body": "sp4.handbook.sp4_jewelry_bracelet_link_join.body",
+      "limits": "sp4.handbook.sp4_jewelry_bracelet_link_join.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_bracelet_link_join.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_bracelet_link_join.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_27.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 28,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_necklace",
+   "subtype": "all_models",
+   "previous": 27,
+   "next": 29,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+     "label_en": "Twisted drop-necklace chain",
+     "category": "jewelry_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_necklace_drop",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "reshape",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/jewelry_necklace_drop/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       100,
+       132,
+       180,
+       184
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_necklace_drop/paper/au18k_diamond_round_twisted_chain.png",
+      "crop_px": [
+       100,
+       132,
+       180,
+       184
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_necklace_twisted_chain.heading",
+      "body": "sp4.handbook.sp4_jewelry_necklace_twisted_chain.body",
+      "limits": "sp4.handbook.sp4_jewelry_necklace_twisted_chain.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_necklace_twisted_chain.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_necklace_twisted_chain.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+     "label_en": "Open drop-necklace clasp",
+     "category": "jewelry_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_necklace_drop",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "clasp_repair",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/jewelry_necklace_drop/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       203,
+       46,
+       243,
+       72
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_necklace_drop/paper/au18k_diamond_round_clasp_gap.png",
+      "crop_px": [
+       203,
+       46,
+       243,
+       72
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_necklace_clasp_gap.heading",
+      "body": "sp4.handbook.sp4_jewelry_necklace_clasp_gap.body",
+      "limits": "sp4.handbook.sp4_jewelry_necklace_clasp_gap.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_necklace_clasp_gap.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_necklace_clasp_gap.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_28.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 29,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_necklace",
+   "subtype": "all_models",
+   "previous": 28,
+   "next": 30,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+     "label_en": "Loose drop retaining rim",
+     "category": "jewelry_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_necklace_drop",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "reseat",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/jewelry_necklace_drop/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       182,
+       198,
+       222,
+       224
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_necklace_drop/paper/au18k_diamond_round_drop_retainer.png",
+      "crop_px": [
+       182,
+       198,
+       222,
+       224
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_necklace_drop_retainer.heading",
+      "body": "sp4.handbook.sp4_jewelry_necklace_drop_retainer.body",
+      "limits": "sp4.handbook.sp4_jewelry_necklace_drop_retainer.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_necklace_drop_retainer.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_necklace_drop_retainer.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_jewelry_necklace_missing_drop",
+     "label_en": "Missing necklace drop stone",
+     "category": "jewelry_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_necklace_drop",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "replace_stone",
+     "economic_channel": "missing_component",
+     "reference": {
+      "layer": "items/jewelry_necklace_drop/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       151,
+       193,
+       231,
+       245
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_necklace_drop/paper/au18k_diamond_round_missing_drop.png",
+      "crop_px": [
+       151,
+       193,
+       231,
+       245
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_necklace_missing_drop.heading",
+      "body": "sp4.handbook.sp4_jewelry_necklace_missing_drop.body",
+      "limits": "sp4.handbook.sp4_jewelry_necklace_missing_drop.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_necklace_missing_drop.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_necklace_missing_drop.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_29.png"
+  },
+  {
+   "manual": "manual_jewelry",
+   "page": 30,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "jewelry_necklace",
+   "subtype": "all_models",
+   "previous": 29,
+   "next": null,
+   "sections": [
+    {
+     "TemplateId": "sp4_jewelry_necklace_repair_link",
+     "label_en": "Previous chain-link repair",
+     "category": "jewelry_necklace",
+     "subtype": "all_models",
+     "example_asset_key": "jewelry_necklace_drop",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/jewelry_necklace_drop/paper/au18k_diamond_round_intact.png",
+      "crop_px": [
+       126,
+       55,
+       166,
+       81
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/jewelry_necklace_drop/paper/au18k_diamond_round_repair_link.png",
+      "crop_px": [
+       126,
+       55,
+       166,
+       81
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_jewelry_necklace_repair_link.heading",
+      "body": "sp4.handbook.sp4_jewelry_necklace_repair_link.body",
+      "limits": "sp4.handbook.sp4_jewelry_necklace_repair_link.limits",
+      "reference_caption": "sp4.handbook.sp4_jewelry_necklace_repair_link.ref",
+      "problem_caption": "sp4.handbook.sp4_jewelry_necklace_repair_link.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_jewelry/pages/page_30.png"
+  }
+ ]
+}

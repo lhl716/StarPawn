@@ -381,75 +381,75 @@
  "template_checks": {
   "sp4_rough_black_hairline_skin_split": {
    "paper": {
-    "changed_px": 256,
+    "changed_px": 240,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      202,
-     72,
-     248,
-     108
+     74,
+     246,
+     104
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 64,
+    "changed_px": 60,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      69,
-     35,
-     93,
+     37,
+     91,
      52
     ]
    }
   },
   "sp4_rough_black_artificial_dark_skin": {
    "paper": {
-    "changed_px": 684,
+    "changed_px": 636,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     124,
-     162,
+     126,
+     160,
      164,
-     192
+     190
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 174,
+    "changed_px": 150,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     28,
-     82,
-     48,
-     97
+     32,
+     80,
+     49,
+     95
     ]
    }
   },
   "window_dou_sp4_rough_black_hairline_skin_split": {
    "paper": {
-    "changed_px": 256,
+    "changed_px": 240,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      202,
-     72,
-     248,
-     108
+     74,
+     246,
+     104
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 64,
+    "changed_px": 60,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      69,
-     35,
-     93,
+     37,
+     91,
      52
     ]
    }
@@ -468,113 +468,113 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 96,
+    "changed_px": 99,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      58,
      69,
      73,
-     82
+     81
     ]
    }
   },
   "window_dou_sp4_rough_black_white_vein": {
    "paper": {
-    "changed_px": 192,
+    "changed_px": 184,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      204,
      128,
      218,
-     168
+     166
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 52,
+    "changed_px": 46,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     71,
+     70,
      64,
-     78,
-     85
+     77,
+     83
     ]
    }
   },
   "window_dou_sp4_rough_black_artificial_dark_skin": {
    "paper": {
-    "changed_px": 684,
+    "changed_px": 636,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     124,
-     162,
+     126,
+     160,
      164,
-     192
+     190
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 174,
+    "changed_px": 150,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     28,
-     82,
-     48,
-     97
+     32,
+     80,
+     49,
+     95
     ]
    }
   },
   "window_dou_sp4_rough_black_plugged_window": {
    "paper": {
-    "changed_px": 348,
+    "changed_px": 260,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     178,
+     176,
      158,
-     212,
+     210,
      172
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 89,
+    "changed_px": 63,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      56,
-     80,
+     79,
      73,
-     87
+     86
     ]
    }
   },
   "window_nuo_sp4_rough_black_hairline_skin_split": {
    "paper": {
-    "changed_px": 256,
+    "changed_px": 240,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      202,
-     72,
-     248,
-     108
+     74,
+     246,
+     104
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 64,
+    "changed_px": 60,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      69,
-     35,
-     93,
+     37,
+     91,
      52
     ]
    }
@@ -593,113 +593,113 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 96,
+    "changed_px": 99,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      58,
      69,
      73,
-     82
+     81
     ]
    }
   },
   "window_nuo_sp4_rough_black_white_vein": {
    "paper": {
-    "changed_px": 192,
+    "changed_px": 184,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      204,
      128,
      218,
-     168
+     166
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 52,
+    "changed_px": 46,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     71,
+     70,
      64,
-     78,
-     85
+     77,
+     83
     ]
    }
   },
   "window_nuo_sp4_rough_black_artificial_dark_skin": {
    "paper": {
-    "changed_px": 684,
+    "changed_px": 636,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     124,
-     162,
+     126,
+     160,
      164,
-     192
+     190
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 174,
+    "changed_px": 150,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     28,
-     82,
-     48,
-     97
+     32,
+     80,
+     49,
+     95
     ]
    }
   },
   "window_nuo_sp4_rough_black_plugged_window": {
    "paper": {
-    "changed_px": 348,
+    "changed_px": 264,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     178,
+     176,
      158,
-     212,
+     210,
      172
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 90,
+    "changed_px": 63,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      56,
-     80,
+     79,
      73,
-     87
+     86
     ]
    }
   },
   "window_bing_sp4_rough_black_hairline_skin_split": {
    "paper": {
-    "changed_px": 256,
+    "changed_px": 240,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      202,
-     72,
-     248,
-     108
+     74,
+     246,
+     104
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 64,
+    "changed_px": 60,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      69,
-     35,
-     93,
+     37,
+     91,
      52
     ]
    }
@@ -718,89 +718,89 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 96,
+    "changed_px": 99,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      58,
      69,
      73,
-     82
+     81
     ]
    }
   },
   "window_bing_sp4_rough_black_white_vein": {
    "paper": {
-    "changed_px": 192,
+    "changed_px": 184,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      204,
      128,
      218,
-     168
+     166
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 52,
+    "changed_px": 46,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     71,
+     70,
      64,
-     78,
-     85
+     77,
+     83
     ]
    }
   },
   "window_bing_sp4_rough_black_artificial_dark_skin": {
    "paper": {
-    "changed_px": 684,
+    "changed_px": 636,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     124,
-     162,
+     126,
+     160,
      164,
-     192
+     190
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 174,
+    "changed_px": 150,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     28,
-     82,
-     48,
-     97
+     32,
+     80,
+     49,
+     95
     ]
    }
   },
   "window_bing_sp4_rough_black_plugged_window": {
    "paper": {
-    "changed_px": 348,
+    "changed_px": 280,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     178,
+     176,
      158,
-     212,
+     210,
      172
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 92,
+    "changed_px": 69,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      56,
-     80,
+     79,
      73,
-     87
+     86
     ]
    }
   }

@@ -248,7 +248,7 @@
   },
   "sp4_disc_label_resurface": {
    "paper": {
-    "changed_px": 328,
+    "changed_px": 532,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
@@ -260,7 +260,7 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 28,
+    "changed_px": 38,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [

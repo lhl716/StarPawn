@@ -148,22 +148,27 @@
   },
   "sp4_alloy_silver_bar_inhomogeneous_cast": {
    "paper": {
-    "changed_px": 4,
+    "changed_px": 800,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     232,
-     100,
-     234,
-     102
+     262,
+     90,
+     312,
+     106
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 0,
+    "changed_px": 102,
     "alpha_equal": true,
     "within_object": true,
-    "bounds": null
+    "bounds": [
+     88,
+     19,
+     105,
+     25
+    ]
    }
   },
   "sp4_alloy_silver_bar_edge_fissure": {

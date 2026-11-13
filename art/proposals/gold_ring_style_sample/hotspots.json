@@ -4,6 +4,7 @@
     256
   ],
   "origin": "top-left",
+  "coordinate_contract": "U,V = rectangle CENTER normalized to the image; Width,Height = full normalized size",
   "hotspots": [
     {
       "State": "worn_plating",
@@ -12,10 +13,16 @@
       "TemplateId": "metal_plating",
       "ViewId": "front",
       "InstrumentKind": "assay",
-      "U": 0.3229,
-      "V": 0.5703,
-      "Width": 0.2604,
-      "Height": 0.2422
+      "U": 0.453125,
+      "V": 0.69140625,
+      "Width": 0.2604166666666667,
+      "Height": 0.2421875,
+      "bounds_px": [
+        124,
+        146,
+        224,
+        208
+      ]
     },
     {
       "State": "cracked_band",
@@ -24,10 +31,16 @@
       "TemplateId": "metal_split",
       "ViewId": "front",
       "InstrumentKind": "",
-      "U": 0.5469,
-      "V": 0.5781,
-      "Width": 0.0729,
-      "Height": 0.2266
+      "U": 0.5833333333333334,
+      "V": 0.69140625,
+      "Width": 0.07291666666666667,
+      "Height": 0.2265625,
+      "bounds_px": [
+        210,
+        148,
+        238,
+        206
+      ]
     }
   ]
 }

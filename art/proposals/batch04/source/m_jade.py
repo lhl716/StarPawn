@@ -239,7 +239,7 @@ T = {
     "rough_yellow_chalk_cloud": [("stain", "win_l", dict(rx=0.11, ry=0.13, mat="quartz", dt=1))],
     "rough_yellow_black_grain_pocket": [("specks", "win_d", dict(n=7, sc=1, mat="slag", tone=2))],
     "rough_yellow_dyed_sand": [("stain", "a2", dict(rx=0.18, ry=0.12, mat="dye", dt=-1, dither="thin"))],
-    "rough_yellow_window_inlay": [("stripe", "win_rim_r", dict(L=0.3, ang=90, wid=0.03, flat=0)), ("stripe", "win_rim_d", dict(L=0.3, ang=0, wid=0.03, flat=0)), ("stain", "win_r", dict(rx=0.05, ry=0.1, dt=2, dither=False))],
+    "rough_yellow_window_inlay": [("stripe", "win_r", dict(L=0.34, ang=90, wid=0.03, flat=0)), ("stain", "win_rim_r", dict(rx=0.07, ry=0.14, dt=2, dither=False))],
     "rough_black_hairline_skin_split": [("crack", "a1", dict(L=0.5, ang=35, lip=3))],
     "rough_black_opaque_heart": [("stain", "win_c", dict(rx=0.13, ry=0.11, mat="slag", flat=3, dither=True))],
     "rough_black_white_vein": [("stripe", "win_r", dict(L=0.4, ang=75, wid=0.045, mat="quartz", flat=5))],
@@ -294,7 +294,7 @@ T = {
 
 M = {}
 for fam in ROUGH:
-    M["jade_rough_" + fam] = (rough, 1.08, 1.08, dict(family=fam))
+    M["jade_rough_" + fam] = (rough, 1.16, 1.1, dict(family=fam))
 for des in ("plain", "crafted"):
     M["jade_pendant_" + des] = (pendant, 0.7, 1.0, dict(design=des, tier="nuo"))
     M["jade_cabochon_" + des] = (cabochon, 1.0, 0.72, dict(design=des, tier="nuo"))

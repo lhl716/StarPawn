@@ -448,44 +448,44 @@
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     92,
+     94,
      102,
-     112,
+     114,
      132
     ]
    },
    "policy": "state_mask",
    "items": {
-    "changed_px": 135,
+    "changed_px": 99,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     12,
-     50,
-     23,
-     67
+     15,
+     51,
+     25,
+     66
     ]
    }
   },
   "sp4_rough_water_surface_color_wash": {
    "paper": {
-    "changed_px": 520,
+    "changed_px": 524,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     134,
+     136,
      118,
-     182,
+     186,
      148
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 132,
+    "changed_px": 130,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     35,
+     37,
      59,
      60,
      74
@@ -494,26 +494,26 @@
   },
   "sp4_rough_water_joined_cap": {
    "paper": {
-    "changed_px": 548,
+    "changed_px": 564,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     258,
+     254,
      126,
-     294,
+     292,
      180
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 162,
+    "changed_px": 136,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     98,
-     65,
-     118,
-     91
+     96,
+     64,
+     114,
+     89
     ]
    }
   },
@@ -523,94 +523,94 @@
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     92,
+     94,
      102,
-     112,
+     114,
      132
     ]
    },
    "policy": "state_mask",
    "items": {
-    "changed_px": 135,
+    "changed_px": 99,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     12,
-     50,
-     23,
-     67
+     15,
+     51,
+     25,
+     66
     ]
    }
   },
   "window_dou_sp4_rough_water_through_fracture": {
    "paper": {
-    "changed_px": 176,
+    "changed_px": 168,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     222,
-     110,
-     240,
+     220,
+     112,
+     238,
      142
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 46,
+    "changed_px": 42,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     79,
-     55,
-     88,
-     72
+     78,
+     56,
+     87,
+     71
     ]
    }
   },
   "window_dou_sp4_rough_water_fibrous_cloud": {
    "paper": {
-    "changed_px": 300,
+    "changed_px": 280,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      208,
-     102,
-     242,
-     118
+     104,
+     240,
+     122
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 79,
+    "changed_px": 68,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      71,
-     51,
-     89,
-     60
+     52,
+     87,
+     61
     ]
    }
   },
   "window_dou_sp4_rough_water_surface_color_wash": {
    "paper": {
-    "changed_px": 520,
+    "changed_px": 524,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     134,
+     136,
      118,
-     182,
+     186,
      148
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 132,
+    "changed_px": 130,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     35,
+     37,
      59,
      60,
      74
@@ -619,26 +619,26 @@
   },
   "window_dou_sp4_rough_water_joined_cap": {
    "paper": {
-    "changed_px": 548,
+    "changed_px": 564,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     258,
+     254,
      126,
-     294,
+     292,
      180
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 162,
+    "changed_px": 136,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     98,
-     65,
-     118,
-     91
+     96,
+     64,
+     114,
+     89
     ]
    }
   },
@@ -648,94 +648,94 @@
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     92,
+     94,
      102,
-     112,
+     114,
      132
     ]
    },
    "policy": "state_mask",
    "items": {
-    "changed_px": 135,
+    "changed_px": 99,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     12,
-     50,
-     23,
-     67
+     15,
+     51,
+     25,
+     66
     ]
    }
   },
   "window_nuo_sp4_rough_water_through_fracture": {
    "paper": {
-    "changed_px": 176,
+    "changed_px": 168,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     222,
-     110,
-     240,
+     220,
+     112,
+     238,
      142
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 46,
+    "changed_px": 42,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     79,
-     55,
-     88,
-     72
+     78,
+     56,
+     87,
+     71
     ]
    }
   },
   "window_nuo_sp4_rough_water_fibrous_cloud": {
    "paper": {
-    "changed_px": 300,
+    "changed_px": 280,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      208,
-     102,
-     242,
-     118
+     104,
+     240,
+     122
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 79,
+    "changed_px": 68,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      71,
-     51,
-     89,
-     60
+     52,
+     87,
+     61
     ]
    }
   },
   "window_nuo_sp4_rough_water_surface_color_wash": {
    "paper": {
-    "changed_px": 520,
+    "changed_px": 524,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     134,
+     136,
      118,
-     182,
+     186,
      148
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 132,
+    "changed_px": 130,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     35,
+     37,
      59,
      60,
      74
@@ -744,26 +744,26 @@
   },
   "window_nuo_sp4_rough_water_joined_cap": {
    "paper": {
-    "changed_px": 548,
+    "changed_px": 564,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     258,
+     254,
      126,
-     294,
+     292,
      180
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 162,
+    "changed_px": 136,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     98,
-     65,
-     118,
-     91
+     96,
+     64,
+     114,
+     89
     ]
    }
   },
@@ -773,94 +773,94 @@
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     92,
+     94,
      102,
-     112,
+     114,
      132
     ]
    },
    "policy": "state_mask",
    "items": {
-    "changed_px": 135,
+    "changed_px": 99,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     12,
-     50,
-     23,
-     67
+     15,
+     51,
+     25,
+     66
     ]
    }
   },
   "window_bing_sp4_rough_water_through_fracture": {
    "paper": {
-    "changed_px": 176,
+    "changed_px": 168,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     222,
-     110,
-     240,
+     220,
+     112,
+     238,
      142
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 46,
+    "changed_px": 42,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     79,
-     55,
-     88,
-     72
+     78,
+     56,
+     87,
+     71
     ]
    }
   },
   "window_bing_sp4_rough_water_fibrous_cloud": {
    "paper": {
-    "changed_px": 300,
+    "changed_px": 280,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      208,
-     102,
-     242,
-     118
+     104,
+     240,
+     122
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 79,
+    "changed_px": 68,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      71,
-     51,
-     89,
-     60
+     52,
+     87,
+     61
     ]
    }
   },
   "window_bing_sp4_rough_water_surface_color_wash": {
    "paper": {
-    "changed_px": 520,
+    "changed_px": 524,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     134,
+     136,
      118,
-     182,
+     186,
      148
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 132,
+    "changed_px": 130,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     35,
+     37,
      59,
      60,
      74
@@ -869,26 +869,26 @@
   },
   "window_bing_sp4_rough_water_joined_cap": {
    "paper": {
-    "changed_px": 548,
+    "changed_px": 564,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     258,
+     254,
      126,
-     294,
+     292,
      180
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 162,
+    "changed_px": 136,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     98,
-     65,
-     118,
-     91
+     96,
+     64,
+     114,
+     89
     ]
    }
   }

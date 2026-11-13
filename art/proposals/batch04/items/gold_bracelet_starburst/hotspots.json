@@ -50,14 +50,14 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.35546875,
+   "U": 0.3671875,
    "V": 0.828125,
-   "Width": 0.1171875,
+   "Width": 0.140625,
    "Height": 0.09375,
    "bounds_px": [
     38,
     50,
-    53,
+    56,
     56
    ]
   },
@@ -75,15 +75,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.8567708333333334,
-   "V": 0.44140625,
-   "Width": 0.078125,
-   "Height": 0.2890625,
+   "U": 0.875,
+   "V": 0.47265625,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
    "bounds_px": [
-    314,
-    76,
+    328,
+    106,
     344,
-    150
+    136
    ]
   },
   {
@@ -100,15 +100,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.87890625,
-   "V": 0.484375,
-   "Width": 0.0859375,
-   "Height": 0.40625,
+   "U": 0.8984375,
+   "V": 0.5625,
+   "Width": 0.046875,
+   "Height": 0.15625,
    "bounds_px": [
-    107,
-    18,
+    112,
+    31,
     118,
-    44
+    41
    ]
   },
   {
@@ -201,14 +201,14 @@
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
    "U": 0.53125,
-   "V": 0.0703125,
+   "V": 0.1796875,
    "Width": 0.28125,
    "Height": 0.078125,
    "bounds_px": [
     50,
-    2,
+    9,
     86,
-    7
+    14
    ]
   },
   {
@@ -300,14 +300,14 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.35546875,
+   "U": 0.3671875,
    "V": 0.828125,
-   "Width": 0.1171875,
+   "Width": 0.140625,
    "Height": 0.09375,
    "bounds_px": [
     38,
     50,
-    53,
+    56,
     56
    ]
   },
@@ -351,14 +351,14 @@
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
    "U": 0.53125,
-   "V": 0.0703125,
+   "V": 0.1796875,
    "Width": 0.28125,
    "Height": 0.078125,
    "bounds_px": [
     50,
-    2,
+    9,
     86,
-    7
+    14
    ]
   },
   {
@@ -400,14 +400,14 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.35546875,
+   "U": 0.3671875,
    "V": 0.828125,
-   "Width": 0.1171875,
+   "Width": 0.140625,
    "Height": 0.09375,
    "bounds_px": [
     38,
     50,
-    53,
+    56,
     56
    ]
   },
@@ -475,15 +475,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.8567708333333334,
-   "V": 0.44140625,
-   "Width": 0.078125,
-   "Height": 0.2890625,
+   "U": 0.875,
+   "V": 0.47265625,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
    "bounds_px": [
-    314,
-    76,
+    328,
+    106,
     344,
-    150
+    136
    ]
   },
   {
@@ -500,15 +500,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.87890625,
-   "V": 0.484375,
-   "Width": 0.0859375,
-   "Height": 0.40625,
+   "U": 0.8984375,
+   "V": 0.5625,
+   "Width": 0.046875,
+   "Height": 0.15625,
    "bounds_px": [
-    107,
-    18,
+    112,
+    31,
     118,
-    44
+    41
    ]
   },
   {
@@ -551,14 +551,14 @@
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
    "U": 0.53125,
-   "V": 0.0703125,
+   "V": 0.1796875,
    "Width": 0.28125,
    "Height": 0.078125,
    "bounds_px": [
     50,
-    2,
+    9,
     86,
-    7
+    14
    ]
   },
   {
@@ -600,14 +600,14 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.35546875,
+   "U": 0.3671875,
    "V": 0.828125,
-   "Width": 0.1171875,
+   "Width": 0.140625,
    "Height": 0.09375,
    "bounds_px": [
     38,
     50,
-    53,
+    56,
     56
    ]
   },
@@ -625,15 +625,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.8567708333333334,
-   "V": 0.44140625,
-   "Width": 0.078125,
-   "Height": 0.2890625,
+   "U": 0.875,
+   "V": 0.47265625,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
    "bounds_px": [
-    314,
-    76,
+    328,
+    106,
     344,
-    150
+    136
    ]
   },
   {
@@ -650,15 +650,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.87890625,
-   "V": 0.484375,
-   "Width": 0.0859375,
-   "Height": 0.40625,
+   "U": 0.8984375,
+   "V": 0.5625,
+   "Width": 0.046875,
+   "Height": 0.15625,
    "bounds_px": [
-    107,
-    18,
+    112,
+    31,
     118,
-    44
+    41
    ]
   },
   {
@@ -701,14 +701,14 @@
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
    "U": 0.53125,
-   "V": 0.0703125,
+   "V": 0.1796875,
    "Width": 0.28125,
    "Height": 0.078125,
    "bounds_px": [
     50,
-    2,
+    9,
     86,
-    7
+    14
    ]
   }
  ]

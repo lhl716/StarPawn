@@ -25,7 +25,7 @@ States (51):
   window_dou_combo__open_mountain_fissure__coarse_interior - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_coarse_interior
   window_dou_combo__open_mountain_fissure__black_band - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_black_band
   window_dou_combo__open_mountain_fissure__filled_shell_seam - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_filled_shell_seam
-  window_dou_combo__open_mountain_fissure__coarse_interior__black_band - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_coarse_interior, sp4_rough_mountain_black_band
+  window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_coarse_interior, sp4_rough_mountain_filled_shell_seam
   window_open_nuo
   cut_surface_nuo
   light_observation_nuo - planned light observation view, needs runtime integration
@@ -40,7 +40,7 @@ States (51):
   window_nuo_combo__open_mountain_fissure__coarse_interior - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_coarse_interior
   window_nuo_combo__open_mountain_fissure__black_band - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_black_band
   window_nuo_combo__open_mountain_fissure__filled_shell_seam - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_filled_shell_seam
-  window_nuo_combo__open_mountain_fissure__coarse_interior__black_band - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_coarse_interior, sp4_rough_mountain_black_band
+  window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_coarse_interior, sp4_rough_mountain_filled_shell_seam
   window_open_bing
   cut_surface_bing
   light_observation_bing - planned light observation view, needs runtime integration
@@ -55,7 +55,7 @@ States (51):
   window_bing_combo__open_mountain_fissure__coarse_interior - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_coarse_interior
   window_bing_combo__open_mountain_fissure__black_band - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_black_band
   window_bing_combo__open_mountain_fissure__filled_shell_seam - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_filled_shell_seam
-  window_bing_combo__open_mountain_fissure__coarse_interior__black_band - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_coarse_interior, sp4_rough_mountain_black_band
+  window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam - templates: sp4_rough_mountain_open_mountain_fissure, sp4_rough_mountain_coarse_interior, sp4_rough_mountain_filled_shell_seam
 
 Files: paper/, items/, layers/paper, layers/items, hotspots.json (center-based), combinations.json, manifest.json, comparison.png, source/generate.py.
 

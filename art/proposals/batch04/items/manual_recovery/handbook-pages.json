@@ -1,0 +1,1877 @@
+{
+ "manual": "manual_recovery",
+ "page_size": [
+  440,
+  616
+ ],
+ "page_count": 25,
+ "style_spec": "art/VANILLA_HANDBOOK_SPEC_04.txt",
+ "pages": [
+  {
+   "manual": "manual_recovery",
+   "page": 0,
+   "kind": "index",
+   "template": "ui/handbook_page/index.png",
+   "previous": null,
+   "next": 1,
+   "entries": [
+    {
+     "category": "refined_gold_bar",
+     "subtype": "all_models",
+     "first_page": 1,
+     "loc_key": "sp4.handbook.manual_recovery.index.refined_gold_bar.all_models"
+    },
+    {
+     "category": "refined_silver_bar",
+     "subtype": "all_models",
+     "first_page": 4,
+     "loc_key": "sp4.handbook.manual_recovery.index.refined_silver_bar.all_models"
+    },
+    {
+     "category": "refined_copper_ingot",
+     "subtype": "all_models",
+     "first_page": 7,
+     "loc_key": "sp4.handbook.manual_recovery.index.refined_copper_ingot.all_models"
+    },
+    {
+     "category": "ore_gold",
+     "subtype": "all_models",
+     "first_page": 10,
+     "loc_key": "sp4.handbook.manual_recovery.index.ore_gold.all_models"
+    },
+    {
+     "category": "ore_silver",
+     "subtype": "all_models",
+     "first_page": 13,
+     "loc_key": "sp4.handbook.manual_recovery.index.ore_silver.all_models"
+    },
+    {
+     "category": "ore_copper",
+     "subtype": "all_models",
+     "first_page": 16,
+     "loc_key": "sp4.handbook.manual_recovery.index.ore_copper.all_models"
+    },
+    {
+     "category": "alloy_gold_bar",
+     "subtype": "all_models",
+     "first_page": 19,
+     "loc_key": "sp4.handbook.manual_recovery.index.alloy_gold_bar.all_models"
+    },
+    {
+     "category": "alloy_silver_bar",
+     "subtype": "all_models",
+     "first_page": 22,
+     "loc_key": "sp4.handbook.manual_recovery.index.alloy_silver_bar.all_models"
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_00.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 1,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "refined_gold_bar",
+   "subtype": "all_models",
+   "previous": 0,
+   "next": 2,
+   "sections": [
+    {
+     "TemplateId": "sp4_refined_gold_bar_purity_shortfall",
+     "label_en": "Refined-gold purity shortfall",
+     "category": "refined_gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "refined_gold_bar",
+     "view": "instrument_reading",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/refined_gold_bar/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/refined_gold_bar/layers/paper/reading_example_purity_shortfall.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_gold_bar_purity_shortfall.heading",
+      "body": "sp4.handbook.sp4_refined_gold_bar_purity_shortfall.body",
+      "limits": "sp4.handbook.sp4_refined_gold_bar_purity_shortfall.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_gold_bar_purity_shortfall.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_gold_bar_purity_shortfall.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_refined_gold_bar_cast_pores",
+     "label_en": "Gold casting pores",
+     "category": "refined_gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "refined_gold_bar",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "recast",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/refined_gold_bar/paper/intact.png",
+      "crop_px": [
+       108,
+       80,
+       148,
+       106
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/refined_gold_bar/paper/cast_pores.png",
+      "crop_px": [
+       108,
+       80,
+       148,
+       106
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_gold_bar_cast_pores.heading",
+      "body": "sp4.handbook.sp4_refined_gold_bar_cast_pores.body",
+      "limits": "sp4.handbook.sp4_refined_gold_bar_cast_pores.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_gold_bar_cast_pores.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_gold_bar_cast_pores.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_01.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 2,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "refined_gold_bar",
+   "subtype": "all_models",
+   "previous": 1,
+   "next": 3,
+   "sections": [
+    {
+     "TemplateId": "sp4_refined_gold_bar_slag_inclusion",
+     "label_en": "Gold slag inclusion",
+     "category": "refined_gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "refined_gold_bar",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "rerefine",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/refined_gold_bar/paper/intact.png",
+      "crop_px": [
+       223,
+       153,
+       263,
+       179
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/refined_gold_bar/paper/slag_inclusion.png",
+      "crop_px": [
+       223,
+       153,
+       263,
+       179
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_gold_bar_slag_inclusion.heading",
+      "body": "sp4.handbook.sp4_refined_gold_bar_slag_inclusion.body",
+      "limits": "sp4.handbook.sp4_refined_gold_bar_slag_inclusion.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_gold_bar_slag_inclusion.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_gold_bar_slag_inclusion.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_refined_gold_bar_short_pour",
+     "label_en": "Short-poured gold bar",
+     "category": "refined_gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "refined_gold_bar",
+     "view": "instrument_reading",
+     "instrument": "scale",
+     "repair_class": "none",
+     "economic_channel": "mass_disclosure",
+     "reference": {
+      "layer": "items/refined_gold_bar/paper/intact.png",
+      "crop_px": null,
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/refined_gold_bar/layers/paper/reading_example_short_pour.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_gold_bar_short_pour.heading",
+      "body": "sp4.handbook.sp4_refined_gold_bar_short_pour.body",
+      "limits": "sp4.handbook.sp4_refined_gold_bar_short_pour.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_gold_bar_short_pour.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_gold_bar_short_pour.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_02.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 3,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "refined_gold_bar",
+   "subtype": "all_models",
+   "previous": 2,
+   "next": 4,
+   "sections": [
+    {
+     "TemplateId": "sp4_refined_gold_bar_traceability_mismatch",
+     "label_en": "Gold batch-mark mismatch",
+     "category": "refined_gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "refined_gold_bar",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "identity_disclosure",
+     "reference": {
+      "layer": "items/refined_gold_bar/paper/intact.png",
+      "crop_px": [
+       137,
+       92,
+       177,
+       118
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/refined_gold_bar/paper/traceability_mismatch.png",
+      "crop_px": [
+       137,
+       92,
+       177,
+       118
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_gold_bar_traceability_mismatch.heading",
+      "body": "sp4.handbook.sp4_refined_gold_bar_traceability_mismatch.body",
+      "limits": "sp4.handbook.sp4_refined_gold_bar_traceability_mismatch.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_gold_bar_traceability_mismatch.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_gold_bar_traceability_mismatch.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_03.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 4,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "refined_silver_bar",
+   "subtype": "all_models",
+   "previous": 3,
+   "next": 5,
+   "sections": [
+    {
+     "TemplateId": "sp4_refined_silver_bar_assay_deficit",
+     "label_en": "Refined-silver assay deficit",
+     "category": "refined_silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "refined_silver_bar",
+     "view": "instrument_reading",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/refined_silver_bar/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/refined_silver_bar/layers/paper/reading_example_assay_deficit.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_silver_bar_assay_deficit.heading",
+      "body": "sp4.handbook.sp4_refined_silver_bar_assay_deficit.body",
+      "limits": "sp4.handbook.sp4_refined_silver_bar_assay_deficit.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_silver_bar_assay_deficit.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_silver_bar_assay_deficit.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_refined_silver_bar_shrink_cavity",
+     "label_en": "Silver shrink cavity",
+     "category": "refined_silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "refined_silver_bar",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "recast",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/refined_silver_bar/paper/intact.png",
+      "crop_px": [
+       183,
+       74,
+       223,
+       100
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/refined_silver_bar/paper/shrink_cavity.png",
+      "crop_px": [
+       183,
+       74,
+       223,
+       100
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_silver_bar_shrink_cavity.heading",
+      "body": "sp4.handbook.sp4_refined_silver_bar_shrink_cavity.body",
+      "limits": "sp4.handbook.sp4_refined_silver_bar_shrink_cavity.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_silver_bar_shrink_cavity.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_silver_bar_shrink_cavity.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_04.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 5,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "refined_silver_bar",
+   "subtype": "all_models",
+   "previous": 4,
+   "next": 6,
+   "sections": [
+    {
+     "TemplateId": "sp4_refined_silver_bar_slag_seam",
+     "label_en": "Silver slag seam",
+     "category": "refined_silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "refined_silver_bar",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "rerefine",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/refined_silver_bar/paper/intact.png",
+      "crop_px": [
+       93,
+       127,
+       253,
+       231
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/refined_silver_bar/paper/slag_seam.png",
+      "crop_px": [
+       93,
+       127,
+       253,
+       231
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_silver_bar_slag_seam.heading",
+      "body": "sp4.handbook.sp4_refined_silver_bar_slag_seam.body",
+      "limits": "sp4.handbook.sp4_refined_silver_bar_slag_seam.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_silver_bar_slag_seam.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_silver_bar_slag_seam.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_refined_silver_bar_short_mass",
+     "label_en": "Short-mass silver casting",
+     "category": "refined_silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "refined_silver_bar",
+     "view": "instrument_reading",
+     "instrument": "scale",
+     "repair_class": "none",
+     "economic_channel": "mass_disclosure",
+     "reference": {
+      "layer": "items/refined_silver_bar/paper/intact.png",
+      "crop_px": null,
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/refined_silver_bar/layers/paper/reading_example_short_mass.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_silver_bar_short_mass.heading",
+      "body": "sp4.handbook.sp4_refined_silver_bar_short_mass.body",
+      "limits": "sp4.handbook.sp4_refined_silver_bar_short_mass.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_silver_bar_short_mass.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_silver_bar_short_mass.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_05.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 6,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "refined_silver_bar",
+   "subtype": "all_models",
+   "previous": 5,
+   "next": 7,
+   "sections": [
+    {
+     "TemplateId": "sp4_refined_silver_bar_batch_restrike",
+     "label_en": "Restruck silver batch mark",
+     "category": "refined_silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "refined_silver_bar",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "identity_disclosure",
+     "reference": {
+      "layer": "items/refined_silver_bar/paper/intact.png",
+      "crop_px": [
+       137,
+       86,
+       177,
+       112
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/refined_silver_bar/paper/batch_restrike.png",
+      "crop_px": [
+       137,
+       86,
+       177,
+       112
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_silver_bar_batch_restrike.heading",
+      "body": "sp4.handbook.sp4_refined_silver_bar_batch_restrike.body",
+      "limits": "sp4.handbook.sp4_refined_silver_bar_batch_restrike.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_silver_bar_batch_restrike.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_silver_bar_batch_restrike.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_06.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 7,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "refined_copper_ingot",
+   "subtype": "all_models",
+   "previous": 6,
+   "next": 8,
+   "sections": [
+    {
+     "TemplateId": "sp4_refined_copper_ingot_low_copper_fraction",
+     "label_en": "Copper ingot composition shortfall",
+     "category": "refined_copper_ingot",
+     "subtype": "all_models",
+     "example_asset_key": "refined_copper_ingot",
+     "view": "instrument_reading",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/refined_copper_ingot/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/refined_copper_ingot/layers/paper/reading_example_low_copper_fraction.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_copper_ingot_low_copper_fraction.heading",
+      "body": "sp4.handbook.sp4_refined_copper_ingot_low_copper_fraction.body",
+      "limits": "sp4.handbook.sp4_refined_copper_ingot_low_copper_fraction.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_copper_ingot_low_copper_fraction.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_copper_ingot_low_copper_fraction.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_refined_copper_ingot_cast_lap",
+     "label_en": "Copper casting lap",
+     "category": "refined_copper_ingot",
+     "subtype": "all_models",
+     "example_asset_key": "refined_copper_ingot",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "recast",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/refined_copper_ingot/paper/intact.png",
+      "crop_px": [
+       216,
+       141,
+       296,
+       193
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/refined_copper_ingot/paper/cast_lap.png",
+      "crop_px": [
+       216,
+       141,
+       296,
+       193
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_copper_ingot_cast_lap.heading",
+      "body": "sp4.handbook.sp4_refined_copper_ingot_cast_lap.body",
+      "limits": "sp4.handbook.sp4_refined_copper_ingot_cast_lap.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_copper_ingot_cast_lap.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_copper_ingot_cast_lap.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_07.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 8,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "refined_copper_ingot",
+   "subtype": "all_models",
+   "previous": 7,
+   "next": 9,
+   "sections": [
+    {
+     "TemplateId": "sp4_refined_copper_ingot_trapped_slag",
+     "label_en": "Copper trapped slag",
+     "category": "refined_copper_ingot",
+     "subtype": "all_models",
+     "example_asset_key": "refined_copper_ingot",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "rerefine",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/refined_copper_ingot/paper/intact.png",
+      "crop_px": [
+       102,
+       79,
+       142,
+       105
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/refined_copper_ingot/paper/trapped_slag.png",
+      "crop_px": [
+       102,
+       79,
+       142,
+       105
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_copper_ingot_trapped_slag.heading",
+      "body": "sp4.handbook.sp4_refined_copper_ingot_trapped_slag.body",
+      "limits": "sp4.handbook.sp4_refined_copper_ingot_trapped_slag.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_copper_ingot_trapped_slag.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_copper_ingot_trapped_slag.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_refined_copper_ingot_short_fill",
+     "label_en": "Short-filled copper ingot",
+     "category": "refined_copper_ingot",
+     "subtype": "all_models",
+     "example_asset_key": "refined_copper_ingot",
+     "view": "instrument_reading",
+     "instrument": "scale",
+     "repair_class": "none",
+     "economic_channel": "mass_disclosure",
+     "reference": {
+      "layer": "items/refined_copper_ingot/paper/intact.png",
+      "crop_px": null,
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/refined_copper_ingot/layers/paper/reading_example_short_fill.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_copper_ingot_short_fill.heading",
+      "body": "sp4.handbook.sp4_refined_copper_ingot_short_fill.body",
+      "limits": "sp4.handbook.sp4_refined_copper_ingot_short_fill.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_copper_ingot_short_fill.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_copper_ingot_short_fill.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_08.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 9,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "refined_copper_ingot",
+   "subtype": "all_models",
+   "previous": 8,
+   "next": 10,
+   "sections": [
+    {
+     "TemplateId": "sp4_refined_copper_ingot_misidentified_batch",
+     "label_en": "Misidentified copper batch",
+     "category": "refined_copper_ingot",
+     "subtype": "all_models",
+     "example_asset_key": "refined_copper_ingot",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "identity_disclosure",
+     "reference": {
+      "layer": "items/refined_copper_ingot/paper/intact.png",
+      "crop_px": [
+       47,
+       154,
+       87,
+       180
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/refined_copper_ingot/paper/misidentified_batch.png",
+      "crop_px": [
+       47,
+       154,
+       87,
+       180
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_refined_copper_ingot_misidentified_batch.heading",
+      "body": "sp4.handbook.sp4_refined_copper_ingot_misidentified_batch.body",
+      "limits": "sp4.handbook.sp4_refined_copper_ingot_misidentified_batch.limits",
+      "reference_caption": "sp4.handbook.sp4_refined_copper_ingot_misidentified_batch.ref",
+      "problem_caption": "sp4.handbook.sp4_refined_copper_ingot_misidentified_batch.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_09.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 10,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "ore_gold",
+   "subtype": "all_models",
+   "previous": 9,
+   "next": 11,
+   "sections": [
+    {
+     "TemplateId": "sp4_ore_gold_low_gold_grade",
+     "label_en": "Low gold-ore grade",
+     "category": "ore_gold",
+     "subtype": "all_models",
+     "example_asset_key": "ore_gold",
+     "view": "instrument_reading",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/ore_gold/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/ore_gold/layers/paper/reading_example_low_gold_grade.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_gold_low_gold_grade.heading",
+      "body": "sp4.handbook.sp4_ore_gold_low_gold_grade.body",
+      "limits": "sp4.handbook.sp4_ore_gold_low_gold_grade.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_gold_low_gold_grade.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_gold_low_gold_grade.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_ore_gold_waste_rock_band",
+     "label_en": "Gold-ore waste-rock band",
+     "category": "ore_gold",
+     "subtype": "all_models",
+     "example_asset_key": "ore_gold",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/ore_gold/paper/intact.png",
+      "crop_px": [
+       133,
+       55,
+       293,
+       159
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/ore_gold/paper/waste_rock_band.png",
+      "crop_px": [
+       133,
+       55,
+       293,
+       159
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_gold_waste_rock_band.heading",
+      "body": "sp4.handbook.sp4_ore_gold_waste_rock_band.body",
+      "limits": "sp4.handbook.sp4_ore_gold_waste_rock_band.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_gold_waste_rock_band.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_gold_waste_rock_band.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_10.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 11,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "ore_gold",
+   "subtype": "all_models",
+   "previous": 10,
+   "next": 12,
+   "sections": [
+    {
+     "TemplateId": "sp4_ore_gold_surface_gilding",
+     "label_en": "Gilded gold-ore surface",
+     "category": "ore_gold",
+     "subtype": "all_models",
+     "example_asset_key": "ore_gold",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/ore_gold/paper/intact.png",
+      "crop_px": [
+       162,
+       39,
+       242,
+       91
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/ore_gold/paper/surface_gilding.png",
+      "crop_px": [
+       162,
+       39,
+       242,
+       91
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_gold_surface_gilding.heading",
+      "body": "sp4.handbook.sp4_ore_gold_surface_gilding.body",
+      "limits": "sp4.handbook.sp4_ore_gold_surface_gilding.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_gold_surface_gilding.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_gold_surface_gilding.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_ore_gold_added_weight",
+     "label_en": "Weighted gold-ore lot",
+     "category": "ore_gold",
+     "subtype": "all_models",
+     "example_asset_key": "ore_gold",
+     "view": "front",
+     "instrument": "scale",
+     "repair_class": "none",
+     "economic_channel": "mass_disclosure",
+     "reference": {
+      "layer": "items/ore_gold/paper/intact.png",
+      "crop_px": [
+       122,
+       95,
+       202,
+       147
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/ore_gold/paper/added_weight.png",
+      "crop_px": [
+       122,
+       95,
+       202,
+       147
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_gold_added_weight.heading",
+      "body": "sp4.handbook.sp4_ore_gold_added_weight.body",
+      "limits": "sp4.handbook.sp4_ore_gold_added_weight.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_gold_added_weight.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_gold_added_weight.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_11.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 12,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "ore_gold",
+   "subtype": "all_models",
+   "previous": 11,
+   "next": 13,
+   "sections": [
+    {
+     "TemplateId": "sp4_ore_gold_mislabelled_origin",
+     "label_en": "Gold-ore origin mismatch",
+     "category": "ore_gold",
+     "subtype": "all_models",
+     "example_asset_key": "ore_gold",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "identity_disclosure",
+     "reference": {
+      "layer": "items/ore_gold/paper/intact.png",
+      "crop_px": [
+       39,
+       170,
+       79,
+       196
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/ore_gold/paper/mislabelled_origin.png",
+      "crop_px": [
+       39,
+       170,
+       79,
+       196
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_gold_mislabelled_origin.heading",
+      "body": "sp4.handbook.sp4_ore_gold_mislabelled_origin.body",
+      "limits": "sp4.handbook.sp4_ore_gold_mislabelled_origin.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_gold_mislabelled_origin.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_gold_mislabelled_origin.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_12.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 13,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "ore_silver",
+   "subtype": "all_models",
+   "previous": 12,
+   "next": 14,
+   "sections": [
+    {
+     "TemplateId": "sp4_ore_silver_low_silver_grade",
+     "label_en": "Low silver-ore grade",
+     "category": "ore_silver",
+     "subtype": "all_models",
+     "example_asset_key": "ore_silver",
+     "view": "instrument_reading",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/ore_silver/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/ore_silver/layers/paper/reading_example_low_silver_grade.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_silver_low_silver_grade.heading",
+      "body": "sp4.handbook.sp4_ore_silver_low_silver_grade.body",
+      "limits": "sp4.handbook.sp4_ore_silver_low_silver_grade.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_silver_low_silver_grade.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_silver_low_silver_grade.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_ore_silver_coarse_gangue",
+     "label_en": "Silver-ore coarse gangue",
+     "category": "ore_silver",
+     "subtype": "all_models",
+     "example_asset_key": "ore_silver",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/ore_silver/paper/intact.png",
+      "crop_px": [
+       17,
+       65,
+       177,
+       169
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/ore_silver/paper/coarse_gangue.png",
+      "crop_px": [
+       17,
+       65,
+       177,
+       169
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_silver_coarse_gangue.heading",
+      "body": "sp4.handbook.sp4_ore_silver_coarse_gangue.body",
+      "limits": "sp4.handbook.sp4_ore_silver_coarse_gangue.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_silver_coarse_gangue.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_silver_coarse_gangue.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_13.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 14,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "ore_silver",
+   "subtype": "all_models",
+   "previous": 13,
+   "next": 15,
+   "sections": [
+    {
+     "TemplateId": "sp4_ore_silver_painted_sheen",
+     "label_en": "Painted silver-ore sheen",
+     "category": "ore_silver",
+     "subtype": "all_models",
+     "example_asset_key": "ore_silver",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/ore_silver/paper/intact.png",
+      "crop_px": [
+       162,
+       39,
+       242,
+       91
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/ore_silver/paper/painted_sheen.png",
+      "crop_px": [
+       162,
+       39,
+       242,
+       91
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_silver_painted_sheen.heading",
+      "body": "sp4.handbook.sp4_ore_silver_painted_sheen.body",
+      "limits": "sp4.handbook.sp4_ore_silver_painted_sheen.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_silver_painted_sheen.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_silver_painted_sheen.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_ore_silver_moisture_mass",
+     "label_en": "Wet silver-ore lot",
+     "category": "ore_silver",
+     "subtype": "all_models",
+     "example_asset_key": "ore_silver",
+     "view": "front",
+     "instrument": "scale",
+     "repair_class": "none",
+     "economic_channel": "mass_disclosure",
+     "reference": {
+      "layer": "items/ore_silver/paper/intact.png",
+      "crop_px": [
+       143,
+       131,
+       303,
+       235
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/ore_silver/paper/moisture_mass.png",
+      "crop_px": [
+       143,
+       131,
+       303,
+       235
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_silver_moisture_mass.heading",
+      "body": "sp4.handbook.sp4_ore_silver_moisture_mass.body",
+      "limits": "sp4.handbook.sp4_ore_silver_moisture_mass.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_silver_moisture_mass.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_silver_moisture_mass.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_14.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 15,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "ore_silver",
+   "subtype": "all_models",
+   "previous": 14,
+   "next": 16,
+   "sections": [
+    {
+     "TemplateId": "sp4_ore_silver_mixed_source",
+     "label_en": "Mixed silver-ore source",
+     "category": "ore_silver",
+     "subtype": "all_models",
+     "example_asset_key": "ore_silver",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "identity_disclosure",
+     "reference": {
+      "layer": "items/ore_silver/paper/intact.png",
+      "crop_px": [
+       223,
+       65,
+       383,
+       169
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/ore_silver/paper/mixed_source.png",
+      "crop_px": [
+       223,
+       65,
+       383,
+       169
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_silver_mixed_source.heading",
+      "body": "sp4.handbook.sp4_ore_silver_mixed_source.body",
+      "limits": "sp4.handbook.sp4_ore_silver_mixed_source.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_silver_mixed_source.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_silver_mixed_source.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_15.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 16,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "ore_copper",
+   "subtype": "all_models",
+   "previous": 15,
+   "next": 17,
+   "sections": [
+    {
+     "TemplateId": "sp4_ore_copper_low_copper_grade",
+     "label_en": "Low copper-ore grade",
+     "category": "ore_copper",
+     "subtype": "all_models",
+     "example_asset_key": "ore_copper",
+     "view": "instrument_reading",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/ore_copper/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/ore_copper/layers/paper/reading_example_low_copper_grade.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_copper_low_copper_grade.heading",
+      "body": "sp4.handbook.sp4_ore_copper_low_copper_grade.body",
+      "limits": "sp4.handbook.sp4_ore_copper_low_copper_grade.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_copper_low_copper_grade.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_copper_low_copper_grade.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_ore_copper_barren_matrix",
+     "label_en": "Copper-ore barren matrix",
+     "category": "ore_copper",
+     "subtype": "all_models",
+     "example_asset_key": "ore_copper",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/ore_copper/paper/intact.png",
+      "crop_px": [
+       132,
+       55,
+       292,
+       159
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/ore_copper/paper/barren_matrix.png",
+      "crop_px": [
+       132,
+       55,
+       292,
+       159
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_copper_barren_matrix.heading",
+      "body": "sp4.handbook.sp4_ore_copper_barren_matrix.body",
+      "limits": "sp4.handbook.sp4_ore_copper_barren_matrix.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_copper_barren_matrix.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_copper_barren_matrix.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_16.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 17,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "ore_copper",
+   "subtype": "all_models",
+   "previous": 16,
+   "next": 18,
+   "sections": [
+    {
+     "TemplateId": "sp4_ore_copper_applied_green_coating",
+     "label_en": "Applied copper-ore coating",
+     "category": "ore_copper",
+     "subtype": "all_models",
+     "example_asset_key": "ore_copper",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/ore_copper/paper/intact.png",
+      "crop_px": [
+       75,
+       71,
+       155,
+       123
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/ore_copper/paper/applied_green_coating.png",
+      "crop_px": [
+       75,
+       71,
+       155,
+       123
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_copper_applied_green_coating.heading",
+      "body": "sp4.handbook.sp4_ore_copper_applied_green_coating.body",
+      "limits": "sp4.handbook.sp4_ore_copper_applied_green_coating.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_copper_applied_green_coating.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_copper_applied_green_coating.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_ore_copper_foreign_aggregate",
+     "label_en": "Foreign aggregate in copper lot",
+     "category": "ore_copper",
+     "subtype": "all_models",
+     "example_asset_key": "ore_copper",
+     "view": "front",
+     "instrument": "scale",
+     "repair_class": "none",
+     "economic_channel": "mass_disclosure",
+     "reference": {
+      "layer": "items/ore_copper/paper/intact.png",
+      "crop_px": [
+       264,
+       104,
+       344,
+       156
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/ore_copper/paper/foreign_aggregate.png",
+      "crop_px": [
+       264,
+       104,
+       344,
+       156
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_copper_foreign_aggregate.heading",
+      "body": "sp4.handbook.sp4_ore_copper_foreign_aggregate.body",
+      "limits": "sp4.handbook.sp4_ore_copper_foreign_aggregate.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_copper_foreign_aggregate.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_copper_foreign_aggregate.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_17.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 18,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "ore_copper",
+   "subtype": "all_models",
+   "previous": 17,
+   "next": 19,
+   "sections": [
+    {
+     "TemplateId": "sp4_ore_copper_source_tag_mismatch",
+     "label_en": "Copper-ore source-tag mismatch",
+     "category": "ore_copper",
+     "subtype": "all_models",
+     "example_asset_key": "ore_copper",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "identity_disclosure",
+     "reference": {
+      "layer": "items/ore_copper/paper/intact.png",
+      "crop_px": [
+       39,
+       170,
+       79,
+       196
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/ore_copper/paper/source_tag_mismatch.png",
+      "crop_px": [
+       39,
+       170,
+       79,
+       196
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_ore_copper_source_tag_mismatch.heading",
+      "body": "sp4.handbook.sp4_ore_copper_source_tag_mismatch.body",
+      "limits": "sp4.handbook.sp4_ore_copper_source_tag_mismatch.limits",
+      "reference_caption": "sp4.handbook.sp4_ore_copper_source_tag_mismatch.ref",
+      "problem_caption": "sp4.handbook.sp4_ore_copper_source_tag_mismatch.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_18.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 19,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "alloy_gold_bar",
+   "subtype": "all_models",
+   "previous": 18,
+   "next": 20,
+   "sections": [
+    {
+     "TemplateId": "sp4_alloy_gold_bar_karat_shortfall",
+     "label_en": "Gold-alloy karat shortfall",
+     "category": "alloy_gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "alloy_gold18k",
+     "view": "instrument_reading",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/alloy_gold18k/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/alloy_gold18k/layers/paper/reading_example_karat_shortfall.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_alloy_gold_bar_karat_shortfall.heading",
+      "body": "sp4.handbook.sp4_alloy_gold_bar_karat_shortfall.body",
+      "limits": "sp4.handbook.sp4_alloy_gold_bar_karat_shortfall.limits",
+      "reference_caption": "sp4.handbook.sp4_alloy_gold_bar_karat_shortfall.ref",
+      "problem_caption": "sp4.handbook.sp4_alloy_gold_bar_karat_shortfall.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_alloy_gold_bar_segregated_face",
+     "label_en": "Gold-alloy segregation band",
+     "category": "alloy_gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "alloy_gold18k",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "recast",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/alloy_gold18k/paper/intact.png",
+      "crop_px": [
+       83,
+       102,
+       243,
+       206
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/alloy_gold18k/paper/segregated_face.png",
+      "crop_px": [
+       83,
+       102,
+       243,
+       206
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_alloy_gold_bar_segregated_face.heading",
+      "body": "sp4.handbook.sp4_alloy_gold_bar_segregated_face.body",
+      "limits": "sp4.handbook.sp4_alloy_gold_bar_segregated_face.limits",
+      "reference_caption": "sp4.handbook.sp4_alloy_gold_bar_segregated_face.ref",
+      "problem_caption": "sp4.handbook.sp4_alloy_gold_bar_segregated_face.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_19.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 20,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "alloy_gold_bar",
+   "subtype": "all_models",
+   "previous": 19,
+   "next": 21,
+   "sections": [
+    {
+     "TemplateId": "sp4_alloy_gold_bar_cast_crack",
+     "label_en": "Gold-alloy casting crack",
+     "category": "alloy_gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "alloy_gold18k",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "recast",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/alloy_gold18k/paper/intact.png",
+      "crop_px": [
+       315,
+       80,
+       355,
+       106
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/alloy_gold18k/paper/cast_crack.png",
+      "crop_px": [
+       315,
+       80,
+       355,
+       106
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_alloy_gold_bar_cast_crack.heading",
+      "body": "sp4.handbook.sp4_alloy_gold_bar_cast_crack.body",
+      "limits": "sp4.handbook.sp4_alloy_gold_bar_cast_crack.limits",
+      "reference_caption": "sp4.handbook.sp4_alloy_gold_bar_cast_crack.ref",
+      "problem_caption": "sp4.handbook.sp4_alloy_gold_bar_cast_crack.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_alloy_gold_bar_short_weight",
+     "label_en": "Short-weight gold-alloy bar",
+     "category": "alloy_gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "alloy_gold18k",
+     "view": "instrument_reading",
+     "instrument": "scale",
+     "repair_class": "none",
+     "economic_channel": "mass_disclosure",
+     "reference": {
+      "layer": "items/alloy_gold18k/paper/intact.png",
+      "crop_px": null,
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/alloy_gold18k/layers/paper/reading_example_short_weight.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_alloy_gold_bar_short_weight.heading",
+      "body": "sp4.handbook.sp4_alloy_gold_bar_short_weight.body",
+      "limits": "sp4.handbook.sp4_alloy_gold_bar_short_weight.limits",
+      "reference_caption": "sp4.handbook.sp4_alloy_gold_bar_short_weight.ref",
+      "problem_caption": "sp4.handbook.sp4_alloy_gold_bar_short_weight.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_20.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 21,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "alloy_gold_bar",
+   "subtype": "all_models",
+   "previous": 20,
+   "next": 22,
+   "sections": [
+    {
+     "TemplateId": "sp4_alloy_gold_bar_altered_karat_stamp",
+     "label_en": "Altered gold-alloy karat stamp",
+     "category": "alloy_gold_bar",
+     "subtype": "all_models",
+     "example_asset_key": "alloy_gold18k",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "identity_disclosure",
+     "reference": {
+      "layer": "items/alloy_gold18k/paper/intact.png",
+      "crop_px": [
+       154,
+       85,
+       234,
+       137
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/alloy_gold18k/paper/altered_karat_stamp.png",
+      "crop_px": [
+       154,
+       85,
+       234,
+       137
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_alloy_gold_bar_altered_karat_stamp.heading",
+      "body": "sp4.handbook.sp4_alloy_gold_bar_altered_karat_stamp.body",
+      "limits": "sp4.handbook.sp4_alloy_gold_bar_altered_karat_stamp.limits",
+      "reference_caption": "sp4.handbook.sp4_alloy_gold_bar_altered_karat_stamp.ref",
+      "problem_caption": "sp4.handbook.sp4_alloy_gold_bar_altered_karat_stamp.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_21.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 22,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "alloy_silver_bar",
+   "subtype": "all_models",
+   "previous": 21,
+   "next": 23,
+   "sections": [
+    {
+     "TemplateId": "sp4_alloy_silver_bar_fineness_shortfall",
+     "label_en": "Silver-alloy fineness shortfall",
+     "category": "alloy_silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "alloy_silver925",
+     "view": "instrument_reading",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "material_disclosure",
+     "reference": {
+      "layer": "items/alloy_silver925/paper/intact.png",
+      "crop_px": null,
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/alloy_silver925/layers/paper/reading_example_fineness_shortfall.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_alloy_silver_bar_fineness_shortfall.heading",
+      "body": "sp4.handbook.sp4_alloy_silver_bar_fineness_shortfall.body",
+      "limits": "sp4.handbook.sp4_alloy_silver_bar_fineness_shortfall.limits",
+      "reference_caption": "sp4.handbook.sp4_alloy_silver_bar_fineness_shortfall.ref",
+      "problem_caption": "sp4.handbook.sp4_alloy_silver_bar_fineness_shortfall.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+     "label_en": "Silver-alloy uneven cast",
+     "category": "alloy_silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "alloy_silver925",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "recast",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/alloy_silver925/paper/intact.png",
+      "crop_px": [
+       247,
+       72,
+       327,
+       124
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/alloy_silver925/paper/inhomogeneous_cast.png",
+      "crop_px": [
+       247,
+       72,
+       327,
+       124
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_alloy_silver_bar_inhomogeneous_cast.heading",
+      "body": "sp4.handbook.sp4_alloy_silver_bar_inhomogeneous_cast.body",
+      "limits": "sp4.handbook.sp4_alloy_silver_bar_inhomogeneous_cast.limits",
+      "reference_caption": "sp4.handbook.sp4_alloy_silver_bar_inhomogeneous_cast.ref",
+      "problem_caption": "sp4.handbook.sp4_alloy_silver_bar_inhomogeneous_cast.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_22.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 23,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "alloy_silver_bar",
+   "subtype": "all_models",
+   "previous": 22,
+   "next": 24,
+   "sections": [
+    {
+     "TemplateId": "sp4_alloy_silver_bar_edge_fissure",
+     "label_en": "Silver-alloy edge fissure",
+     "category": "alloy_silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "alloy_silver925",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "recast",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/alloy_silver925/paper/intact.png",
+      "crop_px": [
+       215,
+       107,
+       295,
+       159
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/alloy_silver925/paper/edge_fissure.png",
+      "crop_px": [
+       215,
+       107,
+       295,
+       159
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_alloy_silver_bar_edge_fissure.heading",
+      "body": "sp4.handbook.sp4_alloy_silver_bar_edge_fissure.body",
+      "limits": "sp4.handbook.sp4_alloy_silver_bar_edge_fissure.limits",
+      "reference_caption": "sp4.handbook.sp4_alloy_silver_bar_edge_fissure.ref",
+      "problem_caption": "sp4.handbook.sp4_alloy_silver_bar_edge_fissure.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_alloy_silver_bar_weight_deficit",
+     "label_en": "Short-weight silver-alloy bar",
+     "category": "alloy_silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "alloy_silver925",
+     "view": "instrument_reading",
+     "instrument": "scale",
+     "repair_class": "none",
+     "economic_channel": "mass_disclosure",
+     "reference": {
+      "layer": "items/alloy_silver925/paper/intact.png",
+      "crop_px": null,
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/alloy_silver925/layers/paper/reading_example_weight_deficit.png",
+      "crop_px": [
+       230,
+       150,
+       384,
+       250
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_alloy_silver_bar_weight_deficit.heading",
+      "body": "sp4.handbook.sp4_alloy_silver_bar_weight_deficit.body",
+      "limits": "sp4.handbook.sp4_alloy_silver_bar_weight_deficit.limits",
+      "reference_caption": "sp4.handbook.sp4_alloy_silver_bar_weight_deficit.ref",
+      "problem_caption": "sp4.handbook.sp4_alloy_silver_bar_weight_deficit.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_23.png"
+  },
+  {
+   "manual": "manual_recovery",
+   "page": 24,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "alloy_silver_bar",
+   "subtype": "all_models",
+   "previous": 23,
+   "next": null,
+   "sections": [
+    {
+     "TemplateId": "sp4_alloy_silver_bar_restamped_fineness",
+     "label_en": "Restamped silver fineness",
+     "category": "alloy_silver_bar",
+     "subtype": "all_models",
+     "example_asset_key": "alloy_silver925",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "identity_disclosure",
+     "reference": {
+      "layer": "items/alloy_silver925/paper/intact.png",
+      "crop_px": [
+       154,
+       80,
+       234,
+       132
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/alloy_silver925/paper/restamped_fineness.png",
+      "crop_px": [
+       154,
+       80,
+       234,
+       132
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_alloy_silver_bar_restamped_fineness.heading",
+      "body": "sp4.handbook.sp4_alloy_silver_bar_restamped_fineness.body",
+      "limits": "sp4.handbook.sp4_alloy_silver_bar_restamped_fineness.limits",
+      "reference_caption": "sp4.handbook.sp4_alloy_silver_bar_restamped_fineness.ref",
+      "problem_caption": "sp4.handbook.sp4_alloy_silver_bar_restamped_fineness.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_recovery/pages/page_24.png"
+  }
+ ]
+}

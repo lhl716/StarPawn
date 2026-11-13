@@ -172,26 +172,26 @@
   },
   "sp4_silver_ring_ovalized_band": {
    "paper": {
-    "changed_px": 688,
+    "changed_px": 520,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     272,
+     280,
      106,
      296,
-     168
+     162
     ]
    },
    "policy": "state_mask",
    "items": {
-    "changed_px": 64,
+    "changed_px": 55,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     54,
+     56,
      27,
      60,
-     43
+     42
     ]
    }
   },

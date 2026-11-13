@@ -26,14 +26,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -50,15 +50,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -76,14 +76,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -100,15 +100,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   },
   {
@@ -125,14 +125,14 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.296875,
+   "U": 0.3020833333333333,
    "V": 0.59765625,
    "Width": 0.08333333333333333,
    "Height": 0.2109375,
    "bounds_px": [
-    98,
+    100,
     126,
-    130,
+    132,
     180
    ]
   },
@@ -150,15 +150,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.1796875,
-   "V": 0.60546875,
-   "Width": 0.125,
+   "U": 0.19921875,
+   "V": 0.59765625,
+   "Width": 0.1171875,
    "Height": 0.2109375,
    "bounds_px": [
-    15,
-    64,
-    31,
-    91
+    18,
+    63,
+    33,
+    90
    ]
   },
   {
@@ -176,14 +176,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -200,15 +200,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -226,14 +226,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -250,15 +250,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   },
   {
@@ -276,14 +276,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -300,15 +300,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -325,14 +325,14 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.296875,
+   "U": 0.3020833333333333,
    "V": 0.59765625,
    "Width": 0.08333333333333333,
    "Height": 0.2109375,
    "bounds_px": [
-    98,
+    100,
     126,
-    130,
+    132,
     180
    ]
   },
@@ -350,15 +350,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.1796875,
-   "V": 0.60546875,
-   "Width": 0.125,
+   "U": 0.19921875,
+   "V": 0.59765625,
+   "Width": 0.1171875,
    "Height": 0.2109375,
    "bounds_px": [
-    15,
-    64,
-    31,
-    91
+    18,
+    63,
+    33,
+    90
    ]
   },
   {
@@ -376,14 +376,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -400,15 +400,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -426,14 +426,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -450,15 +450,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   },
   {
@@ -475,14 +475,14 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.296875,
+   "U": 0.3020833333333333,
    "V": 0.59765625,
    "Width": 0.08333333333333333,
    "Height": 0.2109375,
    "bounds_px": [
-    98,
+    100,
     126,
-    130,
+    132,
     180
    ]
   },
@@ -500,15 +500,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.1796875,
-   "V": 0.60546875,
-   "Width": 0.125,
+   "U": 0.19921875,
+   "V": 0.59765625,
+   "Width": 0.1171875,
    "Height": 0.2109375,
    "bounds_px": [
-    15,
-    64,
-    31,
-    91
+    18,
+    63,
+    33,
+    90
    ]
   },
   {
@@ -526,14 +526,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -550,15 +550,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -575,15 +575,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.5885416666666666,
-   "V": 0.6640625,
-   "Width": 0.08333333333333333,
-   "Height": 0.0625,
+   "U": 0.5807291666666666,
+   "V": 0.66015625,
+   "Width": 0.06770833333333333,
+   "Height": 0.0546875,
    "bounds_px": [
     210,
     162,
-    242,
-    178
+    236,
+    176
    ]
   },
   {
@@ -600,15 +600,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6328125,
-   "V": 0.671875,
-   "Width": 0.125,
-   "Height": 0.078125,
+   "U": 0.625,
+   "V": 0.6640625,
+   "Width": 0.109375,
+   "Height": 0.0625,
    "bounds_px": [
     73,
     81,
-    89,
-    91
+    87,
+    89
    ]
   },
   {
@@ -650,15 +650,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.703125,
-   "V": 0.609375,
-   "Width": 0.078125,
-   "Height": 0.125,
+   "U": 0.69140625,
+   "V": 0.60546875,
+   "Width": 0.0859375,
+   "Height": 0.1171875,
    "bounds_px": [
-    85,
+    83,
     70,
-    95,
-    86
+    94,
+    85
    ]
   },
   {
@@ -676,14 +676,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -700,15 +700,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   },
   {
@@ -725,14 +725,14 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.296875,
+   "U": 0.3020833333333333,
    "V": 0.59765625,
    "Width": 0.08333333333333333,
    "Height": 0.2109375,
    "bounds_px": [
-    98,
+    100,
     126,
-    130,
+    132,
     180
    ]
   },
@@ -750,15 +750,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.1796875,
-   "V": 0.60546875,
-   "Width": 0.125,
+   "U": 0.19921875,
+   "V": 0.59765625,
+   "Width": 0.1171875,
    "Height": 0.2109375,
    "bounds_px": [
-    15,
-    64,
-    31,
-    91
+    18,
+    63,
+    33,
+    90
    ]
   },
   {
@@ -776,14 +776,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -800,15 +800,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -825,15 +825,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.5885416666666666,
-   "V": 0.6640625,
-   "Width": 0.08333333333333333,
-   "Height": 0.0625,
+   "U": 0.5807291666666666,
+   "V": 0.66015625,
+   "Width": 0.06770833333333333,
+   "Height": 0.0546875,
    "bounds_px": [
     210,
     162,
-    242,
-    178
+    236,
+    176
    ]
   },
   {
@@ -850,15 +850,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6328125,
-   "V": 0.671875,
-   "Width": 0.125,
-   "Height": 0.078125,
+   "U": 0.625,
+   "V": 0.6640625,
+   "Width": 0.109375,
+   "Height": 0.0625,
    "bounds_px": [
     73,
     81,
-    89,
-    91
+    87,
+    89
    ]
   },
   {
@@ -876,14 +876,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -900,15 +900,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -950,15 +950,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.703125,
-   "V": 0.609375,
-   "Width": 0.078125,
-   "Height": 0.125,
+   "U": 0.69140625,
+   "V": 0.60546875,
+   "Width": 0.0859375,
+   "Height": 0.1171875,
    "bounds_px": [
-    85,
+    83,
     70,
-    95,
-    86
+    94,
+    85
    ]
   },
   {
@@ -976,14 +976,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -1000,15 +1000,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -1026,14 +1026,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -1050,15 +1050,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   },
   {
@@ -1076,14 +1076,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -1100,15 +1100,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -1125,15 +1125,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.5885416666666666,
-   "V": 0.6640625,
-   "Width": 0.08333333333333333,
-   "Height": 0.0625,
+   "U": 0.5807291666666666,
+   "V": 0.66015625,
+   "Width": 0.06770833333333333,
+   "Height": 0.0546875,
    "bounds_px": [
     210,
     162,
-    242,
-    178
+    236,
+    176
    ]
   },
   {
@@ -1150,15 +1150,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6328125,
-   "V": 0.671875,
-   "Width": 0.125,
-   "Height": 0.078125,
+   "U": 0.625,
+   "V": 0.6640625,
+   "Width": 0.109375,
+   "Height": 0.0625,
    "bounds_px": [
     73,
     81,
-    89,
-    91
+    87,
+    89
    ]
   },
   {
@@ -1176,14 +1176,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -1200,15 +1200,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   },
   {
@@ -1226,14 +1226,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -1250,15 +1250,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -1275,15 +1275,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.5885416666666666,
-   "V": 0.6640625,
-   "Width": 0.08333333333333333,
-   "Height": 0.0625,
+   "U": 0.5807291666666666,
+   "V": 0.66015625,
+   "Width": 0.06770833333333333,
+   "Height": 0.0546875,
    "bounds_px": [
     210,
     162,
-    242,
-    178
+    236,
+    176
    ]
   },
   {
@@ -1300,15 +1300,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6328125,
-   "V": 0.671875,
-   "Width": 0.125,
-   "Height": 0.078125,
+   "U": 0.625,
+   "V": 0.6640625,
+   "Width": 0.109375,
+   "Height": 0.0625,
    "bounds_px": [
     73,
     81,
-    89,
-    91
+    87,
+    89
    ]
   },
   {
@@ -1350,15 +1350,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.703125,
-   "V": 0.609375,
-   "Width": 0.078125,
-   "Height": 0.125,
+   "U": 0.69140625,
+   "V": 0.60546875,
+   "Width": 0.0859375,
+   "Height": 0.1171875,
    "bounds_px": [
-    85,
+    83,
     70,
-    95,
-    86
+    94,
+    85
    ]
   },
   {
@@ -1376,14 +1376,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -1400,15 +1400,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   },
   {
@@ -1425,14 +1425,14 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.296875,
+   "U": 0.3020833333333333,
    "V": 0.59765625,
    "Width": 0.08333333333333333,
    "Height": 0.2109375,
    "bounds_px": [
-    98,
+    100,
     126,
-    130,
+    132,
     180
    ]
   },
@@ -1450,15 +1450,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.1796875,
-   "V": 0.60546875,
-   "Width": 0.125,
+   "U": 0.19921875,
+   "V": 0.59765625,
+   "Width": 0.1171875,
    "Height": 0.2109375,
    "bounds_px": [
-    15,
-    64,
-    31,
-    91
+    18,
+    63,
+    33,
+    90
    ]
   },
   {
@@ -1476,14 +1476,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -1500,15 +1500,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -1525,15 +1525,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.5885416666666666,
-   "V": 0.6640625,
-   "Width": 0.08333333333333333,
-   "Height": 0.0625,
+   "U": 0.5807291666666666,
+   "V": 0.66015625,
+   "Width": 0.06770833333333333,
+   "Height": 0.0546875,
    "bounds_px": [
     210,
     162,
-    242,
-    178
+    236,
+    176
    ]
   },
   {
@@ -1550,15 +1550,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6328125,
-   "V": 0.671875,
-   "Width": 0.125,
-   "Height": 0.078125,
+   "U": 0.625,
+   "V": 0.6640625,
+   "Width": 0.109375,
+   "Height": 0.0625,
    "bounds_px": [
     73,
     81,
-    89,
-    91
+    87,
+    89
    ]
   },
   {
@@ -1576,14 +1576,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -1600,15 +1600,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -1650,15 +1650,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.703125,
-   "V": 0.609375,
-   "Width": 0.078125,
-   "Height": 0.125,
+   "U": 0.69140625,
+   "V": 0.60546875,
+   "Width": 0.0859375,
+   "Height": 0.1171875,
    "bounds_px": [
-    85,
+    83,
     70,
-    95,
-    86
+    94,
+    85
    ]
   },
   {
@@ -1676,14 +1676,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -1700,15 +1700,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -1726,14 +1726,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -1750,15 +1750,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   },
   {
@@ -1776,14 +1776,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -1800,15 +1800,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -1825,15 +1825,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.5885416666666666,
-   "V": 0.6640625,
-   "Width": 0.08333333333333333,
-   "Height": 0.0625,
+   "U": 0.5807291666666666,
+   "V": 0.66015625,
+   "Width": 0.06770833333333333,
+   "Height": 0.0546875,
    "bounds_px": [
     210,
     162,
-    242,
-    178
+    236,
+    176
    ]
   },
   {
@@ -1850,15 +1850,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6328125,
-   "V": 0.671875,
-   "Width": 0.125,
-   "Height": 0.078125,
+   "U": 0.625,
+   "V": 0.6640625,
+   "Width": 0.109375,
+   "Height": 0.0625,
    "bounds_px": [
     73,
     81,
-    89,
-    91
+    87,
+    89
    ]
   },
   {
@@ -1876,14 +1876,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -1900,15 +1900,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   },
   {
@@ -1926,14 +1926,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -1950,15 +1950,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -1975,15 +1975,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.5885416666666666,
-   "V": 0.6640625,
-   "Width": 0.08333333333333333,
-   "Height": 0.0625,
+   "U": 0.5807291666666666,
+   "V": 0.66015625,
+   "Width": 0.06770833333333333,
+   "Height": 0.0546875,
    "bounds_px": [
     210,
     162,
-    242,
-    178
+    236,
+    176
    ]
   },
   {
@@ -2000,15 +2000,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6328125,
-   "V": 0.671875,
-   "Width": 0.125,
-   "Height": 0.078125,
+   "U": 0.625,
+   "V": 0.6640625,
+   "Width": 0.109375,
+   "Height": 0.0625,
    "bounds_px": [
     73,
     81,
-    89,
-    91
+    87,
+    89
    ]
   },
   {
@@ -2050,15 +2050,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.703125,
-   "V": 0.609375,
-   "Width": 0.078125,
-   "Height": 0.125,
+   "U": 0.69140625,
+   "V": 0.60546875,
+   "Width": 0.0859375,
+   "Height": 0.1171875,
    "bounds_px": [
-    85,
+    83,
     70,
-    95,
-    86
+    94,
+    85
    ]
   },
   {
@@ -2076,14 +2076,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -2100,15 +2100,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   },
   {
@@ -2125,14 +2125,14 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.296875,
+   "U": 0.3020833333333333,
    "V": 0.59765625,
    "Width": 0.08333333333333333,
    "Height": 0.2109375,
    "bounds_px": [
-    98,
+    100,
     126,
-    130,
+    132,
     180
    ]
   },
@@ -2150,15 +2150,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.1796875,
-   "V": 0.60546875,
-   "Width": 0.125,
+   "U": 0.19921875,
+   "V": 0.59765625,
+   "Width": 0.1171875,
    "Height": 0.2109375,
    "bounds_px": [
-    15,
-    64,
-    31,
-    91
+    18,
+    63,
+    33,
+    90
    ]
   },
   {
@@ -2176,14 +2176,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -2200,15 +2200,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -2225,15 +2225,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.5885416666666666,
-   "V": 0.6640625,
-   "Width": 0.08333333333333333,
-   "Height": 0.0625,
+   "U": 0.5807291666666666,
+   "V": 0.66015625,
+   "Width": 0.06770833333333333,
+   "Height": 0.0546875,
    "bounds_px": [
     210,
     162,
-    242,
-    178
+    236,
+    176
    ]
   },
   {
@@ -2250,15 +2250,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6328125,
-   "V": 0.671875,
-   "Width": 0.125,
-   "Height": 0.078125,
+   "U": 0.625,
+   "V": 0.6640625,
+   "Width": 0.109375,
+   "Height": 0.0625,
    "bounds_px": [
     73,
     81,
-    89,
-    91
+    87,
+    89
    ]
   },
   {
@@ -2276,14 +2276,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -2300,15 +2300,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -2350,15 +2350,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.703125,
-   "V": 0.609375,
-   "Width": 0.078125,
-   "Height": 0.125,
+   "U": 0.69140625,
+   "V": 0.60546875,
+   "Width": 0.0859375,
+   "Height": 0.1171875,
    "bounds_px": [
-    85,
+    83,
     70,
-    95,
-    86
+    94,
+    85
    ]
   },
   {
@@ -2376,14 +2376,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -2400,15 +2400,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -2426,14 +2426,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -2450,15 +2450,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   },
   {
@@ -2476,14 +2476,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.5052083333333334,
-   "V": 0.390625,
+   "V": 0.3984375,
    "Width": 0.125,
    "Height": 0.09375,
    "bounds_px": [
     170,
-    88,
+    90,
     218,
-    112
+    114
    ]
   },
   {
@@ -2500,15 +2500,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.50390625,
-   "V": 0.390625,
-   "Width": 0.1953125,
+   "U": 0.5078125,
+   "V": 0.3984375,
+   "Width": 0.1875,
    "Height": 0.09375,
    "bounds_px": [
-    52,
-    44,
+    53,
+    45,
     77,
-    56
+    57
    ]
   },
   {
@@ -2525,15 +2525,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.5885416666666666,
-   "V": 0.6640625,
-   "Width": 0.08333333333333333,
-   "Height": 0.0625,
+   "U": 0.5807291666666666,
+   "V": 0.66015625,
+   "Width": 0.06770833333333333,
+   "Height": 0.0546875,
    "bounds_px": [
     210,
     162,
-    242,
-    178
+    236,
+    176
    ]
   },
   {
@@ -2550,15 +2550,15 @@
    "ViewId": "window",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6328125,
-   "V": 0.671875,
-   "Width": 0.125,
-   "Height": 0.078125,
+   "U": 0.625,
+   "V": 0.6640625,
+   "Width": 0.109375,
+   "Height": 0.0625,
    "bounds_px": [
     73,
     81,
-    89,
-    91
+    87,
+    89
    ]
   },
   {
@@ -2576,14 +2576,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.3619791666666667,
-   "V": 0.31640625,
+   "V": 0.328125,
    "Width": 0.11979166666666667,
-   "Height": 0.1484375,
+   "Height": 0.140625,
    "bounds_px": [
     116,
-    62,
+    66,
     162,
-    100
+    102
    ]
   },
   {
@@ -2600,15 +2600,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.27734375,
-   "V": 0.3125,
+   "U": 0.29296875,
+   "V": 0.328125,
    "Width": 0.1796875,
-   "Height": 0.15625,
+   "Height": 0.140625,
    "bounds_px": [
-    24,
-    30,
-    47,
-    50
+    26,
+    33,
+    49,
+    51
    ]
   }
  ]

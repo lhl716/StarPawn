@@ -24,7 +24,7 @@ States (48):
   window_dou_combo__shell_fissure__chalk_cloud - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_chalk_cloud
   window_dou_combo__shell_fissure__black_grain_pocket - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_black_grain_pocket
   window_dou_combo__shell_fissure__dyed_sand - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_dyed_sand
-  window_dou_combo__shell_fissure__chalk_cloud__black_grain_pocket - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_chalk_cloud, sp4_rough_yellow_black_grain_pocket
+  window_dou_combo__shell_fissure__chalk_cloud__dyed_sand - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_chalk_cloud, sp4_rough_yellow_dyed_sand
   window_open_nuo
   cut_surface_nuo
   light_observation_nuo - planned light observation view, needs runtime integration
@@ -38,7 +38,7 @@ States (48):
   window_nuo_combo__shell_fissure__chalk_cloud - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_chalk_cloud
   window_nuo_combo__shell_fissure__black_grain_pocket - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_black_grain_pocket
   window_nuo_combo__shell_fissure__dyed_sand - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_dyed_sand
-  window_nuo_combo__shell_fissure__chalk_cloud__black_grain_pocket - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_chalk_cloud, sp4_rough_yellow_black_grain_pocket
+  window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_chalk_cloud, sp4_rough_yellow_dyed_sand
   window_open_bing
   cut_surface_bing
   light_observation_bing - planned light observation view, needs runtime integration
@@ -52,7 +52,7 @@ States (48):
   window_bing_combo__shell_fissure__chalk_cloud - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_chalk_cloud
   window_bing_combo__shell_fissure__black_grain_pocket - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_black_grain_pocket
   window_bing_combo__shell_fissure__dyed_sand - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_dyed_sand
-  window_bing_combo__shell_fissure__chalk_cloud__black_grain_pocket - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_chalk_cloud, sp4_rough_yellow_black_grain_pocket
+  window_bing_combo__shell_fissure__chalk_cloud__dyed_sand - templates: sp4_rough_yellow_shell_fissure, sp4_rough_yellow_chalk_cloud, sp4_rough_yellow_dyed_sand
 
 Files: paper/, items/, layers/paper, layers/items, hotspots.json (center-based), combinations.json, manifest.json, comparison.png, source/generate.py.
 

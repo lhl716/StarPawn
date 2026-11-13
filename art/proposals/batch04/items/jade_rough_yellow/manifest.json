@@ -175,13 +175,13 @@
    ],
    "view": "ordinary"
   },
-  "window_dou_combo__shell_fissure__chalk_cloud__black_grain_pocket": {
-   "paper": "paper/window_dou_combo__shell_fissure__chalk_cloud__black_grain_pocket.png",
-   "items": "items/window_dou_combo__shell_fissure__chalk_cloud__black_grain_pocket.png",
+  "window_dou_combo__shell_fissure__chalk_cloud__dyed_sand": {
+   "paper": "paper/window_dou_combo__shell_fissure__chalk_cloud__dyed_sand.png",
+   "items": "items/window_dou_combo__shell_fissure__chalk_cloud__dyed_sand.png",
    "templates": [
     "sp4_rough_yellow_shell_fissure",
     "sp4_rough_yellow_chalk_cloud",
-    "sp4_rough_yellow_black_grain_pocket"
+    "sp4_rough_yellow_dyed_sand"
    ],
    "view": "ordinary"
   },
@@ -289,13 +289,13 @@
    ],
    "view": "ordinary"
   },
-  "window_nuo_combo__shell_fissure__chalk_cloud__black_grain_pocket": {
-   "paper": "paper/window_nuo_combo__shell_fissure__chalk_cloud__black_grain_pocket.png",
-   "items": "items/window_nuo_combo__shell_fissure__chalk_cloud__black_grain_pocket.png",
+  "window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand": {
+   "paper": "paper/window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand.png",
+   "items": "items/window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand.png",
    "templates": [
     "sp4_rough_yellow_shell_fissure",
     "sp4_rough_yellow_chalk_cloud",
-    "sp4_rough_yellow_black_grain_pocket"
+    "sp4_rough_yellow_dyed_sand"
    ],
    "view": "ordinary"
   },
@@ -403,13 +403,13 @@
    ],
    "view": "ordinary"
   },
-  "window_bing_combo__shell_fissure__chalk_cloud__black_grain_pocket": {
-   "paper": "paper/window_bing_combo__shell_fissure__chalk_cloud__black_grain_pocket.png",
-   "items": "items/window_bing_combo__shell_fissure__chalk_cloud__black_grain_pocket.png",
+  "window_bing_combo__shell_fissure__chalk_cloud__dyed_sand": {
+   "paper": "paper/window_bing_combo__shell_fissure__chalk_cloud__dyed_sand.png",
+   "items": "items/window_bing_combo__shell_fissure__chalk_cloud__dyed_sand.png",
    "templates": [
     "sp4_rough_yellow_shell_fissure",
     "sp4_rough_yellow_chalk_cloud",
-    "sp4_rough_yellow_black_grain_pocket"
+    "sp4_rough_yellow_dyed_sand"
    ],
    "view": "ordinary"
   }
@@ -417,86 +417,86 @@
  "template_checks": {
   "sp4_rough_yellow_shell_fissure": {
    "paper": {
-    "changed_px": 240,
+    "changed_px": 232,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      242,
      106,
      266,
-     150
+     148
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 63,
+    "changed_px": 58,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     91,
-     52,
-     104,
-     75
+     89,
+     53,
+     101,
+     74
     ]
    }
   },
   "sp4_rough_yellow_dyed_sand": {
    "paper": {
-    "changed_px": 380,
+    "changed_px": 336,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      128,
      70,
-     168,
+     166,
      96
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 112,
+    "changed_px": 85,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     31,
      33,
-     51,
+     35,
+     50,
      48
     ]
    }
   },
   "window_dou_sp4_rough_yellow_shell_fissure": {
    "paper": {
-    "changed_px": 240,
+    "changed_px": 232,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      242,
      106,
      266,
-     150
+     148
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 63,
+    "changed_px": 58,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     91,
-     52,
-     104,
-     75
+     89,
+     53,
+     101,
+     74
     ]
    }
   },
   "window_dou_sp4_rough_yellow_chalk_cloud": {
    "paper": {
-    "changed_px": 384,
+    "changed_px": 392,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     128,
+     130,
      126,
      154,
      156
@@ -504,14 +504,14 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 99,
+    "changed_px": 96,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     31,
+     34,
      63,
-     44,
-     77
+     45,
+     78
     ]
    }
   },
@@ -521,9 +521,9 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
+     152,
      150,
-     150,
-     164,
+     166,
      162
     ]
    },
@@ -533,48 +533,23 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     42,
-     76,
-     49,
-     82
+     44,
+     75,
+     51,
+     81
     ]
    }
   },
   "window_dou_sp4_rough_yellow_dyed_sand": {
    "paper": {
-    "changed_px": 380,
+    "changed_px": 336,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      128,
      70,
-     168,
+     166,
      96
-    ]
-   },
-   "policy": "same_alpha",
-   "items": {
-    "changed_px": 112,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     31,
-     33,
-     51,
-     48
-    ]
-   }
-  },
-  "window_dou_sp4_rough_yellow_window_inlay": {
-   "paper": {
-    "changed_px": 280,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     140,
-     128,
-     182,
-     160
     ]
    },
    "policy": "same_alpha",
@@ -583,45 +558,70 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     37,
-     64,
-     59,
-     81
+     33,
+     35,
+     50,
+     48
+    ]
+   }
+  },
+  "window_dou_sp4_rough_yellow_window_inlay": {
+   "paper": {
+    "changed_px": 312,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     172,
+     122,
+     186,
+     158
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 77,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     61,
+     61,
+     79
     ]
    }
   },
   "window_nuo_sp4_rough_yellow_shell_fissure": {
    "paper": {
-    "changed_px": 240,
+    "changed_px": 232,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      242,
      106,
      266,
-     150
+     148
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 63,
+    "changed_px": 58,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     91,
-     52,
-     104,
-     75
+     89,
+     53,
+     101,
+     74
     ]
    }
   },
   "window_nuo_sp4_rough_yellow_chalk_cloud": {
    "paper": {
-    "changed_px": 384,
+    "changed_px": 392,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     128,
+     130,
      126,
      154,
      156
@@ -629,14 +629,14 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 99,
+    "changed_px": 96,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     31,
+     34,
      63,
-     44,
-     77
+     45,
+     78
     ]
    }
   },
@@ -646,9 +646,9 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
+     152,
      150,
-     150,
-     164,
+     166,
      162
     ]
    },
@@ -658,48 +658,23 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     42,
-     76,
-     49,
-     82
+     44,
+     75,
+     51,
+     81
     ]
    }
   },
   "window_nuo_sp4_rough_yellow_dyed_sand": {
    "paper": {
-    "changed_px": 380,
+    "changed_px": 336,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      128,
      70,
-     168,
+     166,
      96
-    ]
-   },
-   "policy": "same_alpha",
-   "items": {
-    "changed_px": 112,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     31,
-     33,
-     51,
-     48
-    ]
-   }
-  },
-  "window_nuo_sp4_rough_yellow_window_inlay": {
-   "paper": {
-    "changed_px": 288,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     140,
-     128,
-     182,
-     160
     ]
    },
    "policy": "same_alpha",
@@ -708,45 +683,70 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     37,
-     64,
-     59,
-     81
+     33,
+     35,
+     50,
+     48
+    ]
+   }
+  },
+  "window_nuo_sp4_rough_yellow_window_inlay": {
+   "paper": {
+    "changed_px": 308,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     172,
+     122,
+     186,
+     158
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 79,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     61,
+     61,
+     79
     ]
    }
   },
   "window_bing_sp4_rough_yellow_shell_fissure": {
    "paper": {
-    "changed_px": 240,
+    "changed_px": 232,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      242,
      106,
      266,
-     150
+     148
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 63,
+    "changed_px": 58,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     91,
-     52,
-     104,
-     75
+     89,
+     53,
+     101,
+     74
     ]
    }
   },
   "window_bing_sp4_rough_yellow_chalk_cloud": {
    "paper": {
-    "changed_px": 384,
+    "changed_px": 392,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     128,
+     130,
      126,
      154,
      156
@@ -754,14 +754,14 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 99,
+    "changed_px": 96,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     31,
+     34,
      63,
-     44,
-     77
+     45,
+     78
     ]
    }
   },
@@ -771,9 +771,9 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
+     152,
      150,
-     150,
-     164,
+     166,
      162
     ]
    },
@@ -783,48 +783,23 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     42,
-     76,
-     49,
-     82
+     44,
+     75,
+     51,
+     81
     ]
    }
   },
   "window_bing_sp4_rough_yellow_dyed_sand": {
    "paper": {
-    "changed_px": 380,
+    "changed_px": 336,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      128,
      70,
-     168,
+     166,
      96
-    ]
-   },
-   "policy": "same_alpha",
-   "items": {
-    "changed_px": 112,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     31,
-     33,
-     51,
-     48
-    ]
-   }
-  },
-  "window_bing_sp4_rough_yellow_window_inlay": {
-   "paper": {
-    "changed_px": 288,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     140,
-     128,
-     182,
-     160
     ]
    },
    "policy": "same_alpha",
@@ -833,10 +808,35 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     37,
-     64,
-     59,
-     81
+     33,
+     35,
+     50,
+     48
+    ]
+   }
+  },
+  "window_bing_sp4_rough_yellow_window_inlay": {
+   "paper": {
+    "changed_px": 312,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     172,
+     122,
+     186,
+     158
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 79,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     61,
+     61,
+     79
     ]
    }
   }

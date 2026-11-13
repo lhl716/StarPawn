@@ -1,0 +1,21 @@
+{
+ "manual": "manual_index",
+ "page_size": [
+  440,
+  616
+ ],
+ "page_count": 1,
+ "style_spec": "art/VANILLA_HANDBOOK_SPEC_04.txt",
+ "pages": [
+  {
+   "manual": "manual_index",
+   "page": 0,
+   "kind": "index",
+   "template": "ui/handbook_page/index.png",
+   "previous": null,
+   "next": null,
+   "entries": [],
+   "mockup": "items/manual_index/pages/page_00.png"
+  }
+ ]
+}

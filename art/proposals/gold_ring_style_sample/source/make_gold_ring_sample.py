@@ -242,8 +242,10 @@ def bbox_norm(change, geo, pad=2):
     ys = [p[1] for p in change]
     x0, y0 = max(0, min(xs) - pad), max(0, min(ys) - pad)
     x1, y1 = min(geo["w"], max(xs) + 1 + pad), min(geo["h"], max(ys) + 1 + pad)
-    return dict(U=round(x0 / geo["w"], 4), V=round(y0 / geo["h"], 4),
-                Width=round((x1 - x0) / geo["w"], 4), Height=round((y1 - y0) / geo["h"], 4))
+    # StarPawn contract: U/V are the rectangle CENTER (top-left image origin), computed from integer bounds.
+    return dict(U=(x0 + x1) / (2.0 * geo["w"]), V=(y0 + y1) / (2.0 * geo["h"]),
+                Width=(x1 - x0) / float(geo["w"]), Height=(y1 - y0) / float(geo["h"]),
+                bounds_px=[x0 * 2, y0 * 2, x1 * 2, y1 * 2])
 
 
 def main():
@@ -279,7 +281,9 @@ def main():
                 spot.update(bbox_norm(changes[s], geo))
                 hotspots.append(spot)
     with open(os.path.join(OUT, "hotspots.json"), "w") as f:
-        json.dump({"frame": [384, 256], "origin": "top-left", "hotspots": hotspots}, f, indent=2)
+        json.dump({"frame": [384, 256], "origin": "top-left",
+                   "coordinate_contract": "U,V = rectangle CENTER normalized to the image; Width,Height = full normalized size",
+                   "hotspots": hotspots}, f, indent=2)
         f.write("\n")
 
     # Side-by-side comparison sheet: inspection view on paper, inventory at 1x and 3x.

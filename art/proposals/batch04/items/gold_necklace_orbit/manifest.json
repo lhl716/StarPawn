@@ -147,39 +147,39 @@
  "template_checks": {
   "sp4_gold_necklace_tangled_run": {
    "paper": {
-    "changed_px": 1076,
+    "changed_px": 892,
     "alpha_equal": false,
     "within_object": false,
     "bounds": [
-     110,
+     118,
      136,
-     160,
-     186
+     162,
+     180
     ]
    },
    "policy": "state_mask",
    "items": {
-    "changed_px": 295,
+    "changed_px": 242,
     "alpha_equal": false,
     "within_object": false,
     "bounds": [
-     21,
+     25,
      68,
-     47,
-     95
+     49,
+     92
     ]
    }
   },
   "sp4_gold_necklace_open_link": {
    "paper": {
-    "changed_px": 64,
+    "changed_px": 44,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
      186,
+     190,
      196,
-     196,
-     204
+     196
     ]
    },
    "policy": "state_mask",
@@ -189,34 +189,34 @@
     "within_object": true,
     "bounds": [
      61,
-     100,
+     96,
      66,
-     104
+     100
     ]
    }
   },
   "sp4_gold_necklace_clasp_jam": {
    "paper": {
-    "changed_px": 24,
+    "changed_px": 28,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     228,
-     54,
-     236,
-     58
+     218,
+     56,
+     232,
+     66
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 8,
+    "changed_px": 10,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     83,
-     25,
-     88,
-     28
+     78,
+     26,
+     85,
+     31
     ]
    }
   },
@@ -226,35 +226,10 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     246,
-     154,
-     266,
+     240,
+     152,
+     258,
      168
-    ]
-   },
-   "policy": "same_alpha",
-   "items": {
-    "changed_px": 29,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     93,
-     78,
-     102,
-     85
-    ]
-   }
-  },
-  "sp4_gold_necklace_soldered_link": {
-   "paper": {
-    "changed_px": 84,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     130,
-     56,
-     146,
-     70
     ]
    },
    "policy": "same_alpha",
@@ -263,10 +238,35 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     33,
-     26,
-     40,
-     33
+     89,
+     76,
+     98,
+     83
+    ]
+   }
+  },
+  "sp4_gold_necklace_soldered_link": {
+   "paper": {
+    "changed_px": 52,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     62,
+     152,
+     74
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 15,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     36,
+     30,
+     41,
+     36
     ]
    }
   }

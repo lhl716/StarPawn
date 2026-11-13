@@ -147,126 +147,126 @@
  "template_checks": {
   "sp4_gold_necklace_tangled_run": {
    "paper": {
-    "changed_px": 656,
+    "changed_px": 544,
     "alpha_equal": false,
     "within_object": false,
     "bounds": [
-     128,
-     146,
-     168,
-     186
+     134,
+     144,
+     170,
+     180
     ]
    },
    "policy": "state_mask",
    "items": {
-    "changed_px": 189,
+    "changed_px": 146,
     "alpha_equal": false,
     "within_object": false,
     "bounds": [
-     31,
-     73,
-     51,
-     94
+     35,
+     72,
+     52,
+     91
     ]
    }
   },
   "sp4_gold_necklace_open_link": {
    "paper": {
-    "changed_px": 64,
+    "changed_px": 60,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
      188,
-     204,
+     196,
      198,
-     212
+     204
     ]
    },
    "policy": "state_mask",
    "items": {
-    "changed_px": 16,
+    "changed_px": 14,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
      62,
-     104,
+     100,
      67,
-     108
+     104
     ]
    }
   },
   "sp4_gold_necklace_clasp_jam": {
    "paper": {
-    "changed_px": 24,
+    "changed_px": 40,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     228,
+     218,
      64,
-     238,
-     68
-    ]
-   },
-   "policy": "same_alpha",
-   "items": {
-    "changed_px": 11,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     83,
-     30,
-     88,
-     33
-    ]
-   }
-  },
-  "sp4_gold_necklace_link_plating": {
-   "paper": {
-    "changed_px": 64,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     242,
-     146,
-     258,
-     158
-    ]
-   },
-   "policy": "same_alpha",
-   "items": {
-    "changed_px": 17,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     91,
-     73,
-     99,
-     80
-    ]
-   }
-  },
-  "sp4_gold_necklace_soldered_link": {
-   "paper": {
-    "changed_px": 48,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     136,
-     64,
-     150,
+     232,
      74
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 23,
+    "changed_px": 7,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
+     81,
      34,
-     30,
-     41,
-     37
+     85,
+     36
+    ]
+   }
+  },
+  "sp4_gold_necklace_link_plating": {
+   "paper": {
+    "changed_px": 56,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     238,
+     142,
+     250,
+     156
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 12,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     88,
+     72,
+     96,
+     78
+    ]
+   }
+  },
+  "sp4_gold_necklace_soldered_link": {
+   "paper": {
+    "changed_px": 60,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     142,
+     70,
+     154,
+     80
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 10,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     37,
+     34,
+     43,
+     38
     ]
    }
   }

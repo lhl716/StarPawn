@@ -159,39 +159,39 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 42,
+    "changed_px": 39,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      35,
-     50,
-     53,
-     54
+     49,
+     54,
+     53
     ]
    }
   },
   "sp4_silver_bracelet_rim_buckle": {
    "paper": {
-    "changed_px": 436,
+    "changed_px": 324,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     314,
+     326,
      108,
      344,
-     150
+     138
     ]
    },
    "policy": "state_mask",
    "items": {
-    "changed_px": 61,
+    "changed_px": 44,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     107,
-     29,
+     111,
+     32,
      118,
-     44
+     42
     ]
    }
   },
@@ -209,14 +209,14 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 16,
+    "changed_px": 15,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      79,
      49,
      83,
-     56
+     55
     ]
    }
   },
@@ -234,14 +234,14 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 15,
+    "changed_px": 18,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      76,
-     1,
+     7,
      79,
-     6
+     13
     ]
    }
   },
@@ -259,7 +259,7 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 16,
+    "changed_px": 15,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [

@@ -92,18 +92,18 @@
    "repaired_state": null
   },
   {
-   "profile": "window_dou_combo__open_mountain_fissure__coarse_interior__black_band",
+   "profile": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "variant": "window_dou_",
    "templates": [
     "sp4_rough_mountain_open_mountain_fissure",
     "sp4_rough_mountain_coarse_interior",
-    "sp4_rough_mountain_black_band"
+    "sp4_rough_mountain_filled_shell_seam"
    ],
    "repairable": [],
    "retained_after_repair": [
     "sp4_rough_mountain_open_mountain_fissure",
     "sp4_rough_mountain_coarse_interior",
-    "sp4_rough_mountain_black_band"
+    "sp4_rough_mountain_filled_shell_seam"
    ],
    "repaired_state": null
   },
@@ -223,18 +223,18 @@
    "repaired_state": null
   },
   {
-   "profile": "window_nuo_combo__open_mountain_fissure__coarse_interior__black_band",
+   "profile": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "variant": "window_nuo_",
    "templates": [
     "sp4_rough_mountain_open_mountain_fissure",
     "sp4_rough_mountain_coarse_interior",
-    "sp4_rough_mountain_black_band"
+    "sp4_rough_mountain_filled_shell_seam"
    ],
    "repairable": [],
    "retained_after_repair": [
     "sp4_rough_mountain_open_mountain_fissure",
     "sp4_rough_mountain_coarse_interior",
-    "sp4_rough_mountain_black_band"
+    "sp4_rough_mountain_filled_shell_seam"
    ],
    "repaired_state": null
   },
@@ -354,18 +354,18 @@
    "repaired_state": null
   },
   {
-   "profile": "window_bing_combo__open_mountain_fissure__coarse_interior__black_band",
+   "profile": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "variant": "window_bing_",
    "templates": [
     "sp4_rough_mountain_open_mountain_fissure",
     "sp4_rough_mountain_coarse_interior",
-    "sp4_rough_mountain_black_band"
+    "sp4_rough_mountain_filled_shell_seam"
    ],
    "repairable": [],
    "retained_after_repair": [
     "sp4_rough_mountain_open_mountain_fissure",
     "sp4_rough_mountain_coarse_interior",
-    "sp4_rough_mountain_black_band"
+    "sp4_rough_mountain_filled_shell_seam"
    ],
    "repaired_state": null
   },
@@ -448,6 +448,14 @@
    "variant": "window_dou_",
    "templates": [
     "sp4_rough_mountain_coarse_interior",
+    "sp4_rough_mountain_black_band"
+   ],
+   "reason": "defect layers overlap or touch"
+  },
+  {
+   "variant": "window_dou_",
+   "templates": [
+    "sp4_rough_mountain_coarse_interior",
     "sp4_rough_mountain_colored_window"
    ],
    "reason": "defect layers overlap or touch"
@@ -464,6 +472,14 @@
    "variant": "window_nuo_",
    "templates": [
     "sp4_rough_mountain_coarse_interior",
+    "sp4_rough_mountain_black_band"
+   ],
+   "reason": "defect layers overlap or touch"
+  },
+  {
+   "variant": "window_nuo_",
+   "templates": [
+    "sp4_rough_mountain_coarse_interior",
     "sp4_rough_mountain_colored_window"
    ],
    "reason": "defect layers overlap or touch"
@@ -473,6 +489,14 @@
    "templates": [
     "sp4_rough_mountain_black_band",
     "sp4_rough_mountain_colored_window"
+   ],
+   "reason": "defect layers overlap or touch"
+  },
+  {
+   "variant": "window_bing_",
+   "templates": [
+    "sp4_rough_mountain_coarse_interior",
+    "sp4_rough_mountain_black_band"
    ],
    "reason": "defect layers overlap or touch"
   },

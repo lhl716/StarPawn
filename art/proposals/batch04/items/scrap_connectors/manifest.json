@@ -186,26 +186,26 @@
   },
   "sp4_scrap_connectors_oxidized_contact": {
    "paper": {
-    "changed_px": 16,
+    "changed_px": 552,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     186,
-     178,
+     164,
+     176,
      216,
-     192
+     210
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 1,
+    "changed_px": 12,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     42,
-     50,
-     43,
-     51
+     31,
+     45,
+     38,
+     52
     ]
    }
   },

@@ -75,15 +75,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.7083333333333334,
-   "V": 0.52734375,
-   "Width": 0.052083333333333336,
-   "Height": 0.2109375,
+   "U": 0.71875,
+   "V": 0.51953125,
+   "Width": 0.03125,
+   "Height": 0.1953125,
    "bounds_px": [
-    262,
+    270,
     108,
     282,
-    162
+    158
    ]
   },
   {
@@ -100,15 +100,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.84375,
-   "V": 0.53125,
-   "Width": 0.09375,
-   "Height": 0.25,
+   "U": 0.859375,
+   "V": 0.5234375,
+   "Width": 0.0625,
+   "Height": 0.234375,
    "bounds_px": [
-    51,
+    53,
     26,
     57,
-    42
+    41
    ]
   },
   {
@@ -475,15 +475,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.7083333333333334,
-   "V": 0.52734375,
-   "Width": 0.052083333333333336,
-   "Height": 0.2109375,
+   "U": 0.71875,
+   "V": 0.51953125,
+   "Width": 0.03125,
+   "Height": 0.1953125,
    "bounds_px": [
-    262,
+    270,
     108,
     282,
-    162
+    158
    ]
   },
   {
@@ -500,15 +500,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.84375,
-   "V": 0.53125,
-   "Width": 0.09375,
-   "Height": 0.25,
+   "U": 0.859375,
+   "V": 0.5234375,
+   "Width": 0.0625,
+   "Height": 0.234375,
    "bounds_px": [
-    51,
+    53,
     26,
     57,
-    42
+    41
    ]
   },
   {
@@ -625,15 +625,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.7083333333333334,
-   "V": 0.52734375,
-   "Width": 0.052083333333333336,
-   "Height": 0.2109375,
+   "U": 0.71875,
+   "V": 0.51953125,
+   "Width": 0.03125,
+   "Height": 0.1953125,
    "bounds_px": [
-    262,
+    270,
     108,
     282,
-    162
+    158
    ]
   },
   {
@@ -650,15 +650,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.84375,
-   "V": 0.53125,
-   "Width": 0.09375,
-   "Height": 0.25,
+   "U": 0.859375,
+   "V": 0.5234375,
+   "Width": 0.0625,
+   "Height": 0.234375,
    "bounds_px": [
-    51,
+    53,
     26,
     57,
-    42
+    41
    ]
   },
   {

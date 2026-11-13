@@ -92,18 +92,18 @@
    "repaired_state": null
   },
   {
-   "profile": "window_dou_combo__shell_fissure__chalk_cloud__black_grain_pocket",
+   "profile": "window_dou_combo__shell_fissure__chalk_cloud__dyed_sand",
    "variant": "window_dou_",
    "templates": [
     "sp4_rough_yellow_shell_fissure",
     "sp4_rough_yellow_chalk_cloud",
-    "sp4_rough_yellow_black_grain_pocket"
+    "sp4_rough_yellow_dyed_sand"
    ],
    "repairable": [],
    "retained_after_repair": [
     "sp4_rough_yellow_shell_fissure",
     "sp4_rough_yellow_chalk_cloud",
-    "sp4_rough_yellow_black_grain_pocket"
+    "sp4_rough_yellow_dyed_sand"
    ],
    "repaired_state": null
   },
@@ -223,18 +223,18 @@
    "repaired_state": null
   },
   {
-   "profile": "window_nuo_combo__shell_fissure__chalk_cloud__black_grain_pocket",
+   "profile": "window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand",
    "variant": "window_nuo_",
    "templates": [
     "sp4_rough_yellow_shell_fissure",
     "sp4_rough_yellow_chalk_cloud",
-    "sp4_rough_yellow_black_grain_pocket"
+    "sp4_rough_yellow_dyed_sand"
    ],
    "repairable": [],
    "retained_after_repair": [
     "sp4_rough_yellow_shell_fissure",
     "sp4_rough_yellow_chalk_cloud",
-    "sp4_rough_yellow_black_grain_pocket"
+    "sp4_rough_yellow_dyed_sand"
    ],
    "repaired_state": null
   },
@@ -354,18 +354,18 @@
    "repaired_state": null
   },
   {
-   "profile": "window_bing_combo__shell_fissure__chalk_cloud__black_grain_pocket",
+   "profile": "window_bing_combo__shell_fissure__chalk_cloud__dyed_sand",
    "variant": "window_bing_",
    "templates": [
     "sp4_rough_yellow_shell_fissure",
     "sp4_rough_yellow_chalk_cloud",
-    "sp4_rough_yellow_black_grain_pocket"
+    "sp4_rough_yellow_dyed_sand"
    ],
    "repairable": [],
    "retained_after_repair": [
     "sp4_rough_yellow_shell_fissure",
     "sp4_rough_yellow_chalk_cloud",
-    "sp4_rough_yellow_black_grain_pocket"
+    "sp4_rough_yellow_dyed_sand"
    ],
    "repaired_state": null
   },
@@ -447,24 +447,24 @@
   {
    "variant": "window_dou_",
    "templates": [
-    "sp4_rough_yellow_black_grain_pocket",
-    "sp4_rough_yellow_window_inlay"
+    "sp4_rough_yellow_chalk_cloud",
+    "sp4_rough_yellow_black_grain_pocket"
    ],
    "reason": "defect layers overlap or touch"
   },
   {
    "variant": "window_nuo_",
    "templates": [
-    "sp4_rough_yellow_black_grain_pocket",
-    "sp4_rough_yellow_window_inlay"
+    "sp4_rough_yellow_chalk_cloud",
+    "sp4_rough_yellow_black_grain_pocket"
    ],
    "reason": "defect layers overlap or touch"
   },
   {
    "variant": "window_bing_",
    "templates": [
-    "sp4_rough_yellow_black_grain_pocket",
-    "sp4_rough_yellow_window_inlay"
+    "sp4_rough_yellow_chalk_cloud",
+    "sp4_rough_yellow_black_grain_pocket"
    ],
    "reason": "defect layers overlap or touch"
   }

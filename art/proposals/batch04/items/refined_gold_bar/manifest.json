@@ -213,17 +213,27 @@
   },
   "sp4_refined_gold_bar_traceability_mismatch": {
    "paper": {
-    "changed_px": 0,
+    "changed_px": 52,
     "alpha_equal": true,
     "within_object": true,
-    "bounds": null
+    "bounds": [
+     150,
+     98,
+     164,
+     112
+    ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 0,
+    "changed_px": 9,
     "alpha_equal": true,
     "within_object": true,
-    "bounds": null
+    "bounds": [
+     50,
+     22,
+     55,
+     27
+    ]
    }
   }
  },

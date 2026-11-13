@@ -413,71 +413,71 @@
     "within_object": true,
     "bounds": [
      170,
-     88,
+     90,
      218,
-     112
+     114
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 56,
+    "changed_px": 55,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     52,
-     44,
+     53,
+     45,
      77,
-     56
+     57
     ]
    }
   },
   "sp4_rough_rust_painted_rust": {
    "paper": {
-    "changed_px": 1212,
+    "changed_px": 1100,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      116,
-     62,
+     66,
      162,
-     100
+     102
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 304,
+    "changed_px": 265,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     24,
-     30,
-     47,
-     50
+     26,
+     33,
+     49,
+     51
     ]
    }
   },
   "sp4_rough_rust_patched_shell": {
    "paper": {
-    "changed_px": 284,
+    "changed_px": 280,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     98,
+     100,
      126,
-     130,
+     132,
      180
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 85,
+    "changed_px": 71,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     15,
-     64,
-     31,
-     91
+     18,
+     63,
+     33,
+     90
     ]
    }
   },
@@ -488,46 +488,46 @@
     "within_object": true,
     "bounds": [
      170,
-     88,
+     90,
      218,
-     112
+     114
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 56,
+    "changed_px": 55,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     52,
-     44,
+     53,
+     45,
      77,
-     56
+     57
     ]
    }
   },
   "window_dou_sp4_rough_rust_brown_interior_patch": {
    "paper": {
-    "changed_px": 264,
+    "changed_px": 220,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      210,
      162,
-     242,
-     178
+     236,
+     176
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 86,
+    "changed_px": 57,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      73,
      81,
-     89,
-     91
+     87,
+     89
     ]
    }
   },
@@ -545,64 +545,64 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 88,
+    "changed_px": 92,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     85,
+     83,
      70,
-     95,
-     86
+     94,
+     85
     ]
    }
   },
   "window_dou_sp4_rough_rust_painted_rust": {
    "paper": {
-    "changed_px": 1212,
+    "changed_px": 1100,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      116,
-     62,
+     66,
      162,
-     100
+     102
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 304,
+    "changed_px": 265,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     24,
-     30,
-     47,
-     50
+     26,
+     33,
+     49,
+     51
     ]
    }
   },
   "window_dou_sp4_rough_rust_patched_shell": {
    "paper": {
-    "changed_px": 284,
+    "changed_px": 280,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     98,
+     100,
      126,
-     130,
+     132,
      180
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 85,
+    "changed_px": 71,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     15,
-     64,
-     31,
-     91
+     18,
+     63,
+     33,
+     90
     ]
    }
   },
@@ -613,46 +613,46 @@
     "within_object": true,
     "bounds": [
      170,
-     88,
+     90,
      218,
-     112
+     114
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 56,
+    "changed_px": 55,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     52,
-     44,
+     53,
+     45,
      77,
-     56
+     57
     ]
    }
   },
   "window_nuo_sp4_rough_rust_brown_interior_patch": {
    "paper": {
-    "changed_px": 264,
+    "changed_px": 220,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      210,
      162,
-     242,
-     178
+     236,
+     176
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 86,
+    "changed_px": 57,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      73,
      81,
-     89,
-     91
+     87,
+     89
     ]
    }
   },
@@ -670,64 +670,64 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 88,
+    "changed_px": 92,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     85,
+     83,
      70,
-     95,
-     86
+     94,
+     85
     ]
    }
   },
   "window_nuo_sp4_rough_rust_painted_rust": {
    "paper": {
-    "changed_px": 1212,
+    "changed_px": 1100,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      116,
-     62,
+     66,
      162,
-     100
+     102
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 304,
+    "changed_px": 265,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     24,
-     30,
-     47,
-     50
+     26,
+     33,
+     49,
+     51
     ]
    }
   },
   "window_nuo_sp4_rough_rust_patched_shell": {
    "paper": {
-    "changed_px": 284,
+    "changed_px": 280,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     98,
+     100,
      126,
-     130,
+     132,
      180
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 85,
+    "changed_px": 71,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     15,
-     64,
-     31,
-     91
+     18,
+     63,
+     33,
+     90
     ]
    }
   },
@@ -738,46 +738,46 @@
     "within_object": true,
     "bounds": [
      170,
-     88,
+     90,
      218,
-     112
+     114
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 56,
+    "changed_px": 55,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     52,
-     44,
+     53,
+     45,
      77,
-     56
+     57
     ]
    }
   },
   "window_bing_sp4_rough_rust_brown_interior_patch": {
    "paper": {
-    "changed_px": 264,
+    "changed_px": 220,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      210,
      162,
-     242,
-     178
+     236,
+     176
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 86,
+    "changed_px": 57,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      73,
      81,
-     89,
-     91
+     87,
+     89
     ]
    }
   },
@@ -795,64 +795,64 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 88,
+    "changed_px": 92,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     85,
+     83,
      70,
-     95,
-     86
+     94,
+     85
     ]
    }
   },
   "window_bing_sp4_rough_rust_painted_rust": {
    "paper": {
-    "changed_px": 1212,
+    "changed_px": 1100,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      116,
-     62,
+     66,
      162,
-     100
+     102
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 304,
+    "changed_px": 265,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     24,
-     30,
-     47,
-     50
+     26,
+     33,
+     49,
+     51
     ]
    }
   },
   "window_bing_sp4_rough_rust_patched_shell": {
    "paper": {
-    "changed_px": 284,
+    "changed_px": 280,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     98,
+     100,
      126,
-     130,
+     132,
      180
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 85,
+    "changed_px": 71,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     15,
-     64,
-     31,
-     91
+     18,
+     63,
+     33,
+     90
     ]
    }
   }

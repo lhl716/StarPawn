@@ -1,0 +1,262 @@
+{
+ "manual": "manual_books",
+ "page_size": [
+  440,
+  616
+ ],
+ "page_count": 4,
+ "style_spec": "art/VANILLA_HANDBOOK_SPEC_04.txt",
+ "pages": [
+  {
+   "manual": "manual_books",
+   "page": 0,
+   "kind": "index",
+   "template": "ui/handbook_page/index.png",
+   "previous": null,
+   "next": 1,
+   "entries": [
+    {
+     "category": "book",
+     "subtype": "all_models",
+     "first_page": 1,
+     "loc_key": "sp4.handbook.manual_books.index.book.all_models"
+    }
+   ],
+   "mockup": "items/manual_books/pages/page_00.png"
+  },
+  {
+   "manual": "manual_books",
+   "page": 1,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "book",
+   "subtype": "all_models",
+   "previous": 0,
+   "next": 2,
+   "sections": [
+    {
+     "TemplateId": "sp4_book_reprint_notice",
+     "label_en": "Book reprint notice",
+     "category": "book",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_book",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "edition_disclosure",
+     "reference": {
+      "layer": "items/collectible_book/paper/intact.png",
+      "crop_px": [
+       96,
+       163,
+       136,
+       189
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_book/paper/reprint_notice.png",
+      "crop_px": [
+       96,
+       163,
+       136,
+       189
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_book_reprint_notice.heading",
+      "body": "sp4.handbook.sp4_book_reprint_notice.body",
+      "limits": "sp4.handbook.sp4_book_reprint_notice.limits",
+      "reference_caption": "sp4.handbook.sp4_book_reprint_notice.ref",
+      "problem_caption": "sp4.handbook.sp4_book_reprint_notice.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_book_signature_copy",
+     "label_en": "Copied book signature",
+     "category": "book",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_book",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "authenticity_disclosure",
+     "reference": {
+      "layer": "items/collectible_book/paper/intact.png",
+      "crop_px": [
+       227,
+       148,
+       307,
+       200
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_book/paper/signature_copy.png",
+      "crop_px": [
+       227,
+       148,
+       307,
+       200
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_book_signature_copy.heading",
+      "body": "sp4.handbook.sp4_book_signature_copy.body",
+      "limits": "sp4.handbook.sp4_book_signature_copy.limits",
+      "reference_caption": "sp4.handbook.sp4_book_signature_copy.ref",
+      "problem_caption": "sp4.handbook.sp4_book_signature_copy.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_books/pages/page_01.png"
+  },
+  {
+   "manual": "manual_books",
+   "page": 2,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "book",
+   "subtype": "all_models",
+   "previous": 1,
+   "next": 3,
+   "sections": [
+    {
+     "TemplateId": "sp4_book_missing_leaf",
+     "label_en": "Missing book leaf",
+     "category": "book",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_book",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "completeness_damage",
+     "reference": {
+      "layer": "items/collectible_book/paper/intact.png",
+      "crop_px": [
+       114,
+       143,
+       274,
+       247
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_book/paper/missing_leaf.png",
+      "crop_px": [
+       114,
+       143,
+       274,
+       247
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_book_missing_leaf.heading",
+      "body": "sp4.handbook.sp4_book_missing_leaf.body",
+      "limits": "sp4.handbook.sp4_book_missing_leaf.limits",
+      "reference_caption": "sp4.handbook.sp4_book_missing_leaf.ref",
+      "problem_caption": "sp4.handbook.sp4_book_missing_leaf.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_book_spine_split",
+     "label_en": "Split book spine",
+     "category": "book",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_book",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "rebind",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/collectible_book/paper/intact.png",
+      "crop_px": [
+       174,
+       220,
+       214,
+       246
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_book/paper/spine_split.png",
+      "crop_px": [
+       174,
+       220,
+       214,
+       246
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_book_spine_split.heading",
+      "body": "sp4.handbook.sp4_book_spine_split.body",
+      "limits": "sp4.handbook.sp4_book_spine_split.limits",
+      "reference_caption": "sp4.handbook.sp4_book_spine_split.ref",
+      "problem_caption": "sp4.handbook.sp4_book_spine_split.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_books/pages/page_02.png"
+  },
+  {
+   "manual": "manual_books",
+   "page": 3,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "book",
+   "subtype": "all_models",
+   "previous": 2,
+   "next": null,
+   "sections": [
+    {
+     "TemplateId": "sp4_book_water_warp",
+     "label_en": "Water-warped book pages",
+     "category": "book",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_book",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "conserve",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/collectible_book/paper/intact.png",
+      "crop_px": [
+       221,
+       148,
+       381,
+       252
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_book/paper/water_warp.png",
+      "crop_px": [
+       221,
+       148,
+       381,
+       252
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_book_water_warp.heading",
+      "body": "sp4.handbook.sp4_book_water_warp.body",
+      "limits": "sp4.handbook.sp4_book_water_warp.limits",
+      "reference_caption": "sp4.handbook.sp4_book_water_warp.ref",
+      "problem_caption": "sp4.handbook.sp4_book_water_warp.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_books/pages/page_03.png"
+  }
+ ]
+}

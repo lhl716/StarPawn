@@ -25,15 +25,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -50,15 +50,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -76,14 +76,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.73046875,
-   "Width": 0.17708333333333334,
-   "Height": 0.0859375,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
    "bounds_px": [
-    158,
-    176,
-    226,
-    198
+    160,
+    178,
+    224,
+    194
    ]
   },
   {
@@ -101,14 +101,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.7421875,
-   "Width": 0.265625,
-   "Height": 0.078125,
+   "V": 0.72265625,
+   "Width": 0.25,
+   "Height": 0.0703125,
    "bounds_px": [
-    47,
-    90,
-    81,
-    100
+    48,
+    88,
+    80,
+    97
    ]
   },
   {
@@ -125,15 +125,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -150,15 +150,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -176,14 +176,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.73046875,
-   "Width": 0.17708333333333334,
-   "Height": 0.0859375,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
    "bounds_px": [
-    158,
-    176,
-    226,
-    198
+    160,
+    178,
+    224,
+    194
    ]
   },
   {
@@ -201,14 +201,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.7421875,
-   "Width": 0.265625,
-   "Height": 0.078125,
+   "V": 0.72265625,
+   "Width": 0.25,
+   "Height": 0.0703125,
    "bounds_px": [
-    47,
-    90,
-    81,
-    100
+    48,
+    88,
+    80,
+    97
    ]
   },
   {
@@ -225,15 +225,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -250,15 +250,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -276,14 +276,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.4895833333333333,
-   "V": 0.37109375,
+   "V": 0.37890625,
    "Width": 0.052083333333333336,
    "Height": 0.0546875,
    "bounds_px": [
     178,
-    88,
+    90,
     198,
-    102
+    104
    ]
   },
   {
@@ -301,14 +301,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.36328125,
+   "V": 0.37890625,
    "Width": 0.078125,
    "Height": 0.0546875,
    "bounds_px": [
     57,
-    43,
+    45,
     67,
-    50
+    52
    ]
   },
   {
@@ -325,14 +325,14 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.4869791666666667,
+   "U": 0.484375,
    "V": 0.41796875,
-   "Width": 0.11979166666666667,
+   "Width": 0.11458333333333333,
    "Height": 0.1328125,
    "bounds_px": [
     164,
     90,
-    210,
+    208,
     124
    ]
   },
@@ -350,15 +350,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.48046875,
-   "V": 0.41015625,
-   "Width": 0.1953125,
+   "U": 0.4765625,
+   "V": 0.41796875,
+   "Width": 0.171875,
    "Height": 0.1328125,
    "bounds_px": [
-    49,
-    44,
-    74,
-    61
+    50,
+    45,
+    72,
+    62
    ]
   },
   {
@@ -376,14 +376,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.73046875,
-   "Width": 0.17708333333333334,
-   "Height": 0.0859375,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
    "bounds_px": [
-    158,
-    176,
-    226,
-    198
+    160,
+    178,
+    224,
+    194
    ]
   },
   {
@@ -401,14 +401,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.7421875,
-   "Width": 0.265625,
-   "Height": 0.078125,
+   "V": 0.72265625,
+   "Width": 0.25,
+   "Height": 0.0703125,
    "bounds_px": [
-    47,
-    90,
-    81,
-    100
+    48,
+    88,
+    80,
+    97
    ]
   },
   {
@@ -451,12 +451,12 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.41015625,
+   "V": 0.4140625,
    "Width": 0.109375,
-   "Height": 0.1015625,
+   "Height": 0.09375,
    "bounds_px": [
     55,
-    46,
+    47,
     69,
     59
    ]
@@ -475,15 +475,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -500,15 +500,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -526,14 +526,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.4895833333333333,
-   "V": 0.37109375,
+   "V": 0.37890625,
    "Width": 0.052083333333333336,
    "Height": 0.0546875,
    "bounds_px": [
     178,
-    88,
+    90,
     198,
-    102
+    104
    ]
   },
   {
@@ -551,14 +551,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.36328125,
+   "V": 0.37890625,
    "Width": 0.078125,
    "Height": 0.0546875,
    "bounds_px": [
     57,
-    43,
+    45,
     67,
-    50
+    52
    ]
   },
   {
@@ -575,15 +575,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -600,15 +600,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -625,14 +625,14 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.4869791666666667,
+   "U": 0.484375,
    "V": 0.41796875,
-   "Width": 0.11979166666666667,
+   "Width": 0.11458333333333333,
    "Height": 0.1328125,
    "bounds_px": [
     164,
     90,
-    210,
+    208,
     124
    ]
   },
@@ -650,15 +650,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.48046875,
-   "V": 0.41015625,
-   "Width": 0.1953125,
+   "U": 0.4765625,
+   "V": 0.41796875,
+   "Width": 0.171875,
    "Height": 0.1328125,
    "bounds_px": [
-    49,
-    44,
-    74,
-    61
+    50,
+    45,
+    72,
+    62
    ]
   },
   {
@@ -675,15 +675,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -700,15 +700,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -726,14 +726,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.73046875,
-   "Width": 0.17708333333333334,
-   "Height": 0.0859375,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
    "bounds_px": [
-    158,
-    176,
-    226,
-    198
+    160,
+    178,
+    224,
+    194
    ]
   },
   {
@@ -751,19 +751,19 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.7421875,
-   "Width": 0.265625,
-   "Height": 0.078125,
+   "V": 0.72265625,
+   "Width": 0.25,
+   "Height": 0.0703125,
    "bounds_px": [
-    47,
-    90,
-    81,
-    100
+    48,
+    88,
+    80,
+    97
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "paper",
    "image_size": [
     384,
@@ -775,20 +775,20 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "items",
    "image_size": [
     128,
@@ -800,20 +800,20 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "paper",
    "image_size": [
     384,
@@ -826,19 +826,19 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.4895833333333333,
-   "V": 0.37109375,
+   "V": 0.37890625,
    "Width": 0.052083333333333336,
    "Height": 0.0546875,
    "bounds_px": [
     178,
-    88,
+    90,
     198,
-    102
+    104
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "items",
    "image_size": [
     128,
@@ -851,89 +851,89 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.36328125,
+   "V": 0.37890625,
    "Width": 0.078125,
    "Height": 0.0546875,
    "bounds_px": [
     57,
-    43,
+    45,
     67,
-    50
+    52
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "paper",
    "image_size": [
     384,
     256
    ],
-   "TemplateId": "sp4_rough_mountain_black_band",
-   "Id": "black_band",
-   "CauseId": "sp4_rough_mountain_black_band",
-   "ViewId": "window",
-   "InstrumentKind": "jade_light",
-   "status": "planned_04_not_runtime",
-   "U": 0.4869791666666667,
-   "V": 0.41796875,
-   "Width": 0.11979166666666667,
-   "Height": 0.1328125,
-   "bounds_px": [
-    164,
-    90,
-    210,
-    124
-   ]
-  },
-  {
-   "asset_key": "jade_rough_mountain",
-   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__black_band",
-   "image": "items",
-   "image_size": [
-    128,
-    128
-   ],
-   "TemplateId": "sp4_rough_mountain_black_band",
-   "Id": "black_band",
-   "CauseId": "sp4_rough_mountain_black_band",
-   "ViewId": "window",
-   "InstrumentKind": "jade_light",
-   "status": "planned_04_not_runtime",
-   "U": 0.48046875,
-   "V": 0.41015625,
-   "Width": 0.1953125,
-   "Height": 0.1328125,
-   "bounds_px": [
-    49,
-    44,
-    74,
-    61
-   ]
-  },
-  {
-   "asset_key": "jade_rough_mountain",
-   "state": "window_nuo_open_mountain_fissure",
-   "image": "paper",
-   "image_size": [
-    384,
-    256
-   ],
-   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
-   "Id": "open_mountain_fissure",
-   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
    "ViewId": "front",
-   "InstrumentKind": "loupe",
+   "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
    "bounds_px": [
+    160,
+    178,
     224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.72265625,
+   "Width": 0.25,
+   "Height": 0.0703125,
+   "bounds_px": [
+    48,
+    88,
+    80,
+    97
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_open_mountain_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -950,15 +950,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -976,14 +976,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.4895833333333333,
-   "V": 0.37109375,
+   "V": 0.37890625,
    "Width": 0.052083333333333336,
    "Height": 0.0546875,
    "bounds_px": [
     178,
-    88,
+    90,
     198,
-    102
+    104
    ]
   },
   {
@@ -1001,14 +1001,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.36328125,
+   "V": 0.37890625,
    "Width": 0.078125,
    "Height": 0.0546875,
    "bounds_px": [
     57,
-    43,
+    45,
     67,
-    50
+    52
    ]
   },
   {
@@ -1025,14 +1025,14 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.4869791666666667,
+   "U": 0.484375,
    "V": 0.41796875,
-   "Width": 0.11979166666666667,
+   "Width": 0.11458333333333333,
    "Height": 0.1328125,
    "bounds_px": [
     164,
     90,
-    210,
+    208,
     124
    ]
   },
@@ -1050,15 +1050,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.48046875,
-   "V": 0.41015625,
-   "Width": 0.1953125,
+   "U": 0.4765625,
+   "V": 0.41796875,
+   "Width": 0.171875,
    "Height": 0.1328125,
    "bounds_px": [
-    49,
-    44,
-    74,
-    61
+    50,
+    45,
+    72,
+    62
    ]
   },
   {
@@ -1076,14 +1076,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.73046875,
-   "Width": 0.17708333333333334,
-   "Height": 0.0859375,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
    "bounds_px": [
-    158,
-    176,
-    226,
-    198
+    160,
+    178,
+    224,
+    194
    ]
   },
   {
@@ -1101,14 +1101,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.7421875,
-   "Width": 0.265625,
-   "Height": 0.078125,
+   "V": 0.72265625,
+   "Width": 0.25,
+   "Height": 0.0703125,
    "bounds_px": [
-    47,
-    90,
-    81,
-    100
+    48,
+    88,
+    80,
+    97
    ]
   },
   {
@@ -1151,12 +1151,12 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.41015625,
+   "V": 0.4140625,
    "Width": 0.109375,
-   "Height": 0.1015625,
+   "Height": 0.09375,
    "bounds_px": [
     55,
-    46,
+    47,
     69,
     59
    ]
@@ -1175,15 +1175,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -1200,15 +1200,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -1226,14 +1226,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.4895833333333333,
-   "V": 0.37109375,
+   "V": 0.37890625,
    "Width": 0.052083333333333336,
    "Height": 0.0546875,
    "bounds_px": [
     178,
-    88,
+    90,
     198,
-    102
+    104
    ]
   },
   {
@@ -1251,14 +1251,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.36328125,
+   "V": 0.37890625,
    "Width": 0.078125,
    "Height": 0.0546875,
    "bounds_px": [
     57,
-    43,
+    45,
     67,
-    50
+    52
    ]
   },
   {
@@ -1275,15 +1275,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -1300,15 +1300,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -1325,14 +1325,14 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.4869791666666667,
+   "U": 0.484375,
    "V": 0.41796875,
-   "Width": 0.11979166666666667,
+   "Width": 0.11458333333333333,
    "Height": 0.1328125,
    "bounds_px": [
     164,
     90,
-    210,
+    208,
     124
    ]
   },
@@ -1350,15 +1350,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.48046875,
-   "V": 0.41015625,
-   "Width": 0.1953125,
+   "U": 0.4765625,
+   "V": 0.41796875,
+   "Width": 0.171875,
    "Height": 0.1328125,
    "bounds_px": [
-    49,
-    44,
-    74,
-    61
+    50,
+    45,
+    72,
+    62
    ]
   },
   {
@@ -1375,15 +1375,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -1400,15 +1400,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -1426,14 +1426,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.73046875,
-   "Width": 0.17708333333333334,
-   "Height": 0.0859375,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
    "bounds_px": [
-    158,
-    176,
-    226,
-    198
+    160,
+    178,
+    224,
+    194
    ]
   },
   {
@@ -1451,19 +1451,19 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.7421875,
-   "Width": 0.265625,
-   "Height": 0.078125,
+   "V": 0.72265625,
+   "Width": 0.25,
+   "Height": 0.0703125,
    "bounds_px": [
-    47,
-    90,
-    81,
-    100
+    48,
+    88,
+    80,
+    97
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "paper",
    "image_size": [
     384,
@@ -1475,20 +1475,20 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "items",
    "image_size": [
     128,
@@ -1500,20 +1500,20 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "paper",
    "image_size": [
     384,
@@ -1526,19 +1526,19 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.4895833333333333,
-   "V": 0.37109375,
+   "V": 0.37890625,
    "Width": 0.052083333333333336,
    "Height": 0.0546875,
    "bounds_px": [
     178,
-    88,
+    90,
     198,
-    102
+    104
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "items",
    "image_size": [
     128,
@@ -1551,89 +1551,89 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.36328125,
+   "V": 0.37890625,
    "Width": 0.078125,
    "Height": 0.0546875,
    "bounds_px": [
     57,
-    43,
+    45,
     67,
-    50
+    52
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "paper",
    "image_size": [
     384,
     256
    ],
-   "TemplateId": "sp4_rough_mountain_black_band",
-   "Id": "black_band",
-   "CauseId": "sp4_rough_mountain_black_band",
-   "ViewId": "window",
-   "InstrumentKind": "jade_light",
-   "status": "planned_04_not_runtime",
-   "U": 0.4869791666666667,
-   "V": 0.41796875,
-   "Width": 0.11979166666666667,
-   "Height": 0.1328125,
-   "bounds_px": [
-    164,
-    90,
-    210,
-    124
-   ]
-  },
-  {
-   "asset_key": "jade_rough_mountain",
-   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__black_band",
-   "image": "items",
-   "image_size": [
-    128,
-    128
-   ],
-   "TemplateId": "sp4_rough_mountain_black_band",
-   "Id": "black_band",
-   "CauseId": "sp4_rough_mountain_black_band",
-   "ViewId": "window",
-   "InstrumentKind": "jade_light",
-   "status": "planned_04_not_runtime",
-   "U": 0.48046875,
-   "V": 0.41015625,
-   "Width": 0.1953125,
-   "Height": 0.1328125,
-   "bounds_px": [
-    49,
-    44,
-    74,
-    61
-   ]
-  },
-  {
-   "asset_key": "jade_rough_mountain",
-   "state": "window_bing_open_mountain_fissure",
-   "image": "paper",
-   "image_size": [
-    384,
-    256
-   ],
-   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
-   "Id": "open_mountain_fissure",
-   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
    "ViewId": "front",
-   "InstrumentKind": "loupe",
+   "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
    "bounds_px": [
+    160,
+    178,
     224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.72265625,
+   "Width": 0.25,
+   "Height": 0.0703125,
+   "bounds_px": [
+    48,
+    88,
+    80,
+    97
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_open_mountain_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -1650,15 +1650,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -1676,14 +1676,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.4895833333333333,
-   "V": 0.37109375,
+   "V": 0.37890625,
    "Width": 0.052083333333333336,
    "Height": 0.0546875,
    "bounds_px": [
     178,
-    88,
+    90,
     198,
-    102
+    104
    ]
   },
   {
@@ -1701,14 +1701,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.36328125,
+   "V": 0.37890625,
    "Width": 0.078125,
    "Height": 0.0546875,
    "bounds_px": [
     57,
-    43,
+    45,
     67,
-    50
+    52
    ]
   },
   {
@@ -1725,14 +1725,14 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.4869791666666667,
+   "U": 0.484375,
    "V": 0.41796875,
-   "Width": 0.11979166666666667,
+   "Width": 0.11458333333333333,
    "Height": 0.1328125,
    "bounds_px": [
     164,
     90,
-    210,
+    208,
     124
    ]
   },
@@ -1750,15 +1750,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.48046875,
-   "V": 0.41015625,
-   "Width": 0.1953125,
+   "U": 0.4765625,
+   "V": 0.41796875,
+   "Width": 0.171875,
    "Height": 0.1328125,
    "bounds_px": [
-    49,
-    44,
-    74,
-    61
+    50,
+    45,
+    72,
+    62
    ]
   },
   {
@@ -1776,14 +1776,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.73046875,
-   "Width": 0.17708333333333334,
-   "Height": 0.0859375,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
    "bounds_px": [
-    158,
-    176,
-    226,
-    198
+    160,
+    178,
+    224,
+    194
    ]
   },
   {
@@ -1801,14 +1801,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.7421875,
-   "Width": 0.265625,
-   "Height": 0.078125,
+   "V": 0.72265625,
+   "Width": 0.25,
+   "Height": 0.0703125,
    "bounds_px": [
-    47,
-    90,
-    81,
-    100
+    48,
+    88,
+    80,
+    97
    ]
   },
   {
@@ -1851,12 +1851,12 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.41015625,
+   "V": 0.4140625,
    "Width": 0.109375,
-   "Height": 0.1015625,
+   "Height": 0.09375,
    "bounds_px": [
     55,
-    46,
+    47,
     69,
     59
    ]
@@ -1875,15 +1875,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -1900,15 +1900,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -1926,14 +1926,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.4895833333333333,
-   "V": 0.37109375,
+   "V": 0.37890625,
    "Width": 0.052083333333333336,
    "Height": 0.0546875,
    "bounds_px": [
     178,
-    88,
+    90,
     198,
-    102
+    104
    ]
   },
   {
@@ -1951,14 +1951,14 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.36328125,
+   "V": 0.37890625,
    "Width": 0.078125,
    "Height": 0.0546875,
    "bounds_px": [
     57,
-    43,
+    45,
     67,
-    50
+    52
    ]
   },
   {
@@ -1975,15 +1975,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -2000,15 +2000,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -2025,14 +2025,14 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.4869791666666667,
+   "U": 0.484375,
    "V": 0.41796875,
-   "Width": 0.11979166666666667,
+   "Width": 0.11458333333333333,
    "Height": 0.1328125,
    "bounds_px": [
     164,
     90,
-    210,
+    208,
     124
    ]
   },
@@ -2050,15 +2050,15 @@
    "ViewId": "window",
    "InstrumentKind": "jade_light",
    "status": "planned_04_not_runtime",
-   "U": 0.48046875,
-   "V": 0.41015625,
-   "Width": 0.1953125,
+   "U": 0.4765625,
+   "V": 0.41796875,
+   "Width": 0.171875,
    "Height": 0.1328125,
    "bounds_px": [
-    49,
-    44,
-    74,
-    61
+    50,
+    45,
+    72,
+    62
    ]
   },
   {
@@ -2075,15 +2075,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
@@ -2100,15 +2100,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
@@ -2126,14 +2126,14 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.73046875,
-   "Width": 0.17708333333333334,
-   "Height": 0.0859375,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
    "bounds_px": [
-    158,
-    176,
-    226,
-    198
+    160,
+    178,
+    224,
+    194
    ]
   },
   {
@@ -2151,19 +2151,19 @@
    "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
    "U": 0.5,
-   "V": 0.7421875,
-   "Width": 0.265625,
-   "Height": 0.078125,
+   "V": 0.72265625,
+   "Width": 0.25,
+   "Height": 0.0703125,
    "bounds_px": [
-    47,
-    90,
-    81,
-    100
+    48,
+    88,
+    80,
+    97
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "paper",
    "image_size": [
     384,
@@ -2175,20 +2175,20 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.625,
-   "V": 0.63671875,
-   "Width": 0.08333333333333333,
-   "Height": 0.1953125,
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
    "bounds_px": [
-    224,
+    222,
     138,
-    256,
-    188
+    252,
+    186
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "items",
    "image_size": [
     128,
@@ -2200,20 +2200,20 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6875,
-   "V": 0.640625,
-   "Width": 0.125,
-   "Height": 0.203125,
+   "U": 0.67578125,
+   "V": 0.6328125,
+   "Width": 0.1171875,
+   "Height": 0.1875,
    "bounds_px": [
-    80,
+    79,
     69,
-    96,
-    95
+    94,
+    93
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "paper",
    "image_size": [
     384,
@@ -2226,19 +2226,19 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.4895833333333333,
-   "V": 0.37109375,
+   "V": 0.37890625,
    "Width": 0.052083333333333336,
    "Height": 0.0546875,
    "bounds_px": [
     178,
-    88,
+    90,
     198,
-    102
+    104
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "items",
    "image_size": [
     128,
@@ -2251,64 +2251,64 @@
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
    "U": 0.484375,
-   "V": 0.36328125,
+   "V": 0.37890625,
    "Width": 0.078125,
    "Height": 0.0546875,
    "bounds_px": [
     57,
-    43,
+    45,
     67,
-    50
+    52
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "paper",
    "image_size": [
     384,
     256
    ],
-   "TemplateId": "sp4_rough_mountain_black_band",
-   "Id": "black_band",
-   "CauseId": "sp4_rough_mountain_black_band",
-   "ViewId": "window",
-   "InstrumentKind": "jade_light",
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
-   "U": 0.4869791666666667,
-   "V": 0.41796875,
-   "Width": 0.11979166666666667,
-   "Height": 0.1328125,
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
    "bounds_px": [
-    164,
-    90,
-    210,
-    124
+    160,
+    178,
+    224,
+    194
    ]
   },
   {
    "asset_key": "jade_rough_mountain",
-   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__black_band",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
    "image": "items",
    "image_size": [
     128,
     128
    ],
-   "TemplateId": "sp4_rough_mountain_black_band",
-   "Id": "black_band",
-   "CauseId": "sp4_rough_mountain_black_band",
-   "ViewId": "window",
-   "InstrumentKind": "jade_light",
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
    "status": "planned_04_not_runtime",
-   "U": 0.48046875,
-   "V": 0.41015625,
-   "Width": 0.1953125,
-   "Height": 0.1328125,
+   "U": 0.5,
+   "V": 0.72265625,
+   "Width": 0.25,
+   "Height": 0.0703125,
    "bounds_px": [
-    49,
-    44,
-    74,
-    61
+    48,
+    88,
+    80,
+    97
    ]
   }
  ]

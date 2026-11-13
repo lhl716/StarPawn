@@ -175,15 +175,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.5234375,
-   "V": 0.72265625,
-   "Width": 0.078125,
-   "Height": 0.0546875,
+   "U": 0.4947916666666667,
+   "V": 0.75390625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1328125,
    "bounds_px": [
-    186,
-    178,
+    164,
+    176,
     216,
-    192
+    210
    ]
   },
   {
@@ -200,15 +200,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6640625,
-   "V": 0.7890625,
-   "Width": 0.015625,
-   "Height": 0.015625,
+   "U": 0.5390625,
+   "V": 0.7578125,
+   "Width": 0.109375,
+   "Height": 0.109375,
    "bounds_px": [
-    42,
-    50,
-    43,
-    51
+    31,
+    45,
+    38,
+    52
    ]
   },
   {

@@ -69,15 +69,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6067708333333334,
-   "V": 0.39453125,
-   "Width": 0.005208333333333333,
-   "Height": 0.0078125,
+   "U": 0.7473958333333334,
+   "V": 0.3828125,
+   "Width": 0.13020833333333334,
+   "Height": 0.0625,
    "bounds_px": [
-    232,
-    100,
-    234,
-    102
+    262,
+    90,
+    312,
+    106
    ]
   },
   {
@@ -94,13 +94,16 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": null,
-   "V": null,
-   "Width": null,
-   "Height": null,
-   "bounds_px": null,
-   "reveal_gate": "visible_evidence",
-   "note": "instrument/record-only: intact art reused, no clickable region"
+   "U": 0.75390625,
+   "V": 0.34375,
+   "Width": 0.1328125,
+   "Height": 0.09375,
+   "bounds_px": [
+    88,
+    19,
+    105,
+    25
+   ]
   },
   {
    "asset_key": "alloy_silver925",
@@ -260,15 +263,40 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6067708333333334,
-   "V": 0.39453125,
-   "Width": 0.005208333333333333,
-   "Height": 0.0078125,
+   "U": 0.7473958333333334,
+   "V": 0.3828125,
+   "Width": 0.13020833333333334,
+   "Height": 0.0625,
    "bounds_px": [
-    232,
-    100,
-    234,
-    102
+    262,
+    90,
+    312,
+    106
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__inhomogeneous_cast__restamped_fineness",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "Id": "inhomogeneous_cast",
+   "CauseId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.75390625,
+   "V": 0.34375,
+   "Width": 0.1328125,
+   "Height": 0.09375,
+   "bounds_px": [
+    88,
+    19,
+    105,
+    25
    ]
   },
   {
@@ -435,15 +463,40 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.6067708333333334,
-   "V": 0.39453125,
-   "Width": 0.005208333333333333,
-   "Height": 0.0078125,
+   "U": 0.7473958333333334,
+   "V": 0.3828125,
+   "Width": 0.13020833333333334,
+   "Height": 0.0625,
    "bounds_px": [
-    232,
-    100,
-    234,
-    102
+    262,
+    90,
+    312,
+    106
+   ]
+  },
+  {
+   "asset_key": "alloy_silver925",
+   "state": "combo__inhomogeneous_cast__edge_fissure__restamped_fineness",
+   "image": "items",
+   "image_size": [
+    128,
+    64
+   ],
+   "TemplateId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "Id": "inhomogeneous_cast",
+   "CauseId": "sp4_alloy_silver_bar_inhomogeneous_cast",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.75390625,
+   "V": 0.34375,
+   "Width": 0.1328125,
+   "Height": 0.09375,
+   "bounds_px": [
+    88,
+    19,
+    105,
+    25
    ]
   },
   {

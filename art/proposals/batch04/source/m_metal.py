@@ -12,8 +12,8 @@ RING_GEO = {  # (lod) -> cx, cy, R, r, k, d, grooves   (pixels; orbit matches th
     "starburst": {1: (96, 47, 45, 36.5, 0.66, 27, []), 0: (32, 22.5, 25, 19.5, 0.66, 16, [])},
 }
 BRACELET_GEO = {
-    "orbit": {1: (96, 47, 84, 76, 0.42, 16, [(4, 5), (10, 11)]), 0: (64, 24, 59, 53, 0.42, 10, [(4, 4)])},
-    "starburst": {1: (96, 44, 76, 70, 0.50, 13, []), 0: (64, 23, 54, 49, 0.50, 8, [])},
+    "orbit": {1: (96, 47, 84, 76, 0.42, 16, [(4, 5), (10, 11)]), 0: (64, 27.5, 57, 51, 0.42, 10, [(4, 4)])},
+    "starburst": {1: (96, 44, 76, 70, 0.50, 13, []), 0: (64, 26.5, 54, 49, 0.42, 8, [])},
 }
 
 
@@ -63,7 +63,7 @@ def _band(c, v, geo, kind):
     off = kind == "bracelet" and v["design"] == "starburst"
     c.anchor("groove", wp(-0.36 if off else -0.08, 0)[0], wp(-0.36 if off else -0.08, 0)[1] + gv, "wall")
     c.anchor("side_right", 1.0 - 2.2 * px, k * 0.2 + dn * 0.5, ["wall", "top"], 0)
-    c.anchor("side_right_in", 0.86, wp(0.86, 0.5)[1], "wall")
+    c.anchor("side_right_in", 0.94, wp(0.94, 0.5)[1], "wall")
     c.anchor("wall_fl", wp(-0.56, 0)[0], wp(-0.56, 0)[1] + px, "wall")
     c.anchor("wall_fr", *wp(0.47, 0.55), "wall")
     c.anchor("wall_fr_top", wp(0.5, 0)[0], wp(0.5, 0)[1] + px, "wall")
@@ -83,8 +83,9 @@ def bracelet(c, v):
     cx, cy, R, k, dn = _band(c, v, BRACELET_GEO, "bracelet")
     if v["design"] == "starburst":                     # medallion plate breaks the silhouette
         y = k + dn * 0.45
-        c.ell(0, y, 0.2, 0.2 * 0.9, v["mat"], part="medal")
-        _star(c, 0, y, 0.15, v["mat"], "medal", tone=6)
+        mr = 0.2 if c.lod else 0.14
+        c.ell(0, y, mr, mr * 0.9, v["mat"], part="medal")
+        _star(c, 0, y, mr * 0.75, v["mat"], "medal", tone=6)
         c.ell(0, y, 0.05, 0.05, v["mat"], flat=3, part="medal")
     else:                                               # hinge pin at the left
         c.box(-0.86, k * 0.5 + dn * 0.1, -0.80, k * 0.5 + dn * 1.05, v["mat"], 3, "wall", bevel=False)
@@ -265,7 +266,7 @@ def bar(c, v):
     c.anchor("edge_low_out", cxm - 0.5, yt + fh, ["front"], 90)
     c.anchor("edge_right", B[0] - 0.45, yt + 2 * p, "front")
     c.anchor("seam_right", (B[0] + C[0]) / 2 + 0.02, (B[1] + G[1]) / 2 + 0.05, "side")
-    c.anchor("stamp", cxm + 0.02, cym, "stamp")
+    c.anchor("stamp", (cxm + 0.02) if style in ("orbit", "starburst") else (cxm - 0.35), cym, "stamp")
     c.anchor("mass", B[0] - 0.41, yt + fh * 0.3 + p, "front")
 
 
@@ -295,7 +296,7 @@ T.update({
     "gold_ring_exposed_core": [("patch", "wall_center", dict(rx=0.3, ry=0.2, mat="base"))],
     "gold_ring_solder_join": [("seam", "inner_back", dict(L=0.22, ang=90, wpx=1))],
     "gold_bracelet_arc_gouge": [("scratch", "wall_front", dict(n=2, L=0.34, ang=6, gap=3))],
-    "gold_bracelet_flattened_arc": [("bite", "side_right", dict(shape="flat", ang=0, face=2)), ("kink", "side_right_in", dict(rx=0.05, ry=0.06))],
+    "gold_bracelet_flattened_arc": [("bite", "side_right", dict(r=0.07, shape="round", ang=0, out=0.4, face=2)), ("kink", "side_right_in", dict(rx=0.04, ry=0.06))],
     "gold_bracelet_rim_fissure": [("crack", "wall_fl", dict(L=0.17, ang=92, wide=True))],
     "gold_bracelet_inner_plating": [("patch", "inner_lip", dict(rx=0.3, ry=0.03, mat="base", wob=0.3))],
     "gold_bracelet_joined_arc": [("seam", "wall_fr", dict(L=0.16, ang=90, wpx=2)), ("smooth", "wall_fr_top", dict(rx=0.07, ry=0.03))],
@@ -351,7 +352,7 @@ for metal in ("gold", "silver"):
     for des in ("orbit", "starburst"):
         M["%s_ring_%s" % (metal, des)] = (ring, 1, 1, dict(mat=metal, design=des))
         M["%s_bracelet_%s" % (metal, des)] = (bracelet, 2, 1, dict(mat=metal, design=des))
-        M["%s_necklace_%s" % (metal, des)] = (necklace, 1.12, 1.26, dict(mat=metal, design=des))
+        M["%s_necklace_%s" % (metal, des)] = (necklace, 1.12, 1.4, dict(mat=metal, design=des))
         M["%s_earrings_%s" % (metal, des)] = (earrings, 0.9, 0.84, dict(mat=metal, design=des))
         M["%s_bar_%s" % (metal, des)] = (bar, 1.8, 0.8, dict(mat=metal, design=des, bar=(
             (1.5, 0.5, 0.62, 0.0, "orbit") if des == "orbit" else (1.25, 0.7, 0.5, 0.0, "starburst"))))

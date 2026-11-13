@@ -213,26 +213,26 @@
   },
   "sp4_refined_silver_bar_batch_restrike": {
    "paper": {
-    "changed_px": 4,
+    "changed_px": 108,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     170,
+     142,
      92,
      172,
-     94
+     106
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 1,
+    "changed_px": 17,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     56,
+     47,
      20,
      57,
-     21
+     25
     ]
    }
   }

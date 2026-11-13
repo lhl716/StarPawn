@@ -147,76 +147,76 @@
  "template_checks": {
   "sp4_silver_necklace_flattened_links": {
    "paper": {
-    "changed_px": 144,
+    "changed_px": 104,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     106,
-     128,
-     128,
-     148
+     114,
+     126,
+     134,
+     146
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 38,
+    "changed_px": 32,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     18,
+     23,
      63,
-     30,
+     34,
      74
     ]
    }
   },
   "sp4_silver_necklace_jump_ring_gap": {
    "paper": {
-    "changed_px": 68,
+    "changed_px": 60,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
      196,
-     188,
-     206,
-     198
+     180,
+     204,
+     190
     ]
    },
    "policy": "state_mask",
    "items": {
-    "changed_px": 19,
+    "changed_px": 18,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
      66,
-     95,
+     92,
      71,
-     100
+     97
     ]
    }
   },
   "sp4_silver_necklace_spring_failure": {
    "paper": {
-    "changed_px": 24,
+    "changed_px": 28,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     228,
-     54,
-     236,
-     58
+     218,
+     56,
+     232,
+     66
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 8,
+    "changed_px": 10,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     83,
-     25,
-     88,
-     28
+     78,
+     26,
+     85,
+     31
     ]
    }
   },
@@ -226,35 +226,10 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     246,
-     154,
-     266,
+     240,
+     152,
+     258,
      168
-    ]
-   },
-   "policy": "same_alpha",
-   "items": {
-    "changed_px": 29,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     93,
-     78,
-     102,
-     85
-    ]
-   }
-  },
-  "sp4_silver_necklace_repair_link": {
-   "paper": {
-    "changed_px": 84,
-    "alpha_equal": true,
-    "within_object": true,
-    "bounds": [
-     130,
-     56,
-     146,
-     70
     ]
    },
    "policy": "same_alpha",
@@ -263,10 +238,35 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     33,
-     26,
-     40,
-     33
+     89,
+     76,
+     98,
+     83
+    ]
+   }
+  },
+  "sp4_silver_necklace_repair_link": {
+   "paper": {
+    "changed_px": 52,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     140,
+     62,
+     152,
+     74
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 15,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     36,
+     30,
+     41,
+     36
     ]
    }
   }

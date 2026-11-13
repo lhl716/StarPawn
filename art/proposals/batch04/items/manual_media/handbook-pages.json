@@ -1,0 +1,502 @@
+{
+ "manual": "manual_media",
+ "page_size": [
+  440,
+  616
+ ],
+ "page_count": 7,
+ "style_spec": "art/VANILLA_HANDBOOK_SPEC_04.txt",
+ "pages": [
+  {
+   "manual": "manual_media",
+   "page": 0,
+   "kind": "index",
+   "template": "ui/handbook_page/index.png",
+   "previous": null,
+   "next": 1,
+   "entries": [
+    {
+     "category": "cartridge",
+     "subtype": "all_models",
+     "first_page": 1,
+     "loc_key": "sp4.handbook.manual_media.index.cartridge.all_models"
+    },
+    {
+     "category": "disc",
+     "subtype": "all_models",
+     "first_page": 4,
+     "loc_key": "sp4.handbook.manual_media.index.disc.all_models"
+    }
+   ],
+   "mockup": "items/manual_media/pages/page_00.png"
+  },
+  {
+   "manual": "manual_media",
+   "page": 1,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "cartridge",
+   "subtype": "all_models",
+   "previous": 0,
+   "next": 2,
+   "sections": [
+    {
+     "TemplateId": "sp4_cartridge_label_misregister",
+     "label_en": "Misregistered cartridge label",
+     "category": "cartridge",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_cartridge",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "edition_disclosure",
+     "reference": {
+      "layer": "items/collectible_cartridge/paper/intact.png",
+      "crop_px": [
+       111,
+       41,
+       191,
+       93
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_cartridge/paper/label_misregister.png",
+      "crop_px": [
+       111,
+       41,
+       191,
+       93
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_cartridge_label_misregister.heading",
+      "body": "sp4.handbook.sp4_cartridge_label_misregister.body",
+      "limits": "sp4.handbook.sp4_cartridge_label_misregister.limits",
+      "reference_caption": "sp4.handbook.sp4_cartridge_label_misregister.ref",
+      "problem_caption": "sp4.handbook.sp4_cartridge_label_misregister.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_cartridge_contact_loss",
+     "label_en": "Worn cartridge contact plating",
+     "category": "cartridge",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_cartridge",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "replace_contacts",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/collectible_cartridge/paper/intact.png",
+      "crop_px": [
+       159,
+       196,
+       199,
+       222
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_cartridge/paper/contact_loss.png",
+      "crop_px": [
+       159,
+       196,
+       199,
+       222
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_cartridge_contact_loss.heading",
+      "body": "sp4.handbook.sp4_cartridge_contact_loss.body",
+      "limits": "sp4.handbook.sp4_cartridge_contact_loss.limits",
+      "reference_caption": "sp4.handbook.sp4_cartridge_contact_loss.ref",
+      "problem_caption": "sp4.handbook.sp4_cartridge_contact_loss.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_media/pages/page_01.png"
+  },
+  {
+   "manual": "manual_media",
+   "page": 2,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "cartridge",
+   "subtype": "all_models",
+   "previous": 1,
+   "next": 3,
+   "sections": [
+    {
+     "TemplateId": "sp4_cartridge_shell_tab",
+     "label_en": "Broken cartridge tab",
+     "category": "cartridge",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_cartridge",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "replace_shell",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/collectible_cartridge/paper/intact.png",
+      "crop_px": [
+       246,
+       10,
+       286,
+       36
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_cartridge/paper/shell_tab.png",
+      "crop_px": [
+       246,
+       10,
+       286,
+       36
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_cartridge_shell_tab.heading",
+      "body": "sp4.handbook.sp4_cartridge_shell_tab.body",
+      "limits": "sp4.handbook.sp4_cartridge_shell_tab.limits",
+      "reference_caption": "sp4.handbook.sp4_cartridge_shell_tab.ref",
+      "problem_caption": "sp4.handbook.sp4_cartridge_shell_tab.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_cartridge_label_lift",
+     "label_en": "Lifted cartridge label",
+     "category": "cartridge",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_cartridge",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "restore_label",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/collectible_cartridge/paper/intact.png",
+      "crop_px": [
+       96,
+       129,
+       176,
+       181
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_cartridge/paper/label_lift.png",
+      "crop_px": [
+       96,
+       129,
+       176,
+       181
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_cartridge_label_lift.heading",
+      "body": "sp4.handbook.sp4_cartridge_label_lift.body",
+      "limits": "sp4.handbook.sp4_cartridge_label_lift.limits",
+      "reference_caption": "sp4.handbook.sp4_cartridge_label_lift.ref",
+      "problem_caption": "sp4.handbook.sp4_cartridge_label_lift.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_media/pages/page_02.png"
+  },
+  {
+   "manual": "manual_media",
+   "page": 3,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "cartridge",
+   "subtype": "all_models",
+   "previous": 2,
+   "next": 4,
+   "sections": [
+    {
+     "TemplateId": "sp4_cartridge_case_reseal",
+     "label_en": "Resealed cartridge case",
+     "category": "cartridge",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_cartridge",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/collectible_cartridge/paper/intact.png",
+      "crop_px": [
+       191,
+       93,
+       351,
+       197
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_cartridge/paper/case_reseal.png",
+      "crop_px": [
+       191,
+       93,
+       351,
+       197
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_cartridge_case_reseal.heading",
+      "body": "sp4.handbook.sp4_cartridge_case_reseal.body",
+      "limits": "sp4.handbook.sp4_cartridge_case_reseal.limits",
+      "reference_caption": "sp4.handbook.sp4_cartridge_case_reseal.ref",
+      "problem_caption": "sp4.handbook.sp4_cartridge_case_reseal.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_media/pages/page_03.png"
+  },
+  {
+   "manual": "manual_media",
+   "page": 4,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "disc",
+   "subtype": "all_models",
+   "previous": 3,
+   "next": 5,
+   "sections": [
+    {
+     "TemplateId": "sp4_disc_radial_score",
+     "label_en": "Radial disc scratch",
+     "category": "disc",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_disc",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "polish",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/collectible_disc/paper/intact.png",
+      "crop_px": [
+       212,
+       153,
+       292,
+       205
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_disc/paper/radial_score.png",
+      "crop_px": [
+       212,
+       153,
+       292,
+       205
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_disc_radial_score.heading",
+      "body": "sp4.handbook.sp4_disc_radial_score.body",
+      "limits": "sp4.handbook.sp4_disc_radial_score.limits",
+      "reference_caption": "sp4.handbook.sp4_disc_radial_score.ref",
+      "problem_caption": "sp4.handbook.sp4_disc_radial_score.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_disc_hub_fissure",
+     "label_en": "Disc hub fissure",
+     "category": "disc",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_disc",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "none",
+     "economic_channel": "structural_damage",
+     "reference": {
+      "layer": "items/collectible_disc/paper/intact.png",
+      "crop_px": [
+       160,
+       66,
+       240,
+       118
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_disc/paper/hub_fissure.png",
+      "crop_px": [
+       160,
+       66,
+       240,
+       118
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_disc_hub_fissure.heading",
+      "body": "sp4.handbook.sp4_disc_hub_fissure.body",
+      "limits": "sp4.handbook.sp4_disc_hub_fissure.limits",
+      "reference_caption": "sp4.handbook.sp4_disc_hub_fissure.ref",
+      "problem_caption": "sp4.handbook.sp4_disc_hub_fissure.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_media/pages/page_04.png"
+  },
+  {
+   "manual": "manual_media",
+   "page": 5,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "disc",
+   "subtype": "all_models",
+   "previous": 4,
+   "next": 6,
+   "sections": [
+    {
+     "TemplateId": "sp4_disc_layer_delamination",
+     "label_en": "Disc layer separation",
+     "category": "disc",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_disc",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/collectible_disc/paper/intact.png",
+      "crop_px": [
+       21,
+       108,
+       181,
+       212
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_disc/paper/layer_delamination.png",
+      "crop_px": [
+       21,
+       108,
+       181,
+       212
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_disc_layer_delamination.heading",
+      "body": "sp4.handbook.sp4_disc_layer_delamination.body",
+      "limits": "sp4.handbook.sp4_disc_layer_delamination.limits",
+      "reference_caption": "sp4.handbook.sp4_disc_layer_delamination.ref",
+      "problem_caption": "sp4.handbook.sp4_disc_layer_delamination.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_disc_matrix_mismatch",
+     "label_en": "Disc matrix mismatch",
+     "category": "disc",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_disc",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "edition_disclosure",
+     "reference": {
+      "layer": "items/collectible_disc/paper/intact.png",
+      "crop_px": [
+       204,
+       127,
+       244,
+       153
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_disc/paper/matrix_mismatch.png",
+      "crop_px": [
+       204,
+       127,
+       244,
+       153
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_disc_matrix_mismatch.heading",
+      "body": "sp4.handbook.sp4_disc_matrix_mismatch.body",
+      "limits": "sp4.handbook.sp4_disc_matrix_mismatch.limits",
+      "reference_caption": "sp4.handbook.sp4_disc_matrix_mismatch.ref",
+      "problem_caption": "sp4.handbook.sp4_disc_matrix_mismatch.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_media/pages/page_05.png"
+  },
+  {
+   "manual": "manual_media",
+   "page": 6,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "disc",
+   "subtype": "all_models",
+   "previous": 5,
+   "next": null,
+   "sections": [
+    {
+     "TemplateId": "sp4_disc_label_resurface",
+     "label_en": "Overprinted disc label",
+     "category": "disc",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_disc",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/collectible_disc/paper/intact.png",
+      "crop_px": [
+       105,
+       47,
+       185,
+       99
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_disc/paper/label_resurface.png",
+      "crop_px": [
+       105,
+       47,
+       185,
+       99
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_disc_label_resurface.heading",
+      "body": "sp4.handbook.sp4_disc_label_resurface.body",
+      "limits": "sp4.handbook.sp4_disc_label_resurface.limits",
+      "reference_caption": "sp4.handbook.sp4_disc_label_resurface.ref",
+      "problem_caption": "sp4.handbook.sp4_disc_label_resurface.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_media/pages/page_06.png"
+  }
+ ]
+}

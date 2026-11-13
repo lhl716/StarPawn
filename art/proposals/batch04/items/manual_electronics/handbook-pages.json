@@ -1,0 +1,1222 @@
+{
+ "manual": "manual_electronics",
+ "page_size": [
+  440,
+  616
+ ],
+ "page_count": 16,
+ "style_spec": "art/VANILLA_HANDBOOK_SPEC_04.txt",
+ "pages": [
+  {
+   "manual": "manual_electronics",
+   "page": 0,
+   "kind": "index",
+   "template": "ui/handbook_page/index.png",
+   "previous": null,
+   "next": 1,
+   "entries": [
+    {
+     "category": "console",
+     "subtype": "all_models",
+     "first_page": 1,
+     "loc_key": "sp4.handbook.manual_electronics.index.console.all_models"
+    },
+    {
+     "category": "handheld",
+     "subtype": "all_models",
+     "first_page": 4,
+     "loc_key": "sp4.handbook.manual_electronics.index.handheld.all_models"
+    },
+    {
+     "category": "scrap_board",
+     "subtype": "all_models",
+     "first_page": 7,
+     "loc_key": "sp4.handbook.manual_electronics.index.scrap_board.all_models"
+    },
+    {
+     "category": "scrap_processor",
+     "subtype": "all_models",
+     "first_page": 10,
+     "loc_key": "sp4.handbook.manual_electronics.index.scrap_processor.all_models"
+    },
+    {
+     "category": "scrap_connectors",
+     "subtype": "all_models",
+     "first_page": 13,
+     "loc_key": "sp4.handbook.manual_electronics.index.scrap_connectors.all_models"
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_00.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 1,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "console",
+   "subtype": "all_models",
+   "previous": 0,
+   "next": 2,
+   "sections": [
+    {
+     "TemplateId": "sp4_console_port_contacts",
+     "label_en": "Bent console contacts",
+     "category": "console",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_console",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "replace_port",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/collectible_console/paper/intact.png",
+      "crop_px": [
+       86,
+       171,
+       126,
+       197
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_console/paper/port_contacts.png",
+      "crop_px": [
+       86,
+       171,
+       126,
+       197
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_console_port_contacts.heading",
+      "body": "sp4.handbook.sp4_console_port_contacts.body",
+      "limits": "sp4.handbook.sp4_console_port_contacts.limits",
+      "reference_caption": "sp4.handbook.sp4_console_port_contacts.ref",
+      "problem_caption": "sp4.handbook.sp4_console_port_contacts.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_console_shell_fracture",
+     "label_en": "Cracked console shell",
+     "category": "console",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_console",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "replace_shell",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/collectible_console/paper/intact.png",
+      "crop_px": [
+       213,
+       173,
+       293,
+       225
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_console/paper/shell_fracture.png",
+      "crop_px": [
+       213,
+       173,
+       293,
+       225
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_console_shell_fracture.heading",
+      "body": "sp4.handbook.sp4_console_shell_fracture.body",
+      "limits": "sp4.handbook.sp4_console_shell_fracture.limits",
+      "reference_caption": "sp4.handbook.sp4_console_shell_fracture.ref",
+      "problem_caption": "sp4.handbook.sp4_console_shell_fracture.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_01.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 2,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "console",
+   "subtype": "all_models",
+   "previous": 1,
+   "next": 3,
+   "sections": [
+    {
+     "TemplateId": "sp4_console_vent_heat",
+     "label_en": "Console heat damage",
+     "category": "console",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_console",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "replace_module",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/collectible_console/paper/intact.png",
+      "crop_px": [
+       141,
+       9,
+       301,
+       113
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_console/paper/vent_heat.png",
+      "crop_px": [
+       141,
+       9,
+       301,
+       113
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_console_vent_heat.heading",
+      "body": "sp4.handbook.sp4_console_vent_heat.body",
+      "limits": "sp4.handbook.sp4_console_vent_heat.limits",
+      "reference_caption": "sp4.handbook.sp4_console_vent_heat.ref",
+      "problem_caption": "sp4.handbook.sp4_console_vent_heat.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_console_power_socket",
+     "label_en": "Loose power socket",
+     "category": "console",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_console",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "replace_port",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/collectible_console/paper/intact.png",
+      "crop_px": [
+       282,
+       92,
+       362,
+       144
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_console/paper/power_socket.png",
+      "crop_px": [
+       282,
+       92,
+       362,
+       144
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_console_power_socket.heading",
+      "body": "sp4.handbook.sp4_console_power_socket.body",
+      "limits": "sp4.handbook.sp4_console_power_socket.limits",
+      "reference_caption": "sp4.handbook.sp4_console_power_socket.ref",
+      "problem_caption": "sp4.handbook.sp4_console_power_socket.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_02.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 3,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "console",
+   "subtype": "all_models",
+   "previous": 2,
+   "next": 4,
+   "sections": [
+    {
+     "TemplateId": "sp4_console_service_screw",
+     "label_en": "Console service traces",
+     "category": "console",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_console",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/collectible_console/paper/intact.png",
+      "crop_px": [
+       6,
+       190,
+       86,
+       242
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_console/paper/service_screw.png",
+      "crop_px": [
+       6,
+       190,
+       86,
+       242
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_console_service_screw.heading",
+      "body": "sp4.handbook.sp4_console_service_screw.body",
+      "limits": "sp4.handbook.sp4_console_service_screw.limits",
+      "reference_caption": "sp4.handbook.sp4_console_service_screw.ref",
+      "problem_caption": "sp4.handbook.sp4_console_service_screw.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_03.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 4,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "handheld",
+   "subtype": "all_models",
+   "previous": 3,
+   "next": 5,
+   "sections": [
+    {
+     "TemplateId": "sp4_handheld_charging_contacts",
+     "label_en": "Bent handheld port contacts",
+     "category": "handheld",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_handheld",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "replace_port",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/collectible_handheld/paper/intact.png",
+      "crop_px": [
+       296,
+       181,
+       336,
+       207
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_handheld/paper/charging_contacts.png",
+      "crop_px": [
+       296,
+       181,
+       336,
+       207
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_handheld_charging_contacts.heading",
+      "body": "sp4.handbook.sp4_handheld_charging_contacts.body",
+      "limits": "sp4.handbook.sp4_handheld_charging_contacts.limits",
+      "reference_caption": "sp4.handbook.sp4_handheld_charging_contacts.ref",
+      "problem_caption": "sp4.handbook.sp4_handheld_charging_contacts.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_handheld_display_line",
+     "label_en": "Damaged handheld display",
+     "category": "handheld",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_handheld",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "replace_module",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/collectible_handheld/paper/intact.png",
+      "crop_px": [
+       112,
+       97,
+       272,
+       201
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_handheld/paper/display_line.png",
+      "crop_px": [
+       112,
+       97,
+       272,
+       201
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_handheld_display_line.heading",
+      "body": "sp4.handbook.sp4_handheld_display_line.body",
+      "limits": "sp4.handbook.sp4_handheld_display_line.limits",
+      "reference_caption": "sp4.handbook.sp4_handheld_display_line.ref",
+      "problem_caption": "sp4.handbook.sp4_handheld_display_line.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_04.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 5,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "handheld",
+   "subtype": "all_models",
+   "previous": 4,
+   "next": 6,
+   "sections": [
+    {
+     "TemplateId": "sp4_handheld_stuck_button",
+     "label_en": "Stuck handheld control",
+     "category": "handheld",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_handheld",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "replace_module",
+     "economic_channel": "function_damage",
+     "reference": {
+      "layer": "items/collectible_handheld/paper/intact.png",
+      "crop_px": [
+       297,
+       88,
+       377,
+       140
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_handheld/paper/stuck_button.png",
+      "crop_px": [
+       297,
+       88,
+       377,
+       140
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_handheld_stuck_button.heading",
+      "body": "sp4.handbook.sp4_handheld_stuck_button.body",
+      "limits": "sp4.handbook.sp4_handheld_stuck_button.limits",
+      "reference_caption": "sp4.handbook.sp4_handheld_stuck_button.ref",
+      "problem_caption": "sp4.handbook.sp4_handheld_stuck_button.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_handheld_shell_split",
+     "label_en": "Split handheld shell",
+     "category": "handheld",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_handheld",
+     "view": "front",
+     "instrument": "none",
+     "repair_class": "replace_shell",
+     "economic_channel": "craft_damage",
+     "reference": {
+      "layer": "items/collectible_handheld/paper/intact.png",
+      "crop_px": [
+       8,
+       143,
+       88,
+       195
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/collectible_handheld/paper/shell_split.png",
+      "crop_px": [
+       8,
+       143,
+       88,
+       195
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_handheld_shell_split.heading",
+      "body": "sp4.handbook.sp4_handheld_shell_split.body",
+      "limits": "sp4.handbook.sp4_handheld_shell_split.limits",
+      "reference_caption": "sp4.handbook.sp4_handheld_shell_split.ref",
+      "problem_caption": "sp4.handbook.sp4_handheld_shell_split.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_05.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 6,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "handheld",
+   "subtype": "all_models",
+   "previous": 5,
+   "next": 7,
+   "sections": [
+    {
+     "TemplateId": "sp4_handheld_battery_cover_rework",
+     "label_en": "Handheld service marks",
+     "category": "handheld",
+     "subtype": "all_models",
+     "example_asset_key": "collectible_handheld",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "service_history",
+     "reference": {
+      "layer": "items/collectible_handheld/paper/intact.png",
+      "crop_px": [
+       141,
+       176,
+       181,
+       202
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/collectible_handheld/paper/battery_cover_rework.png",
+      "crop_px": [
+       141,
+       176,
+       181,
+       202
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_handheld_battery_cover_rework.heading",
+      "body": "sp4.handbook.sp4_handheld_battery_cover_rework.body",
+      "limits": "sp4.handbook.sp4_handheld_battery_cover_rework.limits",
+      "reference_caption": "sp4.handbook.sp4_handheld_battery_cover_rework.ref",
+      "problem_caption": "sp4.handbook.sp4_handheld_battery_cover_rework.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_06.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 7,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "scrap_board",
+   "subtype": "all_models",
+   "previous": 6,
+   "next": 8,
+   "sections": [
+    {
+     "TemplateId": "sp4_scrap_board_missing_chip",
+     "label_en": "Stripped board component",
+     "category": "scrap_board",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_board",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/scrap_board/paper/intact.png",
+      "crop_px": [
+       4,
+       49,
+       164,
+       153
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/scrap_board/paper/missing_chip.png",
+      "crop_px": [
+       4,
+       49,
+       164,
+       153
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_board_missing_chip.heading",
+      "body": "sp4.handbook.sp4_scrap_board_missing_chip.body",
+      "limits": "sp4.handbook.sp4_scrap_board_missing_chip.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_board_missing_chip.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_board_missing_chip.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_scrap_board_contact_stripping",
+     "label_en": "Stripped edge contacts",
+     "category": "scrap_board",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_board",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/scrap_board/paper/intact.png",
+      "crop_px": [
+       45,
+       139,
+       205,
+       243
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/scrap_board/paper/contact_stripping.png",
+      "crop_px": [
+       45,
+       139,
+       205,
+       243
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_board_contact_stripping.heading",
+      "body": "sp4.handbook.sp4_scrap_board_contact_stripping.body",
+      "limits": "sp4.handbook.sp4_scrap_board_contact_stripping.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_board_contact_stripping.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_board_contact_stripping.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_07.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 8,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "scrap_board",
+   "subtype": "all_models",
+   "previous": 7,
+   "next": 9,
+   "sections": [
+    {
+     "TemplateId": "sp4_scrap_board_burned_trace",
+     "label_en": "Burned board trace",
+     "category": "scrap_board",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_board",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/scrap_board/paper/intact.png",
+      "crop_px": [
+       141,
+       125,
+       221,
+       177
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/scrap_board/paper/burned_trace.png",
+      "crop_px": [
+       141,
+       125,
+       221,
+       177
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_board_burned_trace.heading",
+      "body": "sp4.handbook.sp4_scrap_board_burned_trace.body",
+      "limits": "sp4.handbook.sp4_scrap_board_burned_trace.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_board_burned_trace.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_board_burned_trace.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_scrap_board_corroded_pad",
+     "label_en": "Corroded board pads",
+     "category": "scrap_board",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_board",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/scrap_board/paper/intact.png",
+      "crop_px": [
+       288,
+       65,
+       368,
+       117
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/scrap_board/paper/corroded_pad.png",
+      "crop_px": [
+       288,
+       65,
+       368,
+       117
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_board_corroded_pad.heading",
+      "body": "sp4.handbook.sp4_scrap_board_corroded_pad.body",
+      "limits": "sp4.handbook.sp4_scrap_board_corroded_pad.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_board_corroded_pad.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_board_corroded_pad.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_08.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 9,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "scrap_board",
+   "subtype": "all_models",
+   "previous": 8,
+   "next": 10,
+   "sections": [
+    {
+     "TemplateId": "sp4_scrap_board_false_grade_label",
+     "label_en": "Misgraded board lot label",
+     "category": "scrap_board",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_board",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/scrap_board/paper/intact.png",
+      "crop_px": [
+       315,
+       150,
+       355,
+       176
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/scrap_board/paper/false_grade_label.png",
+      "crop_px": [
+       315,
+       150,
+       355,
+       176
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_board_false_grade_label.heading",
+      "body": "sp4.handbook.sp4_scrap_board_false_grade_label.body",
+      "limits": "sp4.handbook.sp4_scrap_board_false_grade_label.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_board_false_grade_label.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_board_false_grade_label.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_09.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 10,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "scrap_processor",
+   "subtype": "all_models",
+   "previous": 9,
+   "next": 11,
+   "sections": [
+    {
+     "TemplateId": "sp4_scrap_processor_missing_pins",
+     "label_en": "Missing processor pins",
+     "category": "scrap_processor",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_processor",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/scrap_processor/paper/intact.png",
+      "crop_px": [
+       104,
+       199,
+       184,
+       251
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/scrap_processor/paper/missing_pins.png",
+      "crop_px": [
+       104,
+       199,
+       184,
+       251
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_processor_missing_pins.heading",
+      "body": "sp4.handbook.sp4_scrap_processor_missing_pins.body",
+      "limits": "sp4.handbook.sp4_scrap_processor_missing_pins.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_processor_missing_pins.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_processor_missing_pins.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_scrap_processor_cap_removed",
+     "label_en": "Removed processor cap",
+     "category": "scrap_processor",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_processor",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/scrap_processor/paper/intact.png",
+      "crop_px": [
+       113,
+       85,
+       273,
+       189
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/scrap_processor/paper/cap_removed.png",
+      "crop_px": [
+       113,
+       85,
+       273,
+       189
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_processor_cap_removed.heading",
+      "body": "sp4.handbook.sp4_scrap_processor_cap_removed.body",
+      "limits": "sp4.handbook.sp4_scrap_processor_cap_removed.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_processor_cap_removed.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_processor_cap_removed.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_10.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 11,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "scrap_processor",
+   "subtype": "all_models",
+   "previous": 10,
+   "next": 12,
+   "sections": [
+    {
+     "TemplateId": "sp4_scrap_processor_package_fracture",
+     "label_en": "Fractured processor package",
+     "category": "scrap_processor",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_processor",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/scrap_processor/paper/intact.png",
+      "crop_px": [
+       220,
+       170,
+       300,
+       222
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/scrap_processor/paper/package_fracture.png",
+      "crop_px": [
+       220,
+       170,
+       300,
+       222
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_processor_package_fracture.heading",
+      "body": "sp4.handbook.sp4_scrap_processor_package_fracture.body",
+      "limits": "sp4.handbook.sp4_scrap_processor_package_fracture.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_processor_package_fracture.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_processor_package_fracture.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_scrap_processor_scorched_package",
+     "label_en": "Scorched processor package",
+     "category": "scrap_processor",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_processor",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/scrap_processor/paper/intact.png",
+      "crop_px": [
+       47,
+       89,
+       207,
+       193
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/scrap_processor/paper/scorched_package.png",
+      "crop_px": [
+       47,
+       89,
+       207,
+       193
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 1,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_processor_scorched_package.heading",
+      "body": "sp4.handbook.sp4_scrap_processor_scorched_package.body",
+      "limits": "sp4.handbook.sp4_scrap_processor_scorched_package.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_processor_scorched_package.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_processor_scorched_package.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_11.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 12,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "scrap_processor",
+   "subtype": "all_models",
+   "previous": 11,
+   "next": 13,
+   "sections": [
+    {
+     "TemplateId": "sp4_scrap_processor_reprinted_grade",
+     "label_en": "Relabeled processor grade",
+     "category": "scrap_processor",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_processor",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/scrap_processor/paper/intact.png",
+      "crop_px": [
+       129,
+       41,
+       209,
+       93
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/scrap_processor/paper/reprinted_grade.png",
+      "crop_px": [
+       129,
+       41,
+       209,
+       93
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_processor_reprinted_grade.heading",
+      "body": "sp4.handbook.sp4_scrap_processor_reprinted_grade.body",
+      "limits": "sp4.handbook.sp4_scrap_processor_reprinted_grade.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_processor_reprinted_grade.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_processor_reprinted_grade.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_12.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 13,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "scrap_connectors",
+   "subtype": "all_models",
+   "previous": 12,
+   "next": 14,
+   "sections": [
+    {
+     "TemplateId": "sp4_scrap_connectors_clipped_contacts",
+     "label_en": "Clipped connector contacts",
+     "category": "scrap_connectors",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_connectors",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/scrap_connectors/paper/intact.png",
+      "crop_px": [
+       164,
+       195,
+       244,
+       247
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/scrap_connectors/paper/clipped_contacts.png",
+      "crop_px": [
+       164,
+       195,
+       244,
+       247
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_connectors_clipped_contacts.heading",
+      "body": "sp4.handbook.sp4_scrap_connectors_clipped_contacts.body",
+      "limits": "sp4.handbook.sp4_scrap_connectors_clipped_contacts.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_connectors_clipped_contacts.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_connectors_clipped_contacts.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_scrap_connectors_stripped_plating",
+     "label_en": "Stripped connector coating",
+     "category": "scrap_connectors",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_connectors",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/scrap_connectors/paper/intact.png",
+      "crop_px": [
+       82,
+       173,
+       162,
+       225
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/scrap_connectors/paper/stripped_plating.png",
+      "crop_px": [
+       82,
+       173,
+       162,
+       225
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_connectors_stripped_plating.heading",
+      "body": "sp4.handbook.sp4_scrap_connectors_stripped_plating.body",
+      "limits": "sp4.handbook.sp4_scrap_connectors_stripped_plating.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_connectors_stripped_plating.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_connectors_stripped_plating.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_13.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 14,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "scrap_connectors",
+   "subtype": "all_models",
+   "previous": 13,
+   "next": 15,
+   "sections": [
+    {
+     "TemplateId": "sp4_scrap_connectors_polymer_contamination",
+     "label_en": "Connector polymer contamination",
+     "category": "scrap_connectors",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_connectors",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/scrap_connectors/paper/intact.png",
+      "crop_px": [
+       237,
+       121,
+       317,
+       173
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/scrap_connectors/paper/polymer_contamination.png",
+      "crop_px": [
+       237,
+       121,
+       317,
+       173
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_connectors_polymer_contamination.heading",
+      "body": "sp4.handbook.sp4_scrap_connectors_polymer_contamination.body",
+      "limits": "sp4.handbook.sp4_scrap_connectors_polymer_contamination.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_connectors_polymer_contamination.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_connectors_polymer_contamination.problem"
+     }
+    },
+    {
+     "TemplateId": "sp4_scrap_connectors_oxidized_contact",
+     "label_en": "Corroded connector contacts",
+     "category": "scrap_connectors",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_connectors",
+     "view": "front",
+     "instrument": "loupe",
+     "repair_class": "none",
+     "economic_channel": "processability_damage",
+     "reference": {
+      "layer": "items/scrap_connectors/paper/intact.png",
+      "crop_px": [
+       150,
+       167,
+       230,
+       219
+      ],
+      "slot": "s2_left"
+     },
+     "problem": {
+      "layer": "items/scrap_connectors/paper/oxidized_contact.png",
+      "crop_px": [
+       150,
+       167,
+       230,
+       219
+      ],
+      "slot": "s2_right"
+     },
+     "display_scale": 2,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_connectors_oxidized_contact.heading",
+      "body": "sp4.handbook.sp4_scrap_connectors_oxidized_contact.body",
+      "limits": "sp4.handbook.sp4_scrap_connectors_oxidized_contact.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_connectors_oxidized_contact.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_connectors_oxidized_contact.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_14.png"
+  },
+  {
+   "manual": "manual_electronics",
+   "page": 15,
+   "kind": "defect_example",
+   "template": "ui/handbook_page/defect_example.png",
+   "category": "scrap_connectors",
+   "subtype": "all_models",
+   "previous": 14,
+   "next": null,
+   "sections": [
+    {
+     "TemplateId": "sp4_scrap_connectors_false_sorting",
+     "label_en": "Mis-sorted connector lot",
+     "category": "scrap_connectors",
+     "subtype": "all_models",
+     "example_asset_key": "scrap_connectors",
+     "view": "front",
+     "instrument": "assay",
+     "repair_class": "none",
+     "economic_channel": "composition_disclosure",
+     "reference": {
+      "layer": "items/scrap_connectors/paper/intact.png",
+      "crop_px": [
+       255,
+       28,
+       295,
+       54
+      ],
+      "slot": "s1_left"
+     },
+     "problem": {
+      "layer": "items/scrap_connectors/paper/false_sorting.png",
+      "crop_px": [
+       255,
+       28,
+       295,
+       54
+      ],
+      "slot": "s1_right"
+     },
+     "display_scale": 4,
+     "loc_keys": {
+      "heading": "sp4.handbook.sp4_scrap_connectors_false_sorting.heading",
+      "body": "sp4.handbook.sp4_scrap_connectors_false_sorting.body",
+      "limits": "sp4.handbook.sp4_scrap_connectors_false_sorting.limits",
+      "reference_caption": "sp4.handbook.sp4_scrap_connectors_false_sorting.ref",
+      "problem_caption": "sp4.handbook.sp4_scrap_connectors_false_sorting.problem"
+     }
+    }
+   ],
+   "mockup": "items/manual_electronics/pages/page_15.png"
+  }
+ ]
+}

@@ -178,26 +178,26 @@
   },
   "sp4_ore_silver_moisture_mass": {
    "paper": {
-    "changed_px": 760,
+    "changed_px": 1300,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     148,
-     154,
-     298,
-     164
+     158,
+     178,
+     288,
+     188
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 82,
+    "changed_px": 123,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     50,
-     41,
-     99,
-     44
+     54,
+     48,
+     95,
+     51
     ]
    }
   },

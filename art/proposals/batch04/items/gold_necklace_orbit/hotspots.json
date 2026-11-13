@@ -25,15 +25,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.3515625,
-   "V": 0.62890625,
-   "Width": 0.13020833333333334,
-   "Height": 0.1953125,
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
    "bounds_px": [
-    110,
+    118,
     136,
-    160,
-    186
+    162,
+    180
    ]
   },
   {
@@ -50,15 +50,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.265625,
-   "V": 0.63671875,
-   "Width": 0.203125,
-   "Height": 0.2109375,
+   "U": 0.2890625,
+   "V": 0.625,
+   "Width": 0.1875,
+   "Height": 0.1875,
    "bounds_px": [
-    21,
+    25,
     68,
-    47,
-    95
+    49,
+    92
    ]
   },
   {
@@ -76,239 +76,239 @@
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
    "U": 0.4973958333333333,
-   "V": 0.78125,
+   "V": 0.75390625,
    "Width": 0.026041666666666668,
-   "Height": 0.03125,
-   "bounds_px": [
-    186,
-    196,
-    196,
-    204
-   ]
-  },
-  {
-   "asset_key": "gold_necklace_orbit",
-   "state": "open_link",
-   "image": "items",
-   "image_size": [
-    128,
-    128
-   ],
-   "TemplateId": "sp4_gold_necklace_open_link",
-   "Id": "open_link",
-   "CauseId": "sp4_gold_necklace_open_link",
-   "ViewId": "front",
-   "InstrumentKind": "",
-   "status": "planned_04_not_runtime",
-   "U": 0.49609375,
-   "V": 0.796875,
-   "Width": 0.0390625,
-   "Height": 0.03125,
-   "bounds_px": [
-    61,
-    100,
-    66,
-    104
-   ]
-  },
-  {
-   "asset_key": "gold_necklace_orbit",
-   "state": "clasp_jam",
-   "image": "paper",
-   "image_size": [
-    384,
-    256
-   ],
-   "TemplateId": "sp4_gold_necklace_clasp_jam",
-   "Id": "clasp_jam",
-   "CauseId": "sp4_gold_necklace_clasp_jam",
-   "ViewId": "front",
-   "InstrumentKind": "loupe",
-   "status": "planned_04_not_runtime",
-   "U": 0.6041666666666666,
-   "V": 0.21875,
-   "Width": 0.020833333333333332,
-   "Height": 0.015625,
-   "bounds_px": [
-    228,
-    54,
-    236,
-    58
-   ]
-  },
-  {
-   "asset_key": "gold_necklace_orbit",
-   "state": "clasp_jam",
-   "image": "items",
-   "image_size": [
-    128,
-    128
-   ],
-   "TemplateId": "sp4_gold_necklace_clasp_jam",
-   "Id": "clasp_jam",
-   "CauseId": "sp4_gold_necklace_clasp_jam",
-   "ViewId": "front",
-   "InstrumentKind": "loupe",
-   "status": "planned_04_not_runtime",
-   "U": 0.66796875,
-   "V": 0.20703125,
-   "Width": 0.0390625,
    "Height": 0.0234375,
    "bounds_px": [
-    83,
+    186,
+    190,
+    196,
+    196
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_orbit",
+   "state": "open_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_necklace_open_link",
+   "Id": "open_link",
+   "CauseId": "sp4_gold_necklace_open_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.49609375,
+   "V": 0.765625,
+   "Width": 0.0390625,
+   "Height": 0.03125,
+   "bounds_px": [
+    61,
+    96,
+    66,
+    100
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_orbit",
+   "state": "clasp_jam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_clasp_jam",
+   "Id": "clasp_jam",
+   "CauseId": "sp4_gold_necklace_clasp_jam",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5859375,
+   "V": 0.23828125,
+   "Width": 0.036458333333333336,
+   "Height": 0.0390625,
+   "bounds_px": [
+    218,
+    56,
+    232,
+    66
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_orbit",
+   "state": "clasp_jam",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_necklace_clasp_jam",
+   "Id": "clasp_jam",
+   "CauseId": "sp4_gold_necklace_clasp_jam",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.63671875,
+   "V": 0.22265625,
+   "Width": 0.0546875,
+   "Height": 0.0390625,
+   "bounds_px": [
+    78,
+    26,
+    85,
+    31
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_orbit",
+   "state": "link_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_link_plating",
+   "Id": "link_plating",
+   "CauseId": "sp4_gold_necklace_link_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.625,
+   "Width": 0.046875,
+   "Height": 0.0625,
+   "bounds_px": [
+    240,
+    152,
+    258,
+    168
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_orbit",
+   "state": "link_plating",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_necklace_link_plating",
+   "Id": "link_plating",
+   "CauseId": "sp4_gold_necklace_link_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.73046875,
+   "V": 0.62109375,
+   "Width": 0.0703125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    76,
+    98,
+    83
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_orbit",
+   "state": "soldered_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_soldered_link",
+   "Id": "soldered_link",
+   "CauseId": "sp4_gold_necklace_soldered_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_orbit",
+   "state": "soldered_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_necklace_soldered_link",
+   "Id": "soldered_link",
+   "CauseId": "sp4_gold_necklace_soldered_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.30078125,
+   "V": 0.2578125,
+   "Width": 0.0390625,
+   "Height": 0.046875,
+   "bounds_px": [
+    36,
+    30,
+    41,
+    36
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_orbit",
+   "state": "combo__tangled_run__link_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_tangled_run",
+   "Id": "tangled_run",
+   "CauseId": "sp4_gold_necklace_tangled_run",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_orbit",
+   "state": "combo__tangled_run__link_plating",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_necklace_tangled_run",
+   "Id": "tangled_run",
+   "CauseId": "sp4_gold_necklace_tangled_run",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.625,
+   "Width": 0.1875,
+   "Height": 0.1875,
+   "bounds_px": [
     25,
-    88,
-    28
-   ]
-  },
-  {
-   "asset_key": "gold_necklace_orbit",
-   "state": "link_plating",
-   "image": "paper",
-   "image_size": [
-    384,
-    256
-   ],
-   "TemplateId": "sp4_gold_necklace_link_plating",
-   "Id": "link_plating",
-   "CauseId": "sp4_gold_necklace_link_plating",
-   "ViewId": "front",
-   "InstrumentKind": "assay",
-   "status": "planned_04_not_runtime",
-   "U": 0.6666666666666666,
-   "V": 0.62890625,
-   "Width": 0.052083333333333336,
-   "Height": 0.0546875,
-   "bounds_px": [
-    246,
-    154,
-    266,
-    168
-   ]
-  },
-  {
-   "asset_key": "gold_necklace_orbit",
-   "state": "link_plating",
-   "image": "items",
-   "image_size": [
-    128,
-    128
-   ],
-   "TemplateId": "sp4_gold_necklace_link_plating",
-   "Id": "link_plating",
-   "CauseId": "sp4_gold_necklace_link_plating",
-   "ViewId": "front",
-   "InstrumentKind": "assay",
-   "status": "planned_04_not_runtime",
-   "U": 0.76171875,
-   "V": 0.63671875,
-   "Width": 0.0703125,
-   "Height": 0.0546875,
-   "bounds_px": [
-    93,
-    78,
-    102,
-    85
-   ]
-  },
-  {
-   "asset_key": "gold_necklace_orbit",
-   "state": "soldered_link",
-   "image": "paper",
-   "image_size": [
-    384,
-    256
-   ],
-   "TemplateId": "sp4_gold_necklace_soldered_link",
-   "Id": "soldered_link",
-   "CauseId": "sp4_gold_necklace_soldered_link",
-   "ViewId": "front",
-   "InstrumentKind": "loupe",
-   "status": "planned_04_not_runtime",
-   "U": 0.359375,
-   "V": 0.24609375,
-   "Width": 0.041666666666666664,
-   "Height": 0.0546875,
-   "bounds_px": [
-    130,
-    56,
-    146,
-    70
-   ]
-  },
-  {
-   "asset_key": "gold_necklace_orbit",
-   "state": "soldered_link",
-   "image": "items",
-   "image_size": [
-    128,
-    128
-   ],
-   "TemplateId": "sp4_gold_necklace_soldered_link",
-   "Id": "soldered_link",
-   "CauseId": "sp4_gold_necklace_soldered_link",
-   "ViewId": "front",
-   "InstrumentKind": "loupe",
-   "status": "planned_04_not_runtime",
-   "U": 0.28515625,
-   "V": 0.23046875,
-   "Width": 0.0546875,
-   "Height": 0.0546875,
-   "bounds_px": [
-    33,
-    26,
-    40,
-    33
-   ]
-  },
-  {
-   "asset_key": "gold_necklace_orbit",
-   "state": "combo__tangled_run__link_plating",
-   "image": "paper",
-   "image_size": [
-    384,
-    256
-   ],
-   "TemplateId": "sp4_gold_necklace_tangled_run",
-   "Id": "tangled_run",
-   "CauseId": "sp4_gold_necklace_tangled_run",
-   "ViewId": "front",
-   "InstrumentKind": "",
-   "status": "planned_04_not_runtime",
-   "U": 0.3515625,
-   "V": 0.62890625,
-   "Width": 0.13020833333333334,
-   "Height": 0.1953125,
-   "bounds_px": [
-    110,
-    136,
-    160,
-    186
-   ]
-  },
-  {
-   "asset_key": "gold_necklace_orbit",
-   "state": "combo__tangled_run__link_plating",
-   "image": "items",
-   "image_size": [
-    128,
-    128
-   ],
-   "TemplateId": "sp4_gold_necklace_tangled_run",
-   "Id": "tangled_run",
-   "CauseId": "sp4_gold_necklace_tangled_run",
-   "ViewId": "front",
-   "InstrumentKind": "",
-   "status": "planned_04_not_runtime",
-   "U": 0.265625,
-   "V": 0.63671875,
-   "Width": 0.203125,
-   "Height": 0.2109375,
-   "bounds_px": [
-    21,
     68,
-    47,
-    95
+    49,
+    92
    ]
   },
   {
@@ -325,14 +325,14 @@
    "ViewId": "front",
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
-   "U": 0.6666666666666666,
-   "V": 0.62890625,
-   "Width": 0.052083333333333336,
-   "Height": 0.0546875,
+   "U": 0.6484375,
+   "V": 0.625,
+   "Width": 0.046875,
+   "Height": 0.0625,
    "bounds_px": [
-    246,
-    154,
-    266,
+    240,
+    152,
+    258,
     168
    ]
   },
@@ -350,15 +350,15 @@
    "ViewId": "front",
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
-   "U": 0.76171875,
-   "V": 0.63671875,
+   "U": 0.73046875,
+   "V": 0.62109375,
    "Width": 0.0703125,
    "Height": 0.0546875,
    "bounds_px": [
-    93,
-    78,
-    102,
-    85
+    89,
+    76,
+    98,
+    83
    ]
   },
   {
@@ -375,15 +375,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.3515625,
-   "V": 0.62890625,
-   "Width": 0.13020833333333334,
-   "Height": 0.1953125,
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
    "bounds_px": [
-    110,
+    118,
     136,
-    160,
-    186
+    162,
+    180
    ]
   },
   {
@@ -400,15 +400,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.265625,
-   "V": 0.63671875,
-   "Width": 0.203125,
-   "Height": 0.2109375,
+   "U": 0.2890625,
+   "V": 0.625,
+   "Width": 0.1875,
+   "Height": 0.1875,
    "bounds_px": [
-    21,
+    25,
     68,
-    47,
-    95
+    49,
+    92
    ]
   },
   {
@@ -425,15 +425,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.359375,
-   "V": 0.24609375,
-   "Width": 0.041666666666666664,
-   "Height": 0.0546875,
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
    "bounds_px": [
-    130,
-    56,
-    146,
-    70
+    140,
+    62,
+    152,
+    74
    ]
   },
   {
@@ -450,15 +450,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.28515625,
-   "V": 0.23046875,
-   "Width": 0.0546875,
-   "Height": 0.0546875,
+   "U": 0.30078125,
+   "V": 0.2578125,
+   "Width": 0.0390625,
+   "Height": 0.046875,
    "bounds_px": [
-    33,
-    26,
-    40,
-    33
+    36,
+    30,
+    41,
+    36
    ]
   },
   {
@@ -476,14 +476,14 @@
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
    "U": 0.4973958333333333,
-   "V": 0.78125,
+   "V": 0.75390625,
    "Width": 0.026041666666666668,
-   "Height": 0.03125,
+   "Height": 0.0234375,
    "bounds_px": [
     186,
+    190,
     196,
-    196,
-    204
+    196
    ]
   },
   {
@@ -501,14 +501,14 @@
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
    "U": 0.49609375,
-   "V": 0.796875,
+   "V": 0.765625,
    "Width": 0.0390625,
    "Height": 0.03125,
    "bounds_px": [
     61,
-    100,
+    96,
     66,
-    104
+    100
    ]
   },
   {
@@ -525,14 +525,14 @@
    "ViewId": "front",
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
-   "U": 0.6666666666666666,
-   "V": 0.62890625,
-   "Width": 0.052083333333333336,
-   "Height": 0.0546875,
+   "U": 0.6484375,
+   "V": 0.625,
+   "Width": 0.046875,
+   "Height": 0.0625,
    "bounds_px": [
-    246,
-    154,
-    266,
+    240,
+    152,
+    258,
     168
    ]
   },
@@ -550,15 +550,15 @@
    "ViewId": "front",
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
-   "U": 0.76171875,
-   "V": 0.63671875,
+   "U": 0.73046875,
+   "V": 0.62109375,
    "Width": 0.0703125,
    "Height": 0.0546875,
    "bounds_px": [
-    93,
-    78,
-    102,
-    85
+    89,
+    76,
+    98,
+    83
    ]
   },
   {
@@ -575,15 +575,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.3515625,
-   "V": 0.62890625,
-   "Width": 0.13020833333333334,
-   "Height": 0.1953125,
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
    "bounds_px": [
-    110,
+    118,
     136,
-    160,
-    186
+    162,
+    180
    ]
   },
   {
@@ -600,15 +600,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.265625,
-   "V": 0.63671875,
-   "Width": 0.203125,
-   "Height": 0.2109375,
+   "U": 0.2890625,
+   "V": 0.625,
+   "Width": 0.1875,
+   "Height": 0.1875,
    "bounds_px": [
-    21,
+    25,
     68,
-    47,
-    95
+    49,
+    92
    ]
   },
   {
@@ -626,14 +626,14 @@
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
    "U": 0.4973958333333333,
-   "V": 0.78125,
+   "V": 0.75390625,
    "Width": 0.026041666666666668,
-   "Height": 0.03125,
+   "Height": 0.0234375,
    "bounds_px": [
     186,
+    190,
     196,
-    196,
-    204
+    196
    ]
   },
   {
@@ -651,14 +651,14 @@
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
    "U": 0.49609375,
-   "V": 0.796875,
+   "V": 0.765625,
    "Width": 0.0390625,
    "Height": 0.03125,
    "bounds_px": [
     61,
-    100,
+    96,
     66,
-    104
+    100
    ]
   },
   {
@@ -675,14 +675,14 @@
    "ViewId": "front",
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
-   "U": 0.6666666666666666,
-   "V": 0.62890625,
-   "Width": 0.052083333333333336,
-   "Height": 0.0546875,
+   "U": 0.6484375,
+   "V": 0.625,
+   "Width": 0.046875,
+   "Height": 0.0625,
    "bounds_px": [
-    246,
-    154,
-    266,
+    240,
+    152,
+    258,
     168
    ]
   },
@@ -700,15 +700,15 @@
    "ViewId": "front",
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
-   "U": 0.76171875,
-   "V": 0.63671875,
+   "U": 0.73046875,
+   "V": 0.62109375,
    "Width": 0.0703125,
    "Height": 0.0546875,
    "bounds_px": [
-    93,
-    78,
-    102,
-    85
+    89,
+    76,
+    98,
+    83
    ]
   }
  ]

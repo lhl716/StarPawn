@@ -159,39 +159,39 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 55,
+    "changed_px": 60,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      38,
      50,
-     53,
+     56,
      56
     ]
    }
   },
   "sp4_gold_bracelet_flattened_arc": {
    "paper": {
-    "changed_px": 676,
+    "changed_px": 320,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     314,
-     76,
+     328,
+     106,
      344,
-     150
+     136
     ]
    },
    "policy": "state_mask",
    "items": {
-    "changed_px": 105,
+    "changed_px": 46,
     "alpha_equal": false,
     "within_object": true,
     "bounds": [
-     107,
-     18,
+     112,
+     31,
      118,
-     44
+     41
     ]
    }
   },
@@ -209,7 +209,7 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 18,
+    "changed_px": 17,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
@@ -234,14 +234,14 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 107,
+    "changed_px": 112,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      50,
-     2,
+     9,
      86,
-     7
+     14
     ]
    }
   },
@@ -259,7 +259,7 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 22,
+    "changed_px": 23,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [

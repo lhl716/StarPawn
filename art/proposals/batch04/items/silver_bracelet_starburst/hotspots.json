@@ -50,15 +50,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.34375,
-   "V": 0.8125,
-   "Width": 0.140625,
+   "U": 0.34765625,
+   "V": 0.796875,
+   "Width": 0.1484375,
    "Height": 0.0625,
    "bounds_px": [
     35,
-    50,
-    53,
-    54
+    49,
+    54,
+    53
    ]
   },
   {
@@ -75,15 +75,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.8567708333333334,
-   "V": 0.50390625,
-   "Width": 0.078125,
-   "Height": 0.1640625,
+   "U": 0.8723958333333334,
+   "V": 0.48046875,
+   "Width": 0.046875,
+   "Height": 0.1171875,
    "bounds_px": [
-    314,
+    326,
     108,
     344,
-    150
+    138
    ]
   },
   {
@@ -100,15 +100,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.87890625,
-   "V": 0.5703125,
-   "Width": 0.0859375,
-   "Height": 0.234375,
+   "U": 0.89453125,
+   "V": 0.578125,
+   "Width": 0.0546875,
+   "Height": 0.15625,
    "bounds_px": [
-    107,
-    29,
+    111,
+    32,
     118,
-    44
+    42
    ]
   },
   {
@@ -151,14 +151,14 @@
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
    "U": 0.6328125,
-   "V": 0.8203125,
+   "V": 0.8125,
    "Width": 0.03125,
-   "Height": 0.109375,
+   "Height": 0.09375,
    "bounds_px": [
     79,
     49,
     83,
-    56
+    55
    ]
   },
   {
@@ -201,14 +201,14 @@
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
    "U": 0.60546875,
-   "V": 0.0546875,
+   "V": 0.15625,
    "Width": 0.0234375,
-   "Height": 0.078125,
+   "Height": 0.09375,
    "bounds_px": [
     76,
-    1,
+    7,
     79,
-    6
+    13
    ]
   },
   {
@@ -300,15 +300,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.34375,
-   "V": 0.8125,
-   "Width": 0.140625,
+   "U": 0.34765625,
+   "V": 0.796875,
+   "Width": 0.1484375,
    "Height": 0.0625,
    "bounds_px": [
     35,
-    50,
-    53,
-    54
+    49,
+    54,
+    53
    ]
   },
   {
@@ -351,14 +351,14 @@
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
    "U": 0.60546875,
-   "V": 0.0546875,
+   "V": 0.15625,
    "Width": 0.0234375,
-   "Height": 0.078125,
+   "Height": 0.09375,
    "bounds_px": [
     76,
-    1,
+    7,
     79,
-    6
+    13
    ]
   },
   {
@@ -375,15 +375,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.8567708333333334,
-   "V": 0.50390625,
-   "Width": 0.078125,
-   "Height": 0.1640625,
+   "U": 0.8723958333333334,
+   "V": 0.48046875,
+   "Width": 0.046875,
+   "Height": 0.1171875,
    "bounds_px": [
-    314,
+    326,
     108,
     344,
-    150
+    138
    ]
   },
   {
@@ -400,15 +400,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.87890625,
-   "V": 0.5703125,
-   "Width": 0.0859375,
-   "Height": 0.234375,
+   "U": 0.89453125,
+   "V": 0.578125,
+   "Width": 0.0546875,
+   "Height": 0.15625,
    "bounds_px": [
-    107,
-    29,
+    111,
+    32,
     118,
-    44
+    42
    ]
   },
   {
@@ -451,14 +451,14 @@
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
    "U": 0.60546875,
-   "V": 0.0546875,
+   "V": 0.15625,
    "Width": 0.0234375,
-   "Height": 0.078125,
+   "Height": 0.09375,
    "bounds_px": [
     76,
-    1,
+    7,
     79,
-    6
+    13
    ]
   },
   {
@@ -475,15 +475,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.8567708333333334,
-   "V": 0.50390625,
-   "Width": 0.078125,
-   "Height": 0.1640625,
+   "U": 0.8723958333333334,
+   "V": 0.48046875,
+   "Width": 0.046875,
+   "Height": 0.1171875,
    "bounds_px": [
-    314,
+    326,
     108,
     344,
-    150
+    138
    ]
   },
   {
@@ -500,15 +500,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.87890625,
-   "V": 0.5703125,
-   "Width": 0.0859375,
-   "Height": 0.234375,
+   "U": 0.89453125,
+   "V": 0.578125,
+   "Width": 0.0546875,
+   "Height": 0.15625,
    "bounds_px": [
-    107,
-    29,
+    111,
+    32,
     118,
-    44
+    42
    ]
   },
   {
@@ -600,15 +600,15 @@
    "ViewId": "front",
    "InstrumentKind": "loupe",
    "status": "planned_04_not_runtime",
-   "U": 0.34375,
-   "V": 0.8125,
-   "Width": 0.140625,
+   "U": 0.34765625,
+   "V": 0.796875,
+   "Width": 0.1484375,
    "Height": 0.0625,
    "bounds_px": [
     35,
-    50,
-    53,
-    54
+    49,
+    54,
+    53
    ]
   },
   {
@@ -625,15 +625,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.8567708333333334,
-   "V": 0.50390625,
-   "Width": 0.078125,
-   "Height": 0.1640625,
+   "U": 0.8723958333333334,
+   "V": 0.48046875,
+   "Width": 0.046875,
+   "Height": 0.1171875,
    "bounds_px": [
-    314,
+    326,
     108,
     344,
-    150
+    138
    ]
   },
   {
@@ -650,15 +650,15 @@
    "ViewId": "front",
    "InstrumentKind": "",
    "status": "planned_04_not_runtime",
-   "U": 0.87890625,
-   "V": 0.5703125,
-   "Width": 0.0859375,
-   "Height": 0.234375,
+   "U": 0.89453125,
+   "V": 0.578125,
+   "Width": 0.0546875,
+   "Height": 0.15625,
    "bounds_px": [
-    107,
-    29,
+    111,
+    32,
     118,
-    44
+    42
    ]
   },
   {
@@ -701,14 +701,14 @@
    "InstrumentKind": "assay",
    "status": "planned_04_not_runtime",
    "U": 0.60546875,
-   "V": 0.0546875,
+   "V": 0.15625,
    "Width": 0.0234375,
-   "Height": 0.078125,
+   "Height": 0.09375,
    "bounds_px": [
     76,
-    1,
+    7,
     79,
-    6
+    13
    ]
   }
  ]

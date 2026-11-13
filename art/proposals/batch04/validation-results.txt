@@ -1,0 +1,30 @@
+StarPawn batch04 validation - ALL CHECKS PASS
+Scope: files and geometry under art/proposals/batch04. Gameplay was not executed.
+Counts: 135 item rows, 71 UI rows, 6551 item/layer PNGs, 4142 hotspot records, 581 multi-template profiles, 739 template checks.
+
+PASS item folders: 135 rows with README, manifest, paper, items, layers, hotspots, combinations, comparison, source (135 checked)
+PASS exact dimensions: paper 384x256 RGBA, inventory = grid x 64 px (6551 checked)
+PASS transparency: alpha is only 0 or 255 (6551 checked)
+PASS margins: >=8 px paper, >=2 px inventory
+PASS paper art is an exact 2x nearest export of 192x128 authoring
+PASS state files match manifests and required functional states
+PASS mask policy: same_alpha layers keep the intact alpha (739 checked)
+PASS hidden-state separation: instrument/record-only templates reuse intact art
+PASS small-size readability proxy: every visible template changes >=24 px (paper) and >=4 px (inventory)
+PASS hotspots: centre-based formula, centre on the clue, bounds equal the clue bbox (4142 checked)
+PASS combinations: each whitelisted profile equals its stacked single layers; 2 pairs + 1 triple per variant (581 checked)
+PASS repaired composites retain exactly the unrepairable cues
+PASS sealed rough exterior is identical for dou / nuo / bing
+PASS sockets: counts and stones follow JEWELRY_SETTINGS_04.csv; metal + stone layers rebuild the assembly
+PASS approved ring sample: gold_ring_orbit intact is pixel-identical to the reviewed sample
+PASS ring sample hotspot exporter corrected to centre-based U/V
+PASS deterministic generator: re-rendered samples are pixel-identical to the files
+PASS UI: 71 rows, every state at its frozen size, screens with 1080p and 4K mockups (71 checked)
+PASS inspection_frame leaves the 298x199 image rectangle transparent (interior)
+PASS handbook: 250 templates each have one traceable example from real item layers; 2/2/1 pagination; 440x616 pages (160 checked)
+PASS native handbook comparison exists at 2560x1440
+PASS excluded scope: no alchemy / transmutation assets
+PASS branch changes only art/proposals (no mod/, source/, runtime or contract files)
+
+NOT VERIFIED HERE (needs the game): in-game filtering at the 298x199 frame, font rendering, hotspot hit-testing, new observation views, native container grids, save migration.
+NOT AUTOMATED: absence of baked dynamic text is by construction (item art and skins draw no glyphs; text exists only in mockup_*, pages/ and comparison sheets).

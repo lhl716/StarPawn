@@ -52,3 +52,9 @@ backdrops exist only in that sheet; every other PNG is transparent.
    front-centre, crack front-right). They do not match the placeholder slots in
    `runtime-art-map.json`; the gameplay branch would need to adopt these.
 4. Base-metal colour: gray-green is used for contrast with gold at small sizes.
+
+## Batch 04 correction
+
+`hotspots.json` and `bbox_norm()` in the generator now follow the StarPawn contract:
+U/V are the rectangle **center** (top-left image origin), computed from integer bounds,
+with full normalized Width/Height. The PNG art in this folder is unchanged.

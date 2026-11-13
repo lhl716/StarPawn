@@ -385,22 +385,22 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     240,
+     238,
      170,
-     266,
+     264,
      188
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 43,
+    "changed_px": 40,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     89,
-     86,
-     103,
-     97
+     87,
+     85,
+     100,
+     94
     ]
    }
   },
@@ -418,14 +418,14 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 262,
+    "changed_px": 224,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      46,
-     85,
+     84,
      71,
-     100
+     97
     ]
    }
   },
@@ -435,22 +435,22 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     240,
+     238,
      170,
-     266,
+     264,
      188
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 43,
+    "changed_px": 40,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     89,
-     86,
-     103,
-     97
+     87,
+     85,
+     100,
+     94
     ]
    }
   },
@@ -472,10 +472,10 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     37,
-     50,
-     47,
-     57
+     38,
+     51,
+     48,
+     58
     ]
    }
   },
@@ -486,21 +486,21 @@
     "within_object": true,
     "bounds": [
      152,
-     84,
+     86,
      178,
-     102
+     104
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 79,
+    "changed_px": 48,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
+     45,
      43,
-     41,
-     56,
-     52
+     57,
+     51
     ]
    }
   },
@@ -518,20 +518,20 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 262,
+    "changed_px": 224,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      46,
-     85,
+     84,
      71,
-     100
+     97
     ]
    }
   },
   "window_dou_sp4_rough_white_window_plug": {
    "paper": {
-    "changed_px": 312,
+    "changed_px": 316,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
@@ -543,14 +543,14 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 78,
+    "changed_px": 79,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      56,
-     45,
+     46,
      63,
-     60
+     61
     ]
    }
   },
@@ -560,22 +560,22 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     240,
+     238,
      170,
-     266,
+     264,
      188
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 43,
+    "changed_px": 40,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     89,
-     86,
-     103,
-     97
+     87,
+     85,
+     100,
+     94
     ]
    }
   },
@@ -597,10 +597,10 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     37,
-     50,
-     47,
-     57
+     38,
+     51,
+     48,
+     58
     ]
    }
   },
@@ -611,21 +611,21 @@
     "within_object": true,
     "bounds": [
      152,
-     84,
+     86,
      178,
-     102
+     104
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 79,
+    "changed_px": 48,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
+     45,
      43,
-     41,
-     56,
-     52
+     57,
+     51
     ]
    }
   },
@@ -643,20 +643,20 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 262,
+    "changed_px": 224,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      46,
-     85,
+     84,
      71,
-     100
+     97
     ]
    }
   },
   "window_nuo_sp4_rough_white_window_plug": {
    "paper": {
-    "changed_px": 316,
+    "changed_px": 320,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
@@ -668,14 +668,14 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 78,
+    "changed_px": 79,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      56,
-     45,
+     46,
      63,
-     60
+     61
     ]
    }
   },
@@ -685,22 +685,22 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     240,
+     238,
      170,
-     266,
+     264,
      188
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 43,
+    "changed_px": 40,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     89,
-     86,
-     103,
-     97
+     87,
+     85,
+     100,
+     94
     ]
    }
   },
@@ -722,10 +722,10 @@
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
-     37,
-     50,
-     47,
-     57
+     38,
+     51,
+     48,
+     58
     ]
    }
   },
@@ -736,21 +736,21 @@
     "within_object": true,
     "bounds": [
      152,
-     84,
+     86,
      178,
-     102
+     104
     ]
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 79,
+    "changed_px": 48,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
+     45,
      43,
-     41,
-     56,
-     52
+     57,
+     51
     ]
    }
   },
@@ -768,20 +768,20 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 262,
+    "changed_px": 224,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      46,
-     85,
+     84,
      71,
-     100
+     97
     ]
    }
   },
   "window_bing_sp4_rough_white_window_plug": {
    "paper": {
-    "changed_px": 320,
+    "changed_px": 324,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
@@ -793,14 +793,14 @@
    },
    "policy": "same_alpha",
    "items": {
-    "changed_px": 78,
+    "changed_px": 79,
     "alpha_equal": true,
     "within_object": true,
     "bounds": [
      56,
-     45,
+     46,
      63,
-     60
+     61
     ]
    }
   }
