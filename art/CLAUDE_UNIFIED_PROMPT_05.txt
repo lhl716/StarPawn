@@ -1,6 +1,7 @@
 Implement the complete StarPawn update in docs/CLAUDE_UNIFIED_HANDOFF_05.txt.
 Read it in full, then read docs/NATIVE_APPRAISAL_AUDIT_05.txt and the authoritative
-art/ITEM_LAYOUT_05.csv. Revision 05 overrides conflicting older art-only prompts,
+art/ITEM_LAYOUT_05.csv. Include the latest Revision 05.1 native-UI and inventory-
+hit-target requirements. Revision 05 overrides conflicting older art-only prompts,
 footprints, handbook behavior, and independent appraisal-XP rules.
 
 Repository: https://github.com/lhl716/StarPawn
@@ -24,6 +25,14 @@ apply discovered defects to the correct value component and play native discover
 feedback once. Separate gold, workmanship, and gem values. Complete the specified
 jewelry, event, banking, pawn, and physical-recovery connections; exclude fictional
 alchemy. Preserve real ownership, components, signed contracts, and old saves.
+
+Match vanilla appraisal UI AND gameplay, including examination, tools, book
+reading, submission, customer dialogue, and return/close behavior. Fix the reported
+tiny inventory selection regions: selection, hover, context menus, and dragging
+must work across all occupied grid cells, including transparent parts of the art,
+without capturing adjacent cells. Keep these inventory targets separate from
+precise defect-discovery hotspots. Verify orientation, scaling, containers, and
+save/reload; changing PNG size alone is insufficient.
 
 Keep prompts, design documents, and the engineering report in English. Retain the
 game's existing localization, including Simplified Chinese, through localization

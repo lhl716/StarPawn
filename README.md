@@ -14,6 +14,8 @@ Appraisal should use the native career and lead into persistent sale/pawn/depart
 
 Revision 05 supersedes conflicting older dimensions, organizer capacity, magnifier-based book entry, optional evidence selection, independent click XP, and art-only restrictions. Start implementation from the latest `origin/integration/art04`, then work on `feature/unified-business-05`; preserve existing work and leave `main` unchanged. The 135 original model keys and 15 current short-book covers are all represented in the new layout. No runtime code or installed game files are changed by this documentation update.
 
+**Revision 05.1 adds mandatory native appraisal UI/gameplay parity and full occupied-cell inventory interaction targets.** The user reports tiny selection regions on the new items. Selection, hover, context menus, and drag initiation must agree with the actual footprint, including transparent art inside occupied cells; precise appraisal-defect hotspots remain separate. The handoff and prompt include diagnosis and acceptance requirements.
+
 ## Historical batch04 production contract
 
 The user accepted the ring sample's visual direction and authorized the complete fixed-size art batch. Contract revision **04.2** covers jewelry business, native-style manuals and physical refining; the **04.3 pagination amendment** limits all manuals to five pages. **The playable release is 0.3.1; the following 0.4 files are design and production contracts, not implemented gameplay.**

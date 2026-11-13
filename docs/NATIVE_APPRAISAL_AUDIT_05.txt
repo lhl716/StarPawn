@@ -143,3 +143,28 @@ StarPawn source locations to inspect
 
 Use this audit as evidence for the Revision 05 integration design. It does not
 assert that the integration has already been implemented or tested.
+
+Revision 05.1: inventory selection report and native interaction evidence
+
+The user reports that newly designed items have a selectable area much smaller
+than their occupied cells. This is a user-observed issue; a controlled in-game
+reproduction/root-cause test has not been performed in this documentation update.
+
+Source inspection confirms that NativeVisuals.Fit changes only the background
+and fakeBackground image layers' sizes and preserveAspect setting. NativeBridge
+creates a filled rectangular GridShape from WidthCells/HeightCells. These visual
+and logical shapes must be verified together with the actual pointer target.
+
+In the installed native assembly, GameItemElement.UpdateRectTransform tracks
+modifiedShape minX/minY, orientation, flipped state, and UISettings.gridSize.
+ApplyRectTransform updates rotator scale, anchors, pivot, rotation, and middle
+position. TreeNodeRender forwards pointer click/down and begin-drag events through
+MultiEventHandler. CustomEventHandler has UpdateRayCast/GetRayCast and RenderHandler
+has RaycastFindParentElement/RaycastElement. These are investigation leads, not a
+claim that one particular method is already proven to cause the small target.
+
+Inspect native hit geometry, shape refresh/caching, event ownership, alpha hit
+filtering, transforms, and clipping in an isolated game test. Avoid a speculative
+global raycast patch. Record the final diagnosed cause and verify the occupied-
+cell acceptance matrix in the main handoff. Inventory selection and authored
+appraisal-defect hotspots are intentionally different geometries.

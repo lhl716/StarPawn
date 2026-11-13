@@ -1,5 +1,5 @@
 StarPawn: Unified Appraisal, Pawn, Trade, Art, and Copy Handoff
-Revision 05 | 2026-11-13 | English implementation contract
+Revision 05.1 | 2026-11-13 | English implementation contract
 
 READ THIS FIRST
 
@@ -27,6 +27,12 @@ Do not merge into main as part of this assignment.
 
 Revision 05 is a requirements revision, not a claim that version 0.5 exists.
 The handoff itself changes documentation only. Runtime changes remain to be done.
+
+Revision 05.1 adds two mandatory user requirements: the appraisal UI AND gameplay
+must follow the vanilla interaction style, and inventory selection/drag targets
+must cover the item's actual occupied cells. The user reports tiny selectable
+regions on the new artwork. See sections 7, 10, 12, and 15; this is not a request
+to enlarge defect-discovery hotspots indiscriminately.
 
 1. Authority, language, and retained scope
 
@@ -237,6 +243,20 @@ borrower route as well as the shop-as-lender route; do not confuse their cash si
 
 7. Inspection, observation, and feedback
 
+Match the base game's appraisal UI and play flow as well as its progression.
+Use native inspection/counter windows, item actions, examination behavior,
+appraisal submission, customer conversation, and return/close flow wherever the
+installed game supports them. Necessary mod extensions must follow the same
+window proportions, typography, controls, highlighting, sound, and input habits.
+Do not treat a vanilla-colored skin on an unrelated dashboard or menu minigame
+as parity. Keep the item, customer, and handbook context usable during appraisal.
+
+Native integration must still preserve the user's required multiple discoveries,
+automatic component-specific deductions, instruments, and two-miss customer
+limit. Adapt those capabilities to the native workflow; do not revert to a
+single-defect restriction or a sequence of multiple-choice questions. Compare
+the whole interaction against vanilla, not just the paper background or font.
+
 Keep direct visual inspection: click a visible defect on the item image.
 Each appraisable category owns four or five fixed, illustrated defect templates
 (retain the existing five-template design sets where applicable). Generate intact
@@ -415,6 +435,37 @@ The inherited target_family_id columns identify planned families; they do not
 authorize renaming existing saved definitions. Preserve source identities and
 provide explicit mappings for any genuinely new families or additional volumes.
 
+Inventory hit targets are a separate mandatory requirement from visual scale.
+The user reports that new items can be selected only in a very small region,
+rather than throughout their allocated cells. Fix selection, hover, context-menu
+activation, drag initiation, and applicable tool targeting together using the
+native grid/item interaction path. A larger image alone is not a fix.
+
+An item occupying a filled rectangular 3x2 shape must respond throughout those
+six cells. A 2x3 book, 2x2 bracelet, and 1x3 necklace must likewise respond over
+their complete occupied footprints, including transparent pixels inside occupied
+cells. A hollow ring or thin chain must not require pixel-perfect grabbing.
+For any intentionally nonrectangular shape, use the union of its filled cells;
+do not intercept empty cells in its bounding box or neighboring items.
+
+The rendered footprint, placement/collision shape, hover/selection highlight,
+pointer target, and drag preview must agree at the current orientation and UI
+scale. Test inside cell centers and near each cell's edges/corners, including
+transparent portions. Empty neighboring cells and points outside the footprint
+must not select the item. Respect native clipping, modal windows, and Z order.
+
+Investigate the actual grid shape and event path before choosing a fix. Relevant
+checks include parent/child RectTransforms, anchors/pivots, rotation/flip, cached
+layout, raycast targets, alpha-based hit filtering, canvas scaling, and clipping.
+Scope changes to StarPawn; do not globally enlarge all vanilla interaction areas.
+The current NativeVisuals.Fit changes background/fakeBackground image layout only;
+its existence is not proof that pointer hit geometry is correct.
+
+Keep inventory selection separate from appraisal clue hit detection. Inventory
+interaction covers occupied cells; a discovery click still tests the registered
+visible defect in inspection-image coordinates. Fixing a tiny inventory target
+must not make every click on a whole item reveal a defect.
+
 Inventory export convention: 64 source pixels per allocated cell. Examples:
   rough 192x128; book 128x192; bracelet 128x128; necklace 64x192.
 This is an art-production scale, not a claim about native screen grid pixels.
@@ -536,6 +587,13 @@ and service status. Relevant handbook and inspected item should remain usable
 together. Keyboard, close/back, pagination, quote updates, and tool feedback must
 agree with visible controls. No decorative buttons with no action.
 
+Appraisal-screen acceptance requires visual AND behavioral comparison with the
+base game: window placement/scale, typography, controls, focus, hover/selection,
+item examination, tool use, handbook reading, quote entry/submission, customer
+response, and exit/return. Extend the native experience only where new component
+prices or business choices need it. Provide representative vanilla/mod screenshots
+and a short interaction demonstration, not only isolated art-board mockups.
+
 13. Finance and balance constraints
 
 Banking/finance remains included in the main mod; no master EnableFinance switch
@@ -617,6 +675,15 @@ Acceptance evidence must include:
   - All runtime variants have explicit matching footprints. Rough is 3x2,
     manuals 2x3, bracelets 2x2, necklaces 1x3. Containers really fit their claims.
     Migration works with full inventories, books already stored, and pledged items.
+  - Selection, hover, context menus, and drag initiation work from each occupied
+    cell's center and interior corners/edges, including transparent art regions.
+    Test 1x1, 3x2, 2x3, 2x2, and 1x3 objects, adjacent items, supported rotations/
+    flips, inventory/trade/container grids, scrolling/clipping, save reload, and
+    supported UI scales. Outside/unoccupied cells must not capture the item.
+    Inspecting defects must still use the separate accurate clue geometry.
+  - Appraisal UI and gameplay match vanilla interaction conventions. Verify the
+    full examine/read/test/submit/respond/return path alongside vanilla and show
+    actual screenshots or interaction evidence at supported resolutions.
   - Books open through Read, paginate within five pages, remain legible in the
     native style, and agree with actual authored defects and instrument limits.
   - First correct discovery updates the correct component immediately and plays
