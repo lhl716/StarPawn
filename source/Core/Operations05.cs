@@ -64,7 +64,8 @@ namespace StarPawn.Core
         public static long Silver(AssetRecord a) => a.SilverMicrograms >= 0 ? a.SilverMicrograms : Catalog.GetDefinition(a.DefinitionId).SilverMicrograms;
         public static long Copper(AssetRecord a) => a.CopperMicrograms >= 0 ? a.CopperMicrograms : Catalog.GetDefinition(a.DefinitionId).CopperMicrograms;
 
-        private static bool Free(AssetRecord a) => a.Status == "active" && a.OwnerId == "player" && string.IsNullOrEmpty(a.CustodyRef) && string.IsNullOrEmpty(a.ParentAssetId);
+        // Free = owned, not pledged/serviced, not set inside another item. Only an embedded stone is "inside" something.
+        private static bool Free(AssetRecord a) => a.Status == "active" && a.OwnerId == "player" && string.IsNullOrEmpty(a.CustodyRef);
         private static string NextId(CatalogState s, string prefix) => prefix + "-" + (s.Unified.NextSequence++).ToString(CultureInfo.InvariantCulture);
         private static int Scaled(int value, MarketDay m, string channel, string target, UnifiedRules r) => (int)Math.Max(1, Math.Ceiling(value * m.Multiplier(channel, new[] { target, "all" }, r) / 10000m));
         private static long ScaledFee(long value, MarketDay m, string target, UnifiedRules r) => (long)Math.Ceiling(value * m.Multiplier("processing_service_cost", new[] { target, "all" }, r) / 10000m);
@@ -171,7 +172,7 @@ namespace StarPawn.Core
                     if (!creates.Contains(o)) continue;
                     var created = Catalog.CreateAsset(state, o.DefinitionId, job.OwnerId);
                     created.GoldMicrograms = o.Gold; created.SilverMicrograms = o.Silver; created.CopperMicrograms = o.Copper;
-                    created.ParentAssetId = job.InputAssetIds.Count == 1 ? job.InputAssetIds[0] : ""; // provenance when unambiguous
+                    created.SourceJobId = job.JobId; created.SourceAssetIds.AddRange(job.InputAssetIds); // provenance, not containment
                     result.CreatedAssetIds.Add(created.AssetId);
                 }
                 else if (o.Action == "embed")

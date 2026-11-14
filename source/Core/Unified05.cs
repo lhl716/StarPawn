@@ -438,6 +438,14 @@ namespace StarPawn.Core
                 IntentRevealed = path != "appraisal"
             };
             visit.EncounterId = "enc-" + visit.VisitId;
+            if (path != "appraisal")
+            {
+                // A direct sale/pawn visit is already a negotiation: price it now from the same valuation.
+                visit.OfferExpiryDay = market.Day + Math.Max(0, rules.OfferValidDays - 1);
+                state.Unified.Visits.Add(visit);
+                Reprice(state, visit, market, rules);
+                return visit;
+            }
             state.Unified.Visits.Add(visit);
             return visit;
         }

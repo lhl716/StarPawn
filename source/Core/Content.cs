@@ -41,6 +41,8 @@ namespace StarPawn.Core
         // ---- Revision 05
         public string SocketId = "";            // set while Status == "embedded"
         public string CustodyRef = "";          // job / order holding this item ("" = none)
+        public string SourceJobId = "";         // provenance of recovered output (not containment)
+        public List<string> SourceAssetIds = new List<string>();
         public long GoldMicrograms = -1;        // measured lot content; -1 = use the definition's authored budget
         public long SilverMicrograms = -1;
         public long CopperMicrograms = -1;
