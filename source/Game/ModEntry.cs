@@ -54,6 +54,7 @@ namespace StarPawn.Game
             NativeBridge.Enable(log!, OpenNativeAsset);
             InitNativeTrade();
             InitBankCards();
+            EnableRevision05();
             NativeBridge.NightlySettlementRequested += SettleNight;
             ModHook.OnGameLoadedInit += BeginLoad; ModHook.OnGameLoadedLate += FinishLoad; ModHook.OnNewGameStarted += NewGame;
             ModHelper.AddDebugFunction(ModId, ModHelper.DEBUG_CATEGORY_SPECIAL, "StarPawn Desk", OpenHome);
@@ -83,12 +84,14 @@ namespace StarPawn.Game
                     log?.Log("SP_NATIVE_MEASURE: tool=" + tool + ", target=" + target);
                 });
             };
+            Native05.RegisterCareer(ModId);
         }
         public void OnDisable()
         {
             if (!enabled) return; enabled = false;
             NativeEquipment.MeasureRequested = null;
             ModHook.OnModItemDirectoryInit -= ConfigureNativeItems;
+            DisableRevision05();
             NativeBridge.NightlySettlementRequested -= SettleNight; StopBankCards(); StopNativeTrade(); NativeBridge.Disable();
             ModHook.OnGameLoadedInit -= BeginLoad; ModHook.OnGameLoadedLate -= FinishLoad; ModHook.OnNewGameStarted -= NewGame;
             ModHelper.RemoveDebugFunctions(ModId); CloseWindow();
@@ -134,8 +137,9 @@ namespace StarPawn.Game
                 if(HasCommerceRecovery()) { blocked=true; notice="上次实物业务需要核对，原记录已保留。"; return false; }
                 ReconcileNativeTradeOnLoad();
                 ValidatePhysicalAssets();
-                foreach (var asset in state.Catalog.Assets.Where(a => a.Status != "consumed")) SyncNativeAppearance(asset);
-                log?.Log("SP_LOADED: slot=" + currentSlot + ", assets=" + state.Catalog.Assets.Count + ", xp=" + state.Catalog.Experience); return true;
+                foreach (var asset in state.Catalog.Assets.Where(a => a.Status != "consumed" && a.Status != "embedded")) SyncNativeAppearance(asset);
+                AfterLoad05();
+                log?.Log("SP_LOADED: slot=" + currentSlot + ", assets=" + state.Catalog.Assets.Count + ", legacyXp=" + state.Catalog.Unified.LegacyExperience + ", nativeRank=" + Native05.NativeRank()); return true;
             }
             catch (Exception e) { blocked = true; state = null; notice = "星港记录需要核对，原数据已保留。"; log?.Error("SP_LOAD_BLOCKED: " + e); return false; }
         }
@@ -203,6 +207,7 @@ namespace StarPawn.Game
                 var loanInterest=next.Economy.Loans.Sum(l=>l.AccruedInterest)-state.Economy.Loans.Sum(l=>l.AccruedInterest);
                 Record(next,OperationId(next),"日结 · 第 "+endedDay+" 日：存息 +"+bankInterest+"；信用利息 +"+creditInterest+"；贷款利息 +"+loanInterest+"；到期抵押物 "+result.AssetTransitions.Count+" 件",0);
                 CompleteNightSettlement(next,result.AssetTransitions);
+                Nightly05(endedDay);
                 log?.Log("SP_DAY_CLOSE: day=" + endedDay + ", bank=" + state.Economy.Bank.Balance + ", collateral=" + result.AssetTransitions.Count);
             }
             catch (Exception e) { blocked=true; log?.Error("SP_SETTLEMENT_BLOCKED: " + e); }
@@ -246,7 +251,7 @@ namespace StarPawn.Game
         {
             if (!EnsureRun()) { log?.Warning("SP_DESK_UNAVAILABLE: load a save or inspect state error."); return; }
             var ui=BeginPage("星港 · 生意与见识","一件实物，一份经历。报价、合同与账本跟随当前存档。");
-            Text(ui,25,80,340,62,"鉴定等级 "+InspectionV2.GetLevel(state!.Catalog)+" / "+InspectionV2.MaximumLevel+"\n经验 "+state.Catalog.Experience+"    已登记资产 "+state.Catalog.Assets.Count,14);
+            Text(ui,25,80,340,62,L("sp5.home.rank","Appraiser rank")+" · "+L("mech_appraisal_rank_"+Native05.NativeRank(),"")+"\n"+string.Format(L("sp5.home.assets","Registered items: {0}"),state!.Catalog.Assets.Count),14);
             var market=Market(); Text(ui,25,154,340,90,"今日金价 / 纯金克\n金商卖出 "+market.GoldSellPerGram+"    回收 "+market.GoldBuyPerGram+"\n白银卖出 "+market.SilverSellPerGram+"    回收 "+market.SilverBuyPerGram,13);
             Text(ui,25,260,340,60,"银行："+(state.Economy.Bank.Status=="Open"?"已开户 · 余额 "+state.Economy.Bank.Balance:"尚未开户")+"\n典当："+(state.Economy.PawnLicensed?"持证经营":"可申请经营许可"),12);
             Button(ui,25,306,340,22,"鉴定用品商店 · 仪器、手册与收纳",()=>OpenEquipmentShop(0));

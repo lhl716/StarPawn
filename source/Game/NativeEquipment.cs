@@ -22,19 +22,40 @@ namespace StarPawn.Game
                 item.canThisTargetItemFunc = item.mayThisTargetItemFunc;
                 item.onThisTargetItemFunc = (tool, target) => MeasureRequested?.Invoke(NativeBridge.GetAssetId(tool), NativeBridge.GetAssetId(target));
             }
-            if (!string.IsNullOrEmpty(d.ManualFor)) item.shortDescription = "鉴定说明手册 · 使用放大镜翻阅固定缺陷图鉴";
-            if (!d.IsOrganizer) return;
-            var inventory = new GameGridInventory(4, 2);
-            var window = new PixelWindow(true, "图鉴", WindowStyle.Classic);
-            if (!window.Attach(inventory)) throw new InvalidOperationException("无法连接手册收纳内部空间。");
+            if (!string.IsNullOrEmpty(d.ManualFor) || d.IsBook)
+            {
+                // Revision 05: a physical book opened with the native Read action, not the magnifier.
+                item.shortDescription = d.Description;
+                Native05.InitBook(item, d);
+            }
+            if (d.InternalWidthCells <= 0 || d.InternalHeightCells <= 0) return;
+            // Interior grids come from ITEM_LAYOUT_05 (e.g. organizer 8x6 for eight 2x3 books).
+            var inventory = new GameGridInventory(d.InternalWidthCells, d.InternalHeightCells);
+            var window = new PixelWindow(true, d.Name, WindowStyle.Classic);
+            if (!window.Attach(inventory)) throw new InvalidOperationException(TextResolver.Get("sp5.container.attach", "This container's interior is unavailable."));
             item.SetContentWindow(window);
-            var allowed = Catalog.Definitions.Where(x => !string.IsNullOrEmpty(x.ManualFor) || x.Id == "inspection_guide").Select(x => "starpawn." + x.Id).ToList();
-            ContainerHelper.InitContainerItem(inventory, item, null, allowed);
+            ContainerHelper.InitContainerItem(inventory, item, null, AllowedChildren(d));
             // The native container serializes its actual children and their unique IDs.
-            // Do not let a filled cabinet leave the store with unpriced child assets.
+            // Containers must be emptied before moving or selling, so children are never orphaned.
             var previousRemove = item.mayInventoryRemoveItemFunc;
             item.mayInventoryRemoveItemFunc = (current, parent) => inventory.childItems.Count == 0 && (previousRemove == null || previousRemove(current, parent));
-            item.shortDescription = "八格鉴定手册收纳 · 收纳真实书本；搬动或出售前先取空";
+            item.shortDescription = d.Description;
+        }
+
+        // No nested containers and no decorative copies: only real items of the right kind.
+        internal static List<string> AllowedChildren(ItemDefinition box)
+        {
+            IEnumerable<ItemDefinition> pick;
+            switch (box.ArtModel)
+            {
+                case "gem_case": pick = Catalog.Definitions.Where(x => x.Role == "gem"); break;
+                case "presentation_case": pick = Catalog.Definitions.Where(x => x.Role == "setting" || (BusinessLabels.Has(x, BusinessLabels.Luxury) && x.Material != "none" && x.Form != "bar")); break;
+                case "jewelry_display": pick = Catalog.Definitions.Where(x => BusinessLabels.Has(x, BusinessLabels.Luxury) && x.InternalWidthCells == 0); break;
+                case "materials_bin": pick = Catalog.Definitions.Where(x => x.Role == "lot" || x.Role == "mixed" || x.RecoveryClass == "ore" || x.RecoveryClass == "component"); break;
+                case "card_holder": return new List<string> { "starpawn.savings_card", "starpawn.credit_card" };
+                default: pick = Catalog.Definitions.Where(x => !string.IsNullOrEmpty(x.ManualFor) || x.Id == "inspection_guide"); break;
+            }
+            return pick.Where(x => x.InternalWidthCells == 0).Select(x => "starpawn." + x.Id).ToList();
         }
 
         internal static GameInventory Inventory(GameItem organizer)

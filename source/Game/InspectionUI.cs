@@ -60,7 +60,7 @@ namespace StarPawn.Game
             var d=Catalog.GetDefinition(a.DefinitionId);
             var facts=Catalog.PublicFacts(a);
             var q=QuoteByMarket(state.Catalog,e.EncounterId,a.OwnerId=="player"?"sell":"buy");
-            var ui=BeginPage("验货台 · "+facts.Name,"鉴定等级 "+InspectionV2.GetLevel(state.Catalog)+" / "+InspectionV2.MaximumLevel+"    经验 "+state.Catalog.Experience+"    "+(InspectionV2.IsMastered(state.Catalog)?"老练的目光：可见异常自动记录":"观察实物，点击可见异常"));
+            var ui=BeginPage(L("sp5.desk.title","Inspection")+" · "+facts.Name,L("sp5.desk.subtitle","Click a visible flaw on the item. Findings apply to the right part of the price automatically."));
             const float ix=49,iy=99,iw=298,ih=199;
             if(e.Locked)
             {
@@ -68,13 +68,13 @@ namespace StarPawn.Game
             }
             else
             {
-                ui.AddImage(ix,iy,iw,ih,Catalog.TextureFor(a,selectedView),"stretch","asset-image");ui.Last.raycast=false;
-                ClearButton(ui,ix,iy,iw,ih,()=>{notice=InspectionNotice(a,InspectionV2.Miss(state.Catalog,selectedEncounter));Persist();DrawInspection();},"blank-hit");
+                ui.AddImage(ix,iy,iw,ih,JewelryArt.TextureFor(state.Catalog,a,selectedView),"stretch","asset-image");ui.Last.raycast=false;
+                ClearButton(ui,ix,iy,iw,ih,()=>{notice=InspectionNotice(a,InspectionV2.Miss(state.Catalog,selectedEncounter),null);Persist();DrawInspection();},"blank-hit");
                 foreach(var h in Catalog.ActiveHotspots(a,selectedView))
                 {
                     var x=ix+h.U*iw-h.Width*iw/2; var y=iy+h.V*ih-h.Height*ih/2;
                     var tolerance=InspectionV2.Rules.HitToleranceUv;
-                    ClearButton(ui,x-tolerance*iw,y-tolerance*ih,(h.Width+2*tolerance)*iw,(h.Height+2*tolerance)*ih,()=>{notice=InspectionNotice(a,InspectionV2.Discover(state.Catalog,selectedEncounter,h.Id));Persist();DrawInspection();},"hit-"+h.Id);
+                    ClearButton(ui,x-tolerance*iw,y-tolerance*ih,(h.Width+2*tolerance)*iw,(h.Height+2*tolerance)*ih,()=>{var before=QuoteByMarket(state.Catalog,selectedEncounter,a.OwnerId=="player"?"sell":"buy");var outcome=InspectionV2.Discover(state.Catalog,selectedEncounter,h.Id);notice=InspectionNotice(a,outcome,h,before);if(outcome.PlayFeedback)Native05.PlayExposeSound();Persist();DrawInspection();},"hit-"+h.Id);
                     if(a.DiscoveredEvidenceIds.Contains(h.Id))
                     {
                         var mw=(h.Width*iw+6)*InspectionV2.Rules.MarkerScale;var mh=(h.Height*ih+6)*InspectionV2.Rules.MarkerScale;
@@ -92,18 +92,18 @@ namespace StarPawn.Game
                 s.AppendLine((d.Material=="gold"?m.GoldSellPerGram:m.SilverSellPerGram)+" / "+(d.Material=="gold"?m.GoldBuyPerGram:m.SilverBuyPerGram));
                 s.AppendLine((q.RecoveryValueConfirmed?"核实材料回收":"标称回收估算")+" "+q.RecoveryValue);
             }
-            s.AppendLine("当前报价 "+q.Price+" Cr");
-            s.AppendLine("引用原因 "+q.AppliedCauses.Count+" 项");
+            if(q.CraftPremium>0)s.AppendLine(string.Format(L("sp5.quote.craft","Workmanship {0} Cr (reduction {1})"),q.CraftValue,q.CraftPremium-q.CraftValue));
+            if(q.StoneValue>0)s.AppendLine(string.Format(L("sp5.quote.stones_short","Stones {0} Cr"),q.StoneValue));
+            s.AppendLine(string.Format(L("sp5.quote.total","Estimate {0} Cr"),q.Price));
             if(!string.IsNullOrEmpty(facts.JadeDescription)) s.AppendLine(facts.JadeDescription);
             Text(ui,388,77,190,116,s.ToString(),11);
             int index=0;
-            foreach(var h in d.Hotspots.Where(h=>a.DiscoveredEvidenceIds.Contains(h.Id)).Take(4))
-            {
-                bool selected=e.SelectedEvidenceIds.Contains(h.Id);
-                Button(ui,388,198+index++*25,190,22,(a.ResolvedCauseIds.Contains(h.CauseId)?"已修复 · ":selected?"✓ ":"○ ")+h.Label,()=>{InspectionV2.SelectEvidence(state.Catalog,selectedEncounter,h.Id,!selected);Persist();DrawInspection();},"evidence-"+h.Id);
-            }
-            if(index==0)Text(ui,388,201,190,49,"尚未记录异常。\n没有异常的物品可以直接议价。",10);
-            Button(ui,22,308,106,23,"引用全部证据",()=>{InspectionV2.SelectAll(state.Catalog,selectedEncounter);Persist();DrawInspection();});
+            // Established findings, one line per economic cause, with the component they changed. No toggles.
+            foreach(var line in q.Lines.Take(4))
+                Text(ui,388,198+index++*25,190,22,"· "+line.Label+"  −"+line.Amount+" ("+L("sp5.component."+line.Component,line.Component)+")",10);
+            foreach(var h in d.Hotspots.Where(h=>a.DiscoveredEvidenceIds.Contains(h.Id)&&a.ResolvedCauseIds.Contains(h.CauseId)).Take(4-index))
+                Text(ui,388,198+index++*25,190,22,L("sp5.desk.repaired","Repaired")+" · "+h.Label,10);
+            if(index==0)Text(ui,388,201,190,49,L("sp5.desk.no_findings","No findings recorded yet."),10);
             if(d.IsJadeRough&&a.WindowOpened)
                 Button(ui,136,308,106,23,selectedView=="front"?"查看窗口":"查看皮壳",()=>OpenInspection(a.AssetId,e.CounterpartyId,selectedView=="front"?"window":"front"));
             else if(a.OwnerId=="player") Button(ui,136,308,106,23,"加工 / 检验",()=>OpenServices(a.AssetId));
@@ -114,12 +114,16 @@ namespace StarPawn.Game
             else Button(ui,388,308,190,23,"资产档案",()=>OpenAssetRecord(a.AssetId));
             Footer(ui);Show(ui);
         }
-        private static string InspectionNotice(AssetRecord asset,InspectionOutcome outcome)
+        // Concise, component-specific feedback; a customer answers in their own voice.
+        private string InspectionNotice(AssetRecord asset,InspectionOutcome outcome,HotspotDefinition? h,AssetQuote? before=null)
         {
-            if(asset.OwnerId!="player")return outcome.Message;
-            if(outcome.Kind=="discovered")return "新的观察已记入这件实物的档案。";
-            if(outcome.Kind=="repeated")return "这处已经记录，重新看它没有新发现。";
-            return outcome.Locked?"眼睛有些疲劳，先交给检验所看看吧。":"这里没有发现异常，再看看其他细节。";
+            if(outcome.Kind!="discovered"||h==null)return outcome.Message;
+            var d=Catalog.GetDefinition(asset.DefinitionId);var component=ComponentValuation.ComponentOf(d,h);
+            var after=QuoteByMarket(state!.Catalog,selectedEncounter,asset.OwnerId=="player"?"sell":"buy");
+            var delta=before==null?0:before.Price-after.Price;
+            var text=string.Format(L("sp5.finding."+component,"{0} found. {1} -{2}. Current estimate: {3} Cr."),h.Label,L("sp5.component."+component,component),delta,after.Price);
+            var visit=state.Catalog.Unified.Visits.LastOrDefault(v=>v.AssetId==asset.AssetId&&v.Stage!="closed");
+            return visit==null?text:text+"\n"+L(VisitService.FindingLineKey(visit,component),"");
         }
         private void CertificateButton(PaperUI ui,AssetRecord asset,string scope,string label,float x,float y)
         {
@@ -133,9 +137,9 @@ namespace StarPawn.Game
         {
             var a=Catalog.GetAsset(state!.Catalog,quote.AssetId);
             var ui=BeginPage("议价 · "+Catalog.PublicFacts(a).Name,"本次金额只对当前实物、顾客、证据和当日行情有效。" );
-            Text(ui,24,80,550,72,(quote.Direction=="buy"?"购入这件商品":"卖给星港回收商")+"  "+quote.Price+" Cr\n材料："+quote.MaterialDescription+"\n引用 "+quote.AppliedCauses.Count+" 个独立原因",15);
+            Text(ui,24,80,550,72,(quote.Direction=="buy"?L("sp5.dir.buy","Buy from customer"):L("sp5.dir.buyback","Material buyback"))+"  "+quote.Price+" Cr\n"+quote.MaterialDescription+"\n"+string.Join(L("sp5.list.sep",", "),quote.Lines.Select(x=>x.Label)),15);
             var precious=Catalog.GetDefinition(a.DefinitionId).Material=="gold"||Catalog.GetDefinition(a.DefinitionId).Material=="silver";
-            Text(ui,24,168,550,50,"估值基准 "+quote.BaseValue+" · 已计证据差额 "+quote.EvidenceDeduction+(precious?"\n"+(quote.RecoveryValueConfirmed?"已核实材料回收值 ":"按标称估算回收值，未获材料检验确认 ")+quote.RecoveryValue:""),11);
+            Text(ui,24,168,550,50,string.Format(L("sp5.quote.metal","Metal {0} Cr"),quote.MaterialValue)+" · "+string.Format(L("sp5.quote.craft","Workmanship {0} Cr (reduction {1})"),quote.CraftValue,quote.EvidenceDeduction)+(precious?"\n"+(quote.RecoveryValueConfirmed?"已核实材料回收值 ":"按标称估算回收值，未获材料检验确认 ")+quote.RecoveryValue:""),11);
             var native=NativeBridge.FindAsset(a.AssetId);
             if (native == null || a.OwnerId == "player")
                 Button(ui,24,236,174,28,"确认"+(quote.Direction=="buy"?"付款 ":"出售 ")+quote.Price,()=>{if(quote.Direction=="buy")PurchaseAsset(quote);else SellAsset(quote);OpenOwned();});

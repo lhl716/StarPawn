@@ -38,6 +38,7 @@ namespace StarPawn.Game
             var height = UISettings.current.gridSize * (float)heightCells;
             FitLayer(item.background, width, height);
             FitLayer(item.fakeBackground, width, height);
+            Native05.FitHitTargets(item, widthCells, heightCells, UISettings.current.gridSize);
         }
 
         private static void FitLayer(TreeNodeRender layer, float width, float height)

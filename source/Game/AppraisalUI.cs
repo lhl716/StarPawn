@@ -145,30 +145,44 @@ namespace StarPawn.Game
                 Button(ui,30,250,240,30,"前往鉴定用品商店",()=>OpenEquipmentShop(0,d.Id));Footer(ui);Show(ui);return;
             }
             RequireNativeOwned(manual);
-            var entries=Appraisal.Handbook(d);
-            var lastPage=Appraisal.HandbookPageCount(d)-1;
-            if(lastPage>=Appraisal.MaxHandbookPages)throw new InvalidOperationException("鉴定手册必须分册，每册最多五页。");
+            var pages=Handbooks.Pages(d);
+            var lastPage=pages.Count-1;
             page=Math.Max(0,Math.Min(page,lastPage));
-            var book=BeginHandbook(d.Name,page==0);
-            if(page==0)
+            var current=pages[page];
+            var book=BeginHandbook(d.Name,false);
+            var y=84f;
+            if(current.HasIntro)
             {
-                Text(book,28,88,384,152,d.ReadingText,13);
-                Text(book,28,256,384,28,"查验图例",15);book.Last.color="#486071";
-                Text(book,28,295,384,124,"左栏为参考外观，右栏为同一部位的异常实例。\n\n先比较结构与表面，再使用合适的仪器。示例只说明一种特征，不代表正在交易的实物已经完成鉴定。",13);
-                Text(book,28,446,384,76,"本册收录 "+entries.Count+" 项固定特征，共 "+(lastPage+1)+" 页。\n每页最多两项，翻页查看对照。",13);
+                // A concise opening shares the page with real reference content.
+                Text(book,28,y,384,40,d.ReadingText.Split('\n')[0],11);y+=44;
             }
+            if(current.Kind=="checks")
+                foreach(var pair in current.Entries.Select((entry,index)=>new{entry,index}))
+                {
+                    HandbookSection(book,pair.entry,y);y+=218;
+                }
             else
-                foreach(var pair in entries.Skip((page-1)*2).Take(2).Select((entry,index)=>new {entry,index}))
-                    HandbookSection(book,pair.entry,140+pair.index*220);
-            if(page>0)HandbookLink(book,28,580,80,20,"上一页",()=>OpenHandbook(category,page-1,d.Id));
-            if(page<lastPage)HandbookLink(book,332,580,80,20,"下一页",()=>OpenHandbook(category,page+1,d.Id));
+            {
+                Text(book,20,y,400,20,L("sp5.book.tools","Tools and their limits"),14);book.Last.color="#486071";
+                Text(book,28,y+26,384,250,ToolsPage(d),11);
+            }            if(page>0)HandbookLink(book,28,580,80,20,L("sp5.book.prev","Previous"),()=>OpenHandbook(category,page-1,d.Id));
+            if(page<lastPage)HandbookLink(book,332,580,80,20,L("sp5.book.next","Next"),()=>OpenHandbook(category,page+1,d.Id));
             Text(book,156,580,128,20,(page+1)+" / "+(lastPage+1),11);book.Last.align="center";
             ClearButton(book,410,8,20,20,CloseWindow,"handbook-close");
             if(Appraisal.HandbookVolumes(category).Count>0)
-                HandbookLink(book,28,page==0?548:108,136,20,"分册目录",()=>OpenHandbookIndex(category,0));
+                HandbookLink(book,28,556,136,20,L("sp5.book.index","Volume index"),()=>OpenHandbookIndex(category,0));
             if(!string.IsNullOrEmpty(selectedEncounter)&&state!.Catalog.Encounters.Any(e=>e.EncounterId==selectedEncounter&&!e.Completed))
-                HandbookLink(book,276,page==0?548:108,136,20,"返回当前验货",DrawInspection);
+                HandbookLink(book,276,556,136,20,L("sp5.book.back","Back to the item"),DrawInspection);
             Show(book);
+        }
+
+        // Instruments and interpretation limits, in a short dedicated block.
+        private static string ToolsPage(ItemDefinition manual)
+        {
+            var kinds=Appraisal.Handbook(manual).Select(e=>string.IsNullOrEmpty(e.Evidence.InstrumentKind)?"eye":e.Evidence.InstrumentKind).Distinct().ToList();
+            var lines=kinds.Select(k=>L("sp5.book.tool."+k,k)).ToList();
+            lines.Add(L("sp5.book.pricing."+manual.ManualFor,""));
+            return string.Join("\n\n",lines.Where(x=>x.Length>0));
         }
 
         private void OpenOrganizer(string assetId,int page)

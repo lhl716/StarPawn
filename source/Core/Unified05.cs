@@ -331,6 +331,29 @@ namespace StarPawn.Core
         internal static long Scale(long amount, int basisPoints) => checked((long)decimal.Floor((decimal)amount * basisPoints / 10000m));
     }
 
+    // ------------------------------------------------------------------ art for assembled jewelry
+    public static class JewelryArt
+    {
+        private static readonly Dictionary<string, string> Missing = new Dictionary<string, string>(StringComparer.Ordinal)
+            { { "ring", "missing_center" }, { "pendant", "missing_insert" }, { "earrings", "missing_right" }, { "bracelet", "missing_left" }, { "necklace", "missing_drop" } };
+
+        // A setting shows its REAL embedded stone; with none embedded, the setting's empty art.
+        public static string TextureFor(CatalogState state, AssetRecord asset, string view = "front")
+        {
+            var d = Catalog.GetDefinition(asset.DefinitionId);
+            if (d.Role != "setting" || d.SocketCount <= 0 || string.IsNullOrEmpty(d.SettingForm)) return Catalog.TextureFor(asset, view);
+            var stones = state.Assets.Where(a => a.ParentAssetId == asset.AssetId && a.Status == "embedded").ToList();
+            if (stones.Count == 0) return "starpawn:sp5_setting_" + d.SettingForm + "_" + Metal(d);
+            var stone = Catalog.GetDefinition(stones[0].DefinitionId).ArtModel.Substring(4);
+            var repaired = d.Hotspots.Where(h => h.Repairable).All(h => asset.ResolvedCauseIds.Contains(h.CauseId));
+            var art = string.IsNullOrEmpty(d.ArtState) || (repaired && d.Hotspots.All(h => h.Repairable)) ? "intact" : d.ArtState;
+            if (stones.Count < d.SocketCount) art = Missing[d.SettingForm];
+            return "starpawn:sp5_j_" + d.SettingForm + "_" + Metal(d) + "_" + stone + "_" + art;
+        }
+
+        private static string Metal(ItemDefinition d) => d.Material == "gold" ? "au18k" : "ag925";
+    }
+
     // ------------------------------------------------------------------ native career
     public static class Career
     {

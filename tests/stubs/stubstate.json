@@ -1,0 +1,290 @@
+{
+"|IMod": {
+"members": {}
+},
+"|GameItem": {
+"members": {
+"Target": "static",
+"CanTarget": "static",
+"MayTarget": "inst",
+"onThisTargetItemFunc": "inst",
+"unitCount": "inst",
+"IsRootedInBackInv": "inst",
+"GetTagReadonly": "inst",
+"identifier": "inst",
+"GetNegociatedValue": "inst",
+"SetSprite": "inst",
+"ModifyTag": "inst",
+"parentInventory": "inst",
+"uniqueId": "inst",
+"MayRemove": "inst",
+"Destroy": "inst",
+"mayInventoryRemoveItemFunc": "inst",
+"shortDescription": "inst",
+"EnableTag": "inst",
+"maySelectSlotItemFunc": "inst",
+"canSelectSlotItemFunc": "inst",
+"mayThisTargetItemFunc": "inst",
+"canThisTargetItemFunc": "inst",
+"SetContentWindow": "inst",
+"contentWindow": "inst",
+"IsTag": "inst",
+"SetSpriteAndShapeFromMod": "inst",
+"SetShape": "inst",
+"SetValue": "inst"
+}
+},
+"|ModManifest": {
+"members": {
+"ID": "inst"
+}
+},
+"|PaperUI": {
+"members": {
+"AddImage": "inst",
+"Last": "inst",
+"IsVisible": "inst",
+"Close": "inst",
+"AddText": "inst",
+"AddButton": "inst",
+"Show": "inst"
+}
+},
+"|ModLog": {
+"members": {
+"Log": "inst",
+"Error": "inst",
+"Warning": "inst"
+}
+},
+"|PlayerStore": {
+"members": {
+"SellAllItemFromTable": "static",
+"BuyItem": "static",
+"SellItem": "static",
+"AcceptBarter": "static",
+"SaveGame": "static",
+"CanBuyItemFromTable": "static",
+"CanSellThisItem": "static",
+"BuyAllItemFromTable": "static",
+"HasInstance": "static",
+"Instance": "static",
+"GetCurrentlyNegociatedItem": "inst",
+"GetCash": "inst",
+"saveSlotId": "inst",
+"currentClientInstance": "inst",
+"BuyItemFromTable": "inst",
+"SellItemFromTable": "inst",
+"PayMoney": "inst",
+"ModCash": "inst",
+"ExamineItem": "inst"
+}
+},
+"|ModItemDirectory": {
+"members": {
+"Add": "inst"
+}
+},
+"|InspectionUIManager": {
+"members": {
+"OnInspectItem": "static"
+}
+},
+"|GameInventory": {
+"members": {
+"childItems": "inst",
+"IsRemoveLocked": "inst",
+"Expel": "inst"
+}
+},
+"|GraphNodeStorage": {
+"members": {
+"children": "inst"
+}
+},
+"|CraftingRecipe": {
+"members": {
+"CanCraft": "static",
+"Craft": "static"
+}
+},
+"|NegociationUIManager": {
+"members": {
+"GetFinalOfferValue": "static",
+"Instance": "static"
+}
+},
+"|StoreClient": {
+"members": {
+"HasBudgetLeftToBuy": "static",
+"useClientBudget": "inst",
+"GetBudget": "inst"
+}
+},
+"|GameItemElement": {
+"members": {
+"useSpriteFromMod": "inst",
+"spriteAtlasPath": "inst",
+"identifier": "inst",
+"background": "inst",
+"fakeBackground": "inst"
+}
+},
+"|TreeNodeRender": {
+"members": {
+"image": "inst",
+"rectTransform": "inst"
+}
+},
+"|StoreClientInstance": {
+"members": {
+"GetClientBlueprint": "inst"
+}
+},
+"|ModLoader": {
+"members": {
+"Mods": "static"
+}
+},
+"|FilterMode": {
+"members": {
+"Point": "static"
+}
+},
+"|TextureWrapMode": {
+"members": {
+"Clamp": "static"
+}
+},
+"|Input": {
+"members": {
+"GetKeyDown": "static"
+}
+},
+"|KeyCode": {
+"members": {
+"F7": "static"
+}
+},
+"|UISettings": {
+"members": {
+"current": "static"
+}
+},
+"UnityEngine.UI|Image": {
+"members": {}
+},
+"|GUI": {
+"members": {
+"Button": "static"
+}
+},
+"|Rect": {
+"members": {}
+},
+"|Screen": {
+"members": {
+"width": "static"
+}
+},
+"|ModHook": {
+"members": {
+"OnModItemDirectoryInit": "static",
+"OnGameLoadedInit": "static",
+"OnGameLoadedLate": "static",
+"OnNewGameStarted": "static",
+"OnHandlingNightlyServicesLate": "static"
+}
+},
+"|ItemDirectory": {
+"members": {
+"CreateEmptyItem": "static"
+}
+},
+"|GridShapeBuilder": {
+"members": {
+"SetData": "inst"
+}
+},
+"|InspectableHelper": {
+"members": {
+"InitInspectableItem": "static"
+}
+},
+"|ModHelper": {
+"members": {
+"SetSource": "static",
+"SpawnItem": "static",
+"SetItemOwnerShip": "static",
+"SetModData": "static",
+"GetModData": "static",
+"RemoveModData": "static",
+"ModFileExists": "static",
+"ReadModFileText": "static",
+"CreatePaper": "static",
+"AddDebugFunction": "static",
+"DEBUG_CATEGORY_SPECIAL": "static",
+"RemoveDebugFunctions": "static"
+}
+},
+"|GeneralHelper": {
+"members": {
+"IsItemOwned": "static",
+"LockItem": "static",
+"UnlockItem": "static"
+}
+},
+"|StoreStation": {
+"members": {
+"GetDayCounter": "static"
+}
+},
+"|EmporiumEntry": {
+"members": {
+"Instance": "static",
+"GetAllItems": "inst"
+}
+},
+"|GraphUtils": {
+"members": {
+"CanAccept": "static",
+"TryAccept": "static"
+}
+},
+"|GameGridInventory": {
+"members": {
+"childItems": "inst"
+}
+},
+"|PixelWindow": {
+"members": {
+"Attach": "inst"
+}
+},
+"|WindowStyle": {
+"members": {
+"Classic": "static"
+}
+},
+"|ContainerHelper": {
+"members": {
+"InitContainerItem": "static"
+}
+},
+"UnityEngine|Object": {
+"members": {}
+},
+"|NewGameData": {
+"members": {
+"Instance": "static"
+}
+},
+"|TextResolver": {
+"members": {
+"Get": "static",
+"Configure": "static",
+"Language": "static",
+"LocalizeInline": "static"
+}
+}
+}

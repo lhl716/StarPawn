@@ -1,67 +1,622 @@
 {
- "sp5.inspect.locked": ["The customer has taken the item back. No more claims this visit.", "顾客已经把东西收回去了，这次不能再指认。"],
- "sp5.inspect.repeated": ["Already recorded.", "这处已经记录过了。"],
- "sp5.inspect.study_miss": ["Nothing unusual there.", "这里没看出异常。"],
- "sp5.inspect.walkout": ["\"There is nothing wrong there. I am done with this.\" The customer takes the item back.", "“那里根本没毛病。不看了。”顾客把东西收了回去。"],
- "sp5.inspect.miss": ["\"There is nothing wrong there, is there? Look properly.\"", "“那里没问题吧？你看仔细点。”"],
- "sp5.material.assayed": ["Assay: {0}", "实测成色：{0}"],
- "sp5.material.marked": ["Mark: {0} | Assay: not tested", "印记：{0}｜成色：未检测"],
- "sp5.tool.gem_probe": ["Gem Screening Probe", "宝石筛查笔"],
- "sp5.probe.refer": ["Screening: refer for laboratory testing.", "筛查结果：建议送实验室检测。"],
- "sp5.probe.pass": ["Screening: no obvious substitute detected. This does not confirm natural origin or treatment.", "筛查结果：未见明显仿制品。这不能证明天然来源，也不能排除处理。"],
- "sp5.visit.not_commission": ["This customer did not ask for a paid appraisal.", "这位顾客没有委托付费鉴定。"],
- "sp5.visit.bad_estimate": ["Enter an estimate of zero or more.", "请填写不小于零的估价。"],
- "sp5.visit.already_settled": ["The appraisal fee was already settled.", "鉴定费已经结清。"],
- "sp5.visit.grade0": ["\"That cannot be right. I will ask someone else.\"", "“这不可能。我去问问别家。”"],
- "sp5.visit.grade1": ["\"Hm. Roughly what I heard elsewhere.\"", "“嗯，和别处说的差不太多。”"],
- "sp5.visit.grade2": ["\"That sounds fair. Thank you.\"", "“听着公道。谢谢。”"],
- "sp5.visit.grade3": ["\"Exactly what I needed to know. Thank you.\"", "“这正是我想知道的。多谢。”"],
- "sp5.visit.no_offer": ["There is no offer to accept.", "现在没有可以接受的报价。"],
- "sp5.visit.expired": ["The customer has already left with the item.", "顾客已经带着东西离开了。"],
- "sp5.visit.no_cash": ["You do not have enough cash for this purchase.", "现金不够，买不下这件东西。"],
- "sp5.visit.no_cash_pawn": ["You do not have enough lendable cash for this loan.", "可出借的现金不够放这笔款。"],
- "sp5.visit.item_changed": ["The item is no longer available.", "这件东西已经不在了。"],
- "sp5.pawn.no_value": ["There is no lendable value in this item as it stands.", "按现状，这件东西没有可放款的价值。"],
- "sp5.pawn.needs_assay": ["A material test is needed before I can lend against the claimed gold content.", "要先做成色检测，才能按所称含金量放款。"],
- "sp5.line.sale.dealer": ["\"Fine. Make it quick. Will you take it at that?\"", "“行，痛快点。这个价你收不收？”"],
- "sp5.line.sale.surprised": ["\"That is more than I expected. Would you buy it?\"", "“比我想的还多。你愿意收吗？”"],
- "sp5.line.sale.plain": ["\"I would rather sell it. Are you interested?\"", "“我还是卖了吧。你有兴趣吗？”"],
- "sp5.line.pawn.sentimental": ["\"I cannot part with it. Could you hold it for me against a loan?\"", "“我舍不得卖。能不能押在你这儿借点钱？”"],
- "sp5.line.pawn.cash": ["\"I need cash, but I want this back. Can I leave it as security?\"", "“我急用钱，但还想赎回来。能押在这儿吗？”"],
- "sp5.line.leave.collector": ["\"Useful. I will keep it in the collection.\"", "“有用。这件我留着收藏。”"],
- "sp5.line.leave.plain": ["\"Thanks. I will keep it for now.\"", "“谢谢。我先留着。”"],
- "sp5.line.finding.dishonest_material": ["\"Plated? Nobody told me that...\" The customer looks away.", "“镀的？没人跟我说过……”顾客移开了目光。"],
- "sp5.line.finding.dishonest": ["\"That was there when I got it. Probably.\"", "“我拿到的时候就这样。大概吧。”"],
- "sp5.line.finding.dealer": ["\"Noted. Price it in.\"", "“知道了，算进价里。”"],
- "sp5.line.finding.collector": ["\"I had wondered about that. Go on.\"", "“我也怀疑过那里。请继续。”"],
- "sp5.line.finding.urgent": ["\"Is it bad? I just need to know what it is worth.\"", "“严重吗？我只想知道它值多少。”"],
- "sp5.line.finding.truthful_material": ["\"It is not solid? I paid for solid gold...\"", "“不是足金？我可是按足金买的……”"],
- "sp5.line.finding.truthful": ["\"Oh. I never noticed that.\"", "“哦，我从没注意到。”"],
- "sp5.job.unknown": ["This process is not available.", "这道工序现在做不了。"],
- "sp5.job.inputs": ["Choose between one and the allowed number of inputs.", "请放入一件到上限数量之间的原料。"],
- "sp5.job.not_free": ["An input is pledged, in service, or not yours.", "有物品正在质押、加工中，或不属于你。"],
- "sp5.job.wrong_input": ["This process cannot take that input.", "这道工序不能处理这件东西。"],
- "sp5.job.equipment": ["The required machine or equipment is missing.", "缺少所需的机器或器具。"],
- "sp5.job.no_cash": ["You do not have enough cash for the service fee.", "现金不够支付加工费。"],
- "sp5.job.no_energy": ["Not enough stored energy. Add a charged cell.", "储能不足。请装入一块充满的能源电池。"],
- "sp5.job.no_cell": ["Use a charged energy cell you own.", "请使用你自己的满电能源电池。"],
- "sp5.job.no_charge": ["The charge does not contain enough metal for this alloy.", "炉料里的金属不够配这种合金。"],
- "sp5.job.not_ready": ["This job is still running.", "这项加工还没完成。"],
- "sp5.job.full": ["No room for the output. It stays ready to collect.", "放不下产出。它会留在这里等你来取。"],
- "sp5.jewel.not_setting": ["That is not a setting.", "那不是戒托或镶座。"],
- "sp5.jewel.occupied": ["This setting already holds a stone.", "这个镶座里已经有宝石了。"],
- "sp5.jewel.count": ["Each socket needs exactly one stone.", "每个镶口都需要正好一颗宝石。"],
- "sp5.jewel.incompatible": ["This stone does not fit this setting.", "这颗宝石不适配这个镶座。"],
- "sp5.jewel.mixed": ["Stones in one piece must be the same kind.", "同一件首饰上的宝石必须是同一种。"],
- "sp5.jewel.no_bench": ["This work needs the jeweler's bench and toolkit.", "这项工作需要珠宝工作台和工具包。"],
- "sp5.jewel.unsupported": ["This piece cannot take that service as it is.", "这件首饰现在做不了这项服务。"],
- "sp5.jewel.empty": ["There is no stone in this setting.", "这个镶座里没有宝石。"],
- "sp5.jewel.nothing": ["Nothing here can be repaired at the bench.", "这件东西没有工作台能修的地方。"],
- "sp5.lab.not_gem": ["The laboratory only identifies loose or mounted stones.", "实验室只鉴定散石或已镶嵌的宝石。"],
- "sp5.lab.done": ["This stone already has a current report.", "这颗宝石已有一份有效报告。"],
- "sp5.order.terms": ["The order needs a price and a deadline after today.", "订单需要写明价格和今天之后的交期。"],
- "sp5.order.inputs": ["Every part for this order must be on hand and free.", "这份订单要用的每件东西都必须在手且未被占用。"],
- "sp5.order.state": ["This order cannot do that now.", "这份订单现在不能这样操作。"],
- "sp5.order.not_ready": ["The piece is not ready to hand over.", "这件首饰还没做好，不能交付。"],
- "sp5.order.busy": ["Collect the bench work before cancelling.", "请先从工作台取回成品再取消。"]
+ "sp5.inspect.locked": [
+  "The customer has taken the item back. No more claims this visit.",
+  "顾客已经把东西收回去了，这次不能再指认。"
+ ],
+ "sp5.inspect.repeated": [
+  "Already recorded.",
+  "这处已经记录过了。"
+ ],
+ "sp5.inspect.study_miss": [
+  "Nothing unusual there.",
+  "这里没看出异常。"
+ ],
+ "sp5.inspect.walkout": [
+  "\"There is nothing wrong there. I am done with this.\" The customer takes the item back.",
+  "“那里根本没毛病。不看了。”顾客把东西收了回去。"
+ ],
+ "sp5.inspect.miss": [
+  "\"There is nothing wrong there, is there? Look properly.\"",
+  "“那里没问题吧？你看仔细点。”"
+ ],
+ "sp5.material.assayed": [
+  "Assay: {0}",
+  "实测成色：{0}"
+ ],
+ "sp5.material.marked": [
+  "Mark: {0} | Assay: not tested",
+  "印记：{0}｜成色：未检测"
+ ],
+ "sp5.tool.gem_probe": [
+  "Gem Screening Probe",
+  "宝石筛查笔"
+ ],
+ "sp5.probe.refer": [
+  "Screening: refer for laboratory testing.",
+  "筛查结果：建议送实验室检测。"
+ ],
+ "sp5.probe.pass": [
+  "Screening: no obvious substitute detected. This does not confirm natural origin or treatment.",
+  "筛查结果：未见明显仿制品。这不能证明天然来源，也不能排除处理。"
+ ],
+ "sp5.visit.not_commission": [
+  "This customer did not ask for a paid appraisal.",
+  "这位顾客没有委托付费鉴定。"
+ ],
+ "sp5.visit.bad_estimate": [
+  "Enter an estimate of zero or more.",
+  "请填写不小于零的估价。"
+ ],
+ "sp5.visit.already_settled": [
+  "The appraisal fee was already settled.",
+  "鉴定费已经结清。"
+ ],
+ "sp5.visit.grade0": [
+  "\"That cannot be right. I will ask someone else.\"",
+  "“这不可能。我去问问别家。”"
+ ],
+ "sp5.visit.grade1": [
+  "\"Hm. Roughly what I heard elsewhere.\"",
+  "“嗯，和别处说的差不太多。”"
+ ],
+ "sp5.visit.grade2": [
+  "\"That sounds fair. Thank you.\"",
+  "“听着公道。谢谢。”"
+ ],
+ "sp5.visit.grade3": [
+  "\"Exactly what I needed to know. Thank you.\"",
+  "“这正是我想知道的。多谢。”"
+ ],
+ "sp5.visit.no_offer": [
+  "There is no offer to accept.",
+  "现在没有可以接受的报价。"
+ ],
+ "sp5.visit.expired": [
+  "The customer has already left with the item.",
+  "顾客已经带着东西离开了。"
+ ],
+ "sp5.visit.no_cash": [
+  "You do not have enough cash for this purchase.",
+  "现金不够，买不下这件东西。"
+ ],
+ "sp5.visit.no_cash_pawn": [
+  "You do not have enough lendable cash for this loan.",
+  "可出借的现金不够放这笔款。"
+ ],
+ "sp5.visit.item_changed": [
+  "The item is no longer available.",
+  "这件东西已经不在了。"
+ ],
+ "sp5.pawn.no_value": [
+  "There is no lendable value in this item as it stands.",
+  "按现状，这件东西没有可放款的价值。"
+ ],
+ "sp5.pawn.needs_assay": [
+  "A material test is needed before I can lend against the claimed gold content.",
+  "要先做成色检测，才能按所称含金量放款。"
+ ],
+ "sp5.line.sale.dealer": [
+  "\"Fine. Make it quick. Will you take it at that?\"",
+  "“行，痛快点。这个价你收不收？”"
+ ],
+ "sp5.line.sale.surprised": [
+  "\"That is more than I expected. Would you buy it?\"",
+  "“比我想的还多。你愿意收吗？”"
+ ],
+ "sp5.line.sale.plain": [
+  "\"I would rather sell it. Are you interested?\"",
+  "“我还是卖了吧。你有兴趣吗？”"
+ ],
+ "sp5.line.pawn.sentimental": [
+  "\"I cannot part with it. Could you hold it for me against a loan?\"",
+  "“我舍不得卖。能不能押在你这儿借点钱？”"
+ ],
+ "sp5.line.pawn.cash": [
+  "\"I need cash, but I want this back. Can I leave it as security?\"",
+  "“我急用钱，但还想赎回来。能押在这儿吗？”"
+ ],
+ "sp5.line.leave.collector": [
+  "\"Useful. I will keep it in the collection.\"",
+  "“有用。这件我留着收藏。”"
+ ],
+ "sp5.line.leave.plain": [
+  "\"Thanks. I will keep it for now.\"",
+  "“谢谢。我先留着。”"
+ ],
+ "sp5.line.finding.dishonest_material": [
+  "\"Plated? Nobody told me that...\" The customer looks away.",
+  "“镀的？没人跟我说过……”顾客移开了目光。"
+ ],
+ "sp5.line.finding.dishonest": [
+  "\"That was there when I got it. Probably.\"",
+  "“我拿到的时候就这样。大概吧。”"
+ ],
+ "sp5.line.finding.dealer": [
+  "\"Noted. Price it in.\"",
+  "“知道了，算进价里。”"
+ ],
+ "sp5.line.finding.collector": [
+  "\"I had wondered about that. Go on.\"",
+  "“我也怀疑过那里。请继续。”"
+ ],
+ "sp5.line.finding.urgent": [
+  "\"Is it bad? I just need to know what it is worth.\"",
+  "“严重吗？我只想知道它值多少。”"
+ ],
+ "sp5.line.finding.truthful_material": [
+  "\"It is not solid? I paid for solid gold...\"",
+  "“不是足金？我可是按足金买的……”"
+ ],
+ "sp5.line.finding.truthful": [
+  "\"Oh. I never noticed that.\"",
+  "“哦，我从没注意到。”"
+ ],
+ "sp5.job.unknown": [
+  "This process is not available.",
+  "这道工序现在做不了。"
+ ],
+ "sp5.job.inputs": [
+  "Choose between one and the allowed number of inputs.",
+  "请放入一件到上限数量之间的原料。"
+ ],
+ "sp5.job.not_free": [
+  "An input is pledged, in service, or not yours.",
+  "有物品正在质押、加工中，或不属于你。"
+ ],
+ "sp5.job.wrong_input": [
+  "This process cannot take that input.",
+  "这道工序不能处理这件东西。"
+ ],
+ "sp5.job.equipment": [
+  "The required machine or equipment is missing.",
+  "缺少所需的机器或器具。"
+ ],
+ "sp5.job.no_cash": [
+  "You do not have enough cash for the service fee.",
+  "现金不够支付加工费。"
+ ],
+ "sp5.job.no_energy": [
+  "Not enough stored energy. Add a charged cell.",
+  "储能不足。请装入一块充满的能源电池。"
+ ],
+ "sp5.job.no_cell": [
+  "Use a charged energy cell you own.",
+  "请使用你自己的满电能源电池。"
+ ],
+ "sp5.job.no_charge": [
+  "The charge does not contain enough metal for this alloy.",
+  "炉料里的金属不够配这种合金。"
+ ],
+ "sp5.job.not_ready": [
+  "This job is still running.",
+  "这项加工还没完成。"
+ ],
+ "sp5.job.full": [
+  "No room for the output. It stays ready to collect.",
+  "放不下产出。它会留在这里等你来取。"
+ ],
+ "sp5.jewel.not_setting": [
+  "That is not a setting.",
+  "那不是戒托或镶座。"
+ ],
+ "sp5.jewel.occupied": [
+  "This setting already holds a stone.",
+  "这个镶座里已经有宝石了。"
+ ],
+ "sp5.jewel.count": [
+  "Each socket needs exactly one stone.",
+  "每个镶口都需要正好一颗宝石。"
+ ],
+ "sp5.jewel.incompatible": [
+  "This stone does not fit this setting.",
+  "这颗宝石不适配这个镶座。"
+ ],
+ "sp5.jewel.mixed": [
+  "Stones in one piece must be the same kind.",
+  "同一件首饰上的宝石必须是同一种。"
+ ],
+ "sp5.jewel.no_bench": [
+  "This work needs the jeweler's bench and toolkit.",
+  "这项工作需要珠宝工作台和工具包。"
+ ],
+ "sp5.jewel.unsupported": [
+  "This piece cannot take that service as it is.",
+  "这件首饰现在做不了这项服务。"
+ ],
+ "sp5.jewel.empty": [
+  "There is no stone in this setting.",
+  "这个镶座里没有宝石。"
+ ],
+ "sp5.jewel.nothing": [
+  "Nothing here can be repaired at the bench.",
+  "这件东西没有工作台能修的地方。"
+ ],
+ "sp5.lab.not_gem": [
+  "The laboratory only identifies loose or mounted stones.",
+  "实验室只鉴定散石或已镶嵌的宝石。"
+ ],
+ "sp5.lab.done": [
+  "This stone already has a current report.",
+  "这颗宝石已有一份有效报告。"
+ ],
+ "sp5.order.terms": [
+  "The order needs a price and a deadline after today.",
+  "订单需要写明价格和今天之后的交期。"
+ ],
+ "sp5.order.inputs": [
+  "Every part for this order must be on hand and free.",
+  "这份订单要用的每件东西都必须在手且未被占用。"
+ ],
+ "sp5.order.state": [
+  "This order cannot do that now.",
+  "这份订单现在不能这样操作。"
+ ],
+ "sp5.order.not_ready": [
+  "The piece is not ready to hand over.",
+  "这件首饰还没做好，不能交付。"
+ ],
+ "sp5.order.busy": [
+  "Collect the bench work before cancelling.",
+  "请先从工作台取回成品再取消。"
+ ],
+ "sp5.item.short": [
+  "StarPawn item. Examine it with the magnifier.",
+  "星港物品。用放大镜查看。"
+ ],
+ "sp5.container.attach": [
+  "This container's interior is unavailable.",
+  "这个容器的内部暂时打不开。"
+ ],
+ "sp5.desk.title": [
+  "Inspection",
+  "验货"
+ ],
+ "sp5.desk.subtitle": [
+  "Click a visible flaw on the item. Findings apply to the right part of the price automatically.",
+  "点击物品上看得见的瑕疵。发现会自动计入对应的价格部分。"
+ ],
+ "sp5.desk.repaired": [
+  "Repaired",
+  "已修复"
+ ],
+ "sp5.desk.no_findings": [
+  "No findings recorded yet.",
+  "还没有记录任何发现。"
+ ],
+ "sp5.component.workmanship": [
+  "Workmanship",
+  "工艺价"
+ ],
+ "sp5.component.condition": [
+  "Condition",
+  "品相价"
+ ],
+ "sp5.component.metal_purity": [
+  "Metal revaluation",
+  "金属重估"
+ ],
+ "sp5.component.metal_mass": [
+  "Metal weight",
+  "金属重量"
+ ],
+ "sp5.component.stone": [
+  "Stone value",
+  "宝石价"
+ ],
+ "sp5.component.premium": [
+  "Collector premium",
+  "收藏溢价"
+ ],
+ "sp5.finding.workmanship": [
+  "{0} found. {1} -{2}. Current estimate: {3} Cr.",
+  "发现{0}。{1} -{2}。当前估价：{3} Cr。"
+ ],
+ "sp5.finding.condition": [
+  "{0} found. {1} -{2}. Current estimate: {3} Cr.",
+  "发现{0}。{1}  -{2}。当前估价：{3} Cr。"
+ ],
+ "sp5.finding.metal_purity": [
+  "{0} found. {1}: the metal is valued as tested. Current estimate: {3} Cr.",
+  "发现{0}。{1}：按实测成分计价。当前估价：{3} Cr。"
+ ],
+ "sp5.finding.metal_mass": [
+  "{0} found. {1} -{2}. Current estimate: {3} Cr.",
+  "发现{0}。{1}  -{2}。当前估价：{3} Cr。"
+ ],
+ "sp5.finding.stone": [
+  "{0} found. {1} -{2}. Current estimate: {3} Cr.",
+  "发现{0}。{1} -{2}。当前估价：{3} Cr。"
+ ],
+ "sp5.finding.premium": [
+  "{0} found. {1} -{2}. Current estimate: {3} Cr.",
+  "发现{0}。{1} -{2}。当前估价：{3} Cr。"
+ ],
+ "sp5.quote.rate": [
+  "{0} Cr per pure gram",
+  "纯金属每克 {0} Cr"
+ ],
+ "sp5.quote.metal": [
+  "Metal {0} Cr",
+  "金属 {0} Cr"
+ ],
+ "sp5.quote.craft": [
+  "Workmanship {0} Cr (reduction {1})",
+  "工艺 {0} Cr（扣减 {1}）"
+ ],
+ "sp5.quote.stones": [
+  "Stones {0} Cr ({1} counted{2})",
+  "宝石 {0} Cr（计 {1} 颗{2}）"
+ ],
+ "sp5.quote.stones_short": [
+  "Stones {0} Cr",
+  "宝石 {0} Cr"
+ ],
+ "sp5.quote.untested": [
+  ", identity not tested",
+  "，身份未检测"
+ ],
+ "sp5.quote.premium": [
+  "Collector premium {0} Cr",
+  "收藏溢价 {0} Cr"
+ ],
+ "sp5.quote.total": [
+  "Estimate {0} Cr",
+  "估价 {0} Cr"
+ ],
+ "sp5.dir.buy": [
+  "Buy from customer",
+  "向顾客收购"
+ ],
+ "sp5.dir.buyback": [
+  "Material buyback",
+  "材料回收价"
+ ],
+ "sp5.list.sep": [
+  ", ",
+  "、"
+ ],
+ "sp5.visit.subtitle": [
+  "Same customer, same item",
+  "同一位顾客，同一件东西"
+ ],
+ "sp5.visit.closed": [
+  "This conversation has ended.",
+  "这次谈话已经结束。"
+ ],
+ "sp5.visit.ask": [
+  "Asking price: {0} Cr (Buy from customer)",
+  "开价：{0} Cr（向顾客收购）"
+ ],
+ "sp5.visit.buy": [
+  "Buy for {0} Cr",
+  "以 {0} Cr 收下"
+ ],
+ "sp5.visit.pawn_terms": [
+  "Loan {0} Cr at {1}% of the lending basis {2} Cr, {3} days, daily fee {4}%.",
+  "放款 {0} Cr，为放款基准 {2} Cr 的 {1}%，期限 {3} 天，日费率 {4}%。"
+ ],
+ "sp5.visit.need_license": [
+  "Get a pawn licence first",
+  "先办理典当许可"
+ ],
+ "sp5.visit.lend": [
+  "Lend {0} Cr against it",
+  "押下它，放款 {0} Cr"
+ ],
+ "sp5.visit.decline": [
+  "No, thank you",
+  "不了，谢谢"
+ ],
+ "sp5.visit.bought": [
+  "Bought. Paid {0} Cr.",
+  "已收下，付款 {0} Cr。"
+ ],
+ "sp5.books.granted": [
+  "{0} handbook volumes arrived with your promotion.",
+  "随晋升送来了 {0} 本鉴定分册。"
+ ],
+ "sp5.overflow.done": [
+  "The item now uses its full size.",
+  "这件东西已恢复完整尺寸。"
+ ],
+ "sp5.overflow.full": [
+  "Still not enough room. Free some space and try again.",
+  "空间还是不够。腾出位置后再试。"
+ ],
+ "sp5.home.rank": [
+  "Appraiser rank",
+  "鉴定师等级"
+ ],
+ "sp5.home.assets": [
+  "Registered items: {0}",
+  "已登记物品：{0}"
+ ],
+ "mech_appraisal_rank_0": [
+  "Junior appraiser",
+  "见习鉴定师"
+ ],
+ "mech_appraisal_rank_1": [
+  "Appraiser",
+  "鉴定师"
+ ],
+ "mech_appraisal_rank_2": [
+  "Senior appraiser",
+  "高级鉴定师"
+ ],
+ "mech_appraisal_rank_3": [
+  "Master appraiser",
+  "首席鉴定师"
+ ],
+ "sp5.caption.intact": [
+  "Intact",
+  "完好"
+ ],
+ "sp5.book.tools": [
+  "Tools and their limits",
+  "仪器与局限"
+ ],
+ "sp5.book.index": [
+  "Volume index",
+  "分册目录"
+ ],
+ "sp5.book.back": [
+  "Back to the item",
+  "回到这件物品"
+ ],
+ "sp5.book.prev": [
+  "Previous",
+  "上一页"
+ ],
+ "sp5.book.next": [
+  "Next",
+  "下一页"
+ ],
+ "sp5.book.tool.eye": [
+  "Eye: structural damage, chips and missing parts are visible without tools. Compare with the intact picture at the same spot.",
+  "肉眼：结构损伤、缺口和缺件不用仪器就能看到。对照完好图的同一位置。"
+ ],
+ "sp5.book.tool.loupe": [
+  "Loupe: shows fine scratches, solder seams and stamp edges. It does not tell you what the metal is.",
+  "放大镜：看细划痕、焊缝和印记边缘；它看不出金属成分。"
+ ],
+ "sp5.book.tool.assay": [
+  "Assay: measures the metal. Test before you value gold that shows a different-coloured base.",
+  "成色分析仪：测出金属成分。露出异色底材时，先测再估金价。"
+ ],
+ "sp5.book.tool.scale": [
+  "Scale: compares the real weight with the claim. Weight alone does not prove purity.",
+  "电子秤：比较实重与声称重量；重量本身证明不了成色。"
+ ],
+ "sp5.book.tool.uv": [
+  "UV lamp: helps find fills, dye and restoration edges. A glow, or no glow, is not proof by itself.",
+  "紫外灯：帮助发现填充、染色和修补边界。有无荧光都不能单独作证。"
+ ],
+ "sp5.book.tool.jade_light": [
+  "Jade light: shows cotton and cracks inside an open window. It cannot read a closed skin.",
+  "透玉灯：照出开窗内的棉絮和裂隙；照不透未开的皮壳。"
+ ],
+ "sp5.book.tool.lab_report": [
+  "Laboratory report: the only way to establish a stone's origin or treatment. A probe can only say 'refer for testing'.",
+  "实验室报告：唯一能确定宝石来源或处理的依据。筛查笔只能提示“建议送检”。"
+ ],
+ "sp5.book.tool.gem_probe": [
+  "Gem probe: screens for obvious substitutes. Passing does not confirm natural origin.",
+  "宝石筛查笔：筛出明显仿制品；通过不代表天然。"
+ ],
+ "sp5.book.pricing.metals": [
+  "Pricing: metal value = weight x tested purity x today's rate. Scratches, dents and repairs only reduce workmanship. Example: gold 600 + workmanship 200 = 800; a scratch -40 leaves 760.",
+  "计价：金属价值 = 重量 × 实测成色 × 当日价。划痕、凹陷和旧修只扣工艺价。例：金 600 + 工艺 200 = 800；一道划痕扣 40，剩 760。"
+ ],
+ "sp5.book.pricing.jade": [
+  "Pricing: the tier (dou, nuo, bing) sets the band; cracks and cotton lower condition. A closed skin is priced at the average band until opened.",
+  "计价：豆、糯、冰定档；裂和棉降低品相。未开窗的原石按平均档估价。"
+ ],
+ "sp5.book.pricing.jewelry": [
+  "Pricing: setting metal + workmanship + each real stone, valued separately. A missing stone removes that stone's value only.",
+  "计价：镶座金属 + 工艺 + 每颗真实宝石分别计算。缺一颗石只少这颗石的价。"
+ ],
+ "sp5.book.pricing.recovery": [
+  "Pricing: a lot is worth what it holds at today's rate. Compare repair and resale before recovery.",
+  "计价：物料按含量和当日价计算。回收前先比较维修转卖。"
+ ],
+ "sp5.book.pricing.antiques": [
+  "Pricing: restoration and recut marks remove the collector premium, not the object itself.",
+  "计价：修补和重刻只去掉收藏溢价，器物本身仍有价值。"
+ ],
+ "sp5.book.pricing.art": [
+  "Pricing: print screens and seal mismatches remove the premium; tears and water damage lower condition.",
+  "计价：印刷网点和印章不符去掉溢价；撕裂和水渍降低品相。"
+ ],
+ "sp5.book.pricing.electronics": [
+  "Pricing: working condition sets the resale price; recoverable metal is a separate, smaller floor.",
+  "计价：能否正常使用决定转卖价；可回收金属是另一条更低的底线。"
+ ],
+ "sp5.book.pricing.media": [
+  "Pricing: edition marks set the premium; scratches lower condition.",
+  "计价：版本标记决定溢价；划伤降低品相。"
+ ],
+ "sp5.book.pricing.books": [
+  "Pricing: first editions and real signatures carry the premium; reprints keep only the reading value.",
+  "计价：初版和真签名才有溢价；重印本只剩阅读价值。"
+ ],
+ "sp5.commission.gold_ring": [
+  "Gold ring appraisal",
+  "金戒指鉴定"
+ ],
+ "sp5.commission.gold_bracelet": [
+  "Gold bracelet appraisal",
+  "金手镯鉴定"
+ ],
+ "sp5.commission.gold_necklace": [
+  "Gold necklace appraisal",
+  "金项链鉴定"
+ ],
+ "sp5.commission.gold_earrings": [
+  "Gold earrings appraisal",
+  "金耳饰鉴定"
+ ],
+ "sp5.commission.gold_bar": [
+  "Gold bar appraisal",
+  "金条鉴定"
+ ],
+ "sp5.commission.silver_ring": [
+  "Silver ring appraisal",
+  "银戒指鉴定"
+ ],
+ "sp5.commission.silver_bracelet": [
+  "Silver bracelet appraisal",
+  "银手镯鉴定"
+ ],
+ "sp5.commission.silver_necklace": [
+  "Silver necklace appraisal",
+  "银项链鉴定"
+ ],
+ "sp5.commission.silver_earrings": [
+  "Silver earrings appraisal",
+  "银耳饰鉴定"
+ ],
+ "sp5.commission.silver_bar": [
+  "Silver bar and vessel appraisal",
+  "银条与银器鉴定"
+ ],
+ "sp5.commission.jade_pendant": [
+  "Finished jade appraisal",
+  "翡翠成品鉴定"
+ ],
+ "sp5.commission.jade_cabochon": [
+  "Jade cabochon appraisal",
+  "翡翠蛋面鉴定"
+ ],
+ "sp5.commission.jade_bangle": [
+  "Jade bangle appraisal",
+  "翡翠手镯鉴定"
+ ],
+ "sp5.commission.jade_beads": [
+  "Jade bead appraisal",
+  "翡翠珠串鉴定"
+ ],
+ "sp5.commission.jade_rough": [
+  "Rough jade assessment",
+  "翡翠原石评估"
+ ],
+ "sp5.commission.gem": [
+  "Loose gem screening",
+  "散石筛查"
+ ],
+ "sp5.commission.jewelry": [
+  "Mounted jewelry appraisal",
+  "镶嵌首饰鉴定"
+ ],
+ "sp5.commission.collectible": [
+  "Collectible appraisal",
+  "藏品鉴定"
+ ],
+ "sp5.commission.electronics": [
+  "Electronics appraisal",
+  "电子设备鉴定"
+ ],
+ "sp5.commission.recovery": [
+  "Material recovery assessment",
+  "回收物料评估"
+ ]
 }

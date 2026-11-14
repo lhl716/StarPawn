@@ -44,18 +44,18 @@
     },
     {
       "Key": "evidence.gold_bracelet_worn.surface_wear",
-      "Source": "表面磨损",
-      "Text": "表面磨损"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "evidence.gold_bracelet_worn.surface_seam",
-      "Source": "接缝刮痕",
-      "Text": "接缝刮痕"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "evidence.gold_bracelet_worn.clasp_break",
-      "Source": "搭扣断裂",
-      "Text": "搭扣断裂"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.gold_bracelet_plated.name",
@@ -69,13 +69,13 @@
     },
     {
       "Key": "evidence.gold_bracelet_plated.plating_edge",
-      "Source": "镀层露底",
-      "Text": "镀层露底"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "evidence.gold_bracelet_plated.plating_seam",
-      "Source": "接缝露底",
-      "Text": "接缝露底"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "evidence.gold_bracelet_plated.clasp_break",
@@ -104,13 +104,13 @@
     },
     {
       "Key": "evidence.gold_bar_suspect.bar_seam",
-      "Source": "封边露出异色内芯",
-      "Text": "封边露出异色内芯"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "evidence.gold_bar_suspect.bar_stamp",
-      "Source": "压印边缘异常",
-      "Text": "压印边缘异常"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.silver_cup.name",
@@ -134,8 +134,8 @@
     },
     {
       "Key": "evidence.silver_cup_worn.cup_dent",
-      "Source": "杯壁凹陷",
-      "Text": "杯壁凹陷"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.silver_bracelet.name",
@@ -159,8 +159,8 @@
     },
     {
       "Key": "evidence.silver_bracelet_worn.silver_clasp",
-      "Source": "银镯搭扣裂损",
-      "Text": "银镯搭扣裂损"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.silver_bar.name",
@@ -184,8 +184,8 @@
     },
     {
       "Key": "evidence.silver_bar_suspect.silver_bar_seam",
-      "Source": "镀银封边露出铜色内芯",
-      "Text": "镀银封边露出铜色内芯"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.jade_rough.name",
@@ -209,13 +209,13 @@
     },
     {
       "Key": "evidence.jade_rough_cracked.rough_crack",
-      "Source": "皮壳裂隙",
-      "Text": "皮壳裂隙"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "evidence.jade_rough_cracked.window_crack",
-      "Source": "开窗处延伸裂纹",
-      "Text": "开窗处延伸裂纹"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.jade_pendant.name",
@@ -239,8 +239,8 @@
     },
     {
       "Key": "evidence.jade_pendant_dyed.dye_pool",
-      "Source": "裂隙染色聚集",
-      "Text": "裂隙染色聚集"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.antique_vase.name",
@@ -264,8 +264,8 @@
     },
     {
       "Key": "evidence.antique_vase_repaired.vase_restore",
-      "Source": "釉面修补边界",
-      "Text": "釉面修补边界"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.painting.name",
@@ -289,13 +289,13 @@
     },
     {
       "Key": "evidence.painting_forged.seal_mismatch",
-      "Source": "印章笔画错位",
-      "Text": "印章笔画错位"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "evidence.painting_forged.print_dots",
-      "Source": "笔触中的规则印点",
-      "Text": "笔触中的规则印点"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.console.name",
@@ -319,13 +319,13 @@
     },
     {
       "Key": "evidence.console_damaged.console_port",
-      "Source": "接口触片弯折",
-      "Text": "接口触片弯折"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "evidence.console_damaged.console_screw",
-      "Source": "螺丝拆修痕迹",
-      "Text": "螺丝拆修痕迹"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.handheld.name",
@@ -349,8 +349,8 @@
     },
     {
       "Key": "evidence.handheld_damaged.handheld_port",
-      "Source": "掌机接口触片弯折",
-      "Text": "掌机接口触片弯折"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.cartridge.name",
@@ -399,8 +399,8 @@
     },
     {
       "Key": "evidence.disc_scratched.disc_scratch",
-      "Source": "读取面径向划伤",
-      "Text": "读取面径向划伤"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.book.name",
@@ -434,8 +434,8 @@
     },
     {
       "Key": "evidence.book_reprint.reprint_mark",
-      "Source": "版权页重印标记",
-      "Text": "版权页重印标记"
+      "Source": "完好表面",
+      "Text": "完好表面"
     },
     {
       "Key": "content.inspection_guide.name",
@@ -9678,6 +9678,536 @@
       "Text": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。"
     },
     {
+      "Key": "evidence.cartridge_bootleg.ref_caption_print",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_ring_outer_scrape.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_ring_band_fissure.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_ring_exposed_core.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_bracelet_arc_gouge.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_bracelet_rim_fissure.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_bracelet_inner_plating.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_necklace_tangled_run.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_necklace_open_link.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_necklace_link_plating.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_earrings_bent_post.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_earrings_split_loop.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_earrings_post_plating.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_bar_face_score.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_bar_corner_impact.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_gold_bar_seam_core.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_ring_groove_abrasion.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_ring_shank_split.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_ring_copper_breakthrough.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_bracelet_engraving_loss.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_bracelet_arc_split.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_bracelet_seam_breakthrough.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_necklace_flattened_links.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_necklace_jump_ring_gap.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_necklace_link_core.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_earrings_twisted_hook.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_earrings_pendant_loop_split.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_earrings_body_core.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_bar_face_abrasion.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_bar_edge_roll.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_silver_bar_copper_seam.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_jade_pendant_dyed_groove.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_jade_pendant_drilled_eye_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_jade_cabochon_dyed_grain_web.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_jade_cabochon_dome_fissure.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_jade_bangle_dyed_band.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_jade_bangle_radial_bangle_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_jade_beads_dyed_drill_pool.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp4_jade_beads_drill_exit_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_yellow_shell_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_yellow_window_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_yellow_inclusion.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_black_shell_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_black_window_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_black_inclusion.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_water_shell_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_water_window_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_water_inclusion.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_white_shell_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_white_window_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_white_inclusion.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_rust_shell_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_rust_window_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_rust_inclusion.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_mountain_shell_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_mountain_window_crack.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.compat04_mountain_inclusion.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_girdle_chip.ref_caption",
+      "Source": "完好腰棱",
+      "Text": "完好腰棱"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_edge_feather.ref_caption",
+      "Source": "完好腰棱",
+      "Text": "完好腰棱"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_table_abrasion.ref_caption",
+      "Source": "完好边缘",
+      "Text": "完好边缘"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_crown_chip.ref_caption",
+      "Source": "完好冠部",
+      "Text": "完好冠部"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_surface_fissure.ref_caption",
+      "Source": "完好冠部",
+      "Text": "完好冠部"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_dark_inclusion.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_pavilion_chip.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_facet_abrasion.ref_caption",
+      "Source": "完好边缘",
+      "Text": "完好边缘"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_uneven_zone.ref_caption",
+      "Source": "完好冠部",
+      "Text": "完好冠部"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_corner_chip.ref_caption",
+      "Source": "完好边角",
+      "Text": "完好边角"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_open_fracture.ref_caption",
+      "Source": "完好冠部",
+      "Text": "完好冠部"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_face_window.ref_caption",
+      "Source": "完好台面",
+      "Text": "完好台面"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_nacre_peel.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_drill_chip.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_surface_scratch.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_loose_prong.ref_caption",
+      "Source": "完好镶爪",
+      "Text": "完好镶爪"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_shank_dent.ref_caption",
+      "Source": "完好戒臂",
+      "Text": "完好戒臂"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_tool_scars.ref_caption",
+      "Source": "完好冠部",
+      "Text": "完好冠部"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_bail_gap.ref_caption",
+      "Source": "完好扣环",
+      "Text": "完好扣环"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_lifted_bezel.ref_caption",
+      "Source": "完好包边",
+      "Text": "完好包边"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_rim_scrape.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_bent_post.ref_caption",
+      "Source": "完好耳针",
+      "Text": "完好耳针"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_loose_back.ref_caption",
+      "Source": "完好耳针",
+      "Text": "完好耳针"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_prong_gap.ref_caption",
+      "Source": "完好镶爪",
+      "Text": "完好镶爪"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_clasp_gap.ref_caption",
+      "Source": "完好搭扣",
+      "Text": "完好搭扣"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_flat_link.ref_caption",
+      "Source": "完好链节",
+      "Text": "完好链节"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_loose_center.ref_caption",
+      "Source": "完好镶爪",
+      "Text": "完好镶爪"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_twisted_chain.ref_caption",
+      "Source": "完好链条",
+      "Text": "完好链条"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_clasp_gap.ref_caption",
+      "Source": "完好搭扣",
+      "Text": "完好搭扣"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_drop_retainer.ref_caption",
+      "Source": "完好吊坠",
+      "Text": "完好吊坠"
+    },
+    {
+      "Key": "template.sp5_scrap_board_burned_trace.ref_caption",
+      "Source": "完好线路",
+      "Text": "完好线路"
+    },
+    {
+      "Key": "template.sp5_scrap_board_corroded_pad.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp5_scrap_processor_package_fracture.ref_caption",
+      "Source": "完好边角",
+      "Text": "完好边角"
+    },
+    {
+      "Key": "template.sp5_scrap_processor_scorched_package.ref_caption",
+      "Source": "完好正面",
+      "Text": "完好正面"
+    },
+    {
+      "Key": "template.sp5_scrap_connectors_polymer_contamination.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp5_scrap_connectors_oxidized_contact.ref_caption",
+      "Source": "完好触点",
+      "Text": "完好触点"
+    },
+    {
+      "Key": "template.sp5_ore_gold_waste_rock_band.ref_caption",
+      "Source": "完好戒圈",
+      "Text": "完好戒圈"
+    },
+    {
+      "Key": "template.sp5_ore_silver_coarse_gangue.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp5_ore_copper_barren_matrix.ref_caption",
+      "Source": "完好表面",
+      "Text": "完好表面"
+    },
+    {
+      "Key": "template.sp5_refined_gold_bar_cast_pores.ref_caption",
+      "Source": "完好正面",
+      "Text": "完好正面"
+    },
+    {
+      "Key": "template.sp5_refined_gold_bar_slag_inclusion.ref_caption",
+      "Source": "完好正面",
+      "Text": "完好正面"
+    },
+    {
+      "Key": "template.sp5_refined_silver_bar_shrink_cavity.ref_caption",
+      "Source": "完好正面",
+      "Text": "完好正面"
+    },
+    {
+      "Key": "template.sp5_refined_silver_bar_slag_seam.ref_caption",
+      "Source": "完好边缘",
+      "Text": "完好边缘"
+    },
+    {
+      "Key": "template.sp5_refined_copper_ingot_cast_lap.ref_caption",
+      "Source": "完好正面",
+      "Text": "完好正面"
+    },
+    {
+      "Key": "template.sp5_refined_copper_ingot_trapped_slag.ref_caption",
+      "Source": "完好正面",
+      "Text": "完好正面"
+    },
+    {
+      "Key": "template.sp5_alloy_gold_bar_segregated_face.ref_caption",
+      "Source": "完好正面",
+      "Text": "完好正面"
+    },
+    {
+      "Key": "template.sp5_alloy_gold_bar_cast_crack.ref_caption",
+      "Source": "完好边角",
+      "Text": "完好边角"
+    },
+    {
+      "Key": "template.sp5_alloy_silver_bar_inhomogeneous_cast.ref_caption",
+      "Source": "完好正面",
+      "Text": "完好正面"
+    },
+    {
+      "Key": "template.sp5_alloy_silver_bar_edge_fissure.ref_caption",
+      "Source": "完好边缘",
+      "Text": "完好边缘"
+    },
+    {
       "Key": "sp5.inspect.locked",
       "Source": "顾客已经把东西收回去了，这次不能再指认。",
       "Text": "顾客已经把东西收回去了，这次不能再指认。"
@@ -10001,6 +10531,456 @@
       "Key": "sp5.order.busy",
       "Source": "请先从工作台取回成品再取消。",
       "Text": "请先从工作台取回成品再取消。"
+    },
+    {
+      "Key": "sp5.item.short",
+      "Source": "星港物品。用放大镜查看。",
+      "Text": "星港物品。用放大镜查看。"
+    },
+    {
+      "Key": "sp5.container.attach",
+      "Source": "这个容器的内部暂时打不开。",
+      "Text": "这个容器的内部暂时打不开。"
+    },
+    {
+      "Key": "sp5.desk.title",
+      "Source": "验货",
+      "Text": "验货"
+    },
+    {
+      "Key": "sp5.desk.subtitle",
+      "Source": "点击物品上看得见的瑕疵。发现会自动计入对应的价格部分。",
+      "Text": "点击物品上看得见的瑕疵。发现会自动计入对应的价格部分。"
+    },
+    {
+      "Key": "sp5.desk.repaired",
+      "Source": "已修复",
+      "Text": "已修复"
+    },
+    {
+      "Key": "sp5.desk.no_findings",
+      "Source": "还没有记录任何发现。",
+      "Text": "还没有记录任何发现。"
+    },
+    {
+      "Key": "sp5.component.workmanship",
+      "Source": "工艺价",
+      "Text": "工艺价"
+    },
+    {
+      "Key": "sp5.component.condition",
+      "Source": "品相价",
+      "Text": "品相价"
+    },
+    {
+      "Key": "sp5.component.metal_purity",
+      "Source": "金属重估",
+      "Text": "金属重估"
+    },
+    {
+      "Key": "sp5.component.metal_mass",
+      "Source": "金属重量",
+      "Text": "金属重量"
+    },
+    {
+      "Key": "sp5.component.stone",
+      "Source": "宝石价",
+      "Text": "宝石价"
+    },
+    {
+      "Key": "sp5.component.premium",
+      "Source": "收藏溢价",
+      "Text": "收藏溢价"
+    },
+    {
+      "Key": "sp5.finding.workmanship",
+      "Source": "发现{0}。{1} -{2}。当前估价：{3} Cr。",
+      "Text": "发现{0}。{1} -{2}。当前估价：{3} Cr。"
+    },
+    {
+      "Key": "sp5.finding.condition",
+      "Source": "发现{0}。{1}  -{2}。当前估价：{3} Cr。",
+      "Text": "发现{0}。{1}  -{2}。当前估价：{3} Cr。"
+    },
+    {
+      "Key": "sp5.finding.metal_purity",
+      "Source": "发现{0}。{1}：按实测成分计价。当前估价：{3} Cr。",
+      "Text": "发现{0}。{1}：按实测成分计价。当前估价：{3} Cr。"
+    },
+    {
+      "Key": "sp5.finding.metal_mass",
+      "Source": "发现{0}。{1}  -{2}。当前估价：{3} Cr。",
+      "Text": "发现{0}。{1}  -{2}。当前估价：{3} Cr。"
+    },
+    {
+      "Key": "sp5.finding.stone",
+      "Source": "发现{0}。{1} -{2}。当前估价：{3} Cr。",
+      "Text": "发现{0}。{1} -{2}。当前估价：{3} Cr。"
+    },
+    {
+      "Key": "sp5.finding.premium",
+      "Source": "发现{0}。{1} -{2}。当前估价：{3} Cr。",
+      "Text": "发现{0}。{1} -{2}。当前估价：{3} Cr。"
+    },
+    {
+      "Key": "sp5.quote.rate",
+      "Source": "纯金属每克 {0} Cr",
+      "Text": "纯金属每克 {0} Cr"
+    },
+    {
+      "Key": "sp5.quote.metal",
+      "Source": "金属 {0} Cr",
+      "Text": "金属 {0} Cr"
+    },
+    {
+      "Key": "sp5.quote.craft",
+      "Source": "工艺 {0} Cr（扣减 {1}）",
+      "Text": "工艺 {0} Cr（扣减 {1}）"
+    },
+    {
+      "Key": "sp5.quote.stones",
+      "Source": "宝石 {0} Cr（计 {1} 颗{2}）",
+      "Text": "宝石 {0} Cr（计 {1} 颗{2}）"
+    },
+    {
+      "Key": "sp5.quote.stones_short",
+      "Source": "宝石 {0} Cr",
+      "Text": "宝石 {0} Cr"
+    },
+    {
+      "Key": "sp5.quote.untested",
+      "Source": "，身份未检测",
+      "Text": "，身份未检测"
+    },
+    {
+      "Key": "sp5.quote.premium",
+      "Source": "收藏溢价 {0} Cr",
+      "Text": "收藏溢价 {0} Cr"
+    },
+    {
+      "Key": "sp5.quote.total",
+      "Source": "估价 {0} Cr",
+      "Text": "估价 {0} Cr"
+    },
+    {
+      "Key": "sp5.dir.buy",
+      "Source": "向顾客收购",
+      "Text": "向顾客收购"
+    },
+    {
+      "Key": "sp5.dir.buyback",
+      "Source": "材料回收价",
+      "Text": "材料回收价"
+    },
+    {
+      "Key": "sp5.list.sep",
+      "Source": "、",
+      "Text": "、"
+    },
+    {
+      "Key": "sp5.visit.subtitle",
+      "Source": "同一位顾客，同一件东西",
+      "Text": "同一位顾客，同一件东西"
+    },
+    {
+      "Key": "sp5.visit.closed",
+      "Source": "这次谈话已经结束。",
+      "Text": "这次谈话已经结束。"
+    },
+    {
+      "Key": "sp5.visit.ask",
+      "Source": "开价：{0} Cr（向顾客收购）",
+      "Text": "开价：{0} Cr（向顾客收购）"
+    },
+    {
+      "Key": "sp5.visit.buy",
+      "Source": "以 {0} Cr 收下",
+      "Text": "以 {0} Cr 收下"
+    },
+    {
+      "Key": "sp5.visit.pawn_terms",
+      "Source": "放款 {0} Cr，为放款基准 {2} Cr 的 {1}%，期限 {3} 天，日费率 {4}%。",
+      "Text": "放款 {0} Cr，为放款基准 {2} Cr 的 {1}%，期限 {3} 天，日费率 {4}%。"
+    },
+    {
+      "Key": "sp5.visit.need_license",
+      "Source": "先办理典当许可",
+      "Text": "先办理典当许可"
+    },
+    {
+      "Key": "sp5.visit.lend",
+      "Source": "押下它，放款 {0} Cr",
+      "Text": "押下它，放款 {0} Cr"
+    },
+    {
+      "Key": "sp5.visit.decline",
+      "Source": "不了，谢谢",
+      "Text": "不了，谢谢"
+    },
+    {
+      "Key": "sp5.visit.bought",
+      "Source": "已收下，付款 {0} Cr。",
+      "Text": "已收下，付款 {0} Cr。"
+    },
+    {
+      "Key": "sp5.books.granted",
+      "Source": "随晋升送来了 {0} 本鉴定分册。",
+      "Text": "随晋升送来了 {0} 本鉴定分册。"
+    },
+    {
+      "Key": "sp5.overflow.done",
+      "Source": "这件东西已恢复完整尺寸。",
+      "Text": "这件东西已恢复完整尺寸。"
+    },
+    {
+      "Key": "sp5.overflow.full",
+      "Source": "空间还是不够。腾出位置后再试。",
+      "Text": "空间还是不够。腾出位置后再试。"
+    },
+    {
+      "Key": "sp5.home.rank",
+      "Source": "鉴定师等级",
+      "Text": "鉴定师等级"
+    },
+    {
+      "Key": "sp5.home.assets",
+      "Source": "已登记物品：{0}",
+      "Text": "已登记物品：{0}"
+    },
+    {
+      "Key": "mech_appraisal_rank_0",
+      "Source": "见习鉴定师",
+      "Text": "见习鉴定师"
+    },
+    {
+      "Key": "mech_appraisal_rank_1",
+      "Source": "鉴定师",
+      "Text": "鉴定师"
+    },
+    {
+      "Key": "mech_appraisal_rank_2",
+      "Source": "高级鉴定师",
+      "Text": "高级鉴定师"
+    },
+    {
+      "Key": "mech_appraisal_rank_3",
+      "Source": "首席鉴定师",
+      "Text": "首席鉴定师"
+    },
+    {
+      "Key": "sp5.caption.intact",
+      "Source": "完好",
+      "Text": "完好"
+    },
+    {
+      "Key": "sp5.book.tools",
+      "Source": "仪器与局限",
+      "Text": "仪器与局限"
+    },
+    {
+      "Key": "sp5.book.index",
+      "Source": "分册目录",
+      "Text": "分册目录"
+    },
+    {
+      "Key": "sp5.book.back",
+      "Source": "回到这件物品",
+      "Text": "回到这件物品"
+    },
+    {
+      "Key": "sp5.book.prev",
+      "Source": "上一页",
+      "Text": "上一页"
+    },
+    {
+      "Key": "sp5.book.next",
+      "Source": "下一页",
+      "Text": "下一页"
+    },
+    {
+      "Key": "sp5.book.tool.eye",
+      "Source": "肉眼：结构损伤、缺口和缺件不用仪器就能看到。对照完好图的同一位置。",
+      "Text": "肉眼：结构损伤、缺口和缺件不用仪器就能看到。对照完好图的同一位置。"
+    },
+    {
+      "Key": "sp5.book.tool.loupe",
+      "Source": "放大镜：看细划痕、焊缝和印记边缘；它看不出金属成分。",
+      "Text": "放大镜：看细划痕、焊缝和印记边缘；它看不出金属成分。"
+    },
+    {
+      "Key": "sp5.book.tool.assay",
+      "Source": "成色分析仪：测出金属成分。露出异色底材时，先测再估金价。",
+      "Text": "成色分析仪：测出金属成分。露出异色底材时，先测再估金价。"
+    },
+    {
+      "Key": "sp5.book.tool.scale",
+      "Source": "电子秤：比较实重与声称重量；重量本身证明不了成色。",
+      "Text": "电子秤：比较实重与声称重量；重量本身证明不了成色。"
+    },
+    {
+      "Key": "sp5.book.tool.uv",
+      "Source": "紫外灯：帮助发现填充、染色和修补边界。有无荧光都不能单独作证。",
+      "Text": "紫外灯：帮助发现填充、染色和修补边界。有无荧光都不能单独作证。"
+    },
+    {
+      "Key": "sp5.book.tool.jade_light",
+      "Source": "透玉灯：照出开窗内的棉絮和裂隙；照不透未开的皮壳。",
+      "Text": "透玉灯：照出开窗内的棉絮和裂隙；照不透未开的皮壳。"
+    },
+    {
+      "Key": "sp5.book.tool.lab_report",
+      "Source": "实验室报告：唯一能确定宝石来源或处理的依据。筛查笔只能提示“建议送检”。",
+      "Text": "实验室报告：唯一能确定宝石来源或处理的依据。筛查笔只能提示“建议送检”。"
+    },
+    {
+      "Key": "sp5.book.tool.gem_probe",
+      "Source": "宝石筛查笔：筛出明显仿制品；通过不代表天然。",
+      "Text": "宝石筛查笔：筛出明显仿制品；通过不代表天然。"
+    },
+    {
+      "Key": "sp5.book.pricing.metals",
+      "Source": "计价：金属价值 = 重量 × 实测成色 × 当日价。划痕、凹陷和旧修只扣工艺价。例：金 600 + 工艺 200 = 800；一道划痕扣 40，剩 760。",
+      "Text": "计价：金属价值 = 重量 × 实测成色 × 当日价。划痕、凹陷和旧修只扣工艺价。例：金 600 + 工艺 200 = 800；一道划痕扣 40，剩 760。"
+    },
+    {
+      "Key": "sp5.book.pricing.jade",
+      "Source": "计价：豆、糯、冰定档；裂和棉降低品相。未开窗的原石按平均档估价。",
+      "Text": "计价：豆、糯、冰定档；裂和棉降低品相。未开窗的原石按平均档估价。"
+    },
+    {
+      "Key": "sp5.book.pricing.jewelry",
+      "Source": "计价：镶座金属 + 工艺 + 每颗真实宝石分别计算。缺一颗石只少这颗石的价。",
+      "Text": "计价：镶座金属 + 工艺 + 每颗真实宝石分别计算。缺一颗石只少这颗石的价。"
+    },
+    {
+      "Key": "sp5.book.pricing.recovery",
+      "Source": "计价：物料按含量和当日价计算。回收前先比较维修转卖。",
+      "Text": "计价：物料按含量和当日价计算。回收前先比较维修转卖。"
+    },
+    {
+      "Key": "sp5.book.pricing.antiques",
+      "Source": "计价：修补和重刻只去掉收藏溢价，器物本身仍有价值。",
+      "Text": "计价：修补和重刻只去掉收藏溢价，器物本身仍有价值。"
+    },
+    {
+      "Key": "sp5.book.pricing.art",
+      "Source": "计价：印刷网点和印章不符去掉溢价；撕裂和水渍降低品相。",
+      "Text": "计价：印刷网点和印章不符去掉溢价；撕裂和水渍降低品相。"
+    },
+    {
+      "Key": "sp5.book.pricing.electronics",
+      "Source": "计价：能否正常使用决定转卖价；可回收金属是另一条更低的底线。",
+      "Text": "计价：能否正常使用决定转卖价；可回收金属是另一条更低的底线。"
+    },
+    {
+      "Key": "sp5.book.pricing.media",
+      "Source": "计价：版本标记决定溢价；划伤降低品相。",
+      "Text": "计价：版本标记决定溢价；划伤降低品相。"
+    },
+    {
+      "Key": "sp5.book.pricing.books",
+      "Source": "计价：初版和真签名才有溢价；重印本只剩阅读价值。",
+      "Text": "计价：初版和真签名才有溢价；重印本只剩阅读价值。"
+    },
+    {
+      "Key": "sp5.commission.gold_ring",
+      "Source": "金戒指鉴定",
+      "Text": "金戒指鉴定"
+    },
+    {
+      "Key": "sp5.commission.gold_bracelet",
+      "Source": "金手镯鉴定",
+      "Text": "金手镯鉴定"
+    },
+    {
+      "Key": "sp5.commission.gold_necklace",
+      "Source": "金项链鉴定",
+      "Text": "金项链鉴定"
+    },
+    {
+      "Key": "sp5.commission.gold_earrings",
+      "Source": "金耳饰鉴定",
+      "Text": "金耳饰鉴定"
+    },
+    {
+      "Key": "sp5.commission.gold_bar",
+      "Source": "金条鉴定",
+      "Text": "金条鉴定"
+    },
+    {
+      "Key": "sp5.commission.silver_ring",
+      "Source": "银戒指鉴定",
+      "Text": "银戒指鉴定"
+    },
+    {
+      "Key": "sp5.commission.silver_bracelet",
+      "Source": "银手镯鉴定",
+      "Text": "银手镯鉴定"
+    },
+    {
+      "Key": "sp5.commission.silver_necklace",
+      "Source": "银项链鉴定",
+      "Text": "银项链鉴定"
+    },
+    {
+      "Key": "sp5.commission.silver_earrings",
+      "Source": "银耳饰鉴定",
+      "Text": "银耳饰鉴定"
+    },
+    {
+      "Key": "sp5.commission.silver_bar",
+      "Source": "银条与银器鉴定",
+      "Text": "银条与银器鉴定"
+    },
+    {
+      "Key": "sp5.commission.jade_pendant",
+      "Source": "翡翠成品鉴定",
+      "Text": "翡翠成品鉴定"
+    },
+    {
+      "Key": "sp5.commission.jade_cabochon",
+      "Source": "翡翠蛋面鉴定",
+      "Text": "翡翠蛋面鉴定"
+    },
+    {
+      "Key": "sp5.commission.jade_bangle",
+      "Source": "翡翠手镯鉴定",
+      "Text": "翡翠手镯鉴定"
+    },
+    {
+      "Key": "sp5.commission.jade_beads",
+      "Source": "翡翠珠串鉴定",
+      "Text": "翡翠珠串鉴定"
+    },
+    {
+      "Key": "sp5.commission.jade_rough",
+      "Source": "翡翠原石评估",
+      "Text": "翡翠原石评估"
+    },
+    {
+      "Key": "sp5.commission.gem",
+      "Source": "散石筛查",
+      "Text": "散石筛查"
+    },
+    {
+      "Key": "sp5.commission.jewelry",
+      "Source": "镶嵌首饰鉴定",
+      "Text": "镶嵌首饰鉴定"
+    },
+    {
+      "Key": "sp5.commission.collectible",
+      "Source": "藏品鉴定",
+      "Text": "藏品鉴定"
+    },
+    {
+      "Key": "sp5.commission.electronics",
+      "Source": "电子设备鉴定",
+      "Text": "电子设备鉴定"
+    },
+    {
+      "Key": "sp5.commission.recovery",
+      "Source": "回收物料评估",
+      "Text": "回收物料评估"
     }
   ]
 }

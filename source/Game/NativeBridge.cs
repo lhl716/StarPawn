@@ -117,7 +117,7 @@ namespace StarPawn.Game
         {
             var item = ItemDirectory.CreateEmptyItem(definition.DefinitionId);
             item.name = definition.DisplayName;
-            item.shortDescription = "StarPawn 资产 · 可使用放大镜鉴定";
+            item.shortDescription = TextResolver.Get("sp5.item.short", "StarPawn item. Examine it with the magnifier.");
             item.SetSpriteAndShapeFromMod(ModId, definition.SpriteKey);
             var cells = new byte[definition.WidthCells * definition.HeightCells];
             for (var i = 0; i < cells.Length; i++) cells[i] = 1;

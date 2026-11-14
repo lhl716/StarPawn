@@ -33,8 +33,10 @@ namespace StarPawn.Game
             var prefix="starpawn:manual_"+sample.Id+"_"+h.Id;
             ui.AddImage(40,y+76,160,104,prefix+"_reference","stretch","reference-"+y);ui.Last.raycast=false;
             ui.AddImage(240,y+76,160,104,prefix+"_problem","stretch","problem-"+y);ui.Last.raycast=false;
-            Text(ui,40,y+184,160,20,"参考 · 无此特征",10);ui.Last.color="#497257";ui.Last.align="center";
-            Text(ui,240,y+184,160,20,h.Repairable?"异常 · 可修复":"异常 · 须核验",10);ui.Last.color="#984b45";ui.Last.align="center";
+            // Whole-object location cue, then the matched detail pair with concrete captions.
+            ui.AddImage(352,y,60,40,prefix+"_location","stretch","location-"+y);ui.Last.raycast=false;
+            Text(ui,40,y+184,160,20,TextResolver.Get(h.LabelKey.Replace(".label",".ref_caption"),TextResolver.Get("sp5.caption.intact","Intact")),10);ui.Last.color="#497257";ui.Last.align="center";
+            Text(ui,240,y+184,160,20,h.Label,10);ui.Last.color="#984b45";ui.Last.align="center";
         }
     }
 }

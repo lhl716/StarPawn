@@ -259,7 +259,7 @@ for assembly, srow in SETTINGS.items():
             ident = 'sp5_jewelry_%s_%s_%s' % (form, mname, suffix)
             define(ident, '%s %s' % (mlabel_en, FORM_TEXT[form][0]), '%s%s' % (mlabel_zh, FORM_TEXT[form][1]), '镶嵌珠宝',
                    'Mounted jewelry. Setting metal, workmanship and each real stone are valued separately.', '镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。',
-                   smodel, TextureKey=tex('sp5_setting_%s_%s_worn' % (form, mname), smodel, mname + '_service_worn'), ArtState=short, Hotspots=hs,
+                   smodel, TextureKey=tex('sp5_j_%s_%s_%s_%s' % (form, mname, stones[0][4:], short), assembly, state), ArtState=short, Hotspots=hs,
                    RepairedTextureKey='starpawn:sp5_setting_%s_%s' % (form, mname), RepairCost=4, CommissionRank=3, **common)
             for h in hs:
                 mount_templates.setdefault(form, [])
@@ -437,6 +437,54 @@ fin.update(PawnLoanToValueBps=5000, PawnMinLoanToValueBps=3000, PawnMaxLoanToVal
 insp = json.loads((ROOT / 'mod/Content/inspection-rules.json').read_text(encoding='utf-8-sig'))
 insp['ExperiencePerDiscovery'] = 0   # click-XP is retired; the native career is the only progression
 (ROOT / 'mod/Content/inspection-rules.json').write_text(json.dumps(insp, indent=2) + '\n', encoding='utf-8')
+
+# ------------------------------------------------------------------ D2. handbook crops, location cues, captions
+from PIL import Image, ImageDraw
+PAPER = ROOT / 'mod/Textures/Paper'
+CAT_ROWS = {r['template_id'].replace('sp4_', 'sp5_'): r for r in core.CATALOG}
+PART_ZH = {'clasp': '搭扣', 'prong': '镶爪', 'post': '耳针', 'link': '链节', 'chain': '链条', 'band': '戒圈', 'shank': '戒臂', 'bezel': '包边', 'bail': '扣环',
+           'girdle': '腰棱', 'crown': '冠部', 'table': '台面', 'face': '正面', 'edge': '边缘', 'corner': '边角', 'stamp': '印记', 'mark': '标记', 'seam': '接缝',
+           'pin': '引脚', 'contact': '触点', 'pad': '焊盘', 'trace': '线路', 'tag': '标签', 'ridge': '凸脊', 'surface': '表面', 'wall': '外壁', 'socket': '镶口', 'drop': '吊坠'}
+def part_of(anchor):
+    for word in reversed(anchor.replace('-', ' ').split()):
+        w = word.rstrip('s')
+        if w in PART_ZH:
+            return w
+    return 'surface'
+items = {d['Id']: d for d in pack['Items']}
+reps = {}
+for d in pack['Items']:
+    if d.get('ShopOnly'):
+        continue
+    for h in d['Hotspots']:
+        reps.setdefault(h['TemplateId'], (d, h))
+def paper_png(key):
+    return Image.open(PAPER / (key.split(':')[1] + '.png')).convert('RGBA')
+made = 0
+for tid, (d, h) in reps.items():
+    prefix = 'manual_%s_%s' % (d['Id'], h['Id'])
+    damaged = paper_png(d['TextureKey'])
+    fam = [x for x in pack['Items'] if x.get('FamilyId') == d.get('FamilyId') and not x['Hotspots']]
+    clean = paper_png(fam[0]['TextureKey']) if fam else damaged
+    cx, cy = h['U'] * 384, h['V'] * 256
+    w = min(384, max(96, h['Width'] * 384 * 2.6)); hh = w * 104 / 160
+    if hh > 256:
+        hh, w = 256, 256 * 160 / 104
+    box = (int(max(0, min(384 - w, cx - w / 2))), int(max(0, min(256 - hh, cy - hh / 2))))
+    box = box + (int(box[0] + w), int(box[1] + hh))
+    if tid.startswith('sp5_') or not (PAPER / (prefix + '_reference.png')).exists():
+        for suffix, im in (('reference', clean), ('problem', damaged)):
+            im.crop(box).resize((160, 104), Image.NEAREST).save(PAPER / (prefix + '_' + suffix + '.png'))
+            Image.new('RGBA', (64, 64)).save(ROOT / 'mod/Textures/Items' / (prefix + '_' + suffix + '.png'))
+    loc = clean.resize((120, 80), Image.NEAREST)
+    dr = ImageDraw.Draw(loc)
+    x0, y0, x1, y1 = (cx - h['Width'] * 192) / 3.2, (cy - h['Height'] * 128) / 3.2, (cx + h['Width'] * 192) / 3.2, (cy + h['Height'] * 128) / 3.2
+    dr.rectangle([x0 - 2, y0 - 2, x1 + 2, y1 + 2], outline=(166, 71, 65, 255), width=2)
+    loc.save(PAPER / (prefix + '_location.png')); Image.new('RGBA', (64, 64)).save(ROOT / 'mod/Textures/Items' / (prefix + '_location.png'))
+    made += 1
+    row = CAT_ROWS.get(tid)
+    part = part_of(row['visual_anchor']) if row else 'surface'
+    text(h['LabelKey'].replace('.label', '.ref_caption'), 'Intact ' + part, '完好' + PART_ZH[part])
 
 # ------------------------------------------------------------------ D. strings, textures, coverage
 for key, (english, chinese) in json.loads((ROOT / 'source/Content/strings05.json').read_text(encoding='utf-8')).items():

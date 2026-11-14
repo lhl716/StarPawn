@@ -40,7 +40,7 @@ namespace StarPawn.Game
         private void SyncNativeAppearance(AssetRecord asset)
         {
             if (asset.Status == "consumed") return;
-            NativeBridge.RefreshAppearance(asset.AssetId, Catalog.TextureFor(asset, asset.WindowOpened ? "window" : "front"));
+            NativeBridge.RefreshAppearance(asset.AssetId, JewelryArt.TextureFor(state!.Catalog, asset, asset.WindowOpened ? "window" : "front"));
         }
 
         private void RequireCommerceReady()
@@ -240,7 +240,6 @@ namespace StarPawn.Game
             var existing = next.Catalog.Encounters.FirstOrDefault(e => e.AssetId == assetId && !e.Completed && e.EncounterId == selectedEncounter)
                 ?? next.Catalog.Encounters.LastOrDefault(e => e.AssetId == assetId && !e.Completed);
             var encounter = existing ?? InspectionV2.Open(next.Catalog, assetId, "collateral:" + assetId, "collateral:" + asset.OwnerId);
-            InspectionV2.SelectAll(next.Catalog, encounter.EncounterId);
             return QuoteByMarket(next.Catalog, encounter.EncounterId, "sell", EconomyService.GetMarketSnapshot(next.Economy, Day(), rules));
         }
 
@@ -354,6 +353,9 @@ namespace StarPawn.Game
             }
         }
 
+        // Set only while a pawn that continues a paid appraisal is being signed.
+        private string pawnFromVisit = "";
+
         private GameItem? RequireCustomerCollateral(RunState run, AssetRecord asset)
         {
             if (asset.OwnerId == "player" || asset.Status != "active")
@@ -365,7 +367,9 @@ namespace StarPawn.Game
                 return null;
             }
             var client = PlayerStore.Instance.currentClientInstance;
-            if (client == null || !client.GetClientBlueprint().IsClientSelling() || GeneralHelper.IsItemOwned(item) ||
+            // A pawn request that follows a paid appraisal comes from the appraisal customer, not a seller.
+            var followUp = run.Catalog.Unified.Visits.Any(v => v.AssetId == asset.AssetId && v.Intent == "request_pawn" && v.VisitId == pawnFromVisit);
+            if (client == null || (!followUp && !client.GetClientBlueprint().IsClientSelling()) || GeneralHelper.IsItemOwned(item) ||
                 NativeBridge.IsInCustody(item) || item.unitCount != 1 ||
                 NativeBridge.GetDefinitionId(item) != "starpawn." + asset.DefinitionId ||
                 NativeBridge.GetNativeUniqueId(item) != asset.NativeItemUniqueId || asset.OwnerId != NativeCounterpartyId(item) ||

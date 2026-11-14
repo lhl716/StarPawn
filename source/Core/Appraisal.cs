@@ -73,9 +73,8 @@ namespace StarPawn.Core
         }
 
         // Includes the opening explanation page; there is no hidden overflow section.
-        public static int HandbookPageCount(ItemDefinition manual) => IsHandbookCollection(manual)
-            ? Math.Max(1, (HandbookVolumes(manual.ManualFor).Count + HandbookIndexRows - 1) / HandbookIndexRows)
-            : 1 + (Handbook(manual).Count + HandbookExamplesPerPage - 1) / HandbookExamplesPerPage;
+        // Revision 05: the opening shares page one with real content; see Handbooks.Pages.
+        public static int HandbookPageCount(ItemDefinition manual) => Handbooks.PageCount(manual);
 
         // Routing depends only on the public product family, never its hidden defects.
         public static ItemDefinition HandbookFor(ItemDefinition item)
