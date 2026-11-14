@@ -1,0 +1,267 @@
+{
+ "asset_key": "gold_bar_starburst",
+ "name_en": "Starburst Gold Bar",
+ "category": "gold_bar",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_gold_bar_starburst",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "face_score": {
+   "paper": "paper/face_score.png",
+   "items": "items/face_score.png",
+   "templates": [
+    "sp4_gold_bar_face_score"
+   ],
+   "view": "ordinary"
+  },
+  "corner_impact": {
+   "paper": "paper/corner_impact.png",
+   "items": "items/corner_impact.png",
+   "templates": [
+    "sp4_gold_bar_corner_impact"
+   ],
+   "view": "ordinary"
+  },
+  "seam_core": {
+   "paper": "paper/seam_core.png",
+   "items": "items/seam_core.png",
+   "templates": [
+    "sp4_gold_bar_seam_core"
+   ],
+   "view": "ordinary"
+  },
+  "short_measure": {
+   "paper": "paper/short_measure.png",
+   "items": "items/short_measure.png",
+   "templates": [
+    "sp4_gold_bar_short_measure"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "altered_stamp": {
+   "paper": "paper/altered_stamp.png",
+   "items": "items/altered_stamp.png",
+   "templates": [
+    "sp4_gold_bar_altered_stamp"
+   ],
+   "view": "ordinary"
+  },
+  "combo__face_score__seam_core": {
+   "paper": "paper/combo__face_score__seam_core.png",
+   "items": "items/combo__face_score__seam_core.png",
+   "templates": [
+    "sp4_gold_bar_face_score",
+    "sp4_gold_bar_seam_core"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__face_score__seam_core": {
+   "paper": "paper/repaired__face_score__seam_core.png",
+   "items": "items/repaired__face_score__seam_core.png",
+   "templates": [
+    "sp4_gold_bar_seam_core"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__face_score__seam_core"
+  },
+  "combo__face_score__altered_stamp": {
+   "paper": "paper/combo__face_score__altered_stamp.png",
+   "items": "items/combo__face_score__altered_stamp.png",
+   "templates": [
+    "sp4_gold_bar_face_score",
+    "sp4_gold_bar_altered_stamp"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__face_score__altered_stamp": {
+   "paper": "paper/repaired__face_score__altered_stamp.png",
+   "items": "items/repaired__face_score__altered_stamp.png",
+   "templates": [
+    "sp4_gold_bar_altered_stamp"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__face_score__altered_stamp"
+  },
+  "combo__corner_impact__seam_core": {
+   "paper": "paper/combo__corner_impact__seam_core.png",
+   "items": "items/combo__corner_impact__seam_core.png",
+   "templates": [
+    "sp4_gold_bar_corner_impact",
+    "sp4_gold_bar_seam_core"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__corner_impact__seam_core": {
+   "paper": "paper/repaired__corner_impact__seam_core.png",
+   "items": "items/repaired__corner_impact__seam_core.png",
+   "templates": [
+    "sp4_gold_bar_seam_core"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__corner_impact__seam_core"
+  },
+  "combo__face_score__corner_impact__seam_core": {
+   "paper": "paper/combo__face_score__corner_impact__seam_core.png",
+   "items": "items/combo__face_score__corner_impact__seam_core.png",
+   "templates": [
+    "sp4_gold_bar_face_score",
+    "sp4_gold_bar_corner_impact",
+    "sp4_gold_bar_seam_core"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__face_score__corner_impact__seam_core": {
+   "paper": "paper/repaired__face_score__corner_impact__seam_core.png",
+   "items": "items/repaired__face_score__corner_impact__seam_core.png",
+   "templates": [
+    "sp4_gold_bar_seam_core"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__face_score__corner_impact__seam_core"
+  }
+ },
+ "template_checks": {
+  "sp4_gold_bar_face_score": {
+   "paper": {
+    "changed_px": 428,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     96,
+     72,
+     136,
+     96
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 75,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     31,
+     12,
+     45,
+     22
+    ]
+   }
+  },
+  "sp4_gold_bar_corner_impact": {
+   "paper": {
+    "changed_px": 288,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     290,
+     172,
+     312,
+     190
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 38,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     97,
+     46,
+     104,
+     53
+    ]
+   }
+  },
+  "sp4_gold_bar_seam_core": {
+   "paper": {
+    "changed_px": 540,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     128,
+     180,
+     218,
+     186
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 93,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     48,
+     73,
+     51
+    ]
+   }
+  },
+  "sp4_gold_bar_short_measure": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_gold_bar_altered_stamp": {
+   "paper": {
+    "changed_px": 328,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     164,
+     78,
+     224,
+     108
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 45,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     15,
+     74,
+     25
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

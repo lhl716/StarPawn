@@ -1,0 +1,45 @@
+{
+ "asset_key": "legacy_gold_bar",
+ "name_en": "Legacy 50 g Gold Bar",
+ "category": "gold_bar",
+ "subtype": "",
+ "role": "legacy_appraisable",
+ "target_family_id": "legacy_gold_bar",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "gold_bar": {
+   "paper": "paper/gold_bar.png",
+   "items": "items/gold_bar.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "gold_bar_suspect": {
+   "paper": "paper/gold_bar_suspect.png",
+   "items": "items/gold_bar_suspect.png",
+   "templates": [
+    "legacy_bar_seam",
+    "legacy_bar_stamp"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

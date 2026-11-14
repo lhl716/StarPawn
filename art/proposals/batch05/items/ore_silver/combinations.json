@@ -1,0 +1,139 @@
+{
+ "asset_key": "ore_silver",
+ "combinations": [
+  {
+   "profile": "combo__coarse_gangue__painted_sheen",
+   "variant": "",
+   "templates": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_painted_sheen"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_painted_sheen"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__coarse_gangue__moisture_mass",
+   "variant": "",
+   "templates": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_moisture_mass"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_moisture_mass"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__coarse_gangue__mixed_source",
+   "variant": "",
+   "templates": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_mixed_source"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_mixed_source"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__coarse_gangue__painted_sheen__moisture_mass",
+   "variant": "",
+   "templates": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_painted_sheen",
+    "sp4_ore_silver_moisture_mass"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_ore_silver_coarse_gangue",
+    "sp4_ore_silver_painted_sheen",
+    "sp4_ore_silver_moisture_mass"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "low_silver_grade",
+   "variant": "",
+   "templates": [
+    "sp4_ore_silver_low_silver_grade"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_ore_silver_low_silver_grade"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": true
+  },
+  {
+   "profile": "coarse_gangue",
+   "variant": "",
+   "templates": [
+    "sp4_ore_silver_coarse_gangue"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_ore_silver_coarse_gangue"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "painted_sheen",
+   "variant": "",
+   "templates": [
+    "sp4_ore_silver_painted_sheen"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_ore_silver_painted_sheen"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "moisture_mass",
+   "variant": "",
+   "templates": [
+    "sp4_ore_silver_moisture_mass"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_ore_silver_moisture_mass"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "mixed_source",
+   "variant": "",
+   "templates": [
+    "sp4_ore_silver_mixed_source"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_ore_silver_mixed_source"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

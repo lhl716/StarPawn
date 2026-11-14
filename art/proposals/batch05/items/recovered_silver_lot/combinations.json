@@ -1,0 +1,7 @@
+{
+ "asset_key": "recovered_silver_lot",
+ "combinations": [],
+ "rejected": [],
+ "reason_if_empty": "functional/status states from ITEM_LAYOUT_05.csv; no appraisal defects by contract",
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

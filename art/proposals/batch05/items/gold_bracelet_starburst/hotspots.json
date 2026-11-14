@@ -1,0 +1,715 @@
+{
+ "asset_key": "gold_bracelet_starburst",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "arc_gouge",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_arc_gouge",
+   "Id": "arc_gouge",
+   "CauseId": "sp4_gold_bracelet_arc_gouge",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.67578125,
+   "Width": 0.109375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    120,
+    166,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "arc_gouge",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_arc_gouge",
+   "Id": "arc_gouge",
+   "CauseId": "sp4_gold_bracelet_arc_gouge",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.35546875,
+   "V": 0.7109375,
+   "Width": 0.1171875,
+   "Height": 0.046875,
+   "bounds_px": [
+    38,
+    88,
+    53,
+    94
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "flattened_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_flattened_arc",
+   "Id": "flattened_arc",
+   "CauseId": "sp4_gold_bracelet_flattened_arc",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.875,
+   "V": 0.47265625,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    328,
+    106,
+    344,
+    136
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "flattened_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_flattened_arc",
+   "Id": "flattened_arc",
+   "CauseId": "sp4_gold_bracelet_flattened_arc",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.9140625,
+   "V": 0.4921875,
+   "Width": 0.046875,
+   "Height": 0.109375,
+   "bounds_px": [
+    114,
+    56,
+    120,
+    70
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "rim_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_rim_fissure",
+   "Id": "rim_fissure",
+   "CauseId": "sp4_gold_bracelet_rim_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.640625,
+   "Width": 0.036458333333333336,
+   "Height": 0.09375,
+   "bounds_px": [
+    104,
+    152,
+    118,
+    176
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "rim_fissure",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_rim_fissure",
+   "Id": "rim_fissure",
+   "CauseId": "sp4_gold_bracelet_rim_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.265625,
+   "V": 0.6640625,
+   "Width": 0.046875,
+   "Height": 0.078125,
+   "bounds_px": [
+    31,
+    80,
+    37,
+    90
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "inner_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_inner_plating",
+   "Id": "inner_plating",
+   "CauseId": "sp4_gold_bracelet_inner_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.5208333333333334,
+   "V": 0.1484375,
+   "Width": 0.28125,
+   "Height": 0.046875,
+   "bounds_px": [
+    146,
+    32,
+    254,
+    44
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "inner_plating",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_inner_plating",
+   "Id": "inner_plating",
+   "CauseId": "sp4_gold_bracelet_inner_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.15234375,
+   "Width": 0.28125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    49,
+    17,
+    85,
+    22
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "joined_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_joined_arc",
+   "Id": "joined_arc",
+   "CauseId": "sp4_gold_bracelet_joined_arc",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.6484375,
+   "Width": 0.057291666666666664,
+   "Height": 0.109375,
+   "bounds_px": [
+    258,
+    152,
+    280,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "joined_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_joined_arc",
+   "Id": "joined_arc",
+   "CauseId": "sp4_gold_bracelet_joined_arc",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.72265625,
+   "V": 0.67578125,
+   "Width": 0.0703125,
+   "Height": 0.1015625,
+   "bounds_px": [
+    88,
+    80,
+    97,
+    93
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__inner_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_arc_gouge",
+   "Id": "arc_gouge",
+   "CauseId": "sp4_gold_bracelet_arc_gouge",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.67578125,
+   "Width": 0.109375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    120,
+    166,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__inner_plating",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_arc_gouge",
+   "Id": "arc_gouge",
+   "CauseId": "sp4_gold_bracelet_arc_gouge",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.35546875,
+   "V": 0.7109375,
+   "Width": 0.1171875,
+   "Height": 0.046875,
+   "bounds_px": [
+    38,
+    88,
+    53,
+    94
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__inner_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_inner_plating",
+   "Id": "inner_plating",
+   "CauseId": "sp4_gold_bracelet_inner_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.5208333333333334,
+   "V": 0.1484375,
+   "Width": 0.28125,
+   "Height": 0.046875,
+   "bounds_px": [
+    146,
+    32,
+    254,
+    44
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__inner_plating",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_inner_plating",
+   "Id": "inner_plating",
+   "CauseId": "sp4_gold_bracelet_inner_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.15234375,
+   "Width": 0.28125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    49,
+    17,
+    85,
+    22
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__joined_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_arc_gouge",
+   "Id": "arc_gouge",
+   "CauseId": "sp4_gold_bracelet_arc_gouge",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.67578125,
+   "Width": 0.109375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    120,
+    166,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__joined_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_arc_gouge",
+   "Id": "arc_gouge",
+   "CauseId": "sp4_gold_bracelet_arc_gouge",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.35546875,
+   "V": 0.7109375,
+   "Width": 0.1171875,
+   "Height": 0.046875,
+   "bounds_px": [
+    38,
+    88,
+    53,
+    94
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__joined_arc",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_joined_arc",
+   "Id": "joined_arc",
+   "CauseId": "sp4_gold_bracelet_joined_arc",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.6484375,
+   "Width": 0.057291666666666664,
+   "Height": 0.109375,
+   "bounds_px": [
+    258,
+    152,
+    280,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__joined_arc",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_joined_arc",
+   "Id": "joined_arc",
+   "CauseId": "sp4_gold_bracelet_joined_arc",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.72265625,
+   "V": 0.67578125,
+   "Width": 0.0703125,
+   "Height": 0.1015625,
+   "bounds_px": [
+    88,
+    80,
+    97,
+    93
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__flattened_arc__inner_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_flattened_arc",
+   "Id": "flattened_arc",
+   "CauseId": "sp4_gold_bracelet_flattened_arc",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.875,
+   "V": 0.47265625,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    328,
+    106,
+    344,
+    136
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__flattened_arc__inner_plating",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_flattened_arc",
+   "Id": "flattened_arc",
+   "CauseId": "sp4_gold_bracelet_flattened_arc",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.9140625,
+   "V": 0.4921875,
+   "Width": 0.046875,
+   "Height": 0.109375,
+   "bounds_px": [
+    114,
+    56,
+    120,
+    70
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__flattened_arc__inner_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_inner_plating",
+   "Id": "inner_plating",
+   "CauseId": "sp4_gold_bracelet_inner_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.5208333333333334,
+   "V": 0.1484375,
+   "Width": 0.28125,
+   "Height": 0.046875,
+   "bounds_px": [
+    146,
+    32,
+    254,
+    44
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__flattened_arc__inner_plating",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_inner_plating",
+   "Id": "inner_plating",
+   "CauseId": "sp4_gold_bracelet_inner_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.15234375,
+   "Width": 0.28125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    49,
+    17,
+    85,
+    22
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__flattened_arc__inner_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_arc_gouge",
+   "Id": "arc_gouge",
+   "CauseId": "sp4_gold_bracelet_arc_gouge",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.67578125,
+   "Width": 0.109375,
+   "Height": 0.0546875,
+   "bounds_px": [
+    120,
+    166,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__flattened_arc__inner_plating",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_arc_gouge",
+   "Id": "arc_gouge",
+   "CauseId": "sp4_gold_bracelet_arc_gouge",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.35546875,
+   "V": 0.7109375,
+   "Width": 0.1171875,
+   "Height": 0.046875,
+   "bounds_px": [
+    38,
+    88,
+    53,
+    94
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__flattened_arc__inner_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_flattened_arc",
+   "Id": "flattened_arc",
+   "CauseId": "sp4_gold_bracelet_flattened_arc",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.875,
+   "V": 0.47265625,
+   "Width": 0.041666666666666664,
+   "Height": 0.1171875,
+   "bounds_px": [
+    328,
+    106,
+    344,
+    136
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__flattened_arc__inner_plating",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_flattened_arc",
+   "Id": "flattened_arc",
+   "CauseId": "sp4_gold_bracelet_flattened_arc",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.9140625,
+   "V": 0.4921875,
+   "Width": 0.046875,
+   "Height": 0.109375,
+   "bounds_px": [
+    114,
+    56,
+    120,
+    70
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__flattened_arc__inner_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_bracelet_inner_plating",
+   "Id": "inner_plating",
+   "CauseId": "sp4_gold_bracelet_inner_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.5208333333333334,
+   "V": 0.1484375,
+   "Width": 0.28125,
+   "Height": 0.046875,
+   "bounds_px": [
+    146,
+    32,
+    254,
+    44
+   ]
+  },
+  {
+   "asset_key": "gold_bracelet_starburst",
+   "state": "combo__arc_gouge__flattened_arc__inner_plating",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_gold_bracelet_inner_plating",
+   "Id": "inner_plating",
+   "CauseId": "sp4_gold_bracelet_inner_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.15234375,
+   "Width": 0.28125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    49,
+    17,
+    85,
+    22
+   ]
+  }
+ ]
+}

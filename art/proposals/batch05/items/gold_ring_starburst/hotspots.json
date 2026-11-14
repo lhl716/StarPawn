@@ -1,0 +1,715 @@
+{
+ "asset_key": "gold_ring_starburst",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "outer_scrape",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_outer_scrape",
+   "Id": "outer_scrape",
+   "CauseId": "sp4_gold_ring_outer_scrape",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3828125,
+   "V": 0.65625,
+   "Width": 0.078125,
+   "Height": 0.09375,
+   "bounds_px": [
+    132,
+    156,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "outer_scrape",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_outer_scrape",
+   "Id": "outer_scrape",
+   "CauseId": "sp4_gold_ring_outer_scrape",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3046875,
+   "V": 0.6875,
+   "Width": 0.140625,
+   "Height": 0.15625,
+   "bounds_px": [
+    15,
+    39,
+    24,
+    49
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "band_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_band_dent",
+   "Id": "band_dent",
+   "CauseId": "sp4_gold_ring_band_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.53125,
+   "V": 0.75390625,
+   "Width": 0.07291666666666667,
+   "Height": 0.1171875,
+   "bounds_px": [
+    190,
+    178,
+    218,
+    208
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "band_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_band_dent",
+   "Id": "band_dent",
+   "CauseId": "sp4_gold_ring_band_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.7890625,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    32,
+    46,
+    40,
+    55
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "band_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_band_fissure",
+   "Id": "band_fissure",
+   "CauseId": "sp4_gold_ring_band_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5729166666666666,
+   "V": 0.6640625,
+   "Width": 0.041666666666666664,
+   "Height": 0.140625,
+   "bounds_px": [
+    212,
+    152,
+    228,
+    188
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "band_fissure",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_band_fissure",
+   "Id": "band_fissure",
+   "CauseId": "sp4_gold_ring_band_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.6875,
+   "Width": 0.09375,
+   "Height": 0.15625,
+   "bounds_px": [
+    37,
+    39,
+    43,
+    49
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "exposed_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_exposed_core",
+   "Id": "exposed_core",
+   "CauseId": "sp4_gold_ring_exposed_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4583333333333333,
+   "V": 0.73828125,
+   "Width": 0.15625,
+   "Height": 0.1328125,
+   "bounds_px": [
+    146,
+    172,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "exposed_core",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_exposed_core",
+   "Id": "exposed_core",
+   "CauseId": "sp4_gold_ring_exposed_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4375,
+   "V": 0.765625,
+   "Width": 0.28125,
+   "Height": 0.15625,
+   "bounds_px": [
+    19,
+    44,
+    37,
+    54
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "solder_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_solder_join",
+   "Id": "solder_join",
+   "CauseId": "sp4_gold_ring_solder_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5677083333333334,
+   "V": 0.28125,
+   "Width": 0.010416666666666666,
+   "Height": 0.078125,
+   "bounds_px": [
+    216,
+    62,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "solder_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_solder_join",
+   "Id": "solder_join",
+   "CauseId": "sp4_gold_ring_solder_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.609375,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.09375,
+   "bounds_px": [
+    38,
+    14,
+    40,
+    20
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__outer_scrape__solder_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_outer_scrape",
+   "Id": "outer_scrape",
+   "CauseId": "sp4_gold_ring_outer_scrape",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3828125,
+   "V": 0.65625,
+   "Width": 0.078125,
+   "Height": 0.09375,
+   "bounds_px": [
+    132,
+    156,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__outer_scrape__solder_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_outer_scrape",
+   "Id": "outer_scrape",
+   "CauseId": "sp4_gold_ring_outer_scrape",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3046875,
+   "V": 0.6875,
+   "Width": 0.140625,
+   "Height": 0.15625,
+   "bounds_px": [
+    15,
+    39,
+    24,
+    49
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__outer_scrape__solder_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_solder_join",
+   "Id": "solder_join",
+   "CauseId": "sp4_gold_ring_solder_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5677083333333334,
+   "V": 0.28125,
+   "Width": 0.010416666666666666,
+   "Height": 0.078125,
+   "bounds_px": [
+    216,
+    62,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__outer_scrape__solder_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_solder_join",
+   "Id": "solder_join",
+   "CauseId": "sp4_gold_ring_solder_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.609375,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.09375,
+   "bounds_px": [
+    38,
+    14,
+    40,
+    20
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__band_dent__solder_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_band_dent",
+   "Id": "band_dent",
+   "CauseId": "sp4_gold_ring_band_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.53125,
+   "V": 0.75390625,
+   "Width": 0.07291666666666667,
+   "Height": 0.1171875,
+   "bounds_px": [
+    190,
+    178,
+    218,
+    208
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__band_dent__solder_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_band_dent",
+   "Id": "band_dent",
+   "CauseId": "sp4_gold_ring_band_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.7890625,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    32,
+    46,
+    40,
+    55
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__band_dent__solder_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_solder_join",
+   "Id": "solder_join",
+   "CauseId": "sp4_gold_ring_solder_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5677083333333334,
+   "V": 0.28125,
+   "Width": 0.010416666666666666,
+   "Height": 0.078125,
+   "bounds_px": [
+    216,
+    62,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__band_dent__solder_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_solder_join",
+   "Id": "solder_join",
+   "CauseId": "sp4_gold_ring_solder_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.609375,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.09375,
+   "bounds_px": [
+    38,
+    14,
+    40,
+    20
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__band_fissure__exposed_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_band_fissure",
+   "Id": "band_fissure",
+   "CauseId": "sp4_gold_ring_band_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5729166666666666,
+   "V": 0.6640625,
+   "Width": 0.041666666666666664,
+   "Height": 0.140625,
+   "bounds_px": [
+    212,
+    152,
+    228,
+    188
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__band_fissure__exposed_core",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_band_fissure",
+   "Id": "band_fissure",
+   "CauseId": "sp4_gold_ring_band_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.6875,
+   "Width": 0.09375,
+   "Height": 0.15625,
+   "bounds_px": [
+    37,
+    39,
+    43,
+    49
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__band_fissure__exposed_core",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_exposed_core",
+   "Id": "exposed_core",
+   "CauseId": "sp4_gold_ring_exposed_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4583333333333333,
+   "V": 0.73828125,
+   "Width": 0.15625,
+   "Height": 0.1328125,
+   "bounds_px": [
+    146,
+    172,
+    206,
+    206
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__band_fissure__exposed_core",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_exposed_core",
+   "Id": "exposed_core",
+   "CauseId": "sp4_gold_ring_exposed_core",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.4375,
+   "V": 0.765625,
+   "Width": 0.28125,
+   "Height": 0.15625,
+   "bounds_px": [
+    19,
+    44,
+    37,
+    54
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__outer_scrape__band_dent__solder_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_outer_scrape",
+   "Id": "outer_scrape",
+   "CauseId": "sp4_gold_ring_outer_scrape",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3828125,
+   "V": 0.65625,
+   "Width": 0.078125,
+   "Height": 0.09375,
+   "bounds_px": [
+    132,
+    156,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__outer_scrape__band_dent__solder_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_outer_scrape",
+   "Id": "outer_scrape",
+   "CauseId": "sp4_gold_ring_outer_scrape",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3046875,
+   "V": 0.6875,
+   "Width": 0.140625,
+   "Height": 0.15625,
+   "bounds_px": [
+    15,
+    39,
+    24,
+    49
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__outer_scrape__band_dent__solder_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_band_dent",
+   "Id": "band_dent",
+   "CauseId": "sp4_gold_ring_band_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.53125,
+   "V": 0.75390625,
+   "Width": 0.07291666666666667,
+   "Height": 0.1171875,
+   "bounds_px": [
+    190,
+    178,
+    218,
+    208
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__outer_scrape__band_dent__solder_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_band_dent",
+   "Id": "band_dent",
+   "CauseId": "sp4_gold_ring_band_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.7890625,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    32,
+    46,
+    40,
+    55
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__outer_scrape__band_dent__solder_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_ring_solder_join",
+   "Id": "solder_join",
+   "CauseId": "sp4_gold_ring_solder_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5677083333333334,
+   "V": 0.28125,
+   "Width": 0.010416666666666666,
+   "Height": 0.078125,
+   "bounds_px": [
+    216,
+    62,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "gold_ring_starburst",
+   "state": "combo__outer_scrape__band_dent__solder_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gold_ring_solder_join",
+   "Id": "solder_join",
+   "CauseId": "sp4_gold_ring_solder_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.609375,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.09375,
+   "bounds_px": [
+    38,
+    14,
+    40,
+    20
+   ]
+  }
+ ]
+}

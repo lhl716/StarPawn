@@ -1,0 +1,45 @@
+{
+ "asset_key": "legacy_painting",
+ "name_en": "Legacy Painting",
+ "category": "painting",
+ "subtype": "",
+ "role": "legacy_appraisable",
+ "target_family_id": "legacy_painting",
+ "grid": [
+  3,
+  2
+ ],
+ "items_px": [
+  192,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "painting": {
+   "paper": "paper/painting.png",
+   "items": "items/painting.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "painting_forged": {
+   "paper": "paper/painting_forged.png",
+   "items": "items/painting_forged.png",
+   "templates": [
+    "legacy_seal_mismatch",
+    "legacy_print_dots"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

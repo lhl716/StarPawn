@@ -1,0 +1,73 @@
+{
+ "asset_key": "legacy_disc",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "legacy_disc",
+   "state": "disc_scratched",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_disc_scratch",
+   "Id": "disc_scratch",
+   "CauseId": "disc_surface",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.671,
+    0.338
+   ],
+   "U": 0.6458333333333334,
+   "V": 0.69140625,
+   "Width": 0.09375,
+   "Height": 0.1328125,
+   "bounds_px": [
+    230,
+    160,
+    266,
+    194
+   ]
+  },
+  {
+   "asset_key": "legacy_disc",
+   "state": "disc_scratched",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "legacy_disc_scratch",
+   "Id": "disc_scratch",
+   "CauseId": "disc_surface",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.671,
+    0.338
+   ],
+   "U": 0.703125,
+   "V": 0.6796875,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    40,
+    39,
+    50,
+    48
+   ]
+  }
+ ]
+}

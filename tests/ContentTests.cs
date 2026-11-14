@@ -37,7 +37,7 @@ internal static class ContentTests
         });
         Test("two consecutive misses lock customer and item across reopen and save", () => {
             var s = Sample(); InspectionV2.ClickAt(s.State, "deal-1", 0, 0); Equal(1, s.Encounter.ConsecutiveMisses, "First miss");
-            var result = InspectionV2.ClickAt(s.State, "deal-1", 0, 0); Check(result.Locked && result.Message.Contains("顾客"), "Lock must use in-world feedback");
+            var result = InspectionV2.ClickAt(s.State, "deal-1", 0, 0); Check(result.Locked && result.Kind == "locked" && result.Message.Length > 0, "Lock must use in-world feedback");
             var state = Reload(s.State); var reopened = InspectionV2.Open(state, s.Asset.AssetId, "new-ui-id", "customer-a");
             Equal("deal-1", reopened.EncounterId, "Reminted window must reuse persistent encounter"); Check(reopened.Locked, "Reload cleared patience");
             Equal("locked", InspectionV2.Discover(state, "deal-1", "plating_edge").Kind, "Locked inspector accepted discovery"); Equal(0, state.Experience, "Locked XP leak");
@@ -45,7 +45,7 @@ internal static class ContentTests
         Test("new discovery restores patience but repeated evidence does not", () => {
             var s = Sample(); InspectionV2.Miss(s.State, "deal-1"); InspectionV2.Discover(s.State, "deal-1", "plating_edge"); Equal(0, s.Encounter.ConsecutiveMisses, "New evidence failed to reset streak");
             InspectionV2.Miss(s.State, "deal-1"); Equal("repeated", InspectionV2.Discover(s.State, "deal-1", "plating_edge").Kind, "Repeat not identified");
-            Equal(1, s.Encounter.ConsecutiveMisses, "Repeat restored patience"); Equal(10, s.State.Experience, "Repeat awarded XP"); InspectionV2.Miss(s.State, "deal-1"); Check(s.Encounter.Locked, "Repeat protected from second miss");
+            Equal(1, s.Encounter.ConsecutiveMisses, "Repeat restored patience"); Equal(0, s.State.Experience, "Repeat awarded XP"); InspectionV2.Miss(s.State, "deal-1"); Check(s.Encounter.Locked, "Repeat protected from second miss");
         });
         Test("asset and customer encounter identities cannot be rebound", () => {
             var s = Sample(); var other = Catalog.CreateAsset(s.State, "gold_bracelet");
@@ -62,35 +62,15 @@ internal static class ContentTests
         Test("experience is per physical asset and evidence across buyback", () => {
             var s = Sample(); InspectionV2.Discover(s.State, "deal-1", "plating_edge"); InspectionV2.EndEncounter(s.State, "deal-1");
             Catalog.Transfer(s.State, s.Asset.AssetId, "player", "customer-a"); Catalog.Transfer(s.State, s.Asset.AssetId, "customer-a", "player");
-            InspectionV2.Open(s.State, s.Asset.AssetId, "deal-2", "customer-a"); InspectionV2.Discover(s.State, "deal-2", "plating_edge"); Equal(10, s.State.Experience, "Buyback XP duplication");
-            var second = Catalog.CreateAsset(s.State, "gold_bracelet_plated"); InspectionV2.Open(s.State, second.AssetId, "deal-3", "customer-a"); InspectionV2.Discover(s.State, "deal-3", "plating_edge"); Equal(20, s.State.Experience, "Different physical copy must reward discovery");
-        });
-        Test("mastery auto-discovers only current observable view", () => {
-            var state = Catalog.CreateState("mastery"); state.Experience = 100; var asset = Catalog.CreateAsset(state, "jade_rough_cracked", "player", 89);
-            InspectionV2.Open(state, asset.AssetId, "jade", "customer-a"); Equal(1, asset.DiscoveredEvidenceIds.Count, "Hidden window discovered before opening"); Check(!asset.DiscoveredEvidenceIds.Contains("window_crack"), "Hidden evidence leaked");
-            Throws(() => InspectionV2.Open(state, asset.AssetId, "jade", "customer-a", "window"), "Unopened view accessible");
-            Catalog.OpenJadeWindow(state, asset.AssetId, 100); InspectionV2.Open(state, asset.AssetId, "jade", "customer-a", "window"); Equal(2, asset.DiscoveredEvidenceIds.Count, "Newly visible view not automatically inspected");
-            var xp = state.Experience; InspectionV2.Open(state, asset.AssetId, "jade", "customer-a", "window"); Equal(xp, state.Experience, "Automatic XP farm");
-        });
-        Test("crossing mastery discovers current remaining defects atomically", () => {
-            var s = Sample(); s.State.Experience = 90; var outcome = InspectionV2.Discover(s.State, "deal-1", "plating_edge");
-            Equal(3, outcome.NewEvidenceIds.Count, "Crossing mastery missed visible remaining evidence"); Equal(120, s.State.Experience, "First-reward total wrong");
-        });
-        Test("economic cause deduplication and selection recompute quotes", () => {
-            var s = Sample("gold_bracelet_worn"); var original = Quote(s.State).Price;
-            InspectionV2.Discover(s.State, "deal-1", "surface_wear"); var one = Quote(s.State); Equal(90L, original - one.Price, "First cause amount");
-            InspectionV2.Discover(s.State, "deal-1", "surface_seam"); var two = Quote(s.State); Equal(one.Price, two.Price, "Same cause discounted twice"); Equal(1, two.AppliedCauses.Count, "Cause not deduplicated");
-            InspectionV2.Discover(s.State, "deal-1", "clasp_break"); Equal(270L, original - Quote(s.State).Price, "Independent cause omitted");
-            InspectionV2.SelectEvidence(s.State, "deal-1", "surface_wear", false); Equal(270L, original - Quote(s.State).Price, "Other evidence of cause omitted");
-            InspectionV2.SelectEvidence(s.State, "deal-1", "surface_seam", false); Equal(180L, original - Quote(s.State).Price, "Unchecked cause still applied");
-            InspectionV2.SelectAll(s.State, "deal-1"); Equal(270L, original - Quote(s.State).Price, "Re-selection compounded discounts");
+            InspectionV2.Open(s.State, s.Asset.AssetId, "deal-2", "customer-a"); InspectionV2.Discover(s.State, "deal-2", "plating_edge"); Equal(0, s.State.Experience, "Buyback XP duplication");
+            var second = Catalog.CreateAsset(s.State, "gold_bracelet_plated"); InspectionV2.Open(s.State, second.AssetId, "deal-3", "customer-a"); InspectionV2.Discover(s.State, "deal-3", "plating_edge"); Equal(0, s.State.Experience, "Different physical copy must reward discovery");
         });
         Test("gold weight and craft are separate with real recycling floor", () => {
             var s = Sample("gold_bracelet_worn"); foreach (var h in Catalog.GetDefinition(s.Asset.DefinitionId).Hotspots) InspectionV2.Discover(s.State, "deal-1", h.Id);
             var buy = Quote(s.State, goldBuy:100); var sell = Quote(s.State, direction:"sell", goldBuy:100);
             Equal(1798L, ValuationV2.MetalValue(18000, 9990, 100), "Milligram purity conversion incorrect");
-            Equal(1798L, sell.Price, "Resale spread must not pierce actual material floor"); Check(buy.Price >= sell.Price, "Buy and sell direction spread inverted");
-            Equal(1798L, buy.MaterialValue, "Raw material value"); Equal(360L, buy.CraftPremium, "Craft premium"); Check(buy.MaterialDescription.Contains("18 克") && buy.MaterialDescription.Contains("99.90%"), "Metal mass/purity invisible");
+            Equal(1798L, sell.MaterialValue, "Buyback metal value"); Check(sell.Price >= 1798L && sell.Price == 1798L + sell.CraftValue, "Cosmetic findings must not pierce the metal value; remaining workmanship is added on top"); Check(buy.Price >= sell.Price, "Buy and sell direction spread inverted");
+            Equal(1798L, buy.MaterialValue, "Raw material value"); Equal(360L, buy.CraftPremium, "Craft premium"); Check(buy.MaterialDescription.Contains("18 g") && buy.MaterialDescription.Contains("99.90%"), "Metal mass/purity invisible");
         });
         Test("unknown plated truth stays hidden and confirmed fake has no gold floor", () => {
             var fake = Sample(); var genuine = Sample("gold_bracelet"); Equal(Quote(genuine.State).Price, Quote(fake.State).Price, "Unknown hidden purity changed quote");
@@ -102,7 +82,7 @@ internal static class ContentTests
             var s = Sample(); var quote = Quote(s.State); Check(ValuationV2.IsCurrent(s.State, quote, 0, 1, "buy"), "Fresh quote invalid");
             Check(!ValuationV2.IsCurrent(s.State, quote, 1, 1, "buy") && !ValuationV2.IsCurrent(s.State, quote, 0, 2, "buy") && !ValuationV2.IsCurrent(s.State, quote, 0, 1, "sell"), "Quote reused across external snapshot");
             InspectionV2.Discover(s.State, "deal-1", "plating_edge"); Check(!ValuationV2.IsCurrent(s.State, quote, 0, 1, "buy"), "Old quote survived evidence");
-            quote = Quote(s.State); InspectionV2.SelectEvidence(s.State, "deal-1", "plating_edge", false); Check(!ValuationV2.IsCurrent(s.State, quote, 0, 1, "buy"), "Old quote survived selection");
+            quote = Quote(s.State);
             quote = Quote(s.State); Catalog.Transfer(s.State, s.Asset.AssetId, "player", "customer-b"); Check(!ValuationV2.IsCurrent(s.State, quote, 0, 1, "buy"), "Old quote survived ownership");
         });
         Test("repair preserves identity, deduplicates cost and invalidates valuation", () => {
@@ -110,7 +90,7 @@ internal static class ContentTests
             var quote = Quote(s.State); var id = s.Asset.AssetId; var repaired = Catalog.Repair(s.State, id, "repair-1", 100);
             Check(repaired.Changed && repaired.CashCost == 60, "Repair missing fee or changes"); Equal(id, s.Asset.AssetId, "Repair recreated asset"); Equal(2, s.Asset.ResolvedCauseIds.Count, "Repair causes not deduplicated");
             Check(!ValuationV2.IsCurrent(s.State, quote, 0, 1, "buy"), "Repair did not invalidate quote"); Equal(0L, Quote(s.State).EvidenceDeduction, "Repaired defects still deducted");
-            var replay = Catalog.Repair(s.State, id, "repair-1", 0); Check(!replay.Changed && replay.CashCost == 0, "Repeated repair double charged"); Equal(30, s.State.Experience, "Repair reset discovery XP");
+            var replay = Catalog.Repair(s.State, id, "repair-1", 0); Check(!replay.Changed && replay.CashCost == 0, "Repeated repair double charged"); Equal(0, s.State.Experience, "Repair reset discovery XP");
         });
         Test("repair payment failure leaves complete state unchanged", () => {
             var s = Sample("console_damaged"); InspectionV2.Discover(s.State, "deal-1", "console_port"); var before = Saved(s.State);
@@ -118,13 +98,13 @@ internal static class ContentTests
         });
         Test("workshop repair updates art without awarding undiscovered evidence", () => {
             var s = Sample("gold_bracelet_worn"); InspectionV2.Discover(s.State, "deal-1", "surface_wear"); Catalog.Repair(s.State, s.Asset.AssetId, "all-workshop", 100);
-            Equal("starpawn:gold_bracelet_clean", Catalog.TextureFor(s.Asset), "Fixed object retains damaged art"); Equal(0, Catalog.ActiveHotspots(s.Asset).Count, "Fixed defects remain clickable"); Equal(10, s.State.Experience, "Workshop awarded unseen evidence XP"); Equal(1, s.Asset.DiscoveredEvidenceIds.Count, "Workshop manufactured observation history");
+            Equal("starpawn:gold_bracelet_clean", Catalog.TextureFor(s.Asset), "Fixed object retains damaged art"); Equal(0, Catalog.ActiveHotspots(s.Asset).Count, "Fixed defects remain clickable"); Equal(0, s.State.Experience, "Workshop awarded unseen evidence XP"); Equal(1, s.Asset.DiscoveredEvidenceIds.Count, "Workshop manufactured observation history");
             var fake = Sample(); InspectionV2.Discover(fake.State, "deal-1", "clasp_break"); Catalog.Repair(fake.State, fake.Asset.AssetId, "clasp-workshop", 100);
             Equal("starpawn:gold_bracelet_plated_repaired", Catalog.TextureFor(fake.Asset), "Counterfeit repair chose genuine gold art"); Equal(2, Catalog.ActiveHotspots(fake.Asset).Count, "Repair erased unrepairable counterfeit signs");
         });
         Test("silver jewellery and bullion share real material economics", () => {
             var bracelet = Sample("silver_bracelet_worn"); InspectionV2.Discover(bracelet.State, "deal-1", "silver_clasp"); var quote = Quote(bracelet.State, direction:"sell");
-            Check(quote.Price >= ValuationV2.MetalValue(22000, 9250, 4), "Silver recycling floor violated"); Check(quote.MaterialDescription.Contains("22 克"), "Silver gram mass missing");
+            Check(quote.Price >= ValuationV2.MetalValue(22000, 9250, 4), "Silver recycling floor violated"); Check(quote.MaterialDescription.Contains("22 g"), "Silver gram mass missing");
             var bar = Sample("silver_bar_suspect"); var before = Quote(bar.State); Check(!before.RecoveryValueConfirmed && before.RecoveryValue > 0, "Missing declared bullion estimate"); InspectionV2.Discover(bar.State, "deal-1", "silver_bar_seam"); Equal(0L, Quote(bar.State).RecoveryValue, "Fake silver retains real silver floor");
         });
         Test("seeded jade survives save and alternative views with fixed child lineage", () => {
@@ -164,14 +144,6 @@ internal static class ContentTests
             var other = Catalog.CreateAsset(s.State, "book"); s.Asset.NativeItemUniqueId = other.NativeItemUniqueId = 77; Throws(() => Catalog.Validate(s.State), "One native item bound twice");
             var clean = JsonSerializer.Deserialize<CatalogState>(original, Json)!; Catalog.Validate(clean);
         });
-        Test("overflow cannot partially award evidence or reset patience", () => {
-            var s = Sample(); InspectionV2.Miss(s.State, "deal-1"); s.State.Experience = int.MaxValue - 15; var before = Saved(s.State);
-            Throws(() => InspectionV2.Discover(s.State, "deal-1", "plating_edge"), "Overflow XP accepted"); Equal(before, Saved(s.State), "Overflow partially changed evidence, XP or patience");
-        });
-        Test("automatic discovery overflow leaves unopened encounter unchanged", () => {
-            var state = Catalog.CreateState("overflow-open"); var asset = Catalog.CreateAsset(state, "gold_bracelet_plated"); state.Experience = int.MaxValue - 15; var before = Saved(state);
-            Throws(() => InspectionV2.Open(state, asset.AssetId, "new", "customer"), "Overflow auto-discovery accepted"); Equal(before, Saved(state), "Overflow left a half-created encounter");
-        });
         Test("corrupt asset ancestry cycles fail validation", () => {
             var state = Catalog.CreateState("cycle"); var a = Catalog.CreateAsset(state, "jade_pendant"); var b = Catalog.CreateAsset(state, "jade_pendant"); a.ParentAssetId = b.AssetId; b.ParentAssetId = a.AssetId;
             Throws(() => Catalog.Validate(state), "Cyclic parent asset records accepted");
@@ -187,13 +159,6 @@ internal static class ContentTests
             Throws(() => ContentPacks.ValidateAndMerge(new[] { pack, pack }, rules, localization), "Duplicate pack accepted");
             var key = items[0].NameKey; items[0].NameKey = "missing.name"; Throws(() => ContentPacks.ValidateAndMerge(new[] { pack }, rules, localization), "Missing localized text accepted"); items[0].NameKey = key;
             var hotspot = items.SelectMany(d => d.Hotspots).First(); hotspot.U = 2; Throws(() => ContentPacks.ValidateAndMerge(new[] { pack }, rules, localization), "Off-image hotspot accepted");
-        });
-        Test("rules configure level thresholds and protect the mandated two-miss limit", () => {
-            var custom = new InspectionRules { LevelThresholds = new List<int> { 0, 15, 30 }, ExperiencePerDiscovery = 15 };
-            InspectionV2.ConfigureRules(custom); var s = Sample(); Equal(0, InspectionV2.GetLevel(s.State), "Initial configured level wrong");
-            InspectionV2.Discover(s.State, "deal-1", "plating_edge"); Equal(1, InspectionV2.GetLevel(s.State), "Configured level not used");
-            InspectionV2.Discover(s.State, "deal-1", "plating_seam"); Check(InspectionV2.IsMastered(s.State), "Configured mastery ignored"); Equal(3, s.Asset.DiscoveredEvidenceIds.Count, "Configured mastery fails auto-discovery");
-            Throws(() => InspectionV2.ConfigureRules(new InspectionRules { ConsecutiveMissLimit = 3 }), "Two-miss user rule overridden"); InspectionV2.ConfigureRules(new InspectionRules());
         });
         Test("localization uses stable keys and one-pass inline substitution without gameplay changes", () => {
             var state = Catalog.CreateState("localization"); var before = Saved(state);

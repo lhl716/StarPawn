@@ -13,7 +13,7 @@ namespace StarPawn.Core
 
     public static class Appraisal
     {
-        public static readonly string[] InstrumentKinds = { "scale", "assay", "loupe", "jade_light", "uv" };
+        public static readonly string[] InstrumentKinds = { "scale", "assay", "loupe", "jade_light", "uv", "gem_probe" };
         public static readonly string[] ManualCategories = { "metals", "jade", "antiques", "art", "electronics", "media", "books" };
         public const int MaxHandbookPages = 5;
         public const int HandbookExamplesPerPage = 2;
@@ -98,6 +98,7 @@ namespace StarPawn.Core
                 case "loupe": return "十倍珠宝镜";
                 case "jade_light": return "强光透玉灯";
                 case "uv": return "紫外检测灯";
+                case "gem_probe": return TextResolver.Get("sp5.tool.gem_probe", "Gem screening probe");
                 default: throw new ArgumentException("Unknown instrument.");
             }
         }
@@ -111,7 +112,8 @@ namespace StarPawn.Core
                 case "assay": return definition.Material == "gold" || definition.Material == "silver";
                 case "loupe": return true;
                 case "jade_light": return definition.IsJadeRough || Category(definition) == "jade";
-                case "uv": return Category(definition) == "jade" || Category(definition) == "antiques" || Category(definition) == "art";
+                case "uv": return Category(definition) == "jade" || Category(definition) == "antiques" || Category(definition) == "art" || definition.Role == "gem";
+                case "gem_probe": return definition.Role == "gem" && definition.GemFamily != "pearl";
                 default: return false;
             }
         }
@@ -130,6 +132,10 @@ namespace StarPawn.Core
                 var signal = (unchecked((uint)asset.JadeSeed) % 3 + (uint)asset.JadeGrade) % 3;
                 return new[] { "局部透光弱，皮壳厚度也可能遮挡内部。", "边缘有青色光晕，内部连续性仍不确定。", "细窄色带透光，需开窗进一步观察。" }[signal] + "产量须切割后确认。";
             }
+            if (kind == "gem_probe")
+                return d.GemOrigin == "imitation"
+                    ? TextResolver.Get("sp5.probe.refer", "Screening: refer for laboratory testing.")
+                    : TextResolver.Get("sp5.probe.pass", "Screening: no obvious substitute detected. This does not confirm natural origin or treatment.");
             var evidence = d.Hotspots.Where(h => h.InstrumentKind == kind && asset.DiscoveredEvidenceIds.Contains(h.Id) && !asset.ResolvedCauseIds.Contains(h.CauseId))
                 .GroupBy(h => h.CauseId, StringComparer.Ordinal).Select(g => g.First().Label).Distinct().ToList();
             return evidence.Count == 0 ? (kind == "uv" ? "未见本手册列出的异常荧光；不能据此证明真品。" : "镜下未见本手册列出的细部异常；仍可检查其他部位。") : "记录：" + string.Join("、", evidence) + "。请结合手册和其他证据判断。";
@@ -151,17 +157,18 @@ namespace StarPawn.Core
             if (!firstMeasurement && found.Count == 0) return new AssetActionResult { Message = Reading(asset, kind) };
             var version = checked(asset.StateVersion + 1);
             var revision = checked(encounter.Revision + 1);
-            var xp = checked(state.Experience + found.Count(h => !asset.RewardedEvidenceIds.Contains(h.Id)) * InspectionV2.ExperiencePerDiscovery);
             if (firstMeasurement) asset.Measurements.Add(kind);
             foreach (var h in found)
             {
                 asset.DiscoveredEvidenceIds.Add(h.Id);
                 if (!asset.RewardedEvidenceIds.Contains(h.Id)) asset.RewardedEvidenceIds.Add(h.Id);
-                if (!encounter.SelectedEvidenceIds.Contains(h.Id)) encounter.SelectedEvidenceIds.Add(h.Id);
             }
             if (found.Count > 0) encounter.ConsecutiveMisses = 0;
-            asset.StateVersion = version; encounter.Revision = revision; state.Experience = xp;
-            return new AssetActionResult { Changed = true, Message = Reading(asset, kind) };
+            asset.StateVersion = version; encounter.Revision = revision;
+            // A reading is an observation, never a second career reward.
+            var result = new AssetActionResult { Changed = true, Message = Reading(asset, kind) };
+            result.NewEvidenceIds.AddRange(found.Select(h => h.Id));
+            return result;
         }
 
         public static void ValidateTemplates(IEnumerable<ItemDefinition> definitions)

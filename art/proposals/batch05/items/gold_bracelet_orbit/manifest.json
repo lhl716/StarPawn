@@ -1,0 +1,275 @@
+{
+ "asset_key": "gold_bracelet_orbit",
+ "name_en": "Orbit Gold Bracelet",
+ "category": "gold_bracelet",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_gold_bracelet_orbit",
+ "grid": [
+  2,
+  2
+ ],
+ "items_px": [
+  128,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "arc_gouge": {
+   "paper": "paper/arc_gouge.png",
+   "items": "items/arc_gouge.png",
+   "templates": [
+    "sp4_gold_bracelet_arc_gouge"
+   ],
+   "view": "ordinary"
+  },
+  "flattened_arc": {
+   "paper": "paper/flattened_arc.png",
+   "items": "items/flattened_arc.png",
+   "templates": [
+    "sp4_gold_bracelet_flattened_arc"
+   ],
+   "view": "ordinary"
+  },
+  "rim_fissure": {
+   "paper": "paper/rim_fissure.png",
+   "items": "items/rim_fissure.png",
+   "templates": [
+    "sp4_gold_bracelet_rim_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "inner_plating": {
+   "paper": "paper/inner_plating.png",
+   "items": "items/inner_plating.png",
+   "templates": [
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "view": "ordinary"
+  },
+  "joined_arc": {
+   "paper": "paper/joined_arc.png",
+   "items": "items/joined_arc.png",
+   "templates": [
+    "sp4_gold_bracelet_joined_arc"
+   ],
+   "view": "ordinary"
+  },
+  "combo__arc_gouge__inner_plating": {
+   "paper": "paper/combo__arc_gouge__inner_plating.png",
+   "items": "items/combo__arc_gouge__inner_plating.png",
+   "templates": [
+    "sp4_gold_bracelet_arc_gouge",
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__arc_gouge__inner_plating": {
+   "paper": "paper/repaired__arc_gouge__inner_plating.png",
+   "items": "items/repaired__arc_gouge__inner_plating.png",
+   "templates": [
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__arc_gouge__inner_plating"
+  },
+  "combo__arc_gouge__joined_arc": {
+   "paper": "paper/combo__arc_gouge__joined_arc.png",
+   "items": "items/combo__arc_gouge__joined_arc.png",
+   "templates": [
+    "sp4_gold_bracelet_arc_gouge",
+    "sp4_gold_bracelet_joined_arc"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__arc_gouge__joined_arc": {
+   "paper": "paper/repaired__arc_gouge__joined_arc.png",
+   "items": "items/repaired__arc_gouge__joined_arc.png",
+   "templates": [
+    "sp4_gold_bracelet_joined_arc"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__arc_gouge__joined_arc"
+  },
+  "combo__flattened_arc__inner_plating": {
+   "paper": "paper/combo__flattened_arc__inner_plating.png",
+   "items": "items/combo__flattened_arc__inner_plating.png",
+   "templates": [
+    "sp4_gold_bracelet_flattened_arc",
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__flattened_arc__inner_plating": {
+   "paper": "paper/repaired__flattened_arc__inner_plating.png",
+   "items": "items/repaired__flattened_arc__inner_plating.png",
+   "templates": [
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__flattened_arc__inner_plating"
+  },
+  "combo__arc_gouge__flattened_arc__inner_plating": {
+   "paper": "paper/combo__arc_gouge__flattened_arc__inner_plating.png",
+   "items": "items/combo__arc_gouge__flattened_arc__inner_plating.png",
+   "templates": [
+    "sp4_gold_bracelet_arc_gouge",
+    "sp4_gold_bracelet_flattened_arc",
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__arc_gouge__flattened_arc__inner_plating": {
+   "paper": "paper/repaired__arc_gouge__flattened_arc__inner_plating.png",
+   "items": "items/repaired__arc_gouge__flattened_arc__inner_plating.png",
+   "templates": [
+    "sp4_gold_bracelet_inner_plating"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__arc_gouge__flattened_arc__inner_plating"
+  }
+ },
+ "template_checks": {
+  "sp4_gold_bracelet_arc_gouge": {
+   "paper": {
+    "changed_px": 416,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     112,
+     170,
+     170,
+     186
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 66,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     36,
+     93,
+     56,
+     100
+    ]
+   }
+  },
+  "sp4_gold_bracelet_flattened_arc": {
+   "paper": {
+    "changed_px": 408,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     342,
+     112,
+     360,
+     146
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 57,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     116,
+     62,
+     122,
+     75
+    ]
+   }
+  },
+  "sp4_gold_bracelet_rim_fissure": {
+   "paper": {
+    "changed_px": 144,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     94,
+     154,
+     106,
+     182
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 25,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     30,
+     84,
+     36,
+     94
+    ]
+   }
+  },
+  "sp4_gold_bracelet_inner_plating": {
+   "paper": {
+    "changed_px": 1212,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     144,
+     46,
+     260,
+     62
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 158,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     46,
+     24,
+     89,
+     30
+    ]
+   }
+  },
+  "sp4_gold_bracelet_joined_arc": {
+   "paper": {
+    "changed_px": 144,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     266,
+     152,
+     290,
+     186
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 23,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     89,
+     85,
+     98,
+     99
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

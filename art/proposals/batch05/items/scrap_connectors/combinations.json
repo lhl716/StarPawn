@@ -1,0 +1,148 @@
+{
+ "asset_key": "scrap_connectors",
+ "combinations": [
+  {
+   "profile": "combo__clipped_contacts__stripped_plating",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_stripped_plating"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_stripped_plating"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__clipped_contacts__polymer_contamination",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_polymer_contamination"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_polymer_contamination"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__clipped_contacts__false_sorting",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_false_sorting"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_false_sorting"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__clipped_contacts__stripped_plating__polymer_contamination",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_stripped_plating",
+    "sp4_scrap_connectors_polymer_contamination"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_stripped_plating",
+    "sp4_scrap_connectors_polymer_contamination"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "clipped_contacts",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_connectors_clipped_contacts"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_connectors_clipped_contacts"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "stripped_plating",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_connectors_stripped_plating"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_connectors_stripped_plating"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "polymer_contamination",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_connectors_polymer_contamination"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_connectors_polymer_contamination"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "oxidized_contact",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_connectors_oxidized_contact"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_connectors_oxidized_contact"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "false_sorting",
+   "variant": "",
+   "templates": [
+    "sp4_scrap_connectors_false_sorting"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_scrap_connectors_false_sorting"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [
+  {
+   "variant": "",
+   "templates": [
+    "sp4_scrap_connectors_clipped_contacts",
+    "sp4_scrap_connectors_oxidized_contact"
+   ],
+   "reason": "defect layers overlap or touch"
+  }
+ ],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

@@ -1,0 +1,60 @@
+{
+ "asset_key": "jewelry_job_ticket",
+ "name_en": "Jewelry Job Ticket",
+ "category": "jewelry_job_ticket",
+ "subtype": "",
+ "role": "document",
+ "target_family_id": "sp4_jewelry_job_ticket",
+ "grid": [
+  2,
+  2
+ ],
+ "items_px": [
+  128,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "accepted": {
+   "paper": "paper/accepted.png",
+   "items": "items/accepted.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "in_progress": {
+   "paper": "paper/in_progress.png",
+   "items": "items/in_progress.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "ready": {
+   "paper": "paper/ready.png",
+   "items": "items/ready.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "delivered": {
+   "paper": "paper/delivered.png",
+   "items": "items/delivered.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "cancelled": {
+   "paper": "paper/cancelled.png",
+   "items": "items/cancelled.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

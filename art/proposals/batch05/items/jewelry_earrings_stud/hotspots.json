@@ -1,0 +1,7015 @@
+{
+ "asset_key": "jewelry_earrings_stud",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_bent_post",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_bent_post",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_loose_back",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_loose_back",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_missing_right",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.5703125,
+   "Width": 0.21354166666666666,
+   "Height": 0.328125,
+   "bounds_px": [
+    206,
+    104,
+    288,
+    188
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_missing_right",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.5625,
+   "Width": 0.28125,
+   "Height": 0.28125,
+   "bounds_px": [
+    35,
+    27,
+    53,
+    45
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_prong_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.63671875,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    142,
+    156,
+    160,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_prong_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.609375,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    21,
+    37,
+    26,
+    41
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__prong_gap__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.63671875,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    142,
+    156,
+    160,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__prong_gap__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.609375,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    21,
+    37,
+    26,
+    41
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__prong_gap__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__prong_gap__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_bent_post",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_bent_post",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_loose_back",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_loose_back",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_missing_right",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.19270833333333334,
+   "Height": 0.2890625,
+   "bounds_px": [
+    210,
+    108,
+    284,
+    182
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_missing_right",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.5546875,
+   "Width": 0.265625,
+   "Height": 0.265625,
+   "bounds_px": [
+    35,
+    27,
+    52,
+    44
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_prong_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.63671875,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    142,
+    156,
+    160,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_prong_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.609375,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    21,
+    37,
+    26,
+    41
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.40625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    110
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.40625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    110
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.40625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    110
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__prong_gap__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.63671875,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    142,
+    156,
+    160,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__prong_gap__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.609375,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    21,
+    37,
+    26,
+    41
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__prong_gap__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.40625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    110
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__prong_gap__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.40625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    110
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_bent_post",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_bent_post",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_loose_back",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_loose_back",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_missing_right",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.21354166666666666,
+   "Height": 0.2421875,
+   "bounds_px": [
+    206,
+    114,
+    288,
+    176
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_missing_right",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.5546875,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    35,
+    29,
+    53,
+    42
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_prong_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.640625,
+   "Width": 0.041666666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    144,
+    156,
+    160,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_prong_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.6015625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    22,
+    37,
+    26,
+    40
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.21354166666666666,
+   "Height": 0.2421875,
+   "bounds_px": [
+    206,
+    114,
+    288,
+    176
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.5546875,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    35,
+    29,
+    53,
+    42
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_bent_post",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_bent_post",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_loose_back",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_loose_back",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_missing_right",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.21354166666666666,
+   "Height": 0.2421875,
+   "bounds_px": [
+    206,
+    114,
+    288,
+    176
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_missing_right",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.5546875,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    35,
+    29,
+    53,
+    42
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_prong_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.640625,
+   "Width": 0.041666666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    144,
+    156,
+    160,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_prong_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.6015625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    22,
+    37,
+    26,
+    40
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.21354166666666666,
+   "Height": 0.2421875,
+   "bounds_px": [
+    206,
+    114,
+    288,
+    176
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.5546875,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    35,
+    29,
+    53,
+    42
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_bent_post",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_bent_post",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_loose_back",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_loose_back",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_missing_right",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.19270833333333334,
+   "Height": 0.2890625,
+   "bounds_px": [
+    210,
+    108,
+    284,
+    182
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_missing_right",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.5546875,
+   "Width": 0.234375,
+   "Height": 0.234375,
+   "bounds_px": [
+    36,
+    28,
+    51,
+    43
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_prong_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.63671875,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    142,
+    156,
+    160,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_prong_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.6015625,
+   "Width": 0.078125,
+   "Height": 0.046875,
+   "bounds_px": [
+    21,
+    37,
+    26,
+    40
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.19270833333333334,
+   "Height": 0.2890625,
+   "bounds_px": [
+    210,
+    108,
+    284,
+    182
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.5546875,
+   "Width": 0.234375,
+   "Height": 0.234375,
+   "bounds_px": [
+    36,
+    28,
+    51,
+    43
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "au18k_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_bent_post",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_bent_post",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_loose_back",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_loose_back",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_missing_right",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.5703125,
+   "Width": 0.21354166666666666,
+   "Height": 0.328125,
+   "bounds_px": [
+    206,
+    104,
+    288,
+    188
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_missing_right",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.5625,
+   "Width": 0.28125,
+   "Height": 0.28125,
+   "bounds_px": [
+    35,
+    27,
+    53,
+    45
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_prong_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.63671875,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    142,
+    156,
+    160,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_prong_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.609375,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    21,
+    37,
+    26,
+    41
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__prong_gap__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.63671875,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    142,
+    156,
+    160,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__prong_gap__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.609375,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    21,
+    37,
+    26,
+    41
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__prong_gap__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__prong_gap__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_diamond_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_bent_post",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_bent_post",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_loose_back",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_loose_back",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_missing_right",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.19270833333333334,
+   "Height": 0.2890625,
+   "bounds_px": [
+    210,
+    108,
+    284,
+    182
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_missing_right",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.5546875,
+   "Width": 0.265625,
+   "Height": 0.265625,
+   "bounds_px": [
+    35,
+    27,
+    52,
+    44
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_prong_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.63671875,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    142,
+    156,
+    160,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_prong_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.609375,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    21,
+    37,
+    26,
+    41
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.40625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    110
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.40625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    110
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.40625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    110
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__prong_gap__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.63671875,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    142,
+    156,
+    160,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__prong_gap__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.609375,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    21,
+    37,
+    26,
+    41
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__prong_gap__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.40625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    110
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__prong_gap__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.40625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    110
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_ruby_cushion_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_bent_post",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_bent_post",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_loose_back",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_loose_back",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_missing_right",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.21354166666666666,
+   "Height": 0.2421875,
+   "bounds_px": [
+    206,
+    114,
+    288,
+    176
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_missing_right",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.5546875,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    35,
+    29,
+    53,
+    42
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_prong_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.640625,
+   "Width": 0.041666666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    144,
+    156,
+    160,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_prong_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.6015625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    22,
+    37,
+    26,
+    40
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.21354166666666666,
+   "Height": 0.2421875,
+   "bounds_px": [
+    206,
+    114,
+    288,
+    176
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.5546875,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    35,
+    29,
+    53,
+    42
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_sapphire_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_bent_post",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_bent_post",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_loose_back",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_loose_back",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_missing_right",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.21354166666666666,
+   "Height": 0.2421875,
+   "bounds_px": [
+    206,
+    114,
+    288,
+    176
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_missing_right",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.5546875,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    35,
+    29,
+    53,
+    42
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_prong_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.640625,
+   "Width": 0.041666666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    144,
+    156,
+    160,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_prong_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.375,
+   "V": 0.6015625,
+   "Width": 0.0625,
+   "Height": 0.046875,
+   "bounds_px": [
+    22,
+    37,
+    26,
+    40
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.21354166666666666,
+   "Height": 0.2421875,
+   "bounds_px": [
+    206,
+    114,
+    288,
+    176
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6875,
+   "V": 0.5546875,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    35,
+    29,
+    53,
+    42
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_emerald_oval_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_bent_post",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_bent_post",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_loose_back",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_loose_back",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_missing_right",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.19270833333333334,
+   "Height": 0.2890625,
+   "bounds_px": [
+    210,
+    108,
+    284,
+    182
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_missing_right",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.5546875,
+   "Width": 0.234375,
+   "Height": 0.234375,
+   "bounds_px": [
+    36,
+    28,
+    51,
+    43
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_prong_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.63671875,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    142,
+    156,
+    160,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_prong_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_prong_gap",
+   "Id": "prong_gap",
+   "CauseId": "sp4_jewelry_earrings_prong_gap",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3671875,
+   "V": 0.6015625,
+   "Width": 0.078125,
+   "Height": 0.046875,
+   "bounds_px": [
+    21,
+    37,
+    26,
+    40
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__bent_post__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__bent_post__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6432291666666666,
+   "V": 0.56640625,
+   "Width": 0.19270833333333334,
+   "Height": 0.2890625,
+   "bounds_px": [
+    210,
+    108,
+    284,
+    182
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_missing_right",
+   "Id": "missing_right",
+   "CauseId": "sp4_jewelry_earrings_missing_right",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.5546875,
+   "Width": 0.234375,
+   "Height": 0.234375,
+   "bounds_px": [
+    36,
+    28,
+    51,
+    43
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__missing_right__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__missing_right__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4270833333333333,
+   "V": 0.19140625,
+   "Width": 0.13541666666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    138,
+    28,
+    190,
+    70
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_bent_post",
+   "Id": "bent_post",
+   "CauseId": "sp4_jewelry_earrings_bent_post",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4140625,
+   "V": 0.234375,
+   "Width": 0.171875,
+   "Height": 0.125,
+   "bounds_px": [
+    21,
+    11,
+    32,
+    19
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7734375,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    286,
+    50,
+    308,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_loose_back",
+   "Id": "loose_back",
+   "CauseId": "sp4_jewelry_earrings_loose_back",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8359375,
+   "V": 0.28125,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    51,
+    16,
+    56,
+    20
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6979166666666666,
+   "V": 0.41015625,
+   "Width": 0.0625,
+   "Height": 0.0546875,
+   "bounds_px": [
+    256,
+    98,
+    280,
+    112
+   ]
+  },
+  {
+   "asset_key": "jewelry_earrings_stud",
+   "state": "ag925_pearl_round_combo__bent_post__loose_back__post_join",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_earrings_post_join",
+   "Id": "post_join",
+   "CauseId": "sp4_jewelry_earrings_post_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7421875,
+   "V": 0.421875,
+   "Width": 0.078125,
+   "Height": 0.03125,
+   "bounds_px": [
+    45,
+    26,
+    50,
+    28
+   ]
+  }
+ ]
+}

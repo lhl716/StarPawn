@@ -169,7 +169,7 @@ public static class EconomyTests
         });
         Test("Pawn custody rejects double pledges and returns the same borrower asset on due day", () => {
             var f = new Fixture(); f.Do(EconomyAction.AcquirePawnLicense, 1);
-            var create = f.Command(EconomyAction.CreatePawn, 1, 600); create.AssetId = "ring-7"; create.CollateralValue = 1000; create.TermDays = 2; create.PlayerIsLender = false;
+            var create = f.Command(EconomyAction.CreatePawn, 1, 600); create.AssetId = "ring-7"; create.CollateralValue = 1000; create.TermDays = 2; create.PlayerIsLender = false; create.LoanToValueBps = 6000;
             var result = f.Do(create); var id = result.EntityId;
             Check(result.CashDelta == 600 && result.AssetTransitions.Single().Kind == "EscrowFromPlayer");
             var duplicate = f.Command(EconomyAction.CreatePawn, 1, 100); duplicate.AssetId = "ring-7"; duplicate.CollateralValue = 1000;

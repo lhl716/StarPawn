@@ -1,0 +1,131 @@
+{
+ "asset_key": "legacy_console",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "legacy_console",
+   "state": "console_damaged",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_console_port",
+   "Id": "console_port",
+   "CauseId": "console_port_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.708,
+    0.689
+   ],
+   "U": 0.2864583333333333,
+   "V": 0.71484375,
+   "Width": 0.0625,
+   "Height": 0.0703125,
+   "bounds_px": [
+    98,
+    174,
+    122,
+    192
+   ]
+  },
+  {
+   "asset_key": "legacy_console",
+   "state": "console_damaged",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "legacy_console_port",
+   "Id": "console_port",
+   "CauseId": "console_port_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.708,
+    0.689
+   ],
+   "U": 0.2734375,
+   "V": 0.7265625,
+   "Width": 0.06770833333333333,
+   "Height": 0.078125,
+   "bounds_px": [
+    46,
+    88,
+    59,
+    98
+   ]
+  },
+  {
+   "asset_key": "legacy_console",
+   "state": "console_damaged",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_console_screw",
+   "Id": "console_screw",
+   "CauseId": "console_service_history",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.171,
+    0.487
+   ],
+   "U": 0.13802083333333334,
+   "V": 0.828125,
+   "Width": 0.06770833333333333,
+   "Height": 0.09375,
+   "bounds_px": [
+    40,
+    200,
+    66,
+    224
+   ]
+  },
+  {
+   "asset_key": "legacy_console",
+   "state": "console_damaged",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "legacy_console_screw",
+   "Id": "console_screw",
+   "CauseId": "console_service_history",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.171,
+    0.487
+   ],
+   "U": 0.12239583333333333,
+   "V": 0.84765625,
+   "Width": 0.078125,
+   "Height": 0.1015625,
+   "bounds_px": [
+    16,
+    102,
+    31,
+    115
+   ]
+  }
+ ]
+}

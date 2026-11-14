@@ -34,6 +34,10 @@ namespace StarPawn.Core
         public int TermDays;
         public bool PlayerIsLender = true;
         public string EventKind = "";
+        // Revision 05: a pawn loan continues from a valuation. Optional for legacy callers.
+        public string CustomerId = "";
+        public string AppraisalRef = "";
+        public int LoanToValueBps;
     }
 
     public sealed class EconomyResult
@@ -68,7 +72,9 @@ namespace StarPawn.Core
         public long DailyLoanBorrowLimit = 3000;
         public long MaximumTotalLoanPrincipal = 10000;
         public int PawnRenewalFeeBps = 100;
-        public int PawnLoanToValueBps = 6000;
+        public int PawnLoanToValueBps = 5000;      // Revision 05 default for NEW offers (0.3 used 6000)
+        public int PawnMinLoanToValueBps = 3000;
+        public int PawnMaxLoanToValueBps = 6500;
         public long MaximumCreditLimit = 5000;
         public long MaximumLoanPrincipal = 10000;
         public long MaximumPawnPrincipal = 100000;
@@ -213,7 +219,12 @@ namespace StarPawn.Core
         public int RenewalCount;
         public int LastRenewalDay = -1;
         public int RulesVersion;
-        public PawnContract Clone() => (PawnContract)MemberwiseClone();
+        // Revision 05 record. Empty on contracts signed before it; never rewritten.
+        public string CustomerId = "";
+        public string AppraisalRef = "";
+        public int LoanToValueBps;
+        public List<string> Amendments = new List<string>();
+        public PawnContract Clone() { var copy = (PawnContract)MemberwiseClone(); copy.Amendments = new List<string>(Amendments ?? new List<string>()); return copy; }
     }
 
     public sealed class LocalMarketEvent
@@ -531,8 +542,12 @@ namespace StarPawn.Core
                     Require(!IsAssetInEscrow(s, c.AssetId), "This asset is already pledged.");
                     Require(s.PawnContracts.Count(x => x.Status == "Active") < r.MaximumActiveContracts, "Too many active pawn contracts.");
                     Positive(c.Amount); Positive(c.CollateralValue);
-                    Require(c.Amount <= r.MaximumPawnPrincipal && c.Amount <= MulDiv(c.CollateralValue, r.PawnLoanToValueBps, 10000), "Principal exceeds collateral lending value.");
+                    var ltv = c.LoanToValueBps == 0 ? r.PawnLoanToValueBps : c.LoanToValueBps;
+                    Require(ltv >= r.PawnMinLoanToValueBps && ltv <= r.PawnMaxLoanToValueBps, "Loan-to-value is outside the lending policy.");
+                    Require(c.Amount <= r.MaximumPawnPrincipal && c.Amount <= MulDiv(c.CollateralValue, ltv, 10000), "Principal exceeds collateral lending value.");
+                    Require((c.CustomerId ?? "").Length <= 128 && (c.AppraisalRef ?? "").Length <= 128, "Contract reference is too long.");
                     var pawn = new PawnContract { Id = NewId(s, "pawn"), AssetId = c.AssetId, PlayerIsLender = c.PlayerIsLender,
+                        CustomerId = c.CustomerId ?? "", AppraisalRef = c.AppraisalRef ?? "", LoanToValueBps = ltv,
                         Principal = c.Amount, CollateralValue = c.CollateralValue, DailyInterestBps = r.PawnInterestBps,
                         RenewalFeeBps = r.PawnRenewalFeeBps, StartDay = c.GameDay, FirstInterestDay = c.GameDay + 1,
                         DueDay = c.GameDay + Term(c.TermDays, r.DefaultPawnDays, r), LastSettledDay = c.GameDay, RulesVersion = r.RulesVersion };
@@ -553,6 +568,9 @@ namespace StarPawn.Core
                     renew.AccruedFees = 0; renew.InterestRemainder = 0; renew.FirstInterestDay = c.GameDay + 1; renew.LastSettledDay = c.GameDay;
                     renew.DueDay = checked(Math.Max(c.GameDay, renew.DueDay) + Term(c.TermDays, r.DefaultPawnDays, r));
                     renew.RenewalCount = checked(renew.RenewalCount + 1); renew.LastRenewalDay = c.GameDay;
+                    // A renewal is a recorded amendment of the SAME contract, never a second live contract.
+                    (renew.Amendments ??= new List<string>()).Add("renew|day=" + c.GameDay + "|due=" + renew.DueDay + "|fee=" + fee);
+                    if (renew.Amendments.Count > 64) renew.Amendments.RemoveAt(0);
                     result.EntityId = renew.Id; break;
                 case EconomyAction.OptIntoMarketEvents:
                     Require(!s.MarketEventsOptedIn, "Local market events are already enabled by agreement."); s.MarketEventsOptedIn = true; break;
@@ -714,6 +732,7 @@ namespace StarPawn.Core
         {
             ValidateRate(r.BankInterestBps); ValidateRate(r.CreditInterestBps); ValidateRate(r.LoanInterestBps); ValidateRate(r.PawnInterestBps); ValidateRate(r.PawnRenewalFeeBps);
             Require(r.RulesVersion > 0 && r.PawnLoanToValueBps > 0 && r.PawnLoanToValueBps <= 10000, "Invalid rules version or lending ratio.");
+            Require(r.PawnMinLoanToValueBps > 0 && r.PawnMinLoanToValueBps <= r.PawnLoanToValueBps && r.PawnLoanToValueBps <= r.PawnMaxLoanToValueBps && r.PawnMaxLoanToValueBps <= 10000, "Invalid pawn lending policy bounds.");
             Require(r.MaximumLedgerBalance > 0 && r.MaximumLedgerBalance <= 1000000000000L && r.MaximumCashBalance > 0 && r.MaximumCashBalance <= int.MaxValue, "Invalid monetary bound.");
             Require(r.MaximumCreditLimit > 0 && r.MaximumLoanPrincipal > 0 && r.MaximumPawnPrincipal > 0 && r.PawnLicenseCost >= 0, "Invalid finance limits.");
             foreach (var limit in new[] { r.DailyDepositLimit, r.DailyWithdrawalLimit, r.DailyCreditBorrowLimit, r.DailyLoanBorrowLimit, r.MaximumTotalLoanPrincipal })

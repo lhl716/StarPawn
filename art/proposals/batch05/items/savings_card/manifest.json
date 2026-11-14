@@ -1,0 +1,48 @@
+{
+ "asset_key": "savings_card",
+ "name_en": "Savings Card",
+ "category": "card",
+ "subtype": "",
+ "role": "credential",
+ "target_family_id": "sp4_savings_card",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "front_valid": {
+   "paper": "paper/front_valid.png",
+   "items": "items/front_valid.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "back": {
+   "paper": "paper/back.png",
+   "items": "items/back.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "front_void": {
+   "paper": "paper/front_void.png",
+   "items": "items/front_void.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

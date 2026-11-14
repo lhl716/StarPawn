@@ -1,0 +1,7015 @@
+{
+ "asset_key": "jewelry_necklace_drop",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_twisted_chain",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_twisted_chain",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_clasp_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_drop_retainer",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_drop_retainer",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_missing_drop",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4973958333333333,
+   "V": 0.85546875,
+   "Width": 0.08854166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    174,
+    202,
+    208,
+    236
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_missing_drop",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.8723958333333334,
+   "Width": 0.34375,
+   "Height": 0.109375,
+   "bounds_px": [
+    21,
+    157,
+    43,
+    178
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_twisted_chain",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_twisted_chain",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_clasp_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_drop_retainer",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_drop_retainer",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_missing_drop",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4973958333333333,
+   "V": 0.85546875,
+   "Width": 0.08854166666666667,
+   "Height": 0.1015625,
+   "bounds_px": [
+    174,
+    206,
+    208,
+    232
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_missing_drop",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.8697916666666666,
+   "Width": 0.34375,
+   "Height": 0.08333333333333333,
+   "bounds_px": [
+    21,
+    159,
+    43,
+    175
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_twisted_chain",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_twisted_chain",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_clasp_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_drop_retainer",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_drop_retainer",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_missing_drop",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.85546875,
+   "Width": 0.0625,
+   "Height": 0.1328125,
+   "bounds_px": [
+    180,
+    202,
+    204,
+    236
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_missing_drop",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.8697916666666666,
+   "Width": 0.25,
+   "Height": 0.11458333333333333,
+   "bounds_px": [
+    24,
+    156,
+    40,
+    178
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_twisted_chain",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_twisted_chain",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_clasp_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_drop_retainer",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_drop_retainer",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_missing_drop",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.859375,
+   "Width": 0.0625,
+   "Height": 0.125,
+   "bounds_px": [
+    180,
+    204,
+    204,
+    236
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_missing_drop",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.8723958333333334,
+   "Width": 0.25,
+   "Height": 0.109375,
+   "bounds_px": [
+    24,
+    157,
+    40,
+    178
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_twisted_chain",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_twisted_chain",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_clasp_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_drop_retainer",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_drop_retainer",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_missing_drop",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4973958333333333,
+   "V": 0.859375,
+   "Width": 0.06770833333333333,
+   "Height": 0.109375,
+   "bounds_px": [
+    178,
+    206,
+    204,
+    234
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_missing_drop",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4921875,
+   "V": 0.8723958333333334,
+   "Width": 0.265625,
+   "Height": 0.09895833333333333,
+   "bounds_px": [
+    23,
+    158,
+    40,
+    177
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "au18k_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_twisted_chain",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_twisted_chain",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_clasp_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_drop_retainer",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_drop_retainer",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_missing_drop",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4973958333333333,
+   "V": 0.85546875,
+   "Width": 0.08854166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    174,
+    202,
+    208,
+    236
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_missing_drop",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.8723958333333334,
+   "Width": 0.34375,
+   "Height": 0.109375,
+   "bounds_px": [
+    21,
+    157,
+    43,
+    178
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_diamond_round_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_twisted_chain",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_twisted_chain",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_clasp_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_drop_retainer",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_drop_retainer",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_missing_drop",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4973958333333333,
+   "V": 0.85546875,
+   "Width": 0.08854166666666667,
+   "Height": 0.1015625,
+   "bounds_px": [
+    174,
+    206,
+    208,
+    232
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_missing_drop",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.8697916666666666,
+   "Width": 0.34375,
+   "Height": 0.08333333333333333,
+   "bounds_px": [
+    21,
+    159,
+    43,
+    175
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_ruby_oval_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_twisted_chain",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_twisted_chain",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_clasp_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_drop_retainer",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_drop_retainer",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_missing_drop",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.85546875,
+   "Width": 0.0625,
+   "Height": 0.1328125,
+   "bounds_px": [
+    180,
+    202,
+    204,
+    236
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_missing_drop",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.8697916666666666,
+   "Width": 0.25,
+   "Height": 0.11458333333333333,
+   "bounds_px": [
+    24,
+    156,
+    40,
+    178
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_sapphire_pear_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_twisted_chain",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_twisted_chain",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_clasp_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_drop_retainer",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_drop_retainer",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_missing_drop",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.859375,
+   "Width": 0.0625,
+   "Height": 0.125,
+   "bounds_px": [
+    180,
+    204,
+    204,
+    236
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_missing_drop",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.8723958333333334,
+   "Width": 0.25,
+   "Height": 0.109375,
+   "bounds_px": [
+    24,
+    157,
+    40,
+    178
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_emerald_step_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_twisted_chain",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_twisted_chain",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_clasp_gap",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_drop_retainer",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_drop_retainer",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_missing_drop",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4973958333333333,
+   "V": 0.859375,
+   "Width": 0.06770833333333333,
+   "Height": 0.109375,
+   "bounds_px": [
+    178,
+    206,
+    204,
+    234
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_missing_drop",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_missing_drop",
+   "Id": "missing_drop",
+   "CauseId": "sp4_jewelry_necklace_missing_drop",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.4921875,
+   "V": 0.8723958333333334,
+   "Width": 0.265625,
+   "Height": 0.09895833333333333,
+   "bounds_px": [
+    23,
+    158,
+    40,
+    177
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__twisted_chain__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__twisted_chain__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.82421875,
+   "Width": 0.020833333333333332,
+   "Height": 0.0390625,
+   "bounds_px": [
+    198,
+    206,
+    206,
+    216
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_drop_retainer",
+   "Id": "drop_retainer",
+   "CauseId": "sp4_jewelry_necklace_drop_retainer",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.59375,
+   "V": 0.8411458333333334,
+   "Width": 0.09375,
+   "Height": 0.036458333333333336,
+   "bounds_px": [
+    35,
+    158,
+    41,
+    165
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__drop_retainer__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__drop_retainer__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3645833333333333,
+   "V": 0.6171875,
+   "Width": 0.11458333333333333,
+   "Height": 0.171875,
+   "bounds_px": [
+    118,
+    136,
+    162,
+    180
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_twisted_chain",
+   "Id": "twisted_chain",
+   "CauseId": "sp4_jewelry_necklace_twisted_chain",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.296875,
+   "V": 0.6458333333333334,
+   "Width": 0.34375,
+   "Height": 0.1875,
+   "bounds_px": [
+    8,
+    106,
+    30,
+    142
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.23046875,
+   "Width": 0.057291666666666664,
+   "Height": 0.0703125,
+   "bounds_px": [
+    212,
+    50,
+    234,
+    68
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_necklace_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6484375,
+   "V": 0.21354166666666666,
+   "Width": 0.203125,
+   "Height": 0.07291666666666667,
+   "bounds_px": [
+    35,
+    34,
+    48,
+    48
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3802083333333333,
+   "V": 0.265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    140,
+    62,
+    152,
+    74
+   ]
+  },
+  {
+   "asset_key": "jewelry_necklace_drop",
+   "state": "ag925_pearl_baroque_combo__twisted_chain__clasp_gap__repair_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_jewelry_necklace_repair_link",
+   "Id": "repair_link",
+   "CauseId": "sp4_jewelry_necklace_repair_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.2552083333333333,
+   "Width": 0.109375,
+   "Height": 0.041666666666666664,
+   "bounds_px": [
+    15,
+    45,
+    22,
+    53
+   ]
+  }
+ ]
+}

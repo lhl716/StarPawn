@@ -1,0 +1,401 @@
+{
+ "asset_key": "jade_cabochon_plain",
+ "combinations": [
+  {
+   "profile": "dou_combo__dome_fissure__girdle_chip",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_combo__dome_fissure__central_inclusion",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_combo__dome_fissure__dyed_grain_web",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_combo__dome_fissure__girdle_chip__central_inclusion",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_dome_fissure",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_girdle_chip",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_central_inclusion",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_dyed_grain_web",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_filled_dome_seam",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_intact",
+   "variant": "dou_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__dome_fissure__girdle_chip",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__dome_fissure__central_inclusion",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__dome_fissure__dyed_grain_web",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__dome_fissure__girdle_chip__central_inclusion",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_dome_fissure",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_girdle_chip",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_central_inclusion",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_dyed_grain_web",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_filled_dome_seam",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_intact",
+   "variant": "nuo_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__dome_fissure__girdle_chip",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__dome_fissure__central_inclusion",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__dome_fissure__dyed_grain_web",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__dome_fissure__girdle_chip__central_inclusion",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_dome_fissure",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dome_fissure"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_girdle_chip",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_central_inclusion",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_dyed_grain_web",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_filled_dome_seam",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_intact",
+   "variant": "bing_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

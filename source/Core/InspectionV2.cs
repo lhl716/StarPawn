@@ -24,6 +24,8 @@ namespace StarPawn.Core
         public bool Locked;
         public int ConsecutiveMisses;
         public List<string> NewEvidenceIds = new List<string>();
+        // True exactly once per evidence: play the native exposure sound and show the price change.
+        public bool PlayFeedback;
     }
 
     public sealed class AssetQuote
@@ -45,24 +47,41 @@ namespace StarPawn.Core
         public bool RecoveryValueConfirmed;
         public string MaterialDescription = "";
         public List<string> AppliedCauses = new List<string>();
+        // Revision 05 component breakdown (metal is never reduced by cosmetic findings).
+        public long CraftValue;
+        public long StoneValue;
+        public long PremiumValue;
+        public long WeightMilligrams;
+        public int PurityBasisPoints;
+        public bool PurityConfirmed;
+        public List<QuoteLine> Lines = new List<QuoteLine>();
+    }
+
+    public static class UnifiedConfig
+    {
+        public static UnifiedRules Rules { get; private set; } = new UnifiedRules();
+        public static void Configure(UnifiedRules rules) { Operations05.ValidateRules(rules); Rules = rules; }
     }
 
     public static class InspectionV2
     {
         public static InspectionRules Rules { get; private set; } = new InspectionRules();
-        public static int MasteryExperience => Rules.LevelThresholds.Last();
-        public static int ExperiencePerDiscovery => Rules.ExperiencePerDiscovery;
         public static int ConsecutiveMissLimit => Rules.ConsecutiveMissLimit;
-        public static int MaximumLevel => Rules.LevelThresholds.Count - 1;
+
+        // Revision 05: appraisal progress belongs to the native career. The old click-XP
+        // mastery route is retired; CatalogState.Experience is kept only as legacy data.
+        [Obsolete("Legacy 0.3 value; never changes in Revision 05.")] public static int MasteryExperience => Rules.LevelThresholds.Last();
+        [Obsolete("Legacy 0.3 value; discoveries no longer award experience.")] public static int ExperiencePerDiscovery => 0;
+        [Obsolete("Legacy 0.3 value.")] public static int MaximumLevel => Rules.LevelThresholds.Count - 1;
+        [Obsolete("Mastery auto-reveal was removed in Revision 05.")] public static bool IsMastered(CatalogState state) => false;
+        [Obsolete("Use the native appraiser rank.")] public static int GetLevel(CatalogState state) => Rules.LevelThresholds.Count(threshold => state.Experience >= threshold) - 1;
 
         public static void ConfigureRules(InspectionRules rules)
         {
             ContentPacks.ValidateInspectionRules(rules);
             Rules = rules;
+            UnifiedConfig.Rules.ResalePriceBasisPoints = rules.ResalePriceBasisPoints;
         }
-
-        public static bool IsMastered(CatalogState state) => state.Experience >= MasteryExperience;
-        public static int GetLevel(CatalogState state) => Rules.LevelThresholds.Count(threshold => state.Experience >= threshold) - 1;
 
         public static InspectionEncounter Open(CatalogState state, string assetId, string encounterId, string counterpartyId, string view = "front")
         {
@@ -84,30 +103,24 @@ namespace StarPawn.Core
                 {
                     if (state.Encounters.Count >= Catalog.MaxEncounters) throw new InvalidOperationException("Encounter capacity reached; preserve existing lockouts.");
                     encounter = new InspectionEncounter { EncounterId = encounterId, AssetId = assetId, CounterpartyId = counterpartyId, ViewId = view };
-                    encounter.SelectedEvidenceIds.AddRange(asset.DiscoveredEvidenceIds);
                 }
-            }
-            // Preflight automatic discoveries before committing a reopened view or a new encounter.
-            if (IsMastered(state) && !encounter.Locked && !encounter.Completed)
-            {
-                var automatic = Catalog.ActiveHotspots(asset, view).Where(h => !asset.DiscoveredEvidenceIds.Contains(h.Id)).ToList();
-                if (automatic.Count > 0)
-                    checked { _ = state.Experience + automatic.Count(h => !asset.RewardedEvidenceIds.Contains(h.Id)) * ExperiencePerDiscovery; _ = asset.StateVersion + 1; _ = encounter.Revision + 1; }
             }
             encounter.ViewId = view;
             if (!state.Encounters.Contains(encounter)) state.Encounters.Add(encounter);
-            AutoDiscoverVisible(state, encounter.EncounterId);
             return encounter;
         }
 
         public static InspectionEncounter GetEncounter(CatalogState state, string encounterId)
             => state.Encounters.FirstOrDefault(e => e.EncounterId == encounterId) ?? throw new InvalidOperationException("Unknown inspection encounter.");
 
+        // Personal study of the player's own stock: there is no customer to annoy.
+        public static bool IsStudy(InspectionEncounter encounter) => encounter.CounterpartyId == "player" || encounter.CounterpartyId.StartsWith("study:", StringComparison.Ordinal);
+
         public static InspectionOutcome ClickAt(CatalogState state, string encounterId, float u, float v)
         {
             Catalog.Validate(state);
             var encounter = GetEncounter(state, encounterId);
-            if (encounter.Locked || encounter.Completed) return Result(encounter, "locked", "顾客把物品收了回去：这次就看到这里吧。");
+            if (encounter.Locked || encounter.Completed) return Result(encounter, "locked", T("sp5.inspect.locked", "The customer has taken the item back. No more claims this visit."));
             if (float.IsNaN(u) || float.IsNaN(v) || u < 0 || u > 1 || v < 0 || v > 1) throw new ArgumentOutOfRangeException("Image coordinates must be normalized.");
             var asset = Catalog.GetAsset(state, encounter.AssetId);
             var hit = Catalog.ActiveHotspots(asset, encounter.ViewId).FirstOrDefault(h => Math.Abs(u - h.U) <= h.Width / 2 + Rules.HitToleranceUv && Math.Abs(v - h.V) <= h.Height / 2 + Rules.HitToleranceUv);
@@ -118,30 +131,24 @@ namespace StarPawn.Core
         {
             Catalog.Validate(state);
             var encounter = GetEncounter(state, encounterId);
-            if (encounter.Locked || encounter.Completed) return Result(encounter, "locked", "顾客把物品收了回去：这次就看到这里吧。");
+            if (encounter.Locked || encounter.Completed) return Result(encounter, "locked", T("sp5.inspect.locked", "The customer has taken the item back. No more claims this visit."));
             var asset = Catalog.GetAsset(state, encounter.AssetId);
             var evidence = Catalog.ActiveHotspots(asset, encounter.ViewId).FirstOrDefault(h => h.Id == evidenceId);
             if (evidence == null) return Miss(state, encounterId);
-            if (asset.DiscoveredEvidenceIds.Contains(evidenceId)) return Result(encounter, "repeated", "这处已经看过了。顾客的耐心没有恢复。");
-            var newlyFound = new List<HotspotDefinition> { evidence };
-            var firstExperience = checked(state.Experience + (!asset.RewardedEvidenceIds.Contains(evidenceId) ? ExperiencePerDiscovery : 0));
-            if (firstExperience >= MasteryExperience)
-                newlyFound.AddRange(Catalog.ActiveHotspots(asset, encounter.ViewId).Where(h => h.Id != evidenceId && !asset.DiscoveredEvidenceIds.Contains(h.Id)));
-            var experience = checked(state.Experience + newlyFound.Count(h => !asset.RewardedEvidenceIds.Contains(h.Id)) * ExperiencePerDiscovery);
+            // A repeated clue is neither a reward nor a miss, and never restores patience.
+            if (asset.DiscoveredEvidenceIds.Contains(evidenceId)) return Result(encounter, "repeated", T("sp5.inspect.repeated", "Already recorded."));
             var revision = checked(encounter.Revision + 1);
             var version = checked(asset.StateVersion + 1);
-            foreach (var found in newlyFound)
-            {
-                asset.DiscoveredEvidenceIds.Add(found.Id);
-                if (!asset.RewardedEvidenceIds.Contains(found.Id)) asset.RewardedEvidenceIds.Add(found.Id);
-                if (!encounter.SelectedEvidenceIds.Contains(found.Id)) encounter.SelectedEvidenceIds.Add(found.Id);
-            }
-            state.Experience = experience;
+            asset.DiscoveredEvidenceIds.Add(evidence.Id);
+            // RewardedEvidenceIds now only means "native discovery feedback already played".
+            var firstFeedback = !asset.RewardedEvidenceIds.Contains(evidence.Id);
+            if (firstFeedback) asset.RewardedEvidenceIds.Add(evidence.Id);
             encounter.ConsecutiveMisses = 0;
             encounter.Revision = revision;
             asset.StateVersion = version;
-            var result = Result(encounter, "discovered", "你指出了" + evidence.Label + "。顾客点头，把物品重新放稳。");
-            result.NewEvidenceIds.AddRange(newlyFound.Select(h => h.Id));
+            var result = Result(encounter, "discovered", "");
+            result.NewEvidenceIds.Add(evidence.Id);
+            result.PlayFeedback = firstFeedback;
             return result;
         }
 
@@ -149,67 +156,31 @@ namespace StarPawn.Core
         {
             Catalog.Validate(state);
             var encounter = GetEncounter(state, encounterId);
-            if (encounter.Locked || encounter.Completed) return Result(encounter, "locked", "顾客把物品收了回去：这次就看到这里吧。");
+            if (encounter.Locked || encounter.Completed) return Result(encounter, "locked", T("sp5.inspect.locked", "The customer has taken the item back. No more claims this visit."));
             if (!Catalog.CanObserve(Catalog.GetAsset(state, encounter.AssetId), encounter.ViewId)) throw new InvalidOperationException("The inspected asset or view changed.");
+            if (IsStudy(encounter)) return Result(encounter, "study_miss", T("sp5.inspect.study_miss", "Nothing unusual there."));
             var revision = checked(encounter.Revision + 1);
             encounter.ConsecutiveMisses++;
             encounter.Locked = encounter.ConsecutiveMisses >= ConsecutiveMissLimit;
             encounter.Revision = revision;
-            return Result(encounter, encounter.Locked ? "locked" : "miss", encounter.Locked ? "顾客皱起眉，把物品收了回去：“没问题的地方就别反复挑了，这次不看了。”" : "顾客敲了敲柜台：“那里没有问题吧？你再仔细看看。”");
+            return Result(encounter, encounter.Locked ? "locked" : "miss", encounter.Locked
+                ? T("sp5.inspect.walkout", "\"There is nothing wrong there. I am done with this.\" The customer takes the item back.")
+                : T("sp5.inspect.miss", "\"There is nothing wrong there, is there? Look properly.\""));
         }
 
+        [Obsolete("Mastery auto-reveal was removed in Revision 05; this never discovers anything.")]
         public static InspectionOutcome AutoDiscoverVisible(CatalogState state, string encounterId)
         {
             Catalog.Validate(state);
-            var encounter = GetEncounter(state, encounterId);
-            var result = Result(encounter, "automatic", "");
-            if (!IsMastered(state) || encounter.Locked || encounter.Completed) return result;
-            var asset = Catalog.GetAsset(state, encounter.AssetId);
-            var evidence = Catalog.ActiveHotspots(asset, encounter.ViewId).Where(h => !asset.DiscoveredEvidenceIds.Contains(h.Id)).ToList();
-            if (evidence.Count == 0) return result;
-            var rewards = evidence.Count(h => !asset.RewardedEvidenceIds.Contains(h.Id));
-            var experience = checked(state.Experience + rewards * ExperiencePerDiscovery);
-            var revision = checked(encounter.Revision + 1);
-            var version = checked(asset.StateVersion + 1);
-            foreach (var h in evidence)
-            {
-                asset.DiscoveredEvidenceIds.Add(h.Id);
-                if (!asset.RewardedEvidenceIds.Contains(h.Id)) asset.RewardedEvidenceIds.Add(h.Id);
-                if (!encounter.SelectedEvidenceIds.Contains(h.Id)) encounter.SelectedEvidenceIds.Add(h.Id);
-                result.NewEvidenceIds.Add(h.Id);
-            }
-            state.Experience = experience;
-            encounter.Revision = revision;
-            encounter.ConsecutiveMisses = 0;
-            asset.StateVersion = version;
-            result.ConsecutiveMisses = 0;
-            result.Message = "熟练的目光已经圈出当前视图中的全部可见问题。";
-            return result;
+            return Result(GetEncounter(state, encounterId), "automatic", "");
         }
 
-        public static void SelectEvidence(CatalogState state, string encounterId, string evidenceId, bool selected)
-        {
-            Catalog.Validate(state);
-            var encounter = GetEncounter(state, encounterId);
-            var asset = Catalog.GetAsset(state, encounter.AssetId);
-            if (encounter.Completed || !asset.DiscoveredEvidenceIds.Contains(evidenceId)) throw new InvalidOperationException("Evidence is unavailable for this deal.");
-            if (selected == encounter.SelectedEvidenceIds.Contains(evidenceId)) return;
-            var revision = checked(encounter.Revision + 1);
-            if (selected) encounter.SelectedEvidenceIds.Add(evidenceId); else encounter.SelectedEvidenceIds.Remove(evidenceId);
-            encounter.Revision = revision;
-        }
-
-        public static void SelectAll(CatalogState state, string encounterId)
-        {
-            Catalog.Validate(state);
-            var encounter = GetEncounter(state, encounterId);
-            var asset = Catalog.GetAsset(state, encounter.AssetId);
-            if (encounter.Completed) throw new InvalidOperationException("The deal ended.");
-            if (new HashSet<string>(encounter.SelectedEvidenceIds).SetEquals(asset.DiscoveredEvidenceIds)) return;
-            var revision = checked(encounter.Revision + 1);
-            encounter.SelectedEvidenceIds = new List<string>(asset.DiscoveredEvidenceIds);
-            encounter.Revision = revision;
-        }
+        // Findings are applied automatically. The old optional evidence toggles could
+        // restore value, so they are inert and kept only for binary/save compatibility.
+        [Obsolete("Evidence selection was removed in Revision 05; all confirmed findings apply.")]
+        public static void SelectEvidence(CatalogState state, string encounterId, string evidenceId, bool selected) { Catalog.Validate(state); GetEncounter(state, encounterId); }
+        [Obsolete("Evidence selection was removed in Revision 05; all confirmed findings apply.")]
+        public static void SelectAll(CatalogState state, string encounterId) { Catalog.Validate(state); GetEncounter(state, encounterId); }
 
         // Only a real completed/cancelled trade calls this, never a window close.
         public static void EndEncounter(CatalogState state, string encounterId)
@@ -228,14 +199,17 @@ namespace StarPawn.Core
             var activePairs = new HashSet<string>(StringComparer.Ordinal);
             foreach (var encounter in state.Encounters)
             {
-                if (encounter == null || string.IsNullOrWhiteSpace(encounter.EncounterId) || !ids.Add(encounter.EncounterId) || string.IsNullOrWhiteSpace(encounter.CounterpartyId) || encounter.Revision < 1 || encounter.ConsecutiveMisses < 0 || encounter.ConsecutiveMisses > ConsecutiveMissLimit || encounter.Locked != (encounter.ConsecutiveMisses == ConsecutiveMissLimit) || encounter.SelectedEvidenceIds == null)
+                if (encounter == null || string.IsNullOrWhiteSpace(encounter.EncounterId) || !ids.Add(encounter.EncounterId) || string.IsNullOrWhiteSpace(encounter.CounterpartyId) || encounter.Revision < 1 || encounter.ConsecutiveMisses < 0 || encounter.ConsecutiveMisses > ConsecutiveMissLimit || encounter.Locked != (encounter.ConsecutiveMisses >= ConsecutiveMissLimit) || encounter.SelectedEvidenceIds == null)
                     throw new InvalidOperationException("Invalid persisted inspection encounter.");
                 var asset = Catalog.GetAsset(state, encounter.AssetId);
                 if (encounter.ViewId != "front" && encounter.ViewId != "window") throw new InvalidOperationException("Invalid inspection view.");
                 if (!encounter.Completed && !activePairs.Add(encounter.AssetId + "\n" + encounter.CounterpartyId)) throw new InvalidOperationException("Duplicate active customer inspection.");
+                // Legacy selections are tolerated but must still refer to real, recorded evidence.
                 Catalog.ValidateUnique(encounter.SelectedEvidenceIds, asset.DiscoveredEvidenceIds);
             }
         }
+
+        private static string T(string key, string english) => TextResolver.Get(key, english);
 
         private static InspectionOutcome Result(InspectionEncounter encounter, string kind, string message)
             => new InspectionOutcome { Kind = kind, Message = message, Locked = encounter.Locked, ConsecutiveMisses = encounter.ConsecutiveMisses };
@@ -243,6 +217,8 @@ namespace StarPawn.Core
 
     public static class ValuationV2
     {
+        // Routine shop estimate. direction "buy" = Buy from customer/supplier, "sell" = Material buyback / sale to a dealer.
+        // Every confirmed, unresolved finding applies automatically to its own component.
         public static AssetQuote Quote(CatalogState state, string encounterId, int gameDay, long marketVersion, long goldSell, long goldBuy, long silverSell, long silverBuy, string direction = "buy")
         {
             Catalog.Validate(state);
@@ -251,33 +227,35 @@ namespace StarPawn.Core
             if (encounter.Completed) throw new InvalidOperationException("This encounter is complete.");
             var asset = Catalog.GetAsset(state, encounter.AssetId);
             if (asset.Status != "active") throw new InvalidOperationException("Consumed or escrowed assets cannot be quoted for sale.");
-            var definition = Catalog.GetDefinition(asset.DefinitionId);
-            var selected = definition.Hotspots.Where(h => encounter.SelectedEvidenceIds.Contains(h.Id) && !asset.ResolvedCauseIds.Contains(h.CauseId)).ToList();
-            var materialKnown = asset.Measurements.Contains("assay") || asset.Certificates.Any(c => c.Scope == "material") || selected.Any(h => h.RevealsMaterial);
-            var authenticityKnown = asset.Certificates.Any(c => c.Scope == "authenticity" || c.Scope == "edition") || selected.Any(h => h.RevealsAuthenticity);
-            var precious = definition.Material == "gold" || definition.Material == "silver";
-            var buy = definition.Material == "gold" ? goldBuy : silverBuy;
-            var sell = definition.Material == "gold" ? goldSell : silverSell;
-            var visiblePurity = materialKnown ? definition.ActualPurityBasisPoints : definition.DeclaredPurityBasisPoints;
-            var materialBase = precious ? MetalValue(definition.WeightMilligrams, visiblePurity, sell) : 0;
-            var trueFloor = precious ? MetalValue(definition.WeightMilligrams, definition.ActualPurityBasisPoints, buy) : 0;
-            var visibleFloor = precious ? MetalValue(definition.WeightMilligrams, visiblePurity, buy) : 0;
-            var baseValue = precious ? checked(materialBase + (materialKnown && visiblePurity == 0 ? definition.ActualBaseValue : definition.CraftValue)) : (authenticityKnown ? definition.ActualBaseValue : definition.BaseValue);
-            baseValue = Scale(baseValue, asset.QualityBasisPoints);
-            var causes = selected.GroupBy(h => h.CauseId, StringComparer.Ordinal).ToList();
-            long deduction = 0;
-            foreach (var cause in causes) deduction = checked(deduction + cause.Max(h => h.ValueDeduction));
-            var valuation = Math.Max(trueFloor, Math.Max(0, baseValue - deduction));
-            // NPC's resale spread never eats genuine recoverable precious metal value.
-            var price = direction == "sell" ? Math.Max(trueFloor, Scale(valuation, InspectionV2.Rules.ResalePriceBasisPoints)) : valuation;
+            var saved = MarketService.Find(state, gameDay);
+            var market = new MarketDay { Day = gameDay, Version = marketVersion, GoldSell = goldSell, GoldBuy = goldBuy, SilverSell = silverSell, SilverBuy = silverBuy,
+                CopperSell = saved?.CopperSell ?? UnifiedConfig.Rules.CopperSellPer100g, CopperBuy = saved?.CopperBuy ?? UnifiedConfig.Rules.CopperBuyPer100g,
+                Channels = saved?.Channels ?? new List<ChannelValue>(), EventIds = saved?.EventIds ?? new List<string>() };
+            var rules = UnifiedConfig.Rules;
+            var q = ComponentValuation.Quote(state, asset, market, direction == "sell" ? ComponentValuation.MaterialBuyback : ComponentValuation.BuyFromCustomer, rules);
+            var precious = q.Metal.Length > 0;
+            var bid = q.Metal == "gold" ? goldBuy : silverBuy;
             return new AssetQuote {
                 AssetId = asset.AssetId, EncounterId = encounter.EncounterId, CounterpartyId = encounter.CounterpartyId, Direction = direction,
                 AssetVersion = asset.StateVersion, EncounterRevision = encounter.Revision, MarketVersion = marketVersion, GameDay = gameDay,
-                BaseValue = baseValue, MaterialValue = materialBase, CraftPremium = precious ? Math.Max(0, baseValue - materialBase) : 0, EvidenceDeduction = Math.Max(0, baseValue - valuation), Price = price, RecoveryValue = visibleFloor,
-                RecoveryValueConfirmed = !precious || materialKnown,
-                MaterialDescription = precious ? (materialKnown ? "已核实成色 " : "标称成色 ") + (visiblePurity / 100m).ToString("0.00", System.Globalization.CultureInfo.InvariantCulture) + "% · " + (definition.WeightMilligrams / 1000m).ToString("0.###", System.Globalization.CultureInfo.InvariantCulture) + " 克" : definition.Category,
-                AppliedCauses = causes.Select(c => c.Key).ToList()
+                BaseValue = checked(q.MetalValue + q.CraftBasis + q.StoneValue + q.PremiumValue + q.Lines.Where(l => l.Component == "metal_mass").Sum(l => l.Amount)),
+                MaterialValue = q.MetalValue, CraftPremium = q.CraftBasis, CraftValue = q.CraftValue, StoneValue = q.StoneValue, PremiumValue = q.PremiumValue,
+                EvidenceDeduction = checked(q.CraftDeduction + q.Lines.Where(l => l.Component == "metal_mass").Sum(l => l.Amount)), Price = q.Total,
+                // Public recovery value uses established knowledge only; it never leaks hidden purity.
+                RecoveryValue = precious ? MetalValue(q.EligibleMilligrams, q.PurityBasisPoints, bid) : 0,
+                RecoveryValueConfirmed = !precious || q.PurityConfirmed,
+                MaterialDescription = precious ? DescribeMetal(q) : "",
+                AppliedCauses = q.AppliedCauses, Lines = q.Lines, WeightMilligrams = q.EligibleMilligrams, PurityBasisPoints = q.PurityBasisPoints, PurityConfirmed = q.PurityConfirmed
             };
+        }
+
+        public static string DescribeMetal(ComponentQuote q)
+        {
+            var pct = (q.PurityBasisPoints / 100m).ToString("0.00", System.Globalization.CultureInfo.InvariantCulture) + "%";
+            var grams = (q.EligibleMilligrams / 1000m).ToString("0.###", System.Globalization.CultureInfo.InvariantCulture) + " g";
+            return (q.PurityConfirmed
+                ? string.Format(TextResolver.Get("sp5.material.assayed", "Assay: {0}"), pct)
+                : string.Format(TextResolver.Get("sp5.material.marked", "Mark: {0} | Assay: not tested"), pct)) + " · " + grams;
         }
 
         public static bool IsCurrent(CatalogState state, AssetQuote quote, int gameDay, long marketVersion, string direction)

@@ -1,0 +1,42 @@
+{
+ "asset_key": "manual_mounts_b",
+ "name_en": "Mounted Jewelry Handbook: Earrings and Bracelets",
+ "category": "manual",
+ "subtype": "",
+ "role": "manual",
+ "target_family_id": "sp5_manual_mounts_b",
+ "grid": [
+  2,
+  3
+ ],
+ "items_px": [
+  128,
+  192
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "added_revision05_implementation",
+ "states": {
+  "closed": {
+   "paper": "paper/closed.png",
+   "items": "items/closed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "open_page_template": {
+   "paper": "paper/open_page_template.png",
+   "items": "items/open_page_template.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

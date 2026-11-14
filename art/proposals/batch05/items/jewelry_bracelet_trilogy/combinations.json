@@ -1,0 +1,1153 @@
+{
+ "asset_key": "jewelry_bracelet_trilogy",
+ "combinations": [
+  {
+   "profile": "au18k_diamond_round_combo__clasp_gap__link_join",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_diamond_round_repaired__clasp_gap__link_join"
+  },
+  {
+   "profile": "au18k_diamond_round_combo__flat_link__link_join",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_diamond_round_repaired__flat_link__link_join"
+  },
+  {
+   "profile": "au18k_diamond_round_combo__loose_center__link_join",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_diamond_round_repaired__loose_center__link_join"
+  },
+  {
+   "profile": "au18k_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_diamond_round_repaired__clasp_gap__flat_link__link_join"
+  },
+  {
+   "profile": "au18k_diamond_round_clasp_gap",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_round_flat_link",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_round_loose_center",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_round_missing_left",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_round_link_join",
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_diamond_round_intact",
+   "variant": "au18k_diamond_round_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "au18k_ruby_oval_combo__clasp_gap__link_join",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_ruby_oval_repaired__clasp_gap__link_join"
+  },
+  {
+   "profile": "au18k_ruby_oval_combo__flat_link__link_join",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_ruby_oval_repaired__flat_link__link_join"
+  },
+  {
+   "profile": "au18k_ruby_oval_combo__loose_center__link_join",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_ruby_oval_repaired__loose_center__link_join"
+  },
+  {
+   "profile": "au18k_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_ruby_oval_repaired__clasp_gap__flat_link__link_join"
+  },
+  {
+   "profile": "au18k_ruby_oval_clasp_gap",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_ruby_oval_flat_link",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_ruby_oval_loose_center",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_ruby_oval_missing_left",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_ruby_oval_link_join",
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_ruby_oval_intact",
+   "variant": "au18k_ruby_oval_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "au18k_sapphire_oval_combo__clasp_gap__link_join",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_sapphire_oval_repaired__clasp_gap__link_join"
+  },
+  {
+   "profile": "au18k_sapphire_oval_combo__flat_link__link_join",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_sapphire_oval_repaired__flat_link__link_join"
+  },
+  {
+   "profile": "au18k_sapphire_oval_combo__loose_center__link_join",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_sapphire_oval_repaired__loose_center__link_join"
+  },
+  {
+   "profile": "au18k_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_sapphire_oval_repaired__clasp_gap__flat_link__link_join"
+  },
+  {
+   "profile": "au18k_sapphire_oval_clasp_gap",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_sapphire_oval_flat_link",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_sapphire_oval_loose_center",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_sapphire_oval_missing_left",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_sapphire_oval_link_join",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_sapphire_oval_intact",
+   "variant": "au18k_sapphire_oval_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "au18k_emerald_oval_combo__clasp_gap__link_join",
+   "variant": "au18k_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_emerald_oval_repaired__clasp_gap__link_join"
+  },
+  {
+   "profile": "au18k_emerald_oval_combo__flat_link__link_join",
+   "variant": "au18k_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_emerald_oval_repaired__flat_link__link_join"
+  },
+  {
+   "profile": "au18k_emerald_oval_combo__loose_center__link_join",
+   "variant": "au18k_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_emerald_oval_repaired__loose_center__link_join"
+  },
+  {
+   "profile": "au18k_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "variant": "au18k_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "au18k_emerald_oval_repaired__clasp_gap__flat_link__link_join"
+  },
+  {
+   "profile": "au18k_emerald_oval_clasp_gap",
+   "variant": "au18k_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_emerald_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_emerald_oval_flat_link",
+   "variant": "au18k_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_emerald_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_emerald_oval_loose_center",
+   "variant": "au18k_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_emerald_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_emerald_oval_missing_left",
+   "variant": "au18k_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "au18k_emerald_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_emerald_oval_link_join",
+   "variant": "au18k_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "au18k_emerald_oval_intact",
+   "variant": "au18k_emerald_oval_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "ag925_diamond_round_combo__clasp_gap__link_join",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_diamond_round_repaired__clasp_gap__link_join"
+  },
+  {
+   "profile": "ag925_diamond_round_combo__flat_link__link_join",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_diamond_round_repaired__flat_link__link_join"
+  },
+  {
+   "profile": "ag925_diamond_round_combo__loose_center__link_join",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_diamond_round_repaired__loose_center__link_join"
+  },
+  {
+   "profile": "ag925_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_diamond_round_repaired__clasp_gap__flat_link__link_join"
+  },
+  {
+   "profile": "ag925_diamond_round_clasp_gap",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_round_flat_link",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_round_loose_center",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_round_missing_left",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_diamond_round_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_round_link_join",
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_diamond_round_intact",
+   "variant": "ag925_diamond_round_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "ag925_ruby_oval_combo__clasp_gap__link_join",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_ruby_oval_repaired__clasp_gap__link_join"
+  },
+  {
+   "profile": "ag925_ruby_oval_combo__flat_link__link_join",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_ruby_oval_repaired__flat_link__link_join"
+  },
+  {
+   "profile": "ag925_ruby_oval_combo__loose_center__link_join",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_ruby_oval_repaired__loose_center__link_join"
+  },
+  {
+   "profile": "ag925_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_ruby_oval_repaired__clasp_gap__flat_link__link_join"
+  },
+  {
+   "profile": "ag925_ruby_oval_clasp_gap",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_ruby_oval_flat_link",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_ruby_oval_loose_center",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_ruby_oval_missing_left",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_ruby_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_ruby_oval_link_join",
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_ruby_oval_intact",
+   "variant": "ag925_ruby_oval_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "ag925_sapphire_oval_combo__clasp_gap__link_join",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_sapphire_oval_repaired__clasp_gap__link_join"
+  },
+  {
+   "profile": "ag925_sapphire_oval_combo__flat_link__link_join",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_sapphire_oval_repaired__flat_link__link_join"
+  },
+  {
+   "profile": "ag925_sapphire_oval_combo__loose_center__link_join",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_sapphire_oval_repaired__loose_center__link_join"
+  },
+  {
+   "profile": "ag925_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_sapphire_oval_repaired__clasp_gap__flat_link__link_join"
+  },
+  {
+   "profile": "ag925_sapphire_oval_clasp_gap",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_sapphire_oval_flat_link",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_sapphire_oval_loose_center",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_sapphire_oval_missing_left",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_sapphire_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_sapphire_oval_link_join",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_sapphire_oval_intact",
+   "variant": "ag925_sapphire_oval_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "ag925_emerald_oval_combo__clasp_gap__link_join",
+   "variant": "ag925_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_emerald_oval_repaired__clasp_gap__link_join"
+  },
+  {
+   "profile": "ag925_emerald_oval_combo__flat_link__link_join",
+   "variant": "ag925_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_emerald_oval_repaired__flat_link__link_join"
+  },
+  {
+   "profile": "ag925_emerald_oval_combo__loose_center__link_join",
+   "variant": "ag925_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_emerald_oval_repaired__loose_center__link_join"
+  },
+  {
+   "profile": "ag925_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "variant": "ag925_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap",
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": "ag925_emerald_oval_repaired__clasp_gap__flat_link__link_join"
+  },
+  {
+   "profile": "ag925_emerald_oval_clasp_gap",
+   "variant": "ag925_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_clasp_gap"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_emerald_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_emerald_oval_flat_link",
+   "variant": "ag925_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_flat_link"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_emerald_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_emerald_oval_loose_center",
+   "variant": "ag925_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_loose_center"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_emerald_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_emerald_oval_missing_left",
+   "variant": "ag925_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "repairable": [
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "ag925_emerald_oval_intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_emerald_oval_link_join",
+   "variant": "ag925_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jewelry_bracelet_link_join"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "ag925_emerald_oval_intact",
+   "variant": "ag925_emerald_oval_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [
+  {
+   "variant": "au18k_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "au18k_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "au18k_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "au18k_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "ag925_diamond_round_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "ag925_ruby_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "ag925_sapphire_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  },
+  {
+   "variant": "ag925_emerald_oval_",
+   "templates": [
+    "sp4_jewelry_bracelet_flat_link",
+    "sp4_jewelry_bracelet_missing_left"
+   ],
+   "reason": "one part is both absent and inspected as present"
+  }
+ ],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

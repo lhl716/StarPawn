@@ -1,0 +1,48 @@
+{
+ "asset_key": "mixed_e_scrap",
+ "name_en": "Mixed Electronic Scrap",
+ "category": "mixed_e_scrap",
+ "subtype": "",
+ "role": "material_lot",
+ "target_family_id": "sp4_mixed_e_scrap",
+ "grid": [
+  3,
+  2
+ ],
+ "items_px": [
+  192,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "sealed": {
+   "paper": "paper/sealed.png",
+   "items": "items/sealed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "assayed": {
+   "paper": "paper/assayed.png",
+   "items": "items/assayed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "sorted": {
+   "paper": "paper/sorted.png",
+   "items": "items/sorted.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

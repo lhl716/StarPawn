@@ -1,0 +1,426 @@
+{
+ "asset_key": "jade_beads_plain",
+ "combinations": [
+  {
+   "profile": "dou_combo__drill_exit_crack__bead_chip",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_combo__drill_exit_crack__mismatched_bead",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_combo__drill_exit_crack__dyed_drill_pool",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "dou_drill_exit_crack",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_bead_chip",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_mismatched_bead",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_dyed_drill_pool",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_filled_bead_split",
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_beads_filled_bead_split"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_filled_bead_split"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "dou_intact",
+   "variant": "dou_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__drill_exit_crack__bead_chip",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__drill_exit_crack__mismatched_bead",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__drill_exit_crack__dyed_drill_pool",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "nuo_drill_exit_crack",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_bead_chip",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_mismatched_bead",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_dyed_drill_pool",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_filled_bead_split",
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_beads_filled_bead_split"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_filled_bead_split"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "nuo_intact",
+   "variant": "nuo_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__drill_exit_crack__bead_chip",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__drill_exit_crack__mismatched_bead",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__drill_exit_crack__dyed_drill_pool",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_combo__drill_exit_crack__bead_chip__mismatched_bead",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack",
+    "sp4_jade_beads_bead_chip",
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "bing_drill_exit_crack",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_beads_drill_exit_crack"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_drill_exit_crack"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_bead_chip",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_bead_chip"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_mismatched_bead",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_mismatched_bead"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_dyed_drill_pool",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_dyed_drill_pool"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_filled_bead_split",
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_beads_filled_bead_split"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_jade_beads_filled_bead_split"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "bing_intact",
+   "variant": "bing_",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [
+  {
+   "variant": "dou_",
+   "templates": [
+    "sp4_jade_beads_bead_chip",
+    "sp4_jade_beads_filled_bead_split"
+   ],
+   "reason": "defect layers overlap or touch"
+  },
+  {
+   "variant": "nuo_",
+   "templates": [
+    "sp4_jade_beads_bead_chip",
+    "sp4_jade_beads_filled_bead_split"
+   ],
+   "reason": "defect layers overlap or touch"
+  },
+  {
+   "variant": "bing_",
+   "templates": [
+    "sp4_jade_beads_bead_chip",
+    "sp4_jade_beads_filled_bead_split"
+   ],
+   "reason": "defect layers overlap or touch"
+  }
+ ],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

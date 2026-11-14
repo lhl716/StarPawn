@@ -1,0 +1,73 @@
+{
+ "asset_key": "legacy_silver_bracelet",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "legacy_silver_bracelet",
+   "state": "silver_bracelet_worn",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_silver_clasp",
+   "Id": "silver_clasp",
+   "CauseId": "silver_clasp_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.5,
+    0.222
+   ],
+   "U": 0.5598958333333334,
+   "V": 0.234375,
+   "Width": 0.026041666666666668,
+   "Height": 0.125,
+   "bounds_px": [
+    210,
+    44,
+    220,
+    76
+   ]
+  },
+  {
+   "asset_key": "legacy_silver_bracelet",
+   "state": "silver_bracelet_worn",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "legacy_silver_clasp",
+   "Id": "silver_clasp",
+   "CauseId": "silver_clasp_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.5,
+    0.222
+   ],
+   "U": 0.58203125,
+   "V": 0.26171875,
+   "Width": 0.0390625,
+   "Height": 0.1171875,
+   "bounds_px": [
+    72,
+    26,
+    77,
+    41
+   ]
+  }
+ ]
+}

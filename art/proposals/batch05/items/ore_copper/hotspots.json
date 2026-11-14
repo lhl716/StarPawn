@@ -1,0 +1,709 @@
+{
+ "asset_key": "ore_copper",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "ore_copper",
+   "state": "low_copper_grade",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_low_copper_grade",
+   "Id": "low_copper_grade",
+   "CauseId": "sp4_ore_copper_low_copper_grade",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_assay",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "low_copper_grade",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_low_copper_grade",
+   "Id": "low_copper_grade",
+   "CauseId": "sp4_ore_copper_low_copper_grade",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_assay",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "barren_matrix",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_barren_matrix",
+   "Id": "barren_matrix",
+   "CauseId": "sp4_ore_copper_barren_matrix",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5520833333333334,
+   "V": 0.41796875,
+   "Width": 0.2604166666666667,
+   "Height": 0.2734375,
+   "bounds_px": [
+    162,
+    72,
+    262,
+    142
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "barren_matrix",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_barren_matrix",
+   "Id": "barren_matrix",
+   "CauseId": "sp4_ore_copper_barren_matrix",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5520833333333334,
+   "V": 0.41796875,
+   "Width": 0.2708333333333333,
+   "Height": 0.2734375,
+   "bounds_px": [
+    80,
+    36,
+    132,
+    71
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "applied_green_coating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_applied_green_coating",
+   "Id": "applied_green_coating",
+   "CauseId": "sp4_ore_copper_applied_green_coating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2994791666666667,
+   "V": 0.37890625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    90,
+    80,
+    140,
+    114
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "applied_green_coating",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_applied_green_coating",
+   "Id": "applied_green_coating",
+   "CauseId": "sp4_ore_copper_applied_green_coating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2942708333333333,
+   "V": 0.37109375,
+   "Width": 0.13020833333333334,
+   "Height": 0.1484375,
+   "bounds_px": [
+    44,
+    38,
+    69,
+    57
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "foreign_aggregate",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_foreign_aggregate",
+   "Id": "foreign_aggregate",
+   "CauseId": "sp4_ore_copper_foreign_aggregate",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.7916666666666666,
+   "V": 0.5078125,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    280,
+    112,
+    328,
+    148
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "foreign_aggregate",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_foreign_aggregate",
+   "Id": "foreign_aggregate",
+   "CauseId": "sp4_ore_copper_foreign_aggregate",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.8020833333333334,
+   "V": 0.5078125,
+   "Width": 0.125,
+   "Height": 0.15625,
+   "bounds_px": [
+    142,
+    55,
+    166,
+    75
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "source_tag_mismatch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_source_tag_mismatch",
+   "Id": "source_tag_mismatch",
+   "CauseId": "sp4_ore_copper_source_tag_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15364583333333334,
+   "V": 0.71484375,
+   "Width": 0.057291666666666664,
+   "Height": 0.0859375,
+   "bounds_px": [
+    48,
+    172,
+    70,
+    194
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "source_tag_mismatch",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_source_tag_mismatch",
+   "Id": "source_tag_mismatch",
+   "CauseId": "sp4_ore_copper_source_tag_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.14322916666666666,
+   "V": 0.72265625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0859375,
+   "bounds_px": [
+    22,
+    87,
+    33,
+    98
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__applied_green_coating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_barren_matrix",
+   "Id": "barren_matrix",
+   "CauseId": "sp4_ore_copper_barren_matrix",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5520833333333334,
+   "V": 0.41796875,
+   "Width": 0.2604166666666667,
+   "Height": 0.2734375,
+   "bounds_px": [
+    162,
+    72,
+    262,
+    142
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__applied_green_coating",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_barren_matrix",
+   "Id": "barren_matrix",
+   "CauseId": "sp4_ore_copper_barren_matrix",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5520833333333334,
+   "V": 0.41796875,
+   "Width": 0.2708333333333333,
+   "Height": 0.2734375,
+   "bounds_px": [
+    80,
+    36,
+    132,
+    71
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__applied_green_coating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_applied_green_coating",
+   "Id": "applied_green_coating",
+   "CauseId": "sp4_ore_copper_applied_green_coating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2994791666666667,
+   "V": 0.37890625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    90,
+    80,
+    140,
+    114
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__applied_green_coating",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_applied_green_coating",
+   "Id": "applied_green_coating",
+   "CauseId": "sp4_ore_copper_applied_green_coating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2942708333333333,
+   "V": 0.37109375,
+   "Width": 0.13020833333333334,
+   "Height": 0.1484375,
+   "bounds_px": [
+    44,
+    38,
+    69,
+    57
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__foreign_aggregate",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_barren_matrix",
+   "Id": "barren_matrix",
+   "CauseId": "sp4_ore_copper_barren_matrix",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5520833333333334,
+   "V": 0.41796875,
+   "Width": 0.2604166666666667,
+   "Height": 0.2734375,
+   "bounds_px": [
+    162,
+    72,
+    262,
+    142
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__foreign_aggregate",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_barren_matrix",
+   "Id": "barren_matrix",
+   "CauseId": "sp4_ore_copper_barren_matrix",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5520833333333334,
+   "V": 0.41796875,
+   "Width": 0.2708333333333333,
+   "Height": 0.2734375,
+   "bounds_px": [
+    80,
+    36,
+    132,
+    71
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__foreign_aggregate",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_foreign_aggregate",
+   "Id": "foreign_aggregate",
+   "CauseId": "sp4_ore_copper_foreign_aggregate",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.7916666666666666,
+   "V": 0.5078125,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    280,
+    112,
+    328,
+    148
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__foreign_aggregate",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_foreign_aggregate",
+   "Id": "foreign_aggregate",
+   "CauseId": "sp4_ore_copper_foreign_aggregate",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.8020833333333334,
+   "V": 0.5078125,
+   "Width": 0.125,
+   "Height": 0.15625,
+   "bounds_px": [
+    142,
+    55,
+    166,
+    75
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__source_tag_mismatch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_barren_matrix",
+   "Id": "barren_matrix",
+   "CauseId": "sp4_ore_copper_barren_matrix",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5520833333333334,
+   "V": 0.41796875,
+   "Width": 0.2604166666666667,
+   "Height": 0.2734375,
+   "bounds_px": [
+    162,
+    72,
+    262,
+    142
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__source_tag_mismatch",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_barren_matrix",
+   "Id": "barren_matrix",
+   "CauseId": "sp4_ore_copper_barren_matrix",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5520833333333334,
+   "V": 0.41796875,
+   "Width": 0.2708333333333333,
+   "Height": 0.2734375,
+   "bounds_px": [
+    80,
+    36,
+    132,
+    71
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__source_tag_mismatch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_source_tag_mismatch",
+   "Id": "source_tag_mismatch",
+   "CauseId": "sp4_ore_copper_source_tag_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.15364583333333334,
+   "V": 0.71484375,
+   "Width": 0.057291666666666664,
+   "Height": 0.0859375,
+   "bounds_px": [
+    48,
+    172,
+    70,
+    194
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__source_tag_mismatch",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_source_tag_mismatch",
+   "Id": "source_tag_mismatch",
+   "CauseId": "sp4_ore_copper_source_tag_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.14322916666666666,
+   "V": 0.72265625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0859375,
+   "bounds_px": [
+    22,
+    87,
+    33,
+    98
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__applied_green_coating__foreign_aggregate",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_barren_matrix",
+   "Id": "barren_matrix",
+   "CauseId": "sp4_ore_copper_barren_matrix",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5520833333333334,
+   "V": 0.41796875,
+   "Width": 0.2604166666666667,
+   "Height": 0.2734375,
+   "bounds_px": [
+    162,
+    72,
+    262,
+    142
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__applied_green_coating__foreign_aggregate",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_barren_matrix",
+   "Id": "barren_matrix",
+   "CauseId": "sp4_ore_copper_barren_matrix",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5520833333333334,
+   "V": 0.41796875,
+   "Width": 0.2708333333333333,
+   "Height": 0.2734375,
+   "bounds_px": [
+    80,
+    36,
+    132,
+    71
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__applied_green_coating__foreign_aggregate",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_applied_green_coating",
+   "Id": "applied_green_coating",
+   "CauseId": "sp4_ore_copper_applied_green_coating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2994791666666667,
+   "V": 0.37890625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    90,
+    80,
+    140,
+    114
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__applied_green_coating__foreign_aggregate",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_applied_green_coating",
+   "Id": "applied_green_coating",
+   "CauseId": "sp4_ore_copper_applied_green_coating",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2942708333333333,
+   "V": 0.37109375,
+   "Width": 0.13020833333333334,
+   "Height": 0.1484375,
+   "bounds_px": [
+    44,
+    38,
+    69,
+    57
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__applied_green_coating__foreign_aggregate",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_copper_foreign_aggregate",
+   "Id": "foreign_aggregate",
+   "CauseId": "sp4_ore_copper_foreign_aggregate",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.7916666666666666,
+   "V": 0.5078125,
+   "Width": 0.125,
+   "Height": 0.140625,
+   "bounds_px": [
+    280,
+    112,
+    328,
+    148
+   ]
+  },
+  {
+   "asset_key": "ore_copper",
+   "state": "combo__barren_matrix__applied_green_coating__foreign_aggregate",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_copper_foreign_aggregate",
+   "Id": "foreign_aggregate",
+   "CauseId": "sp4_ore_copper_foreign_aggregate",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.8020833333333334,
+   "V": 0.5078125,
+   "Width": 0.125,
+   "Height": 0.15625,
+   "bounds_px": [
+    142,
+    55,
+    166,
+    75
+   ]
+  }
+ ]
+}

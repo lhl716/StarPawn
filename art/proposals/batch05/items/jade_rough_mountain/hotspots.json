@@ -1,0 +1,2315 @@
+{
+ "asset_key": "jade_rough_mountain",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "open_mountain_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "open_mountain_fissure",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
+   "bounds_px": [
+    160,
+    178,
+    224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.73828125,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    79,
+    89,
+    113,
+    100
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "combo__open_mountain_fissure__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "combo__open_mountain_fissure__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "combo__open_mountain_fissure__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
+   "bounds_px": [
+    160,
+    178,
+    224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "combo__open_mountain_fissure__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.73828125,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    79,
+    89,
+    113,
+    100
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_open_mountain_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_open_mountain_fissure",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_coarse_interior",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37890625,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    178,
+    90,
+    198,
+    104
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_coarse_interior",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37109375,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    44,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_black_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.484375,
+   "V": 0.41796875,
+   "Width": 0.11458333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    164,
+    90,
+    208,
+    124
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_black_band",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.41015625,
+   "Width": 0.11979166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    82,
+    44,
+    105,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
+   "bounds_px": [
+    160,
+    178,
+    224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.73828125,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    79,
+    89,
+    113,
+    100
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_colored_window",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_colored_window",
+   "Id": "colored_window",
+   "CauseId": "sp4_rough_mountain_colored_window",
+   "ViewId": "window",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.4140625,
+   "Width": 0.06770833333333333,
+   "Height": 0.09375,
+   "bounds_px": [
+    174,
+    94,
+    200,
+    118
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_colored_window",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_colored_window",
+   "Id": "colored_window",
+   "CauseId": "sp4_rough_mountain_colored_window",
+   "ViewId": "window",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.41015625,
+   "Width": 0.07291666666666667,
+   "Height": 0.1015625,
+   "bounds_px": [
+    87,
+    46,
+    101,
+    59
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37890625,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    178,
+    90,
+    198,
+    104
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37109375,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    44,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__black_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__black_band",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__black_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.484375,
+   "V": 0.41796875,
+   "Width": 0.11458333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    164,
+    90,
+    208,
+    124
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__black_band",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.41015625,
+   "Width": 0.11979166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    82,
+    44,
+    105,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
+   "bounds_px": [
+    160,
+    178,
+    224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.73828125,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    79,
+    89,
+    113,
+    100
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37890625,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    178,
+    90,
+    198,
+    104
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37109375,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    44,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
+   "bounds_px": [
+    160,
+    178,
+    224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_dou_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.73828125,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    79,
+    89,
+    113,
+    100
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_open_mountain_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_open_mountain_fissure",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_coarse_interior",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37890625,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    178,
+    90,
+    198,
+    104
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_coarse_interior",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37109375,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    44,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_black_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.484375,
+   "V": 0.41796875,
+   "Width": 0.11458333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    164,
+    90,
+    208,
+    124
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_black_band",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.41015625,
+   "Width": 0.11979166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    82,
+    44,
+    105,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
+   "bounds_px": [
+    160,
+    178,
+    224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.73828125,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    79,
+    89,
+    113,
+    100
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_colored_window",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_colored_window",
+   "Id": "colored_window",
+   "CauseId": "sp4_rough_mountain_colored_window",
+   "ViewId": "window",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.4140625,
+   "Width": 0.06770833333333333,
+   "Height": 0.09375,
+   "bounds_px": [
+    174,
+    94,
+    200,
+    118
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_colored_window",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_colored_window",
+   "Id": "colored_window",
+   "CauseId": "sp4_rough_mountain_colored_window",
+   "ViewId": "window",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.41015625,
+   "Width": 0.07291666666666667,
+   "Height": 0.1015625,
+   "bounds_px": [
+    87,
+    46,
+    101,
+    59
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37890625,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    178,
+    90,
+    198,
+    104
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37109375,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    44,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__black_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__black_band",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__black_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.484375,
+   "V": 0.41796875,
+   "Width": 0.11458333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    164,
+    90,
+    208,
+    124
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__black_band",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.41015625,
+   "Width": 0.11979166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    82,
+    44,
+    105,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
+   "bounds_px": [
+    160,
+    178,
+    224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.73828125,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    79,
+    89,
+    113,
+    100
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37890625,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    178,
+    90,
+    198,
+    104
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37109375,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    44,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
+   "bounds_px": [
+    160,
+    178,
+    224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_nuo_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.73828125,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    79,
+    89,
+    113,
+    100
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_open_mountain_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_open_mountain_fissure",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_coarse_interior",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37890625,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    178,
+    90,
+    198,
+    104
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_coarse_interior",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37109375,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    44,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_black_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.484375,
+   "V": 0.41796875,
+   "Width": 0.11458333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    164,
+    90,
+    208,
+    124
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_black_band",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.41015625,
+   "Width": 0.11979166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    82,
+    44,
+    105,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
+   "bounds_px": [
+    160,
+    178,
+    224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.73828125,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    79,
+    89,
+    113,
+    100
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_colored_window",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_colored_window",
+   "Id": "colored_window",
+   "CauseId": "sp4_rough_mountain_colored_window",
+   "ViewId": "window",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.4140625,
+   "Width": 0.06770833333333333,
+   "Height": 0.09375,
+   "bounds_px": [
+    174,
+    94,
+    200,
+    118
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_colored_window",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_colored_window",
+   "Id": "colored_window",
+   "CauseId": "sp4_rough_mountain_colored_window",
+   "ViewId": "window",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.41015625,
+   "Width": 0.07291666666666667,
+   "Height": 0.1015625,
+   "bounds_px": [
+    87,
+    46,
+    101,
+    59
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37890625,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    178,
+    90,
+    198,
+    104
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37109375,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    44,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__black_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__black_band",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__black_band",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.484375,
+   "V": 0.41796875,
+   "Width": 0.11458333333333333,
+   "Height": 0.1328125,
+   "bounds_px": [
+    164,
+    90,
+    208,
+    124
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__black_band",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_black_band",
+   "Id": "black_band",
+   "CauseId": "sp4_rough_mountain_black_band",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.4869791666666667,
+   "V": 0.41015625,
+   "Width": 0.11979166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    82,
+    44,
+    105,
+    61
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
+   "bounds_px": [
+    160,
+    178,
+    224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.73828125,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    79,
+    89,
+    113,
+    100
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.6328125,
+   "Width": 0.078125,
+   "Height": 0.1875,
+   "bounds_px": [
+    222,
+    138,
+    252,
+    186
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_open_mountain_fissure",
+   "Id": "open_mountain_fissure",
+   "CauseId": "sp4_rough_mountain_open_mountain_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.625,
+   "V": 0.640625,
+   "Width": 0.08333333333333333,
+   "Height": 0.203125,
+   "bounds_px": [
+    112,
+    69,
+    128,
+    95
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37890625,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    178,
+    90,
+    198,
+    104
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_coarse_interior",
+   "Id": "coarse_interior",
+   "CauseId": "sp4_rough_mountain_coarse_interior",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4895833333333333,
+   "V": 0.37109375,
+   "Width": 0.052083333333333336,
+   "Height": 0.0546875,
+   "bounds_px": [
+    89,
+    44,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.7265625,
+   "Width": 0.16666666666666666,
+   "Height": 0.0625,
+   "bounds_px": [
+    160,
+    178,
+    224,
+    194
+   ]
+  },
+  {
+   "asset_key": "jade_rough_mountain",
+   "state": "window_bing_combo__open_mountain_fissure__coarse_interior__filled_shell_seam",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_mountain_filled_shell_seam",
+   "Id": "filled_shell_seam",
+   "CauseId": "sp4_rough_mountain_filled_shell_seam",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.73828125,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    79,
+    89,
+    113,
+    100
+   ]
+  }
+ ]
+}

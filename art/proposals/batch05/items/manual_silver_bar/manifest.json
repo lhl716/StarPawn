@@ -1,0 +1,42 @@
+{
+ "asset_key": "manual_silver_bar",
+ "name_en": "Silver Bar Handbook",
+ "category": "manual",
+ "subtype": "",
+ "role": "manual",
+ "target_family_id": "sp31_manual_silver_bar",
+ "grid": [
+  2,
+  3
+ ],
+ "items_px": [
+  128,
+  192
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "closed": {
+   "paper": "paper/closed.png",
+   "items": "items/closed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "open_page_template": {
+   "paper": "paper/open_page_template.png",
+   "items": "items/open_page_template.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

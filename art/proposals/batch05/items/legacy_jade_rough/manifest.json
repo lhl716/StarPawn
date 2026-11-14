@@ -1,0 +1,59 @@
+{
+ "asset_key": "legacy_jade_rough",
+ "name_en": "Legacy Jade Rough",
+ "category": "jade_rough",
+ "subtype": "yellow",
+ "role": "legacy_appraisable",
+ "target_family_id": "legacy_jade_rough",
+ "grid": [
+  3,
+  2
+ ],
+ "items_px": [
+  192,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "jade_rough": {
+   "paper": "paper/jade_rough.png",
+   "items": "items/jade_rough.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "jade_rough__window": {
+   "paper": "paper/jade_rough__window.png",
+   "items": "items/jade_rough__window.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "jade_rough_cracked": {
+   "paper": "paper/jade_rough_cracked.png",
+   "items": "items/jade_rough_cracked.png",
+   "templates": [
+    "legacy_rough_crack"
+   ],
+   "view": "ordinary"
+  },
+  "jade_rough_cracked__window": {
+   "paper": "paper/jade_rough_cracked__window.png",
+   "items": "items/jade_rough_cracked__window.png",
+   "templates": [
+    "legacy_rough_crack",
+    "legacy_window_crack"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

@@ -1,0 +1,56 @@
+{
+ "asset_key": "legacy_gold_bracelet",
+ "name_en": "Legacy Gold Bracelet",
+ "category": "gold_bracelet",
+ "subtype": "",
+ "role": "legacy_appraisable",
+ "target_family_id": "legacy_gold_bracelet",
+ "grid": [
+  2,
+  2
+ ],
+ "items_px": [
+  128,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "gold_bracelet": {
+   "paper": "paper/gold_bracelet.png",
+   "items": "items/gold_bracelet.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "gold_bracelet_worn": {
+   "paper": "paper/gold_bracelet_worn.png",
+   "items": "items/gold_bracelet_worn.png",
+   "templates": [
+    "legacy_surface_wear",
+    "legacy_surface_seam",
+    "legacy_clasp_break"
+   ],
+   "view": "ordinary"
+  },
+  "gold_bracelet_plated": {
+   "paper": "paper/gold_bracelet_plated.png",
+   "items": "items/gold_bracelet_plated.png",
+   "templates": [
+    "legacy_plating_edge",
+    "legacy_plating_seam",
+    "legacy_clasp_break"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

@@ -51,7 +51,7 @@ internal static class AppraisalTests
         });
         Test("all appraisal categories have owned physical manuals and illustrated entries",()=>{
             foreach(var category in Appraisal.ManualCategories){Check(definitions.Any(d=>d.ManualFor==category&&d.IsBook&&d.ShopOnly),"Missing manual");Check(Appraisal.Handbook(category).Count>0,"Empty handbook");}
-            Check(definitions.Any(d=>d.IsOrganizer&&d.WidthCells==2&&d.HeightCells==2),"Missing organizer");
+            Check(definitions.Any(d=>d.IsOrganizer&&d.WidthCells==3&&d.HeightCells==3),"Missing organizer");
             foreach(var kind in Appraisal.InstrumentKinds)Check(definitions.Count(d=>d.InstrumentKind==kind)==1,"Instrument catalog mismatch");
         });
         Test("handbook is a generic fixed reference and does not consume patience or XP",()=>{

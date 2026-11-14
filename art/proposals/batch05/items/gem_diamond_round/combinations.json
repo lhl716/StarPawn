@@ -1,0 +1,139 @@
+{
+ "asset_key": "gem_diamond_round",
+ "combinations": [
+  {
+   "profile": "combo__girdle_chip__edge_feather",
+   "variant": "",
+   "templates": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_edge_feather"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_edge_feather"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__girdle_chip__table_abrasion",
+   "variant": "",
+   "templates": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_table_abrasion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_table_abrasion"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__girdle_chip__obscuring_cloud",
+   "variant": "",
+   "templates": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_obscuring_cloud"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_obscuring_cloud"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "combo__girdle_chip__edge_feather__table_abrasion",
+   "variant": "",
+   "templates": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_edge_feather",
+    "sp4_gem_diamond_table_abrasion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gem_diamond_girdle_chip",
+    "sp4_gem_diamond_edge_feather",
+    "sp4_gem_diamond_table_abrasion"
+   ],
+   "repaired_state": null
+  },
+  {
+   "profile": "girdle_chip",
+   "variant": "",
+   "templates": [
+    "sp4_gem_diamond_girdle_chip"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gem_diamond_girdle_chip"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "edge_feather",
+   "variant": "",
+   "templates": [
+    "sp4_gem_diamond_edge_feather"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gem_diamond_edge_feather"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "table_abrasion",
+   "variant": "",
+   "templates": [
+    "sp4_gem_diamond_table_abrasion"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gem_diamond_table_abrasion"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "obscuring_cloud",
+   "variant": "",
+   "templates": [
+    "sp4_gem_diamond_obscuring_cloud"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gem_diamond_obscuring_cloud"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "claim_mismatch",
+   "variant": "",
+   "templates": [
+    "sp4_gem_diamond_claim_mismatch"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gem_diamond_claim_mismatch"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": true
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

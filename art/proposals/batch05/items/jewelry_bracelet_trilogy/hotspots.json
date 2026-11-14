@@ -1,0 +1,5615 @@
+{
+ "asset_key": "jewelry_bracelet_trilogy",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_clasp_gap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_flat_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_flat_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_loose_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_loose_center",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.76953125,
+   "Width": 0.03125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    65,
+    96,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_missing_left",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2552083333333333,
+   "V": 0.58984375,
+   "Width": 0.10416666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    78,
+    132,
+    118,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_missing_left",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.59765625,
+   "Width": 0.109375,
+   "Height": 0.1015625,
+   "bounds_px": [
+    26,
+    70,
+    40,
+    83
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.76953125,
+   "Width": 0.03125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    65,
+    96,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_clasp_gap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_flat_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_flat_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_loose_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_loose_center",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_missing_left",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2552083333333333,
+   "V": 0.58984375,
+   "Width": 0.10416666666666667,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    136,
+    118,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_missing_left",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.59765625,
+   "Width": 0.109375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    26,
+    71,
+    40,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_clasp_gap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_flat_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_flat_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_loose_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_loose_center",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_missing_left",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2552083333333333,
+   "V": 0.58984375,
+   "Width": 0.10416666666666667,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    136,
+    118,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_missing_left",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.59765625,
+   "Width": 0.109375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    26,
+    71,
+    40,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_clasp_gap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_flat_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_flat_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_loose_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_loose_center",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_missing_left",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2552083333333333,
+   "V": 0.58984375,
+   "Width": 0.10416666666666667,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    136,
+    118,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_missing_left",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.59765625,
+   "Width": 0.109375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    26,
+    71,
+    40,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "au18k_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_clasp_gap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_flat_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_flat_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_loose_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_loose_center",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.76953125,
+   "Width": 0.03125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    65,
+    96,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_missing_left",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2552083333333333,
+   "V": 0.58984375,
+   "Width": 0.10416666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    78,
+    132,
+    118,
+    170
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_missing_left",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.59765625,
+   "Width": 0.109375,
+   "Height": 0.1015625,
+   "bounds_px": [
+    26,
+    70,
+    40,
+    83
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.76953125,
+   "Width": 0.03125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    65,
+    96,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_diamond_round_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_clasp_gap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_flat_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_flat_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_loose_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_loose_center",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_missing_left",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2552083333333333,
+   "V": 0.58984375,
+   "Width": 0.10416666666666667,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    136,
+    118,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_missing_left",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.59765625,
+   "Width": 0.109375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    26,
+    71,
+    40,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_ruby_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_clasp_gap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_flat_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_flat_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_loose_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_loose_center",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_missing_left",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2552083333333333,
+   "V": 0.58984375,
+   "Width": 0.10416666666666667,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    136,
+    118,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_missing_left",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.59765625,
+   "Width": 0.109375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    26,
+    71,
+    40,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_sapphire_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_clasp_gap",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_clasp_gap",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_flat_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_flat_link",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_loose_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_loose_center",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_missing_left",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2552083333333333,
+   "V": 0.58984375,
+   "Width": 0.10416666666666667,
+   "Height": 0.1171875,
+   "bounds_px": [
+    78,
+    136,
+    118,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_missing_left",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_missing_left",
+   "Id": "missing_left",
+   "CauseId": "sp4_jewelry_bracelet_missing_left",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.2578125,
+   "V": 0.59765625,
+   "Width": 0.109375,
+   "Height": 0.0859375,
+   "bounds_px": [
+    26,
+    71,
+    40,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__clasp_gap__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__clasp_gap__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.609375,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    196,
+    150,
+    208,
+    162
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_loose_center",
+   "Id": "loose_center",
+   "CauseId": "sp4_jewelry_bracelet_loose_center",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5234375,
+   "V": 0.7734375,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    65,
+    97,
+    69,
+    101
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__loose_center__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__loose_center__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.8932291666666666,
+   "V": 0.49609375,
+   "Width": 0.036458333333333336,
+   "Height": 0.0703125,
+   "bounds_px": [
+    336,
+    118,
+    350,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_clasp_gap",
+   "Id": "clasp_gap",
+   "CauseId": "sp4_jewelry_bracelet_clasp_gap",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.890625,
+   "V": 0.24609375,
+   "Width": 0.046875,
+   "Height": 0.0546875,
+   "bounds_px": [
+    111,
+    28,
+    117,
+    35
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.65625,
+   "Width": 0.052083333333333336,
+   "Height": 0.03125,
+   "bounds_px": [
+    122,
+    164,
+    142,
+    172
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_flat_link",
+   "Id": "flat_link",
+   "CauseId": "sp4_jewelry_bracelet_flat_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.33984375,
+   "V": 0.734375,
+   "Width": 0.0234375,
+   "Height": 0.015625,
+   "bounds_px": [
+    42,
+    93,
+    45,
+    95
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6119791666666666,
+   "V": 0.6328125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    230,
+    158,
+    240,
+    166
+   ]
+  },
+  {
+   "asset_key": "jewelry_bracelet_trilogy",
+   "state": "ag925_emerald_oval_combo__clasp_gap__flat_link__link_join",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "sp4_jewelry_bracelet_link_join",
+   "Id": "link_join",
+   "CauseId": "sp4_jewelry_bracelet_link_join",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6171875,
+   "V": 0.75,
+   "Width": 0.03125,
+   "Height": 0.03125,
+   "bounds_px": [
+    77,
+    94,
+    81,
+    98
+   ]
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "asset_key": "assay_sample",
+ "name_en": "Sealed Assay Sample",
+ "category": "assay_sample",
+ "subtype": "",
+ "role": "process_item",
+ "target_family_id": "sp4_assay_sample",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "sealed": {
+   "paper": "paper/sealed.png",
+   "items": "items/sealed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "tested": {
+   "paper": "paper/tested.png",
+   "items": "items/tested.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

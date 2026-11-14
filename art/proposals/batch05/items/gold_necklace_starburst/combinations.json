@@ -1,0 +1,143 @@
+{
+ "asset_key": "gold_necklace_starburst",
+ "combinations": [
+  {
+   "profile": "combo__tangled_run__link_plating",
+   "variant": "",
+   "templates": [
+    "sp4_gold_necklace_tangled_run",
+    "sp4_gold_necklace_link_plating"
+   ],
+   "repairable": [
+    "sp4_gold_necklace_tangled_run"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_necklace_link_plating"
+   ],
+   "repaired_state": "repaired__tangled_run__link_plating"
+  },
+  {
+   "profile": "combo__tangled_run__soldered_link",
+   "variant": "",
+   "templates": [
+    "sp4_gold_necklace_tangled_run",
+    "sp4_gold_necklace_soldered_link"
+   ],
+   "repairable": [
+    "sp4_gold_necklace_tangled_run"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_necklace_soldered_link"
+   ],
+   "repaired_state": "repaired__tangled_run__soldered_link"
+  },
+  {
+   "profile": "combo__open_link__link_plating",
+   "variant": "",
+   "templates": [
+    "sp4_gold_necklace_open_link",
+    "sp4_gold_necklace_link_plating"
+   ],
+   "repairable": [
+    "sp4_gold_necklace_open_link"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_necklace_link_plating"
+   ],
+   "repaired_state": "repaired__open_link__link_plating"
+  },
+  {
+   "profile": "combo__tangled_run__open_link__link_plating",
+   "variant": "",
+   "templates": [
+    "sp4_gold_necklace_tangled_run",
+    "sp4_gold_necklace_open_link",
+    "sp4_gold_necklace_link_plating"
+   ],
+   "repairable": [
+    "sp4_gold_necklace_tangled_run",
+    "sp4_gold_necklace_open_link"
+   ],
+   "retained_after_repair": [
+    "sp4_gold_necklace_link_plating"
+   ],
+   "repaired_state": "repaired__tangled_run__open_link__link_plating"
+  },
+  {
+   "profile": "tangled_run",
+   "variant": "",
+   "templates": [
+    "sp4_gold_necklace_tangled_run"
+   ],
+   "repairable": [
+    "sp4_gold_necklace_tangled_run"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "open_link",
+   "variant": "",
+   "templates": [
+    "sp4_gold_necklace_open_link"
+   ],
+   "repairable": [
+    "sp4_gold_necklace_open_link"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "clasp_jam",
+   "variant": "",
+   "templates": [
+    "sp4_gold_necklace_clasp_jam"
+   ],
+   "repairable": [
+    "sp4_gold_necklace_clasp_jam"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "link_plating",
+   "variant": "",
+   "templates": [
+    "sp4_gold_necklace_link_plating"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gold_necklace_link_plating"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "soldered_link",
+   "variant": "",
+   "templates": [
+    "sp4_gold_necklace_soldered_link"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_gold_necklace_soldered_link"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

@@ -1,0 +1,603 @@
+{
+ "asset_key": "gem_ruby_oval",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "crown_chip",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_crown_chip",
+   "Id": "crown_chip",
+   "CauseId": "sp4_gem_ruby_crown_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.69921875,
+   "Width": 0.08333333333333333,
+   "Height": 0.1171875,
+   "bounds_px": [
+    122,
+    164,
+    154,
+    194
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "crown_chip",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_crown_chip",
+   "Id": "crown_chip",
+   "CauseId": "sp4_gem_ruby_crown_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.28125,
+   "V": 0.703125,
+   "Width": 0.125,
+   "Height": 0.125,
+   "bounds_px": [
+    14,
+    41,
+    22,
+    49
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "surface_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_surface_fissure",
+   "Id": "surface_fissure",
+   "CauseId": "sp4_gem_ruby_surface_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6354166666666666,
+   "V": 0.6640625,
+   "Width": 0.0625,
+   "Height": 0.109375,
+   "bounds_px": [
+    232,
+    156,
+    256,
+    184
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "surface_fissure",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_surface_fissure",
+   "Id": "surface_fissure",
+   "CauseId": "sp4_gem_ruby_surface_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7109375,
+   "V": 0.65625,
+   "Width": 0.109375,
+   "Height": 0.09375,
+   "bounds_px": [
+    42,
+    39,
+    49,
+    45
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "dark_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_dark_inclusion",
+   "Id": "dark_inclusion",
+   "CauseId": "sp4_gem_ruby_dark_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.5078125,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    154,
+    124,
+    168,
+    136
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "dark_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_dark_inclusion",
+   "Id": "dark_inclusion",
+   "CauseId": "sp4_gem_ruby_dark_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3828125,
+   "V": 0.515625,
+   "Width": 0.109375,
+   "Height": 0.09375,
+   "bounds_px": [
+    21,
+    30,
+    28,
+    36
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "filled_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_filled_fissure",
+   "Id": "filled_fissure",
+   "CauseId": "sp4_gem_ruby_filled_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "lab_report",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_lab_report",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "filled_fissure",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_filled_fissure",
+   "Id": "filled_fissure",
+   "CauseId": "sp4_gem_ruby_filled_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "lab_report",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_lab_report",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "glass_substitute",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_glass_substitute",
+   "Id": "glass_substitute",
+   "CauseId": "sp4_gem_ruby_glass_substitute",
+   "ViewId": "front",
+   "InstrumentKind": "lab_report",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_lab_report",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "glass_substitute",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_glass_substitute",
+   "Id": "glass_substitute",
+   "CauseId": "sp4_gem_ruby_glass_substitute",
+   "ViewId": "front",
+   "InstrumentKind": "lab_report",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_lab_report",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__surface_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_crown_chip",
+   "Id": "crown_chip",
+   "CauseId": "sp4_gem_ruby_crown_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.69921875,
+   "Width": 0.08333333333333333,
+   "Height": 0.1171875,
+   "bounds_px": [
+    122,
+    164,
+    154,
+    194
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__surface_fissure",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_crown_chip",
+   "Id": "crown_chip",
+   "CauseId": "sp4_gem_ruby_crown_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.28125,
+   "V": 0.703125,
+   "Width": 0.125,
+   "Height": 0.125,
+   "bounds_px": [
+    14,
+    41,
+    22,
+    49
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__surface_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_surface_fissure",
+   "Id": "surface_fissure",
+   "CauseId": "sp4_gem_ruby_surface_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6354166666666666,
+   "V": 0.6640625,
+   "Width": 0.0625,
+   "Height": 0.109375,
+   "bounds_px": [
+    232,
+    156,
+    256,
+    184
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__surface_fissure",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_surface_fissure",
+   "Id": "surface_fissure",
+   "CauseId": "sp4_gem_ruby_surface_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7109375,
+   "V": 0.65625,
+   "Width": 0.109375,
+   "Height": 0.09375,
+   "bounds_px": [
+    42,
+    39,
+    49,
+    45
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__dark_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_crown_chip",
+   "Id": "crown_chip",
+   "CauseId": "sp4_gem_ruby_crown_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.69921875,
+   "Width": 0.08333333333333333,
+   "Height": 0.1171875,
+   "bounds_px": [
+    122,
+    164,
+    154,
+    194
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__dark_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_crown_chip",
+   "Id": "crown_chip",
+   "CauseId": "sp4_gem_ruby_crown_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.28125,
+   "V": 0.703125,
+   "Width": 0.125,
+   "Height": 0.125,
+   "bounds_px": [
+    14,
+    41,
+    22,
+    49
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__dark_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_dark_inclusion",
+   "Id": "dark_inclusion",
+   "CauseId": "sp4_gem_ruby_dark_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.5078125,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    154,
+    124,
+    168,
+    136
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__dark_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_dark_inclusion",
+   "Id": "dark_inclusion",
+   "CauseId": "sp4_gem_ruby_dark_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3828125,
+   "V": 0.515625,
+   "Width": 0.109375,
+   "Height": 0.09375,
+   "bounds_px": [
+    21,
+    30,
+    28,
+    36
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__surface_fissure__dark_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_crown_chip",
+   "Id": "crown_chip",
+   "CauseId": "sp4_gem_ruby_crown_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.69921875,
+   "Width": 0.08333333333333333,
+   "Height": 0.1171875,
+   "bounds_px": [
+    122,
+    164,
+    154,
+    194
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__surface_fissure__dark_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_crown_chip",
+   "Id": "crown_chip",
+   "CauseId": "sp4_gem_ruby_crown_chip",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.28125,
+   "V": 0.703125,
+   "Width": 0.125,
+   "Height": 0.125,
+   "bounds_px": [
+    14,
+    41,
+    22,
+    49
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__surface_fissure__dark_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_surface_fissure",
+   "Id": "surface_fissure",
+   "CauseId": "sp4_gem_ruby_surface_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6354166666666666,
+   "V": 0.6640625,
+   "Width": 0.0625,
+   "Height": 0.109375,
+   "bounds_px": [
+    232,
+    156,
+    256,
+    184
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__surface_fissure__dark_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_surface_fissure",
+   "Id": "surface_fissure",
+   "CauseId": "sp4_gem_ruby_surface_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7109375,
+   "V": 0.65625,
+   "Width": 0.109375,
+   "Height": 0.09375,
+   "bounds_px": [
+    42,
+    39,
+    49,
+    45
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__surface_fissure__dark_inclusion",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gem_ruby_dark_inclusion",
+   "Id": "dark_inclusion",
+   "CauseId": "sp4_gem_ruby_dark_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4192708333333333,
+   "V": 0.5078125,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    154,
+    124,
+    168,
+    136
+   ]
+  },
+  {
+   "asset_key": "gem_ruby_oval",
+   "state": "combo__crown_chip__surface_fissure__dark_inclusion",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_gem_ruby_dark_inclusion",
+   "Id": "dark_inclusion",
+   "CauseId": "sp4_gem_ruby_dark_inclusion",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3828125,
+   "V": 0.515625,
+   "Width": 0.109375,
+   "Height": 0.09375,
+   "bounds_px": [
+    21,
+    30,
+    28,
+    36
+   ]
+  }
+ ]
+}

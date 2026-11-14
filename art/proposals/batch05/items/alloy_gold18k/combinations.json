@@ -1,0 +1,128 @@
+{
+ "asset_key": "alloy_gold18k",
+ "combinations": [
+  {
+   "profile": "combo__segregated_face__altered_karat_stamp",
+   "variant": "",
+   "templates": [
+    "sp4_alloy_gold_bar_segregated_face",
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "repairable": [
+    "sp4_alloy_gold_bar_segregated_face"
+   ],
+   "retained_after_repair": [
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "repaired_state": "repaired__segregated_face__altered_karat_stamp"
+  },
+  {
+   "profile": "combo__cast_crack__altered_karat_stamp",
+   "variant": "",
+   "templates": [
+    "sp4_alloy_gold_bar_cast_crack",
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "repairable": [
+    "sp4_alloy_gold_bar_cast_crack"
+   ],
+   "retained_after_repair": [
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "repaired_state": "repaired__cast_crack__altered_karat_stamp"
+  },
+  {
+   "profile": "combo__segregated_face__cast_crack__altered_karat_stamp",
+   "variant": "",
+   "templates": [
+    "sp4_alloy_gold_bar_segregated_face",
+    "sp4_alloy_gold_bar_cast_crack",
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "repairable": [
+    "sp4_alloy_gold_bar_segregated_face",
+    "sp4_alloy_gold_bar_cast_crack"
+   ],
+   "retained_after_repair": [
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "repaired_state": "repaired__segregated_face__cast_crack__altered_karat_stamp"
+  },
+  {
+   "profile": "karat_shortfall",
+   "variant": "",
+   "templates": [
+    "sp4_alloy_gold_bar_karat_shortfall"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_alloy_gold_bar_karat_shortfall"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": true
+  },
+  {
+   "profile": "segregated_face",
+   "variant": "",
+   "templates": [
+    "sp4_alloy_gold_bar_segregated_face"
+   ],
+   "repairable": [
+    "sp4_alloy_gold_bar_segregated_face"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "cast_crack",
+   "variant": "",
+   "templates": [
+    "sp4_alloy_gold_bar_cast_crack"
+   ],
+   "repairable": [
+    "sp4_alloy_gold_bar_cast_crack"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "short_weight",
+   "variant": "",
+   "templates": [
+    "sp4_alloy_gold_bar_short_weight"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_alloy_gold_bar_short_weight"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": true
+  },
+  {
+   "profile": "altered_karat_stamp",
+   "variant": "",
+   "templates": [
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

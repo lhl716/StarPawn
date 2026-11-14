@@ -1,0 +1,310 @@
+{
+ "assembly_asset_key": "jewelry_pendant_bezel",
+ "socket_count": 1,
+ "sockets": [
+  "bezel_center"
+ ],
+ "bindings": [
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "au18k_diamond_round",
+   "image": "paper",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_diamond_round_stone_bezel_center.png",
+   "socket_center_px": [
+    192.0,
+    148.88
+   ],
+   "scale_from_source": 0.507,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "au18k_diamond_round",
+   "image": "items",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_diamond_round_stone_bezel_center.png",
+   "socket_center_px": [
+    32.0,
+    71.25
+   ],
+   "scale_from_source": 0.7041,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "au18k_ruby_oval",
+   "image": "paper",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_ruby_oval",
+   "stone_source_layer": "items/gem_ruby_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_ruby_oval_stone_bezel_center.png",
+   "socket_center_px": [
+    192.0,
+    148.88
+   ],
+   "scale_from_source": 0.507,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "au18k_ruby_oval",
+   "image": "items",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_ruby_oval",
+   "stone_source_layer": "items/gem_ruby_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_ruby_oval_stone_bezel_center.png",
+   "socket_center_px": [
+    32.0,
+    71.25
+   ],
+   "scale_from_source": 0.7041,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "au18k_sapphire_pear",
+   "image": "paper",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_sapphire_pear",
+   "stone_source_layer": "items/gem_sapphire_pear/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_sapphire_pear_stone_bezel_center.png",
+   "socket_center_px": [
+    192.0,
+    148.88
+   ],
+   "scale_from_source": 0.507,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "au18k_sapphire_pear",
+   "image": "items",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_sapphire_pear",
+   "stone_source_layer": "items/gem_sapphire_pear/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_sapphire_pear_stone_bezel_center.png",
+   "socket_center_px": [
+    32.0,
+    71.25
+   ],
+   "scale_from_source": 0.7041,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "au18k_emerald_oval",
+   "image": "paper",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_emerald_oval_stone_bezel_center.png",
+   "socket_center_px": [
+    192.0,
+    148.88
+   ],
+   "scale_from_source": 0.507,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "au18k_emerald_oval",
+   "image": "items",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_emerald_oval_stone_bezel_center.png",
+   "socket_center_px": [
+    32.0,
+    71.25
+   ],
+   "scale_from_source": 0.7041,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "au18k_pearl_baroque",
+   "image": "paper",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_pearl_baroque",
+   "stone_source_layer": "items/gem_pearl_baroque/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/au18k_pearl_baroque_stone_bezel_center.png",
+   "socket_center_px": [
+    192.0,
+    148.88
+   ],
+   "scale_from_source": 0.507,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "au18k_pearl_baroque",
+   "image": "items",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_pearl_baroque",
+   "stone_source_layer": "items/gem_pearl_baroque/layers/items/base_intact.png",
+   "stone_layer": "layers/items/au18k_pearl_baroque_stone_bezel_center.png",
+   "socket_center_px": [
+    32.0,
+    71.25
+   ],
+   "scale_from_source": 0.7041,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "ag925_diamond_round",
+   "image": "paper",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_diamond_round_stone_bezel_center.png",
+   "socket_center_px": [
+    192.0,
+    148.88
+   ],
+   "scale_from_source": 0.507,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "ag925_diamond_round",
+   "image": "items",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_diamond_round",
+   "stone_source_layer": "items/gem_diamond_round/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_diamond_round_stone_bezel_center.png",
+   "socket_center_px": [
+    32.0,
+    71.25
+   ],
+   "scale_from_source": 0.7041,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "ag925_ruby_oval",
+   "image": "paper",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_ruby_oval",
+   "stone_source_layer": "items/gem_ruby_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_ruby_oval_stone_bezel_center.png",
+   "socket_center_px": [
+    192.0,
+    148.88
+   ],
+   "scale_from_source": 0.507,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "ag925_ruby_oval",
+   "image": "items",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_ruby_oval",
+   "stone_source_layer": "items/gem_ruby_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_ruby_oval_stone_bezel_center.png",
+   "socket_center_px": [
+    32.0,
+    71.25
+   ],
+   "scale_from_source": 0.7041,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "ag925_sapphire_pear",
+   "image": "paper",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_sapphire_pear",
+   "stone_source_layer": "items/gem_sapphire_pear/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_sapphire_pear_stone_bezel_center.png",
+   "socket_center_px": [
+    192.0,
+    148.88
+   ],
+   "scale_from_source": 0.507,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "ag925_sapphire_pear",
+   "image": "items",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_sapphire_pear",
+   "stone_source_layer": "items/gem_sapphire_pear/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_sapphire_pear_stone_bezel_center.png",
+   "socket_center_px": [
+    32.0,
+    71.25
+   ],
+   "scale_from_source": 0.7041,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "ag925_emerald_oval",
+   "image": "paper",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_emerald_oval_stone_bezel_center.png",
+   "socket_center_px": [
+    192.0,
+    148.88
+   ],
+   "scale_from_source": 0.507,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "ag925_emerald_oval",
+   "image": "items",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_emerald_oval",
+   "stone_source_layer": "items/gem_emerald_oval/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_emerald_oval_stone_bezel_center.png",
+   "socket_center_px": [
+    32.0,
+    71.25
+   ],
+   "scale_from_source": 0.7041,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "ag925_pearl_baroque",
+   "image": "paper",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_pearl_baroque",
+   "stone_source_layer": "items/gem_pearl_baroque/layers/paper/base_intact.png",
+   "stone_layer": "layers/paper/ag925_pearl_baroque_stone_bezel_center.png",
+   "socket_center_px": [
+    192.0,
+    148.88
+   ],
+   "scale_from_source": 0.507,
+   "setting_asset_key": "setting_pendant"
+  },
+  {
+   "assembly": "jewelry_pendant_bezel",
+   "variant": "ag925_pearl_baroque",
+   "image": "items",
+   "socket_id": "bezel_center",
+   "stone_asset_key": "gem_pearl_baroque",
+   "stone_source_layer": "items/gem_pearl_baroque/layers/items/base_intact.png",
+   "stone_layer": "layers/items/ag925_pearl_baroque_stone_bezel_center.png",
+   "socket_center_px": [
+    32.0,
+    71.25
+   ],
+   "scale_from_source": 0.7041,
+   "setting_asset_key": "setting_pendant"
+  }
+ ],
+ "note": "scale_from_source maps the loose stone's authored layer onto the socket; stones are redrawn at socket size, not resampled."
+}

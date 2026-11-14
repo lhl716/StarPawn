@@ -1,0 +1,709 @@
+{
+ "asset_key": "ore_silver",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "ore_silver",
+   "state": "low_silver_grade",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_low_silver_grade",
+   "Id": "low_silver_grade",
+   "CauseId": "sp4_ore_silver_low_silver_grade",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_assay",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "low_silver_grade",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_low_silver_grade",
+   "Id": "low_silver_grade",
+   "CauseId": "sp4_ore_silver_low_silver_grade",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": null,
+   "V": null,
+   "Width": null,
+   "Height": null,
+   "bounds_px": null,
+   "reveal_gate": "recorded_assay",
+   "note": "instrument/record-only: intact art reused, no clickable region"
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "coarse_gangue",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_coarse_gangue",
+   "Id": "coarse_gangue",
+   "CauseId": "sp4_ore_silver_coarse_gangue",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2526041666666667,
+   "V": 0.45703125,
+   "Width": 0.171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    64,
+    92,
+    130,
+    142
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "coarse_gangue",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_coarse_gangue",
+   "Id": "coarse_gangue",
+   "CauseId": "sp4_ore_silver_coarse_gangue",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2421875,
+   "V": 0.45703125,
+   "Width": 0.171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    30,
+    46,
+    63,
+    71
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "painted_sheen",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_painted_sheen",
+   "Id": "painted_sheen",
+   "CauseId": "sp4_ore_silver_painted_sheen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.25390625,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    168,
+    54,
+    236,
+    76
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "painted_sheen",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_painted_sheen",
+   "Id": "painted_sheen",
+   "CauseId": "sp4_ore_silver_painted_sheen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.24609375,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    84,
+    26,
+    118,
+    37
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "moisture_mass",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_moisture_mass",
+   "Id": "moisture_mass",
+   "CauseId": "sp4_ore_silver_moisture_mass",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.71484375,
+   "Width": 0.3385416666666667,
+   "Height": 0.0390625,
+   "bounds_px": [
+    158,
+    178,
+    288,
+    188
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "moisture_mass",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_moisture_mass",
+   "Id": "moisture_mass",
+   "CauseId": "sp4_ore_silver_moisture_mass",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.5859375,
+   "V": 0.72265625,
+   "Width": 0.3489583333333333,
+   "Height": 0.0390625,
+   "bounds_px": [
+    79,
+    90,
+    146,
+    95
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "mixed_source",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_mixed_source",
+   "Id": "mixed_source",
+   "CauseId": "sp4_ore_silver_mixed_source",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7890625,
+   "V": 0.45703125,
+   "Width": 0.18229166666666666,
+   "Height": 0.3046875,
+   "bounds_px": [
+    268,
+    78,
+    338,
+    156
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "mixed_source",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_mixed_source",
+   "Id": "mixed_source",
+   "CauseId": "sp4_ore_silver_mixed_source",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7994791666666666,
+   "V": 0.45703125,
+   "Width": 0.18229166666666666,
+   "Height": 0.3046875,
+   "bounds_px": [
+    136,
+    39,
+    171,
+    78
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__painted_sheen",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_coarse_gangue",
+   "Id": "coarse_gangue",
+   "CauseId": "sp4_ore_silver_coarse_gangue",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2526041666666667,
+   "V": 0.45703125,
+   "Width": 0.171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    64,
+    92,
+    130,
+    142
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__painted_sheen",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_coarse_gangue",
+   "Id": "coarse_gangue",
+   "CauseId": "sp4_ore_silver_coarse_gangue",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2421875,
+   "V": 0.45703125,
+   "Width": 0.171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    30,
+    46,
+    63,
+    71
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__painted_sheen",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_painted_sheen",
+   "Id": "painted_sheen",
+   "CauseId": "sp4_ore_silver_painted_sheen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.25390625,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    168,
+    54,
+    236,
+    76
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__painted_sheen",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_painted_sheen",
+   "Id": "painted_sheen",
+   "CauseId": "sp4_ore_silver_painted_sheen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.24609375,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    84,
+    26,
+    118,
+    37
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__moisture_mass",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_coarse_gangue",
+   "Id": "coarse_gangue",
+   "CauseId": "sp4_ore_silver_coarse_gangue",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2526041666666667,
+   "V": 0.45703125,
+   "Width": 0.171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    64,
+    92,
+    130,
+    142
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__moisture_mass",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_coarse_gangue",
+   "Id": "coarse_gangue",
+   "CauseId": "sp4_ore_silver_coarse_gangue",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2421875,
+   "V": 0.45703125,
+   "Width": 0.171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    30,
+    46,
+    63,
+    71
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__moisture_mass",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_moisture_mass",
+   "Id": "moisture_mass",
+   "CauseId": "sp4_ore_silver_moisture_mass",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.71484375,
+   "Width": 0.3385416666666667,
+   "Height": 0.0390625,
+   "bounds_px": [
+    158,
+    178,
+    288,
+    188
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__moisture_mass",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_moisture_mass",
+   "Id": "moisture_mass",
+   "CauseId": "sp4_ore_silver_moisture_mass",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.5859375,
+   "V": 0.72265625,
+   "Width": 0.3489583333333333,
+   "Height": 0.0390625,
+   "bounds_px": [
+    79,
+    90,
+    146,
+    95
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__mixed_source",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_coarse_gangue",
+   "Id": "coarse_gangue",
+   "CauseId": "sp4_ore_silver_coarse_gangue",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2526041666666667,
+   "V": 0.45703125,
+   "Width": 0.171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    64,
+    92,
+    130,
+    142
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__mixed_source",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_coarse_gangue",
+   "Id": "coarse_gangue",
+   "CauseId": "sp4_ore_silver_coarse_gangue",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2421875,
+   "V": 0.45703125,
+   "Width": 0.171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    30,
+    46,
+    63,
+    71
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__mixed_source",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_mixed_source",
+   "Id": "mixed_source",
+   "CauseId": "sp4_ore_silver_mixed_source",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7890625,
+   "V": 0.45703125,
+   "Width": 0.18229166666666666,
+   "Height": 0.3046875,
+   "bounds_px": [
+    268,
+    78,
+    338,
+    156
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__mixed_source",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_mixed_source",
+   "Id": "mixed_source",
+   "CauseId": "sp4_ore_silver_mixed_source",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7994791666666666,
+   "V": 0.45703125,
+   "Width": 0.18229166666666666,
+   "Height": 0.3046875,
+   "bounds_px": [
+    136,
+    39,
+    171,
+    78
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__painted_sheen__moisture_mass",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_coarse_gangue",
+   "Id": "coarse_gangue",
+   "CauseId": "sp4_ore_silver_coarse_gangue",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2526041666666667,
+   "V": 0.45703125,
+   "Width": 0.171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    64,
+    92,
+    130,
+    142
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__painted_sheen__moisture_mass",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_coarse_gangue",
+   "Id": "coarse_gangue",
+   "CauseId": "sp4_ore_silver_coarse_gangue",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2421875,
+   "V": 0.45703125,
+   "Width": 0.171875,
+   "Height": 0.1953125,
+   "bounds_px": [
+    30,
+    46,
+    63,
+    71
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__painted_sheen__moisture_mass",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_painted_sheen",
+   "Id": "painted_sheen",
+   "CauseId": "sp4_ore_silver_painted_sheen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.25390625,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    168,
+    54,
+    236,
+    76
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__painted_sheen__moisture_mass",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_painted_sheen",
+   "Id": "painted_sheen",
+   "CauseId": "sp4_ore_silver_painted_sheen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.24609375,
+   "Width": 0.17708333333333334,
+   "Height": 0.0859375,
+   "bounds_px": [
+    84,
+    26,
+    118,
+    37
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__painted_sheen__moisture_mass",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_ore_silver_moisture_mass",
+   "Id": "moisture_mass",
+   "CauseId": "sp4_ore_silver_moisture_mass",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.71484375,
+   "Width": 0.3385416666666667,
+   "Height": 0.0390625,
+   "bounds_px": [
+    158,
+    178,
+    288,
+    188
+   ]
+  },
+  {
+   "asset_key": "ore_silver",
+   "state": "combo__coarse_gangue__painted_sheen__moisture_mass",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_ore_silver_moisture_mass",
+   "Id": "moisture_mass",
+   "CauseId": "sp4_ore_silver_moisture_mass",
+   "ViewId": "front",
+   "InstrumentKind": "scale",
+   "status": "planned_04_not_runtime",
+   "U": 0.5859375,
+   "V": 0.72265625,
+   "Width": 0.3489583333333333,
+   "Height": 0.0390625,
+   "bounds_px": [
+    79,
+    90,
+    146,
+    95
+   ]
+  }
+ ]
+}

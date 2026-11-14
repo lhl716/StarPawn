@@ -1,0 +1,131 @@
+{
+ "asset_key": "legacy_painting",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "legacy_painting",
+   "state": "painting_forged",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_seal_mismatch",
+   "Id": "seal_mismatch",
+   "CauseId": "painting_authenticity",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.848,
+    0.725
+   ],
+   "U": 0.71875,
+   "V": 0.7109375,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    268,
+    176,
+    284,
+    188
+   ]
+  },
+  {
+   "asset_key": "legacy_painting",
+   "state": "painting_forged",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "legacy_seal_mismatch",
+   "Id": "seal_mismatch",
+   "CauseId": "painting_authenticity",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.848,
+    0.725
+   ],
+   "U": 0.7317708333333334,
+   "V": 0.71875,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    137,
+    89,
+    144,
+    95
+   ]
+  },
+  {
+   "asset_key": "legacy_painting",
+   "state": "painting_forged",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_print_dots",
+   "Id": "print_dots",
+   "CauseId": "painting_authenticity",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.374,
+    0.507
+   ],
+   "U": 0.4348958333333333,
+   "V": 0.33984375,
+   "Width": 0.18229166666666666,
+   "Height": 0.1484375,
+   "bounds_px": [
+    132,
+    68,
+    202,
+    106
+   ]
+  },
+  {
+   "asset_key": "legacy_painting",
+   "state": "painting_forged",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "legacy_print_dots",
+   "Id": "print_dots",
+   "CauseId": "painting_authenticity",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.374,
+    0.507
+   ],
+   "U": 0.4348958333333333,
+   "V": 0.33203125,
+   "Width": 0.18229166666666666,
+   "Height": 0.1640625,
+   "bounds_px": [
+    66,
+    32,
+    101,
+    53
+   ]
+  }
+ ]
+}

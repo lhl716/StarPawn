@@ -1,0 +1,44 @@
+{
+ "asset_key": "legacy_book",
+ "name_en": "Legacy Signed Book",
+ "category": "book",
+ "subtype": "",
+ "role": "legacy_appraisable",
+ "target_family_id": "legacy_book",
+ "grid": [
+  2,
+  3
+ ],
+ "items_px": [
+  128,
+  192
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "book": {
+   "paper": "paper/book.png",
+   "items": "items/book.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "book_reprint": {
+   "paper": "paper/book_reprint.png",
+   "items": "items/book_reprint.png",
+   "templates": [
+    "legacy_reprint_mark"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

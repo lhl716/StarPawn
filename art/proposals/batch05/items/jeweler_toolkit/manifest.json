@@ -1,0 +1,48 @@
+{
+ "asset_key": "jeweler_toolkit",
+ "name_en": "Jeweler Toolkit",
+ "category": "jeweler_toolkit",
+ "subtype": "",
+ "role": "tool",
+ "target_family_id": "sp4_jeweler_toolkit",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "closed": {
+   "paper": "paper/closed.png",
+   "items": "items/closed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "in_use": {
+   "paper": "paper/in_use.png",
+   "items": "items/in_use.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "maintenance": {
+   "paper": "paper/maintenance.png",
+   "items": "items/maintenance.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

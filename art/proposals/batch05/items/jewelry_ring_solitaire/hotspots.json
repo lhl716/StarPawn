@@ -1,0 +1,7015 @@
+{
+ "asset_key": "jewelry_ring_solitaire",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_loose_prong",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_loose_prong",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_shank_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_shank_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_missing_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.23046875,
+   "Width": 0.17708333333333334,
+   "Height": 0.2734375,
+   "bounds_px": [
+    158,
+    24,
+    226,
+    94
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_missing_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.234375,
+   "Width": 0.28125,
+   "Height": 0.28125,
+   "bounds_px": [
+    23,
+    6,
+    41,
+    24
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_tool_scars",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.5078125,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    130,
+    124,
+    146,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_tool_scars",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.515625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    17,
+    30,
+    20,
+    36
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.23046875,
+   "Width": 0.17708333333333334,
+   "Height": 0.2734375,
+   "bounds_px": [
+    158,
+    24,
+    226,
+    94
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.234375,
+   "Width": 0.28125,
+   "Height": 0.28125,
+   "bounds_px": [
+    23,
+    6,
+    41,
+    24
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_loose_prong",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_loose_prong",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_shank_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_shank_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_missing_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.15625,
+   "Height": 0.234375,
+   "bounds_px": [
+    162,
+    28,
+    222,
+    88
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_missing_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.25,
+   "Height": 0.234375,
+   "bounds_px": [
+    24,
+    7,
+    40,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_tool_scars",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.5078125,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    130,
+    124,
+    146,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_tool_scars",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.515625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    17,
+    30,
+    20,
+    36
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.15625,
+   "Height": 0.234375,
+   "bounds_px": [
+    162,
+    28,
+    222,
+    88
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.25,
+   "Height": 0.234375,
+   "bounds_px": [
+    24,
+    7,
+    40,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_loose_prong",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_loose_prong",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_shank_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_shank_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_missing_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.17708333333333334,
+   "Height": 0.203125,
+   "bounds_px": [
+    158,
+    32,
+    226,
+    84
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_missing_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    23,
+    8,
+    41,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_tool_scars",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.5078125,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    130,
+    124,
+    146,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_tool_scars",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.515625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    17,
+    30,
+    20,
+    36
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.17708333333333334,
+   "Height": 0.203125,
+   "bounds_px": [
+    158,
+    32,
+    226,
+    84
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    23,
+    8,
+    41,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_loose_prong",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_loose_prong",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_shank_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_shank_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_missing_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.17708333333333334,
+   "Height": 0.203125,
+   "bounds_px": [
+    158,
+    32,
+    226,
+    84
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_missing_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    23,
+    8,
+    41,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_tool_scars",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.5078125,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    130,
+    124,
+    146,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_tool_scars",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.515625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    17,
+    30,
+    20,
+    36
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.17708333333333334,
+   "Height": 0.203125,
+   "bounds_px": [
+    158,
+    32,
+    226,
+    84
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    23,
+    8,
+    41,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_loose_prong",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5416666666666666,
+   "V": 0.296875,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    218,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_loose_prong",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_shank_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_shank_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_missing_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.23046875,
+   "Width": 0.13541666666666666,
+   "Height": 0.2578125,
+   "bounds_px": [
+    166,
+    26,
+    218,
+    92
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_missing_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.21875,
+   "Height": 0.265625,
+   "bounds_px": [
+    25,
+    6,
+    39,
+    23
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_tool_scars",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.5078125,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    130,
+    124,
+    146,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_tool_scars",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.515625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    17,
+    30,
+    20,
+    36
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5416666666666666,
+   "V": 0.296875,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    218,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.23046875,
+   "Width": 0.13541666666666666,
+   "Height": 0.2578125,
+   "bounds_px": [
+    166,
+    26,
+    218,
+    92
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.21875,
+   "Height": 0.265625,
+   "bounds_px": [
+    25,
+    6,
+    39,
+    23
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5416666666666666,
+   "V": 0.296875,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    218,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "au18k_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_loose_prong",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_loose_prong",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_shank_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_shank_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_missing_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.23046875,
+   "Width": 0.17708333333333334,
+   "Height": 0.2734375,
+   "bounds_px": [
+    158,
+    24,
+    226,
+    94
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_missing_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.234375,
+   "Width": 0.28125,
+   "Height": 0.28125,
+   "bounds_px": [
+    23,
+    6,
+    41,
+    24
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_tool_scars",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.5078125,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    130,
+    124,
+    146,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_tool_scars",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.515625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    17,
+    30,
+    20,
+    36
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.23046875,
+   "Width": 0.17708333333333334,
+   "Height": 0.2734375,
+   "bounds_px": [
+    158,
+    24,
+    226,
+    94
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.234375,
+   "Width": 0.28125,
+   "Height": 0.28125,
+   "bounds_px": [
+    23,
+    6,
+    41,
+    24
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_round_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_loose_prong",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_loose_prong",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_shank_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_shank_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_missing_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.15625,
+   "Height": 0.234375,
+   "bounds_px": [
+    162,
+    28,
+    222,
+    88
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_missing_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.25,
+   "Height": 0.234375,
+   "bounds_px": [
+    24,
+    7,
+    40,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_tool_scars",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.5078125,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    130,
+    124,
+    146,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_tool_scars",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.515625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    17,
+    30,
+    20,
+    36
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.15625,
+   "Height": 0.234375,
+   "bounds_px": [
+    162,
+    28,
+    222,
+    88
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.25,
+   "Height": 0.234375,
+   "bounds_px": [
+    24,
+    7,
+    40,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.546875,
+   "V": 0.296875,
+   "Width": 0.0625,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    222,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_diamond_princess_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_loose_prong",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_loose_prong",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_shank_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_shank_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_missing_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.17708333333333334,
+   "Height": 0.203125,
+   "bounds_px": [
+    158,
+    32,
+    226,
+    84
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_missing_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    23,
+    8,
+    41,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_tool_scars",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.5078125,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    130,
+    124,
+    146,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_tool_scars",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.515625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    17,
+    30,
+    20,
+    36
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.17708333333333334,
+   "Height": 0.203125,
+   "bounds_px": [
+    158,
+    32,
+    226,
+    84
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    23,
+    8,
+    41,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_ruby_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_loose_prong",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_loose_prong",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_shank_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_shank_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_missing_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.17708333333333334,
+   "Height": 0.203125,
+   "bounds_px": [
+    158,
+    32,
+    226,
+    84
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_missing_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    23,
+    8,
+    41,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_tool_scars",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.5078125,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    130,
+    124,
+    146,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_tool_scars",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.515625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    17,
+    30,
+    20,
+    36
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.17708333333333334,
+   "Height": 0.203125,
+   "bounds_px": [
+    158,
+    32,
+    226,
+    84
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.28125,
+   "Height": 0.203125,
+   "bounds_px": [
+    23,
+    8,
+    41,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5442708333333334,
+   "V": 0.2890625,
+   "Width": 0.057291666666666664,
+   "Height": 0.0625,
+   "bounds_px": [
+    198,
+    66,
+    220,
+    82
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.296875,
+   "Width": 0.078125,
+   "Height": 0.0625,
+   "bounds_px": [
+    33,
+    17,
+    38,
+    21
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_sapphire_oval_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_loose_prong",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5416666666666666,
+   "V": 0.296875,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    218,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_loose_prong",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_shank_dent",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_shank_dent",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_missing_center",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.23046875,
+   "Width": 0.13541666666666666,
+   "Height": 0.2578125,
+   "bounds_px": [
+    166,
+    26,
+    218,
+    92
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_missing_center",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.21875,
+   "Height": 0.265625,
+   "bounds_px": [
+    25,
+    6,
+    39,
+    23
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_tool_scars",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.359375,
+   "V": 0.5078125,
+   "Width": 0.041666666666666664,
+   "Height": 0.046875,
+   "bounds_px": [
+    130,
+    124,
+    146,
+    136
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_tool_scars",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_tool_scars",
+   "Id": "tool_scars",
+   "CauseId": "sp4_jewelry_ring_tool_scars",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.515625,
+   "Width": 0.046875,
+   "Height": 0.09375,
+   "bounds_px": [
+    17,
+    30,
+    20,
+    36
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5416666666666666,
+   "V": 0.296875,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    218,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__loose_prong__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__loose_prong__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.23046875,
+   "Width": 0.13541666666666666,
+   "Height": 0.2578125,
+   "bounds_px": [
+    166,
+    26,
+    218,
+    92
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_missing_center",
+   "Id": "missing_center",
+   "CauseId": "sp4_jewelry_ring_missing_center",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5,
+   "V": 0.2265625,
+   "Width": 0.21875,
+   "Height": 0.265625,
+   "bounds_px": [
+    25,
+    6,
+    39,
+    23
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__missing_center__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__missing_center__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5416666666666666,
+   "V": 0.296875,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    198,
+    66,
+    218,
+    86
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_loose_prong",
+   "Id": "loose_prong",
+   "CauseId": "sp4_jewelry_ring_loose_prong",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5625,
+   "V": 0.3046875,
+   "Width": 0.09375,
+   "Height": 0.078125,
+   "bounds_px": [
+    33,
+    17,
+    39,
+    22
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5260416666666666,
+   "V": 0.90625,
+   "Width": 0.07291666666666667,
+   "Height": 0.0625,
+   "bounds_px": [
+    188,
+    224,
+    216,
+    240
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_shank_dent",
+   "Id": "shank_dent",
+   "CauseId": "sp4_jewelry_ring_shank_dent",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5546875,
+   "V": 0.90625,
+   "Width": 0.109375,
+   "Height": 0.0625,
+   "bounds_px": [
+    32,
+    56,
+    39,
+    60
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3697916666666667,
+   "V": 0.80859375,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    136,
+    200,
+    148,
+    214
+   ]
+  },
+  {
+   "asset_key": "jewelry_ring_solitaire",
+   "state": "ag925_emerald_step_combo__loose_prong__shank_dent__old_resize",
+   "image": "items",
+   "image_size": [
+    64,
+    64
+   ],
+   "TemplateId": "sp4_jewelry_ring_old_resize",
+   "Id": "old_resize",
+   "CauseId": "sp4_jewelry_ring_old_resize",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3203125,
+   "V": 0.8203125,
+   "Width": 0.046875,
+   "Height": 0.046875,
+   "bounds_px": [
+    19,
+    51,
+    22,
+    54
+   ]
+  }
+ ]
+}

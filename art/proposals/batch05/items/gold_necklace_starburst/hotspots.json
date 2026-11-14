@@ -1,0 +1,715 @@
+{
+ "asset_key": "gold_necklace_starburst",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "tangled_run",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_tangled_run",
+   "Id": "tangled_run",
+   "CauseId": "sp4_gold_necklace_tangled_run",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.6328125,
+   "Width": 0.09375,
+   "Height": 0.140625,
+   "bounds_px": [
+    134,
+    144,
+    170,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "tangled_run",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_tangled_run",
+   "Id": "tangled_run",
+   "CauseId": "sp4_gold_necklace_tangled_run",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3515625,
+   "V": 0.6666666666666666,
+   "Width": 0.265625,
+   "Height": 0.15625,
+   "bounds_px": [
+    14,
+    113,
+    31,
+    143
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "open_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_open_link",
+   "Id": "open_link",
+   "CauseId": "sp4_gold_necklace_open_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5026041666666666,
+   "V": 0.78125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    188,
+    196,
+    198,
+    204
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "open_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_open_link",
+   "Id": "open_link",
+   "CauseId": "sp4_gold_necklace_open_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.8359375,
+   "Width": 0.078125,
+   "Height": 0.026041666666666668,
+   "bounds_px": [
+    30,
+    158,
+    35,
+    163
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "clasp_jam",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_clasp_jam",
+   "Id": "clasp_jam",
+   "CauseId": "sp4_gold_necklace_clasp_jam",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5859375,
+   "V": 0.26953125,
+   "Width": 0.036458333333333336,
+   "Height": 0.0390625,
+   "bounds_px": [
+    218,
+    64,
+    232,
+    74
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "clasp_jam",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_clasp_jam",
+   "Id": "clasp_jam",
+   "CauseId": "sp4_gold_necklace_clasp_jam",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6796875,
+   "V": 0.24479166666666666,
+   "Width": 0.078125,
+   "Height": 0.020833333333333332,
+   "bounds_px": [
+    41,
+    45,
+    46,
+    49
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "link_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_link_plating",
+   "Id": "link_plating",
+   "CauseId": "sp4_gold_necklace_link_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6354166666666666,
+   "V": 0.58203125,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    238,
+    142,
+    250,
+    156
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "link_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_link_plating",
+   "Id": "link_plating",
+   "CauseId": "sp4_gold_necklace_link_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.6067708333333334,
+   "Width": 0.125,
+   "Height": 0.046875,
+   "bounds_px": [
+    43,
+    112,
+    51,
+    121
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "soldered_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_soldered_link",
+   "Id": "soldered_link",
+   "CauseId": "sp4_gold_necklace_soldered_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3854166666666667,
+   "V": 0.29296875,
+   "Width": 0.03125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    142,
+    70,
+    154,
+    80
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "soldered_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_soldered_link",
+   "Id": "soldered_link",
+   "CauseId": "sp4_gold_necklace_soldered_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.265625,
+   "Width": 0.140625,
+   "Height": 0.052083333333333336,
+   "bounds_px": [
+    14,
+    46,
+    23,
+    56
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__link_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_tangled_run",
+   "Id": "tangled_run",
+   "CauseId": "sp4_gold_necklace_tangled_run",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.6328125,
+   "Width": 0.09375,
+   "Height": 0.140625,
+   "bounds_px": [
+    134,
+    144,
+    170,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__link_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_tangled_run",
+   "Id": "tangled_run",
+   "CauseId": "sp4_gold_necklace_tangled_run",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3515625,
+   "V": 0.6666666666666666,
+   "Width": 0.265625,
+   "Height": 0.15625,
+   "bounds_px": [
+    14,
+    113,
+    31,
+    143
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__link_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_link_plating",
+   "Id": "link_plating",
+   "CauseId": "sp4_gold_necklace_link_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6354166666666666,
+   "V": 0.58203125,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    238,
+    142,
+    250,
+    156
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__link_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_link_plating",
+   "Id": "link_plating",
+   "CauseId": "sp4_gold_necklace_link_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.6067708333333334,
+   "Width": 0.125,
+   "Height": 0.046875,
+   "bounds_px": [
+    43,
+    112,
+    51,
+    121
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__soldered_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_tangled_run",
+   "Id": "tangled_run",
+   "CauseId": "sp4_gold_necklace_tangled_run",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.6328125,
+   "Width": 0.09375,
+   "Height": 0.140625,
+   "bounds_px": [
+    134,
+    144,
+    170,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__soldered_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_tangled_run",
+   "Id": "tangled_run",
+   "CauseId": "sp4_gold_necklace_tangled_run",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3515625,
+   "V": 0.6666666666666666,
+   "Width": 0.265625,
+   "Height": 0.15625,
+   "bounds_px": [
+    14,
+    113,
+    31,
+    143
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__soldered_link",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_soldered_link",
+   "Id": "soldered_link",
+   "CauseId": "sp4_gold_necklace_soldered_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3854166666666667,
+   "V": 0.29296875,
+   "Width": 0.03125,
+   "Height": 0.0390625,
+   "bounds_px": [
+    142,
+    70,
+    154,
+    80
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__soldered_link",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_soldered_link",
+   "Id": "soldered_link",
+   "CauseId": "sp4_gold_necklace_soldered_link",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2890625,
+   "V": 0.265625,
+   "Width": 0.140625,
+   "Height": 0.052083333333333336,
+   "bounds_px": [
+    14,
+    46,
+    23,
+    56
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__open_link__link_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_open_link",
+   "Id": "open_link",
+   "CauseId": "sp4_gold_necklace_open_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5026041666666666,
+   "V": 0.78125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    188,
+    196,
+    198,
+    204
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__open_link__link_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_open_link",
+   "Id": "open_link",
+   "CauseId": "sp4_gold_necklace_open_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.8359375,
+   "Width": 0.078125,
+   "Height": 0.026041666666666668,
+   "bounds_px": [
+    30,
+    158,
+    35,
+    163
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__open_link__link_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_link_plating",
+   "Id": "link_plating",
+   "CauseId": "sp4_gold_necklace_link_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6354166666666666,
+   "V": 0.58203125,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    238,
+    142,
+    250,
+    156
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__open_link__link_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_link_plating",
+   "Id": "link_plating",
+   "CauseId": "sp4_gold_necklace_link_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.6067708333333334,
+   "Width": 0.125,
+   "Height": 0.046875,
+   "bounds_px": [
+    43,
+    112,
+    51,
+    121
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__open_link__link_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_tangled_run",
+   "Id": "tangled_run",
+   "CauseId": "sp4_gold_necklace_tangled_run",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3958333333333333,
+   "V": 0.6328125,
+   "Width": 0.09375,
+   "Height": 0.140625,
+   "bounds_px": [
+    134,
+    144,
+    170,
+    180
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__open_link__link_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_tangled_run",
+   "Id": "tangled_run",
+   "CauseId": "sp4_gold_necklace_tangled_run",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.3515625,
+   "V": 0.6666666666666666,
+   "Width": 0.265625,
+   "Height": 0.15625,
+   "bounds_px": [
+    14,
+    113,
+    31,
+    143
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__open_link__link_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_open_link",
+   "Id": "open_link",
+   "CauseId": "sp4_gold_necklace_open_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5026041666666666,
+   "V": 0.78125,
+   "Width": 0.026041666666666668,
+   "Height": 0.03125,
+   "bounds_px": [
+    188,
+    196,
+    198,
+    204
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__open_link__link_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_open_link",
+   "Id": "open_link",
+   "CauseId": "sp4_gold_necklace_open_link",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.5078125,
+   "V": 0.8359375,
+   "Width": 0.078125,
+   "Height": 0.026041666666666668,
+   "bounds_px": [
+    30,
+    158,
+    35,
+    163
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__open_link__link_plating",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_gold_necklace_link_plating",
+   "Id": "link_plating",
+   "CauseId": "sp4_gold_necklace_link_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.6354166666666666,
+   "V": 0.58203125,
+   "Width": 0.03125,
+   "Height": 0.0546875,
+   "bounds_px": [
+    238,
+    142,
+    250,
+    156
+   ]
+  },
+  {
+   "asset_key": "gold_necklace_starburst",
+   "state": "combo__tangled_run__open_link__link_plating",
+   "image": "items",
+   "image_size": [
+    64,
+    192
+   ],
+   "TemplateId": "sp4_gold_necklace_link_plating",
+   "Id": "link_plating",
+   "CauseId": "sp4_gold_necklace_link_plating",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "planned_04_not_runtime",
+   "U": 0.734375,
+   "V": 0.6067708333333334,
+   "Width": 0.125,
+   "Height": 0.046875,
+   "bounds_px": [
+    43,
+    112,
+    51,
+    121
+   ]
+  }
+ ]
+}

@@ -1,0 +1,715 @@
+{
+ "asset_key": "collectible_console",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "collectible_console",
+   "state": "port_contacts",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_port_contacts",
+   "Id": "port_contacts",
+   "CauseId": "sp4_console_port_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2760416666666667,
+   "V": 0.71875,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    96,
+    174,
+    116,
+    194
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "port_contacts",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_port_contacts",
+   "Id": "port_contacts",
+   "CauseId": "sp4_console_port_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0859375,
+   "bounds_px": [
+    49,
+    88,
+    56,
+    99
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "shell_fracture",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_shell_fracture",
+   "Id": "shell_fracture",
+   "CauseId": "sp4_console_shell_fracture",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6588541666666666,
+   "V": 0.77734375,
+   "Width": 0.15104166666666666,
+   "Height": 0.1328125,
+   "bounds_px": [
+    224,
+    182,
+    282,
+    216
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "shell_fracture",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_shell_fracture",
+   "Id": "shell_fracture",
+   "CauseId": "sp4_console_shell_fracture",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6666666666666666,
+   "V": 0.7890625,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    113,
+    92,
+    143,
+    110
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "vent_heat",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_vent_heat",
+   "Id": "vent_heat",
+   "CauseId": "sp4_console_vent_heat",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5755208333333334,
+   "V": 0.23828125,
+   "Width": 0.203125,
+   "Height": 0.1640625,
+   "bounds_px": [
+    182,
+    40,
+    260,
+    82
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "vent_heat",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_vent_heat",
+   "Id": "vent_heat",
+   "CauseId": "sp4_console_vent_heat",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.22265625,
+   "Width": 0.21354166666666666,
+   "Height": 0.1796875,
+   "bounds_px": [
+    91,
+    17,
+    132,
+    40
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "power_socket",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_power_socket",
+   "Id": "power_socket",
+   "CauseId": "sp4_console_power_socket",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8385416666666666,
+   "V": 0.4609375,
+   "Width": 0.041666666666666664,
+   "Height": 0.09375,
+   "bounds_px": [
+    314,
+    106,
+    330,
+    130
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "power_socket",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_power_socket",
+   "Id": "power_socket",
+   "CauseId": "sp4_console_power_socket",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.8515625,
+   "V": 0.45703125,
+   "Width": 0.046875,
+   "Height": 0.1015625,
+   "bounds_px": [
+    159,
+    52,
+    168,
+    65
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "service_screw",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_service_screw",
+   "Id": "service_screw",
+   "CauseId": "sp4_console_service_screw",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.11979166666666667,
+   "V": 0.84375,
+   "Width": 0.0625,
+   "Height": 0.09375,
+   "bounds_px": [
+    34,
+    204,
+    58,
+    228
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "service_screw",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_service_screw",
+   "Id": "service_screw",
+   "CauseId": "sp4_console_service_screw",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.1015625,
+   "V": 0.859375,
+   "Width": 0.06770833333333333,
+   "Height": 0.09375,
+   "bounds_px": [
+    13,
+    104,
+    26,
+    116
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__port_contacts__service_screw",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_port_contacts",
+   "Id": "port_contacts",
+   "CauseId": "sp4_console_port_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2760416666666667,
+   "V": 0.71875,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    96,
+    174,
+    116,
+    194
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__port_contacts__service_screw",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_port_contacts",
+   "Id": "port_contacts",
+   "CauseId": "sp4_console_port_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0859375,
+   "bounds_px": [
+    49,
+    88,
+    56,
+    99
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__port_contacts__service_screw",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_service_screw",
+   "Id": "service_screw",
+   "CauseId": "sp4_console_service_screw",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.11979166666666667,
+   "V": 0.84375,
+   "Width": 0.0625,
+   "Height": 0.09375,
+   "bounds_px": [
+    34,
+    204,
+    58,
+    228
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__port_contacts__service_screw",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_service_screw",
+   "Id": "service_screw",
+   "CauseId": "sp4_console_service_screw",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.1015625,
+   "V": 0.859375,
+   "Width": 0.06770833333333333,
+   "Height": 0.09375,
+   "bounds_px": [
+    13,
+    104,
+    26,
+    116
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__shell_fracture__service_screw",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_shell_fracture",
+   "Id": "shell_fracture",
+   "CauseId": "sp4_console_shell_fracture",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6588541666666666,
+   "V": 0.77734375,
+   "Width": 0.15104166666666666,
+   "Height": 0.1328125,
+   "bounds_px": [
+    224,
+    182,
+    282,
+    216
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__shell_fracture__service_screw",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_shell_fracture",
+   "Id": "shell_fracture",
+   "CauseId": "sp4_console_shell_fracture",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6666666666666666,
+   "V": 0.7890625,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    113,
+    92,
+    143,
+    110
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__shell_fracture__service_screw",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_service_screw",
+   "Id": "service_screw",
+   "CauseId": "sp4_console_service_screw",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.11979166666666667,
+   "V": 0.84375,
+   "Width": 0.0625,
+   "Height": 0.09375,
+   "bounds_px": [
+    34,
+    204,
+    58,
+    228
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__shell_fracture__service_screw",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_service_screw",
+   "Id": "service_screw",
+   "CauseId": "sp4_console_service_screw",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.1015625,
+   "V": 0.859375,
+   "Width": 0.06770833333333333,
+   "Height": 0.09375,
+   "bounds_px": [
+    13,
+    104,
+    26,
+    116
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__vent_heat__service_screw",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_vent_heat",
+   "Id": "vent_heat",
+   "CauseId": "sp4_console_vent_heat",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5755208333333334,
+   "V": 0.23828125,
+   "Width": 0.203125,
+   "Height": 0.1640625,
+   "bounds_px": [
+    182,
+    40,
+    260,
+    82
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__vent_heat__service_screw",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_vent_heat",
+   "Id": "vent_heat",
+   "CauseId": "sp4_console_vent_heat",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.5807291666666666,
+   "V": 0.22265625,
+   "Width": 0.21354166666666666,
+   "Height": 0.1796875,
+   "bounds_px": [
+    91,
+    17,
+    132,
+    40
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__vent_heat__service_screw",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_service_screw",
+   "Id": "service_screw",
+   "CauseId": "sp4_console_service_screw",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.11979166666666667,
+   "V": 0.84375,
+   "Width": 0.0625,
+   "Height": 0.09375,
+   "bounds_px": [
+    34,
+    204,
+    58,
+    228
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__vent_heat__service_screw",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_service_screw",
+   "Id": "service_screw",
+   "CauseId": "sp4_console_service_screw",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.1015625,
+   "V": 0.859375,
+   "Width": 0.06770833333333333,
+   "Height": 0.09375,
+   "bounds_px": [
+    13,
+    104,
+    26,
+    116
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__port_contacts__shell_fracture__service_screw",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_port_contacts",
+   "Id": "port_contacts",
+   "CauseId": "sp4_console_port_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2760416666666667,
+   "V": 0.71875,
+   "Width": 0.052083333333333336,
+   "Height": 0.078125,
+   "bounds_px": [
+    96,
+    174,
+    116,
+    194
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__port_contacts__shell_fracture__service_screw",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_port_contacts",
+   "Id": "port_contacts",
+   "CauseId": "sp4_console_port_contacts",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.2734375,
+   "V": 0.73046875,
+   "Width": 0.036458333333333336,
+   "Height": 0.0859375,
+   "bounds_px": [
+    49,
+    88,
+    56,
+    99
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__port_contacts__shell_fracture__service_screw",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_shell_fracture",
+   "Id": "shell_fracture",
+   "CauseId": "sp4_console_shell_fracture",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6588541666666666,
+   "V": 0.77734375,
+   "Width": 0.15104166666666666,
+   "Height": 0.1328125,
+   "bounds_px": [
+    224,
+    182,
+    282,
+    216
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__port_contacts__shell_fracture__service_screw",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_shell_fracture",
+   "Id": "shell_fracture",
+   "CauseId": "sp4_console_shell_fracture",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.6666666666666666,
+   "V": 0.7890625,
+   "Width": 0.15625,
+   "Height": 0.140625,
+   "bounds_px": [
+    113,
+    92,
+    143,
+    110
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__port_contacts__shell_fracture__service_screw",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_console_service_screw",
+   "Id": "service_screw",
+   "CauseId": "sp4_console_service_screw",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.11979166666666667,
+   "V": 0.84375,
+   "Width": 0.0625,
+   "Height": 0.09375,
+   "bounds_px": [
+    34,
+    204,
+    58,
+    228
+   ]
+  },
+  {
+   "asset_key": "collectible_console",
+   "state": "combo__port_contacts__shell_fracture__service_screw",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_console_service_screw",
+   "Id": "service_screw",
+   "CauseId": "sp4_console_service_screw",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.1015625,
+   "V": 0.859375,
+   "Width": 0.06770833333333333,
+   "Height": 0.09375,
+   "bounds_px": [
+    13,
+    104,
+    26,
+    116
+   ]
+  }
+ ]
+}

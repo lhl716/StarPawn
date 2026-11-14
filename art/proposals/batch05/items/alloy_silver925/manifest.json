@@ -1,0 +1,241 @@
+{
+ "asset_key": "alloy_silver925",
+ "name_en": "925 Silver Alloy Bar",
+ "category": "alloy_silver_bar",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_alloy_silver925",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "fineness_shortfall": {
+   "paper": "paper/fineness_shortfall.png",
+   "items": "items/fineness_shortfall.png",
+   "templates": [
+    "sp4_alloy_silver_bar_fineness_shortfall"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "inhomogeneous_cast": {
+   "paper": "paper/inhomogeneous_cast.png",
+   "items": "items/inhomogeneous_cast.png",
+   "templates": [
+    "sp4_alloy_silver_bar_inhomogeneous_cast"
+   ],
+   "view": "ordinary"
+  },
+  "edge_fissure": {
+   "paper": "paper/edge_fissure.png",
+   "items": "items/edge_fissure.png",
+   "templates": [
+    "sp4_alloy_silver_bar_edge_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "weight_deficit": {
+   "paper": "paper/weight_deficit.png",
+   "items": "items/weight_deficit.png",
+   "templates": [
+    "sp4_alloy_silver_bar_weight_deficit"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "restamped_fineness": {
+   "paper": "paper/restamped_fineness.png",
+   "items": "items/restamped_fineness.png",
+   "templates": [
+    "sp4_alloy_silver_bar_restamped_fineness"
+   ],
+   "view": "ordinary"
+  },
+  "combo__inhomogeneous_cast__restamped_fineness": {
+   "paper": "paper/combo__inhomogeneous_cast__restamped_fineness.png",
+   "items": "items/combo__inhomogeneous_cast__restamped_fineness.png",
+   "templates": [
+    "sp4_alloy_silver_bar_inhomogeneous_cast",
+    "sp4_alloy_silver_bar_restamped_fineness"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__inhomogeneous_cast__restamped_fineness": {
+   "paper": "paper/repaired__inhomogeneous_cast__restamped_fineness.png",
+   "items": "items/repaired__inhomogeneous_cast__restamped_fineness.png",
+   "templates": [
+    "sp4_alloy_silver_bar_restamped_fineness"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__inhomogeneous_cast__restamped_fineness"
+  },
+  "combo__edge_fissure__restamped_fineness": {
+   "paper": "paper/combo__edge_fissure__restamped_fineness.png",
+   "items": "items/combo__edge_fissure__restamped_fineness.png",
+   "templates": [
+    "sp4_alloy_silver_bar_edge_fissure",
+    "sp4_alloy_silver_bar_restamped_fineness"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__edge_fissure__restamped_fineness": {
+   "paper": "paper/repaired__edge_fissure__restamped_fineness.png",
+   "items": "items/repaired__edge_fissure__restamped_fineness.png",
+   "templates": [
+    "sp4_alloy_silver_bar_restamped_fineness"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__edge_fissure__restamped_fineness"
+  },
+  "combo__inhomogeneous_cast__edge_fissure__restamped_fineness": {
+   "paper": "paper/combo__inhomogeneous_cast__edge_fissure__restamped_fineness.png",
+   "items": "items/combo__inhomogeneous_cast__edge_fissure__restamped_fineness.png",
+   "templates": [
+    "sp4_alloy_silver_bar_inhomogeneous_cast",
+    "sp4_alloy_silver_bar_edge_fissure",
+    "sp4_alloy_silver_bar_restamped_fineness"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__inhomogeneous_cast__edge_fissure__restamped_fineness": {
+   "paper": "paper/repaired__inhomogeneous_cast__edge_fissure__restamped_fineness.png",
+   "items": "items/repaired__inhomogeneous_cast__edge_fissure__restamped_fineness.png",
+   "templates": [
+    "sp4_alloy_silver_bar_restamped_fineness"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__inhomogeneous_cast__edge_fissure__restamped_fineness"
+  }
+ },
+ "template_checks": {
+  "sp4_alloy_silver_bar_fineness_shortfall": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_alloy_silver_bar_inhomogeneous_cast": {
+   "paper": {
+    "changed_px": 800,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     262,
+     90,
+     312,
+     106
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 102,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     88,
+     19,
+     105,
+     25
+    ]
+   }
+  },
+  "sp4_alloy_silver_bar_edge_fissure": {
+   "paper": {
+    "changed_px": 128,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     234,
+     130,
+     276,
+     136
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 22,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     78,
+     33,
+     93,
+     36
+    ]
+   }
+  },
+  "sp4_alloy_silver_bar_weight_deficit": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_alloy_silver_bar_restamped_fineness": {
+   "paper": {
+    "changed_px": 324,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     164,
+     92,
+     224,
+     120
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 39,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     20,
+     74,
+     29
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

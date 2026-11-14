@@ -1,0 +1,44 @@
+{
+ "asset_key": "legacy_disc",
+ "name_en": "Legacy Disc",
+ "category": "disc",
+ "subtype": "",
+ "role": "legacy_appraisable",
+ "target_family_id": "legacy_disc",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "disc": {
+   "paper": "paper/disc.png",
+   "items": "items/disc.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "disc_scratched": {
+   "paper": "paper/disc_scratched.png",
+   "items": "items/disc_scratched.png",
+   "templates": [
+    "legacy_disc_scratch"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

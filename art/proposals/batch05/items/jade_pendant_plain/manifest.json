@@ -1,0 +1,778 @@
+{
+ "asset_key": "jade_pendant_plain",
+ "name_en": "Plain Jade Pendant",
+ "category": "jade_pendant",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_jade_pendant_plain",
+ "grid": [
+  1,
+  2
+ ],
+ "items_px": [
+  64,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "visible_dou_nuo_bing",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "dou_intact": {
+   "paper": "paper/dou_intact.png",
+   "items": "items/dou_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "dou_light_observation": {
+   "paper": "paper/dou_light_observation.png",
+   "items": "items/dou_light_observation.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "dou_uv_observation": {
+   "paper": "paper/dou_uv_observation.png",
+   "items": "items/dou_uv_observation.png",
+   "templates": [],
+   "view": "uv",
+   "planned_view": true
+  },
+  "dou_drilled_eye_crack": {
+   "paper": "paper/dou_drilled_eye_crack.png",
+   "items": "items/dou_drilled_eye_crack.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack"
+   ],
+   "view": "ordinary"
+  },
+  "dou_edge_chip": {
+   "paper": "paper/dou_edge_chip.png",
+   "items": "items/dou_edge_chip.png",
+   "templates": [
+    "sp4_jade_pendant_edge_chip"
+   ],
+   "view": "ordinary"
+  },
+  "dou_clouded_center": {
+   "paper": "paper/dou_clouded_center.png",
+   "items": "items/dou_clouded_center.png",
+   "templates": [
+    "sp4_jade_pendant_clouded_center"
+   ],
+   "view": "ordinary"
+  },
+  "dou_clouded_center__light": {
+   "paper": "paper/dou_clouded_center__light.png",
+   "items": "items/dou_clouded_center__light.png",
+   "templates": [
+    "sp4_jade_pendant_clouded_center"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "dou_dyed_groove": {
+   "paper": "paper/dou_dyed_groove.png",
+   "items": "items/dou_dyed_groove.png",
+   "templates": [
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "ordinary"
+  },
+  "dou_dyed_groove__uv": {
+   "paper": "paper/dou_dyed_groove__uv.png",
+   "items": "items/dou_dyed_groove__uv.png",
+   "templates": [
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "dou_filled_eye_seam": {
+   "paper": "paper/dou_filled_eye_seam.png",
+   "items": "items/dou_filled_eye_seam.png",
+   "templates": [
+    "sp4_jade_pendant_filled_eye_seam"
+   ],
+   "view": "ordinary"
+  },
+  "dou_filled_eye_seam__uv": {
+   "paper": "paper/dou_filled_eye_seam__uv.png",
+   "items": "items/dou_filled_eye_seam__uv.png",
+   "templates": [
+    "sp4_jade_pendant_filled_eye_seam"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "dou_combo__drilled_eye_crack__edge_chip": {
+   "paper": "paper/dou_combo__drilled_eye_crack__edge_chip.png",
+   "items": "items/dou_combo__drilled_eye_crack__edge_chip.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack",
+    "sp4_jade_pendant_edge_chip"
+   ],
+   "view": "ordinary"
+  },
+  "dou_combo__drilled_eye_crack__dyed_groove": {
+   "paper": "paper/dou_combo__drilled_eye_crack__dyed_groove.png",
+   "items": "items/dou_combo__drilled_eye_crack__dyed_groove.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack",
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "ordinary"
+  },
+  "dou_combo__edge_chip__clouded_center": {
+   "paper": "paper/dou_combo__edge_chip__clouded_center.png",
+   "items": "items/dou_combo__edge_chip__clouded_center.png",
+   "templates": [
+    "sp4_jade_pendant_edge_chip",
+    "sp4_jade_pendant_clouded_center"
+   ],
+   "view": "ordinary"
+  },
+  "dou_combo__drilled_eye_crack__edge_chip__dyed_groove": {
+   "paper": "paper/dou_combo__drilled_eye_crack__edge_chip__dyed_groove.png",
+   "items": "items/dou_combo__drilled_eye_crack__edge_chip__dyed_groove.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack",
+    "sp4_jade_pendant_edge_chip",
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_intact": {
+   "paper": "paper/nuo_intact.png",
+   "items": "items/nuo_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "nuo_light_observation": {
+   "paper": "paper/nuo_light_observation.png",
+   "items": "items/nuo_light_observation.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "nuo_uv_observation": {
+   "paper": "paper/nuo_uv_observation.png",
+   "items": "items/nuo_uv_observation.png",
+   "templates": [],
+   "view": "uv",
+   "planned_view": true
+  },
+  "nuo_drilled_eye_crack": {
+   "paper": "paper/nuo_drilled_eye_crack.png",
+   "items": "items/nuo_drilled_eye_crack.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_edge_chip": {
+   "paper": "paper/nuo_edge_chip.png",
+   "items": "items/nuo_edge_chip.png",
+   "templates": [
+    "sp4_jade_pendant_edge_chip"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_clouded_center": {
+   "paper": "paper/nuo_clouded_center.png",
+   "items": "items/nuo_clouded_center.png",
+   "templates": [
+    "sp4_jade_pendant_clouded_center"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_clouded_center__light": {
+   "paper": "paper/nuo_clouded_center__light.png",
+   "items": "items/nuo_clouded_center__light.png",
+   "templates": [
+    "sp4_jade_pendant_clouded_center"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "nuo_dyed_groove": {
+   "paper": "paper/nuo_dyed_groove.png",
+   "items": "items/nuo_dyed_groove.png",
+   "templates": [
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_dyed_groove__uv": {
+   "paper": "paper/nuo_dyed_groove__uv.png",
+   "items": "items/nuo_dyed_groove__uv.png",
+   "templates": [
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "nuo_filled_eye_seam": {
+   "paper": "paper/nuo_filled_eye_seam.png",
+   "items": "items/nuo_filled_eye_seam.png",
+   "templates": [
+    "sp4_jade_pendant_filled_eye_seam"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_filled_eye_seam__uv": {
+   "paper": "paper/nuo_filled_eye_seam__uv.png",
+   "items": "items/nuo_filled_eye_seam__uv.png",
+   "templates": [
+    "sp4_jade_pendant_filled_eye_seam"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "nuo_combo__drilled_eye_crack__edge_chip": {
+   "paper": "paper/nuo_combo__drilled_eye_crack__edge_chip.png",
+   "items": "items/nuo_combo__drilled_eye_crack__edge_chip.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack",
+    "sp4_jade_pendant_edge_chip"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_combo__drilled_eye_crack__dyed_groove": {
+   "paper": "paper/nuo_combo__drilled_eye_crack__dyed_groove.png",
+   "items": "items/nuo_combo__drilled_eye_crack__dyed_groove.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack",
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_combo__edge_chip__clouded_center": {
+   "paper": "paper/nuo_combo__edge_chip__clouded_center.png",
+   "items": "items/nuo_combo__edge_chip__clouded_center.png",
+   "templates": [
+    "sp4_jade_pendant_edge_chip",
+    "sp4_jade_pendant_clouded_center"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_combo__drilled_eye_crack__edge_chip__dyed_groove": {
+   "paper": "paper/nuo_combo__drilled_eye_crack__edge_chip__dyed_groove.png",
+   "items": "items/nuo_combo__drilled_eye_crack__edge_chip__dyed_groove.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack",
+    "sp4_jade_pendant_edge_chip",
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "ordinary"
+  },
+  "bing_intact": {
+   "paper": "paper/bing_intact.png",
+   "items": "items/bing_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "bing_light_observation": {
+   "paper": "paper/bing_light_observation.png",
+   "items": "items/bing_light_observation.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "bing_uv_observation": {
+   "paper": "paper/bing_uv_observation.png",
+   "items": "items/bing_uv_observation.png",
+   "templates": [],
+   "view": "uv",
+   "planned_view": true
+  },
+  "bing_drilled_eye_crack": {
+   "paper": "paper/bing_drilled_eye_crack.png",
+   "items": "items/bing_drilled_eye_crack.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack"
+   ],
+   "view": "ordinary"
+  },
+  "bing_edge_chip": {
+   "paper": "paper/bing_edge_chip.png",
+   "items": "items/bing_edge_chip.png",
+   "templates": [
+    "sp4_jade_pendant_edge_chip"
+   ],
+   "view": "ordinary"
+  },
+  "bing_clouded_center": {
+   "paper": "paper/bing_clouded_center.png",
+   "items": "items/bing_clouded_center.png",
+   "templates": [
+    "sp4_jade_pendant_clouded_center"
+   ],
+   "view": "ordinary"
+  },
+  "bing_clouded_center__light": {
+   "paper": "paper/bing_clouded_center__light.png",
+   "items": "items/bing_clouded_center__light.png",
+   "templates": [
+    "sp4_jade_pendant_clouded_center"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "bing_dyed_groove": {
+   "paper": "paper/bing_dyed_groove.png",
+   "items": "items/bing_dyed_groove.png",
+   "templates": [
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "ordinary"
+  },
+  "bing_dyed_groove__uv": {
+   "paper": "paper/bing_dyed_groove__uv.png",
+   "items": "items/bing_dyed_groove__uv.png",
+   "templates": [
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "bing_filled_eye_seam": {
+   "paper": "paper/bing_filled_eye_seam.png",
+   "items": "items/bing_filled_eye_seam.png",
+   "templates": [
+    "sp4_jade_pendant_filled_eye_seam"
+   ],
+   "view": "ordinary"
+  },
+  "bing_filled_eye_seam__uv": {
+   "paper": "paper/bing_filled_eye_seam__uv.png",
+   "items": "items/bing_filled_eye_seam__uv.png",
+   "templates": [
+    "sp4_jade_pendant_filled_eye_seam"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "bing_combo__drilled_eye_crack__edge_chip": {
+   "paper": "paper/bing_combo__drilled_eye_crack__edge_chip.png",
+   "items": "items/bing_combo__drilled_eye_crack__edge_chip.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack",
+    "sp4_jade_pendant_edge_chip"
+   ],
+   "view": "ordinary"
+  },
+  "bing_combo__drilled_eye_crack__dyed_groove": {
+   "paper": "paper/bing_combo__drilled_eye_crack__dyed_groove.png",
+   "items": "items/bing_combo__drilled_eye_crack__dyed_groove.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack",
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "ordinary"
+  },
+  "bing_combo__edge_chip__clouded_center": {
+   "paper": "paper/bing_combo__edge_chip__clouded_center.png",
+   "items": "items/bing_combo__edge_chip__clouded_center.png",
+   "templates": [
+    "sp4_jade_pendant_edge_chip",
+    "sp4_jade_pendant_clouded_center"
+   ],
+   "view": "ordinary"
+  },
+  "bing_combo__drilled_eye_crack__edge_chip__dyed_groove": {
+   "paper": "paper/bing_combo__drilled_eye_crack__edge_chip__dyed_groove.png",
+   "items": "items/bing_combo__drilled_eye_crack__edge_chip__dyed_groove.png",
+   "templates": [
+    "sp4_jade_pendant_drilled_eye_crack",
+    "sp4_jade_pendant_edge_chip",
+    "sp4_jade_pendant_dyed_groove"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {
+  "dou_sp4_jade_pendant_drilled_eye_crack": {
+   "paper": {
+    "changed_px": 212,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     196,
+     58,
+     224,
+     102
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 39,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     34,
+     35,
+     45,
+     53
+    ]
+   }
+  },
+  "dou_sp4_jade_pendant_edge_chip": {
+   "paper": {
+    "changed_px": 760,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     132,
+     198,
+     164,
+     232
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 113,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     8,
+     93,
+     20,
+     106
+    ]
+   }
+  },
+  "dou_sp4_jade_pendant_clouded_center": {
+   "paper": {
+    "changed_px": 1672,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     178,
+     82,
+     228,
+     138
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 224,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     27,
+     46,
+     46,
+     66
+    ]
+   }
+  },
+  "dou_sp4_jade_pendant_dyed_groove": {
+   "paper": {
+    "changed_px": 616,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     162,
+     172,
+     222,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 105,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     22,
+     81,
+     43,
+     94
+    ]
+   }
+  },
+  "dou_sp4_jade_pendant_filled_eye_seam": {
+   "paper": {
+    "changed_px": 116,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     170,
+     58,
+     200,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 19,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     23,
+     36,
+     36,
+     43
+    ]
+   }
+  },
+  "nuo_sp4_jade_pendant_drilled_eye_crack": {
+   "paper": {
+    "changed_px": 212,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     196,
+     58,
+     224,
+     102
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 39,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     34,
+     35,
+     45,
+     53
+    ]
+   }
+  },
+  "nuo_sp4_jade_pendant_edge_chip": {
+   "paper": {
+    "changed_px": 760,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     132,
+     198,
+     164,
+     232
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 113,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     8,
+     93,
+     20,
+     106
+    ]
+   }
+  },
+  "nuo_sp4_jade_pendant_clouded_center": {
+   "paper": {
+    "changed_px": 1672,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     178,
+     82,
+     228,
+     138
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 224,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     27,
+     46,
+     46,
+     66
+    ]
+   }
+  },
+  "nuo_sp4_jade_pendant_dyed_groove": {
+   "paper": {
+    "changed_px": 616,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     162,
+     172,
+     222,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 105,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     22,
+     81,
+     43,
+     94
+    ]
+   }
+  },
+  "nuo_sp4_jade_pendant_filled_eye_seam": {
+   "paper": {
+    "changed_px": 116,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     170,
+     58,
+     200,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 19,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     23,
+     36,
+     36,
+     43
+    ]
+   }
+  },
+  "bing_sp4_jade_pendant_drilled_eye_crack": {
+   "paper": {
+    "changed_px": 212,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     196,
+     58,
+     224,
+     102
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 39,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     34,
+     35,
+     45,
+     53
+    ]
+   }
+  },
+  "bing_sp4_jade_pendant_edge_chip": {
+   "paper": {
+    "changed_px": 764,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     132,
+     198,
+     164,
+     232
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 113,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     8,
+     93,
+     20,
+     106
+    ]
+   }
+  },
+  "bing_sp4_jade_pendant_clouded_center": {
+   "paper": {
+    "changed_px": 1672,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     178,
+     82,
+     228,
+     138
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 224,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     27,
+     46,
+     46,
+     66
+    ]
+   }
+  },
+  "bing_sp4_jade_pendant_dyed_groove": {
+   "paper": {
+    "changed_px": 616,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     162,
+     172,
+     222,
+     202
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 105,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     22,
+     81,
+     43,
+     94
+    ]
+   }
+  },
+  "bing_sp4_jade_pendant_filled_eye_seam": {
+   "paper": {
+    "changed_px": 116,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     170,
+     58,
+     200,
+     76
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 19,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     23,
+     36,
+     36,
+     43
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

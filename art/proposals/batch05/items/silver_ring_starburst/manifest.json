@@ -1,0 +1,275 @@
+{
+ "asset_key": "silver_ring_starburst",
+ "name_en": "Starburst Silver Ring",
+ "category": "silver_ring",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_silver_ring_starburst",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "groove_abrasion": {
+   "paper": "paper/groove_abrasion.png",
+   "items": "items/groove_abrasion.png",
+   "templates": [
+    "sp4_silver_ring_groove_abrasion"
+   ],
+   "view": "ordinary"
+  },
+  "ovalized_band": {
+   "paper": "paper/ovalized_band.png",
+   "items": "items/ovalized_band.png",
+   "templates": [
+    "sp4_silver_ring_ovalized_band"
+   ],
+   "view": "ordinary"
+  },
+  "shank_split": {
+   "paper": "paper/shank_split.png",
+   "items": "items/shank_split.png",
+   "templates": [
+    "sp4_silver_ring_shank_split"
+   ],
+   "view": "ordinary"
+  },
+  "copper_breakthrough": {
+   "paper": "paper/copper_breakthrough.png",
+   "items": "items/copper_breakthrough.png",
+   "templates": [
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "sizing_insert": {
+   "paper": "paper/sizing_insert.png",
+   "items": "items/sizing_insert.png",
+   "templates": [
+    "sp4_silver_ring_sizing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "combo__groove_abrasion__copper_breakthrough": {
+   "paper": "paper/combo__groove_abrasion__copper_breakthrough.png",
+   "items": "items/combo__groove_abrasion__copper_breakthrough.png",
+   "templates": [
+    "sp4_silver_ring_groove_abrasion",
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__groove_abrasion__copper_breakthrough": {
+   "paper": "paper/repaired__groove_abrasion__copper_breakthrough.png",
+   "items": "items/repaired__groove_abrasion__copper_breakthrough.png",
+   "templates": [
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__groove_abrasion__copper_breakthrough"
+  },
+  "combo__groove_abrasion__sizing_insert": {
+   "paper": "paper/combo__groove_abrasion__sizing_insert.png",
+   "items": "items/combo__groove_abrasion__sizing_insert.png",
+   "templates": [
+    "sp4_silver_ring_groove_abrasion",
+    "sp4_silver_ring_sizing_insert"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__groove_abrasion__sizing_insert": {
+   "paper": "paper/repaired__groove_abrasion__sizing_insert.png",
+   "items": "items/repaired__groove_abrasion__sizing_insert.png",
+   "templates": [
+    "sp4_silver_ring_sizing_insert"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__groove_abrasion__sizing_insert"
+  },
+  "combo__ovalized_band__copper_breakthrough": {
+   "paper": "paper/combo__ovalized_band__copper_breakthrough.png",
+   "items": "items/combo__ovalized_band__copper_breakthrough.png",
+   "templates": [
+    "sp4_silver_ring_ovalized_band",
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__ovalized_band__copper_breakthrough": {
+   "paper": "paper/repaired__ovalized_band__copper_breakthrough.png",
+   "items": "items/repaired__ovalized_band__copper_breakthrough.png",
+   "templates": [
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__ovalized_band__copper_breakthrough"
+  },
+  "combo__groove_abrasion__ovalized_band__copper_breakthrough": {
+   "paper": "paper/combo__groove_abrasion__ovalized_band__copper_breakthrough.png",
+   "items": "items/combo__groove_abrasion__ovalized_band__copper_breakthrough.png",
+   "templates": [
+    "sp4_silver_ring_groove_abrasion",
+    "sp4_silver_ring_ovalized_band",
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__groove_abrasion__ovalized_band__copper_breakthrough": {
+   "paper": "paper/repaired__groove_abrasion__ovalized_band__copper_breakthrough.png",
+   "items": "items/repaired__groove_abrasion__ovalized_band__copper_breakthrough.png",
+   "templates": [
+    "sp4_silver_ring_copper_breakthrough"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__groove_abrasion__ovalized_band__copper_breakthrough"
+  }
+ },
+ "template_checks": {
+  "sp4_silver_ring_groove_abrasion": {
+   "paper": {
+    "changed_px": 164,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     170,
+     176,
+     204,
+     186
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 12,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     25,
+     45,
+     36,
+     48
+    ]
+   }
+  },
+  "sp4_silver_ring_ovalized_band": {
+   "paper": {
+    "changed_px": 392,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     270,
+     108,
+     282,
+     158
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 56,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     53,
+     26,
+     57,
+     41
+    ]
+   }
+  },
+  "sp4_silver_ring_shank_split": {
+   "paper": {
+    "changed_px": 144,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     138,
+     144,
+     150,
+     172
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 18,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     17,
+     37,
+     22,
+     45
+    ]
+   }
+  },
+  "sp4_silver_ring_copper_breakthrough": {
+   "paper": {
+    "changed_px": 636,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     220,
+     164,
+     252,
+     192
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 66,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     39,
+     41,
+     49,
+     50
+    ]
+   }
+  },
+  "sp4_silver_ring_sizing_insert": {
+   "paper": {
+    "changed_px": 120,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     216,
+     62,
+     234,
+     86
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 18,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     38,
+     14,
+     43,
+     21
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

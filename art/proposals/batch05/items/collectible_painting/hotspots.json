@@ -1,0 +1,715 @@
+{
+ "asset_key": "collectible_painting",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "collectible_painting",
+   "state": "seal_mismatch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_seal_mismatch",
+   "Id": "seal_mismatch",
+   "CauseId": "sp4_painting_seal_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    270,
+    178,
+    282,
+    190
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "seal_mismatch",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_seal_mismatch",
+   "Id": "seal_mismatch",
+   "CauseId": "sp4_painting_seal_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7291666666666666,
+   "V": 0.7265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    137,
+    90,
+    143,
+    96
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "print_screen",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_print_screen",
+   "Id": "print_screen",
+   "CauseId": "sp4_painting_print_screen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4348958333333333,
+   "V": 0.33984375,
+   "Width": 0.16145833333333334,
+   "Height": 0.1484375,
+   "bounds_px": [
+    136,
+    68,
+    198,
+    106
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "print_screen",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_print_screen",
+   "Id": "print_screen",
+   "CauseId": "sp4_painting_print_screen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4348958333333333,
+   "V": 0.33203125,
+   "Width": 0.16145833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    68,
+    34,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "canvas_tear",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_canvas_tear",
+   "Id": "canvas_tear",
+   "CauseId": "sp4_painting_canvas_tear",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.19791666666666666,
+   "V": 0.44921875,
+   "Width": 0.0625,
+   "Height": 0.1640625,
+   "bounds_px": [
+    64,
+    94,
+    88,
+    136
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "canvas_tear",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_canvas_tear",
+   "Id": "canvas_tear",
+   "CauseId": "sp4_painting_canvas_tear",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.18229166666666666,
+   "V": 0.44921875,
+   "Width": 0.0625,
+   "Height": 0.1640625,
+   "bounds_px": [
+    29,
+    47,
+    41,
+    68
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "water_tide",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_water_tide",
+   "Id": "water_tide",
+   "CauseId": "sp4_painting_water_tide",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.46875,
+   "V": 0.85546875,
+   "Width": 0.3333333333333333,
+   "Height": 0.0703125,
+   "bounds_px": [
+    116,
+    210,
+    244,
+    228
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "water_tide",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_water_tide",
+   "Id": "water_tide",
+   "CauseId": "sp4_painting_water_tide",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.46875,
+   "V": 0.87890625,
+   "Width": 0.34375,
+   "Height": 0.0703125,
+   "bounds_px": [
+    57,
+    108,
+    123,
+    117
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "overpaint_patch",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_overpaint_patch",
+   "Id": "overpaint_patch",
+   "CauseId": "sp4_painting_overpaint_patch",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3255208333333333,
+   "V": 0.2578125,
+   "Width": 0.109375,
+   "Height": 0.109375,
+   "bounds_px": [
+    104,
+    52,
+    146,
+    80
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "overpaint_patch",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_overpaint_patch",
+   "Id": "overpaint_patch",
+   "CauseId": "sp4_painting_overpaint_patch",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3151041666666667,
+   "V": 0.24609375,
+   "Width": 0.109375,
+   "Height": 0.1328125,
+   "bounds_px": [
+    50,
+    23,
+    71,
+    40
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__canvas_tear",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_seal_mismatch",
+   "Id": "seal_mismatch",
+   "CauseId": "sp4_painting_seal_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    270,
+    178,
+    282,
+    190
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__canvas_tear",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_seal_mismatch",
+   "Id": "seal_mismatch",
+   "CauseId": "sp4_painting_seal_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7291666666666666,
+   "V": 0.7265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    137,
+    90,
+    143,
+    96
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__canvas_tear",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_canvas_tear",
+   "Id": "canvas_tear",
+   "CauseId": "sp4_painting_canvas_tear",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.19791666666666666,
+   "V": 0.44921875,
+   "Width": 0.0625,
+   "Height": 0.1640625,
+   "bounds_px": [
+    64,
+    94,
+    88,
+    136
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__canvas_tear",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_canvas_tear",
+   "Id": "canvas_tear",
+   "CauseId": "sp4_painting_canvas_tear",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.18229166666666666,
+   "V": 0.44921875,
+   "Width": 0.0625,
+   "Height": 0.1640625,
+   "bounds_px": [
+    29,
+    47,
+    41,
+    68
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__water_tide",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_seal_mismatch",
+   "Id": "seal_mismatch",
+   "CauseId": "sp4_painting_seal_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    270,
+    178,
+    282,
+    190
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__water_tide",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_seal_mismatch",
+   "Id": "seal_mismatch",
+   "CauseId": "sp4_painting_seal_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7291666666666666,
+   "V": 0.7265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    137,
+    90,
+    143,
+    96
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__water_tide",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_water_tide",
+   "Id": "water_tide",
+   "CauseId": "sp4_painting_water_tide",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.46875,
+   "V": 0.85546875,
+   "Width": 0.3333333333333333,
+   "Height": 0.0703125,
+   "bounds_px": [
+    116,
+    210,
+    244,
+    228
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__water_tide",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_water_tide",
+   "Id": "water_tide",
+   "CauseId": "sp4_painting_water_tide",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.46875,
+   "V": 0.87890625,
+   "Width": 0.34375,
+   "Height": 0.0703125,
+   "bounds_px": [
+    57,
+    108,
+    123,
+    117
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__print_screen__canvas_tear",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_print_screen",
+   "Id": "print_screen",
+   "CauseId": "sp4_painting_print_screen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4348958333333333,
+   "V": 0.33984375,
+   "Width": 0.16145833333333334,
+   "Height": 0.1484375,
+   "bounds_px": [
+    136,
+    68,
+    198,
+    106
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__print_screen__canvas_tear",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_print_screen",
+   "Id": "print_screen",
+   "CauseId": "sp4_painting_print_screen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4348958333333333,
+   "V": 0.33203125,
+   "Width": 0.16145833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    68,
+    34,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__print_screen__canvas_tear",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_canvas_tear",
+   "Id": "canvas_tear",
+   "CauseId": "sp4_painting_canvas_tear",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.19791666666666666,
+   "V": 0.44921875,
+   "Width": 0.0625,
+   "Height": 0.1640625,
+   "bounds_px": [
+    64,
+    94,
+    88,
+    136
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__print_screen__canvas_tear",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_canvas_tear",
+   "Id": "canvas_tear",
+   "CauseId": "sp4_painting_canvas_tear",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.18229166666666666,
+   "V": 0.44921875,
+   "Width": 0.0625,
+   "Height": 0.1640625,
+   "bounds_px": [
+    29,
+    47,
+    41,
+    68
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__print_screen__canvas_tear",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_seal_mismatch",
+   "Id": "seal_mismatch",
+   "CauseId": "sp4_painting_seal_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.71875,
+   "V": 0.71875,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    270,
+    178,
+    282,
+    190
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__print_screen__canvas_tear",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_seal_mismatch",
+   "Id": "seal_mismatch",
+   "CauseId": "sp4_painting_seal_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7291666666666666,
+   "V": 0.7265625,
+   "Width": 0.03125,
+   "Height": 0.046875,
+   "bounds_px": [
+    137,
+    90,
+    143,
+    96
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__print_screen__canvas_tear",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_print_screen",
+   "Id": "print_screen",
+   "CauseId": "sp4_painting_print_screen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4348958333333333,
+   "V": 0.33984375,
+   "Width": 0.16145833333333334,
+   "Height": 0.1484375,
+   "bounds_px": [
+    136,
+    68,
+    198,
+    106
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__print_screen__canvas_tear",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_print_screen",
+   "Id": "print_screen",
+   "CauseId": "sp4_painting_print_screen",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4348958333333333,
+   "V": 0.33203125,
+   "Width": 0.16145833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    68,
+    34,
+    99,
+    51
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__print_screen__canvas_tear",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_painting_canvas_tear",
+   "Id": "canvas_tear",
+   "CauseId": "sp4_painting_canvas_tear",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.19791666666666666,
+   "V": 0.44921875,
+   "Width": 0.0625,
+   "Height": 0.1640625,
+   "bounds_px": [
+    64,
+    94,
+    88,
+    136
+   ]
+  },
+  {
+   "asset_key": "collectible_painting",
+   "state": "combo__seal_mismatch__print_screen__canvas_tear",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_painting_canvas_tear",
+   "Id": "canvas_tear",
+   "CauseId": "sp4_painting_canvas_tear",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "planned_04_not_runtime",
+   "U": 0.18229166666666666,
+   "V": 0.44921875,
+   "Width": 0.0625,
+   "Height": 0.1640625,
+   "bounds_px": [
+    29,
+    47,
+    41,
+    68
+   ]
+  }
+ ]
+}

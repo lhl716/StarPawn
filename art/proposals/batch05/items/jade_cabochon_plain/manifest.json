@@ -1,0 +1,778 @@
+{
+ "asset_key": "jade_cabochon_plain",
+ "name_en": "Plain Jade Cabochon",
+ "category": "jade_cabochon",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_jade_cabochon_plain",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "visible_dou_nuo_bing",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "dou_intact": {
+   "paper": "paper/dou_intact.png",
+   "items": "items/dou_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "dou_light_observation": {
+   "paper": "paper/dou_light_observation.png",
+   "items": "items/dou_light_observation.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "dou_uv_observation": {
+   "paper": "paper/dou_uv_observation.png",
+   "items": "items/dou_uv_observation.png",
+   "templates": [],
+   "view": "uv",
+   "planned_view": true
+  },
+  "dou_dome_fissure": {
+   "paper": "paper/dou_dome_fissure.png",
+   "items": "items/dou_dome_fissure.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "dou_girdle_chip": {
+   "paper": "paper/dou_girdle_chip.png",
+   "items": "items/dou_girdle_chip.png",
+   "templates": [
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "view": "ordinary"
+  },
+  "dou_central_inclusion": {
+   "paper": "paper/dou_central_inclusion.png",
+   "items": "items/dou_central_inclusion.png",
+   "templates": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "ordinary"
+  },
+  "dou_central_inclusion__light": {
+   "paper": "paper/dou_central_inclusion__light.png",
+   "items": "items/dou_central_inclusion__light.png",
+   "templates": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "dou_dyed_grain_web": {
+   "paper": "paper/dou_dyed_grain_web.png",
+   "items": "items/dou_dyed_grain_web.png",
+   "templates": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "view": "ordinary"
+  },
+  "dou_dyed_grain_web__uv": {
+   "paper": "paper/dou_dyed_grain_web__uv.png",
+   "items": "items/dou_dyed_grain_web__uv.png",
+   "templates": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "dou_filled_dome_seam": {
+   "paper": "paper/dou_filled_dome_seam.png",
+   "items": "items/dou_filled_dome_seam.png",
+   "templates": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "view": "ordinary"
+  },
+  "dou_filled_dome_seam__uv": {
+   "paper": "paper/dou_filled_dome_seam__uv.png",
+   "items": "items/dou_filled_dome_seam__uv.png",
+   "templates": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "dou_combo__dome_fissure__girdle_chip": {
+   "paper": "paper/dou_combo__dome_fissure__girdle_chip.png",
+   "items": "items/dou_combo__dome_fissure__girdle_chip.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "view": "ordinary"
+  },
+  "dou_combo__dome_fissure__central_inclusion": {
+   "paper": "paper/dou_combo__dome_fissure__central_inclusion.png",
+   "items": "items/dou_combo__dome_fissure__central_inclusion.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "ordinary"
+  },
+  "dou_combo__dome_fissure__dyed_grain_web": {
+   "paper": "paper/dou_combo__dome_fissure__dyed_grain_web.png",
+   "items": "items/dou_combo__dome_fissure__dyed_grain_web.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "view": "ordinary"
+  },
+  "dou_combo__dome_fissure__girdle_chip__central_inclusion": {
+   "paper": "paper/dou_combo__dome_fissure__girdle_chip__central_inclusion.png",
+   "items": "items/dou_combo__dome_fissure__girdle_chip__central_inclusion.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_intact": {
+   "paper": "paper/nuo_intact.png",
+   "items": "items/nuo_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "nuo_light_observation": {
+   "paper": "paper/nuo_light_observation.png",
+   "items": "items/nuo_light_observation.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "nuo_uv_observation": {
+   "paper": "paper/nuo_uv_observation.png",
+   "items": "items/nuo_uv_observation.png",
+   "templates": [],
+   "view": "uv",
+   "planned_view": true
+  },
+  "nuo_dome_fissure": {
+   "paper": "paper/nuo_dome_fissure.png",
+   "items": "items/nuo_dome_fissure.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_girdle_chip": {
+   "paper": "paper/nuo_girdle_chip.png",
+   "items": "items/nuo_girdle_chip.png",
+   "templates": [
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_central_inclusion": {
+   "paper": "paper/nuo_central_inclusion.png",
+   "items": "items/nuo_central_inclusion.png",
+   "templates": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_central_inclusion__light": {
+   "paper": "paper/nuo_central_inclusion__light.png",
+   "items": "items/nuo_central_inclusion__light.png",
+   "templates": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "nuo_dyed_grain_web": {
+   "paper": "paper/nuo_dyed_grain_web.png",
+   "items": "items/nuo_dyed_grain_web.png",
+   "templates": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_dyed_grain_web__uv": {
+   "paper": "paper/nuo_dyed_grain_web__uv.png",
+   "items": "items/nuo_dyed_grain_web__uv.png",
+   "templates": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "nuo_filled_dome_seam": {
+   "paper": "paper/nuo_filled_dome_seam.png",
+   "items": "items/nuo_filled_dome_seam.png",
+   "templates": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_filled_dome_seam__uv": {
+   "paper": "paper/nuo_filled_dome_seam__uv.png",
+   "items": "items/nuo_filled_dome_seam__uv.png",
+   "templates": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "nuo_combo__dome_fissure__girdle_chip": {
+   "paper": "paper/nuo_combo__dome_fissure__girdle_chip.png",
+   "items": "items/nuo_combo__dome_fissure__girdle_chip.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_combo__dome_fissure__central_inclusion": {
+   "paper": "paper/nuo_combo__dome_fissure__central_inclusion.png",
+   "items": "items/nuo_combo__dome_fissure__central_inclusion.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_combo__dome_fissure__dyed_grain_web": {
+   "paper": "paper/nuo_combo__dome_fissure__dyed_grain_web.png",
+   "items": "items/nuo_combo__dome_fissure__dyed_grain_web.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "view": "ordinary"
+  },
+  "nuo_combo__dome_fissure__girdle_chip__central_inclusion": {
+   "paper": "paper/nuo_combo__dome_fissure__girdle_chip__central_inclusion.png",
+   "items": "items/nuo_combo__dome_fissure__girdle_chip__central_inclusion.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "ordinary"
+  },
+  "bing_intact": {
+   "paper": "paper/bing_intact.png",
+   "items": "items/bing_intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "bing_light_observation": {
+   "paper": "paper/bing_light_observation.png",
+   "items": "items/bing_light_observation.png",
+   "templates": [],
+   "view": "light",
+   "planned_view": true
+  },
+  "bing_uv_observation": {
+   "paper": "paper/bing_uv_observation.png",
+   "items": "items/bing_uv_observation.png",
+   "templates": [],
+   "view": "uv",
+   "planned_view": true
+  },
+  "bing_dome_fissure": {
+   "paper": "paper/bing_dome_fissure.png",
+   "items": "items/bing_dome_fissure.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure"
+   ],
+   "view": "ordinary"
+  },
+  "bing_girdle_chip": {
+   "paper": "paper/bing_girdle_chip.png",
+   "items": "items/bing_girdle_chip.png",
+   "templates": [
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "view": "ordinary"
+  },
+  "bing_central_inclusion": {
+   "paper": "paper/bing_central_inclusion.png",
+   "items": "items/bing_central_inclusion.png",
+   "templates": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "ordinary"
+  },
+  "bing_central_inclusion__light": {
+   "paper": "paper/bing_central_inclusion__light.png",
+   "items": "items/bing_central_inclusion__light.png",
+   "templates": [
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "light",
+   "planned_view": true
+  },
+  "bing_dyed_grain_web": {
+   "paper": "paper/bing_dyed_grain_web.png",
+   "items": "items/bing_dyed_grain_web.png",
+   "templates": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "view": "ordinary"
+  },
+  "bing_dyed_grain_web__uv": {
+   "paper": "paper/bing_dyed_grain_web__uv.png",
+   "items": "items/bing_dyed_grain_web__uv.png",
+   "templates": [
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "bing_filled_dome_seam": {
+   "paper": "paper/bing_filled_dome_seam.png",
+   "items": "items/bing_filled_dome_seam.png",
+   "templates": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "view": "ordinary"
+  },
+  "bing_filled_dome_seam__uv": {
+   "paper": "paper/bing_filled_dome_seam__uv.png",
+   "items": "items/bing_filled_dome_seam__uv.png",
+   "templates": [
+    "sp4_jade_cabochon_filled_dome_seam"
+   ],
+   "view": "uv",
+   "planned_view": true
+  },
+  "bing_combo__dome_fissure__girdle_chip": {
+   "paper": "paper/bing_combo__dome_fissure__girdle_chip.png",
+   "items": "items/bing_combo__dome_fissure__girdle_chip.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip"
+   ],
+   "view": "ordinary"
+  },
+  "bing_combo__dome_fissure__central_inclusion": {
+   "paper": "paper/bing_combo__dome_fissure__central_inclusion.png",
+   "items": "items/bing_combo__dome_fissure__central_inclusion.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "ordinary"
+  },
+  "bing_combo__dome_fissure__dyed_grain_web": {
+   "paper": "paper/bing_combo__dome_fissure__dyed_grain_web.png",
+   "items": "items/bing_combo__dome_fissure__dyed_grain_web.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_dyed_grain_web"
+   ],
+   "view": "ordinary"
+  },
+  "bing_combo__dome_fissure__girdle_chip__central_inclusion": {
+   "paper": "paper/bing_combo__dome_fissure__girdle_chip__central_inclusion.png",
+   "items": "items/bing_combo__dome_fissure__girdle_chip__central_inclusion.png",
+   "templates": [
+    "sp4_jade_cabochon_dome_fissure",
+    "sp4_jade_cabochon_girdle_chip",
+    "sp4_jade_cabochon_central_inclusion"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {
+  "dou_sp4_jade_cabochon_dome_fissure": {
+   "paper": {
+    "changed_px": 272,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     240,
+     108,
+     276,
+     164
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 27,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     40,
+     28,
+     49,
+     39
+    ]
+   }
+  },
+  "dou_sp4_jade_cabochon_girdle_chip": {
+   "paper": {
+    "changed_px": 1548,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     80,
+     162,
+     128,
+     208
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 55,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     12,
+     38,
+     21,
+     47
+    ]
+   }
+  },
+  "dou_sp4_jade_cabochon_central_inclusion": {
+   "paper": {
+    "changed_px": 32,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     120,
+     152,
+     132
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     20,
+     29,
+     28,
+     35
+    ]
+   }
+  },
+  "dou_sp4_jade_cabochon_dyed_grain_web": {
+   "paper": {
+    "changed_px": 1208,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     144,
+     160,
+     244,
+     194
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 40,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     24,
+     37,
+     41,
+     43
+    ]
+   }
+  },
+  "dou_sp4_jade_cabochon_filled_dome_seam": {
+   "paper": {
+    "changed_px": 276,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     284,
+     102,
+     298,
+     160
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     48,
+     28,
+     51,
+     37
+    ]
+   }
+  },
+  "nuo_sp4_jade_cabochon_dome_fissure": {
+   "paper": {
+    "changed_px": 272,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     240,
+     108,
+     276,
+     164
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 27,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     40,
+     28,
+     49,
+     39
+    ]
+   }
+  },
+  "nuo_sp4_jade_cabochon_girdle_chip": {
+   "paper": {
+    "changed_px": 1548,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     80,
+     162,
+     128,
+     208
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 55,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     12,
+     38,
+     21,
+     47
+    ]
+   }
+  },
+  "nuo_sp4_jade_cabochon_central_inclusion": {
+   "paper": {
+    "changed_px": 32,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     120,
+     152,
+     132
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     20,
+     29,
+     28,
+     35
+    ]
+   }
+  },
+  "nuo_sp4_jade_cabochon_dyed_grain_web": {
+   "paper": {
+    "changed_px": 1208,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     144,
+     160,
+     244,
+     194
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 40,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     24,
+     37,
+     41,
+     43
+    ]
+   }
+  },
+  "nuo_sp4_jade_cabochon_filled_dome_seam": {
+   "paper": {
+    "changed_px": 276,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     284,
+     102,
+     298,
+     160
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     48,
+     28,
+     51,
+     37
+    ]
+   }
+  },
+  "bing_sp4_jade_cabochon_dome_fissure": {
+   "paper": {
+    "changed_px": 272,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     240,
+     108,
+     276,
+     164
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 27,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     40,
+     28,
+     49,
+     39
+    ]
+   }
+  },
+  "bing_sp4_jade_cabochon_girdle_chip": {
+   "paper": {
+    "changed_px": 1556,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     80,
+     162,
+     128,
+     208
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 55,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     12,
+     38,
+     21,
+     47
+    ]
+   }
+  },
+  "bing_sp4_jade_cabochon_central_inclusion": {
+   "paper": {
+    "changed_px": 32,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     136,
+     120,
+     152,
+     132
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 8,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     20,
+     29,
+     28,
+     35
+    ]
+   }
+  },
+  "bing_sp4_jade_cabochon_dyed_grain_web": {
+   "paper": {
+    "changed_px": 1208,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     144,
+     160,
+     244,
+     194
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 40,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     24,
+     37,
+     41,
+     43
+    ]
+   }
+  },
+  "bing_sp4_jade_cabochon_filled_dome_seam": {
+   "paper": {
+    "changed_px": 276,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     284,
+     102,
+     298,
+     160
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 9,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     48,
+     28,
+     51,
+     37
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

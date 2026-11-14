@@ -1,0 +1,42 @@
+{
+ "asset_key": "recovered_gold_lot",
+ "name_en": "Measured Gold Granules",
+ "category": "recovered_gold_lot",
+ "subtype": "",
+ "role": "material_lot",
+ "target_family_id": "sp4_recovered_gold_lot",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "sealed": {
+   "paper": "paper/sealed.png",
+   "items": "items/sealed.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "measured": {
+   "paper": "paper/measured.png",
+   "items": "items/measured.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

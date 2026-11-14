@@ -1,0 +1,2315 @@
+{
+ "asset_key": "jade_rough_yellow",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "shell_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "shell_fissure",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3619791666666667,
+   "V": 0.2890625,
+   "Width": 0.11979166666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    116,
+    58,
+    162,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3567708333333333,
+   "V": 0.28515625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    56,
+    28,
+    81,
+    45
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "combo__shell_fissure__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "combo__shell_fissure__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "combo__shell_fissure__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3619791666666667,
+   "V": 0.2890625,
+   "Width": 0.11979166666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    116,
+    58,
+    162,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "combo__shell_fissure__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3567708333333333,
+   "V": 0.28515625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    56,
+    28,
+    81,
+    45
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_shell_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_shell_fissure",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_chalk_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.5625,
+   "Width": 0.07291666666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    118,
+    128,
+    146,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_chalk_cloud",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.3385416666666667,
+   "V": 0.55859375,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    58,
+    62,
+    72,
+    81
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_black_grain_pocket",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.625,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    144,
+    154,
+    158,
+    166
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_black_grain_pocket",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3880208333333333,
+   "V": 0.6328125,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    71,
+    78,
+    78,
+    84
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3619791666666667,
+   "V": 0.2890625,
+   "Width": 0.11979166666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    116,
+    58,
+    162,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3567708333333333,
+   "V": 0.28515625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    56,
+    28,
+    81,
+    45
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_window_inlay",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_window_inlay",
+   "Id": "window_inlay",
+   "CauseId": "sp4_rough_yellow_window_inlay",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4635416666666667,
+   "V": 0.55859375,
+   "Width": 0.041666666666666664,
+   "Height": 0.1640625,
+   "bounds_px": [
+    170,
+    122,
+    186,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_window_inlay",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_window_inlay",
+   "Id": "window_inlay",
+   "CauseId": "sp4_rough_yellow_window_inlay",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4609375,
+   "V": 0.55859375,
+   "Width": 0.046875,
+   "Height": 0.1796875,
+   "bounds_px": [
+    84,
+    60,
+    93,
+    83
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__chalk_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__chalk_cloud",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__chalk_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.5625,
+   "Width": 0.07291666666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    118,
+    128,
+    146,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__chalk_cloud",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.3385416666666667,
+   "V": 0.55859375,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    58,
+    62,
+    72,
+    81
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__black_grain_pocket",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__black_grain_pocket",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__black_grain_pocket",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.625,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    144,
+    154,
+    158,
+    166
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__black_grain_pocket",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3880208333333333,
+   "V": 0.6328125,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    71,
+    78,
+    78,
+    84
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3619791666666667,
+   "V": 0.2890625,
+   "Width": 0.11979166666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    116,
+    58,
+    162,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3567708333333333,
+   "V": 0.28515625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    56,
+    28,
+    81,
+    45
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.5625,
+   "Width": 0.07291666666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    118,
+    128,
+    146,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.3385416666666667,
+   "V": 0.55859375,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    58,
+    62,
+    72,
+    81
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3619791666666667,
+   "V": 0.2890625,
+   "Width": 0.11979166666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    116,
+    58,
+    162,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_dou_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3567708333333333,
+   "V": 0.28515625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    56,
+    28,
+    81,
+    45
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_shell_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_shell_fissure",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_chalk_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.5625,
+   "Width": 0.07291666666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    118,
+    128,
+    146,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_chalk_cloud",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.3385416666666667,
+   "V": 0.55859375,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    58,
+    62,
+    72,
+    81
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_black_grain_pocket",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.625,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    144,
+    154,
+    158,
+    166
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_black_grain_pocket",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3880208333333333,
+   "V": 0.6328125,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    71,
+    78,
+    78,
+    84
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3619791666666667,
+   "V": 0.2890625,
+   "Width": 0.11979166666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    116,
+    58,
+    162,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3567708333333333,
+   "V": 0.28515625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    56,
+    28,
+    81,
+    45
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_window_inlay",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_window_inlay",
+   "Id": "window_inlay",
+   "CauseId": "sp4_rough_yellow_window_inlay",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4635416666666667,
+   "V": 0.55859375,
+   "Width": 0.041666666666666664,
+   "Height": 0.1640625,
+   "bounds_px": [
+    170,
+    122,
+    186,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_window_inlay",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_window_inlay",
+   "Id": "window_inlay",
+   "CauseId": "sp4_rough_yellow_window_inlay",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4609375,
+   "V": 0.55859375,
+   "Width": 0.046875,
+   "Height": 0.1796875,
+   "bounds_px": [
+    84,
+    60,
+    93,
+    83
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__chalk_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__chalk_cloud",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__chalk_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.5625,
+   "Width": 0.07291666666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    118,
+    128,
+    146,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__chalk_cloud",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.3385416666666667,
+   "V": 0.55859375,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    58,
+    62,
+    72,
+    81
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__black_grain_pocket",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__black_grain_pocket",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__black_grain_pocket",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.625,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    144,
+    154,
+    158,
+    166
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__black_grain_pocket",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3880208333333333,
+   "V": 0.6328125,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    71,
+    78,
+    78,
+    84
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3619791666666667,
+   "V": 0.2890625,
+   "Width": 0.11979166666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    116,
+    58,
+    162,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3567708333333333,
+   "V": 0.28515625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    56,
+    28,
+    81,
+    45
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.5625,
+   "Width": 0.07291666666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    118,
+    128,
+    146,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.3385416666666667,
+   "V": 0.55859375,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    58,
+    62,
+    72,
+    81
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3619791666666667,
+   "V": 0.2890625,
+   "Width": 0.11979166666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    116,
+    58,
+    162,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_nuo_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3567708333333333,
+   "V": 0.28515625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    56,
+    28,
+    81,
+    45
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_shell_fissure",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_shell_fissure",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_chalk_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.5625,
+   "Width": 0.07291666666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    118,
+    128,
+    146,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_chalk_cloud",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.3385416666666667,
+   "V": 0.55859375,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    58,
+    62,
+    72,
+    81
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_black_grain_pocket",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.625,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    144,
+    154,
+    158,
+    166
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_black_grain_pocket",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3880208333333333,
+   "V": 0.6328125,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    71,
+    78,
+    78,
+    84
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3619791666666667,
+   "V": 0.2890625,
+   "Width": 0.11979166666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    116,
+    58,
+    162,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3567708333333333,
+   "V": 0.28515625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    56,
+    28,
+    81,
+    45
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_window_inlay",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_window_inlay",
+   "Id": "window_inlay",
+   "CauseId": "sp4_rough_yellow_window_inlay",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4635416666666667,
+   "V": 0.55859375,
+   "Width": 0.041666666666666664,
+   "Height": 0.1640625,
+   "bounds_px": [
+    170,
+    122,
+    186,
+    164
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_window_inlay",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_window_inlay",
+   "Id": "window_inlay",
+   "CauseId": "sp4_rough_yellow_window_inlay",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.4609375,
+   "V": 0.55859375,
+   "Width": 0.046875,
+   "Height": 0.1796875,
+   "bounds_px": [
+    84,
+    60,
+    93,
+    83
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__chalk_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__chalk_cloud",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__chalk_cloud",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.5625,
+   "Width": 0.07291666666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    118,
+    128,
+    146,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__chalk_cloud",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.3385416666666667,
+   "V": 0.55859375,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    58,
+    62,
+    72,
+    81
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__black_grain_pocket",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__black_grain_pocket",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__black_grain_pocket",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3932291666666667,
+   "V": 0.625,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    144,
+    154,
+    158,
+    166
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__black_grain_pocket",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_black_grain_pocket",
+   "Id": "black_grain_pocket",
+   "CauseId": "sp4_rough_yellow_black_grain_pocket",
+   "ViewId": "window",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.3880208333333333,
+   "V": 0.6328125,
+   "Width": 0.036458333333333336,
+   "Height": 0.046875,
+   "bounds_px": [
+    71,
+    78,
+    78,
+    84
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3619791666666667,
+   "V": 0.2890625,
+   "Width": 0.11979166666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    116,
+    58,
+    162,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3567708333333333,
+   "V": 0.28515625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    56,
+    28,
+    81,
+    45
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.6927083333333334,
+   "V": 0.4921875,
+   "Width": 0.07291666666666667,
+   "Height": 0.1875,
+   "bounds_px": [
+    252,
+    102,
+    280,
+    150
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_shell_fissure",
+   "Id": "shell_fissure",
+   "CauseId": "sp4_rough_yellow_shell_fissure",
+   "ViewId": "front",
+   "InstrumentKind": "loupe",
+   "status": "planned_04_not_runtime",
+   "U": 0.7005208333333334,
+   "V": 0.49609375,
+   "Width": 0.078125,
+   "Height": 0.2109375,
+   "bounds_px": [
+    127,
+    50,
+    142,
+    77
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.34375,
+   "V": 0.5625,
+   "Width": 0.07291666666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    118,
+    128,
+    146,
+    160
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_chalk_cloud",
+   "Id": "chalk_cloud",
+   "CauseId": "sp4_rough_yellow_chalk_cloud",
+   "ViewId": "window",
+   "InstrumentKind": "jade_light",
+   "status": "planned_04_not_runtime",
+   "U": 0.3385416666666667,
+   "V": 0.55859375,
+   "Width": 0.07291666666666667,
+   "Height": 0.1484375,
+   "bounds_px": [
+    58,
+    62,
+    72,
+    81
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3619791666666667,
+   "V": 0.2890625,
+   "Width": 0.11979166666666667,
+   "Height": 0.125,
+   "bounds_px": [
+    116,
+    58,
+    162,
+    90
+   ]
+  },
+  {
+   "asset_key": "jade_rough_yellow",
+   "state": "window_bing_combo__shell_fissure__chalk_cloud__dyed_sand",
+   "image": "items",
+   "image_size": [
+    192,
+    128
+   ],
+   "TemplateId": "sp4_rough_yellow_dyed_sand",
+   "Id": "dyed_sand",
+   "CauseId": "sp4_rough_yellow_dyed_sand",
+   "ViewId": "front",
+   "InstrumentKind": "uv",
+   "status": "planned_04_not_runtime",
+   "U": 0.3567708333333333,
+   "V": 0.28515625,
+   "Width": 0.13020833333333334,
+   "Height": 0.1328125,
+   "bounds_px": [
+    56,
+    28,
+    81,
+    45
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "asset_key": "tool_assay",
+ "name_en": "Purity Analyzer",
+ "category": "tool_assay",
+ "subtype": "",
+ "role": "instrument",
+ "target_family_id": "sp4_tool_assay",
+ "grid": [
+  2,
+  2
+ ],
+ "items_px": [
+  128,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "idle": {
+   "paper": "paper/idle.png",
+   "items": "items/idle.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "active": {
+   "paper": "paper/active.png",
+   "items": "items/active.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "reading_ready": {
+   "paper": "paper/reading_ready.png",
+   "items": "items/reading_ready.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "unavailable": {
+   "paper": "paper/unavailable.png",
+   "items": "items/unavailable.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

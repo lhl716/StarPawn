@@ -1,0 +1,54 @@
+{
+ "asset_key": "manual_organizer_large",
+ "name_en": "Twelve-Slot Handbook Organizer",
+ "category": "organizer",
+ "subtype": "",
+ "role": "container",
+ "target_family_id": "sp4_manual_organizer_large",
+ "grid": [
+  4,
+  3
+ ],
+ "items_px": [
+  256,
+  192
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "empty": {
+   "paper": "paper/empty.png",
+   "items": "items/empty.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "partly_filled": {
+   "paper": "paper/partly_filled.png",
+   "items": "items/partly_filled.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "full": {
+   "paper": "paper/full.png",
+   "items": "items/full.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "open": {
+   "paper": "paper/open.png",
+   "items": "items/open.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

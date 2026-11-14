@@ -1,0 +1,152 @@
+{
+ "asset_key": "silver_bracelet_starburst",
+ "combinations": [
+  {
+   "profile": "combo__engraving_loss__seam_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_bracelet_engraving_loss",
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "repairable": [
+    "sp4_silver_bracelet_engraving_loss"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "repaired_state": "repaired__engraving_loss__seam_breakthrough"
+  },
+  {
+   "profile": "combo__rim_buckle__seam_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_bracelet_rim_buckle",
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "repairable": [
+    "sp4_silver_bracelet_rim_buckle"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "repaired_state": "repaired__rim_buckle__seam_breakthrough"
+  },
+  {
+   "profile": "combo__rim_buckle__braze_patch",
+   "variant": "",
+   "templates": [
+    "sp4_silver_bracelet_rim_buckle",
+    "sp4_silver_bracelet_braze_patch"
+   ],
+   "repairable": [
+    "sp4_silver_bracelet_rim_buckle"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_bracelet_braze_patch"
+   ],
+   "repaired_state": "repaired__rim_buckle__braze_patch"
+  },
+  {
+   "profile": "combo__engraving_loss__rim_buckle__seam_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_bracelet_engraving_loss",
+    "sp4_silver_bracelet_rim_buckle",
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "repairable": [
+    "sp4_silver_bracelet_engraving_loss",
+    "sp4_silver_bracelet_rim_buckle"
+   ],
+   "retained_after_repair": [
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "repaired_state": "repaired__engraving_loss__rim_buckle__seam_breakthrough"
+  },
+  {
+   "profile": "engraving_loss",
+   "variant": "",
+   "templates": [
+    "sp4_silver_bracelet_engraving_loss"
+   ],
+   "repairable": [
+    "sp4_silver_bracelet_engraving_loss"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "rim_buckle",
+   "variant": "",
+   "templates": [
+    "sp4_silver_bracelet_rim_buckle"
+   ],
+   "repairable": [
+    "sp4_silver_bracelet_rim_buckle"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "arc_split",
+   "variant": "",
+   "templates": [
+    "sp4_silver_bracelet_arc_split"
+   ],
+   "repairable": [
+    "sp4_silver_bracelet_arc_split"
+   ],
+   "retained_after_repair": [],
+   "repaired_state": "intact",
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "seam_breakthrough",
+   "variant": "",
+   "templates": [
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_silver_bracelet_seam_breakthrough"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "braze_patch",
+   "variant": "",
+   "templates": [
+    "sp4_silver_bracelet_braze_patch"
+   ],
+   "repairable": [],
+   "retained_after_repair": [
+    "sp4_silver_bracelet_braze_patch"
+   ],
+   "repaired_state": null,
+   "hidden_reuses_intact": false
+  },
+  {
+   "profile": "intact",
+   "variant": "",
+   "templates": [],
+   "repairable": [],
+   "retained_after_repair": [],
+   "repaired_state": null
+  }
+ ],
+ "rejected": [
+  {
+   "variant": "",
+   "templates": [
+    "sp4_silver_bracelet_engraving_loss",
+    "sp4_silver_bracelet_braze_patch"
+   ],
+   "reason": "defect layers overlap or touch"
+  }
+ ],
+ "reason_if_empty": null,
+ "rule": "A new component is intact or carries 1-3 of these whitelisted profiles; nothing outside this list is offered."
+}

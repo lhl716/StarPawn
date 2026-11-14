@@ -1,0 +1,48 @@
+{
+ "asset_key": "energy_cell",
+ "name_en": "Energy Cell",
+ "category": "energy_cell",
+ "subtype": "",
+ "role": "consumable",
+ "target_family_id": "sp4_energy_cell",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "charged": {
+   "paper": "paper/charged.png",
+   "items": "items/charged.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "partly_used": {
+   "paper": "paper/partly_used.png",
+   "items": "items/partly_used.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "empty": {
+   "paper": "paper/empty.png",
+   "items": "items/empty.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

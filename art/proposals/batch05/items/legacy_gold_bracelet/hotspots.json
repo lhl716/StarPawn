@@ -1,0 +1,363 @@
+{
+ "asset_key": "legacy_gold_bracelet",
+ "coordinate_contract": "U,V = rectangle CENTER normalized to the image, top-left origin; Width,Height = full normalized size",
+ "formula": "U=(x0+x1)/(2*w); V=(y0+y1)/(2*h); Width=(x1-x0)/w; Height=(y1-y0)/h",
+ "runtime_views": [
+  "front",
+  "window"
+ ],
+ "planned_views": [
+  "uv",
+  "light"
+ ],
+ "hotspots": [
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_worn",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_surface_wear",
+   "Id": "surface_wear",
+   "CauseId": "surface_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.277,
+    0.275
+   ],
+   "U": 0.28125,
+   "V": 0.36328125,
+   "Width": 0.09375,
+   "Height": 0.1328125,
+   "bounds_px": [
+    90,
+    76,
+    126,
+    110
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_worn",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "legacy_surface_wear",
+   "Id": "surface_wear",
+   "CauseId": "surface_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.277,
+    0.275
+   ],
+   "U": 0.203125,
+   "V": 0.3671875,
+   "Width": 0.125,
+   "Height": 0.125,
+   "bounds_px": [
+    18,
+    39,
+    34,
+    55
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_worn",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_surface_seam",
+   "Id": "surface_seam",
+   "CauseId": "surface_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.736,
+    0.293
+   ],
+   "U": 0.7265625,
+   "V": 0.3671875,
+   "Width": 0.057291666666666664,
+   "Height": 0.078125,
+   "bounds_px": [
+    268,
+    84,
+    290,
+    104
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_worn",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "legacy_surface_seam",
+   "Id": "surface_seam",
+   "CauseId": "surface_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.736,
+    0.293
+   ],
+   "U": 0.80859375,
+   "V": 0.3828125,
+   "Width": 0.0859375,
+   "Height": 0.078125,
+   "bounds_px": [
+    98,
+    44,
+    109,
+    54
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_worn",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_clasp_break",
+   "Id": "clasp_break",
+   "CauseId": "clasp_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.499,
+    0.184
+   ],
+   "U": 0.5598958333333334,
+   "V": 0.234375,
+   "Width": 0.026041666666666668,
+   "Height": 0.125,
+   "bounds_px": [
+    210,
+    44,
+    220,
+    76
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_worn",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "legacy_clasp_break",
+   "Id": "clasp_break",
+   "CauseId": "clasp_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.499,
+    0.184
+   ],
+   "U": 0.58203125,
+   "V": 0.26171875,
+   "Width": 0.0390625,
+   "Height": 0.1171875,
+   "bounds_px": [
+    72,
+    26,
+    77,
+    41
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_plated",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_plating_edge",
+   "Id": "plating_edge",
+   "CauseId": "base_material_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.277,
+    0.275
+   ],
+   "U": 0.2838541666666667,
+   "V": 0.35546875,
+   "Width": 0.11979166666666667,
+   "Height": 0.1328125,
+   "bounds_px": [
+    86,
+    74,
+    132,
+    108
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_plated",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "legacy_plating_edge",
+   "Id": "plating_edge",
+   "CauseId": "base_material_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.277,
+    0.275
+   ],
+   "U": 0.203125,
+   "V": 0.3671875,
+   "Width": 0.15625,
+   "Height": 0.125,
+   "bounds_px": [
+    16,
+    39,
+    36,
+    55
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_plated",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_plating_seam",
+   "Id": "plating_seam",
+   "CauseId": "base_material_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.736,
+    0.293
+   ],
+   "U": 0.7265625,
+   "V": 0.3671875,
+   "Width": 0.06770833333333333,
+   "Height": 0.09375,
+   "bounds_px": [
+    266,
+    82,
+    292,
+    106
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_plated",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "legacy_plating_seam",
+   "Id": "plating_seam",
+   "CauseId": "base_material_mismatch",
+   "ViewId": "front",
+   "InstrumentKind": "assay",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.736,
+    0.293
+   ],
+   "U": 0.80859375,
+   "V": 0.3828125,
+   "Width": 0.0859375,
+   "Height": 0.078125,
+   "bounds_px": [
+    98,
+    44,
+    109,
+    54
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_plated",
+   "image": "paper",
+   "image_size": [
+    384,
+    256
+   ],
+   "TemplateId": "legacy_clasp_break",
+   "Id": "clasp_break",
+   "CauseId": "clasp_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.499,
+    0.184
+   ],
+   "U": 0.5598958333333334,
+   "V": 0.234375,
+   "Width": 0.026041666666666668,
+   "Height": 0.125,
+   "bounds_px": [
+    210,
+    44,
+    220,
+    76
+   ]
+  },
+  {
+   "asset_key": "legacy_gold_bracelet",
+   "state": "gold_bracelet_plated",
+   "image": "items",
+   "image_size": [
+    128,
+    128
+   ],
+   "TemplateId": "legacy_clasp_break",
+   "Id": "clasp_break",
+   "CauseId": "clasp_damage",
+   "ViewId": "front",
+   "InstrumentKind": "",
+   "status": "legacy_0.3_ids_preserved; geometry update needs matching texture adoption",
+   "previous_runtime_center": [
+    0.499,
+    0.184
+   ],
+   "U": 0.58203125,
+   "V": 0.26171875,
+   "Width": 0.0390625,
+   "Height": 0.1171875,
+   "bounds_px": [
+    72,
+    26,
+    77,
+    41
+   ]
+  }
+ ]
+}

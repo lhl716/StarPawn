@@ -1,0 +1,44 @@
+{
+ "asset_key": "legacy_silver_cup",
+ "name_en": "Legacy Silver Cup",
+ "category": "silver_cup",
+ "subtype": "",
+ "role": "legacy_appraisable",
+ "target_family_id": "legacy_silver_cup",
+ "grid": [
+  1,
+  2
+ ],
+ "items_px": [
+  64,
+  128
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "silver_cup": {
+   "paper": "paper/silver_cup.png",
+   "items": "items/silver_cup.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "silver_cup_worn": {
+   "paper": "paper/silver_cup_worn.png",
+   "items": "items/silver_cup_worn.png",
+   "templates": [
+    "legacy_cup_dent"
+   ],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

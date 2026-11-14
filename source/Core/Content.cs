@@ -12,6 +12,8 @@ namespace StarPawn.Core
         public int Experience;
         public List<AssetRecord> Assets = new List<AssetRecord>();
         public List<InspectionEncounter> Encounters = new List<InspectionEncounter>();
+        // Revision 05 business state. Absent in older saves; the initializer keeps them loadable.
+        public UnifiedState Unified = new UnifiedState();
     }
 
     public sealed class AssetRecord
@@ -36,6 +38,12 @@ namespace StarPawn.Core
         public bool BookRead;
         // Measurements are established observations, persisted with this exact asset.
         public List<string> Measurements = new List<string>();
+        // ---- Revision 05
+        public string SocketId = "";            // set while Status == "embedded"
+        public string CustodyRef = "";          // job / order holding this item ("" = none)
+        public long GoldMicrograms = -1;        // measured lot content; -1 = use the definition's authored budget
+        public long SilverMicrograms = -1;
+        public long CopperMicrograms = -1;
     }
 
     public sealed class AssetCertificate
@@ -68,6 +76,11 @@ namespace StarPawn.Core
         public string Guidance = "";
         public string GuidanceKey = "";
         public string InstrumentKind = "";
+        // Revision 05: the value component this cause changes. Empty = derived by
+        // ComponentValuation.ComponentOf (never a blanket multiplier over the total).
+        // workmanship | metal_purity | metal_mass | stone | premium | condition | none
+        public string Component = "";
+        public long MassLossMilligrams;
     }
 
     public sealed class ItemDefinition
@@ -119,6 +132,28 @@ namespace StarPawn.Core
         public string JadeBangleOutput = "";
         public string JadeBeadsOutput = "";
         public List<HotspotDefinition> Hotspots = new List<HotspotDefinition>();
+        // ---- Revision 05 (all optional; old packs keep working)
+        public List<string> Labels = new List<string>();     // Luxury, Collectibles, Materials, Weapons, ...
+        public string PrimaryLabel = "";
+        public string ArtModel = "";                          // art/ITEM_LAYOUT_05.csv asset_key
+        public int CommissionRank = -1;                       // native appraiser rank needed for a paid commission; -1 = never commissioned
+        public int InternalWidthCells;                        // containers only
+        public int InternalHeightCells;
+        public string Role = "";                              // gem | setting | assembly | scrap | ore | lot | bar | machine | tool | container | document
+        public string GemFamily = "";                         // diamond | ruby | sapphire | emerald | pearl
+        public string GemShape = "";
+        public long GemMilliCarats;
+        public long GemUnitValue;                             // fictional credits per carat before the day's gem index
+        public string GemOrigin = "natural";                  // natural | laboratory_grown | cultured | imitation (saved truth)
+        public string GemClaim = "natural";
+        public string SettingForm = "";                       // ring | pendant | earrings | bracelet | necklace
+        public int SocketCount;
+        public List<string> CompatibleStones = new List<string>();
+        public string JadeTier = "";                          // dou | nuo | bing for finished jade
+        public long GoldMicrograms;                           // finite authored recovery budgets (fictional balance data)
+        public long SilverMicrograms;
+        public long CopperMicrograms;
+        public string RecoveryClass = "";                     // device | component | sorted | ore | lot | bar | residue
     }
 
     public sealed class AssetActionResult
@@ -127,6 +162,7 @@ namespace StarPawn.Core
         public string Message = "";
         public long CashCost;
         public List<string> CreatedAssetIds = new List<string>();
+        public List<string> NewEvidenceIds = new List<string>();
     }
 
     public sealed class PublicAssetFacts
@@ -362,7 +398,8 @@ namespace StarPawn.Core
             {
                 if (asset == null || string.IsNullOrWhiteSpace(asset.AssetId) || !ids.Add(asset.AssetId) || string.IsNullOrWhiteSpace(asset.OwnerId) || asset.StateVersion < 1 || asset.NativeItemUniqueId < -1 || asset.QualityBasisPoints < 1 || asset.QualityBasisPoints > 20000)
                     throw new InvalidOperationException("Invalid asset identity or quality.");
-                if (asset.Status != "active" && asset.Status != "escrow" && asset.Status != "consumed") throw new InvalidOperationException("Invalid asset status.");
+                if (asset.Status != "active" && asset.Status != "escrow" && asset.Status != "consumed" && asset.Status != "embedded") throw new InvalidOperationException("Invalid asset status.");
+                if (asset.Status == "embedded" && string.IsNullOrEmpty(asset.ParentAssetId)) throw new InvalidOperationException("An embedded stone needs its setting.");
                 if (asset.NativeItemUniqueId >= 0 && asset.Status != "consumed" && !nativeIds.Add(asset.NativeItemUniqueId)) throw new InvalidOperationException("Multiple assets refer to one native item.");
                 var definition = GetDefinition(asset.DefinitionId);
                 if (asset.DiscoveredEvidenceIds == null || asset.RewardedEvidenceIds == null || asset.ResolvedCauseIds == null || asset.RepairHistory == null || asset.Certificates == null || asset.Measurements == null || asset.RepairHistory.Count > 64 || asset.Certificates.Count > 32)

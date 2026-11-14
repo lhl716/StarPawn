@@ -1,0 +1,241 @@
+{
+ "asset_key": "alloy_gold18k",
+ "name_en": "18K Gold Alloy Bar",
+ "category": "alloy_gold_bar",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_alloy_gold18k",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "karat_shortfall": {
+   "paper": "paper/karat_shortfall.png",
+   "items": "items/karat_shortfall.png",
+   "templates": [
+    "sp4_alloy_gold_bar_karat_shortfall"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "segregated_face": {
+   "paper": "paper/segregated_face.png",
+   "items": "items/segregated_face.png",
+   "templates": [
+    "sp4_alloy_gold_bar_segregated_face"
+   ],
+   "view": "ordinary"
+  },
+  "cast_crack": {
+   "paper": "paper/cast_crack.png",
+   "items": "items/cast_crack.png",
+   "templates": [
+    "sp4_alloy_gold_bar_cast_crack"
+   ],
+   "view": "ordinary"
+  },
+  "short_weight": {
+   "paper": "paper/short_weight.png",
+   "items": "items/short_weight.png",
+   "templates": [
+    "sp4_alloy_gold_bar_short_weight"
+   ],
+   "view": "ordinary",
+   "alias_of": "intact",
+   "hidden": true
+  },
+  "altered_karat_stamp": {
+   "paper": "paper/altered_karat_stamp.png",
+   "items": "items/altered_karat_stamp.png",
+   "templates": [
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "view": "ordinary"
+  },
+  "combo__segregated_face__altered_karat_stamp": {
+   "paper": "paper/combo__segregated_face__altered_karat_stamp.png",
+   "items": "items/combo__segregated_face__altered_karat_stamp.png",
+   "templates": [
+    "sp4_alloy_gold_bar_segregated_face",
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__segregated_face__altered_karat_stamp": {
+   "paper": "paper/repaired__segregated_face__altered_karat_stamp.png",
+   "items": "items/repaired__segregated_face__altered_karat_stamp.png",
+   "templates": [
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__segregated_face__altered_karat_stamp"
+  },
+  "combo__cast_crack__altered_karat_stamp": {
+   "paper": "paper/combo__cast_crack__altered_karat_stamp.png",
+   "items": "items/combo__cast_crack__altered_karat_stamp.png",
+   "templates": [
+    "sp4_alloy_gold_bar_cast_crack",
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__cast_crack__altered_karat_stamp": {
+   "paper": "paper/repaired__cast_crack__altered_karat_stamp.png",
+   "items": "items/repaired__cast_crack__altered_karat_stamp.png",
+   "templates": [
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__cast_crack__altered_karat_stamp"
+  },
+  "combo__segregated_face__cast_crack__altered_karat_stamp": {
+   "paper": "paper/combo__segregated_face__cast_crack__altered_karat_stamp.png",
+   "items": "items/combo__segregated_face__cast_crack__altered_karat_stamp.png",
+   "templates": [
+    "sp4_alloy_gold_bar_segregated_face",
+    "sp4_alloy_gold_bar_cast_crack",
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__segregated_face__cast_crack__altered_karat_stamp": {
+   "paper": "paper/repaired__segregated_face__cast_crack__altered_karat_stamp.png",
+   "items": "items/repaired__segregated_face__cast_crack__altered_karat_stamp.png",
+   "templates": [
+    "sp4_alloy_gold_bar_altered_karat_stamp"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__segregated_face__cast_crack__altered_karat_stamp"
+  }
+ },
+ "template_checks": {
+  "sp4_alloy_gold_bar_karat_shortfall": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_alloy_gold_bar_segregated_face": {
+   "paper": {
+    "changed_px": 1224,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     112,
+     148,
+     214,
+     160
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 140,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     36,
+     39,
+     71,
+     43
+    ]
+   }
+  },
+  "sp4_alloy_gold_bar_cast_crack": {
+   "paper": {
+    "changed_px": 80,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     322,
+     88,
+     348,
+     98
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 14,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     107,
+     19,
+     117,
+     23
+    ]
+   }
+  },
+  "sp4_alloy_gold_bar_short_weight": {
+   "paper": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   },
+   "policy": "unchanged",
+   "items": {
+    "changed_px": 0,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": null
+   }
+  },
+  "sp4_alloy_gold_bar_altered_karat_stamp": {
+   "paper": {
+    "changed_px": 364,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     164,
+     96,
+     224,
+     126
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 47,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     54,
+     20,
+     74,
+     30
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

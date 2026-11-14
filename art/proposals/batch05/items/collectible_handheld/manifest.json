@@ -1,0 +1,275 @@
+{
+ "asset_key": "collectible_handheld",
+ "name_en": "Handheld",
+ "category": "handheld",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_collectible_handheld",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "charging_contacts": {
+   "paper": "paper/charging_contacts.png",
+   "items": "items/charging_contacts.png",
+   "templates": [
+    "sp4_handheld_charging_contacts"
+   ],
+   "view": "ordinary"
+  },
+  "display_line": {
+   "paper": "paper/display_line.png",
+   "items": "items/display_line.png",
+   "templates": [
+    "sp4_handheld_display_line"
+   ],
+   "view": "ordinary"
+  },
+  "stuck_button": {
+   "paper": "paper/stuck_button.png",
+   "items": "items/stuck_button.png",
+   "templates": [
+    "sp4_handheld_stuck_button"
+   ],
+   "view": "ordinary"
+  },
+  "shell_split": {
+   "paper": "paper/shell_split.png",
+   "items": "items/shell_split.png",
+   "templates": [
+    "sp4_handheld_shell_split"
+   ],
+   "view": "ordinary"
+  },
+  "battery_cover_rework": {
+   "paper": "paper/battery_cover_rework.png",
+   "items": "items/battery_cover_rework.png",
+   "templates": [
+    "sp4_handheld_battery_cover_rework"
+   ],
+   "view": "ordinary"
+  },
+  "combo__charging_contacts__battery_cover_rework": {
+   "paper": "paper/combo__charging_contacts__battery_cover_rework.png",
+   "items": "items/combo__charging_contacts__battery_cover_rework.png",
+   "templates": [
+    "sp4_handheld_charging_contacts",
+    "sp4_handheld_battery_cover_rework"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__charging_contacts__battery_cover_rework": {
+   "paper": "paper/repaired__charging_contacts__battery_cover_rework.png",
+   "items": "items/repaired__charging_contacts__battery_cover_rework.png",
+   "templates": [
+    "sp4_handheld_battery_cover_rework"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__charging_contacts__battery_cover_rework"
+  },
+  "combo__display_line__battery_cover_rework": {
+   "paper": "paper/combo__display_line__battery_cover_rework.png",
+   "items": "items/combo__display_line__battery_cover_rework.png",
+   "templates": [
+    "sp4_handheld_display_line",
+    "sp4_handheld_battery_cover_rework"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__display_line__battery_cover_rework": {
+   "paper": "paper/repaired__display_line__battery_cover_rework.png",
+   "items": "items/repaired__display_line__battery_cover_rework.png",
+   "templates": [
+    "sp4_handheld_battery_cover_rework"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__display_line__battery_cover_rework"
+  },
+  "combo__stuck_button__battery_cover_rework": {
+   "paper": "paper/combo__stuck_button__battery_cover_rework.png",
+   "items": "items/combo__stuck_button__battery_cover_rework.png",
+   "templates": [
+    "sp4_handheld_stuck_button",
+    "sp4_handheld_battery_cover_rework"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__stuck_button__battery_cover_rework": {
+   "paper": "paper/repaired__stuck_button__battery_cover_rework.png",
+   "items": "items/repaired__stuck_button__battery_cover_rework.png",
+   "templates": [
+    "sp4_handheld_battery_cover_rework"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__stuck_button__battery_cover_rework"
+  },
+  "combo__charging_contacts__display_line__battery_cover_rework": {
+   "paper": "paper/combo__charging_contacts__display_line__battery_cover_rework.png",
+   "items": "items/combo__charging_contacts__display_line__battery_cover_rework.png",
+   "templates": [
+    "sp4_handheld_charging_contacts",
+    "sp4_handheld_display_line",
+    "sp4_handheld_battery_cover_rework"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__charging_contacts__display_line__battery_cover_rework": {
+   "paper": "paper/repaired__charging_contacts__display_line__battery_cover_rework.png",
+   "items": "items/repaired__charging_contacts__display_line__battery_cover_rework.png",
+   "templates": [
+    "sp4_handheld_battery_cover_rework"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__charging_contacts__display_line__battery_cover_rework"
+  }
+ },
+ "template_checks": {
+  "sp4_handheld_charging_contacts": {
+   "paper": {
+    "changed_px": 112,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     304,
+     190,
+     328,
+     198
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 16,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     102,
+     53,
+     111,
+     56
+    ]
+   }
+  },
+  "sp4_handheld_display_line": {
+   "paper": {
+    "changed_px": 264,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     126,
+     148,
+     258,
+     150
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 44,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     42,
+     39,
+     86,
+     40
+    ]
+   }
+  },
+  "sp4_handheld_stuck_button": {
+   "paper": {
+    "changed_px": 452,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     324,
+     100,
+     350,
+     128
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 70,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     109,
+     23,
+     118,
+     33
+    ]
+   }
+  },
+  "sp4_handheld_shell_split": {
+   "paper": {
+    "changed_px": 464,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     16,
+     158,
+     80,
+     180
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 60,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     4,
+     42,
+     26,
+     51
+    ]
+   }
+  },
+  "sp4_handheld_battery_cover_rework": {
+   "paper": {
+    "changed_px": 176,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     152,
+     180,
+     170,
+     198
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 29,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     50,
+     49,
+     57,
+     56
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}

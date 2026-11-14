@@ -1,0 +1,42 @@
+{
+ "asset_key": "ingot_mold",
+ "name_en": "Ingot Mold",
+ "category": "ingot_mold",
+ "subtype": "",
+ "role": "tool",
+ "target_family_id": "sp4_ingot_mold",
+ "grid": [
+  2,
+  1
+ ],
+ "items_px": [
+  128,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "empty": {
+   "paper": "paper/empty.png",
+   "items": "items/empty.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "filled": {
+   "paper": "paper/filled.png",
+   "items": "items/filled.png",
+   "templates": [],
+   "view": "ordinary"
+  }
+ },
+ "template_checks": {},
+ "generator": "source/generate.py"
+}

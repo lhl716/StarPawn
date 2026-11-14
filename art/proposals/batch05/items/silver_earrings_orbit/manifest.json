@@ -1,0 +1,275 @@
+{
+ "asset_key": "silver_earrings_orbit",
+ "name_en": "Orbit Silver Earring Pair",
+ "category": "silver_earrings",
+ "subtype": "",
+ "role": "appraisable",
+ "target_family_id": "sp4_silver_earrings_orbit",
+ "grid": [
+  1,
+  1
+ ],
+ "items_px": [
+  64,
+  64
+ ],
+ "paper_px": [
+  384,
+  256
+ ],
+ "paper_authored_px": [
+  192,
+  128
+ ],
+ "tier_policy": "none",
+ "implementation_status": "required_revision05_not_implemented",
+ "states": {
+  "intact": {
+   "paper": "paper/intact.png",
+   "items": "items/intact.png",
+   "templates": [],
+   "view": "ordinary"
+  },
+  "twisted_hook": {
+   "paper": "paper/twisted_hook.png",
+   "items": "items/twisted_hook.png",
+   "templates": [
+    "sp4_silver_earrings_twisted_hook"
+   ],
+   "view": "ordinary"
+  },
+  "pendant_loop_split": {
+   "paper": "paper/pendant_loop_split.png",
+   "items": "items/pendant_loop_split.png",
+   "templates": [
+    "sp4_silver_earrings_pendant_loop_split"
+   ],
+   "view": "ordinary"
+  },
+  "fastener_wear": {
+   "paper": "paper/fastener_wear.png",
+   "items": "items/fastener_wear.png",
+   "templates": [
+    "sp4_silver_earrings_fastener_wear"
+   ],
+   "view": "ordinary"
+  },
+  "body_core": {
+   "paper": "paper/body_core.png",
+   "items": "items/body_core.png",
+   "templates": [
+    "sp4_silver_earrings_body_core"
+   ],
+   "view": "ordinary"
+  },
+  "mount_rework": {
+   "paper": "paper/mount_rework.png",
+   "items": "items/mount_rework.png",
+   "templates": [
+    "sp4_silver_earrings_mount_rework"
+   ],
+   "view": "ordinary"
+  },
+  "combo__twisted_hook__body_core": {
+   "paper": "paper/combo__twisted_hook__body_core.png",
+   "items": "items/combo__twisted_hook__body_core.png",
+   "templates": [
+    "sp4_silver_earrings_twisted_hook",
+    "sp4_silver_earrings_body_core"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__twisted_hook__body_core": {
+   "paper": "paper/repaired__twisted_hook__body_core.png",
+   "items": "items/repaired__twisted_hook__body_core.png",
+   "templates": [
+    "sp4_silver_earrings_body_core"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__twisted_hook__body_core"
+  },
+  "combo__twisted_hook__mount_rework": {
+   "paper": "paper/combo__twisted_hook__mount_rework.png",
+   "items": "items/combo__twisted_hook__mount_rework.png",
+   "templates": [
+    "sp4_silver_earrings_twisted_hook",
+    "sp4_silver_earrings_mount_rework"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__twisted_hook__mount_rework": {
+   "paper": "paper/repaired__twisted_hook__mount_rework.png",
+   "items": "items/repaired__twisted_hook__mount_rework.png",
+   "templates": [
+    "sp4_silver_earrings_mount_rework"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__twisted_hook__mount_rework"
+  },
+  "combo__pendant_loop_split__body_core": {
+   "paper": "paper/combo__pendant_loop_split__body_core.png",
+   "items": "items/combo__pendant_loop_split__body_core.png",
+   "templates": [
+    "sp4_silver_earrings_pendant_loop_split",
+    "sp4_silver_earrings_body_core"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__pendant_loop_split__body_core": {
+   "paper": "paper/repaired__pendant_loop_split__body_core.png",
+   "items": "items/repaired__pendant_loop_split__body_core.png",
+   "templates": [
+    "sp4_silver_earrings_body_core"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__pendant_loop_split__body_core"
+  },
+  "combo__twisted_hook__pendant_loop_split__body_core": {
+   "paper": "paper/combo__twisted_hook__pendant_loop_split__body_core.png",
+   "items": "items/combo__twisted_hook__pendant_loop_split__body_core.png",
+   "templates": [
+    "sp4_silver_earrings_twisted_hook",
+    "sp4_silver_earrings_pendant_loop_split",
+    "sp4_silver_earrings_body_core"
+   ],
+   "view": "ordinary"
+  },
+  "repaired__twisted_hook__pendant_loop_split__body_core": {
+   "paper": "paper/repaired__twisted_hook__pendant_loop_split__body_core.png",
+   "items": "items/repaired__twisted_hook__pendant_loop_split__body_core.png",
+   "templates": [
+    "sp4_silver_earrings_body_core"
+   ],
+   "view": "ordinary",
+   "repaired_from": "combo__twisted_hook__pendant_loop_split__body_core"
+  }
+ },
+ "template_checks": {
+  "sp4_silver_earrings_twisted_hook": {
+   "paper": {
+    "changed_px": 1028,
+    "alpha_equal": false,
+    "within_object": false,
+    "bounds": [
+     274,
+     32,
+     314,
+     118
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 66,
+    "alpha_equal": false,
+    "within_object": false,
+    "bounds": [
+     51,
+     10,
+     61,
+     30
+    ]
+   }
+  },
+  "sp4_silver_earrings_pendant_loop_split": {
+   "paper": {
+    "changed_px": 56,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     108,
+     120,
+     114,
+     130
+    ]
+   },
+   "policy": "state_mask",
+   "items": {
+    "changed_px": 7,
+    "alpha_equal": false,
+    "within_object": true,
+    "bounds": [
+     12,
+     29,
+     14,
+     33
+    ]
+   }
+  },
+  "sp4_silver_earrings_fastener_wear": {
+   "paper": {
+    "changed_px": 292,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     264,
+     178,
+     290,
+     196
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 18,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     48,
+     43,
+     55,
+     48
+    ]
+   }
+  },
+  "sp4_silver_earrings_body_core": {
+   "paper": {
+    "changed_px": 664,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     196,
+     60,
+     220,
+     98
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 31,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     34,
+     17,
+     38,
+     25
+    ]
+   }
+  },
+  "sp4_silver_earrings_mount_rework": {
+   "paper": {
+    "changed_px": 364,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     212,
+     58,
+     232,
+     84
+    ]
+   },
+   "policy": "same_alpha",
+   "items": {
+    "changed_px": 19,
+    "alpha_equal": true,
+    "within_object": true,
+    "bounds": [
+     36,
+     15,
+     41,
+     22
+    ]
+   }
+  }
+ },
+ "generator": "source/generate.py"
+}
