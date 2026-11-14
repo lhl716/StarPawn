@@ -60,9 +60,9 @@ internal static class AppraisalTests
         });
         Test("every handbook and legacy collection index fits five pages including its introduction",()=>{
             var manuals=definitions.Where(d=>!string.IsNullOrEmpty(d.ManualFor)).ToList();
-            Check(manuals.Count(d=>d.HandbookTemplates.Count>0)==15,"Missing physical short volumes");
+            Check(manuals.Count(d=>d.HandbookTemplates.Count>0)==26,"Missing physical short volumes");Check(manuals.All(d=>Handbooks.PageCount(d)<=5),"A Revision 05 book exceeds five pages");
             Check(manuals.All(d=>Appraisal.HandbookPageCount(d)<=5),"A book exceeds five pages");
-            Check(manuals.Where(d=>d.HandbookTemplates.Count>0).All(d=>d.IsBook&&d.ShopOnly&&d.WidthCells==1&&d.HeightCells==1),"Volume is not a one-cell physical book");
+            Check(manuals.Where(d=>d.HandbookTemplates.Count>0).All(d=>d.IsBook&&d.ShopOnly&&d.WidthCells==2&&d.HeightCells==3),"Volume is not a 2x3 physical book");
         });
         Test("splitting books preserves every fixed example exactly once in its category",()=>{
             foreach(var category in Appraisal.ManualCategories)

@@ -154,6 +154,7 @@ namespace StarPawn.Core
         public long SilverMicrograms;
         public long CopperMicrograms;
         public string RecoveryClass = "";                     // device | component | sorted | ore | lot | bar | residue
+        public string ArtState = "";                          // mounted-jewelry art state for this profile ("intact" or a template short name)
     }
 
     public sealed class AssetActionResult

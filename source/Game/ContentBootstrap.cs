@@ -60,10 +60,14 @@ namespace StarPawn.Game
                     foreach (var hotspot in definition.Hotspots) { hotspot.Label = TextResolver.Get(hotspot.LabelKey, hotspot.Label); hotspot.Guidance = TextResolver.Get(hotspot.GuidanceKey,hotspot.Guidance); }
                 }
                 Catalog.Configure(definitions);
+                Handbooks.ValidateAll(); // every physical book, index included, has at most five pages
+                // Revision 05 events, recipes, intent weights, commission fee and pawn policy.
+                var unified = ReadConfig<UnifiedRules>(modId, "Content/unified-rules.json", "RulesVersion", 5);
+                UnifiedConfig.Configure(unified);
                 InspectionV2.ConfigureRules(inspection);
                 foreach (var field in typeof(EconomyRules).GetFields(BindingFlags.Public | BindingFlags.Instance)) field.SetValue(rules, field.GetValue(finance));
                 ContentReady = true;
-                log?.Log("SP_CONTENT_READY: definitions=" + definitions.Count + ", language=" + TextResolver.Language + ", mastery=" + InspectionV2.MasteryExperience);
+                log?.Log("SP_CONTENT_READY: definitions=" + definitions.Count + ", language=" + TextResolver.Language + ", events=" + unified.Events.Count + ", recipes=" + unified.Recipes.Count);
             }
             catch (Exception error)
             {

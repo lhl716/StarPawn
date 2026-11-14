@@ -1,0 +1,840 @@
+{
+  "RulesVersion": 5,
+  "CopperSellPer100g": 6,
+  "CopperBuyPer100g": 4,
+  "EventStartChancePercent": 35,
+  "MaxConcurrentEvents": 3,
+  "MaxExtraEventVisitorsPerDay": 2,
+  "CommissionBaseFee": 5,
+  "CommissionFeeBps": 300,
+  "CommissionFeeCap": 60,
+  "PawnDefaultLtvBps": 5000,
+  "PawnMinLtvBps": 3000,
+  "PawnMaxLtvBps": 6500,
+  "PawnUnverifiedHaircutBps": 6000,
+  "PawnCraftLiquidationBps": 5000,
+  "OfferValidDays": 1,
+  "ResalePriceBasisPoints": 8500,
+  "CustomerAskBasisPoints": 9000,
+  "OrderDepositBps": 3000,
+  "GemLabGrownBps": 4000,
+  "GemImitationBps": 500,
+  "GemLabFee": 6,
+  "Events": [
+    {
+      "Id": "gold_shipment",
+      "DurationDays": 2,
+      "CooldownDays": 10,
+      "UnlockDay": 8,
+      "Rows": [
+        {
+          "Channel": "commodity_price",
+          "Target": "Au",
+          "DeltaBps": -1500,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "supplier_availability",
+          "Target": "gold_goods",
+          "DeltaBps": 2500,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "supplier_availability",
+          "Target": "ore_gold",
+          "DeltaBps": 3000,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "port_delay",
+      "DurationDays": 2,
+      "CooldownDays": 10,
+      "UnlockDay": 8,
+      "Rows": [
+        {
+          "Channel": "commodity_price",
+          "Target": "Au",
+          "DeltaBps": 1000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "commodity_price",
+          "Target": "Ag",
+          "DeltaBps": 1200,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "commodity_price",
+          "Target": "Cu",
+          "DeltaBps": 1500,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "supplier_availability",
+          "Target": "all_trade_goods",
+          "DeltaBps": -2500,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "processing_service_cost",
+          "Target": "all",
+          "DeltaBps": 1000,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "safe_haven",
+      "DurationDays": 2,
+      "CooldownDays": 12,
+      "UnlockDay": 12,
+      "Rows": [
+        {
+          "Channel": "commodity_price",
+          "Target": "Au",
+          "DeltaBps": 1200,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "commodity_price",
+          "Target": "Ag",
+          "DeltaBps": 800,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "category_demand",
+          "Target": "precious_metal_goods",
+          "DeltaBps": 1000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "risk_appetite",
+          "Target": "market",
+          "DeltaBps": -1500,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "jade_festival",
+      "DurationDays": 2,
+      "CooldownDays": 10,
+      "UnlockDay": 12,
+      "Rows": [
+        {
+          "Channel": "jade_tier_value",
+          "Target": "dou",
+          "DeltaBps": 500,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "jade_tier_value",
+          "Target": "nuo",
+          "DeltaBps": 1200,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "jade_tier_value",
+          "Target": "bing",
+          "DeltaBps": 1800,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "category_demand",
+          "Target": "jade_workmanship",
+          "DeltaBps": 1000,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "new_jade_seam",
+      "DurationDays": 3,
+      "CooldownDays": 14,
+      "UnlockDay": 14,
+      "Rows": [
+        {
+          "Channel": "jade_tier_value",
+          "Target": "dou",
+          "DeltaBps": -1800,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "jade_tier_value",
+          "Target": "nuo",
+          "DeltaBps": -1200,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "jade_tier_value",
+          "Target": "bing",
+          "DeltaBps": -500,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "supplier_availability",
+          "Target": "jade_rough",
+          "DeltaBps": 3500,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "power_rationing",
+      "DurationDays": 2,
+      "CooldownDays": 8,
+      "UnlockDay": 10,
+      "Rows": [
+        {
+          "Channel": "processing_energy_cost",
+          "Target": "all",
+          "DeltaBps": 3000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "processing_duration",
+          "Target": "all",
+          "DeltaBps": 5000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "supplier_availability",
+          "Target": "energy_cell",
+          "DeltaBps": -2500,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "recovery_grant",
+      "DurationDays": 2,
+      "CooldownDays": 12,
+      "UnlockDay": 14,
+      "Rows": [
+        {
+          "Channel": "processing_service_cost",
+          "Target": "recovery",
+          "DeltaBps": -2000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "recovery_efficiency",
+          "Target": "recovery",
+          "DeltaBps": 300,
+          "Application": "recipe_bps_delta"
+        },
+        {
+          "Channel": "supplier_availability",
+          "Target": "mixed_e_scrap",
+          "DeltaBps": 3000,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "chip_shortage",
+      "DurationDays": 2,
+      "CooldownDays": 10,
+      "UnlockDay": 10,
+      "Rows": [
+        {
+          "Channel": "category_demand",
+          "Target": "electronics",
+          "DeltaBps": 2000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "commodity_price",
+          "Target": "Au",
+          "DeltaBps": 500,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "commodity_price",
+          "Target": "Cu",
+          "DeltaBps": 1200,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "supplier_availability",
+          "Target": "electronic_components",
+          "DeltaBps": -3000,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "repair_drive",
+      "DurationDays": 2,
+      "CooldownDays": 8,
+      "UnlockDay": 10,
+      "Rows": [
+        {
+          "Channel": "category_demand",
+          "Target": "electronics",
+          "DeltaBps": 1000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "processing_service_cost",
+          "Target": "repair",
+          "DeltaBps": -1500,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "supplier_availability",
+          "Target": "damaged_electronics",
+          "DeltaBps": 2500,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "credit_squeeze",
+      "DurationDays": 2,
+      "CooldownDays": 14,
+      "UnlockDay": 14,
+      "Rows": [
+        {
+          "Channel": "new_savings_rate",
+          "Target": "new_agreements",
+          "DeltaBps": 5,
+          "Application": "rate_bps_add"
+        },
+        {
+          "Channel": "new_credit_rate",
+          "Target": "new_agreements",
+          "DeltaBps": 15,
+          "Application": "rate_bps_add"
+        },
+        {
+          "Channel": "new_loan_rate",
+          "Target": "new_agreements",
+          "DeltaBps": 15,
+          "Application": "rate_bps_add"
+        },
+        {
+          "Channel": "new_pawn_rate",
+          "Target": "new_agreements",
+          "DeltaBps": 10,
+          "Application": "rate_bps_add"
+        },
+        {
+          "Channel": "new_pawn_ltv",
+          "Target": "new_agreements",
+          "DeltaBps": -1000,
+          "Application": "rate_bps_add"
+        },
+        {
+          "Channel": "risk_appetite",
+          "Target": "market",
+          "DeltaBps": -1500,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "intent_shift",
+          "Target": "request_pawn",
+          "DeltaBps": 1500,
+          "Application": "weight_points_x100"
+        }
+      ]
+    },
+    {
+      "Id": "collectors_visit",
+      "DurationDays": 1,
+      "CooldownDays": 8,
+      "UnlockDay": 12,
+      "Rows": [
+        {
+          "Channel": "category_demand",
+          "Target": "collectibles",
+          "DeltaBps": 2000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "category_demand",
+          "Target": "precious_metal_goods",
+          "DeltaBps": 1200,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "supplier_availability",
+          "Target": "collectibles",
+          "DeltaBps": 1500,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "intent_shift",
+          "Target": "offer_sale",
+          "DeltaBps": 1000,
+          "Application": "weight_points_x100"
+        }
+      ]
+    },
+    {
+      "Id": "assay_campaign",
+      "DurationDays": 2,
+      "CooldownDays": 10,
+      "UnlockDay": 10,
+      "Rows": [
+        {
+          "Channel": "assay_service_cost",
+          "Target": "outsourced_assay",
+          "DeltaBps": -2000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "category_demand",
+          "Target": "certified_goods",
+          "DeltaBps": 1000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "supplier_availability",
+          "Target": "process_cartridge",
+          "DeltaBps": 1500,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "jewelry_festival",
+      "DurationDays": 2,
+      "CooldownDays": 12,
+      "UnlockDay": 12,
+      "Rows": [
+        {
+          "Channel": "category_demand",
+          "Target": "mounted_jewelry",
+          "DeltaBps": 1800,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "category_demand",
+          "Target": "gold_goods",
+          "DeltaBps": 800,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "category_demand",
+          "Target": "jade_workmanship",
+          "DeltaBps": 800,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "gem_price",
+          "Target": "diamond",
+          "DeltaBps": 600,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "gem_price",
+          "Target": "pearl",
+          "DeltaBps": 800,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "gem_freight",
+      "DurationDays": 2,
+      "CooldownDays": 12,
+      "UnlockDay": 14,
+      "Rows": [
+        {
+          "Channel": "gem_price",
+          "Target": "ruby",
+          "DeltaBps": -1200,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "gem_price",
+          "Target": "sapphire",
+          "DeltaBps": -1000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "gem_price",
+          "Target": "emerald",
+          "DeltaBps": -800,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "supplier_availability",
+          "Target": "loose_gems",
+          "DeltaBps": 2500,
+          "Application": "multiplier_delta"
+        }
+      ]
+    },
+    {
+      "Id": "gem_disclosure",
+      "DurationDays": 2,
+      "CooldownDays": 14,
+      "UnlockDay": 14,
+      "Rows": [
+        {
+          "Channel": "assay_service_cost",
+          "Target": "gem_lab",
+          "DeltaBps": -2000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "category_demand",
+          "Target": "certified_goods",
+          "DeltaBps": 1000,
+          "Application": "multiplier_delta"
+        },
+        {
+          "Channel": "processing_service_cost",
+          "Target": "jewelry_repair",
+          "DeltaBps": -1000,
+          "Application": "multiplier_delta"
+        }
+      ]
+    }
+  ],
+  "Recipes": [
+    {
+      "Id": "dismantle_device",
+      "Kind": "dismantle",
+      "Machine": "recovery_station",
+      "Inputs": [
+        "device"
+      ],
+      "Equipment": [
+        "process_cartridge"
+      ],
+      "OutputBar": "",
+      "InputLimit": 1,
+      "EnergyUnits": 2,
+      "DurationDays": 1,
+      "ServiceFee": 1,
+      "GoldBps": 10000,
+      "SilverBps": 10000,
+      "CopperBps": 10000
+    },
+    {
+      "Id": "sort_scrap",
+      "Kind": "sort",
+      "Machine": "recovery_station",
+      "Inputs": [
+        "mixed"
+      ],
+      "Equipment": [
+        "process_cartridge"
+      ],
+      "OutputBar": "",
+      "InputLimit": 1,
+      "EnergyUnits": 2,
+      "DurationDays": 1,
+      "ServiceFee": 1,
+      "GoldBps": 10000,
+      "SilverBps": 10000,
+      "CopperBps": 10000
+    },
+    {
+      "Id": "recover_components",
+      "Kind": "recovery",
+      "Machine": "recovery_station",
+      "Inputs": [
+        "scrap_board",
+        "scrap_processor",
+        "scrap_connectors"
+      ],
+      "Equipment": [
+        "process_cartridge",
+        "crucible"
+      ],
+      "OutputBar": "",
+      "InputLimit": 20,
+      "EnergyUnits": 4,
+      "DurationDays": 1,
+      "ServiceFee": 2,
+      "GoldBps": 8500,
+      "SilverBps": 8000,
+      "CopperBps": 9000
+    },
+    {
+      "Id": "recover_sorted",
+      "Kind": "recovery",
+      "Machine": "recovery_station",
+      "Inputs": [
+        "sorted_gold_scrap",
+        "sorted_silver_scrap",
+        "sorted_copper_scrap"
+      ],
+      "Equipment": [
+        "process_cartridge",
+        "crucible"
+      ],
+      "OutputBar": "",
+      "InputLimit": 3,
+      "EnergyUnits": 3,
+      "DurationDays": 1,
+      "ServiceFee": 2,
+      "GoldBps": 9200,
+      "SilverBps": 9000,
+      "CopperBps": 9500
+    },
+    {
+      "Id": "refine_gold_ore",
+      "Kind": "refining",
+      "Machine": "refining_furnace",
+      "Inputs": [
+        "ore_gold"
+      ],
+      "Equipment": [
+        "crucible",
+        "process_cartridge"
+      ],
+      "OutputBar": "",
+      "InputLimit": 3,
+      "EnergyUnits": 6,
+      "DurationDays": 2,
+      "ServiceFee": 3,
+      "GoldBps": 8000,
+      "SilverBps": 7000,
+      "CopperBps": 8000
+    },
+    {
+      "Id": "refine_silver_ore",
+      "Kind": "refining",
+      "Machine": "refining_furnace",
+      "Inputs": [
+        "ore_silver"
+      ],
+      "Equipment": [
+        "crucible",
+        "process_cartridge"
+      ],
+      "OutputBar": "",
+      "InputLimit": 3,
+      "EnergyUnits": 6,
+      "DurationDays": 2,
+      "ServiceFee": 3,
+      "GoldBps": 7000,
+      "SilverBps": 8500,
+      "CopperBps": 8000
+    },
+    {
+      "Id": "refine_copper_ore",
+      "Kind": "refining",
+      "Machine": "refining_furnace",
+      "Inputs": [
+        "ore_copper"
+      ],
+      "Equipment": [
+        "crucible",
+        "process_cartridge"
+      ],
+      "OutputBar": "",
+      "InputLimit": 3,
+      "EnergyUnits": 4,
+      "DurationDays": 1,
+      "ServiceFee": 2,
+      "GoldBps": 6500,
+      "SilverBps": 6500,
+      "CopperBps": 9000
+    },
+    {
+      "Id": "remelt_gold",
+      "Kind": "refining",
+      "Machine": "refining_furnace",
+      "Inputs": [
+        "sorted_gold_scrap",
+        "alloy_gold18k"
+      ],
+      "Equipment": [
+        "crucible"
+      ],
+      "OutputBar": "",
+      "InputLimit": 3,
+      "EnergyUnits": 4,
+      "DurationDays": 1,
+      "ServiceFee": 2,
+      "GoldBps": 9700,
+      "SilverBps": 0,
+      "CopperBps": 9000
+    },
+    {
+      "Id": "remelt_silver",
+      "Kind": "refining",
+      "Machine": "refining_furnace",
+      "Inputs": [
+        "sorted_silver_scrap",
+        "alloy_silver925"
+      ],
+      "Equipment": [
+        "crucible"
+      ],
+      "OutputBar": "",
+      "InputLimit": 3,
+      "EnergyUnits": 3,
+      "DurationDays": 1,
+      "ServiceFee": 2,
+      "GoldBps": 0,
+      "SilverBps": 9700,
+      "CopperBps": 9000
+    },
+    {
+      "Id": "alloy_gold18k",
+      "Kind": "alloy",
+      "Machine": "refining_furnace",
+      "Inputs": [
+        "recovered_gold_lot",
+        "refined_gold_bar",
+        "recovered_copper_lot",
+        "refined_copper_ingot"
+      ],
+      "Equipment": [
+        "crucible",
+        "ingot_mold"
+      ],
+      "OutputBar": "sp5_alloy_gold18k_bar",
+      "InputLimit": 20,
+      "EnergyUnits": 3,
+      "DurationDays": 1,
+      "ServiceFee": 2,
+      "GoldBps": 10000,
+      "SilverBps": 10000,
+      "CopperBps": 10000
+    },
+    {
+      "Id": "alloy_silver925",
+      "Kind": "alloy",
+      "Machine": "refining_furnace",
+      "Inputs": [
+        "recovered_silver_lot",
+        "refined_silver_bar",
+        "recovered_copper_lot",
+        "refined_copper_ingot"
+      ],
+      "Equipment": [
+        "crucible",
+        "ingot_mold"
+      ],
+      "OutputBar": "sp5_alloy_silver925_bar",
+      "InputLimit": 20,
+      "EnergyUnits": 3,
+      "DurationDays": 1,
+      "ServiceFee": 2,
+      "GoldBps": 10000,
+      "SilverBps": 10000,
+      "CopperBps": 10000
+    },
+    {
+      "Id": "cast_gold",
+      "Kind": "casting",
+      "Machine": "refining_furnace",
+      "Inputs": [
+        "recovered_gold_lot"
+      ],
+      "Equipment": [
+        "crucible",
+        "ingot_mold"
+      ],
+      "OutputBar": "sp5_cast_gold_bar",
+      "InputLimit": 20,
+      "EnergyUnits": 2,
+      "DurationDays": 1,
+      "ServiceFee": 1,
+      "GoldBps": 10000,
+      "SilverBps": 10000,
+      "CopperBps": 10000
+    },
+    {
+      "Id": "cast_silver",
+      "Kind": "casting",
+      "Machine": "refining_furnace",
+      "Inputs": [
+        "recovered_silver_lot"
+      ],
+      "Equipment": [
+        "crucible",
+        "ingot_mold"
+      ],
+      "OutputBar": "sp5_cast_silver_bar",
+      "InputLimit": 20,
+      "EnergyUnits": 2,
+      "DurationDays": 1,
+      "ServiceFee": 1,
+      "GoldBps": 10000,
+      "SilverBps": 10000,
+      "CopperBps": 10000
+    },
+    {
+      "Id": "cast_copper",
+      "Kind": "casting",
+      "Machine": "refining_furnace",
+      "Inputs": [
+        "recovered_copper_lot"
+      ],
+      "Equipment": [
+        "crucible",
+        "ingot_mold"
+      ],
+      "OutputBar": "sp5_cast_copper_ingot",
+      "InputLimit": 20,
+      "EnergyUnits": 2,
+      "DurationDays": 1,
+      "ServiceFee": 1,
+      "GoldBps": 10000,
+      "SilverBps": 10000,
+      "CopperBps": 10000
+    },
+    {
+      "Id": "sort_metal_goods",
+      "Kind": "sort",
+      "Machine": "recovery_station",
+      "Inputs": [
+        "metal_goods"
+      ],
+      "Equipment": [
+        "process_cartridge"
+      ],
+      "OutputBar": "",
+      "InputLimit": 20,
+      "EnergyUnits": 2,
+      "DurationDays": 1,
+      "ServiceFee": 1,
+      "GoldBps": 10000,
+      "SilverBps": 10000,
+      "CopperBps": 10000
+    }
+  ],
+  "IntentProfiles": [
+    {
+      "Id": "ordinary",
+      "Leave": 50,
+      "Sale": 30,
+      "Pawn": 20
+    },
+    {
+      "Id": "urgent_cash",
+      "Leave": 15,
+      "Sale": 35,
+      "Pawn": 50
+    },
+    {
+      "Id": "sentimental",
+      "Leave": 55,
+      "Sale": 5,
+      "Pawn": 40
+    },
+    {
+      "Id": "dealer",
+      "Leave": 15,
+      "Sale": 75,
+      "Pawn": 10
+    },
+    {
+      "Id": "collector",
+      "Leave": 70,
+      "Sale": 15,
+      "Pawn": 15
+    }
+  ]
+}

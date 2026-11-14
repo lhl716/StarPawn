@@ -247,6 +247,15 @@ namespace StarPawn.Core
                 var basis = materialKnown && d.ActualPurityBasisPoints == 0 ? d.ActualBaseValue : d.CraftValue;
                 q.CraftBasis = Scale(Scale(basis, asset.QualityBasisPoints), demand);
             }
+            else if (d.Role == "lot")
+            {
+                // Measured recovered material: valued by its recorded content, nothing else.
+                var rate = context == SellToCustomer || context == TrueValue || context == BuyFromCustomer;
+                q.MetalValue = checked(ValuationV2.MetalValue(Operations05.Gold(asset) / 1000, 10000, rate ? market.GoldSell : market.GoldBuy)
+                    + ValuationV2.MetalValue(Operations05.Silver(asset) / 1000, 10000, rate ? market.SilverSell : market.SilverBuy)
+                    + ValuationV2.MetalValue(Operations05.Copper(asset) / 100000, 10000, rate ? market.CopperSell : market.CopperBuy));
+                q.PurityConfirmed = true;
+            }
             else if (d.Role == "gem")
             {
                 q.StoneValue = StoneValue(asset, d, market, rules, truth, out var verified); q.StonesCounted = 1; q.StonesVerified = verified;

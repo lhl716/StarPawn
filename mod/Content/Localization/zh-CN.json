@@ -5929,8 +5929,8 @@
     },
     {
       "Key": "content.sp3_manual_metals.description",
-      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
-      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定手册。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp3_manual_metals.reading",
@@ -5944,8 +5944,8 @@
     },
     {
       "Key": "content.sp3_manual_jade.description",
-      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
-      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定手册。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp3_manual_jade.reading",
@@ -5959,8 +5959,8 @@
     },
     {
       "Key": "content.sp3_manual_antiques.description",
-      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
-      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定手册。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp3_manual_antiques.reading",
@@ -5974,8 +5974,8 @@
     },
     {
       "Key": "content.sp3_manual_art.description",
-      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
-      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定手册。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp3_manual_art.reading",
@@ -5989,8 +5989,8 @@
     },
     {
       "Key": "content.sp3_manual_electronics.description",
-      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
-      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定手册。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp3_manual_electronics.reading",
@@ -6004,8 +6004,8 @@
     },
     {
       "Key": "content.sp3_manual_media.description",
-      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
-      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定手册。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp3_manual_media.reading",
@@ -6019,8 +6019,8 @@
     },
     {
       "Key": "content.sp3_manual_books.description",
-      "Source": "分类鉴定图鉴；含外观样本、检测方法与议价依据。",
-      "Text": "分类鉴定图鉴；含外观样本、检测方法与议价依据。"
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定手册。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp3_manual_books.reading",
@@ -6034,8 +6034,8 @@
     },
     {
       "Key": "content.sp3_manual_organizer.description",
-      "Source": "八格书匣，集中收纳常用鉴定手册。",
-      "Text": "八格书匣，集中收纳常用鉴定手册。"
+      "Source": "可收纳八本 2x3 手册（内部 8x6 格）。搬动或出售前请先取空。",
+      "Text": "可收纳八本 2x3 手册（内部 8x6 格）。搬动或出售前请先取空。"
     },
     {
       "Key": "ui03.12013361c629f10c",
@@ -7234,8 +7234,8 @@
     },
     {
       "Key": "content.sp31_manual_gold_ring.description",
-      "Source": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_gold_ring.reading",
@@ -7249,8 +7249,8 @@
     },
     {
       "Key": "content.sp31_manual_gold_bracelet.description",
-      "Source": "独立鉴定分册，含说明页共 5 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 5 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 5 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 5 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_gold_bracelet.reading",
@@ -7264,8 +7264,8 @@
     },
     {
       "Key": "content.sp31_manual_gold_necklace.description",
-      "Source": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_gold_necklace.reading",
@@ -7279,8 +7279,8 @@
     },
     {
       "Key": "content.sp31_manual_gold_earrings.description",
-      "Source": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_gold_earrings.reading",
@@ -7294,8 +7294,8 @@
     },
     {
       "Key": "content.sp31_manual_gold_bar.description",
-      "Source": "独立鉴定分册，含说明页共 4 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 4 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_gold_bar.reading",
@@ -7309,8 +7309,8 @@
     },
     {
       "Key": "content.sp31_manual_silver_ring.description",
-      "Source": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_silver_ring.reading",
@@ -7324,8 +7324,8 @@
     },
     {
       "Key": "content.sp31_manual_silver_bracelet.description",
-      "Source": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_silver_bracelet.reading",
@@ -7339,8 +7339,8 @@
     },
     {
       "Key": "content.sp31_manual_silver_necklace.description",
-      "Source": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_silver_necklace.reading",
@@ -7354,8 +7354,8 @@
     },
     {
       "Key": "content.sp31_manual_silver_earrings.description",
-      "Source": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_silver_earrings.reading",
@@ -7369,8 +7369,8 @@
     },
     {
       "Key": "content.sp31_manual_silver_bar.description",
-      "Source": "独立鉴定分册，含说明页共 4 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 4 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_silver_bar.reading",
@@ -7384,8 +7384,8 @@
     },
     {
       "Key": "content.sp31_manual_rough_sand.description",
-      "Source": "独立鉴定分册，含说明页共 5 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 5 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 5 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 5 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_rough_sand.reading",
@@ -7399,8 +7399,8 @@
     },
     {
       "Key": "content.sp31_manual_rough_water.description",
-      "Source": "独立鉴定分册，含说明页共 4 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 4 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_rough_water.reading",
@@ -7414,8 +7414,8 @@
     },
     {
       "Key": "content.sp31_manual_rough_mountain.description",
-      "Source": "独立鉴定分册，含说明页共 4 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 4 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_rough_mountain.reading",
@@ -7429,8 +7429,8 @@
     },
     {
       "Key": "content.sp31_manual_jade_pendant.description",
-      "Source": "独立鉴定分册，含说明页共 4 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 4 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_jade_pendant.reading",
@@ -7444,13 +7444,2563 @@
     },
     {
       "Key": "content.sp31_manual_jade_bangle.description",
-      "Source": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。",
-      "Text": "独立鉴定分册，含说明页共 3 页；每页两组固定对照图例。"
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
     },
     {
       "Key": "content.sp31_manual_jade_bangle.reading",
       "Source": "本册只收录标题所列品类的固定特征。先比较左侧参考与右侧异常，再检查实物。图例不代表待检物品的真实状态。\n\n先查皮壳或表面，再结合开窗与透光观察。豆、糯、冰为三个品质层次，原石外观不能证明内部品质或产量。",
       "Text": "本册只收录标题所列品类的固定特征。先比较左侧参考与右侧异常，再检查实物。图例不代表待检物品的真实状态。\n\n先查皮壳或表面，再结合开窗与透光观察。豆、糯、冰为三个品质层次，原石外观不能证明内部品质或产量。"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_girdle_chip.label",
+      "Source": "钻石缺口",
+      "Text": "钻石缺口"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_girdle_chip.guide",
+      "Source": "用放大镜看。：对照完好处，看钻石缺口的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "用放大镜看。：对照完好处，看钻石缺口的变化。这是宝石的结构损伤，只扣一次价值。"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_edge_feather.label",
+      "Source": "钻石羽状纹",
+      "Text": "钻石羽状纹"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_edge_feather.guide",
+      "Source": "用放大镜看。：对照完好处，看钻石羽状纹的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "用放大镜看。：对照完好处，看钻石羽状纹的变化。这是宝石的结构损伤，只扣一次价值。"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_table_abrasion.label",
+      "Source": "钻石磨损",
+      "Text": "钻石磨损"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_table_abrasion.guide",
+      "Source": "用放大镜看。：对照完好处，看钻石磨损的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "用放大镜看。：对照完好处，看钻石磨损的变化。只扣一次宝石品相价；抛光镶座无法消除。"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p0.name",
+      "Source": "圆形钻石",
+      "Text": "圆形钻石"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p1.name",
+      "Source": "圆形钻石",
+      "Text": "圆形钻石"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p2.name",
+      "Source": "圆形钻石",
+      "Text": "圆形钻石"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p3.name",
+      "Source": "圆形钻石",
+      "Text": "圆形钻石"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p4.name",
+      "Source": "圆形钻石",
+      "Text": "圆形钻石"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_lab_p0.name",
+      "Source": "圆形钻石",
+      "Text": "圆形钻石"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_lab_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p0.name",
+      "Source": "公主方钻石",
+      "Text": "公主方钻石"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p1.name",
+      "Source": "公主方钻石",
+      "Text": "公主方钻石"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p2.name",
+      "Source": "公主方钻石",
+      "Text": "公主方钻石"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p3.name",
+      "Source": "公主方钻石",
+      "Text": "公主方钻石"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p4.name",
+      "Source": "公主方钻石",
+      "Text": "公主方钻石"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_crown_chip.label",
+      "Source": "红宝石缺口",
+      "Text": "红宝石缺口"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_crown_chip.guide",
+      "Source": "用放大镜看。：对照完好处，看红宝石缺口的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "用放大镜看。：对照完好处，看红宝石缺口的变化。这是宝石的结构损伤，只扣一次价值。"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_surface_fissure.label",
+      "Source": "红宝石裂隙",
+      "Text": "红宝石裂隙"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_surface_fissure.guide",
+      "Source": "用放大镜看。：对照完好处，看红宝石裂隙的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "用放大镜看。：对照完好处，看红宝石裂隙的变化。这是宝石的结构损伤，只扣一次价值。"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_dark_inclusion.label",
+      "Source": "红宝石内含物",
+      "Text": "红宝石内含物"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_dark_inclusion.guide",
+      "Source": "用放大镜看。：对照完好处，看红宝石内含物的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "用放大镜看。：对照完好处，看红宝石内含物的变化。只扣一次宝石品相价；抛光镶座无法消除。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p0.name",
+      "Source": "椭圆红宝石",
+      "Text": "椭圆红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p1.name",
+      "Source": "椭圆红宝石",
+      "Text": "椭圆红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p2.name",
+      "Source": "椭圆红宝石",
+      "Text": "椭圆红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p3.name",
+      "Source": "椭圆红宝石",
+      "Text": "椭圆红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p4.name",
+      "Source": "椭圆红宝石",
+      "Text": "椭圆红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_lab_p0.name",
+      "Source": "椭圆红宝石",
+      "Text": "椭圆红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_lab_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p0.name",
+      "Source": "垫形红宝石",
+      "Text": "垫形红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p1.name",
+      "Source": "垫形红宝石",
+      "Text": "垫形红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p2.name",
+      "Source": "垫形红宝石",
+      "Text": "垫形红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p3.name",
+      "Source": "垫形红宝石",
+      "Text": "垫形红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p4.name",
+      "Source": "垫形红宝石",
+      "Text": "垫形红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_imit_p0.name",
+      "Source": "垫形红宝石",
+      "Text": "垫形红宝石"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_imit_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_pavilion_chip.label",
+      "Source": "蓝宝石缺口",
+      "Text": "蓝宝石缺口"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_pavilion_chip.guide",
+      "Source": "用放大镜看。：对照完好处，看蓝宝石缺口的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "用放大镜看。：对照完好处，看蓝宝石缺口的变化。这是宝石的结构损伤，只扣一次价值。"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_facet_abrasion.label",
+      "Source": "蓝宝石磨损",
+      "Text": "蓝宝石磨损"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_facet_abrasion.guide",
+      "Source": "用放大镜看。：对照完好处，看蓝宝石磨损的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "用放大镜看。：对照完好处，看蓝宝石磨损的变化。只扣一次宝石品相价；抛光镶座无法消除。"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_uneven_zone.label",
+      "Source": "蓝宝石染色",
+      "Text": "蓝宝石染色"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_uneven_zone.guide",
+      "Source": "用放大镜看。：对照完好处，看蓝宝石染色的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "用放大镜看。：对照完好处，看蓝宝石染色的变化。只扣一次宝石品相价；抛光镶座无法消除。"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p0.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "椭圆蓝宝石"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p1.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "椭圆蓝宝石"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p2.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "椭圆蓝宝石"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p3.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "椭圆蓝宝石"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p4.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "椭圆蓝宝石"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_lab_p0.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "椭圆蓝宝石"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_lab_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p0.name",
+      "Source": "梨形蓝宝石",
+      "Text": "梨形蓝宝石"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p1.name",
+      "Source": "梨形蓝宝石",
+      "Text": "梨形蓝宝石"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p2.name",
+      "Source": "梨形蓝宝石",
+      "Text": "梨形蓝宝石"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p3.name",
+      "Source": "梨形蓝宝石",
+      "Text": "梨形蓝宝石"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p4.name",
+      "Source": "梨形蓝宝石",
+      "Text": "梨形蓝宝石"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_corner_chip.label",
+      "Source": "祖母绿缺口",
+      "Text": "祖母绿缺口"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_corner_chip.guide",
+      "Source": "用放大镜看。：对照完好处，看祖母绿缺口的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "用放大镜看。：对照完好处，看祖母绿缺口的变化。这是宝石的结构损伤，只扣一次价值。"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_open_fracture.label",
+      "Source": "祖母绿断裂",
+      "Text": "祖母绿断裂"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_open_fracture.guide",
+      "Source": "用放大镜看。：对照完好处，看祖母绿断裂的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "用放大镜看。：对照完好处，看祖母绿断裂的变化。这是宝石的结构损伤，只扣一次价值。"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_face_window.label",
+      "Source": "祖母绿漏光窗",
+      "Text": "祖母绿漏光窗"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_face_window.guide",
+      "Source": "用放大镜看。：对照完好处，看祖母绿漏光窗的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "用放大镜看。：对照完好处，看祖母绿漏光窗的变化。只扣一次宝石品相价；抛光镶座无法消除。"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p0.name",
+      "Source": "阶梯祖母绿",
+      "Text": "阶梯祖母绿"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p1.name",
+      "Source": "阶梯祖母绿",
+      "Text": "阶梯祖母绿"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p2.name",
+      "Source": "阶梯祖母绿",
+      "Text": "阶梯祖母绿"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p3.name",
+      "Source": "阶梯祖母绿",
+      "Text": "阶梯祖母绿"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p4.name",
+      "Source": "阶梯祖母绿",
+      "Text": "阶梯祖母绿"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p0.name",
+      "Source": "椭圆祖母绿",
+      "Text": "椭圆祖母绿"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p1.name",
+      "Source": "椭圆祖母绿",
+      "Text": "椭圆祖母绿"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p2.name",
+      "Source": "椭圆祖母绿",
+      "Text": "椭圆祖母绿"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p3.name",
+      "Source": "椭圆祖母绿",
+      "Text": "椭圆祖母绿"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p4.name",
+      "Source": "椭圆祖母绿",
+      "Text": "椭圆祖母绿"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_lab_p0.name",
+      "Source": "椭圆祖母绿",
+      "Text": "椭圆祖母绿"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_lab_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_nacre_peel.label",
+      "Source": "珍珠外观异常",
+      "Text": "珍珠外观异常"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_nacre_peel.guide",
+      "Source": "用放大镜看。：对照完好处，看珍珠外观异常的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "用放大镜看。：对照完好处，看珍珠外观异常的变化。这是宝石的结构损伤，只扣一次价值。"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_drill_chip.label",
+      "Source": "珍珠缺口",
+      "Text": "珍珠缺口"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_drill_chip.guide",
+      "Source": "用放大镜看。：对照完好处，看珍珠缺口的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "用放大镜看。：对照完好处，看珍珠缺口的变化。这是宝石的结构损伤，只扣一次价值。"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_surface_scratch.label",
+      "Source": "珍珠划痕",
+      "Text": "珍珠划痕"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_surface_scratch.guide",
+      "Source": "用放大镜看。：对照完好处，看珍珠划痕的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "用放大镜看。：对照完好处，看珍珠划痕的变化。只扣一次宝石品相价；抛光镶座无法消除。"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p0.name",
+      "Source": "圆形珍珠",
+      "Text": "圆形珍珠"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p1.name",
+      "Source": "圆形珍珠",
+      "Text": "圆形珍珠"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p2.name",
+      "Source": "圆形珍珠",
+      "Text": "圆形珍珠"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p3.name",
+      "Source": "圆形珍珠",
+      "Text": "圆形珍珠"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p4.name",
+      "Source": "圆形珍珠",
+      "Text": "圆形珍珠"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_imit_p0.name",
+      "Source": "圆形珍珠",
+      "Text": "圆形珍珠"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_imit_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p0.name",
+      "Source": "异形珍珠",
+      "Text": "异形珍珠"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p1.name",
+      "Source": "异形珍珠",
+      "Text": "异形珍珠"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p2.name",
+      "Source": "异形珍珠",
+      "Text": "异形珍珠"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p3.name",
+      "Source": "异形珍珠",
+      "Text": "异形珍珠"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p4.name",
+      "Source": "异形珍珠",
+      "Text": "异形珍珠"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_loose_prong.label",
+      "Source": "镶嵌戒指松动",
+      "Text": "镶嵌戒指松动"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_loose_prong.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌戒指松动的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "用放大镜看。：对照完好处，看镶嵌戒指松动的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_shank_dent.label",
+      "Source": "镶嵌戒指凹陷",
+      "Text": "镶嵌戒指凹陷"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_shank_dent.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌戒指凹陷的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "肉眼可见。：对照完好处，看镶嵌戒指凹陷的变化。影响工艺价；只要没有缺料，金属价值不变。"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_tool_scars.label",
+      "Source": "镶嵌戒指外观异常",
+      "Text": "镶嵌戒指外观异常"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_tool_scars.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌戒指外观异常的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "用放大镜看。：对照完好处，看镶嵌戒指外观异常的变化。影响工艺价；只要没有缺料，金属价值不变。"
+    },
+    {
+      "Key": "content.sp5_setting_ring_au18k.name",
+      "Source": "18K金单石戒指空托",
+      "Text": "18K金单石戒指空托"
+    },
+    {
+      "Key": "content.sp5_setting_ring_au18k.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p1.name",
+      "Source": "18K金单石戒指",
+      "Text": "18K金单石戒指"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p2.name",
+      "Source": "18K金单石戒指",
+      "Text": "18K金单石戒指"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p3.name",
+      "Source": "18K金单石戒指",
+      "Text": "18K金单石戒指"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_setting_ring_ag925.name",
+      "Source": "925银单石戒指空托",
+      "Text": "925银单石戒指空托"
+    },
+    {
+      "Key": "content.sp5_setting_ring_ag925.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p1.name",
+      "Source": "925银单石戒指",
+      "Text": "925银单石戒指"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p2.name",
+      "Source": "925银单石戒指",
+      "Text": "925银单石戒指"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p3.name",
+      "Source": "925银单石戒指",
+      "Text": "925银单石戒指"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_bail_gap.label",
+      "Source": "镶嵌吊坠开口",
+      "Text": "镶嵌吊坠开口"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_bail_gap.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌吊坠开口的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "肉眼可见。：对照完好处，看镶嵌吊坠开口的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_lifted_bezel.label",
+      "Source": "镶嵌吊坠固定松动",
+      "Text": "镶嵌吊坠固定松动"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_lifted_bezel.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌吊坠固定松动的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "用放大镜看。：对照完好处，看镶嵌吊坠固定松动的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_rim_scrape.label",
+      "Source": "镶嵌吊坠刮痕",
+      "Text": "镶嵌吊坠刮痕"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_rim_scrape.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌吊坠刮痕的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "用放大镜看。：对照完好处，看镶嵌吊坠刮痕的变化。影响工艺价；只要没有缺料，金属价值不变。"
+    },
+    {
+      "Key": "content.sp5_setting_pendant_au18k.name",
+      "Source": "18K金包镶吊坠空托",
+      "Text": "18K金包镶吊坠空托"
+    },
+    {
+      "Key": "content.sp5_setting_pendant_au18k.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p1.name",
+      "Source": "18K金包镶吊坠",
+      "Text": "18K金包镶吊坠"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p2.name",
+      "Source": "18K金包镶吊坠",
+      "Text": "18K金包镶吊坠"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p3.name",
+      "Source": "18K金包镶吊坠",
+      "Text": "18K金包镶吊坠"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_setting_pendant_ag925.name",
+      "Source": "925银包镶吊坠空托",
+      "Text": "925银包镶吊坠空托"
+    },
+    {
+      "Key": "content.sp5_setting_pendant_ag925.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p1.name",
+      "Source": "925银包镶吊坠",
+      "Text": "925银包镶吊坠"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p2.name",
+      "Source": "925银包镶吊坠",
+      "Text": "925银包镶吊坠"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p3.name",
+      "Source": "925银包镶吊坠",
+      "Text": "925银包镶吊坠"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_bent_post.label",
+      "Source": "镶嵌耳钉弯折",
+      "Text": "镶嵌耳钉弯折"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_bent_post.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌耳钉弯折的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "肉眼可见。：对照完好处，看镶嵌耳钉弯折的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_loose_back.label",
+      "Source": "镶嵌耳钉松动",
+      "Text": "镶嵌耳钉松动"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_loose_back.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌耳钉松动的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "用放大镜看。：对照完好处，看镶嵌耳钉松动的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_prong_gap.label",
+      "Source": "镶嵌耳钉缺口",
+      "Text": "镶嵌耳钉缺口"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_prong_gap.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌耳钉缺口的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "用放大镜看。：对照完好处，看镶嵌耳钉缺口的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "content.sp5_setting_earrings_au18k.name",
+      "Source": "18K金耳钉一对空托",
+      "Text": "18K金耳钉一对空托"
+    },
+    {
+      "Key": "content.sp5_setting_earrings_au18k.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p1.name",
+      "Source": "18K金耳钉一对",
+      "Text": "18K金耳钉一对"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p2.name",
+      "Source": "18K金耳钉一对",
+      "Text": "18K金耳钉一对"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p3.name",
+      "Source": "18K金耳钉一对",
+      "Text": "18K金耳钉一对"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_setting_earrings_ag925.name",
+      "Source": "925银耳钉一对空托",
+      "Text": "925银耳钉一对空托"
+    },
+    {
+      "Key": "content.sp5_setting_earrings_ag925.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p1.name",
+      "Source": "925银耳钉一对",
+      "Text": "925银耳钉一对"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p2.name",
+      "Source": "925银耳钉一对",
+      "Text": "925银耳钉一对"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p3.name",
+      "Source": "925银耳钉一对",
+      "Text": "925银耳钉一对"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_clasp_gap.label",
+      "Source": "镶嵌手链缺口",
+      "Text": "镶嵌手链缺口"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_clasp_gap.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌手链缺口的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "肉眼可见。：对照完好处，看镶嵌手链缺口的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_flat_link.label",
+      "Source": "镶嵌手链压平",
+      "Text": "镶嵌手链压平"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_flat_link.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌手链压平的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "肉眼可见。：对照完好处，看镶嵌手链压平的变化。影响工艺价；只要没有缺料，金属价值不变。"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_loose_center.label",
+      "Source": "镶嵌手链松动",
+      "Text": "镶嵌手链松动"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_loose_center.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌手链松动的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "用放大镜看。：对照完好处，看镶嵌手链松动的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "content.sp5_setting_bracelet_au18k.name",
+      "Source": "18K金三石手链空托",
+      "Text": "18K金三石手链空托"
+    },
+    {
+      "Key": "content.sp5_setting_bracelet_au18k.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p1.name",
+      "Source": "18K金三石手链",
+      "Text": "18K金三石手链"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p2.name",
+      "Source": "18K金三石手链",
+      "Text": "18K金三石手链"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p3.name",
+      "Source": "18K金三石手链",
+      "Text": "18K金三石手链"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_setting_bracelet_ag925.name",
+      "Source": "925银三石手链空托",
+      "Text": "925银三石手链空托"
+    },
+    {
+      "Key": "content.sp5_setting_bracelet_ag925.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p1.name",
+      "Source": "925银三石手链",
+      "Text": "925银三石手链"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p2.name",
+      "Source": "925银三石手链",
+      "Text": "925银三石手链"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p3.name",
+      "Source": "925银三石手链",
+      "Text": "925银三石手链"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_twisted_chain.label",
+      "Source": "镶嵌项链扭曲",
+      "Text": "镶嵌项链扭曲"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_twisted_chain.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌项链扭曲的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "肉眼可见。：对照完好处，看镶嵌项链扭曲的变化。影响工艺价；只要没有缺料，金属价值不变。"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_clasp_gap.label",
+      "Source": "镶嵌项链开口",
+      "Text": "镶嵌项链开口"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_clasp_gap.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌项链开口的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "肉眼可见。：对照完好处，看镶嵌项链开口的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_drop_retainer.label",
+      "Source": "镶嵌项链松动",
+      "Text": "镶嵌项链松动"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_drop_retainer.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌项链松动的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "用放大镜看。：对照完好处，看镶嵌项链松动的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "content.sp5_setting_necklace_au18k.name",
+      "Source": "18K金吊坠项链空托",
+      "Text": "18K金吊坠项链空托"
+    },
+    {
+      "Key": "content.sp5_setting_necklace_au18k.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p1.name",
+      "Source": "18K金吊坠项链",
+      "Text": "18K金吊坠项链"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p2.name",
+      "Source": "18K金吊坠项链",
+      "Text": "18K金吊坠项链"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p3.name",
+      "Source": "18K金吊坠项链",
+      "Text": "18K金吊坠项链"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_setting_necklace_ag925.name",
+      "Source": "925银吊坠项链空托",
+      "Text": "925银吊坠项链空托"
+    },
+    {
+      "Key": "content.sp5_setting_necklace_ag925.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p1.name",
+      "Source": "925银吊坠项链",
+      "Text": "925银吊坠项链"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p2.name",
+      "Source": "925银吊坠项链",
+      "Text": "925银吊坠项链"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p3.name",
+      "Source": "925银吊坠项链",
+      "Text": "925银吊坠项链"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。"
+    },
+    {
+      "Key": "template.sp5_scrap_board_burned_trace.label",
+      "Source": "废电路板烧蚀",
+      "Text": "废电路板烧蚀"
+    },
+    {
+      "Key": "template.sp5_scrap_board_burned_trace.guide",
+      "Source": "用放大镜看。：对照完好处，看废电路板烧蚀的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看废电路板烧蚀的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "template.sp5_scrap_board_corroded_pad.label",
+      "Source": "废电路板腐蚀",
+      "Text": "废电路板腐蚀"
+    },
+    {
+      "Key": "template.sp5_scrap_board_corroded_pad.guide",
+      "Source": "用放大镜看。：对照完好处，看废电路板腐蚀的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看废电路板腐蚀的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "content.sp5_scrap_board_p0.name",
+      "Source": "废电路板",
+      "Text": "废电路板"
+    },
+    {
+      "Key": "content.sp5_scrap_board_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_scrap_board_p1.name",
+      "Source": "废电路板",
+      "Text": "废电路板"
+    },
+    {
+      "Key": "content.sp5_scrap_board_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_scrap_board_p2.name",
+      "Source": "废电路板",
+      "Text": "废电路板"
+    },
+    {
+      "Key": "content.sp5_scrap_board_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "template.sp5_scrap_processor_package_fracture.label",
+      "Source": "废处理器断裂",
+      "Text": "废处理器断裂"
+    },
+    {
+      "Key": "template.sp5_scrap_processor_package_fracture.guide",
+      "Source": "用放大镜看。：对照完好处，看废处理器断裂的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看废处理器断裂的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "template.sp5_scrap_processor_scorched_package.label",
+      "Source": "废处理器灼烧痕",
+      "Text": "废处理器灼烧痕"
+    },
+    {
+      "Key": "template.sp5_scrap_processor_scorched_package.guide",
+      "Source": "用放大镜看。：对照完好处，看废处理器灼烧痕的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看废处理器灼烧痕的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p0.name",
+      "Source": "废处理器",
+      "Text": "废处理器"
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p1.name",
+      "Source": "废处理器",
+      "Text": "废处理器"
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p2.name",
+      "Source": "废处理器",
+      "Text": "废处理器"
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "template.sp5_scrap_connectors_polymer_contamination.label",
+      "Source": "废接插件杂质附着",
+      "Text": "废接插件杂质附着"
+    },
+    {
+      "Key": "template.sp5_scrap_connectors_polymer_contamination.guide",
+      "Source": "用放大镜看。：对照完好处，看废接插件杂质附着的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看废接插件杂质附着的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "template.sp5_scrap_connectors_oxidized_contact.label",
+      "Source": "废接插件触点损坏",
+      "Text": "废接插件触点损坏"
+    },
+    {
+      "Key": "template.sp5_scrap_connectors_oxidized_contact.guide",
+      "Source": "用放大镜看。：对照完好处，看废接插件触点损坏的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看废接插件触点损坏的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p0.name",
+      "Source": "废接插件",
+      "Text": "废接插件"
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p1.name",
+      "Source": "废接插件",
+      "Text": "废接插件"
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p2.name",
+      "Source": "废接插件",
+      "Text": "废接插件"
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "template.sp5_ore_gold_waste_rock_band.label",
+      "Source": "金矿石杂质带",
+      "Text": "金矿石杂质带"
+    },
+    {
+      "Key": "template.sp5_ore_gold_waste_rock_band.guide",
+      "Source": "用放大镜看。：对照完好处，看金矿石杂质带的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看金矿石杂质带的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "content.sp5_ore_gold_p0.name",
+      "Source": "金矿石批",
+      "Text": "金矿石批"
+    },
+    {
+      "Key": "content.sp5_ore_gold_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_ore_gold_p1.name",
+      "Source": "金矿石批",
+      "Text": "金矿石批"
+    },
+    {
+      "Key": "content.sp5_ore_gold_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "template.sp5_ore_silver_coarse_gangue.label",
+      "Source": "银矿石粗粒",
+      "Text": "银矿石粗粒"
+    },
+    {
+      "Key": "template.sp5_ore_silver_coarse_gangue.guide",
+      "Source": "用放大镜看。：对照完好处，看银矿石粗粒的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看银矿石粗粒的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "content.sp5_ore_silver_p0.name",
+      "Source": "银矿石批",
+      "Text": "银矿石批"
+    },
+    {
+      "Key": "content.sp5_ore_silver_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_ore_silver_p1.name",
+      "Source": "银矿石批",
+      "Text": "银矿石批"
+    },
+    {
+      "Key": "content.sp5_ore_silver_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "template.sp5_ore_copper_barren_matrix.label",
+      "Source": "铜矿石码圈不符",
+      "Text": "铜矿石码圈不符"
+    },
+    {
+      "Key": "template.sp5_ore_copper_barren_matrix.guide",
+      "Source": "用放大镜看。：对照完好处，看铜矿石码圈不符的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看铜矿石码圈不符的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "content.sp5_ore_copper_p0.name",
+      "Source": "铜矿石批",
+      "Text": "铜矿石批"
+    },
+    {
+      "Key": "content.sp5_ore_copper_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_ore_copper_p1.name",
+      "Source": "铜矿石批",
+      "Text": "铜矿石批"
+    },
+    {
+      "Key": "content.sp5_ore_copper_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "template.sp5_refined_gold_bar_cast_pores.label",
+      "Source": "精炼金条气孔",
+      "Text": "精炼金条气孔"
+    },
+    {
+      "Key": "template.sp5_refined_gold_bar_cast_pores.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼金条气孔的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "用放大镜看。：对照完好处，看精炼金条气孔的变化。影响工艺价；只要没有缺料，金属价值不变。"
+    },
+    {
+      "Key": "template.sp5_refined_gold_bar_slag_inclusion.label",
+      "Source": "精炼金条内含物",
+      "Text": "精炼金条内含物"
+    },
+    {
+      "Key": "template.sp5_refined_gold_bar_slag_inclusion.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼金条内含物的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看精炼金条内含物的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p0.name",
+      "Source": "精炼金条",
+      "Text": "精炼金条"
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p1.name",
+      "Source": "精炼金条",
+      "Text": "精炼金条"
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p2.name",
+      "Source": "精炼金条",
+      "Text": "精炼金条"
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "template.sp5_refined_silver_bar_shrink_cavity.label",
+      "Source": "精炼银条缩孔",
+      "Text": "精炼银条缩孔"
+    },
+    {
+      "Key": "template.sp5_refined_silver_bar_shrink_cavity.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼银条缩孔的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "用放大镜看。：对照完好处，看精炼银条缩孔的变化。影响工艺价；只要没有缺料，金属价值不变。"
+    },
+    {
+      "Key": "template.sp5_refined_silver_bar_slag_seam.label",
+      "Source": "精炼银条夹渣",
+      "Text": "精炼银条夹渣"
+    },
+    {
+      "Key": "template.sp5_refined_silver_bar_slag_seam.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼银条夹渣的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看精炼银条夹渣的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p0.name",
+      "Source": "精炼银条",
+      "Text": "精炼银条"
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p1.name",
+      "Source": "精炼银条",
+      "Text": "精炼银条"
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p2.name",
+      "Source": "精炼银条",
+      "Text": "精炼银条"
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "template.sp5_refined_copper_ingot_cast_lap.label",
+      "Source": "精炼铜锭冷隔",
+      "Text": "精炼铜锭冷隔"
+    },
+    {
+      "Key": "template.sp5_refined_copper_ingot_cast_lap.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼铜锭冷隔的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "用放大镜看。：对照完好处，看精炼铜锭冷隔的变化。影响工艺价；只要没有缺料，金属价值不变。"
+    },
+    {
+      "Key": "template.sp5_refined_copper_ingot_trapped_slag.label",
+      "Source": "精炼铜锭夹渣",
+      "Text": "精炼铜锭夹渣"
+    },
+    {
+      "Key": "template.sp5_refined_copper_ingot_trapped_slag.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼铜锭夹渣的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看精炼铜锭夹渣的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p0.name",
+      "Source": "精炼铜锭",
+      "Text": "精炼铜锭"
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p1.name",
+      "Source": "精炼铜锭",
+      "Text": "精炼铜锭"
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p2.name",
+      "Source": "精炼铜锭",
+      "Text": "精炼铜锭"
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "template.sp5_alloy_gold_bar_segregated_face.label",
+      "Source": "18K金合金条杂质带",
+      "Text": "18K金合金条杂质带"
+    },
+    {
+      "Key": "template.sp5_alloy_gold_bar_segregated_face.guide",
+      "Source": "用放大镜看。：对照完好处，看18K金合金条杂质带的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看18K金合金条杂质带的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "template.sp5_alloy_gold_bar_cast_crack.label",
+      "Source": "18K金合金条裂纹",
+      "Text": "18K金合金条裂纹"
+    },
+    {
+      "Key": "template.sp5_alloy_gold_bar_cast_crack.guide",
+      "Source": "用放大镜看。：对照完好处，看18K金合金条裂纹的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "用放大镜看。：对照完好处，看18K金合金条裂纹的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p0.name",
+      "Source": "18K金合金条",
+      "Text": "18K金合金条"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p1.name",
+      "Source": "18K金合金条",
+      "Text": "18K金合金条"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p2.name",
+      "Source": "18K金合金条",
+      "Text": "18K金合金条"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "template.sp5_alloy_silver_bar_inhomogeneous_cast.label",
+      "Source": "925银合金条外观异常",
+      "Text": "925银合金条外观异常"
+    },
+    {
+      "Key": "template.sp5_alloy_silver_bar_inhomogeneous_cast.guide",
+      "Source": "用放大镜看。：对照完好处，看925银合金条外观异常的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "用放大镜看。：对照完好处，看925银合金条外观异常的变化。影响加工可得量；不会重复扣除金属。"
+    },
+    {
+      "Key": "template.sp5_alloy_silver_bar_edge_fissure.label",
+      "Source": "925银合金条裂隙",
+      "Text": "925银合金条裂隙"
+    },
+    {
+      "Key": "template.sp5_alloy_silver_bar_edge_fissure.guide",
+      "Source": "用放大镜看。：对照完好处，看925银合金条裂隙的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "用放大镜看。：对照完好处，看925银合金条裂隙的变化。影响结构、扣减工艺价；通常可以修复。"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p0.name",
+      "Source": "925银合金条",
+      "Text": "925银合金条"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p1.name",
+      "Source": "925银合金条",
+      "Text": "925银合金条"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p2.name",
+      "Source": "925银合金条",
+      "Text": "925银合金条"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。"
+    },
+    {
+      "Key": "content.sp5_lot_gold_scrap.name",
+      "Source": "分拣含金废料",
+      "Text": "分拣含金废料"
+    },
+    {
+      "Key": "content.sp5_lot_gold_scrap.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_lot_silver_scrap.name",
+      "Source": "分拣含银废料",
+      "Text": "分拣含银废料"
+    },
+    {
+      "Key": "content.sp5_lot_silver_scrap.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_lot_copper_scrap.name",
+      "Source": "分拣含铜废料",
+      "Text": "分拣含铜废料"
+    },
+    {
+      "Key": "content.sp5_lot_copper_scrap.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_lot_recovered_gold.name",
+      "Source": "回收金料",
+      "Text": "回收金料"
+    },
+    {
+      "Key": "content.sp5_lot_recovered_gold.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_lot_recovered_silver.name",
+      "Source": "回收银料",
+      "Text": "回收银料"
+    },
+    {
+      "Key": "content.sp5_lot_recovered_silver.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_lot_recovered_copper.name",
+      "Source": "回收铜料",
+      "Text": "回收铜料"
+    },
+    {
+      "Key": "content.sp5_lot_recovered_copper.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_cast_gold_bar.name",
+      "Source": "自铸金条",
+      "Text": "自铸金条"
+    },
+    {
+      "Key": "content.sp5_cast_gold_bar.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_cast_silver_bar.name",
+      "Source": "自铸银条",
+      "Text": "自铸银条"
+    },
+    {
+      "Key": "content.sp5_cast_silver_bar.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_cast_copper_ingot.name",
+      "Source": "自铸铜锭",
+      "Text": "自铸铜锭"
+    },
+    {
+      "Key": "content.sp5_cast_copper_ingot.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_bar.name",
+      "Source": "自配18K合金条",
+      "Text": "自配18K合金条"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_bar.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_bar.name",
+      "Source": "自配925合金条",
+      "Text": "自配925合金条"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_bar.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_inert_residue.name",
+      "Source": "惰性残渣",
+      "Text": "惰性残渣"
+    },
+    {
+      "Key": "content.sp5_inert_residue.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_mixed_e_scrap.name",
+      "Source": "混合电子废料",
+      "Text": "混合电子废料"
+    },
+    {
+      "Key": "content.sp5_mixed_e_scrap.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "已计量的物料，按记录的含量计价。"
+    },
+    {
+      "Key": "content.sp5_process_cartridge.name",
+      "Source": "工艺耗材筒",
+      "Text": "工艺耗材筒"
+    },
+    {
+      "Key": "content.sp5_process_cartridge.description",
+      "Source": "工坊用品。",
+      "Text": "工坊用品。"
+    },
+    {
+      "Key": "content.sp5_energy_cell.name",
+      "Source": "能源电池",
+      "Text": "能源电池"
+    },
+    {
+      "Key": "content.sp5_energy_cell.description",
+      "Source": "工坊用品。",
+      "Text": "工坊用品。"
+    },
+    {
+      "Key": "content.sp5_crucible.name",
+      "Source": "坩埚",
+      "Text": "坩埚"
+    },
+    {
+      "Key": "content.sp5_crucible.description",
+      "Source": "工坊用品。",
+      "Text": "工坊用品。"
+    },
+    {
+      "Key": "content.sp5_ingot_mold.name",
+      "Source": "锭模",
+      "Text": "锭模"
+    },
+    {
+      "Key": "content.sp5_ingot_mold.description",
+      "Source": "工坊用品。",
+      "Text": "工坊用品。"
+    },
+    {
+      "Key": "content.sp5_recovery_station.name",
+      "Source": "回收工作站",
+      "Text": "回收工作站"
+    },
+    {
+      "Key": "content.sp5_recovery_station.description",
+      "Source": "工坊用品。",
+      "Text": "工坊用品。"
+    },
+    {
+      "Key": "content.sp5_refining_furnace.name",
+      "Source": "精炼炉",
+      "Text": "精炼炉"
+    },
+    {
+      "Key": "content.sp5_refining_furnace.description",
+      "Source": "工坊用品。",
+      "Text": "工坊用品。"
+    },
+    {
+      "Key": "content.sp5_jeweler_bench.name",
+      "Source": "珠宝工作台",
+      "Text": "珠宝工作台"
+    },
+    {
+      "Key": "content.sp5_jeweler_bench.description",
+      "Source": "工坊用品。",
+      "Text": "工坊用品。"
+    },
+    {
+      "Key": "content.sp5_jeweler_toolkit.name",
+      "Source": "珠宝工具包",
+      "Text": "珠宝工具包"
+    },
+    {
+      "Key": "content.sp5_jeweler_toolkit.description",
+      "Source": "工坊用品。",
+      "Text": "工坊用品。"
+    },
+    {
+      "Key": "content.sp5_tool_gem_probe.name",
+      "Source": "宝石筛查笔",
+      "Text": "宝石筛查笔"
+    },
+    {
+      "Key": "content.sp5_tool_gem_probe.description",
+      "Source": "工坊用品。",
+      "Text": "工坊用品。"
+    },
+    {
+      "Key": "content.sp5_materials_bin.name",
+      "Source": "物料箱",
+      "Text": "物料箱"
+    },
+    {
+      "Key": "content.sp5_materials_bin.description",
+      "Source": "收纳物料（内部 4x4 格）。不能再放容器。",
+      "Text": "收纳物料（内部 4x4 格）。不能再放容器。"
+    },
+    {
+      "Key": "content.sp5_gem_case.name",
+      "Source": "宝石收纳盒",
+      "Text": "宝石收纳盒"
+    },
+    {
+      "Key": "content.sp5_gem_case.description",
+      "Source": "收纳散石（内部 4x4 格）。",
+      "Text": "收纳散石（内部 4x4 格）。"
+    },
+    {
+      "Key": "content.sp5_presentation_case.name",
+      "Source": "首饰礼盒",
+      "Text": "首饰礼盒"
+    },
+    {
+      "Key": "content.sp5_presentation_case.description",
+      "Source": "收纳成品首饰（内部 4x3 格）；放得下 1x3 的项链。",
+      "Text": "收纳成品首饰（内部 4x3 格）；放得下 1x3 的项链。"
+    },
+    {
+      "Key": "content.sp5_jewelry_display.name",
+      "Source": "首饰展示盘",
+      "Text": "首饰展示盘"
+    },
+    {
+      "Key": "content.sp5_jewelry_display.description",
+      "Source": "陈列待售货品（内部 6x4 格）。顾客的东西不能放这里。",
+      "Text": "陈列待售货品（内部 6x4 格）。顾客的东西不能放这里。"
+    },
+    {
+      "Key": "content.sp5_card_holder.name",
+      "Source": "卡包",
+      "Text": "卡包"
+    },
+    {
+      "Key": "content.sp5_card_holder.description",
+      "Source": "可放两张 2x1 的卡（内部 4x1 格）。",
+      "Text": "可放两张 2x1 的卡（内部 4x1 格）。"
+    },
+    {
+      "Key": "content.sp5_manual_organizer_large.name",
+      "Source": "十二册手册书匣",
+      "Text": "十二册手册书匣"
+    },
+    {
+      "Key": "content.sp5_manual_organizer_large.description",
+      "Source": "可收纳十二本 2x3 手册（内部 8x9 格）。搬动或出售前请先取空。",
+      "Text": "可收纳十二本 2x3 手册（内部 8x9 格）。搬动或出售前请先取空。"
+    },
+    {
+      "Key": "content.sp5_manual_jewelry.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_jewelry.name",
+      "Source": "《珠宝宝石手册总目》",
+      "Text": "《珠宝宝石手册总目》"
+    },
+    {
+      "Key": "content.sp5_manual_jewelry.description",
+      "Source": "本业务各分册的目录。在物品上选择“阅读”即可翻开。",
+      "Text": "本业务各分册的目录。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_recovery.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_recovery.name",
+      "Source": "《回收精炼手册总目》",
+      "Text": "《回收精炼手册总目》"
+    },
+    {
+      "Key": "content.sp5_manual_recovery.description",
+      "Source": "本业务各分册的目录。在物品上选择“阅读”即可翻开。",
+      "Text": "本业务各分册的目录。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_gems_a.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_gems_a.name",
+      "Source": "《宝石鉴定·钻石与红宝石》",
+      "Text": "《宝石鉴定·钻石与红宝石》"
+    },
+    {
+      "Key": "content.sp5_manual_gems_a.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_gems_b.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_gems_b.name",
+      "Source": "《宝石鉴定·蓝宝石与祖母绿》",
+      "Text": "《宝石鉴定·蓝宝石与祖母绿》"
+    },
+    {
+      "Key": "content.sp5_manual_gems_b.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_gems_c.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_gems_c.name",
+      "Source": "《宝石鉴定·珍珠》",
+      "Text": "《宝石鉴定·珍珠》"
+    },
+    {
+      "Key": "content.sp5_manual_gems_c.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_a.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_a.name",
+      "Source": "《镶嵌首饰·戒指与吊坠》",
+      "Text": "《镶嵌首饰·戒指与吊坠》"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_a.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_b.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_b.name",
+      "Source": "《镶嵌首饰·耳钉与手链》",
+      "Text": "《镶嵌首饰·耳钉与手链》"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_b.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_c.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_c.name",
+      "Source": "《镶嵌首饰·项链》",
+      "Text": "《镶嵌首饰·项链》"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_c.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_scrap_a.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_scrap_a.name",
+      "Source": "《物料回收·电路板与处理器》",
+      "Text": "《物料回收·电路板与处理器》"
+    },
+    {
+      "Key": "content.sp5_manual_scrap_a.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_scrap_b.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_scrap_b.name",
+      "Source": "《物料回收·接插件》",
+      "Text": "《物料回收·接插件》"
+    },
+    {
+      "Key": "content.sp5_manual_scrap_b.description",
+      "Source": "鉴定分册，共 2 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 2 页。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_ore.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_ore.name",
+      "Source": "《物料回收·矿石》",
+      "Text": "《物料回收·矿石》"
+    },
+    {
+      "Key": "content.sp5_manual_ore.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_bars_a.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_bars_a.name",
+      "Source": "《物料回收·精炼金银》",
+      "Text": "《物料回收·精炼金银》"
+    },
+    {
+      "Key": "content.sp5_manual_bars_a.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "content.sp5_manual_bars_b.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。"
+    },
+    {
+      "Key": "content.sp5_manual_bars_b.name",
+      "Source": "《物料回收·铜锭与合金》",
+      "Text": "《物料回收·铜锭与合金》"
+    },
+    {
+      "Key": "content.sp5_manual_bars_b.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。"
+    },
+    {
+      "Key": "sp5.inspect.locked",
+      "Source": "顾客已经把东西收回去了，这次不能再指认。",
+      "Text": "顾客已经把东西收回去了，这次不能再指认。"
+    },
+    {
+      "Key": "sp5.inspect.repeated",
+      "Source": "这处已经记录过了。",
+      "Text": "这处已经记录过了。"
+    },
+    {
+      "Key": "sp5.inspect.study_miss",
+      "Source": "这里没看出异常。",
+      "Text": "这里没看出异常。"
+    },
+    {
+      "Key": "sp5.inspect.walkout",
+      "Source": "“那里根本没毛病。不看了。”顾客把东西收了回去。",
+      "Text": "“那里根本没毛病。不看了。”顾客把东西收了回去。"
+    },
+    {
+      "Key": "sp5.inspect.miss",
+      "Source": "“那里没问题吧？你看仔细点。”",
+      "Text": "“那里没问题吧？你看仔细点。”"
+    },
+    {
+      "Key": "sp5.material.assayed",
+      "Source": "实测成色：{0}",
+      "Text": "实测成色：{0}"
+    },
+    {
+      "Key": "sp5.material.marked",
+      "Source": "印记：{0}｜成色：未检测",
+      "Text": "印记：{0}｜成色：未检测"
+    },
+    {
+      "Key": "sp5.tool.gem_probe",
+      "Source": "宝石筛查笔",
+      "Text": "宝石筛查笔"
+    },
+    {
+      "Key": "sp5.probe.refer",
+      "Source": "筛查结果：建议送实验室检测。",
+      "Text": "筛查结果：建议送实验室检测。"
+    },
+    {
+      "Key": "sp5.probe.pass",
+      "Source": "筛查结果：未见明显仿制品。这不能证明天然来源，也不能排除处理。",
+      "Text": "筛查结果：未见明显仿制品。这不能证明天然来源，也不能排除处理。"
+    },
+    {
+      "Key": "sp5.visit.not_commission",
+      "Source": "这位顾客没有委托付费鉴定。",
+      "Text": "这位顾客没有委托付费鉴定。"
+    },
+    {
+      "Key": "sp5.visit.bad_estimate",
+      "Source": "请填写不小于零的估价。",
+      "Text": "请填写不小于零的估价。"
+    },
+    {
+      "Key": "sp5.visit.already_settled",
+      "Source": "鉴定费已经结清。",
+      "Text": "鉴定费已经结清。"
+    },
+    {
+      "Key": "sp5.visit.grade0",
+      "Source": "“这不可能。我去问问别家。”",
+      "Text": "“这不可能。我去问问别家。”"
+    },
+    {
+      "Key": "sp5.visit.grade1",
+      "Source": "“嗯，和别处说的差不太多。”",
+      "Text": "“嗯，和别处说的差不太多。”"
+    },
+    {
+      "Key": "sp5.visit.grade2",
+      "Source": "“听着公道。谢谢。”",
+      "Text": "“听着公道。谢谢。”"
+    },
+    {
+      "Key": "sp5.visit.grade3",
+      "Source": "“这正是我想知道的。多谢。”",
+      "Text": "“这正是我想知道的。多谢。”"
+    },
+    {
+      "Key": "sp5.visit.no_offer",
+      "Source": "现在没有可以接受的报价。",
+      "Text": "现在没有可以接受的报价。"
+    },
+    {
+      "Key": "sp5.visit.expired",
+      "Source": "顾客已经带着东西离开了。",
+      "Text": "顾客已经带着东西离开了。"
+    },
+    {
+      "Key": "sp5.visit.no_cash",
+      "Source": "现金不够，买不下这件东西。",
+      "Text": "现金不够，买不下这件东西。"
+    },
+    {
+      "Key": "sp5.visit.no_cash_pawn",
+      "Source": "可出借的现金不够放这笔款。",
+      "Text": "可出借的现金不够放这笔款。"
+    },
+    {
+      "Key": "sp5.visit.item_changed",
+      "Source": "这件东西已经不在了。",
+      "Text": "这件东西已经不在了。"
+    },
+    {
+      "Key": "sp5.pawn.no_value",
+      "Source": "按现状，这件东西没有可放款的价值。",
+      "Text": "按现状，这件东西没有可放款的价值。"
+    },
+    {
+      "Key": "sp5.pawn.needs_assay",
+      "Source": "要先做成色检测，才能按所称含金量放款。",
+      "Text": "要先做成色检测，才能按所称含金量放款。"
+    },
+    {
+      "Key": "sp5.line.sale.dealer",
+      "Source": "“行，痛快点。这个价你收不收？”",
+      "Text": "“行，痛快点。这个价你收不收？”"
+    },
+    {
+      "Key": "sp5.line.sale.surprised",
+      "Source": "“比我想的还多。你愿意收吗？”",
+      "Text": "“比我想的还多。你愿意收吗？”"
+    },
+    {
+      "Key": "sp5.line.sale.plain",
+      "Source": "“我还是卖了吧。你有兴趣吗？”",
+      "Text": "“我还是卖了吧。你有兴趣吗？”"
+    },
+    {
+      "Key": "sp5.line.pawn.sentimental",
+      "Source": "“我舍不得卖。能不能押在你这儿借点钱？”",
+      "Text": "“我舍不得卖。能不能押在你这儿借点钱？”"
+    },
+    {
+      "Key": "sp5.line.pawn.cash",
+      "Source": "“我急用钱，但还想赎回来。能押在这儿吗？”",
+      "Text": "“我急用钱，但还想赎回来。能押在这儿吗？”"
+    },
+    {
+      "Key": "sp5.line.leave.collector",
+      "Source": "“有用。这件我留着收藏。”",
+      "Text": "“有用。这件我留着收藏。”"
+    },
+    {
+      "Key": "sp5.line.leave.plain",
+      "Source": "“谢谢。我先留着。”",
+      "Text": "“谢谢。我先留着。”"
+    },
+    {
+      "Key": "sp5.line.finding.dishonest_material",
+      "Source": "“镀的？没人跟我说过……”顾客移开了目光。",
+      "Text": "“镀的？没人跟我说过……”顾客移开了目光。"
+    },
+    {
+      "Key": "sp5.line.finding.dishonest",
+      "Source": "“我拿到的时候就这样。大概吧。”",
+      "Text": "“我拿到的时候就这样。大概吧。”"
+    },
+    {
+      "Key": "sp5.line.finding.dealer",
+      "Source": "“知道了，算进价里。”",
+      "Text": "“知道了，算进价里。”"
+    },
+    {
+      "Key": "sp5.line.finding.collector",
+      "Source": "“我也怀疑过那里。请继续。”",
+      "Text": "“我也怀疑过那里。请继续。”"
+    },
+    {
+      "Key": "sp5.line.finding.urgent",
+      "Source": "“严重吗？我只想知道它值多少。”",
+      "Text": "“严重吗？我只想知道它值多少。”"
+    },
+    {
+      "Key": "sp5.line.finding.truthful_material",
+      "Source": "“不是足金？我可是按足金买的……”",
+      "Text": "“不是足金？我可是按足金买的……”"
+    },
+    {
+      "Key": "sp5.line.finding.truthful",
+      "Source": "“哦，我从没注意到。”",
+      "Text": "“哦，我从没注意到。”"
+    },
+    {
+      "Key": "sp5.job.unknown",
+      "Source": "这道工序现在做不了。",
+      "Text": "这道工序现在做不了。"
+    },
+    {
+      "Key": "sp5.job.inputs",
+      "Source": "请放入一件到上限数量之间的原料。",
+      "Text": "请放入一件到上限数量之间的原料。"
+    },
+    {
+      "Key": "sp5.job.not_free",
+      "Source": "有物品正在质押、加工中，或不属于你。",
+      "Text": "有物品正在质押、加工中，或不属于你。"
+    },
+    {
+      "Key": "sp5.job.wrong_input",
+      "Source": "这道工序不能处理这件东西。",
+      "Text": "这道工序不能处理这件东西。"
+    },
+    {
+      "Key": "sp5.job.equipment",
+      "Source": "缺少所需的机器或器具。",
+      "Text": "缺少所需的机器或器具。"
+    },
+    {
+      "Key": "sp5.job.no_cash",
+      "Source": "现金不够支付加工费。",
+      "Text": "现金不够支付加工费。"
+    },
+    {
+      "Key": "sp5.job.no_energy",
+      "Source": "储能不足。请装入一块充满的能源电池。",
+      "Text": "储能不足。请装入一块充满的能源电池。"
+    },
+    {
+      "Key": "sp5.job.no_cell",
+      "Source": "请使用你自己的满电能源电池。",
+      "Text": "请使用你自己的满电能源电池。"
+    },
+    {
+      "Key": "sp5.job.no_charge",
+      "Source": "炉料里的金属不够配这种合金。",
+      "Text": "炉料里的金属不够配这种合金。"
+    },
+    {
+      "Key": "sp5.job.not_ready",
+      "Source": "这项加工还没完成。",
+      "Text": "这项加工还没完成。"
+    },
+    {
+      "Key": "sp5.job.full",
+      "Source": "放不下产出。它会留在这里等你来取。",
+      "Text": "放不下产出。它会留在这里等你来取。"
+    },
+    {
+      "Key": "sp5.jewel.not_setting",
+      "Source": "那不是戒托或镶座。",
+      "Text": "那不是戒托或镶座。"
+    },
+    {
+      "Key": "sp5.jewel.occupied",
+      "Source": "这个镶座里已经有宝石了。",
+      "Text": "这个镶座里已经有宝石了。"
+    },
+    {
+      "Key": "sp5.jewel.count",
+      "Source": "每个镶口都需要正好一颗宝石。",
+      "Text": "每个镶口都需要正好一颗宝石。"
+    },
+    {
+      "Key": "sp5.jewel.incompatible",
+      "Source": "这颗宝石不适配这个镶座。",
+      "Text": "这颗宝石不适配这个镶座。"
+    },
+    {
+      "Key": "sp5.jewel.mixed",
+      "Source": "同一件首饰上的宝石必须是同一种。",
+      "Text": "同一件首饰上的宝石必须是同一种。"
+    },
+    {
+      "Key": "sp5.jewel.no_bench",
+      "Source": "这项工作需要珠宝工作台和工具包。",
+      "Text": "这项工作需要珠宝工作台和工具包。"
+    },
+    {
+      "Key": "sp5.jewel.unsupported",
+      "Source": "这件首饰现在做不了这项服务。",
+      "Text": "这件首饰现在做不了这项服务。"
+    },
+    {
+      "Key": "sp5.jewel.empty",
+      "Source": "这个镶座里没有宝石。",
+      "Text": "这个镶座里没有宝石。"
+    },
+    {
+      "Key": "sp5.jewel.nothing",
+      "Source": "这件东西没有工作台能修的地方。",
+      "Text": "这件东西没有工作台能修的地方。"
+    },
+    {
+      "Key": "sp5.lab.not_gem",
+      "Source": "实验室只鉴定散石或已镶嵌的宝石。",
+      "Text": "实验室只鉴定散石或已镶嵌的宝石。"
+    },
+    {
+      "Key": "sp5.lab.done",
+      "Source": "这颗宝石已有一份有效报告。",
+      "Text": "这颗宝石已有一份有效报告。"
+    },
+    {
+      "Key": "sp5.order.terms",
+      "Source": "订单需要写明价格和今天之后的交期。",
+      "Text": "订单需要写明价格和今天之后的交期。"
+    },
+    {
+      "Key": "sp5.order.inputs",
+      "Source": "这份订单要用的每件东西都必须在手且未被占用。",
+      "Text": "这份订单要用的每件东西都必须在手且未被占用。"
+    },
+    {
+      "Key": "sp5.order.state",
+      "Source": "这份订单现在不能这样操作。",
+      "Text": "这份订单现在不能这样操作。"
+    },
+    {
+      "Key": "sp5.order.not_ready",
+      "Source": "这件首饰还没做好，不能交付。",
+      "Text": "这件首饰还没做好，不能交付。"
+    },
+    {
+      "Key": "sp5.order.busy",
+      "Source": "请先从工作台取回成品再取消。",
+      "Text": "请先从工作台取回成品再取消。"
     }
   ]
 }

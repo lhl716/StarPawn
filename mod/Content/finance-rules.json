@@ -10,7 +10,7 @@
   "DailyLoanBorrowLimit": 3000,
   "MaximumTotalLoanPrincipal": 10000,
   "PawnRenewalFeeBps": 100,
-  "PawnLoanToValueBps": 6000,
+  "PawnLoanToValueBps": 5000,
   "MaximumCreditLimit": 5000,
   "MaximumLoanPrincipal": 10000,
   "MaximumPawnPrincipal": 100000,
@@ -61,5 +61,7 @@
       "BasePrice": 30,
       "DailyVariationBps": 1800
     }
-  ]
+  ],
+  "PawnMinLoanToValueBps": 3000,
+  "PawnMaxLoanToValueBps": 6500
 }

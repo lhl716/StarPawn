@@ -14,7 +14,7 @@ namespace StarPawn.Core
     public static class Appraisal
     {
         public static readonly string[] InstrumentKinds = { "scale", "assay", "loupe", "jade_light", "uv", "gem_probe" };
-        public static readonly string[] ManualCategories = { "metals", "jade", "antiques", "art", "electronics", "media", "books" };
+        public static readonly string[] ManualCategories = { "metals", "jade", "antiques", "art", "electronics", "media", "books", "jewelry", "recovery" };
         public const int MaxHandbookPages = 5;
         public const int HandbookExamplesPerPage = 2;
         public const int HandbookIndexRows = 5;
@@ -98,7 +98,7 @@ namespace StarPawn.Core
                 case "loupe": return "十倍珠宝镜";
                 case "jade_light": return "强光透玉灯";
                 case "uv": return "紫外检测灯";
-                case "gem_probe": return TextResolver.Get("sp5.tool.gem_probe", "Gem screening probe");
+                case "gem_probe": return TextResolver.Get("sp5.tool.gem_probe", "Gem Screening Probe");
                 default: throw new ArgumentException("Unknown instrument.");
             }
         }

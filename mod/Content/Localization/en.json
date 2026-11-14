@@ -16,6 +16,2671 @@
       "Key": "ui.3bab00da",
       "Source": "收起",
       "Text": "Close"
+    },
+    {
+      "Key": "content.sp3_manual_metals.description",
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "Appraisal handbook. Use Read to open it."
+    },
+    {
+      "Key": "content.sp3_manual_jade.description",
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "Appraisal handbook. Use Read to open it."
+    },
+    {
+      "Key": "content.sp3_manual_antiques.description",
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "Appraisal handbook. Use Read to open it."
+    },
+    {
+      "Key": "content.sp3_manual_art.description",
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "Appraisal handbook. Use Read to open it."
+    },
+    {
+      "Key": "content.sp3_manual_electronics.description",
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "Appraisal handbook. Use Read to open it."
+    },
+    {
+      "Key": "content.sp3_manual_media.description",
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "Appraisal handbook. Use Read to open it."
+    },
+    {
+      "Key": "content.sp3_manual_books.description",
+      "Source": "鉴定手册。在物品上选择“阅读”即可翻开。",
+      "Text": "Appraisal handbook. Use Read to open it."
+    },
+    {
+      "Key": "content.sp3_manual_organizer.description",
+      "Source": "可收纳八本 2x3 手册（内部 8x6 格）。搬动或出售前请先取空。",
+      "Text": "Holds eight 2x3 handbooks (8x6 cells inside). Empty it before moving or selling."
+    },
+    {
+      "Key": "content.sp31_manual_gold_ring.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_gold_bracelet.description",
+      "Source": "鉴定分册，共 5 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 5 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_gold_necklace.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_gold_earrings.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_gold_bar.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 4 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_silver_ring.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_silver_bracelet.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_silver_necklace.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_silver_earrings.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_silver_bar.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 4 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_rough_sand.description",
+      "Source": "鉴定分册，共 5 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 5 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_rough_water.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 4 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_rough_mountain.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 4 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_jade_pendant.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 4 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp31_manual_jade_bangle.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "template.sp5_gem_diamond_girdle_chip.label",
+      "Source": "钻石缺口",
+      "Text": "Girdle chip"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_girdle_chip.guide",
+      "Source": "用放大镜看。：对照完好处，看钻石缺口的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "Front-right girdle: a small triangular notch interrupts the facet junction. Use the loupe. This is structural damage to the stone and lowers its value once."
+    },
+    {
+      "Key": "template.sp5_gem_diamond_edge_feather.label",
+      "Source": "钻石羽状纹",
+      "Text": "Surface-reaching feather"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_edge_feather.guide",
+      "Source": "用放大镜看。：对照完好处，看钻石羽状纹的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "Right crown beside girdle: a fixed short feather reaches the polished edge. Use the loupe. This is structural damage to the stone and lowers its value once."
+    },
+    {
+      "Key": "template.sp5_gem_diamond_table_abrasion.label",
+      "Source": "钻石磨损",
+      "Text": "Table abrasion"
+    },
+    {
+      "Key": "template.sp5_gem_diamond_table_abrasion.guide",
+      "Source": "用放大镜看。：对照完好处，看钻石磨损的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "Front-left table edge: a bounded cluster of short dull facet-edge scuffs. Use the loupe. This lowers the stone's condition value once. Polishing a setting cannot remove it."
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p0.name",
+      "Source": "圆形钻石",
+      "Text": "Round Diamond"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p1.name",
+      "Source": "圆形钻石",
+      "Text": "Round Diamond"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p2.name",
+      "Source": "圆形钻石",
+      "Text": "Round Diamond"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p3.name",
+      "Source": "圆形钻石",
+      "Text": "Round Diamond"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p4.name",
+      "Source": "圆形钻石",
+      "Text": "Round Diamond"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_lab_p0.name",
+      "Source": "圆形钻石",
+      "Text": "Round Diamond"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_round_lab_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p0.name",
+      "Source": "公主方钻石",
+      "Text": "Princess Diamond"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p1.name",
+      "Source": "公主方钻石",
+      "Text": "Princess Diamond"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p2.name",
+      "Source": "公主方钻石",
+      "Text": "Princess Diamond"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p3.name",
+      "Source": "公主方钻石",
+      "Text": "Princess Diamond"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p4.name",
+      "Source": "公主方钻石",
+      "Text": "Princess Diamond"
+    },
+    {
+      "Key": "content.sp5_gem_diamond_princess_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "template.sp5_gem_ruby_crown_chip.label",
+      "Source": "红宝石缺口",
+      "Text": "Ruby crown chip"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_crown_chip.guide",
+      "Source": "用放大镜看。：对照完好处，看红宝石缺口的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "Lower-left crown junction: a short missing corner breaks the red crown outline. Use the loupe. This is structural damage to the stone and lowers its value once."
+    },
+    {
+      "Key": "template.sp5_gem_ruby_surface_fissure.label",
+      "Source": "红宝石裂隙",
+      "Text": "Ruby surface fissure"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_surface_fissure.guide",
+      "Source": "用放大镜看。：对照完好处，看红宝石裂隙的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "Front-right crown: one fixed branching fissure reaches the surface. Use the loupe. This is structural damage to the stone and lowers its value once."
+    },
+    {
+      "Key": "template.sp5_gem_ruby_dark_inclusion.label",
+      "Source": "红宝石内含物",
+      "Text": "Obscuring ruby inclusion"
+    },
+    {
+      "Key": "template.sp5_gem_ruby_dark_inclusion.guide",
+      "Source": "用放大镜看。：对照完好处，看红宝石内含物的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "Left of central facet: a bounded dark inclusion crosses the face-up view. Use the loupe. This lowers the stone's condition value once. Polishing a setting cannot remove it."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p0.name",
+      "Source": "椭圆红宝石",
+      "Text": "Oval Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p1.name",
+      "Source": "椭圆红宝石",
+      "Text": "Oval Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p2.name",
+      "Source": "椭圆红宝石",
+      "Text": "Oval Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p3.name",
+      "Source": "椭圆红宝石",
+      "Text": "Oval Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p4.name",
+      "Source": "椭圆红宝石",
+      "Text": "Oval Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_lab_p0.name",
+      "Source": "椭圆红宝石",
+      "Text": "Oval Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_oval_lab_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p0.name",
+      "Source": "垫形红宝石",
+      "Text": "Cushion Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p1.name",
+      "Source": "垫形红宝石",
+      "Text": "Cushion Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p2.name",
+      "Source": "垫形红宝石",
+      "Text": "Cushion Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p3.name",
+      "Source": "垫形红宝石",
+      "Text": "Cushion Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p4.name",
+      "Source": "垫形红宝石",
+      "Text": "Cushion Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_imit_p0.name",
+      "Source": "垫形红宝石",
+      "Text": "Cushion Ruby"
+    },
+    {
+      "Key": "content.sp5_gem_ruby_cushion_imit_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_pavilion_chip.label",
+      "Source": "蓝宝石缺口",
+      "Text": "Sapphire edge chip"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_pavilion_chip.guide",
+      "Source": "用放大镜看。：对照完好处，看蓝宝石缺口的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "Front lower facet junction: a narrow missing facet corner on the visible edge. Use the loupe. This is structural damage to the stone and lowers its value once."
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_facet_abrasion.label",
+      "Source": "蓝宝石磨损",
+      "Text": "Sapphire facet abrasion"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_facet_abrasion.guide",
+      "Source": "用放大镜看。：对照完好处，看蓝宝石磨损的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "Upper-left crown edge: three short fixed scuffs dull an exposed facet junction. Use the loupe. This lowers the stone's condition value once. Polishing a setting cannot remove it."
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_uneven_zone.label",
+      "Source": "蓝宝石染色",
+      "Text": "Strong face-up color zoning"
+    },
+    {
+      "Key": "template.sp5_gem_sapphire_uneven_zone.guide",
+      "Source": "用放大镜看。：对照完好处，看蓝宝石染色的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "Central-to-right crown: an authored pale band interrupts the blue field; not every zone is damage. Use the loupe. This lowers the stone's condition value once. Polishing a setting cannot remove it."
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p0.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "Oval Sapphire"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p1.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "Oval Sapphire"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p2.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "Oval Sapphire"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p3.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "Oval Sapphire"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p4.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "Oval Sapphire"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_lab_p0.name",
+      "Source": "椭圆蓝宝石",
+      "Text": "Oval Sapphire"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_oval_lab_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p0.name",
+      "Source": "梨形蓝宝石",
+      "Text": "Pear Sapphire"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p1.name",
+      "Source": "梨形蓝宝石",
+      "Text": "Pear Sapphire"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p2.name",
+      "Source": "梨形蓝宝石",
+      "Text": "Pear Sapphire"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p3.name",
+      "Source": "梨形蓝宝石",
+      "Text": "Pear Sapphire"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p4.name",
+      "Source": "梨形蓝宝石",
+      "Text": "Pear Sapphire"
+    },
+    {
+      "Key": "content.sp5_gem_sapphire_pear_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "template.sp5_gem_emerald_corner_chip.label",
+      "Source": "祖母绿缺口",
+      "Text": "Emerald corner chip"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_corner_chip.guide",
+      "Source": "用放大镜看。：对照完好处，看祖母绿缺口的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "Front-right cut corner: a missing step corner interrupts the green rim. Use the loupe. This is structural damage to the stone and lowers its value once."
+    },
+    {
+      "Key": "template.sp5_gem_emerald_open_fracture.label",
+      "Source": "祖母绿断裂",
+      "Text": "Emerald open fracture"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_open_fracture.guide",
+      "Source": "用放大镜看。：对照完好处，看祖母绿断裂的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "Left crown step: a fixed fissure reaches the outer step. Use the loupe. This is structural damage to the stone and lowers its value once."
+    },
+    {
+      "Key": "template.sp5_gem_emerald_face_window.label",
+      "Source": "祖母绿漏光窗",
+      "Text": "Excessive face-up window"
+    },
+    {
+      "Key": "template.sp5_gem_emerald_face_window.guide",
+      "Source": "用放大镜看。：对照完好处，看祖母绿漏光窗的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "Center table: a fixed weak central reflection exposes a clear window; use the authored pattern only. Use the loupe. This lowers the stone's condition value once. Polishing a setting cannot remove it."
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p0.name",
+      "Source": "阶梯祖母绿",
+      "Text": "Step-cut Emerald"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p1.name",
+      "Source": "阶梯祖母绿",
+      "Text": "Step-cut Emerald"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p2.name",
+      "Source": "阶梯祖母绿",
+      "Text": "Step-cut Emerald"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p3.name",
+      "Source": "阶梯祖母绿",
+      "Text": "Step-cut Emerald"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p4.name",
+      "Source": "阶梯祖母绿",
+      "Text": "Step-cut Emerald"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_step_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p0.name",
+      "Source": "椭圆祖母绿",
+      "Text": "Oval Emerald"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p1.name",
+      "Source": "椭圆祖母绿",
+      "Text": "Oval Emerald"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p2.name",
+      "Source": "椭圆祖母绿",
+      "Text": "Oval Emerald"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p3.name",
+      "Source": "椭圆祖母绿",
+      "Text": "Oval Emerald"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p4.name",
+      "Source": "椭圆祖母绿",
+      "Text": "Oval Emerald"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_lab_p0.name",
+      "Source": "椭圆祖母绿",
+      "Text": "Oval Emerald"
+    },
+    {
+      "Key": "content.sp5_gem_emerald_oval_lab_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "template.sp5_gem_pearl_nacre_peel.label",
+      "Source": "珍珠外观异常",
+      "Text": "Pearl surface peeling"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_nacre_peel.guide",
+      "Source": "用放大镜看。：对照完好处，看珍珠外观异常的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "Front-left shoulder: a fixed small lifted surface patch follows the rounded shading. Use the loupe. This is structural damage to the stone and lowers its value once."
+    },
+    {
+      "Key": "template.sp5_gem_pearl_drill_chip.label",
+      "Source": "珍珠缺口",
+      "Text": "Pearl drill-edge chip"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_drill_chip.guide",
+      "Source": "用放大镜看。：对照完好处，看珍珠缺口的变化。这是宝石的结构损伤，只扣一次价值。",
+      "Text": "Visible lower drill opening: a chipped crescent adjoins the authored opening; undrilled profile excludes this template. Use the loupe. This is structural damage to the stone and lowers its value once."
+    },
+    {
+      "Key": "template.sp5_gem_pearl_surface_scratch.label",
+      "Source": "珍珠划痕",
+      "Text": "Pearl surface scratch"
+    },
+    {
+      "Key": "template.sp5_gem_pearl_surface_scratch.guide",
+      "Source": "用放大镜看。：对照完好处，看珍珠划痕的变化。只扣一次宝石品相价；抛光镶座无法消除。",
+      "Text": "Front-right curve: one short dull scratch follows the curved surface. Use the loupe. This lowers the stone's condition value once. Polishing a setting cannot remove it."
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p0.name",
+      "Source": "圆形珍珠",
+      "Text": "Round Pearl"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p1.name",
+      "Source": "圆形珍珠",
+      "Text": "Round Pearl"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p2.name",
+      "Source": "圆形珍珠",
+      "Text": "Round Pearl"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p3.name",
+      "Source": "圆形珍珠",
+      "Text": "Round Pearl"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p4.name",
+      "Source": "圆形珍珠",
+      "Text": "Round Pearl"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_imit_p0.name",
+      "Source": "圆形珍珠",
+      "Text": "Round Pearl"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_round_imit_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p0.name",
+      "Source": "异形珍珠",
+      "Text": "Baroque Pearl"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p0.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p1.name",
+      "Source": "异形珍珠",
+      "Text": "Baroque Pearl"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p1.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p2.name",
+      "Source": "异形珍珠",
+      "Text": "Baroque Pearl"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p2.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p3.name",
+      "Source": "异形珍珠",
+      "Text": "Baroque Pearl"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p3.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p4.name",
+      "Source": "异形珍珠",
+      "Text": "Baroque Pearl"
+    },
+    {
+      "Key": "content.sp5_gem_pearl_baroque_nat_p4.description",
+      "Source": "散石。克拉重量与身份以检测和报告为准，不看颜色下结论。",
+      "Text": "Loose stone. Carat weight and identity are read from tests and reports, not from colour."
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_loose_prong.label",
+      "Source": "镶嵌戒指松动",
+      "Text": "Loose ring prong"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_loose_prong.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌戒指松动的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Front-right crown prong: a visible gap separates the prong tip from the stone. Use the loupe. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_shank_dent.label",
+      "Source": "镶嵌戒指凹陷",
+      "Text": "Dented setting shank"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_shank_dent.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌戒指凹陷的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "Front lower shank: the band arc has a fixed flattened segment. Visible to the eye. This reduces workmanship. Metal value is unchanged unless material is missing."
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_tool_scars.label",
+      "Source": "镶嵌戒指外观异常",
+      "Text": "Setting tool scars"
+    },
+    {
+      "Key": "template.sp5_jewelry_ring_tool_scars.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌戒指外观异常的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "Left shoulder below crown: two fixed parallel tool marks interrupt the metal highlight. Use the loupe. This reduces workmanship. Metal value is unchanged unless material is missing."
+    },
+    {
+      "Key": "content.sp5_setting_ring_au18k.name",
+      "Source": "18K金单石戒指空托",
+      "Text": "18K Gold Solitaire Ring Setting"
+    },
+    {
+      "Key": "content.sp5_setting_ring_au18k.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "Empty setting. It takes one compatible stone per socket; an empty socket here is not a defect."
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p1.name",
+      "Source": "18K金单石戒指",
+      "Text": "18K Gold Solitaire Ring"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p2.name",
+      "Source": "18K金单石戒指",
+      "Text": "18K Gold Solitaire Ring"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p3.name",
+      "Source": "18K金单石戒指",
+      "Text": "18K Gold Solitaire Ring"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_au18k_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_setting_ring_ag925.name",
+      "Source": "925银单石戒指空托",
+      "Text": "925 Silver Solitaire Ring Setting"
+    },
+    {
+      "Key": "content.sp5_setting_ring_ag925.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "Empty setting. It takes one compatible stone per socket; an empty socket here is not a defect."
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p1.name",
+      "Source": "925银单石戒指",
+      "Text": "925 Silver Solitaire Ring"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p2.name",
+      "Source": "925银单石戒指",
+      "Text": "925 Silver Solitaire Ring"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p3.name",
+      "Source": "925银单石戒指",
+      "Text": "925 Silver Solitaire Ring"
+    },
+    {
+      "Key": "content.sp5_jewelry_ring_ag925_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_bail_gap.label",
+      "Source": "镶嵌吊坠开口",
+      "Text": "Open pendant bail"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_bail_gap.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌吊坠开口的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Upper bail: a fixed gap opens the joining loop. Visible to the eye. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_lifted_bezel.label",
+      "Source": "镶嵌吊坠固定松动",
+      "Text": "Lifted pendant retaining rim"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_lifted_bezel.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌吊坠固定松动的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Right bezel or pearl peg base: a displaced retaining edge shows a narrow structural gap. Use the loupe. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_rim_scrape.label",
+      "Source": "镶嵌吊坠刮痕",
+      "Text": "Pendant rim scrape"
+    },
+    {
+      "Key": "template.sp5_jewelry_pendant_rim_scrape.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌吊坠刮痕的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "Lower-left metal rim: a short fixed arc scrape crosses the polish. Use the loupe. This reduces workmanship. Metal value is unchanged unless material is missing."
+    },
+    {
+      "Key": "content.sp5_setting_pendant_au18k.name",
+      "Source": "18K金包镶吊坠空托",
+      "Text": "18K Gold Bezel Pendant Setting"
+    },
+    {
+      "Key": "content.sp5_setting_pendant_au18k.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "Empty setting. It takes one compatible stone per socket; an empty socket here is not a defect."
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p1.name",
+      "Source": "18K金包镶吊坠",
+      "Text": "18K Gold Bezel Pendant"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p2.name",
+      "Source": "18K金包镶吊坠",
+      "Text": "18K Gold Bezel Pendant"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p3.name",
+      "Source": "18K金包镶吊坠",
+      "Text": "18K Gold Bezel Pendant"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_au18k_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_setting_pendant_ag925.name",
+      "Source": "925银包镶吊坠空托",
+      "Text": "925 Silver Bezel Pendant Setting"
+    },
+    {
+      "Key": "content.sp5_setting_pendant_ag925.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "Empty setting. It takes one compatible stone per socket; an empty socket here is not a defect."
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p1.name",
+      "Source": "925银包镶吊坠",
+      "Text": "925 Silver Bezel Pendant"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p2.name",
+      "Source": "925银包镶吊坠",
+      "Text": "925 Silver Bezel Pendant"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p3.name",
+      "Source": "925银包镶吊坠",
+      "Text": "925 Silver Bezel Pendant"
+    },
+    {
+      "Key": "content.sp5_jewelry_pendant_ag925_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_bent_post.label",
+      "Source": "镶嵌耳钉弯折",
+      "Text": "Bent left earring post"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_bent_post.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌耳钉弯折的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Left stud rear post: an exposed post bends at a fixed point. Visible to the eye. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_loose_back.label",
+      "Source": "镶嵌耳钉松动",
+      "Text": "Loose right retaining back"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_loose_back.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌耳钉松动的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Right post retaining back: a widened retaining loop is visible in the authored pose. Use the loupe. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_prong_gap.label",
+      "Source": "镶嵌耳钉缺口",
+      "Text": "Left earring retaining gap"
+    },
+    {
+      "Key": "template.sp5_jewelry_earrings_prong_gap.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌耳钉缺口的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Left stud front prong or pearl peg: a fixed retaining lip separates from the insert. Use the loupe. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "content.sp5_setting_earrings_au18k.name",
+      "Source": "18K金耳钉一对空托",
+      "Text": "18K Gold Stud Earrings Setting"
+    },
+    {
+      "Key": "content.sp5_setting_earrings_au18k.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "Empty setting. It takes one compatible stone per socket; an empty socket here is not a defect."
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p1.name",
+      "Source": "18K金耳钉一对",
+      "Text": "18K Gold Stud Earrings"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p2.name",
+      "Source": "18K金耳钉一对",
+      "Text": "18K Gold Stud Earrings"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p3.name",
+      "Source": "18K金耳钉一对",
+      "Text": "18K Gold Stud Earrings"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_au18k_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_setting_earrings_ag925.name",
+      "Source": "925银耳钉一对空托",
+      "Text": "925 Silver Stud Earrings Setting"
+    },
+    {
+      "Key": "content.sp5_setting_earrings_ag925.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "Empty setting. It takes one compatible stone per socket; an empty socket here is not a defect."
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p1.name",
+      "Source": "925银耳钉一对",
+      "Text": "925 Silver Stud Earrings"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p2.name",
+      "Source": "925银耳钉一对",
+      "Text": "925 Silver Stud Earrings"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p3.name",
+      "Source": "925银耳钉一对",
+      "Text": "925 Silver Stud Earrings"
+    },
+    {
+      "Key": "content.sp5_jewelry_earrings_ag925_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_clasp_gap.label",
+      "Source": "镶嵌手链缺口",
+      "Text": "Trilogy clasp gap"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_clasp_gap.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌手链缺口的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Right end clasp: the locking tongue no longer reaches its catch. Visible to the eye. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_flat_link.label",
+      "Source": "镶嵌手链压平",
+      "Text": "Flattened trilogy link"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_flat_link.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌手链压平的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "Left link below stone: a fixed flat interrupts the link curvature. Visible to the eye. This reduces workmanship. Metal value is unchanged unless material is missing."
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_loose_center.label",
+      "Source": "镶嵌手链松动",
+      "Text": "Loose center-stone retainer"
+    },
+    {
+      "Key": "template.sp5_jewelry_bracelet_loose_center.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌手链松动的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Center socket right prong: a bounded gap appears at the central retaining tip. Use the loupe. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "content.sp5_setting_bracelet_au18k.name",
+      "Source": "18K金三石手链空托",
+      "Text": "18K Gold Trilogy Bracelet Setting"
+    },
+    {
+      "Key": "content.sp5_setting_bracelet_au18k.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "Empty setting. It takes one compatible stone per socket; an empty socket here is not a defect."
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p1.name",
+      "Source": "18K金三石手链",
+      "Text": "18K Gold Trilogy Bracelet"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p2.name",
+      "Source": "18K金三石手链",
+      "Text": "18K Gold Trilogy Bracelet"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p3.name",
+      "Source": "18K金三石手链",
+      "Text": "18K Gold Trilogy Bracelet"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_au18k_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_setting_bracelet_ag925.name",
+      "Source": "925银三石手链空托",
+      "Text": "925 Silver Trilogy Bracelet Setting"
+    },
+    {
+      "Key": "content.sp5_setting_bracelet_ag925.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "Empty setting. It takes one compatible stone per socket; an empty socket here is not a defect."
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p1.name",
+      "Source": "925银三石手链",
+      "Text": "925 Silver Trilogy Bracelet"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p2.name",
+      "Source": "925银三石手链",
+      "Text": "925 Silver Trilogy Bracelet"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p3.name",
+      "Source": "925银三石手链",
+      "Text": "925 Silver Trilogy Bracelet"
+    },
+    {
+      "Key": "content.sp5_jewelry_bracelet_ag925_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_twisted_chain.label",
+      "Source": "镶嵌项链扭曲",
+      "Text": "Twisted drop-necklace chain"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_twisted_chain.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌项链扭曲的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "Front-left chain arc: a short flattened twist interrupts the chain rhythm. Visible to the eye. This reduces workmanship. Metal value is unchanged unless material is missing."
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_clasp_gap.label",
+      "Source": "镶嵌项链开口",
+      "Text": "Open drop-necklace clasp"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_clasp_gap.guide",
+      "Source": "肉眼可见。：对照完好处，看镶嵌项链开口的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Upper-right visible clasp: a fixed gap separates the clasp tongue from its loop. Visible to the eye. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_drop_retainer.label",
+      "Source": "镶嵌项链松动",
+      "Text": "Loose drop retaining rim"
+    },
+    {
+      "Key": "template.sp5_jewelry_necklace_drop_retainer.guide",
+      "Source": "用放大镜看。：对照完好处，看镶嵌项链松动的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Drop upper-right rim or pearl peg: a visible lip lifts away from the drop insert. Use the loupe. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "content.sp5_setting_necklace_au18k.name",
+      "Source": "18K金吊坠项链空托",
+      "Text": "18K Gold Drop Necklace Setting"
+    },
+    {
+      "Key": "content.sp5_setting_necklace_au18k.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "Empty setting. It takes one compatible stone per socket; an empty socket here is not a defect."
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p1.name",
+      "Source": "18K金吊坠项链",
+      "Text": "18K Gold Drop Necklace"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p2.name",
+      "Source": "18K金吊坠项链",
+      "Text": "18K Gold Drop Necklace"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p3.name",
+      "Source": "18K金吊坠项链",
+      "Text": "18K Gold Drop Necklace"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_au18k_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_setting_necklace_ag925.name",
+      "Source": "925银吊坠项链空托",
+      "Text": "925 Silver Drop Necklace Setting"
+    },
+    {
+      "Key": "content.sp5_setting_necklace_ag925.description",
+      "Source": "空镶座。每个镶口配一颗适配的宝石；空着不算瑕疵。",
+      "Text": "Empty setting. It takes one compatible stone per socket; an empty socket here is not a defect."
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p1.name",
+      "Source": "925银吊坠项链",
+      "Text": "925 Silver Drop Necklace"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p1.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p2.name",
+      "Source": "925银吊坠项链",
+      "Text": "925 Silver Drop Necklace"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p2.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p3.name",
+      "Source": "925银吊坠项链",
+      "Text": "925 Silver Drop Necklace"
+    },
+    {
+      "Key": "content.sp5_jewelry_necklace_ag925_p3.description",
+      "Source": "镶嵌首饰。镶座金属、工艺和每一颗真实宝石分别计价。",
+      "Text": "Mounted jewelry. Setting metal, workmanship and each real stone are valued separately."
+    },
+    {
+      "Key": "template.sp5_scrap_board_burned_trace.label",
+      "Source": "废电路板烧蚀",
+      "Text": "Burned board trace"
+    },
+    {
+      "Key": "template.sp5_scrap_board_burned_trace.guide",
+      "Source": "用放大镜看。：对照完好处，看废电路板烧蚀的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Center power trace: a localized charred line interrupts copper routing. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "template.sp5_scrap_board_corroded_pad.label",
+      "Source": "废电路板腐蚀",
+      "Text": "Corroded board pads"
+    },
+    {
+      "Key": "template.sp5_scrap_board_corroded_pad.guide",
+      "Source": "用放大镜看。：对照完好处，看废电路板腐蚀的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Right component cluster: a bounded crust and pitting obscure selected pads. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "content.sp5_scrap_board_p0.name",
+      "Source": "废电路板",
+      "Text": "Scrap Circuit Board"
+    },
+    {
+      "Key": "content.sp5_scrap_board_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_scrap_board_p1.name",
+      "Source": "废电路板",
+      "Text": "Scrap Circuit Board"
+    },
+    {
+      "Key": "content.sp5_scrap_board_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_scrap_board_p2.name",
+      "Source": "废电路板",
+      "Text": "Scrap Circuit Board"
+    },
+    {
+      "Key": "content.sp5_scrap_board_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "template.sp5_scrap_processor_package_fracture.label",
+      "Source": "废处理器断裂",
+      "Text": "Fractured processor package"
+    },
+    {
+      "Key": "template.sp5_scrap_processor_package_fracture.guide",
+      "Source": "用放大镜看。：对照完好处，看废处理器断裂的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Front-right corner: a sharp fracture crosses the package body. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "template.sp5_scrap_processor_scorched_package.label",
+      "Source": "废处理器灼烧痕",
+      "Text": "Scorched processor package"
+    },
+    {
+      "Key": "template.sp5_scrap_processor_scorched_package.guide",
+      "Source": "用放大镜看。：对照完好处，看废处理器灼烧痕的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Left top face: a local heat mark covers part of the fixed package relief. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p0.name",
+      "Source": "废处理器",
+      "Text": "Scrap Processor"
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p1.name",
+      "Source": "废处理器",
+      "Text": "Scrap Processor"
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p2.name",
+      "Source": "废处理器",
+      "Text": "Scrap Processor"
+    },
+    {
+      "Key": "content.sp5_scrap_processor_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "template.sp5_scrap_connectors_polymer_contamination.label",
+      "Source": "废接插件杂质附着",
+      "Text": "Connector polymer contamination"
+    },
+    {
+      "Key": "template.sp5_scrap_connectors_polymer_contamination.guide",
+      "Source": "用放大镜看。：对照完好处，看废接插件杂质附着的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Right metal cluster: a fixed excess of nonmetal housing remains attached. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "template.sp5_scrap_connectors_oxidized_contact.label",
+      "Source": "废接插件触点损坏",
+      "Text": "Corroded connector contacts"
+    },
+    {
+      "Key": "template.sp5_scrap_connectors_oxidized_contact.guide",
+      "Source": "用放大镜看。：对照完好处，看废接插件触点损坏的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Lower contact ends: pitted dark crust interrupts the metallic contact finish. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p0.name",
+      "Source": "废接插件",
+      "Text": "Scrap Connectors"
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p1.name",
+      "Source": "废接插件",
+      "Text": "Scrap Connectors"
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p2.name",
+      "Source": "废接插件",
+      "Text": "Scrap Connectors"
+    },
+    {
+      "Key": "content.sp5_scrap_connectors_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "template.sp5_ore_gold_waste_rock_band.label",
+      "Source": "金矿石杂质带",
+      "Text": "Gold-ore waste-rock band"
+    },
+    {
+      "Key": "template.sp5_ore_gold_waste_rock_band.guide",
+      "Source": "用放大镜看。：对照完好处，看金矿石杂质带的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Front diagonal band: a broad authored barren band interrupts the ore texture. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "content.sp5_ore_gold_p0.name",
+      "Source": "金矿石批",
+      "Text": "Gold Ore Lot"
+    },
+    {
+      "Key": "content.sp5_ore_gold_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_ore_gold_p1.name",
+      "Source": "金矿石批",
+      "Text": "Gold Ore Lot"
+    },
+    {
+      "Key": "content.sp5_ore_gold_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "template.sp5_ore_silver_coarse_gangue.label",
+      "Source": "银矿石粗粒",
+      "Text": "Silver-ore coarse gangue"
+    },
+    {
+      "Key": "template.sp5_ore_silver_coarse_gangue.guide",
+      "Source": "用放大镜看。：对照完好处，看银矿石粗粒的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Front-left mineral zone: a coarse barren zone interrupts the finer ore texture. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "content.sp5_ore_silver_p0.name",
+      "Source": "银矿石批",
+      "Text": "Silver Ore Lot"
+    },
+    {
+      "Key": "content.sp5_ore_silver_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_ore_silver_p1.name",
+      "Source": "银矿石批",
+      "Text": "Silver Ore Lot"
+    },
+    {
+      "Key": "content.sp5_ore_silver_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "template.sp5_ore_copper_barren_matrix.label",
+      "Source": "铜矿石码圈不符",
+      "Text": "Copper-ore barren matrix"
+    },
+    {
+      "Key": "template.sp5_ore_copper_barren_matrix.guide",
+      "Source": "用放大镜看。：对照完好处，看铜矿石码圈不符的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Front broad pale matrix: a fixed barren matrix occupies an unusually large fraction of the visible sample. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "content.sp5_ore_copper_p0.name",
+      "Source": "铜矿石批",
+      "Text": "Copper Ore Lot"
+    },
+    {
+      "Key": "content.sp5_ore_copper_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_ore_copper_p1.name",
+      "Source": "铜矿石批",
+      "Text": "Copper Ore Lot"
+    },
+    {
+      "Key": "content.sp5_ore_copper_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "template.sp5_refined_gold_bar_cast_pores.label",
+      "Source": "精炼金条气孔",
+      "Text": "Gold casting pores"
+    },
+    {
+      "Key": "template.sp5_refined_gold_bar_cast_pores.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼金条气孔的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "Upper-left cast face: a bounded cluster of shallow dark pores interrupts the face. Use the loupe. This reduces workmanship. Metal value is unchanged unless material is missing."
+    },
+    {
+      "Key": "template.sp5_refined_gold_bar_slag_inclusion.label",
+      "Source": "精炼金条内含物",
+      "Text": "Gold slag inclusion"
+    },
+    {
+      "Key": "template.sp5_refined_gold_bar_slag_inclusion.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼金条内含物的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Lower-right cast face: a dark nonmetallic inclusion breaks through the cast skin. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p0.name",
+      "Source": "精炼金条",
+      "Text": "Refined Gold Bar"
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p1.name",
+      "Source": "精炼金条",
+      "Text": "Refined Gold Bar"
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p2.name",
+      "Source": "精炼金条",
+      "Text": "Refined Gold Bar"
+    },
+    {
+      "Key": "content.sp5_refined_gold_bar_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "template.sp5_refined_silver_bar_shrink_cavity.label",
+      "Source": "精炼银条缩孔",
+      "Text": "Silver shrink cavity"
+    },
+    {
+      "Key": "template.sp5_refined_silver_bar_shrink_cavity.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼银条缩孔的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "Upper center cast face: a small irregular cavity remains at the casting depression. Use the loupe. This reduces workmanship. Metal value is unchanged unless material is missing."
+    },
+    {
+      "Key": "template.sp5_refined_silver_bar_slag_seam.label",
+      "Source": "精炼银条夹渣",
+      "Text": "Silver slag seam"
+    },
+    {
+      "Key": "template.sp5_refined_silver_bar_slag_seam.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼银条夹渣的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Lower long edge: a dark interrupted seam exposes nonmetallic casting inclusions. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p0.name",
+      "Source": "精炼银条",
+      "Text": "Refined Silver Bar"
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p1.name",
+      "Source": "精炼银条",
+      "Text": "Refined Silver Bar"
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p2.name",
+      "Source": "精炼银条",
+      "Text": "Refined Silver Bar"
+    },
+    {
+      "Key": "content.sp5_refined_silver_bar_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "template.sp5_refined_copper_ingot_cast_lap.label",
+      "Source": "精炼铜锭冷隔",
+      "Text": "Copper casting lap"
+    },
+    {
+      "Key": "template.sp5_refined_copper_ingot_cast_lap.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼铜锭冷隔的变化。影响工艺价；只要没有缺料，金属价值不变。",
+      "Text": "Front-right face: a folded cast surface leaves a fixed seam. Use the loupe. This reduces workmanship. Metal value is unchanged unless material is missing."
+    },
+    {
+      "Key": "template.sp5_refined_copper_ingot_trapped_slag.label",
+      "Source": "精炼铜锭夹渣",
+      "Text": "Copper trapped slag"
+    },
+    {
+      "Key": "template.sp5_refined_copper_ingot_trapped_slag.guide",
+      "Source": "用放大镜看。：对照完好处，看精炼铜锭夹渣的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Upper-left face: a dark rough inclusion breaks through the copper skin. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p0.name",
+      "Source": "精炼铜锭",
+      "Text": "Refined Copper Ingot"
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p1.name",
+      "Source": "精炼铜锭",
+      "Text": "Refined Copper Ingot"
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p2.name",
+      "Source": "精炼铜锭",
+      "Text": "Refined Copper Ingot"
+    },
+    {
+      "Key": "content.sp5_refined_copper_ingot_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "template.sp5_alloy_gold_bar_segregated_face.label",
+      "Source": "18K金合金条杂质带",
+      "Text": "Gold-alloy segregation band"
+    },
+    {
+      "Key": "template.sp5_alloy_gold_bar_segregated_face.guide",
+      "Source": "用放大镜看。：对照完好处，看18K金合金条杂质带的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Front lower face: a fixed uneven cast band indicates a process-quality problem without exposing exact composition. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "template.sp5_alloy_gold_bar_cast_crack.label",
+      "Source": "18K金合金条裂纹",
+      "Text": "Gold-alloy casting crack"
+    },
+    {
+      "Key": "template.sp5_alloy_gold_bar_cast_crack.guide",
+      "Source": "用放大镜看。：对照完好处，看18K金合金条裂纹的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Upper-right corner: a short casting crack has a sharp dark center and bright lip. Use the loupe. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p0.name",
+      "Source": "18K金合金条",
+      "Text": "18K Gold Alloy Bar"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p1.name",
+      "Source": "18K金合金条",
+      "Text": "18K Gold Alloy Bar"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p2.name",
+      "Source": "18K金合金条",
+      "Text": "18K Gold Alloy Bar"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "template.sp5_alloy_silver_bar_inhomogeneous_cast.label",
+      "Source": "925银合金条外观异常",
+      "Text": "Silver-alloy uneven cast"
+    },
+    {
+      "Key": "template.sp5_alloy_silver_bar_inhomogeneous_cast.guide",
+      "Source": "用放大镜看。：对照完好处，看925银合金条外观异常的变化。影响加工可得量；不会重复扣除金属。",
+      "Text": "Front upper face: a bounded coarse cast band changes texture without declaring exact chemistry. Use the loupe. This lowers what the piece can yield in processing. It does not remove metal a second time."
+    },
+    {
+      "Key": "template.sp5_alloy_silver_bar_edge_fissure.label",
+      "Source": "925银合金条裂隙",
+      "Text": "Silver-alloy edge fissure"
+    },
+    {
+      "Key": "template.sp5_alloy_silver_bar_edge_fissure.guide",
+      "Source": "用放大镜看。：对照完好处，看925银合金条裂隙的变化。影响结构、扣减工艺价；通常可以修复。",
+      "Text": "Front-right long edge: a fine fissure follows the cast edge. Use the loupe. This weakens the structure and reduces workmanship; it can usually be repaired."
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p0.name",
+      "Source": "925银合金条",
+      "Text": "925 Silver Alloy Bar"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p0.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p1.name",
+      "Source": "925银合金条",
+      "Text": "925 Silver Alloy Bar"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p1.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p2.name",
+      "Source": "925银合金条",
+      "Text": "925 Silver Alloy Bar"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_p2.description",
+      "Source": "实物物料。其中含量有限且已记录；回收只是把已有的成分分离出来。",
+      "Text": "Physical material. What it holds is finite and saved; recovery only separates what is already there."
+    },
+    {
+      "Key": "content.sp5_lot_gold_scrap.name",
+      "Source": "分拣含金废料",
+      "Text": "Sorted Gold-bearing Scrap"
+    },
+    {
+      "Key": "content.sp5_lot_gold_scrap.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_lot_silver_scrap.name",
+      "Source": "分拣含银废料",
+      "Text": "Sorted Silver-bearing Scrap"
+    },
+    {
+      "Key": "content.sp5_lot_silver_scrap.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_lot_copper_scrap.name",
+      "Source": "分拣含铜废料",
+      "Text": "Sorted Copper Scrap"
+    },
+    {
+      "Key": "content.sp5_lot_copper_scrap.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_lot_recovered_gold.name",
+      "Source": "回收金料",
+      "Text": "Recovered Gold Lot"
+    },
+    {
+      "Key": "content.sp5_lot_recovered_gold.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_lot_recovered_silver.name",
+      "Source": "回收银料",
+      "Text": "Recovered Silver Lot"
+    },
+    {
+      "Key": "content.sp5_lot_recovered_silver.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_lot_recovered_copper.name",
+      "Source": "回收铜料",
+      "Text": "Recovered Copper Lot"
+    },
+    {
+      "Key": "content.sp5_lot_recovered_copper.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_cast_gold_bar.name",
+      "Source": "自铸金条",
+      "Text": "Cast Gold Bar"
+    },
+    {
+      "Key": "content.sp5_cast_gold_bar.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_cast_silver_bar.name",
+      "Source": "自铸银条",
+      "Text": "Cast Silver Bar"
+    },
+    {
+      "Key": "content.sp5_cast_silver_bar.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_cast_copper_ingot.name",
+      "Source": "自铸铜锭",
+      "Text": "Cast Copper Ingot"
+    },
+    {
+      "Key": "content.sp5_cast_copper_ingot.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_bar.name",
+      "Source": "自配18K合金条",
+      "Text": "Shop-made 18K Alloy Bar"
+    },
+    {
+      "Key": "content.sp5_alloy_gold18k_bar.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_bar.name",
+      "Source": "自配925合金条",
+      "Text": "Shop-made 925 Alloy Bar"
+    },
+    {
+      "Key": "content.sp5_alloy_silver925_bar.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_inert_residue.name",
+      "Source": "惰性残渣",
+      "Text": "Inert Residue"
+    },
+    {
+      "Key": "content.sp5_inert_residue.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_mixed_e_scrap.name",
+      "Source": "混合电子废料",
+      "Text": "Mixed Electronic Scrap"
+    },
+    {
+      "Key": "content.sp5_mixed_e_scrap.description",
+      "Source": "已计量的物料，按记录的含量计价。",
+      "Text": "Measured material. Its recorded content sets its value."
+    },
+    {
+      "Key": "content.sp5_process_cartridge.name",
+      "Source": "工艺耗材筒",
+      "Text": "Process Cartridge"
+    },
+    {
+      "Key": "content.sp5_process_cartridge.description",
+      "Source": "工坊用品。",
+      "Text": "Workshop item."
+    },
+    {
+      "Key": "content.sp5_energy_cell.name",
+      "Source": "能源电池",
+      "Text": "Energy Cell"
+    },
+    {
+      "Key": "content.sp5_energy_cell.description",
+      "Source": "工坊用品。",
+      "Text": "Workshop item."
+    },
+    {
+      "Key": "content.sp5_crucible.name",
+      "Source": "坩埚",
+      "Text": "Crucible"
+    },
+    {
+      "Key": "content.sp5_crucible.description",
+      "Source": "工坊用品。",
+      "Text": "Workshop item."
+    },
+    {
+      "Key": "content.sp5_ingot_mold.name",
+      "Source": "锭模",
+      "Text": "Ingot Mold"
+    },
+    {
+      "Key": "content.sp5_ingot_mold.description",
+      "Source": "工坊用品。",
+      "Text": "Workshop item."
+    },
+    {
+      "Key": "content.sp5_recovery_station.name",
+      "Source": "回收工作站",
+      "Text": "Recovery Station"
+    },
+    {
+      "Key": "content.sp5_recovery_station.description",
+      "Source": "工坊用品。",
+      "Text": "Workshop item."
+    },
+    {
+      "Key": "content.sp5_refining_furnace.name",
+      "Source": "精炼炉",
+      "Text": "Refining Furnace"
+    },
+    {
+      "Key": "content.sp5_refining_furnace.description",
+      "Source": "工坊用品。",
+      "Text": "Workshop item."
+    },
+    {
+      "Key": "content.sp5_jeweler_bench.name",
+      "Source": "珠宝工作台",
+      "Text": "Jeweler's Bench"
+    },
+    {
+      "Key": "content.sp5_jeweler_bench.description",
+      "Source": "工坊用品。",
+      "Text": "Workshop item."
+    },
+    {
+      "Key": "content.sp5_jeweler_toolkit.name",
+      "Source": "珠宝工具包",
+      "Text": "Jeweler's Toolkit"
+    },
+    {
+      "Key": "content.sp5_jeweler_toolkit.description",
+      "Source": "工坊用品。",
+      "Text": "Workshop item."
+    },
+    {
+      "Key": "content.sp5_tool_gem_probe.name",
+      "Source": "宝石筛查笔",
+      "Text": "Gem Screening Probe"
+    },
+    {
+      "Key": "content.sp5_tool_gem_probe.description",
+      "Source": "工坊用品。",
+      "Text": "Workshop item."
+    },
+    {
+      "Key": "content.sp5_materials_bin.name",
+      "Source": "物料箱",
+      "Text": "Materials Bin"
+    },
+    {
+      "Key": "content.sp5_materials_bin.description",
+      "Source": "收纳物料（内部 4x4 格）。不能再放容器。",
+      "Text": "Holds material lots (4x4 cells inside). No nested containers."
+    },
+    {
+      "Key": "content.sp5_gem_case.name",
+      "Source": "宝石收纳盒",
+      "Text": "Gem Case"
+    },
+    {
+      "Key": "content.sp5_gem_case.description",
+      "Source": "收纳散石（内部 4x4 格）。",
+      "Text": "Holds loose stones (4x4 cells inside)."
+    },
+    {
+      "Key": "content.sp5_presentation_case.name",
+      "Source": "首饰礼盒",
+      "Text": "Presentation Case"
+    },
+    {
+      "Key": "content.sp5_presentation_case.description",
+      "Source": "收纳成品首饰（内部 4x3 格）；放得下 1x3 的项链。",
+      "Text": "Holds finished jewelry (4x3 cells inside); a 1x3 necklace fits."
+    },
+    {
+      "Key": "content.sp5_jewelry_display.name",
+      "Source": "首饰展示盘",
+      "Text": "Jewelry Display Tray"
+    },
+    {
+      "Key": "content.sp5_jewelry_display.description",
+      "Source": "陈列待售货品（内部 6x4 格）。顾客的东西不能放这里。",
+      "Text": "Displays stock for sale (6x4 cells inside). Customer property does not belong here."
+    },
+    {
+      "Key": "content.sp5_card_holder.name",
+      "Source": "卡包",
+      "Text": "Card Holder"
+    },
+    {
+      "Key": "content.sp5_card_holder.description",
+      "Source": "可放两张 2x1 的卡（内部 4x1 格）。",
+      "Text": "Holds two 2x1 cards (4x1 cells inside)."
+    },
+    {
+      "Key": "content.sp5_manual_organizer_large.name",
+      "Source": "十二册手册书匣",
+      "Text": "Twelve-book Organizer"
+    },
+    {
+      "Key": "content.sp5_manual_organizer_large.description",
+      "Source": "可收纳十二本 2x3 手册（内部 8x9 格）。搬动或出售前请先取空。",
+      "Text": "Holds twelve 2x3 handbooks (8x9 cells inside). Empty it before moving or selling."
+    },
+    {
+      "Key": "content.sp5_manual_jewelry.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "Value the setting metal, its workmanship and each real stone separately. A probe can only say \"refer for testing\"; a laboratory report establishes identity. An empty service setting is not a missing-stone defect.\n\nCompare the matched pictures, then look at the same place on the piece in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_jewelry.name",
+      "Source": "《珠宝宝石手册总目》",
+      "Text": "Jewelry and Gem Handbook Index"
+    },
+    {
+      "Key": "content.sp5_manual_jewelry.description",
+      "Source": "本业务各分册的目录。在物品上选择“阅读”即可翻开。",
+      "Text": "Index of the short volumes for this business. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_recovery.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "Recovery only separates metal that is already in the lot. Appearance does not show content; weigh and assay before you value it. Compare repair and resale against recovery before you commit a job.\n\nCompare the matched pictures, then look at the same place on the lot in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_recovery.name",
+      "Source": "《回收精炼手册总目》",
+      "Text": "Recovery and Refining Handbook Index"
+    },
+    {
+      "Key": "content.sp5_manual_recovery.description",
+      "Source": "本业务各分册的目录。在物品上选择“阅读”即可翻开。",
+      "Text": "Index of the short volumes for this business. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_gems_a.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "Value the setting metal, its workmanship and each real stone separately. A probe can only say \"refer for testing\"; a laboratory report establishes identity. An empty service setting is not a missing-stone defect.\n\nCompare the matched pictures, then look at the same place on the piece in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_gems_a.name",
+      "Source": "《宝石鉴定·钻石与红宝石》",
+      "Text": "Gem Handbook: Diamond and Ruby"
+    },
+    {
+      "Key": "content.sp5_manual_gems_a.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 4 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_gems_b.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "Value the setting metal, its workmanship and each real stone separately. A probe can only say \"refer for testing\"; a laboratory report establishes identity. An empty service setting is not a missing-stone defect.\n\nCompare the matched pictures, then look at the same place on the piece in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_gems_b.name",
+      "Source": "《宝石鉴定·蓝宝石与祖母绿》",
+      "Text": "Gem Handbook: Sapphire and Emerald"
+    },
+    {
+      "Key": "content.sp5_manual_gems_b.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 4 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_gems_c.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "Value the setting metal, its workmanship and each real stone separately. A probe can only say \"refer for testing\"; a laboratory report establishes identity. An empty service setting is not a missing-stone defect.\n\nCompare the matched pictures, then look at the same place on the piece in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_gems_c.name",
+      "Source": "《宝石鉴定·珍珠》",
+      "Text": "Gem Handbook: Pearl"
+    },
+    {
+      "Key": "content.sp5_manual_gems_c.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_mounts_a.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "Value the setting metal, its workmanship and each real stone separately. A probe can only say \"refer for testing\"; a laboratory report establishes identity. An empty service setting is not a missing-stone defect.\n\nCompare the matched pictures, then look at the same place on the piece in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_mounts_a.name",
+      "Source": "《镶嵌首饰·戒指与吊坠》",
+      "Text": "Mounted Jewelry: Rings and Pendants"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_a.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 4 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_mounts_b.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "Value the setting metal, its workmanship and each real stone separately. A probe can only say \"refer for testing\"; a laboratory report establishes identity. An empty service setting is not a missing-stone defect.\n\nCompare the matched pictures, then look at the same place on the piece in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_mounts_b.name",
+      "Source": "《镶嵌首饰·耳钉与手链》",
+      "Text": "Mounted Jewelry: Earrings and Bracelets"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_b.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 4 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_mounts_c.reading",
+      "Source": "镶座金属、工艺和每一颗真实宝石要分开计价。筛查笔只能提示“建议送检”，身份以实验室报告为准。空着的备用镶座不算缺石瑕疵。\n\n先比较成对的图例，再看手上这件的同一位置。",
+      "Text": "Value the setting metal, its workmanship and each real stone separately. A probe can only say \"refer for testing\"; a laboratory report establishes identity. An empty service setting is not a missing-stone defect.\n\nCompare the matched pictures, then look at the same place on the piece in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_mounts_c.name",
+      "Source": "《镶嵌首饰·项链》",
+      "Text": "Mounted Jewelry: Necklaces"
+    },
+    {
+      "Key": "content.sp5_manual_mounts_c.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_scrap_a.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "Recovery only separates metal that is already in the lot. Appearance does not show content; weigh and assay before you value it. Compare repair and resale against recovery before you commit a job.\n\nCompare the matched pictures, then look at the same place on the lot in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_scrap_a.name",
+      "Source": "《物料回收·电路板与处理器》",
+      "Text": "Recovery: Boards and Processors"
+    },
+    {
+      "Key": "content.sp5_manual_scrap_a.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_scrap_b.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "Recovery only separates metal that is already in the lot. Appearance does not show content; weigh and assay before you value it. Compare repair and resale against recovery before you commit a job.\n\nCompare the matched pictures, then look at the same place on the lot in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_scrap_b.name",
+      "Source": "《物料回收·接插件》",
+      "Text": "Recovery: Connectors"
+    },
+    {
+      "Key": "content.sp5_manual_scrap_b.description",
+      "Source": "鉴定分册，共 2 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 2 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_ore.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "Recovery only separates metal that is already in the lot. Appearance does not show content; weigh and assay before you value it. Compare repair and resale against recovery before you commit a job.\n\nCompare the matched pictures, then look at the same place on the lot in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_ore.name",
+      "Source": "《物料回收·矿石》",
+      "Text": "Recovery: Ores"
+    },
+    {
+      "Key": "content.sp5_manual_ore.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_bars_a.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "Recovery only separates metal that is already in the lot. Appearance does not show content; weigh and assay before you value it. Compare repair and resale against recovery before you commit a job.\n\nCompare the matched pictures, then look at the same place on the lot in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_bars_a.name",
+      "Source": "《物料回收·精炼金银》",
+      "Text": "Recovery: Refined Gold and Silver"
+    },
+    {
+      "Key": "content.sp5_manual_bars_a.description",
+      "Source": "鉴定分册，共 3 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 3 pages. Use Read to open it."
+    },
+    {
+      "Key": "content.sp5_manual_bars_b.reading",
+      "Source": "回收只是把物料里已有的金属分离出来。外观看不出含量，估价前先称重、测成色。开工前先比较“维修转卖”和“回收”哪个更划算。\n\n先比较成对的图例，再看手上这批的同一位置。",
+      "Text": "Recovery only separates metal that is already in the lot. Appearance does not show content; weigh and assay before you value it. Compare repair and resale against recovery before you commit a job.\n\nCompare the matched pictures, then look at the same place on the lot in front of you."
+    },
+    {
+      "Key": "content.sp5_manual_bars_b.name",
+      "Source": "《物料回收·铜锭与合金》",
+      "Text": "Recovery: Copper and Alloys"
+    },
+    {
+      "Key": "content.sp5_manual_bars_b.description",
+      "Source": "鉴定分册，共 4 页。在物品上选择“阅读”即可翻开。",
+      "Text": "Short appraisal volume, 4 pages. Use Read to open it."
+    },
+    {
+      "Key": "sp5.inspect.locked",
+      "Source": "顾客已经把东西收回去了，这次不能再指认。",
+      "Text": "The customer has taken the item back. No more claims this visit."
+    },
+    {
+      "Key": "sp5.inspect.repeated",
+      "Source": "这处已经记录过了。",
+      "Text": "Already recorded."
+    },
+    {
+      "Key": "sp5.inspect.study_miss",
+      "Source": "这里没看出异常。",
+      "Text": "Nothing unusual there."
+    },
+    {
+      "Key": "sp5.inspect.walkout",
+      "Source": "“那里根本没毛病。不看了。”顾客把东西收了回去。",
+      "Text": "\"There is nothing wrong there. I am done with this.\" The customer takes the item back."
+    },
+    {
+      "Key": "sp5.inspect.miss",
+      "Source": "“那里没问题吧？你看仔细点。”",
+      "Text": "\"There is nothing wrong there, is there? Look properly.\""
+    },
+    {
+      "Key": "sp5.material.assayed",
+      "Source": "实测成色：{0}",
+      "Text": "Assay: {0}"
+    },
+    {
+      "Key": "sp5.material.marked",
+      "Source": "印记：{0}｜成色：未检测",
+      "Text": "Mark: {0} | Assay: not tested"
+    },
+    {
+      "Key": "sp5.tool.gem_probe",
+      "Source": "宝石筛查笔",
+      "Text": "Gem Screening Probe"
+    },
+    {
+      "Key": "sp5.probe.refer",
+      "Source": "筛查结果：建议送实验室检测。",
+      "Text": "Screening: refer for laboratory testing."
+    },
+    {
+      "Key": "sp5.probe.pass",
+      "Source": "筛查结果：未见明显仿制品。这不能证明天然来源，也不能排除处理。",
+      "Text": "Screening: no obvious substitute detected. This does not confirm natural origin or treatment."
+    },
+    {
+      "Key": "sp5.visit.not_commission",
+      "Source": "这位顾客没有委托付费鉴定。",
+      "Text": "This customer did not ask for a paid appraisal."
+    },
+    {
+      "Key": "sp5.visit.bad_estimate",
+      "Source": "请填写不小于零的估价。",
+      "Text": "Enter an estimate of zero or more."
+    },
+    {
+      "Key": "sp5.visit.already_settled",
+      "Source": "鉴定费已经结清。",
+      "Text": "The appraisal fee was already settled."
+    },
+    {
+      "Key": "sp5.visit.grade0",
+      "Source": "“这不可能。我去问问别家。”",
+      "Text": "\"That cannot be right. I will ask someone else.\""
+    },
+    {
+      "Key": "sp5.visit.grade1",
+      "Source": "“嗯，和别处说的差不太多。”",
+      "Text": "\"Hm. Roughly what I heard elsewhere.\""
+    },
+    {
+      "Key": "sp5.visit.grade2",
+      "Source": "“听着公道。谢谢。”",
+      "Text": "\"That sounds fair. Thank you.\""
+    },
+    {
+      "Key": "sp5.visit.grade3",
+      "Source": "“这正是我想知道的。多谢。”",
+      "Text": "\"Exactly what I needed to know. Thank you.\""
+    },
+    {
+      "Key": "sp5.visit.no_offer",
+      "Source": "现在没有可以接受的报价。",
+      "Text": "There is no offer to accept."
+    },
+    {
+      "Key": "sp5.visit.expired",
+      "Source": "顾客已经带着东西离开了。",
+      "Text": "The customer has already left with the item."
+    },
+    {
+      "Key": "sp5.visit.no_cash",
+      "Source": "现金不够，买不下这件东西。",
+      "Text": "You do not have enough cash for this purchase."
+    },
+    {
+      "Key": "sp5.visit.no_cash_pawn",
+      "Source": "可出借的现金不够放这笔款。",
+      "Text": "You do not have enough lendable cash for this loan."
+    },
+    {
+      "Key": "sp5.visit.item_changed",
+      "Source": "这件东西已经不在了。",
+      "Text": "The item is no longer available."
+    },
+    {
+      "Key": "sp5.pawn.no_value",
+      "Source": "按现状，这件东西没有可放款的价值。",
+      "Text": "There is no lendable value in this item as it stands."
+    },
+    {
+      "Key": "sp5.pawn.needs_assay",
+      "Source": "要先做成色检测，才能按所称含金量放款。",
+      "Text": "A material test is needed before I can lend against the claimed gold content."
+    },
+    {
+      "Key": "sp5.line.sale.dealer",
+      "Source": "“行，痛快点。这个价你收不收？”",
+      "Text": "\"Fine. Make it quick. Will you take it at that?\""
+    },
+    {
+      "Key": "sp5.line.sale.surprised",
+      "Source": "“比我想的还多。你愿意收吗？”",
+      "Text": "\"That is more than I expected. Would you buy it?\""
+    },
+    {
+      "Key": "sp5.line.sale.plain",
+      "Source": "“我还是卖了吧。你有兴趣吗？”",
+      "Text": "\"I would rather sell it. Are you interested?\""
+    },
+    {
+      "Key": "sp5.line.pawn.sentimental",
+      "Source": "“我舍不得卖。能不能押在你这儿借点钱？”",
+      "Text": "\"I cannot part with it. Could you hold it for me against a loan?\""
+    },
+    {
+      "Key": "sp5.line.pawn.cash",
+      "Source": "“我急用钱，但还想赎回来。能押在这儿吗？”",
+      "Text": "\"I need cash, but I want this back. Can I leave it as security?\""
+    },
+    {
+      "Key": "sp5.line.leave.collector",
+      "Source": "“有用。这件我留着收藏。”",
+      "Text": "\"Useful. I will keep it in the collection.\""
+    },
+    {
+      "Key": "sp5.line.leave.plain",
+      "Source": "“谢谢。我先留着。”",
+      "Text": "\"Thanks. I will keep it for now.\""
+    },
+    {
+      "Key": "sp5.line.finding.dishonest_material",
+      "Source": "“镀的？没人跟我说过……”顾客移开了目光。",
+      "Text": "\"Plated? Nobody told me that...\" The customer looks away."
+    },
+    {
+      "Key": "sp5.line.finding.dishonest",
+      "Source": "“我拿到的时候就这样。大概吧。”",
+      "Text": "\"That was there when I got it. Probably.\""
+    },
+    {
+      "Key": "sp5.line.finding.dealer",
+      "Source": "“知道了，算进价里。”",
+      "Text": "\"Noted. Price it in.\""
+    },
+    {
+      "Key": "sp5.line.finding.collector",
+      "Source": "“我也怀疑过那里。请继续。”",
+      "Text": "\"I had wondered about that. Go on.\""
+    },
+    {
+      "Key": "sp5.line.finding.urgent",
+      "Source": "“严重吗？我只想知道它值多少。”",
+      "Text": "\"Is it bad? I just need to know what it is worth.\""
+    },
+    {
+      "Key": "sp5.line.finding.truthful_material",
+      "Source": "“不是足金？我可是按足金买的……”",
+      "Text": "\"It is not solid? I paid for solid gold...\""
+    },
+    {
+      "Key": "sp5.line.finding.truthful",
+      "Source": "“哦，我从没注意到。”",
+      "Text": "\"Oh. I never noticed that.\""
+    },
+    {
+      "Key": "sp5.job.unknown",
+      "Source": "这道工序现在做不了。",
+      "Text": "This process is not available."
+    },
+    {
+      "Key": "sp5.job.inputs",
+      "Source": "请放入一件到上限数量之间的原料。",
+      "Text": "Choose between one and the allowed number of inputs."
+    },
+    {
+      "Key": "sp5.job.not_free",
+      "Source": "有物品正在质押、加工中，或不属于你。",
+      "Text": "An input is pledged, in service, or not yours."
+    },
+    {
+      "Key": "sp5.job.wrong_input",
+      "Source": "这道工序不能处理这件东西。",
+      "Text": "This process cannot take that input."
+    },
+    {
+      "Key": "sp5.job.equipment",
+      "Source": "缺少所需的机器或器具。",
+      "Text": "The required machine or equipment is missing."
+    },
+    {
+      "Key": "sp5.job.no_cash",
+      "Source": "现金不够支付加工费。",
+      "Text": "You do not have enough cash for the service fee."
+    },
+    {
+      "Key": "sp5.job.no_energy",
+      "Source": "储能不足。请装入一块充满的能源电池。",
+      "Text": "Not enough stored energy. Add a charged cell."
+    },
+    {
+      "Key": "sp5.job.no_cell",
+      "Source": "请使用你自己的满电能源电池。",
+      "Text": "Use a charged energy cell you own."
+    },
+    {
+      "Key": "sp5.job.no_charge",
+      "Source": "炉料里的金属不够配这种合金。",
+      "Text": "The charge does not contain enough metal for this alloy."
+    },
+    {
+      "Key": "sp5.job.not_ready",
+      "Source": "这项加工还没完成。",
+      "Text": "This job is still running."
+    },
+    {
+      "Key": "sp5.job.full",
+      "Source": "放不下产出。它会留在这里等你来取。",
+      "Text": "No room for the output. It stays ready to collect."
+    },
+    {
+      "Key": "sp5.jewel.not_setting",
+      "Source": "那不是戒托或镶座。",
+      "Text": "That is not a setting."
+    },
+    {
+      "Key": "sp5.jewel.occupied",
+      "Source": "这个镶座里已经有宝石了。",
+      "Text": "This setting already holds a stone."
+    },
+    {
+      "Key": "sp5.jewel.count",
+      "Source": "每个镶口都需要正好一颗宝石。",
+      "Text": "Each socket needs exactly one stone."
+    },
+    {
+      "Key": "sp5.jewel.incompatible",
+      "Source": "这颗宝石不适配这个镶座。",
+      "Text": "This stone does not fit this setting."
+    },
+    {
+      "Key": "sp5.jewel.mixed",
+      "Source": "同一件首饰上的宝石必须是同一种。",
+      "Text": "Stones in one piece must be the same kind."
+    },
+    {
+      "Key": "sp5.jewel.no_bench",
+      "Source": "这项工作需要珠宝工作台和工具包。",
+      "Text": "This work needs the jeweler's bench and toolkit."
+    },
+    {
+      "Key": "sp5.jewel.unsupported",
+      "Source": "这件首饰现在做不了这项服务。",
+      "Text": "This piece cannot take that service as it is."
+    },
+    {
+      "Key": "sp5.jewel.empty",
+      "Source": "这个镶座里没有宝石。",
+      "Text": "There is no stone in this setting."
+    },
+    {
+      "Key": "sp5.jewel.nothing",
+      "Source": "这件东西没有工作台能修的地方。",
+      "Text": "Nothing here can be repaired at the bench."
+    },
+    {
+      "Key": "sp5.lab.not_gem",
+      "Source": "实验室只鉴定散石或已镶嵌的宝石。",
+      "Text": "The laboratory only identifies loose or mounted stones."
+    },
+    {
+      "Key": "sp5.lab.done",
+      "Source": "这颗宝石已有一份有效报告。",
+      "Text": "This stone already has a current report."
+    },
+    {
+      "Key": "sp5.order.terms",
+      "Source": "订单需要写明价格和今天之后的交期。",
+      "Text": "The order needs a price and a deadline after today."
+    },
+    {
+      "Key": "sp5.order.inputs",
+      "Source": "这份订单要用的每件东西都必须在手且未被占用。",
+      "Text": "Every part for this order must be on hand and free."
+    },
+    {
+      "Key": "sp5.order.state",
+      "Source": "这份订单现在不能这样操作。",
+      "Text": "This order cannot do that now."
+    },
+    {
+      "Key": "sp5.order.not_ready",
+      "Source": "这件首饰还没做好，不能交付。",
+      "Text": "The piece is not ready to hand over."
+    },
+    {
+      "Key": "sp5.order.busy",
+      "Source": "请先从工作台取回成品再取消。",
+      "Text": "Collect the bench work before cancelling."
     }
   ]
 }
