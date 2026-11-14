@@ -89,3 +89,7 @@ Content generation requires Python and Pillow. `Generate-Catalog.py` generates o
 ## Collaboration and assets
 
 This repository contains the project's source, configuration, and project-generated artwork. Game assets, third-party mod binaries, personal saves, logs, and backups remain local. Referenced gameplay ideas are implemented independently; verify the relevant license before copying or adapting third-party code or assets. No open-source license has been selected for this project.
+
+## Revision 05.1 (development)
+
+See [docs/ENGINEERING_REPORT_05.md](docs/ENGINEERING_REPORT_05.md) for the unified appraisal, pawn, jewelry and recovery update, what was verified, and the in-game check route. Linux test runner: `tests/run-linux.sh core content economy appraisal bootstrap commerce cards unified stubs`.

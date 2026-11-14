@@ -278,13 +278,5 @@
 "members": {
 "Instance": "static"
 }
-},
-"|TextResolver": {
-"members": {
-"Get": "static",
-"Configure": "static",
-"Language": "static",
-"LocalizeInline": "static"
-}
 }
 }

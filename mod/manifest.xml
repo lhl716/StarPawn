@@ -3,7 +3,7 @@
   <ID>starpawn</ID>
   <Name>StarPawn 星港当铺</Name>
   <Author>StarPawn Local Development</Author>
-  <ModVersion>0.3.1</ModVersion>
+  <ModVersion>0.5.0-dev</ModVersion>
   <Description>星港经营扩展：实物鉴定与交易、珠宝翡翠、收藏娱乐、典当、银行及本地证券行情。F7或星港业务按钮开启。</Description>
   <GameVersions><Version>0.46</Version></GameVersions>
   <Prerequisites />

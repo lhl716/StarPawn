@@ -7,15 +7,16 @@ namespace StarPawn.Game
     public sealed partial class ModEntry
     {
         private string offerFilter="all",ownedFilter="all";
+        // Revision 05 business labels. Explicit per definition; never inferred from names.
+        private static readonly string[] FilterKeys={"all","Luxury","Collectibles","Materials","Weapons","Electronics","Entertainment"};
         private static bool InStockFilter(ItemDefinition d,string filter)
-            => filter=="all" || (filter=="metal" && (d.Material=="gold"||d.Material=="silver")) || (filter=="jade" && d.Category.StartsWith("翡翠",StringComparison.Ordinal)) || (filter=="other" && d.Material!="gold"&&d.Material!="silver"&&!d.Category.StartsWith("翡翠",StringComparison.Ordinal));
+            => filter=="all" || BusinessLabels.Has(d,filter) || (filter=="all_tools" && d.ShopOnly);
         private void StockFilters(PaperUI ui,bool owned)
         {
-            var keys=new[]{"all","metal","jade","other"};var labels=new[]{"全部","金银首饰","翡翠赌石",owned?"收藏与用品":"其他收藏"};
-            for(var i=0;i<keys.Length;i++)
+            for(var i=0;i<FilterKeys.Length;i++)
             {
-                var key=keys[i];var selected=(owned?ownedFilter:offerFilter)==key;
-                Button(ui,24+i*140,73,130,22,(selected?"● ":"")+labels[i],()=>{if(owned){ownedFilter=key;ownedPage=0;OpenOwned();}else{offerFilter=key;offerPage=0;OpenOffers();}});
+                var key=FilterKeys[i];var selected=(owned?ownedFilter:offerFilter)==key;
+                Button(ui,24+i*79,73,75,22,(selected?"● ":"")+TextResolver.Get("sp5.label."+key,key),()=>{if(owned){ownedFilter=key;ownedPage=0;OpenOwned();}else{offerFilter=key;offerPage=0;OpenOffers();}});
             }
         }
         private void OpenOffers()
@@ -70,6 +71,7 @@ namespace StarPawn.Game
             }
             Button(ui,24,304,110,24,"上一页",()=>{ownedPage--;OpenOwned();});
             Button(ui,146,304,110,24,"下一页",()=>{ownedPage++;OpenOwned();});
+            Button(ui,268,304,130,24,TextResolver.Get("sp5.workshop.open","Workshop"),()=>OpenWorkshop05(""));
             Button(ui,408,304,166,24,"来客市场",OpenOffers);Footer(ui);Show(ui);
         }
     }

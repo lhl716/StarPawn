@@ -618,5 +618,249 @@
  "sp5.commission.recovery": [
   "Material recovery assessment",
   "回收物料评估"
+ ],
+ "sp5.label.all": [
+  "All",
+  "全部"
+ ],
+ "sp5.label.Luxury": [
+  "Luxury",
+  "奢侈品"
+ ],
+ "sp5.label.Collectibles": [
+  "Collectibles",
+  "收藏品"
+ ],
+ "sp5.label.Materials": [
+  "Materials",
+  "物料"
+ ],
+ "sp5.label.Weapons": [
+  "Weapons",
+  "武器"
+ ],
+ "sp5.label.Electronics": [
+  "Electronics",
+  "电子"
+ ],
+ "sp5.label.Entertainment": [
+  "Entertainment",
+  "娱乐"
+ ],
+ "sp5.workshop.open": [
+  "Workshop",
+  "工坊"
+ ],
+ "sp5.workshop.title": [
+  "Workshop",
+  "工坊"
+ ],
+ "sp5.workshop.energy": [
+  "Stored energy: {0} units",
+  "储能：{0} 单位"
+ ],
+ "sp5.workshop.pick": [
+  "Choose items, then a process:",
+  "先选物品，再选工序："
+ ],
+ "sp5.workshop.mount": [
+  "Set the chosen stones",
+  "镶上选中的宝石"
+ ],
+ "sp5.workshop.demount": [
+  "Take the stones out",
+  "把宝石拆下来"
+ ],
+ "sp5.workshop.repair": [
+  "Repair the setting",
+  "修复镶座"
+ ],
+ "sp5.workshop.lab": [
+  "Send to the laboratory",
+  "送实验室检测"
+ ],
+ "sp5.workshop.cell": [
+  "Load the energy cell",
+  "装入能源电池"
+ ],
+ "sp5.workshop.compare": [
+  "Sell as-is now: {0} Cr. Recovery keeps only the metal already inside.",
+  "现在原样卖出：{0} Cr。回收只能得到里面原有的金属。"
+ ],
+ "sp5.job.ready": [
+  "Ready to collect",
+  "可以取件"
+ ],
+ "sp5.job.until": [
+  "Ready on day {0}",
+  "第 {0} 天完成"
+ ],
+ "sp5.job.collect": [
+  "Collect",
+  "取件"
+ ],
+ "sp5.job.collected": [
+  "Output collected.",
+  "已取回产出。"
+ ],
+ "sp5.job.kind.recovery": [
+  "Recovery",
+  "回收"
+ ],
+ "sp5.job.kind.refining": [
+  "Refining",
+  "精炼"
+ ],
+ "sp5.job.kind.dismantle": [
+  "Dismantling",
+  "拆解"
+ ],
+ "sp5.job.kind.sort": [
+  "Sorting",
+  "分拣"
+ ],
+ "sp5.job.kind.casting": [
+  "Casting",
+  "铸锭"
+ ],
+ "sp5.job.kind.alloy": [
+  "Alloying",
+  "配合金"
+ ],
+ "sp5.job.kind.jewelry_mount": [
+  "Setting stones",
+  "镶嵌"
+ ],
+ "sp5.job.kind.jewelry_demount": [
+  "Removing stones",
+  "拆镶"
+ ],
+ "sp5.job.kind.jewelry_repair": [
+  "Setting repair",
+  "镶座维修"
+ ],
+ "sp5.orders.open": [
+  "Custom orders",
+  "定制订单"
+ ],
+ "sp5.orders.title": [
+  "Custom orders",
+  "定制订单"
+ ],
+ "sp5.orders.held": [
+  "Customer deposits held: {0} Cr (not yours to spend)",
+  "代持顾客订金：{0} Cr（不能挪用）"
+ ],
+ "sp5.orders.row": [
+  "{0} · price {1} Cr, deposit {2} Cr, due day {3} · {4}",
+  "{0}·售价 {1} Cr，订金 {2} Cr，第 {3} 天交付·{4}"
+ ],
+ "sp5.orders.start": [
+  "Start work",
+  "开工"
+ ],
+ "sp5.orders.started": [
+  "Work started.",
+  "已开工。"
+ ],
+ "sp5.orders.ready": [
+  "Mark ready",
+  "标记完成"
+ ],
+ "sp5.orders.readied": [
+  "Ready for the customer.",
+  "已备好交付。"
+ ],
+ "sp5.orders.deliver": [
+  "Hand over",
+  "交付"
+ ],
+ "sp5.orders.delivered": [
+  "Delivered and paid.",
+  "已交付并收清尾款。"
+ ],
+ "sp5.orders.cancel": [
+  "Cancel",
+  "取消"
+ ],
+ "sp5.orders.cancelled": [
+  "Order cancelled; deposit refunded as agreed.",
+  "订单已取消，订金按约定退还。"
+ ],
+ "sp5.orders.none": [
+  "No open orders.",
+  "暂无进行中的订单。"
+ ],
+ "sp5.orders.status.accepted": [
+  "accepted",
+  "已接单"
+ ],
+ "sp5.orders.status.in_progress": [
+  "in progress",
+  "制作中"
+ ],
+ "sp5.orders.status.ready": [
+  "ready",
+  "待交付"
+ ],
+ "sp5.recipe.dismantle_device": [
+  "Dismantle the device",
+  "拆解设备"
+ ],
+ "sp5.recipe.sort_scrap": [
+  "Sort the mixed scrap",
+  "分拣混合废料"
+ ],
+ "sp5.recipe.recover_components": [
+  "Recover metal from components",
+  "从元件回收金属"
+ ],
+ "sp5.recipe.recover_sorted": [
+  "Recover metal from sorted scrap",
+  "从分拣废料回收金属"
+ ],
+ "sp5.recipe.refine_gold_ore": [
+  "Refine gold ore",
+  "精炼金矿"
+ ],
+ "sp5.recipe.refine_silver_ore": [
+  "Refine silver ore",
+  "精炼银矿"
+ ],
+ "sp5.recipe.refine_copper_ore": [
+  "Refine copper ore",
+  "精炼铜矿"
+ ],
+ "sp5.recipe.remelt_gold": [
+  "Remelt gold scrap",
+  "重熔金料"
+ ],
+ "sp5.recipe.remelt_silver": [
+  "Remelt silver scrap",
+  "重熔银料"
+ ],
+ "sp5.recipe.alloy_gold18k": [
+  "Make 18K alloy",
+  "配制18K合金"
+ ],
+ "sp5.recipe.alloy_silver925": [
+  "Make 925 alloy",
+  "配制925合金"
+ ],
+ "sp5.recipe.cast_gold": [
+  "Cast a gold bar",
+  "铸金条"
+ ],
+ "sp5.recipe.cast_silver": [
+  "Cast a silver bar",
+  "铸银条"
+ ],
+ "sp5.recipe.cast_copper": [
+  "Cast a copper ingot",
+  "铸铜锭"
+ ],
+ "sp5.recipe.sort_metal_goods": [
+  "Sort metal goods for scrap",
+  "把金银器分拣成废料"
  ]
 }

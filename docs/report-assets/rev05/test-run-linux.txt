@@ -1,0 +1,9 @@
+OK   CoreTests: PASS: 9 invariant tests. Game integration not tested by this executable.
+OK   ContentTests: CONTENT TESTS PASSED: 23
+OK   EconomyTests: PASS: 32 economy invariant tests. Native cash/assets/save integration is not covered here.
+OK   AppraisalTests: APPRAISAL TESTS PASSED: 31; real packaged content + core, not Unity inventory validation
+OK   ContentBootstrapTests: CONTENT BOOTSTRAP TESTS PASSED: 11
+OK   CommerceHarness: COMMERCE_HARNESS_PASSED=27; actual CommerceActions/NativeSourcing/Core source + fake native boundary; NOT an in-game test
+OK   BankCardsHarness: BANK_CARD_POLICY_PASSED=10; actual BankCardsRoot/Core plus delivery fake; NOT Unity/Harmony validation
+OK   UnifiedTests: UNIFIED TESTS PASSED: 42; real packaged content + core business logic, NOT an in-game or Unity test
+OK   stub compile of source/Game (type-check against tests/stubs, NOT the real game assemblies)

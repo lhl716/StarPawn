@@ -176,13 +176,6 @@ public partial class NewGameData {
  public NewGameData(params object[] a){}
  public static dynamic Instance;
 }
-public partial class TextResolver {
- public TextResolver(params object[] a){}
- public static dynamic Get;
- public static dynamic Configure;
- public static dynamic Language;
- public static dynamic LocalizeInline;
-}
 namespace UnityEngine.UI {
 public partial class Image {
 }
